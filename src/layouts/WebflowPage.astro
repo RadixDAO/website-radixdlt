@@ -4,6 +4,7 @@
 // and IX2 `data-w-id` hooks survive untouched.
 import manifest from '../shells/manifest.json';
 import CollectionList from '../components/CollectionList.astro';
+import { bodyExtras } from '../lib/page-extras.mjs';
 
 interface Props { route: string }
 const { route } = Astro.props;
@@ -36,5 +37,6 @@ const bodyAttrs = parseAttrs(page.bodyAttrs ?? '');
         ? <Fragment set:html={shell(part.file)} />
         : <CollectionList route={page.route} index={part.index} shell={shell(part.file)} />
     )}
+    <Fragment set:html={bodyExtras(page.route)} />
   </body>
 </html>
