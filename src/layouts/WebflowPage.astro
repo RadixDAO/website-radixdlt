@@ -1,0 +1,40 @@
+---
+// Renders a converted Webflow page. Every byte of markup comes from src/shells/*.html
+// via set:html -- Astro never parses it, so inline <script>/<style>, attribute order
+// and IX2 `data-w-id` hooks survive untouched.
+import manifest from '../shells/manifest.json';
+import CollectionList from '../components/CollectionList.astro';
+
+interface Props { route: string }
+const { route } = Astro.props;
+
+const page = (manifest as Record<string, any>)[route];
+if (!page) throw new Error(`No shell for route "${route}". Run: pnpm convert`);
+
+const shells = import.meta.glob<string>('../shells/**/*.html', {
+  query: '?raw', import: 'default', eager: true,
+});
+const shell = (file: string): string => {
+  const key = `../shells/${page.route}/${file}`;
+  const v = shells[key];
+  if (v === undefined) throw new Error(`Missing shell ${key}`);
+  return v;
+};
+
+const parseAttrs = (s: string): Record<string, string> =>
+  Object.fromEntries([...s.matchAll(/([\w:.-]+)="([^"]*)"/g)].map(m => [m[1], m[2]]));
+
+const htmlAttrs = parseAttrs(page.htmlAttrs ?? '');
+const bodyAttrs = parseAttrs(page.bodyAttrs ?? '');
+---
+<!doctype html>
+<html {...htmlAttrs}>
+  <head><Fragment set:html={shell('head.html')} /></head>
+  <body {...bodyAttrs}>
+    {page.order.map((part: any) =>
+      part.kind === 'html'
+        ? <Fragment set:html={shell(part.file)} />
+        : <CollectionList route={page.route} index={part.index} shell={shell(part.file)} />
+    )}
+  </body>
+</html>

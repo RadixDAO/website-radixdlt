@@ -1,0 +1,15 @@
+---
+// A Webflow `w-dyn-list` slot.
+//
+// Phase 1/2: emits the exported shell verbatim, so converted output matches the
+// export exactly and the converter can be verified in isolation.
+//
+// Phase 3 replaces this body with: take the single placeholder `w-dyn-item` inside
+// `shell` as an item template, clone it per CMS row, and fill each
+// `w-dyn-bind-empty` slot from src/bindings/<route>.<index>.json. The surrounding
+// markup stays byte-identical either way, which is what keeps Finsweet's
+// fs-cmsfilter/cmsnest/cmsload attributes working.
+interface Props { route: string; index: number; shell: string }
+const { shell } = Astro.props;
+---
+<Fragment set:html={shell} />

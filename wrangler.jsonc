@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "radixdlt-com",
+  "compatibility_date": "2026-08-18",
+  // Static-only Worker: no "main" entry. Asset requests are free and unlimited.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
