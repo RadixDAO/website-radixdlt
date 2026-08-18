@@ -1,0 +1,125 @@
+// Fill a detail template's shell from a CMS item using its derived binding map.
+// Splices by byte offset -- the surrounding Webflow markup is never re-serialized.
+import { readFileSync, existsSync } from 'node:fs';
+import { enumerate } from '../../tools/lib/dom-slots.mjs';
+import { itemById, assetPath } from './detail-data.mjs';
+
+const esc = (s) => String(s ?? '')
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+const fmtDate = (v, style) => {
+  const d = new Date(v);
+  if (Number.isNaN(+d)) return '';
+  if (style === 'date:D MMMM YYYY')
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+};
+
+/** Resolve one binding to its string value, or '' when the field is empty. */
+export function resolve(item, { field, transform }) {
+  const v = item.fieldData?.[field];
+  if (v == null || v === '') return '';
+  switch (true) {
+    case transform === 'text': return typeof v === 'object' ? '' : String(v);
+    case transform.startsWith('date:'): return fmtDate(v, transform);
+    case transform === 'asset': return assetPath(typeof v === 'object' ? v.url : v);
+    case transform === 'ref.name': { const r = itemById(v); return r ? (r.fieldData.name ?? r.fieldData.title ?? '') : ''; }
+    case transform === 'ref.slug': { const r = itemById(v); return r ? (r.fieldData.slug ?? '') : ''; }
+    case transform === 'ref.image': { const r = itemById(v); return r?.fieldData?.image?.url ? assetPath(r.fieldData.image.url) : ''; }
+    case transform === 'ref[].name': {
+      const ids = Array.isArray(v) ? v : [v];
+      return ids.map(id => itemById(id)?.fieldData?.name ?? '').filter(Boolean).join(', ');
+    }
+    default: return String(v);
+  }
+}
+
+const bindingCache = new Map();
+export function bindings(collection) {
+  if (!bindingCache.has(collection)) {
+    const p = `src/bindings/${collection}.json`;
+    bindingCache.set(collection, existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null);
+  }
+  return bindingCache.get(collection);
+}
+
+/**
+ * Apply page-level slots to the shell body.
+ * inList slots are skipped: they belong to nested collection lists, which are driven
+ * by their own query rather than by this item.
+ */
+export function renderBody(shellBody, collection, item) {
+  const map = bindings(collection);
+  if (!map) return shellBody;
+  const els = enumerate(shellBody);
+  const edits = [];
+
+  for (const slot of map.slots) {
+    if (slot.inList) continue;
+    const el = els[slot.slot];
+    if (!el) continue;
+    const value = resolve(item, slot);
+
+    if (slot.kind === 'inner' || slot.kind === 'html') {
+      // An empty CMS field keeps Webflow's own empty marker, matching live exactly.
+      const content = slot.kind === 'html' ? value : esc(value);
+      edits.push({ el, kind: 'inner', content, empty: !value });
+    } else if (slot.kind.startsWith('attr:')) {
+      const attr = slot.kind.slice(5);
+      let next = value;
+      if (attr === 'style') next = value ? `background-image:url("${value}")` : 'background-image:none';
+      else if (attr === 'href' && slot.transform === 'ref.slug') {
+        const refCollection = refCollectionFor(collection, slot.field);
+        next = value ? `/${refCollection}/${value}` : '#';
+      }
+      edits.push({ el, kind: 'attr', attr, content: next });
+    }
+  }
+
+  // splice right-to-left so earlier offsets stay valid
+  edits.sort((a, b) => b.el.start - a.el.start);
+  let out = shellBody;
+  for (const e of edits) {
+    if (e.kind === 'inner') {
+      const cls = e.el.cls;
+      const withMarker = e.empty
+        ? cls.includes('w-dyn-bind-empty') ? cls : `${cls} w-dyn-bind-empty`.trim()
+        : cls.split(/\s+/).filter(c => c !== 'w-dyn-bind-empty').join(' ');
+      const openTag = shellBody.slice(e.el.start, e.el.innerStart)
+        .replace(/class="[^"]*"/, `class="${withMarker}"`);
+      out = out.slice(0, e.el.start) + openTag + e.content + out.slice(e.el.innerEnd);
+    } else {
+      const openTag = shellBody.slice(e.el.start, e.el.innerStart);
+      const next = new RegExp(`${e.attr}="[^"]*"`).test(openTag)
+        ? openTag.replace(new RegExp(`${e.attr}="[^"]*"`), `${e.attr}="${esc(e.content)}"`)
+        : openTag.replace(/^<(\w+)/, `<$1 ${e.attr}="${esc(e.content)}"`);
+      out = out.slice(0, e.el.start) + next + out.slice(e.el.innerStart);
+    }
+  }
+  return out;
+}
+
+/** Which collection does a Reference field point at? Derived from the field schema. */
+let schemaCache = null;
+function refCollectionFor(collection, field) {
+  if (!schemaCache) {
+    schemaCache = {};
+    const map = JSON.parse(readFileSync('reference/collection-map.json', 'utf8'));
+    for (const c of map) for (const f of c.fields) schemaCache[`${c.slug}.${f.slug}`] = f;
+  }
+  // Field slug matches the target collection slug in this project's schema
+  // (blog.blog-author -> blog-author). Verified across all Reference fields.
+  return field;
+}
+
+export function renderHead(shellHead, collection, item) {
+  const map = bindings(collection);
+  if (!map?.head?.length) return shellHead;
+  let out = shellHead;
+  for (const h of map.head) {
+    const value = resolve(item, h);
+    const filled = (h.pattern ?? '{}').replace('{}', value);
+    if (h.target === 'title') out = out.replace(/<title>[\s\S]*?<\/title>/i, `<title>${esc(filled)}</title>`);
+  }
+  return out;
+}

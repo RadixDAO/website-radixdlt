@@ -1,0 +1,141 @@
+{
+ "collection": "blog",
+ "template": "detail_blog.html",
+ "route": "/blog/:slug",
+ "samples": 8,
+ "head": [
+  {
+   "target": "title",
+   "field": "name",
+   "transform": "text",
+   "pattern": "{} | The Radix Blog | Radix DLT",
+   "confidence": "8/8"
+  }
+ ],
+ "slots": [
+  {
+   "slot": 128,
+   "tag": "div",
+   "class": "cbfs-tag w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "blog-category",
+   "transform": "ref[].name",
+   "confidence": "8/8",
+   "inList": true
+  },
+  {
+   "slot": 135,
+   "tag": "div",
+   "class": "cbfs-tag w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "blog-category",
+   "transform": "ref[].name",
+   "confidence": "8/8",
+   "inList": true
+  },
+  {
+   "slot": 139,
+   "tag": "div",
+   "class": "blog-single-img-inner",
+   "kind": "attr:style",
+   "field": "image",
+   "transform": "asset",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 141,
+   "tag": "h2",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 142,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "date",
+   "transform": "date:MMMM D, YYYY",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 150,
+   "tag": "div",
+   "class": "single-content w-dyn-bind-empty w-richtext",
+   "kind": "html",
+   "field": "main-content",
+   "transform": "text",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 155,
+   "tag": "a",
+   "class": "author-group w-inline-block",
+   "kind": "attr:href",
+   "field": "blog-author",
+   "transform": "ref.slug",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 158,
+   "tag": "h5",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "blog-author",
+   "transform": "ref.name",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 177,
+   "tag": "div",
+   "class": "",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "2/8",
+   "inList": true
+  },
+  {
+   "slot": 205,
+   "tag": "div",
+   "class": "c-img-blog-inner",
+   "kind": "attr:style",
+   "field": "image",
+   "transform": "asset",
+   "confidence": "1/8",
+   "inList": true
+  },
+  {
+   "slot": 212,
+   "tag": "div",
+   "class": "cbfs-tag w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "blog-category",
+   "transform": "ref[].name",
+   "confidence": "7/8",
+   "inList": true
+  },
+  {
+   "slot": 215,
+   "tag": "h4",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "1/8",
+   "inList": true
+  },
+  {
+   "slot": 218,
+   "tag": "div",
+   "class": "cbfs-date w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "date",
+   "transform": "date:MMMM D, YYYY",
+   "confidence": "1/8",
+   "inList": true
+  }
+ ]
+}

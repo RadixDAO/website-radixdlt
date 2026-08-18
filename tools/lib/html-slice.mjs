@@ -113,3 +113,27 @@ export function documentParts(html) {
     body: html.slice(bodyOpen.index + bodyOpen[0].length, bodyClose),
   };
 }
+
+/**
+ * Collapse every populated w-dyn-list down to its FIRST w-dyn-item.
+ *
+ * A live page renders N items where the exported shell has exactly one placeholder.
+ * Without this, LCS alignment between shell and live has 200 extra elements to absorb
+ * and will happily match shell nav elements against live list items -- producing
+ * confident, wrong bindings. Collapsing makes the two structurally 1:1.
+ */
+export function collapseLists(html) {
+  const lists = findTopLevelByClass(html, 'w-dyn-list');
+  let out = '', cur = 0;
+  for (const [ls, le] of lists) {
+    const inner = html.slice(ls, le);
+    const items = findTopLevelByClass(inner, 'w-dyn-item');
+    if (items.length <= 1) { out += html.slice(cur, le); cur = le; continue; }
+    const [fs] = items[0];
+    const keptEnd = items[0][1];
+    const lastEnd = items[items.length - 1][1];
+    out += html.slice(cur, ls + keptEnd) + inner.slice(lastEnd);
+    cur = le;
+  }
+  return out + html.slice(cur);
+}
