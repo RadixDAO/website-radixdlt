@@ -90,3 +90,73 @@ export function alignByLcs(a, b) {
   }
   return pairs;
 }
+
+/**
+ * Collapse per-slot evidence (`Map<elementIndex, Map<"kind field transform", count>>`)
+ * into a slots array, keeping the majority winner PER BINDING FAMILY rather than one
+ * winner per element.
+ *
+ * A single element can legitimately carry two independent bindings at once -- e.g. an
+ * anchor whose inner text is the item's name AND whose href is the item's own
+ * permalink. `inner`/`html` are mutually exclusive with each other (an element's
+ * content is either escaped text or raw HTML, never both) but NOT with an `attr:*`
+ * binding, and different attrs don't conflict with each other either. Keeping only the
+ * single highest-count key per element silently drops whichever binding lost the tie.
+ */
+export function bestSlotsFromEvidence(evidenceByIndex) {
+  const out = [];
+  for (const [i, e] of [...evidenceByIndex].sort((a, b) => a[0] - b[0])) {
+    const families = new Map();   // 'text' | 'attr:href' | 'attr:style' | ... -> [[kk, count], ...]
+    for (const [kk, n] of e) {
+      const kind = kk.split(' ')[0];
+      const family = kind === 'inner' || kind === 'html' ? 'text' : kind;
+      const list = families.get(family) ?? [];
+      list.push([kk, n]);
+      families.set(family, list);
+    }
+    for (const [, list] of families) {
+      const [kk] = list.sort((a, b) => b[1] - a[1])[0];
+      const [kind, field, transform] = kk.split(' ');
+      out.push({ slot: i, kind, field, transform });
+    }
+  }
+  return out;
+}
+
+/**
+ * A MultiReference field (e.g. a blog post's categories) can render as its own
+ * NESTED w-dyn-list -- a Finsweet cms-nest tag-pill pattern, one pill per referenced
+ * item. `bestSlotsFromEvidence` only ever learns to join those into one comma-joined
+ * `ref[].name` string (from aligning against whichever sample happened to have
+ * exactly one), which is wrong the moment a live item has two-plus. Detect any
+ * flat `ref[].name` / `ref[].slug` slot whose element sits inside a nested
+ * `w-dyn-list` within this item template, and collapse it (and its sibling attr
+ * binding on the same anchor) into a single 'repeat' slot the renderer can clone
+ * once per referenced item instead.
+ */
+export function collapseNestedRepeats(tplEls, slots, refCollectionOf) {
+  const listEls = tplEls.filter((e) => e.cls.split(/\s+/).includes('w-dyn-list'));
+  if (!listEls.length) return slots;
+  const consumed = new Set();
+  const repeats = [];
+  for (const listEl of listEls) {
+    const anchor = tplEls.find((e) => e.cls.split(/\s+/).includes('w-dyn-item')
+      && e.start > listEl.start && e.end <= listEl.end);
+    if (!anchor) continue;
+    const within = slots.filter((s) => {
+      const el = tplEls[s.slot];
+      return el && el.start >= anchor.start && el.end <= anchor.end
+        && (s.transform === 'ref[].name' || s.transform === 'ref[].slug');
+    });
+    if (!within.length) continue;
+    const field = within[0].field;
+    if (!within.every((s) => s.field === field)) continue;   // ambiguous, leave alone
+    within.forEach((s) => consumed.add(s));
+    const itemSlots = within.map((s) => ({
+      slot: s.slot, kind: s.kind, field: s.transform === 'ref[].slug' ? 'slug' : 'name',
+    }));
+    repeats.push({ slot: listEl.i, kind: 'repeat', field, refCollection: refCollectionOf(field), itemSlots });
+  }
+  if (!repeats.length) return slots;
+  return [...slots.filter((s) => !consumed.has(s)), ...repeats].sort((a, b) => a.slot - b.slot);
+}

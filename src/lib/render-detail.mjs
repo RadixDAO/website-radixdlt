@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { enumerate } from '../../tools/lib/dom-slots.mjs';
 import { itemById, assetPath, rewriteAssetUrls } from './detail-data.mjs';
 import { findTopLevelByClass } from '../../tools/lib/html-slice.mjs';
-import { fillItem } from './render-list.mjs';
+import { fillItem, spliceList } from './render-list.mjs';
 
 // Nested lists inside detail templates vary per page (related posts, a category's
 // posts). Sequences are materialised per page in src/bindings/detail-lists/.
@@ -41,21 +41,41 @@ export function renderNestedLists(body, collection, slug) {
   const edits = [];
   for (const [idxStr, spec] of Object.entries(perPage)) {
     const li = Number(idxStr);
-    if (!lists[li] || !spec?.items?.length) continue;
+    if (!lists[li]) continue;
     const [ls, le] = lists[li];
     const seg = body.slice(ls, le);
+    // CONFIRMED empty (derivation saw zero live items for this page+list): known
+    // truth, so match live by keeping only the w-dyn-empty branch.
+    if (spec?.empty) { edits.push({ ls, le, html: spliceList(seg, null, null) }); continue; }
+    if (!spec?.items?.length) continue;
     const shellItems = findTopLevelByClass(seg, 'w-dyn-item');
     if (!shellItems.length) continue;
     const [ts, te] = shellItems[0];
     const tpl = seg.slice(ts, te);
     const lookup = collectionBySlug(spec.collection);
     const slots = (data.slots?.[li] ?? []).map((s) => ({ ...s, collection: spec.collection }));
+    // Pass the CURRENT page's own identity through: a nested 'repeat' slot (e.g. a
+    // blog post's category-tag pills) uses it to detect when one of its own nested
+    // items IS the page being rendered, so it can add Webflow's self-reference
+    // highlight the same way live does (see renderRepeat's doc comment).
+    const ctx = { collection, slug };
+    // A FLAT list (not a nested 'repeat') can ALSO be a self-reference case: e.g. a
+    // blog-category page's own "browse categories" tab bar, where the tab matching
+    // the current page gets the same `w--current` highlight. Detect it the same way:
+    // the rendered item's own collection+slug equals the current page's.
+    const hrefSlot = slots.find((s) => s.kind === 'attr:href');
     const rendered = spec.items
       .map((s) => (s ? lookup.get(s) : null))
       .filter(Boolean)
-      .map((it) => fillItem(tpl, it, slots));
+      .map((it) => {
+        const isCurrent = hrefSlot && spec.collection === collection && it.fieldData?.slug === slug;
+        const itemSlots = isCurrent
+          ? [...slots, { slot: hrefSlot.slot, kind: 'attr:class-add', literal: 'w--current', transform: 'literal' }]
+          : slots;
+        return fillItem(tpl, it, itemSlots, ctx);
+      });
     if (!rendered.length) continue;
-    edits.push({ ls, le, html: seg.slice(0, ts) + rendered.join('') + seg.slice(te) });
+    edits.push({ ls, le, html: spliceList(seg, [ts, te], rendered.join('')) });
   }
   edits.sort((a, b) => b.ls - a.ls);          // right-to-left keeps offsets valid
   let out = body;
