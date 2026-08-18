@@ -58,7 +58,7 @@
    "kind": "inner",
    "field": "date",
    "transform": "date:MMMM D, YYYY",
-   "confidence": "8/8"
+   "confidence": "1/8"
   },
   {
    "slot": 149,
@@ -124,16 +124,6 @@
    "kind": "inner",
    "field": "name",
    "transform": "text",
-   "confidence": "1/8",
-   "inList": true
-  },
-  {
-   "slot": 217,
-   "tag": "div",
-   "class": "cbfs-date w-dyn-bind-empty",
-   "kind": "inner",
-   "field": "date",
-   "transform": "date:MMMM D, YYYY",
    "confidence": "1/8",
    "inList": true
   }

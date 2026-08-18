@@ -55,8 +55,8 @@ function resolve(item, { field, transform }) {
   return String(v);
 }
 
-/** Fill one cloned item template. */
-function fillItem(tpl, item, slots) {
+/** Fill one cloned item template. Exported for reuse by render-detail. */
+export function fillItem(tpl, item, slots) {
   const els = enumerate(tpl);
   const edits = [];
   for (const slot of slots) {

@@ -26,8 +26,16 @@ export function enumerate(html) {
       const r = elementRange(html, start);
       end = r[1];
       innerStart = openEnd;
-      const close = html.lastIndexOf('</', end);
-      innerEnd = close > innerStart ? close : openEnd;
+      // Derive innerEnd from the element's OWN closing tag. Scanning backwards for the
+      // last '</' mis-measures on minified markup and silently includes the closing tag
+      // in the inner range -- which then makes every leaf look like it has children,
+      // and makes an inner-splice delete the closing tag.
+      const closeTag = `</${tag}`;
+      let k = end - 1;
+      while (k >= innerStart && html[k] !== '<') k--;
+      innerEnd = (k >= innerStart && html.slice(k, k + closeTag.length).toLowerCase() === closeTag)
+        ? k
+        : end;
     }
     out.push({
       i: out.length, tag, attrs, start, end, innerStart, innerEnd,
@@ -59,4 +67,26 @@ export function spliceInner(html, edits) {
     cur = el.innerEnd;
   }
   return out + html.slice(cur);
+}
+
+/**
+ * Align two signature sequences by longest common subsequence, returning [i, j] pairs.
+ *
+ * Positional alignment is NOT safe even for two renderings of the same item template:
+ * Webflow drops conditionally-hidden elements from the DOM entirely, so a live item
+ * can have fewer/more elements than the placeholder. Stopping at the first mismatch
+ * loses every slot after the first optional field.
+ */
+export function alignByLcs(a, b) {
+  const n = a.length, m = b.length;
+  const dp = Array.from({ length: n + 1 }, () => new Int32Array(m + 1));
+  for (let i = n - 1; i >= 0; i--)
+    for (let j = m - 1; j >= 0; j--)
+      dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const pairs = [];
+  for (let i = 0, j = 0; i < n && j < m;) {
+    if (a[i] === b[j]) { pairs.push([i, j]); i++; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++; else j++;
+  }
+  return pairs;
 }

@@ -2,17 +2,26 @@
  "collection": "blog-author",
  "template": "detail_blog-author.html",
  "route": "/blog-author/:slug",
- "samples": 8,
+ "samples": 14,
  "head": [
   {
    "target": "title",
    "field": "name",
    "transform": "text",
    "pattern": "{} | The Radix Blog | Radix DLT",
-   "confidence": "6/8"
+   "confidence": "12/14"
   }
  ],
  "slots": [
+  {
+   "slot": 118,
+   "tag": "div",
+   "class": "author-img",
+   "kind": "attr:style",
+   "field": "image",
+   "transform": "asset",
+   "confidence": "1/14"
+  },
   {
    "slot": 121,
    "tag": "h1",
@@ -20,7 +29,7 @@
    "kind": "inner",
    "field": "name",
    "transform": "text",
-   "confidence": "8/8"
+   "confidence": "14/14"
   },
   {
    "slot": 122,
@@ -29,7 +38,16 @@
    "kind": "inner",
    "field": "role",
    "transform": "text",
-   "confidence": "3/8"
+   "confidence": "4/14"
+  },
+  {
+   "slot": 124,
+   "tag": "p",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "description",
+   "transform": "text",
+   "confidence": "1/14"
   }
  ]
 }

@@ -45,9 +45,9 @@
    "tag": "div",
    "class": "c-rich-text w-dyn-bind-empty w-richtext",
    "kind": "html",
-   "field": "excerpt",
+   "field": "main-content",
    "transform": "text",
-   "confidence": "3/5"
+   "confidence": "4/5"
   }
  ]
 }

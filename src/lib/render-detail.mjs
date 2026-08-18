@@ -3,6 +3,65 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { enumerate } from '../../tools/lib/dom-slots.mjs';
 import { itemById, assetPath, rewriteAssetUrls } from './detail-data.mjs';
+import { findTopLevelByClass } from '../../tools/lib/html-slice.mjs';
+import { fillItem } from './render-list.mjs';
+
+// Nested lists inside detail templates vary per page (related posts, a category's
+// posts). Sequences are materialised per page in src/bindings/detail-lists/.
+const nestedCache = new Map();
+function nested(collection) {
+  if (!nestedCache.has(collection)) {
+    const p = `src/bindings/detail-lists/${collection}.json`;
+    nestedCache.set(collection, existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null);
+  }
+  return nestedCache.get(collection);
+}
+
+const listItemCache = new Map();
+function collectionBySlug(collection) {
+  if (!listItemCache.has(collection)) {
+    const p = `reference/webflow/items/${collection}.json`;
+    const list = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : [];
+    listItemCache.set(collection, new Map(list.map((i) => [i.fieldData?.slug, i])));
+  }
+  return listItemCache.get(collection);
+}
+
+/**
+ * Replace each nested w-dyn-list with its rendered items for THIS page.
+ * Runs after page-level slots: those use element indices from the pristine shell,
+ * and filling a list changes the element count. List ORDER is unaffected by
+ * page-level edits, so index alignment still holds here.
+ */
+export function renderNestedLists(body, collection, slug) {
+  const data = nested(collection);
+  if (!data?.pages?.[slug]) return body;
+  const perPage = data.pages[slug];
+  const lists = findTopLevelByClass(body, 'w-dyn-list');
+  const edits = [];
+  for (const [idxStr, spec] of Object.entries(perPage)) {
+    const li = Number(idxStr);
+    if (!lists[li] || !spec?.items?.length) continue;
+    const [ls, le] = lists[li];
+    const seg = body.slice(ls, le);
+    const shellItems = findTopLevelByClass(seg, 'w-dyn-item');
+    if (!shellItems.length) continue;
+    const [ts, te] = shellItems[0];
+    const tpl = seg.slice(ts, te);
+    const lookup = collectionBySlug(spec.collection);
+    const slots = (data.slots?.[li] ?? []).map((s) => ({ ...s, collection: spec.collection }));
+    const rendered = spec.items
+      .map((s) => (s ? lookup.get(s) : null))
+      .filter(Boolean)
+      .map((it) => fillItem(tpl, it, slots));
+    if (!rendered.length) continue;
+    edits.push({ ls, le, html: seg.slice(0, ts) + rendered.join('') + seg.slice(te) });
+  }
+  edits.sort((a, b) => b.ls - a.ls);          // right-to-left keeps offsets valid
+  let out = body;
+  for (const e of edits) out = out.slice(0, e.ls) + e.html + out.slice(e.le);
+  return out;
+}
 
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

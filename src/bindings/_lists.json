@@ -109,6 +109,12 @@
     "kind": "attr:href",
     "field": "slug",
     "transform": "text"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -130,8 +136,8 @@
   "slots": [
    {
     "slot": 1,
-    "kind": "attr:href",
-    "field": "slug",
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -162,6 +168,12 @@
     "kind": "inner",
     "field": "name",
     "transform": "text"
+   },
+   {
+    "slot": 11,
+    "kind": "inner",
+    "field": "date",
+    "transform": "date:MMMM"
    }
   ]
  },
@@ -186,6 +198,12 @@
     "slot": 9,
     "kind": "attr:href",
     "field": "slug",
+    "transform": "text"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -212,6 +230,18 @@
     "kind": "attr:style",
     "field": "image",
     "transform": "asset"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "date",
+    "transform": "date:MMMM"
    },
    {
     "slot": 11,
@@ -245,6 +275,18 @@
     "transform": "asset"
    },
    {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "date",
+    "transform": "date:MMMM"
+   },
+   {
     "slot": 11,
     "kind": "attr:href",
     "field": "slug",
@@ -274,6 +316,18 @@
     "kind": "attr:style",
     "field": "image",
     "transform": "asset"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "date",
+    "transform": "date:MMMM"
    },
    {
     "slot": 11,
@@ -307,6 +361,18 @@
     "transform": "asset"
    },
    {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "date",
+    "transform": "date:MMMM"
+   },
+   {
     "slot": 11,
     "kind": "attr:href",
     "field": "slug",
@@ -332,8 +398,8 @@
   "slots": [
    {
     "slot": 1,
-    "kind": "attr:href",
-    "field": "slug",
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -354,6 +420,18 @@
     "kind": "attr:style",
     "field": "image",
     "transform": "asset"
+   },
+   {
+    "slot": 11,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 14,
+    "kind": "inner",
+    "field": "date",
+    "transform": "date:MMMM"
    },
    {
     "slot": 15,
@@ -385,6 +463,18 @@
     "kind": "inner",
     "field": "name",
     "transform": "text"
+   },
+   {
+    "slot": 6,
+    "kind": "inner",
+    "field": "username",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
+    "transform": "text"
    }
   ]
  },
@@ -398,6 +488,18 @@
     "slot": 5,
     "kind": "inner",
     "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 6,
+    "kind": "inner",
+    "field": "username",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
     "transform": "text"
    }
   ]
@@ -414,6 +516,18 @@
     "kind": "inner",
     "field": "name",
     "transform": "text"
+   },
+   {
+    "slot": 6,
+    "kind": "inner",
+    "field": "username",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
+    "transform": "text"
    }
   ]
  },
@@ -427,6 +541,18 @@
     "slot": 5,
     "kind": "inner",
     "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 6,
+    "kind": "inner",
+    "field": "username",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
     "transform": "text"
    }
   ]
@@ -447,6 +573,12 @@
     "slot": 5,
     "kind": "inner",
     "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
     "transform": "text"
    }
   ]
@@ -477,6 +609,12 @@
     "kind": "inner",
     "field": "name",
     "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
+    "transform": "text"
    }
   ]
  },
@@ -501,6 +639,18 @@
     "kind": "inner",
     "field": "name",
     "transform": "text"
+   },
+   {
+    "slot": 6,
+    "kind": "inner",
+    "field": "username",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
+    "transform": "text"
    }
   ]
  },
@@ -522,6 +672,18 @@
     "slot": 5,
     "kind": "inner",
     "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 6,
+    "kind": "inner",
+    "field": "username",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
     "transform": "text"
    }
   ]
@@ -546,6 +708,12 @@
     "slot": 5,
     "kind": "inner",
     "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 8,
+    "kind": "inner",
+    "field": "description",
     "transform": "text"
    }
   ]
@@ -643,7 +811,14 @@
    null,
    "lending"
   ],
-  "slots": []
+  "slots": [
+   {
+    "slot": 3,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   }
+  ]
  },
  "ecosystem-directory#3": {
   "collection": "projects-6-highlighted",
@@ -675,9 +850,27 @@
     "transform": "asset"
    },
    {
+    "slot": 11,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 12,
+    "kind": "inner",
+    "field": "project-description",
+    "transform": "text"
+   },
+   {
     "slot": 13,
     "kind": "attr:href",
     "field": "link-to-project",
+    "transform": "text"
+   },
+   {
+    "slot": 16,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -734,9 +927,27 @@
     "transform": "asset"
    },
    {
+    "slot": 11,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 12,
+    "kind": "inner",
+    "field": "project-description",
+    "transform": "text"
+   },
+   {
     "slot": 13,
     "kind": "attr:href",
     "field": "link-to-project",
+    "transform": "text"
+   },
+   {
+    "slot": 16,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -759,6 +970,12 @@
     "slot": 1,
     "kind": "attr:href",
     "field": "slug",
+    "transform": "text"
+   },
+   {
+    "slot": 2,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -787,6 +1004,12 @@
     "slot": 3,
     "kind": "attr:href",
     "field": "social-url",
+    "transform": "text"
+   },
+   {
+    "slot": 11,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -855,6 +1078,12 @@
     "slot": 3,
     "kind": "attr:href",
     "field": "social-url",
+    "transform": "text"
+   },
+   {
+    "slot": 11,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -964,6 +1193,12 @@
     "kind": "inner",
     "field": "content",
     "transform": "text"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -979,6 +1214,12 @@
     "slot": 1,
     "kind": "attr:href",
     "field": "slug",
+    "transform": "text"
+   },
+   {
+    "slot": 2,
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -1087,7 +1328,14 @@
    "what-does-immutable-mean",
    "what-does-dyor-mean"
   ],
-  "slots": []
+  "slots": [
+   {
+    "slot": 1,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   }
+  ]
  },
  "learn/knowledge-base#2": {
   "collection": "categories-learn",
@@ -1146,6 +1394,12 @@
     "kind": "attr:src",
     "field": "icon",
     "transform": "asset"
+   },
+   {
+    "slot": 5,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -1189,6 +1443,12 @@
     "kind": "attr:style",
     "field": "avatar",
     "transform": "asset"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -1232,6 +1492,12 @@
     "kind": "attr:style",
     "field": "avatar",
     "transform": "asset"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -1275,6 +1541,12 @@
     "kind": "attr:style",
     "field": "avatar",
     "transform": "asset"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -1299,6 +1571,12 @@
     "kind": "attr:src",
     "field": "guest-image",
     "transform": "asset"
+   },
+   {
+    "slot": 10,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    },
    {
     "slot": 12,
@@ -1342,6 +1620,12 @@
     "kind": "attr:style",
     "field": "avatar",
     "transform": "asset"
+   },
+   {
+    "slot": 7,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
    }
   ]
  },
@@ -1363,8 +1647,8 @@
   "slots": [
    {
     "slot": 1,
-    "kind": "attr:href",
-    "field": "slug",
+    "kind": "inner",
+    "field": "name",
     "transform": "text"
    }
   ]
@@ -1415,6 +1699,18 @@
     "kind": "attr:href",
     "field": "slug",
     "transform": "text"
+   },
+   {
+    "slot": 4,
+    "kind": "inner",
+    "field": "name",
+    "transform": "text"
+   },
+   {
+    "slot": 9,
+    "kind": "inner",
+    "field": "service-s",
+    "transform": "ref[].name"
    },
    {
     "slot": 14,

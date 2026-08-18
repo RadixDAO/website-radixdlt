@@ -7,7 +7,7 @@
 // migration the order is baked at build time regardless.
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { findTopLevelByClass, documentParts } from './lib/html-slice.mjs';
-import { enumerate, signature } from './lib/dom-slots.mjs';
+import { enumerate, signature, alignByLcs } from './lib/dom-slots.mjs';
 
 const cols = JSON.parse(readFileSync('reference/collection-map.json', 'utf8'));
 const assetMap = JSON.parse(readFileSync('reference/asset-map.json', 'utf8'));
@@ -50,11 +50,22 @@ const tail = (u) => { try { return decodeURIComponent(String(u)).split('/').filt
 
 /** Identify which collection + item a rendered list item corresponds to. */
 function identify(segment) {
-  const href = /href="\/([a-z0-9-]+)\/([^"#?]+)"/.exec(segment);
-  if (href && items.has(href[1])) {
-    const it = items.get(href[1]).find((x) => x.fieldData?.slug === href[2]);
-    if (it) return { collection: href[1], slug: href[2] };
+  // A card usually contains SEVERAL collection links -- the item's own link plus a
+  // category/author tag. Taking the first href fills blog-category lists with
+  // categories instead of posts. Prefer the href whose item name actually appears in
+  // the card's text; fall back to the first href only if none does.
+  const text = strip(segment).toLowerCase();
+  const hrefs = [...segment.matchAll(/href="\/([a-z0-9-]+)\/([^"#?]+)"/g)]
+    .filter((m) => items.has(m[1]));
+  let fallback = null;
+  for (const m of hrefs) {
+    const it = items.get(m[1]).find((x) => x.fieldData?.slug === m[2]);
+    if (!it) continue;
+    if (!fallback) fallback = { collection: m[1], slug: m[2] };
+    const n = String(it.fieldData?.name ?? it.fieldData?.title ?? '').replace(/\s+/g, ' ').trim().toLowerCase();
+    if (n.length > 3 && text.includes(n)) return { collection: m[1], slug: m[2] };
   }
+  if (fallback) return fallback;
   const t = strip(segment).toLowerCase();
   let best = null;
   for (const [n, recs] of byName) {
@@ -139,10 +150,8 @@ for (const [route, page] of Object.entries(manifest)) {
         const segEls = enumerate(seg);
         const segSig = segEls.map(signature);
         const cands = candidates(it);
-        const len = Math.min(tplSig.length, segSig.length);
-        for (let i = 0; i < len; i++) {
-          if (tplSig[i] !== segSig[i]) break;      // structures diverged; stop
-          const s = tplEls[i], l = segEls[i];
+        for (const [i, j] of alignByLcs(tplSig, segSig)) {
+          const s = tplEls[i], l = segEls[j];
           const lInner = seg.slice(l.innerStart, l.innerEnd);
           if (!lInner.includes('<')) {
             const lText = strip(lInner);

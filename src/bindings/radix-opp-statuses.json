@@ -2,14 +2,14 @@
  "collection": "radix-opp-statuses",
  "template": "detail_radix-opp-statuses.html",
  "route": "/radix-opp-statuses/:slug",
- "samples": 8,
+ "samples": 36,
  "head": [
   {
    "target": "title",
    "field": "name",
    "transform": "text",
    "pattern": "{} | Radix DLT | Services Status",
-   "confidence": "8/8"
+   "confidence": "36/36"
   }
  ],
  "slots": [
@@ -20,7 +20,7 @@
    "kind": "inner",
    "field": "name",
    "transform": "text",
-   "confidence": "8/8"
+   "confidence": "36/36"
   },
   {
    "slot": 54,
@@ -29,7 +29,7 @@
    "kind": "inner",
    "field": "service-s",
    "transform": "ref[].name",
-   "confidence": "8/8",
+   "confidence": "36/36",
    "inList": true
   },
   {
@@ -39,7 +39,7 @@
    "kind": "inner",
    "field": "date-reported",
    "transform": "date:MMMM D, YYYY",
-   "confidence": "3/8"
+   "confidence": "11/36"
   },
   {
    "slot": 64,
@@ -48,7 +48,7 @@
    "kind": "inner",
    "field": "last-update",
    "transform": "date:MMMM D, YYYY",
-   "confidence": "3/8"
+   "confidence": "11/36"
   },
   {
    "slot": 69,
@@ -57,7 +57,7 @@
    "kind": "inner",
    "field": "status",
    "transform": "option.name",
-   "confidence": "8/8"
+   "confidence": "36/36"
   },
   {
    "slot": 71,
@@ -66,7 +66,7 @@
    "kind": "html",
    "field": "content",
    "transform": "text",
-   "confidence": "8/8"
+   "confidence": "36/36"
   }
  ]
 }
