@@ -1,0 +1,548 @@
+<script src="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3/dist/js.cookie.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/vaakash/jquery-collapser@master/dist/jquery.collapser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/table-of-contents@master/table-of-contents.js"></script>
+<script>
+  
+/* Staking control
+============================================================*/
+  
+let stakingManual = true; 
+let stakingManualNumber =  3200000000;
+  
+/* Countdown
+============================================================*/
+
+function makeTimer() {
+
+  var endTime = new Date("8 December 2022 18:00:00 GMT");			
+  endTime = (Date.parse(endTime) / 1000);
+
+  var now = new Date();
+  now = (Date.parse(now) / 1000);
+
+  var timeLeft = endTime - now;
+  
+  if(timeLeft > 0) {
+
+    var days = Math.floor(timeLeft / 86400); 
+    var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+    var fullHours = Math.floor(timeLeft / 3600);
+    var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+    var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+
+    if (hours < "10") { hours = "0" + hours; }
+    if (minutes < "10") { minutes = "0" + minutes; }
+    if (seconds < "10") { seconds = "0" + seconds; }
+    
+    $("#radfi-countdown").html(fullHours + ":" + minutes + ":" + seconds);
+    
+  } else {
+    clearInterval(refreshTime);
+  }
+
+}
+  
+var refreshTime = setInterval(function() { makeTimer(); }, 1000);
+  
+/* Global Radfi Overlay
+============================================================*/ 
+  
+// Video overlay play button
+
+  if (!Cookies.get('cookie-radfi-overlay-live')) {
+    
+    $( "#radfi-overlay-close, #radfi-overlay-close-link" ).hide().delay(7000).fadeIn(500);
+
+    $( "#radfi-overlay" ).removeClass( "hide" );
+
+    $( "#radfi-overlay-close, #radfi-overlay-close-link" ).click(function(e) {
+      e.preventDefault();
+      $( "#radfi-overlay" ).fadeOut(1000);
+      Cookies.set('cookie-radfi-overlay-live', true, { expires: 1 });
+      $("html, body").css({"height": "auto", "overflow": "inherit"});
+    });
+
+  } else {
+    $("html, body").css({"height": "auto", "overflow": "inherit"});
+  }
+
+// Cookie Banner
+  
+  if (!Cookies.get('radfi-top-banner-live')) {
+
+    $('#bannerBox').removeClass('hide');
+    $( "#bannerBoxBtn" ).click(function(e) {
+      e.preventDefault();
+      Cookies.set('radfi-top-banner-live', true, { expires: 365 });
+      $('#bannerBox').slideUp("slow");
+    });
+
+  }
+  
+/* Flickity
+============================================================*/ 
+  
+// Container fix
+  var $container = $('.slideholder, .slideholder-labs');
+  var leftOffset = ($(window).width() -  $container.width()) / 2;
+  
+  var $slider = $('.main-slider').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: false,
+    pageDots: false
+  });    
+  
+  var $radfiSlider = $('.radfi-main-slider').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: false
+  });   
+  
+  var $sliderAlt = $('.main-slider-alt').flickity({
+    // options
+    contain: false,
+    prevNextButtons: false,
+    wrapAround: true,
+    pageDots: false
+  });   
+  
+  var $blogSlider = $('.blog-slider').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: true,
+    adaptiveHeight: false,
+    draggable: false,
+    groupCells: true
+  });
+  
+  var $blogSliderSmall = $('.blog-slider-small').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: false,
+    adaptiveHeight: false,
+    draggable: false,
+    groupCells: true
+  });  
+  
+// hack  
+  Flickity.prototype._createResizeClass = function() {
+     $(this.element).addClass('flickity-resize');
+  };
+
+  Flickity.createMethods.push('_createResizeClass');
+
+  var resize = Flickity.prototype.resize;
+  Flickity.prototype.resize = function() {
+    $('.carousel-cell').removeClass('mh');
+    this.element.classList.remove('flickity-resize');
+    resize.call( this );
+    this.element.classList.add('flickity-resize');
+  }; 
+  
+  $(document).ready(function() {
+    $slider.flickity('resize');
+  });
+
+  
+if ($(".js-slideshow").length) {
+    
+    // Function to handle individual slideshow
+    function initSlideshow(slideshowEl) {
+
+        // Play with this value to change the speed
+        let tickerSpeed = 1;
+        let flickity = null;
+        let isPaused = false;
+      
+         // Clone the slides to double the amount
+          const slides = Array.from(slideshowEl.children);
+          slides.forEach(slide => {
+              const clone = slide.cloneNode(true);
+              slideshowEl.appendChild(clone);
+          });
+
+        // Functions
+
+        const updateCom = () => {
+            if (isPaused) return;
+            if (flickity.slides) {
+                flickity.x = (flickity.x - tickerSpeed) % flickity.slideableWidth;
+                flickity.selectedIndex = flickity.dragEndRestingSelect();
+                flickity.updateSelectedSlide();
+                flickity.settle(flickity.x);
+            }
+            window.requestAnimationFrame(updateCom);
+        };
+
+        const pause = () => {
+            isPaused = true;
+        };
+
+        const play = () => {
+            if (isPaused) {
+                isPaused = false;
+                window.requestAnimationFrame(updateCom);
+            }
+        };
+
+        // Create Flickity
+
+        flickity = new Flickity(slideshowEl, {
+            autoPlay: false,
+            prevNextButtons: false,
+            pageDots: false,
+            draggable: false,
+            wrapAround: true,
+            selectedAttraction: 0.015,
+            friction: 0.25
+        });
+
+        flickity.x = 0;
+
+        // Add Event Listeners
+
+        slideshowEl.addEventListener('mouseenter', pause, false);
+        slideshowEl.addEventListener('focusin', pause, false);
+        slideshowEl.addEventListener('mouseleave', play, false);
+        slideshowEl.addEventListener('focusout', play, false);
+
+        flickity.on('dragStart', () => {
+            isPaused = true;
+        });
+
+        // Start Ticker
+
+        updateCom();
+    }
+
+    // Initialize each slideshow
+    document.querySelectorAll('.js-slideshow').forEach(initSlideshow);
+
+}
+
+  
+/* Modals
+============================================================*/
+
+// Signup
+  
+$('#signup1, #signup2').on('click', function() {
+  // fade in filter layer and modal
+  $('#fsignup').fadeIn(200);
+  $("#modal-signup").fadeIn(200);
+});
+  
+// Switchere Buy
+  
+$(document).ready(function() {
+  var hash = location.hash;
+  if (hash === "#buy-switchere") {
+    // fade in filter layer and modal
+    $('#fsignup').fadeIn(200);
+    $("#modal-buy").fadeIn(200); 
+      $('html, body').animate({
+          scrollTop: $("#Buy-Radix").offset().top
+      }, 3000);
+  }
+
+  $(window).on('hashchange', function() {
+    var hash = location.hash;
+    if (hash === "#buy-switchere") {
+      $('#fsignup').fadeIn(200);
+      $("#modal-buy").fadeIn(200);
+      $('html, body').animate({
+        scrollTop: $("#Buy-Radix").offset().top
+      }, 3000);
+    }
+  });
+});
+  
+$('#btn-buy-modal').on('click', function() {
+  // fade in filter layer and modal
+  $('#fsignup').fadeIn(200);
+  $("#modal-buy").fadeIn(200);
+});
+  
+// Eco
+  
+$(function() {
+  for (i = 1; i < 8; i++) {
+    (function(i) {
+      $('#top' + i).click(function() {
+        // fade in filter layer and modal
+        $('.filter-eco').fadeIn(200);
+        $('#modal-top' + i).fadeIn(200);
+      });
+    })(i);
+  }
+});
+ 
+
+// close modal by clicking the "close" button or background (outside modal)
+$('.modal-close, .filter, .filter-eco').on('click', function() {
+  // fade out filter layer and modal
+  $('.filter, .modal, .filter-eco').fadeOut(200);
+  //$('html, body').css({ overflow: 'auto'});
+});
+  
+
+// Collapser Text
+  
+$('.eventdesc').collapser({
+    mode: 'words',
+    truncate: 42,
+    ellipsis: ' ... ',
+	showText: ' Expand',
+    hideText: ' Collapse',
+    showClass: 'show-class',
+    hideClass: 'hide-class'
+});
+  
+    
+$('.blog-link-title p').collapser({
+    mode: 'words',
+    truncate: 11,
+    ellipsis: '...',
+	showText: ' Expand',
+    hideText: ' Collapse',
+    showClass: 'blog-show-class',
+    hideClass: 'hide-class'
+});
+
+// Blog TOC
+function convertToSlug(Text) {
+  return Text.toLowerCase()
+             .replace(/[^\w ]+/g, '')
+             .replace(/ +/g, '-');
+}
+
+$(function(){
+  var countId = 1
+  $("#content h1,#content h2,#content h3,#content h4").each(function(){
+    var ttl = $(this).text();
+    var lv = this.nodeName.toLowerCase();
+    this.id = convertToSlug($(this).text());
+    countId ++;
+    $("#toc").append('<dd class="lv_'+lv+'"><a class="anchor '+$(this).prop("tagName").toLowerCase()+'" href="#'+this.id+'"><div class="dot-holder"><div class="dot"></div><div class="line"></div></div><div class="anchor-text">'+ttl+'</div></a></dd>');
+  });
+});
+  
+ var addClassOnScroll = function () {
+   var windowTop = $(window).scrollTop();
+   $('#content h1, #content h2, #content h3, #content h4').each(function (index, elem) {
+     var offsetTop = $(elem).offset().top;
+     var outerHeight = $(this).outerHeight(true);
+     
+     //console.log($(elem).attr('id'));
+
+     if( windowTop > (offsetTop - 50) && windowTop < ( offsetTop + outerHeight)) {
+       var elemId = $(elem).attr('id');
+       $("dd a.active").removeClass('active');
+       $("dd a[href='#" + elemId + "']").addClass('active');
+     }
+   });
+ };
+  //bind to scroll
+  $(function () {
+    $(window).on('scroll', function () {
+      addClassOnScroll();
+    });
+  });
+  
+  //initial load
+  function scrollOnPageLoad() {
+    // to top right away
+    if (window.location.hash) scroll(0, 0);
+    // void some browsers issue
+    setTimeout(scroll(0, 0), 1);
+    var hashLink = window.location.hash;
+      if ($(hashLink).length) {
+        $(function () {
+            // *only* if we have anchor on the url
+            // smooth scroll to the anchor id
+            $('html, body').animate({
+              scrollTop: $(window.location.hash).offset().top
+            }, 2000);
+        });
+      }
+  }
+$(document).ready(function() {
+	scrollOnPageLoad();
+});
+  
+// Blog Hover fix
+$(function() {
+  $('.full-blog-link').hover(function() {
+  	$(this).siblings('.blog-inner').find('h4').css({color: '#00ab84', transition: 'color 0.2s'});
+  }, function() {
+    // on mouseout, reset the background colour
+    $(this).siblings('.blog-inner').find('h4').css({color: '#003052', transition: 'color 0.2s'});
+  });
+});
+  
+// open all blog links in new tab
+$('.single-content a').attr('target', '_blank');
+  
+// Rolling Number
+$(document).ready(function(){var start=parseInt($('.rolling-number').data('start'));var end=parseInt($('.rolling-number').data('end'));var duration=6000;var easingFactor=0.03;var animationTriggered=false;function updateNumber(currentValue){var diff=end-currentValue;var delta=diff*easingFactor;var newValue=currentValue+delta;if(newValue<end){if(newValue>=19999){$('.rolling-number').text('20,000');return;}var formattedValue=Math.floor(newValue).toLocaleString();$('.rolling-number').text(formattedValue);requestAnimationFrame(function(){updateNumber(newValue);});}else{var formattedEndValue=end.toLocaleString();$('.rolling-number').text(formattedEndValue);}}function isInViewport(){var elementTop=$('.rolling-number').offset().top;var viewportTop=$(window).scrollTop();var viewportBottom=viewportTop+$(window).height();var elementHeight=$('.rolling-number').outerHeight();var triggerThreshold=elementHeight*0.4;return elementTop<viewportBottom-triggerThreshold;}if(!animationTriggered&&isInViewport()){animationTriggered=true;updateNumber(start);}$(window).on('scroll',function(){if(!animationTriggered&&isInViewport()){animationTriggered=true;updateNumber(start);}});});
+  
+</script>
+<style>
+/* Mailerlite Modifications 
+====================================================================================*/
+.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+  width: 65% !important;
+}
+.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal{
+  width: 35% !important;
+}
+
+#signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 10px 10px 10px 20px !important;
+  height: 50px !important;
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+  font-size: 19px !important;
+  font-weight: 700;
+  background-color: #F4F5F9 !important;
+}
+  
+#signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+  border-radius: 12px !important;
+  background: linear-gradient(86.12deg, #060F8F 21.63%, #0535EA 106.69%) !important;
+  height: 50px !important;
+  border: none !important;
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+  font-size: 19px !important;
+  transition: background 0.4s ease;
+}
+
+#signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
+  background: linear-gradient(86.12deg, #0535EA 21.63%, #0535EA 106.69%) !important;
+}
+  
+.ml-form ::-webkit-input-placeholder { color: #8A8FA4 !important;}
+.ml-form :-ms-input-placeholder{ color: #8A8FA4 !important; }
+.ml-form ::placeholder { color: #8A8FA4 !important; }
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent {
+  display: none !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm { 
+  padding: 0 !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, 
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+  padding: 0 !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper {
+  background: #fff !important;
+  padding: 6px 6px !important;
+  border-radius: 12px !important;
+  border: 0px solid #E2E5ED !important;
+}
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+  padding: 5px !important;
+  margin: 0 !important;
+}
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+  text-align: center !important; 
+  margin-top: 0 !important; 
+  margin-bottom: 0 !important; 
+  font-size: 18px !important; 
+  line-height: 26px !important; 
+  font-weight: 700 !important; 
+  color: #003057 !important; 
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  text-align: center !important; 
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+}
+  
+@media only screen and (max-width: 540px) {
+  #signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+  #signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+  #signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+  #signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input
+  #signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+    font-size: 14px !important;
+  }
+
+  #signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .ml-mobileButton-horizontal {
+    margin-bottom:0 !important;
+  }
+  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+    width: 100% !important;
+  }
+  .ml-form-embedContainer .ml-form-embedWrapper {
+  background: #fff !important;
+  padding: 5px !important;
+   border-radius: 12px !important;*/
+  border: 0 solid #E2E5ED !important;*/
+	}
+  .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+      padding: 0 !important;
+  }
+  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div {
+    margin: 0 !important;
+  }
+  #signup-1 .ml-mobileButton-horizontal button,
+  #signup-2 .ml-mobileButton-horizontal button,
+  #signup-3 .ml-mobileButton-horizontal button,
+  #signup-4 .ml-mobileButton-horizontal button {
+    border-radius: 12px !important;
+    background: linear-gradient(86.12deg, #060F8F 21.63%, #0535EA 106.69%) !important;
+    height: 50px !important;
+    border: none !important;
+    font-family: 'IBM Plex Sans',sans-serif  !important;
+  }
+  .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+    border: 2px solid #E2E5ED !important;
+  }
+  .ml-form {
+    min-height: 126px !important;
+  }
+}
+</style>
+<!-- OneTrust Cookies Consent Notice start for radixdlt.com -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/dad9f07c-a06a-4dd5-b3b9-a0c59235870b/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="dad9f07c-a06a-4dd5-b3b9-a0c59235870b" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for radixdlt.com -->
