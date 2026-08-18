@@ -51,6 +51,19 @@ for (const [col, list] of items) for (const it of list) {
   }
 }
 
+// Index items by a prefix of their longest text field. Some cards (testimonials,
+// social comments) render only the quote -- the item's NAME is a handle that never
+// appears in the card, so name- and asset-based identification both miss and the item
+// is silently dropped from the rendered list.
+const byBody = new Map();
+for (const [col, list] of items) for (const it of list) {
+  for (const v of Object.values(it.fieldData ?? {})) {
+    if (typeof v !== 'string' || v.length < 40) continue;
+    const key = v.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40).toLowerCase();
+    if (key.length >= 25 && !byBody.has(key)) byBody.set(key, { col, slug: it.fieldData.slug });
+  }
+}
+
 const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
 const strip = (h) => h
   .replace(/<(script|style)\b[\s\S]*?<\/\1>/gi, ' ')
@@ -114,6 +127,10 @@ function identify(segment) {
     if (n.length > 5 && t.includes(n) && (!best || n.length > best.n.length)) best = { n, rec: recs[0] };
   }
   if (best) return { collection: best.rec.col, slug: best.rec.slug };
+
+  // Last resort: match the card against the item's OWN body text. Catches cards that
+  // render only a quote, where the item's name is a handle shown nowhere.
+  for (const [key, rec] of byBody) if (t.includes(key)) return { collection: rec.col, slug: rec.slug };
   return null;
 }
 
