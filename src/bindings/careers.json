@@ -1,0 +1,27 @@
+{
+ "collection": "careers",
+ "template": "detail_careers.html",
+ "route": "/careers/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": [
+  {
+   "slot": 132,
+   "tag": "h1",
+   "class": "bm-10 w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 135,
+   "tag": "div",
+   "class": "c-rich-text w-dyn-bind-empty w-richtext",
+   "kind": "html",
+   "field": "job-spec",
+   "transform": "text",
+   "confidence": "8/8"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "collection": "radix-opp-statuses",
+ "template": "detail_radix-opp-statuses.html",
+ "route": "/radix-opp-statuses/:slug",
+ "samples": 8,
+ "head": [
+  {
+   "target": "title",
+   "field": "name",
+   "transform": "text",
+   "pattern": "{} | Radix DLT | Services Status",
+   "confidence": "8/8"
+  }
+ ],
+ "slots": [
+  {
+   "slot": 47,
+   "tag": "h1",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "8/8"
+  }
+ ]
+}

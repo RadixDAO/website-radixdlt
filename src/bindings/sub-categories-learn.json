@@ -1,0 +1,27 @@
+{
+ "collection": "sub-categories-learn",
+ "template": "detail_sub-categories-learn.html",
+ "route": "/sub-categories-learn/:slug",
+ "samples": 1,
+ "head": [],
+ "slots": [
+  {
+   "slot": 18,
+   "tag": "h1",
+   "class": "hero-title w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "main-category",
+   "transform": "ref.name",
+   "confidence": "1/1"
+  },
+  {
+   "slot": 19,
+   "tag": "p",
+   "class": "text-16px w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "1/1"
+  }
+ ]
+}

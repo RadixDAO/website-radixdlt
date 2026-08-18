@@ -1,0 +1,8 @@
+{
+ "collection": "full-stack-social-comments",
+ "template": "detail_full-stack-social-comments.html",
+ "route": "/full-stack-social-comments/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": []
+}

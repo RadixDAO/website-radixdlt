@@ -1,0 +1,29 @@
+{
+ "collection": "navigation-featured-section",
+ "template": "detail_navigation-featured-section.html",
+ "route": "/navigation-featured-section/:slug",
+ "samples": 3,
+ "head": [],
+ "slots": [
+  {
+   "slot": 71,
+   "tag": "a",
+   "class": "nav-featured-section w-inline-block",
+   "kind": "attr:href",
+   "field": "url-link",
+   "transform": "text",
+   "confidence": "1/3",
+   "inList": true
+  },
+  {
+   "slot": 149,
+   "tag": "a",
+   "class": "nav-featured-section w-inline-block",
+   "kind": "attr:href",
+   "field": "url-link",
+   "transform": "text",
+   "confidence": "1/3",
+   "inList": true
+  }
+ ]
+}

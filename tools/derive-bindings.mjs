@@ -7,7 +7,7 @@
 // acceptance test is that rendering it diffs clean against reference/live.
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { enumerate, signature } from './lib/dom-slots.mjs';
-import { collapseLists } from './lib/html-slice.mjs';
+import { collapseLists, documentParts } from './lib/html-slice.mjs';
 import { rewriteUrl } from './lib/rewrite-urls.mjs';
 
 const collection = process.argv[2];
@@ -38,8 +38,9 @@ for (const c of map) for (const i of loadRef(c.slug).values()) allRefItems.set(i
 
 const shellPath = `/Volumes/Development/radix/radixdlt.com/static export/${meta.detailTemplate}`;
 const shellRaw = readFileSync(shellPath, 'utf8');
-const shellHead = shellRaw.slice(shellRaw.search(/<head[^>]*>/), shellRaw.indexOf('</head>'));
-const shellBody = shellRaw.slice(shellRaw.search(/<body[^>]*>/), shellRaw.lastIndexOf('</body>'));
+const shellDoc = documentParts(shellRaw);
+const shellHead = shellDoc.head;
+const shellBody = shellDoc.body;   // must match convert-detail-templates.mjs exactly
 const shellEls = enumerate(shellBody);
 const shellSig = shellEls.map(signature);
 
@@ -108,7 +109,7 @@ for (const item of live) {
   const raw = readFileSync(p, 'utf8');
   // Collapse populated lists to one item so the live DOM is 1:1 with the shell --
   // otherwise LCS absorbs the extra items by mis-pairing nav elements.
-  const body = collapseLists(raw.slice(raw.search(/<body[^>]*>/), raw.lastIndexOf('</body>')));
+  const body = collapseLists(documentParts(raw).body);
   const liveEls = enumerate(body);
   const liveSig = liveEls.map(signature);
 
@@ -205,7 +206,7 @@ for (const item of live) {
   const fp = `reference/live/${collection}/${slug}.html`;
   if (!slug || !existsSync(fp)) continue;
   const lh = readFileSync(fp, 'utf8');
-  const liveHead = lh.slice(lh.search(/<head[^>]*>/), lh.indexOf('</head>'));
+  const liveHead = documentParts(lh).head;
   const cands = candidates(item);
   const tail = (x) => { try { return decodeURI(String(x)).split('/').filter(Boolean).pop(); } catch { return String(x); } };
   for (const [name, get] of HEAD_TARGETS) {

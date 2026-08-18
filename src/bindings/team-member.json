@@ -1,0 +1,8 @@
+{
+ "collection": "team-member",
+ "template": "detail_team-member.html",
+ "route": "/team-member/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": []
+}

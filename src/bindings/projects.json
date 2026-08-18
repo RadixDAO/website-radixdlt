@@ -1,0 +1,19 @@
+{
+ "collection": "projects",
+ "template": "detail_projects.html",
+ "route": "/projects/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": [
+  {
+   "slot": 3,
+   "tag": "a",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "categories",
+   "transform": "ref[].name",
+   "confidence": "8/8",
+   "inList": true
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "collection": "articles-learn",
+ "template": "detail_articles-learn.html",
+ "route": "/articles-learn/:slug",
+ "samples": 8,
+ "head": [
+  {
+   "target": "title",
+   "field": "name",
+   "transform": "text",
+   "pattern": "{} | The Radix Knowledge Base",
+   "confidence": "8/8"
+  }
+ ],
+ "slots": [
+  {
+   "slot": 14,
+   "tag": "a",
+   "class": "breadcrumb-link",
+   "kind": "inner",
+   "field": "article-category",
+   "transform": "ref.name",
+   "confidence": "4/8"
+  },
+  {
+   "slot": 16,
+   "tag": "img",
+   "class": "article-icon",
+   "kind": "attr:src",
+   "field": "icon",
+   "transform": "asset",
+   "confidence": "4/8"
+  },
+  {
+   "slot": 17,
+   "tag": "h1",
+   "class": "article-title w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 18,
+   "tag": "div",
+   "class": "article-body w-dyn-bind-empty w-richtext",
+   "kind": "html",
+   "field": "full-article-text",
+   "transform": "text",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 34,
+   "tag": "div",
+   "class": "liketext jetboost-item-total-favorites-b1k8 w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "article-likes",
+   "transform": "text",
+   "confidence": "3/8"
+  },
+  {
+   "slot": 37,
+   "tag": "div",
+   "class": "liketext jetboost-item-total-favorites-b1k8 w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "article-likes",
+   "transform": "text",
+   "confidence": "3/8"
+  },
+  {
+   "slot": 63,
+   "tag": "a",
+   "class": "category-link-article w-inline-block",
+   "kind": "attr:href",
+   "field": "article-category",
+   "transform": "ref.slug",
+   "confidence": "1/8",
+   "inList": true
+  },
+  {
+   "slot": 66,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "article-category",
+   "transform": "ref.name",
+   "confidence": "1/8",
+   "inList": true
+  },
+  {
+   "slot": 77,
+   "tag": "img",
+   "class": "icon-3",
+   "kind": "attr:src",
+   "field": "icon",
+   "transform": "asset",
+   "confidence": "4/8",
+   "inList": true
+  }
+ ]
+}

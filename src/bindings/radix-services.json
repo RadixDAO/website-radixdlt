@@ -1,0 +1,8 @@
+{
+ "collection": "radix-services",
+ "template": "detail_radix-services.html",
+ "route": "/radix-services/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": []
+}

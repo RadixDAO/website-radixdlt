@@ -1,0 +1,8 @@
+{
+ "collection": "partners",
+ "template": "detail_partners.html",
+ "route": "/partners/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": []
+}

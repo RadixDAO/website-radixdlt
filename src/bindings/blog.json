@@ -14,7 +14,7 @@
  ],
  "slots": [
   {
-   "slot": 128,
+   "slot": 127,
    "tag": "div",
    "class": "cbfs-tag w-dyn-bind-empty",
    "kind": "inner",
@@ -24,7 +24,7 @@
    "inList": true
   },
   {
-   "slot": 135,
+   "slot": 134,
    "tag": "div",
    "class": "cbfs-tag w-dyn-bind-empty",
    "kind": "inner",
@@ -34,7 +34,7 @@
    "inList": true
   },
   {
-   "slot": 139,
+   "slot": 138,
    "tag": "div",
    "class": "blog-single-img-inner",
    "kind": "attr:style",
@@ -43,7 +43,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 141,
+   "slot": 140,
    "tag": "h2",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -52,7 +52,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 142,
+   "slot": 141,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -61,7 +61,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 150,
+   "slot": 149,
    "tag": "div",
    "class": "single-content w-dyn-bind-empty w-richtext",
    "kind": "html",
@@ -70,7 +70,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 155,
+   "slot": 154,
    "tag": "a",
    "class": "author-group w-inline-block",
    "kind": "attr:href",
@@ -79,7 +79,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 158,
+   "slot": 157,
    "tag": "h5",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -88,7 +88,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 177,
+   "slot": 176,
    "tag": "div",
    "class": "",
    "kind": "inner",
@@ -98,7 +98,7 @@
    "inList": true
   },
   {
-   "slot": 205,
+   "slot": 204,
    "tag": "div",
    "class": "c-img-blog-inner",
    "kind": "attr:style",
@@ -108,7 +108,7 @@
    "inList": true
   },
   {
-   "slot": 212,
+   "slot": 211,
    "tag": "div",
    "class": "cbfs-tag w-dyn-bind-empty",
    "kind": "inner",
@@ -118,7 +118,7 @@
    "inList": true
   },
   {
-   "slot": 215,
+   "slot": 214,
    "tag": "h4",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -128,7 +128,7 @@
    "inList": true
   },
   {
-   "slot": 218,
+   "slot": 217,
    "tag": "div",
    "class": "cbfs-date w-dyn-bind-empty",
    "kind": "inner",

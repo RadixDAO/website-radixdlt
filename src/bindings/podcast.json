@@ -1,0 +1,53 @@
+{
+ "collection": "podcast",
+ "template": "detail_podcast.html",
+ "route": "/podcast/:slug",
+ "samples": 5,
+ "head": [
+  {
+   "target": "title",
+   "field": "name",
+   "transform": "text",
+   "pattern": "{} | Podcast | Radix DLT - Decentralized Ledger Technology",
+   "confidence": "5/5"
+  }
+ ],
+ "slots": [
+  {
+   "slot": 312,
+   "tag": "h1",
+   "class": "bm-10 w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "5/5"
+  },
+  {
+   "slot": 313,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "date",
+   "transform": "date:MMMM D, YYYY",
+   "confidence": "5/5"
+  },
+  {
+   "slot": 322,
+   "tag": "img",
+   "class": "image-15 w-dyn-bind-empty",
+   "kind": "attr:src",
+   "field": "guest-image",
+   "transform": "asset",
+   "confidence": "5/5"
+  },
+  {
+   "slot": 332,
+   "tag": "div",
+   "class": "c-rich-text w-dyn-bind-empty w-richtext",
+   "kind": "html",
+   "field": "excerpt",
+   "transform": "text",
+   "confidence": "3/5"
+  }
+ ]
+}

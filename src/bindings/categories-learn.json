@@ -1,0 +1,35 @@
+{
+ "collection": "categories-learn",
+ "template": "detail_categories-learn.html",
+ "route": "/categories-learn/:slug",
+ "samples": 5,
+ "head": [
+  {
+   "target": "title",
+   "field": "name",
+   "transform": "text",
+   "pattern": "{} | The Radix Knowledge Base",
+   "confidence": "5/5"
+  }
+ ],
+ "slots": [
+  {
+   "slot": 16,
+   "tag": "img",
+   "class": "category-image w-dyn-bind-empty",
+   "kind": "attr:src",
+   "field": "icon",
+   "transform": "asset",
+   "confidence": "5/5"
+  },
+  {
+   "slot": 18,
+   "tag": "h1",
+   "class": "hero-title w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "5/5"
+  }
+ ]
+}

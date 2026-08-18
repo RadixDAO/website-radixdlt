@@ -1,0 +1,8 @@
+{
+ "collection": "events",
+ "template": "detail_events.html",
+ "route": "/events/:slug",
+ "samples": 8,
+ "head": [],
+ "slots": []
+}

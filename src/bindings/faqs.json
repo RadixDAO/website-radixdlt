@@ -1,0 +1,8 @@
+{
+ "collection": "faqs",
+ "template": "detail_faqs.html",
+ "route": "/faqs/:slug",
+ "samples": 5,
+ "head": [],
+ "slots": []
+}
