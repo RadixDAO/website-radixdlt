@@ -1,0 +1,180 @@
+ {
+   "id": "69eb1e5630aad0a16f70abbb",
+   "displayName": "Articles { learn }",
+   "singularName": "Articles { learn }",
+   "slug": "articles-learn",
+   "createdOn": "2026-04-24T07:40:06.829Z",
+   "lastUpdated": "2026-04-24T07:44:36.559Z",
+   "fields": [
+     {
+       "id": "bca03dc20d4bfcc4648aa486649debda",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "icon",
+       "displayName": "Icon",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "c10c1f9f6147d64b50b0a2f0f3df9c73",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Reference",
+       "slug": "article-category",
+       "displayName": "Article Category",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69eb1e91745be047bb44b534"
+       }
+     },
+     {
+       "id": "fa7be2f15ea17b53cfee41ae80122522",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Reference",
+       "slug": "sub-category",
+       "displayName": "Sub Category",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69eb1ebc49e0fc5f9abc303d"
+       }
+     },
+     {
+       "id": "f2d0c0d397ffbb4fcf93bc107daf29fa",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "full-article-text",
+       "displayName": "Full Article Text",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "93ea33950031b77404a66f3425911648",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "top-note",
+       "displayName": "Top Note",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "cd923cbffc795e781840f4c353b2847e",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "bottom-note-extra-tip",
+       "displayName": "Bottom Note (Extra Tip)",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "221369640c65a6c52d1f75db833e8947",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Reference",
+       "slug": "author",
+       "displayName": "Author",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69eb1dcfdf507b399377ca82"
+       }
+     },
+     {
+       "id": "7ec9c0ac61f1794c36ef93720d467b7b",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "VideoLink",
+       "slug": "article-video",
+       "displayName": "Article Video",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "6c8b5faec561a868021bb34cd07be889",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "featured-in-homepage",
+       "displayName": "Featured in homepage?",
+       "helpText": "Featured on homepage",
+       "validations": null
+     },
+     {
+       "id": "2cb0105924402497202f78f023a58c8a",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "featured-in-header",
+       "displayName": "Featured in Header?",
+       "helpText": "Will be featured in page header",
+       "validations": null
+     },
+     {
+       "id": "3caedb32476f000542dc0ea0f99a4c46",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "feature-in-category-header",
+       "displayName": "Feature in Category Header?",
+       "helpText": "Featured in Category Page header",
+       "validations": null
+     },
+     {
+       "id": "79012dde109043af1c5ee98cdf58aeb9",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "feature-in-search",
+       "displayName": "Feature in search?",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "a7d7102ae6d8b53acf9cce2d2b0ece7e",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Number",
+       "slug": "article-likes",
+       "displayName": "Article Likes",
+       "helpText": "This is for Jetboost. Do not fill!",
+       "validations": {
+         "format": "integer",
+         "precision": 1,
+         "allowNegative": false
+       }
+     },
+     {
+       "id": "8ae61bd5894be530604e5f79013b1940",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "ee5d1df42cfada98bbf89d7df3a3f7fb",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

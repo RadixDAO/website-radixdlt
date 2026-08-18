@@ -1,0 +1,72 @@
+[
+ {
+  "id": "649aa8a9681ec6168a57d973",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-25T01:12:11.281Z",
+  "createdOn": "2021-04-25T01:12:11.281Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "content": "Radix is the first layer-one protocol specifically built to serve DeFi. This protocol is the basis of the Radix public network \u2013 a fully decentralized platform for DeFi applications and users. Decentralized finance applications are currently built on protocols that are not fit for this purpose, leading to congestion, hacks and developer frustration. Radix changes this by introducing a scalable, secure-by-design, composable platform with a DeFi centric development environment to make it easy to build and launch scalable DeFi products.",
+   "name": "What is Radix?",
+   "slug": "what-is-radix"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57d952",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-25T01:11:59.925Z",
+  "createdOn": "2021-04-25T01:11:59.925Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "content": "DLT means decentralized ledger technology. Blockchains and DAGs are types of DLTs. Radix has a novel data structure and consensus design and so it is different from blockchains and DAGs, hence why Radix is often referred to generally as a \u201cDLT\u201d.",
+   "name": "What is a DLT?",
+   "slug": "what-is-a-dlt"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57d931",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-25T01:11:42.146Z",
+  "createdOn": "2021-04-25T01:11:42.146Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "content": "Scalability typically refers to the amount of transactions the network can process over a period of time (often measured in TPS - transactions per second) and how fast the network can finalize transactions (seconds, minutes, hours). Radix provides transaction finality in seconds. And when fully rolled out, Radix\u2019s sharded Cerberus consensus will enable a \u201clinearly scalable\u201d network which means that the more nodes you put to work the more transactions the network can process.",
+   "name": "What is Scalability?",
+   "slug": "what-is-scalability"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57d915",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-25T01:11:28.517Z",
+  "createdOn": "2021-04-25T01:11:28.517Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "content": "Decentralized Finance are financial tools running on top of a decentralized ledger. For example, decentralized exchanges, lending/borrowing platforms, automated market makers (like Uniswap), and hedge funds. DeFi has the potential to replace global financial systems with a more democratic, competitive system built by a new generation of innovators.",
+   "name": "What is DeFi",
+   "slug": "what-is-defi"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57d8fb",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-25T01:11:08.471Z",
+  "createdOn": "2021-04-25T01:10:46.717Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "content": "There are no fundamental theoretical limitations to the total number of independent transactions Cerberus can process concurrently in distinct shards. In that regard, Cerberus scales linearly with the number of nodes.",
+   "name": "How scalable is Radix?",
+   "slug": "how-scalable-is-radix"
+  }
+ }
+]

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.DS_Store
+webflow.json
+# Large binary payloads — reproducible via tools/, not versioned
+public/assets/
+public/legacy/
+reference/live/
+reference/mirror-live.log
+reference/live-failures.txt

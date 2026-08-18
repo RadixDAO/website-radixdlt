@@ -1,0 +1,121 @@
+ {
+   "id": "650a16415183e6fd3dd25ea6",
+   "displayName": "Navigation Featured Sections",
+   "singularName": "Navigation Featured Section",
+   "slug": "navigation-featured-section",
+   "createdOn": "2023-09-19T21:44:33.653Z",
+   "lastUpdated": "2025-06-10T09:02:35.967Z",
+   "fields": [
+     {
+       "id": "2f6d0751c3cd198e16a0ba234b96cbc8",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "location",
+       "displayName": "Location",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Use",
+             "id": "99b8615830fb0196ceb686973d337306"
+           },
+           {
+             "name": "Build",
+             "id": "9b468adb0ed4e1fb626d0ead2d92ee35"
+           },
+           {
+             "name": "Learn",
+             "id": "d437c3a6ac67d7f37c4a6008ff71adbf"
+           }
+         ]
+       }
+     },
+     {
+       "id": "f4ffde8db71626599440e505c4e9cd77",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Link",
+       "slug": "url-link",
+       "displayName": "URL Link",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "e6349f66d0d6ba1c29d45ee8a7be5e42",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "image",
+       "displayName": "Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "e547c91ec10d31e1a97b765ea62c0ea2",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "content-2",
+       "displayName": "Content",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "5abc5ebb90f920e247e416e67f9880f0",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "gradient-text",
+       "displayName": "Gradient text",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "f8f1dc96902cc50e40a78532abad2803",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "text-with-play-icon",
+       "displayName": "Text with Play Icon",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "7c517e696d070196ea0cd5c772434cd2",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "e161a1c94a5b2801cd068c1f6a3ac58c",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,72 @@
+ {
+   "id": "649aa8a9681ec6168a57d9e2",
+   "displayName": "Blog Categories",
+   "singularName": "Blog Category",
+   "slug": "blog-category",
+   "createdOn": "2022-05-20T12:30:29.639Z",
+   "lastUpdated": "2025-06-10T09:02:35.946Z",
+   "fields": [
+     {
+       "id": "a9fb9d873aa2d6ad7e2e0ac2f3519861",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "description",
+       "displayName": "Description",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "e40985f4e8f398f2450a4de25a4bc0f6",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Color",
+       "slug": "text-colour",
+       "displayName": "Text Colour",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "4c40cf0f390623bb27dae05a8b3516d3",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Color",
+       "slug": "background-colour",
+       "displayName": "Background Colour",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "f17d93c861ccff260001d2504cec479a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "5d1d6057cdc524cbf7e8fb9bb4b2ff81",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,141 @@
+ {
+   "id": "649aa8a9681ec6168a57d9cc",
+   "displayName": "Events",
+   "singularName": "Event",
+   "slug": "events",
+   "createdOn": "2022-03-10T04:30:21.154Z",
+   "lastUpdated": "2025-06-10T09:02:35.929Z",
+   "fields": [
+     {
+       "id": "91967f76b74a90243a281a1c90e96c8f",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Image",
+       "slug": "event-image",
+       "displayName": "Event Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "bb872d5d594a8e0ef2e51e1077830276",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "event-category",
+       "displayName": "Event Category",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Developer Events",
+             "id": "40034f0dcec0c8a905ad800fdd9c5bcf"
+           },
+           {
+             "name": "Events",
+             "id": "ef405bb90e59d4f8366489b9f79c6209"
+           },
+           {
+             "name": "Community Events",
+             "id": "90ad4a1fa8cf5467ab8fd98b0cece705"
+           }
+         ]
+       }
+     },
+     {
+       "id": "a22c3d460ba5814556016091d6921c1d",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "description",
+       "displayName": "Description",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "b95dd4b5555ba3859759d9aedb7b9412",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "location",
+       "displayName": "Location",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "8469598f254f93756da541bb22743bd3",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "DateTime",
+       "slug": "start-date",
+       "displayName": "Start Date",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "918a36c8fef1a3fac53599054d056b05",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "DateTime",
+       "slug": "end-date",
+       "displayName": "End Date",
+       "helpText": "If blank the design will assume a one day event",
+       "validations": null
+     },
+     {
+       "id": "16eb18118c4a986ae491fea6fdc901f1",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "event-link-text",
+       "displayName": "Event Link Text",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "8b73654f07c66b0ae4e12d4b9983de67",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "event-link-url",
+       "displayName": "Event Link URL",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "97bd20a7971c7106fb7d1aabb2c657bb",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "3e885241364921f1f2d3df3ec2eeae9a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

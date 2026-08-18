@@ -1,0 +1,107 @@
+ {
+   "id": "649aa8a9681ec6168a57d9ab",
+   "displayName": "Tweets",
+   "singularName": "Tweet",
+   "slug": "tweets",
+   "createdOn": "2021-04-24T19:01:10.512Z",
+   "lastUpdated": "2025-06-10T09:02:35.948Z",
+   "fields": [
+     {
+       "id": "dc89494885ef95503595ef083bab4e6c",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "location",
+       "displayName": "Location",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Global Radix",
+             "id": "3b9181d68c7009dbcbdf843bce46361f"
+           },
+           {
+             "name": "Radfi2022",
+             "id": "23f65c4f16147049f599abaac991764c"
+           }
+         ]
+       }
+     },
+     {
+       "id": "94a73469b52c7e67a7c4d140272e3deb",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Link",
+       "slug": "url",
+       "displayName": "URL",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "dfe82608afc7b999acef2244b8b047d9",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Image",
+       "slug": "avatar",
+       "displayName": "Avatar",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "47e7b786e94b1607f3a42c2d7899c21b",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "content",
+       "displayName": "Content",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "8132223c922c88a07927f4d8d4ccd1e1",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Number",
+       "slug": "order",
+       "displayName": "Order",
+       "helpText": null,
+       "validations": {
+         "format": "integer",
+         "precision": 1,
+         "allowNegative": false
+       }
+     },
+     {
+       "id": "de16fb0123730c5723f23b44789e7d18",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "c1daf083cdd0fc8c46ae31af921f2449",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,84 @@
+ {
+   "id": "69eb1e91745be047bb44b534",
+   "displayName": "Categories { learn }",
+   "singularName": "Categories { learn }",
+   "slug": "categories-learn",
+   "createdOn": "2026-04-24T07:41:05.909Z",
+   "lastUpdated": "2026-04-24T07:42:13.303Z",
+   "fields": [
+     {
+       "id": "c937ef2f39cfcdd109154def109cbbb3",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "icon",
+       "displayName": "Icon",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "1212bda8e7337f53d2a87e978dc1197e",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "number-of-questions",
+       "displayName": "Number of questions",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "66bba315b2cb4be3f1826434c0d41023",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "subcategory-set",
+       "displayName": "Subcategory set?",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "5900487036155e069d8e2dce4f1831f9",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "MultiReference",
+       "slug": "subcategory",
+       "displayName": "Subcategory",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69eb1ebc49e0fc5f9abc303d"
+       }
+     },
+     {
+       "id": "38758861318a791bb866893d2447d353",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "30617f110081c4a07addd3fec3c6766f",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

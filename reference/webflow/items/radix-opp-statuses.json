@@ -1,0 +1,915 @@
+[
+ {
+  "id": "69eb0d133d16cd5eb1316ca3",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:01:51.008Z",
+  "createdOn": "2026-04-24T06:26:27.844Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-02-02T17:46:00.000Z",
+   "last-update": "2022-02-08T19:55:00.000Z",
+   "content": "<p id=\"\">UPDATE:&nbsp;This issue has been resolved as of Radix Wallet release 1.3.2</p><p id=\"\">\u200d</p><p id=\"\">We have reproduced a problem where the Radix Wallet UI&nbsp;can become sluggish, particularly when looking at the transaction history. The application has to be restarted in order to restore normal performance.</p><p id=\"\">Some optimizations have been made to reduce memory and CPU demand, and an updated build is currently under testing.</p><p id=\"\">\u200d</p><p id=\"\">\u200d</p>",
+   "name": "Wallet UI may be laggy or unresponsive until restarted",
+   "slug": "windows-wallet-ui-laggy-or-unresponsive-until-restarted"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316ca1",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.721Z",
+  "createdOn": "2026-04-24T06:26:27.721Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-03-16T17:15:00.000Z",
+   "last-update": "2022-04-01T16:16:00.000Z",
+   "content": "<p id=\"\">With the new Core API and Gateway services operational, wallet versions older than 1.3 will no longer be able to connect to the mainnet. </p><p id=\"\">\u200d</p><p id=\"\">You must update your wallet to connect. You can download the latest version of the Radix Desktop Wallet here:&nbsp;https://wallet.radixdlt.com</p>",
+   "name": "Wallet cannot connect to mainnet",
+   "slug": "wallet-cannot-connect-to-mainnet"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c9f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.611Z",
+  "createdOn": "2026-04-24T06:26:27.611Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2023-01-18T21:15:00.000Z",
+   "last-update": "2023-01-18T21:15:00.000Z",
+   "content": "<p id=\"\">The Gateway Service will be undergoing maintenance at some point between 10 AM - 11 AM GMT on Thursday 19 Jan. &nbsp;During this time there may be stale data or error codes returned from the mainnet Gateway. We expect this disruption to last approximately 5 minutes once maintenance work begins.</p>",
+   "name": "Upcoming Gateway Maintenance",
+   "slug": "upcoming-gateway-maintenance-3"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c9d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.499Z",
+  "createdOn": "2026-04-24T06:26:27.499Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-11-02T10:00:00.000Z",
+   "last-update": "2022-11-02T10:00:00.000Z",
+   "content": "<p id=\"\">Gateway is undergoing maintenance during time period 11 AM -12 PM GMT on Wednesday 2nd November. During which there may be stale data or error codes returned from the mainnet Gateway. We expect this disruption to last approximately 5 minutes during the above mentioned time period.</p>",
+   "name": "Upcoming Gateway Maintenance",
+   "slug": "upcoming-gateway-maintenance-2"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c9b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.379Z",
+  "createdOn": "2026-04-24T06:26:27.379Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8bf",
+    "69eb0c39904d0db4dee8f8c3",
+    "69eb0c39904d0db4dee8f8c1"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-10-21T10:30:00.000Z",
+   "last-update": "2022-10-21T10:30:00.000Z",
+   "content": "<p id=\"\">There will be a short window of Gateway downtime at on Monday 24th October, when there may be stale data or error codes returned from the RTJL Gateway. We expect this maintenance window to last approximately 5 minutes.</p>",
+   "name": "Upcoming Gateway Maintenance",
+   "slug": "upcoming-gateway-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c99",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.269Z",
+  "createdOn": "2026-04-24T06:26:27.269Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bb"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-06-30T11:30:00.000Z",
+   "last-update": "2022-06-30T12:05:00.000Z",
+   "content": "<p id=\"\">Details - PTE01 and PTE02 environment encountered issue in deployment . This issue resulted in data not being reclaimed properly. So existing transactional data aren't available. &nbsp;Team are working on to reclaim the data</p><p id=\"\">\u200d</p><p id=\"\">We have been able to recover the data on PTE environments</p>",
+   "name": "Title - PTE01 and PTE02 environments are offline due to issue with data storage",
+   "slug": "title-pte01-and-pte02-environments-are-offline-due-to-issue-with-data-storage"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c97",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.142Z",
+  "createdOn": "2026-04-24T06:26:27.142Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2021-11-15T13:53:00.000Z",
+   "last-update": "2021-11-15T13:53:00.000Z",
+   "content": "<p id=\"\">Investigating.</p>",
+   "name": "Slow Wallet and Explorer response in US region due to high demand on achive nodes",
+   "slug": "slow-wallet-and-explorer-response-in-us-region-due-to-high-demand-on-achive-nodes"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c95",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:27.031Z",
+  "createdOn": "2026-04-24T06:26:27.031Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8c3",
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8c1"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2021-12-31T00:00:00.000Z",
+   "last-update": "2022-01-03T15:45:00.000Z",
+   "content": "<p id=\"\">Radix archive nodes are currently under high demand and are processing requests very slowly or dropping requests. This can lead to your Wallet incorrectly showing no balance.</p><p id=\"\">\u200d</p><p id=\"\">Update Jan-3:&nbsp;Issue has been resolved.</p>",
+   "name": "Slow Wallet and Explorer response due to high demand on archive nodes",
+   "slug": "slow-wallet-and-explorer-response-due-to-high-demand-on-archive-nodes"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c93",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.916Z",
+  "createdOn": "2026-04-24T06:26:26.916Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2021-09-17T10:00:00.000Z",
+   "last-update": "2021-09-24T19:30:00.000Z",
+   "content": "<p id=\"\">Update:&nbsp;Wallet version 1.2.2 is now live and expected to solve the issues. More details here: <a id=\"\" href=\"https://www.radixdlt.com/post/radix-wallet-update-v1-2-2\">https://www.radixdlt.com/post/radix-wallet-update-v1-2-2</a><br><br>We are aware of an issue with the wallet that is causing it to send too many requests, which is triggering the DDoS prevention we had to scale up in the last few weeks due to repeated DDoS attacks. This is only affecting the wallet interface - there is no issue with the core network or funds.</p><p id=\"\">\u200d</p><p id=\"\">We are working on a fix in the wallet that will resolve this, and is due on Friday this week. </p><p id=\"\">\u200d</p><p id=\"\">Further details in the below video update from Radix DLT&nbsp;CTO, Russell.</p><p id=\"\">\u200d</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/XdG-JlELkzE\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/XdG-JlELkzE\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+   "name": "Radix Wallet - Bluescreen",
+   "slug": "radix-wallet-bluescreen"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c91",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.810Z",
+  "createdOn": "2026-04-24T06:26:26.810Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2021-11-07T19:10:00.000Z",
+   "last-update": "2021-11-09T17:45:00.000Z",
+   "content": "<p id=\"\">Due an influx of demand, Radix-provided archive nodes (nodes which provide data to the Wallet and <a id=\"\" href=\"https://explorer.radixdlt.com/\" target=\"_blank\">https://explorer.radixdlt.com</a>) are currently experiencing some difficulties keeping up with the current volume of requests. &nbsp;This is causing slow performance for some users, up to and including outright timeouts on requests. Network consensus is unaffected; this is strictly a user interface-level issue.<br><br>To address this problem as quickly as possible, Radix has \"cross-wired\" some archive nodes in lower demand regions to also serve requests from our areas of highest demand (Europe and the US), and we are in the process of spinning up additional archive nodes. &nbsp;We expect this will promptly get us back to snappy performance.<br><br>The long term resolution for this issue is migration to an updated API and gateway service, which will horizontally scale much more easily to meet much greater demand.&nbsp;This remains the Radix Network team's highest priority, and implementation has been underway for some time now. &nbsp;We do not yet have a high-confidence date for that release (which will coincide with a new Wallet release to take advantage of it).</p><p id=\"\">\u200d</p><p id=\"\">Update:&nbsp;Issue seems resolved for now. We will continue to monitor. </p>",
+   "name": "Radix Wallet and Explorer Slow Performance",
+   "slug": "radix-wallet-and-explorer-slow-performance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c8f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.699Z",
+  "createdOn": "2026-04-24T06:26:26.699Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf",
+    "69eb0c39904d0db4dee8f8c1",
+    "69eb0c39904d0db4dee8f8c3",
+    "69eb0c39904d0db4dee8f8bd"
+   ],
+   "severity": "c4752271c0d619470c9d2a7e139faa80",
+   "date-reported": "2023-12-04T00:19:00.000Z",
+   "last-update": "2023-12-04T10:15:00.000Z",
+   "content": "<p id=\"\">The Radix network is not processing new transactions. Radix Wallets and Dashboard are not showing balance or transaction information because the backing Gateway Service has noticed that the network is not progressing and is configured to not respond to informational queries in that case.</p><p id=\"\">\u200d</p><p id=\"\">Funds are secure, RDX&nbsp;Works team is investigating the issue.</p><p id=\"\">\u200d</p><p id=\"\">Update 2023/12/4 3:07 AM:&nbsp;Cause of the issue is now believed to be known, working on a fix.</p><p id=\"\">Update 2023/12/4 7:52 AM:&nbsp;A new version of the node is being packaged to fix the issue, and this is expected to be released within an hour. When enough validators update to this release, the network should be functional once again.</p><p id=\"\">Update 2023/12/4 9:02 AM:&nbsp;Node v1.0.5 has been published, and so far 25 validators have updated. Network functionality should resume once enough validators (~70 out of 100) have updated.</p><p id=\"\">Update 2023/12/4 9:50 AM:&nbsp;The network is now live, although running with high latency. The network speed will pick up as further validators update. We expect Gateway and Wallet functionality to be back online within the next 30 minutes.</p><p id=\"\">Update 23/12/4 10:15 AM:&nbsp;The Gateway and Wallet functionality is back online. </p>",
+   "name": "Radix network not processing transactions",
+   "slug": "radix-network-not-processing-transactions"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c8d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.584Z",
+  "createdOn": "2026-04-24T06:26:26.584Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-07-23T07:00:00.000Z",
+   "last-update": "2022-07-23T07:00:00.000Z",
+   "content": "<p id=\"\">Planned update of DNS for <a id=\"\" href=\"http://mainnet.radixdlt.com/\" target=\"_blank\">mainnet.radixdlt.com</a> is scheduled for Saturday between 8 AM - &nbsp;9 AM GMT. This may cause disruptions to wallets and explorer for short period of time until DNS update propagates to all ISP providers. This is not expected to be more than 30 minutes, but may vary from provider to provider.</p>",
+   "name": "Potential disruption to wallets, explorer that access mainnet gateway",
+   "slug": "potential-disruption-to-wallets-explorer-that-access-mainnet-gateway"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c8b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.471Z",
+  "createdOn": "2026-04-24T06:26:26.471Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bb"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-07-26T08:30:00.000Z",
+   "last-update": "2022-07-26T08:30:00.000Z",
+   "content": "<p id=\"\">Planned migration of Pte01 and pte02 data between 9AM-10AM GMT Tuesday 26. This may cause issues with the services not accepting traffic for short period of time. This is not expected to be more than 30 minutes.</p>",
+   "name": "Potential disruption to PTE website",
+   "slug": "potential-disruption-to-pte-website"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c89",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-24T06:37:10.804Z",
+  "createdOn": "2026-04-24T06:26:26.358Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bb"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2020-12-17T08:57:33.000Z",
+   "last-update": "2022-05-08T16:04:34.000Z",
+   "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p>",
+   "name": "Possimus Ullam Numquam",
+   "slug": "possimus-ullam-numquam"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c87",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.248Z",
+  "createdOn": "2026-04-24T06:26:26.248Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bb",
+    "69eb0c39904d0db4dee8f8bf"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-09-29T08:00:00.000Z",
+   "last-update": "2022-09-29T20:00:00.000Z",
+   "content": "<p id=\"\"><em id=\"\">Planned update of mainnet network gateway instances is scheduled between 11:00 AM - 1:00 PM GMT 29th September. The disruption is estimated to last for 5 minutes or less. </em><a id=\"\" href=\"http://mainnet.radixdlt.com/\" target=\"_blank\"><em id=\"\">Mainnet.radixdlt.com</em></a><em id=\"\"> will be down and submission of transactions will be impacted for this brief period of disruption</em></p>",
+   "name": "Network Gateway Undergoing Planned Maintenance",
+   "slug": "network-gateway-undergoing-planned-maintenance-2"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c85",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.139Z",
+  "createdOn": "2026-04-24T06:26:26.139Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf",
+    "69eb0c39904d0db4dee8f8c3",
+    "69eb0c39904d0db4dee8f8bd"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2022-09-21T09:00:00.000Z",
+   "last-update": "2022-09-21T11:45:00.000Z",
+   "content": "<p id=\"\"><em id=\"\">Planned update of mainnet network gateway instances is scheduled between 11:00 AM - 1:00 PM GMT 22nd September. &nbsp; The disruption is estimated to last for 5 minutes or less. </em><a id=\"\" href=\"http://mainnet.radixdlt.com/\" target=\"_blank\"><em id=\"\">Mainnet.radixdlt.com</em></a><em id=\"\"> will be down and submission of transactions will be impacted for this brief period of disruption</em></p>",
+   "name": "Network Gateway Undergoing Planned Maintenance 22nd September",
+   "slug": "network-gateway-undergoing-planned-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c83",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:26.003Z",
+  "createdOn": "2026-04-24T06:26:26.003Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-03-29T09:53:00.000Z",
+   "last-update": "2022-03-29T10:55:00.000Z",
+   "content": "<p id=\"\">There is an issue with the DNS records that it\u2019s affecting the Network Gateway, so users in some countries may experience issues problems with the wallet. <br><br>We are working to resolve this as soon as possible.</p><p id=\"\">\u200d</p><p id=\"\">----------</p><p id=\"\">\u200d</p><p id=\"\">Update: The issue has been resolved and the DNS&nbsp;records have been propagated globally. Some users may continue to have issues accessing the wallet for a few more hours whilst their DNS&nbsp;records update.</p>",
+   "name": "Network Gateway DNS Issue",
+   "slug": "network-gateway-dns-issue"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c81",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-24T06:37:22.942Z",
+  "createdOn": "2026-04-24T06:26:25.887Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "status": "8e0819e294ace51e942b2873f55ed251",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8c3",
+    "69eb0c39904d0db4dee8f8c1",
+    "69eb0c39904d0db4dee8f8bb",
+    "69eb0c39904d0db4dee8f8bd"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2020-12-18T01:53:08.000Z",
+   "last-update": "2022-08-02T20:50:36.000Z",
+   "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p>",
+   "name": "Mattis Vestibulum Adipiscing",
+   "slug": "mattis-vestibulum-adipiscing"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c7f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:25.769Z",
+  "createdOn": "2026-04-24T06:26:25.769Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf",
+    "69eb0c39904d0db4dee8f8c1"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2023-01-10T12:02:00.000Z",
+   "last-update": "2023-01-11T12:02:00.000Z",
+   "content": "<p id=\"\">Jan 11th at 10 - 11 AM UK time mainnet nodes will be undergoing maintenance. </p><p id=\"\">Mainnet nodes address book is old and creating unnecessary port scanning on some of the old IP addresses. To cleanup the address book, mainnet nodes will be shut down for brief period one by one to minimise the impact on the network. Actual down-time on the individual node will be less than a minute.</p>",
+   "name": "Mainnet nodes including validators will be undergoing maintenance",
+   "slug": "mainnet-nodes-including-validators-will-be-undergoing-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c7d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-24T06:36:48.431Z",
+  "createdOn": "2026-04-24T06:26:25.623Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "status": "8e0819e294ace51e942b2873f55ed251",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b9",
+    "69eb0c39904d0db4dee8f8c1"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2021-06-05T02:40:14.000Z",
+   "last-update": "2021-05-09T21:36:26.000Z",
+   "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p>",
+   "name": "Magna Justo Malesuada",
+   "slug": "magna-justo-malesuada"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c7b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:25.488Z",
+  "createdOn": "2026-04-24T06:26:25.488Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8c3",
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8bb"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-06-22T16:17:00.000Z",
+   "last-update": "2023-06-22T17:25:00.000Z",
+   "content": "<p id=\"\">Update: Gateway functionality is back to normal for now. We will continue to investigate the root cause.</p><p id=\"\"> </p><p id=\"\">The gateway service for the Radix mainnet is having intermittent issues. The core network validator nodes are not affected. Users may have issues using the Radix Wallet.</p>",
+   "name": "Issues with Radix Gateway for Mainnet",
+   "slug": "issues-with-radix-gateway-for-mainnet"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c79",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:25.370Z",
+  "createdOn": "2026-04-24T06:26:25.370Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b9"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-03-01T15:33:00.000Z",
+   "last-update": "2023-03-06T15:33:00.000Z",
+   "content": "<p id=\"\">Instapass is now back online.</p><p id=\"\">\u200d</p><p id=\"\">Instapass will be offline for scheduled maintenance on the 6th March, 2023 from 9.30AM&nbsp;GMT until around 17:00&nbsp;GMT. If you experience any issues, please contact support@instapass.io</p>",
+   "name": "Instapass scheduled maintenance on 6 March, 2023",
+   "slug": "instapass-scheduled-maintenance-on-6-march-2023"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c77",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:25.253Z",
+  "createdOn": "2026-04-24T06:26:25.253Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b9"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-08-18T11:10:00.000Z",
+   "last-update": "2022-08-18T11:10:00.000Z",
+   "content": "<p id=\"\">Instapass email notifications, including account confirmation are currently not being sent due to technical issue. Teams are working to resolve this as soon as possible.</p>",
+   "name": "Instapass email notifications not being delivered",
+   "slug": "instapass-email-notifications-not-being-delivered"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c75",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:25.127Z",
+  "createdOn": "2026-04-24T06:26:25.127Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b9"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2023-05-01T09:00:00.000Z",
+   "last-update": "2023-05-01T07:35:00.000Z",
+   "content": "<p id=\"\">Instapass maintenance complete. Instapass is now back up and running. </p><p id=\"\">\u200d</p><p id=\"\">Instapass will be down for scheduled maintenance from 10am GMT&nbsp;for a short time. If you have any questions, please reach out to support@instapass.io</p>",
+   "name": "Instapass down for scheduled maintenance",
+   "slug": "instapass-down-for-scheduled-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c73",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.999Z",
+  "createdOn": "2026-04-24T06:26:24.999Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-08-18T16:00:00.000Z",
+   "last-update": "2023-08-18T18:05:00.000Z",
+   "content": "<p id=\"\">Services have resumed as normal.</p><p id=\"\">\u200d</p><p id=\"\">Instapass and Instabridge are currently experiencing some technical issues, for users trying to log in and use the services. The team are currently investigating to have these services back up and running as soon as possible. If you're experiencing any issues, please reach out to either support@instapass.io or support@instabridge.io</p><p id=\"\">\u200d</p>",
+   "name": "Instapass and Instabridge experiencing issues",
+   "slug": "instapass-and-instabridge-experiencing-issues"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c71",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.889Z",
+  "createdOn": "2026-04-24T06:26:24.889Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7",
+    "69eb0c39904d0db4dee8f8b9"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2023-01-24T09:00:00.000Z",
+   "last-update": "2023-01-24T17:00:00.000Z",
+   "content": "<p id=\"\">Instapass and Instabridge are now back online! Thanks for your patience.</p><p id=\"\">\u200d</p><p id=\"\">Instapass and Instabridge will be down for scheduled maintenance from 0900 on the 24th January, 2023. If you have any problems, please contact either support@instapass.io or support@instabridge.io</p>",
+   "name": "Instapass and Instabridge down for maintenance",
+   "slug": "instapass-and-instabridge-down-for-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c6f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.780Z",
+  "createdOn": "2026-04-24T06:26:24.780Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b9",
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-08-15T07:35:00.000Z",
+   "last-update": "2023-08-15T07:41:00.000Z",
+   "content": "<p id=\"\">All services have resumed. Any issues, please reach out to either support@instapass.io or support@instabridge.io</p><p id=\"\">\u200d</p><p id=\"\">Instapass and Instabridge are currently experiencing some technical issues, for users trying to log in and use the services. The team are currently investigating to have these services back up and running as soon as possible. If you're experiencing any issues, please reach out to either support@instapass.io or support@instabridge.io</p>",
+   "name": "Instapass and Instabridge experiencing issues",
+   "slug": "instapass-and-instabridge-are-offline"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c6d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.659Z",
+  "createdOn": "2026-04-24T06:26:24.659Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-05-30T10:00:00.000Z",
+   "last-update": "2022-05-30T12:00:00.000Z",
+   "content": "<p id=\"\">Instabridge - Offline between 11am-2pm BST for maintenance</p>",
+   "name": "Instabridge will be temporarily offline between 11am-2pm BST for maintenance",
+   "slug": "instabridge-will-be-temporarily-offline-between-11am-1pm-bst-for-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c6b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.537Z",
+  "createdOn": "2026-04-24T06:26:24.537Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-01-26T18:45:00.000Z",
+   "last-update": "2023-01-27T23:00:00.000Z",
+   "content": "<p id=\"\">Issue now resolved, all transactions are completing as expected. </p><p id=\"\">\u200d</p><p id=\"\">Instabridge is currently experiencing some delays in processing of transactions. The team are working to resolve this with any slow transactions being reprocessed until the issue is resolved. If you have any issues, please contact us on support@instabridge.io </p>",
+   "name": "Instabridge transactions slow to process",
+   "slug": "instabridge-transactions-slow-to-process"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c69",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.405Z",
+  "createdOn": "2026-04-24T06:26:24.405Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-03-01T15:30:00.000Z",
+   "last-update": "2023-03-06T15:30:00.000Z",
+   "content": "<p id=\"\">Instabridge is now back online.</p><p id=\"\">\u200d</p><p id=\"\">Instabridge will be offline for scheduled maintenance on the 3rd March, 2023 from 17:00&nbsp;GMT&nbsp;until the 6th March, 2023 at 17:00 GMT. If you have any issues, please contact support@instabridge.io</p>",
+   "name": "Instabridge scheduled maintenance from 3 March, 2023",
+   "slug": "instabridge-scheduled-maintenance-from-3-march-2023"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c67",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.292Z",
+  "createdOn": "2026-04-24T06:26:24.292Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-05-20T09:25:00.000Z",
+   "last-update": "2022-05-20T14:25:00.000Z",
+   "content": "<p id=\"\">The data feed is now back and up and running so we have removed the redirect from the Instabridge service</p><p id=\"\">\u200d</p><p id=\"\">We have taken Instabridge offline temporarily to protect users from an issue that is taking place from one of our data feed providers. As soon as the provider has resolved the issue Instabridge will be back online and we will update this page.</p>",
+   "name": "Instabridge - Offline Due to Data Feed Issue",
+   "slug": "instabridge-offline-due-to-data-feed-issue"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c65",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.168Z",
+  "createdOn": "2026-04-24T06:26:24.168Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2023-05-21T15:56:00.000Z",
+   "last-update": "2023-05-22T08:30:00.000Z",
+   "content": "<p id=\"\">Instabridge is now back online. If you have any questions, please contact support@instabridge.io</p><p id=\"\">\u200d</p><p id=\"\">Instabridge is currently offline. The team are working to get Instabridge back online as soon as possible.<br><br>\u200d</p>",
+   "name": "Instabridge offline",
+   "slug": "instabridge-offline"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c63",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:24.040Z",
+  "createdOn": "2026-04-24T06:26:24.040Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-06-10T09:45:00.000Z",
+   "last-update": "2022-06-10T16:35:00.000Z",
+   "content": "<p id=\"\">Instabridge maintenance being being performed from 5pm BST, no disruptions or downtime expected</p>",
+   "name": "Instabridge maintenance being performed from 5pm BST",
+   "slug": "instabridge-maintenance-being-performed-from-5pm-bst"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c61",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-24T06:37:50.578Z",
+  "createdOn": "2026-04-24T06:26:23.918Z",
+  "isArchived": false,
+  "isDraft": true,
+  "fieldData": {
+   "status": "8e0819e294ace51e942b2873f55ed251",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-09-14T22:00:00.000Z",
+   "last-update": "2022-09-14T08:57:00.000Z",
+   "content": "<p id=\"\">Due to Ethereum Merge, Instabridge will be taken offline from from 2300BST 14/09/22 until 1600BST 15/09/22 for maintenance and testing</p>",
+   "name": "Instabridge is offline for scheduled maintenance from 23:00BST 14/09/22 until 16:00BST 15/09/22",
+   "slug": "instabridge-is-offline-for-scheduled-maintenance-from-23-00bst-14-09-22-until-16-00bst-15-09-22"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c5f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:23.809Z",
+  "createdOn": "2026-04-24T06:26:23.809Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+   "date-reported": "2022-09-14T08:00:00.000Z",
+   "last-update": "2022-09-15T16:30:00.000Z",
+   "content": "<p id=\"\">Instabridge is back online. If you experience any issue accessing, please clear your cookies and browser cache</p><p id=\"\">\u200d</p><p id=\"\">Due to Ethereum Merge, Instabridge will be taken offline from from 2300BST 14/09/22 until 1600BST 15/09/22 for maintenance and testing.</p>",
+   "name": "Instabridge is offline for scheduled maintenance",
+   "slug": "instabridge-is-offline-for-scheduled-maintenance"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c5d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:23.700Z",
+  "createdOn": "2026-04-24T06:26:23.700Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2022-10-17T10:00:00.000Z",
+   "last-update": "2022-10-17T14:00:00.000Z",
+   "content": "<p id=\"\">We\u2019ve taken Instabridge offline temporarily to protect users from a log in issue currently occurring. As soon as this is resolved, Instabridge will be back online.<br><br>The issue is now resolved.</p>",
+   "name": "Instabridge is offline",
+   "slug": "instabridge-is-offline"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c5b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:23.591Z",
+  "createdOn": "2026-04-24T06:26:23.591Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "c4752271c0d619470c9d2a7e139faa80",
+   "date-reported": "2023-02-01T15:00:00.000Z",
+   "last-update": "2023-02-01T17:20:00.000Z",
+   "content": "<p id=\"\">Instabridge technical issue has been resolved.</p><p id=\"\">\u200d</p><p id=\"\">Instabridge is currently offline due to some technical issues with processing transactions. Our team is working to resolve this ASAP. If you have any issues, please contact support@instabridge.io </p>",
+   "name": "Instabridge currently offline",
+   "slug": "instabridge-currently-offline"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c59",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:23.481Z",
+  "createdOn": "2026-04-24T06:26:23.481Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bf"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2022-12-29T14:00:00.000Z",
+   "last-update": "2022-12-29T15:45:00.000Z",
+   "content": "<p id=\"\">Impacted services were:<br></p><ul id=\"\"><li id=\"\">Mainnet Gateway</li><li id=\"\">Stokenet Gateway</li><li id=\"\">Babylon Betanet Gateway</li></ul><p id=\"\">The full outage lasted from about 14:00 till around 14:40 and a partial outage / slowness lasted until 15:11.</p><p id=\"\">\u200d</p><p id=\"\">Issue is now resolved</p>",
+   "name": "Gateway Outage",
+   "slug": "gateway-outage"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c57",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:23.370Z",
+  "createdOn": "2026-04-24T06:26:23.370Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8c3"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2022-02-22T15:45:00.000Z",
+   "last-update": "2022-02-22T20:05:00.000Z",
+   "content": "<p id=\"\">The hosted Gateway Service is presently down, causing both the Wallet and the Explorer to be unusable when using the default mainnet.radixdlt.com endpoint.</p><p id=\"\">\u200d</p><p id=\"\">The network is operating normally; the problem is strictly with the hosted Gateway Service.</p><p id=\"\">\u200d</p><p id=\"\">Update:&nbsp;We have identified the root cause of the issue and are working on implementing and testing a fix.<br>Update 2:&nbsp;Issues has been resolved.</p><p id=\"\">\u200d</p>",
+   "name": "Explorer and Wallet not loading - Gateway Service down",
+   "slug": "explorer-and-wallet-not-loading"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c55",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-24T06:37:32.934Z",
+  "createdOn": "2026-04-24T06:26:23.256Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "status": "8e0819e294ace51e942b2873f55ed251",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b9",
+    "69eb0c39904d0db4dee8f8bf",
+    "69eb0c39904d0db4dee8f8b7",
+    "69eb0c39904d0db4dee8f8c1"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2021-01-25T14:13:42.000Z",
+   "last-update": "2022-08-04T16:32:53.000Z",
+   "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p>",
+   "name": "Eum Nam Quo",
+   "slug": "eum-nam-quo"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c53",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T06:26:23.132Z",
+  "createdOn": "2026-04-24T06:26:23.132Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "status": "5d07bb893cd14595735bc9ca3038d8bc",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7"
+   ],
+   "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+   "date-reported": "2022-02-28T09:00:00.000Z",
+   "last-update": "2022-02-28T17:30:00.000Z",
+   "content": "<p id=\"\">We are aware of some users having issues accessing Instabridge, and some eXRD&nbsp;to XRD&nbsp;transfers taking longer than expected. We are currently investigating the issue. </p><p id=\"\">\u200d</p><p id=\"\">While these issues are occurring, we advise users who have time-sensitive transfers to use alternative bridges such as Bitfinex. </p><p id=\"\">\u200d</p><p id=\"\">Update:&nbsp;This is now resolved.</p>",
+   "name": "Connection issues with Instabridge",
+   "slug": "connection-issues-with-instabridge"
+  }
+ },
+ {
+  "id": "69eb0d133d16cd5eb1316c51",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-24T06:36:59.726Z",
+  "createdOn": "2026-04-24T06:26:22.992Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "status": "8e0819e294ace51e942b2873f55ed251",
+   "service-s": [
+    "69eb0c39904d0db4dee8f8b7",
+    "69eb0c39904d0db4dee8f8c1",
+    "69eb0c39904d0db4dee8f8bb",
+    "69eb0c39904d0db4dee8f8bd",
+    "69eb0c39904d0db4dee8f8b9"
+   ],
+   "severity": "c4752271c0d619470c9d2a7e139faa80",
+   "date-reported": "2021-12-25T15:38:23.000Z",
+   "last-update": "2021-06-07T19:51:00.000Z",
+   "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=6cDtHjgpCyE&ab_channel=RadixDLT\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/6cDtHjgpCyE\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+   "name": "Amet Risus Condimentum",
+   "slug": "amet-risus-condimentum"
+  }
+ }
+]

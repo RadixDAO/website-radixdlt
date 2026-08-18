@@ -1,0 +1,108 @@
+ {
+   "id": "66e2c7c3f223104818b694bd",
+   "displayName": "First 6 Projects",
+   "singularName": "First 6 Project",
+   "slug": "projects-6-highlighted",
+   "createdOn": "2024-09-12T10:51:47.693Z",
+   "lastUpdated": "2025-06-10T09:02:35.936Z",
+   "fields": [
+     {
+       "id": "9189c287e5b5a9473eddc8542e0c052e",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "project-description",
+       "displayName": "Project Description",
+       "helpText": "Approximately 180 characters including spaces.",
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "078dd8f7824d6aef2e8069030d992d49",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Image",
+       "slug": "project-logo",
+       "displayName": "Project Logo",
+       "helpText": "Dimensions: 150x150px",
+       "validations": null
+     },
+     {
+       "id": "b23c226909a67bf0b7508faa284193ef",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Image",
+       "slug": "project-background",
+       "displayName": "Project Background",
+       "helpText": "Dimensions: 393x142px",
+       "validations": null
+     },
+     {
+       "id": "3d5ea49b864c1d44e074341d6e0a752b",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Link",
+       "slug": "link-to-project",
+       "displayName": "Link to Project",
+       "helpText": "URL to project page",
+       "validations": null
+     },
+     {
+       "id": "17432744a5948f8b40a5944014fe7857",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "MultiReference",
+       "slug": "categories",
+       "displayName": "Categories",
+       "helpText": "Choose categories from dropdown or create new one in CMS \"Project Categories\"",
+       "validations": {
+         "collectionId": "66dafcf71128dd159338e324"
+       }
+     },
+     {
+       "id": "a043be6d197c6d887569259540fac821",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Number",
+       "slug": "rank",
+       "displayName": "Rank",
+       "helpText": null,
+       "validations": {
+         "format": "integer",
+         "precision": 1,
+         "allowNegative": false
+       }
+     },
+     {
+       "id": "ec82c9d78e3cf31b54142ec16dbf2a2e",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Project Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "93eb0db020f9e38743795f5db45f2a22",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

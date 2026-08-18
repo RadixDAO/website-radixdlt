@@ -1,0 +1,62 @@
+ {
+   "id": "69eb1ebc49e0fc5f9abc303d",
+   "displayName": "Sub Categories { learn }",
+   "singularName": "Sub Categories { learn }",
+   "slug": "sub-categories-learn",
+   "createdOn": "2026-04-24T07:41:48.414Z",
+   "lastUpdated": "2026-04-24T07:41:48.837Z",
+   "fields": [
+     {
+       "id": "8fec90334ed5cd7b516ce26a9abb03b3",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "icon",
+       "displayName": "Icon",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "66d1a03768804df734ad4934cbc2f3dd",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Reference",
+       "slug": "main-category",
+       "displayName": "Main Category",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69eb1e91745be047bb44b534"
+       }
+     },
+     {
+       "id": "4477b1de1d0ead43d68a15bbf58343ae",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "f6b8d7196b0111e2cc8e3144d59398ca",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

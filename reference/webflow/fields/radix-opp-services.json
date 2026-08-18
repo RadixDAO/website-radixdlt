@@ -1,0 +1,40 @@
+ {
+   "id": "69eb0bece5f4e6a7908f0952",
+   "displayName": "Radix - Services { status }",
+   "singularName": "Radix - Services { status }",
+   "slug": "radix-opp-services",
+   "createdOn": "2026-04-24T06:21:32.328Z",
+   "lastUpdated": "2026-04-24T06:23:02.533Z",
+   "fields": [
+     {
+       "id": "31b105ee54fc52057e916a3603586576",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "788dfd50c9e1ac9d1ee35ed52186c818",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,136 @@
+ {
+   "id": "649aa8a9681ec6168a57d992",
+   "displayName": "Team Members",
+   "singularName": "Team Member",
+   "slug": "team-member",
+   "createdOn": "2021-03-19T02:29:48.788Z",
+   "lastUpdated": "2025-06-10T09:02:35.941Z",
+   "fields": [
+     {
+       "id": "ab61b5061c221df7fed0d8a2860141f3",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "featured-member",
+       "displayName": "Featured Member",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "3af19c20758e11152f6831c3e2eebd89",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "jersey-team-member",
+       "displayName": "Jersey Team Member",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "1840934ec3e986b6b94aa257cac307f6",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "role",
+       "displayName": "Role",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "a3f70195b7d125407ec08e35ef11b598",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "image",
+       "displayName": "Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "9f6eac00ad6632dc5db36d2869e2efe0",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "bio-excerpt",
+       "displayName": "Bio Excerpt",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "cf856b40b9b3cb59c9fd5491f290b6ac",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "twitter",
+       "displayName": "Twitter",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "af07f526c7c539e5fe8041e04eb600fa",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "linkedin",
+       "displayName": "Linkedin",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "91a27ad4d7efcce5b4c6faffdea38b5f",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "blank-item",
+       "displayName": "Blank Item?",
+       "helpText": "Use only for odd number in featured / jersey team members",
+       "validations": null
+     },
+     {
+       "id": "dfbb1793bc9ec9b7ee82cb5b6bff49d1",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Number",
+       "slug": "order",
+       "displayName": "Order",
+       "helpText": null,
+       "validations": {
+         "format": "integer",
+         "precision": 1,
+         "allowNegative": false
+       }
+     },
+     {
+       "id": "8479dfcf24499e4154bd81877b480fb2",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "54420ce0a59a94dfbbabcdbae0244564",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

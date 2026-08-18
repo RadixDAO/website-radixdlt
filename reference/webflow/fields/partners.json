@@ -1,0 +1,50 @@
+ {
+   "id": "674713bdf8d85630ffcf63b0",
+   "displayName": "Partners",
+   "singularName": "Partner",
+   "slug": "partners",
+   "createdOn": "2024-11-27T12:42:37.942Z",
+   "lastUpdated": "2025-06-10T09:02:36.025Z",
+   "fields": [
+     {
+       "id": "dd75db3b8af0498376b1ba7ac07d956f",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "logo",
+       "displayName": "Logo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "bdb73021436b6fa4859936aebc556d6f",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "afae3bb9f7d340c7efa0da174228bd80",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

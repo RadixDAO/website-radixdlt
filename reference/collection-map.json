@@ -1,0 +1,1309 @@
+[
+ {
+  "id": "69eb1e5630aad0a16f70abbb",
+  "slug": "articles-learn",
+  "displayName": "Articles { learn }",
+  "detailTemplate": "detail_articles-learn.html",
+  "liveRoutePrefix": "/articles-learn/:slug",
+  "liveUrlCount": 211,
+  "itemCount": 360,
+  "liveItemCount": 211,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "icon",
+    "type": "Image",
+    "displayName": "Icon"
+   },
+   {
+    "slug": "article-category",
+    "type": "Reference",
+    "displayName": "Article Category"
+   },
+   {
+    "slug": "sub-category",
+    "type": "Reference",
+    "displayName": "Sub Category"
+   },
+   {
+    "slug": "full-article-text",
+    "type": "RichText",
+    "displayName": "Full Article Text"
+   },
+   {
+    "slug": "top-note",
+    "type": "RichText",
+    "displayName": "Top Note"
+   },
+   {
+    "slug": "bottom-note-extra-tip",
+    "type": "RichText",
+    "displayName": "Bottom Note (Extra Tip)"
+   },
+   {
+    "slug": "author",
+    "type": "Reference",
+    "displayName": "Author"
+   },
+   {
+    "slug": "article-video",
+    "type": "VideoLink",
+    "displayName": "Article Video"
+   },
+   {
+    "slug": "featured-in-homepage",
+    "type": "Switch",
+    "displayName": "Featured in homepage?"
+   },
+   {
+    "slug": "featured-in-header",
+    "type": "Switch",
+    "displayName": "Featured in Header?"
+   },
+   {
+    "slug": "feature-in-category-header",
+    "type": "Switch",
+    "displayName": "Feature in Category Header?"
+   },
+   {
+    "slug": "feature-in-search",
+    "type": "Switch",
+    "displayName": "Feature in search?"
+   },
+   {
+    "slug": "article-likes",
+    "type": "Number",
+    "displayName": "Article Likes"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57da02",
+  "slug": "blog-author",
+  "displayName": "Blog Authors",
+  "detailTemplate": "detail_blog-author.html",
+  "liveRoutePrefix": "/blog-author/:slug",
+  "liveUrlCount": 14,
+  "itemCount": 14,
+  "liveItemCount": 14,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "role",
+    "type": "PlainText",
+    "displayName": "Role"
+   },
+   {
+    "slug": "image",
+    "type": "Image",
+    "displayName": "Image"
+   },
+   {
+    "slug": "description",
+    "type": "PlainText",
+    "displayName": "Description"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d9e2",
+  "slug": "blog-category",
+  "displayName": "Blog Categories",
+  "detailTemplate": "detail_blog-category.html",
+  "liveRoutePrefix": "/blog-category/:slug",
+  "liveUrlCount": 11,
+  "itemCount": 11,
+  "liveItemCount": 11,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "description",
+    "type": "PlainText",
+    "displayName": "Description"
+   },
+   {
+    "slug": "text-colour",
+    "type": "Color",
+    "displayName": "Text Colour"
+   },
+   {
+    "slug": "background-colour",
+    "type": "Color",
+    "displayName": "Background Colour"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d972",
+  "slug": "blog",
+  "displayName": "Blog Posts",
+  "detailTemplate": "detail_blog.html",
+  "liveRoutePrefix": "/blog/:slug",
+  "liveUrlCount": 618,
+  "itemCount": 636,
+  "liveItemCount": 618,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "date",
+    "type": "DateTime",
+    "displayName": "Date"
+   },
+   {
+    "slug": "show-table-of-contents",
+    "type": "Switch",
+    "displayName": "Hide Table of Contents"
+   },
+   {
+    "slug": "blog-author",
+    "type": "Reference",
+    "displayName": "Blog Author"
+   },
+   {
+    "slug": "featured-post",
+    "type": "Switch",
+    "displayName": "Featured post?"
+   },
+   {
+    "slug": "blog-category",
+    "type": "MultiReference",
+    "displayName": "Blog Category"
+   },
+   {
+    "slug": "image",
+    "type": "Image",
+    "displayName": "Image"
+   },
+   {
+    "slug": "excerpt",
+    "type": "PlainText",
+    "displayName": "Excerpt"
+   },
+   {
+    "slug": "main-content",
+    "type": "RichText",
+    "displayName": "Main Content"
+   },
+   {
+    "slug": "seo-meta-description",
+    "type": "PlainText",
+    "displayName": "SEO Meta description"
+   },
+   {
+    "slug": "use-video-over-image",
+    "type": "Switch",
+    "displayName": "Use Video over Image"
+   },
+   {
+    "slug": "video-code",
+    "type": "PlainText",
+    "displayName": "Video thumbnail url"
+   },
+   {
+    "slug": "video-mp4-url",
+    "type": "PlainText",
+    "displayName": "Video mp4 url"
+   },
+   {
+    "slug": "video-webm-url",
+    "type": "PlainText",
+    "displayName": "Video webm url"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Title"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69ee5c5f0ada5ef0d56053a7",
+  "slug": "blueprints-developers",
+  "displayName": "Blueprints { developers }",
+  "detailTemplate": "detail_blueprints-developers.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 25,
+  "liveItemCount": 24,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "order",
+    "type": "Number",
+    "displayName": "Order"
+   },
+   {
+    "slug": "username",
+    "type": "PlainText",
+    "displayName": "Username"
+   },
+   {
+    "slug": "icon",
+    "type": "Image",
+    "displayName": "Icon"
+   },
+   {
+    "slug": "category",
+    "type": "MultiReference",
+    "displayName": "Category"
+   },
+   {
+    "slug": "description",
+    "type": "PlainText",
+    "displayName": "Description"
+   },
+   {
+    "slug": "github-url",
+    "type": "Link",
+    "displayName": "GitHub URL"
+   },
+   {
+    "slug": "website-url",
+    "type": "Link",
+    "displayName": "Website URL"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d8fa",
+  "slug": "careers",
+  "displayName": "Careers",
+  "detailTemplate": "detail_careers.html",
+  "liveRoutePrefix": "/careers/:slug",
+  "liveUrlCount": 16,
+  "itemCount": 54,
+  "liveItemCount": 16,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "job-spec",
+    "type": "RichText",
+    "displayName": "Job Spec"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69ee5b4bc14aea79cf4feae6",
+  "slug": "categories-developers",
+  "displayName": "Categories { developers }",
+  "detailTemplate": "detail_categories-developers.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 11,
+  "liveItemCount": 11,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "description",
+    "type": "RichText",
+    "displayName": "Description"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69eb1e91745be047bb44b534",
+  "slug": "categories-learn",
+  "displayName": "Categories { learn }",
+  "detailTemplate": "detail_categories-learn.html",
+  "liveRoutePrefix": "/categories-learn/:slug",
+  "liveUrlCount": 5,
+  "itemCount": 10,
+  "liveItemCount": 5,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "icon",
+    "type": "Image",
+    "displayName": "Icon"
+   },
+   {
+    "slug": "number-of-questions",
+    "type": "PlainText",
+    "displayName": "Number of questions"
+   },
+   {
+    "slug": "subcategory-set",
+    "type": "Switch",
+    "displayName": "Subcategory set?"
+   },
+   {
+    "slug": "subcategory",
+    "type": "MultiReference",
+    "displayName": "Subcategory"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "66dafe27d5486c299a7c9a5b",
+  "slug": "projects",
+  "displayName": "DApp Directories",
+  "detailTemplate": "detail_projects.html",
+  "liveRoutePrefix": "/projects/:slug",
+  "liveUrlCount": 28,
+  "itemCount": 32,
+  "liveItemCount": 28,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "project-description",
+    "type": "PlainText",
+    "displayName": "Project Description"
+   },
+   {
+    "slug": "project-logo",
+    "type": "Image",
+    "displayName": "Project Logo"
+   },
+   {
+    "slug": "project-background",
+    "type": "Image",
+    "displayName": "Project Background"
+   },
+   {
+    "slug": "link-to-project",
+    "type": "Link",
+    "displayName": "Link to Project"
+   },
+   {
+    "slug": "categories",
+    "type": "MultiReference",
+    "displayName": "Categories"
+   },
+   {
+    "slug": "rank",
+    "type": "Number",
+    "displayName": "Rank"
+   },
+   {
+    "slug": "featured",
+    "type": "Switch",
+    "displayName": "Featured?"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Project Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "6509eed36cb833b9c2182a2c",
+  "slug": "ecosystem-projects",
+  "displayName": "Ecosystem Projects",
+  "detailTemplate": "detail_ecosystem-projects.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 21,
+  "liveItemCount": 21,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "logo",
+    "type": "Image",
+    "displayName": "Logo"
+   },
+   {
+    "slug": "circle-logo",
+    "type": "Switch",
+    "displayName": "Circle Logo"
+   },
+   {
+    "slug": "circle-border-radius-on-ecosystem-page",
+    "type": "Switch",
+    "displayName": "Circle Border Radius on Ecosystem page"
+   },
+   {
+    "slug": "shadow-on-ecosystem-page",
+    "type": "Switch",
+    "displayName": "Shadow on Ecosystem page"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69ee5aa7001bfb0a42ded540",
+  "slug": "ecosystems-developers",
+  "displayName": "Ecosystems { developers }",
+  "detailTemplate": "detail_ecosystems-developers.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 18,
+  "liveItemCount": 18,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "logo",
+    "type": "Image",
+    "displayName": "Logo"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d9cc",
+  "slug": "events",
+  "displayName": "Events",
+  "detailTemplate": "detail_events.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 107,
+  "liveItemCount": 106,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "event-image",
+    "type": "Image",
+    "displayName": "Event Image"
+   },
+   {
+    "slug": "event-category",
+    "type": "Option",
+    "displayName": "Event Category"
+   },
+   {
+    "slug": "description",
+    "type": "PlainText",
+    "displayName": "Description"
+   },
+   {
+    "slug": "location",
+    "type": "PlainText",
+    "displayName": "Location"
+   },
+   {
+    "slug": "start-date",
+    "type": "DateTime",
+    "displayName": "Start Date"
+   },
+   {
+    "slug": "end-date",
+    "type": "DateTime",
+    "displayName": "End Date"
+   },
+   {
+    "slug": "event-link-text",
+    "type": "PlainText",
+    "displayName": "Event Link Text"
+   },
+   {
+    "slug": "event-link-url",
+    "type": "Link",
+    "displayName": "Event Link URL"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d914",
+  "slug": "faqs",
+  "displayName": "FAQs",
+  "detailTemplate": "detail_faqs.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 5,
+  "liveItemCount": 5,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "content",
+    "type": "PlainText",
+    "displayName": "Content"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "6747158d500d23295ce9865f",
+  "slug": "featured-on",
+  "displayName": "Featured ons",
+  "detailTemplate": "detail_featured-on.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 7,
+  "liveItemCount": 7,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "logo",
+    "type": "Image",
+    "displayName": "Logo"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "66e2c7c3f223104818b694bd",
+  "slug": "projects-6-highlighted",
+  "displayName": "First 6 Projects",
+  "detailTemplate": "detail_projects-6-highlighted.html",
+  "liveRoutePrefix": "/projects-6-highlighted/:slug",
+  "liveUrlCount": 8,
+  "itemCount": 8,
+  "liveItemCount": 8,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "project-description",
+    "type": "PlainText",
+    "displayName": "Project Description"
+   },
+   {
+    "slug": "project-logo",
+    "type": "Image",
+    "displayName": "Project Logo"
+   },
+   {
+    "slug": "project-background",
+    "type": "Image",
+    "displayName": "Project Background"
+   },
+   {
+    "slug": "link-to-project",
+    "type": "Link",
+    "displayName": "Link to Project"
+   },
+   {
+    "slug": "categories",
+    "type": "MultiReference",
+    "displayName": "Categories"
+   },
+   {
+    "slug": "rank",
+    "type": "Number",
+    "displayName": "Rank"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Project Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57da21",
+  "slug": "full-stack-social-comments",
+  "displayName": "Full stack Social Comments",
+  "detailTemplate": "detail_full-stack-social-comments.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 9,
+  "liveItemCount": 9,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "text",
+    "type": "PlainText",
+    "displayName": "Text"
+   },
+   {
+    "slug": "platform",
+    "type": "Option",
+    "displayName": "Platform"
+   },
+   {
+    "slug": "social-url",
+    "type": "Link",
+    "displayName": "Social URL"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "650a16415183e6fd3dd25ea6",
+  "slug": "navigation-featured-section",
+  "displayName": "Navigation Featured Sections",
+  "detailTemplate": "detail_navigation-featured-section.html",
+  "liveRoutePrefix": "/navigation-featured-section/:slug",
+  "liveUrlCount": 3,
+  "itemCount": 3,
+  "liveItemCount": 3,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "location",
+    "type": "Option",
+    "displayName": "Location"
+   },
+   {
+    "slug": "url-link",
+    "type": "Link",
+    "displayName": "URL Link"
+   },
+   {
+    "slug": "image",
+    "type": "Image",
+    "displayName": "Image"
+   },
+   {
+    "slug": "content-2",
+    "type": "PlainText",
+    "displayName": "Content"
+   },
+   {
+    "slug": "gradient-text",
+    "type": "PlainText",
+    "displayName": "Gradient text"
+   },
+   {
+    "slug": "text-with-play-icon",
+    "type": "PlainText",
+    "displayName": "Text with Play Icon"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "674713bdf8d85630ffcf63b0",
+  "slug": "partners",
+  "displayName": "Partners",
+  "detailTemplate": "detail_partners.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 8,
+  "liveItemCount": 8,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "logo",
+    "type": "Image",
+    "displayName": "Logo"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d951",
+  "slug": "podcast",
+  "displayName": "Podcasts",
+  "detailTemplate": "detail_podcast.html",
+  "liveRoutePrefix": "/podcast/:slug",
+  "liveUrlCount": 5,
+  "itemCount": 105,
+  "liveItemCount": 5,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "featured",
+    "type": "Switch",
+    "displayName": "Featured?"
+   },
+   {
+    "slug": "date",
+    "type": "DateTime",
+    "displayName": "Date"
+   },
+   {
+    "slug": "guest-name",
+    "type": "PlainText",
+    "displayName": "Guest Name"
+   },
+   {
+    "slug": "guest-image",
+    "type": "Image",
+    "displayName": "Guest Image"
+   },
+   {
+    "slug": "company-logo",
+    "type": "Image",
+    "displayName": "Company Logo"
+   },
+   {
+    "slug": "excerpt",
+    "type": "PlainText",
+    "displayName": "Excerpt"
+   },
+   {
+    "slug": "main-content",
+    "type": "RichText",
+    "displayName": "Main Content"
+   },
+   {
+    "slug": "podcast-embed-code",
+    "type": "PlainText",
+    "displayName": "Podcast Embed Code"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Title"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "66dafcf71128dd159338e324",
+  "slug": "project-categories",
+  "displayName": "Project Categories",
+  "detailTemplate": "detail_project-categories.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 9,
+  "liveItemCount": 9,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Category Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "65006fb5f3dde67a65a4e058",
+  "slug": "radix-services",
+  "displayName": "Radix - Services",
+  "detailTemplate": "detail_radix-services.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 11,
+  "liveItemCount": 11,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69eb0bece5f4e6a7908f0952",
+  "slug": "radix-opp-services",
+  "displayName": "Radix - Services { status }",
+  "detailTemplate": "detail_radix-opp-services.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 7,
+  "liveItemCount": 7,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "650071763c7ff9157acead46",
+  "slug": "radix-statuses",
+  "displayName": "Radix - Statuses",
+  "detailTemplate": "detail_radix-statuses.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 0,
+  "liveItemCount": 0,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "status",
+    "type": "Option",
+    "displayName": "Status"
+   },
+   {
+    "slug": "service-s",
+    "type": "MultiReference",
+    "displayName": "Service(s)"
+   },
+   {
+    "slug": "severity",
+    "type": "Option",
+    "displayName": "Severity"
+   },
+   {
+    "slug": "date-reported",
+    "type": "DateTime",
+    "displayName": "Date Reported"
+   },
+   {
+    "slug": "last-updated",
+    "type": "DateTime",
+    "displayName": "Last updated"
+   },
+   {
+    "slug": "content",
+    "type": "RichText",
+    "displayName": "Content"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69eb0cc49d33f411d5e04322",
+  "slug": "radix-opp-statuses",
+  "displayName": "Radix - Statuses { status }",
+  "detailTemplate": "detail_radix-opp-statuses.html",
+  "liveRoutePrefix": "/radix-opp-statuses/:slug",
+  "liveUrlCount": 36,
+  "itemCount": 42,
+  "liveItemCount": 36,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "status",
+    "type": "Option",
+    "displayName": "Status"
+   },
+   {
+    "slug": "service-s",
+    "type": "MultiReference",
+    "displayName": "Service(s)"
+   },
+   {
+    "slug": "severity",
+    "type": "Option",
+    "displayName": "Severity"
+   },
+   {
+    "slug": "date-reported",
+    "type": "DateTime",
+    "displayName": "Date Reported"
+   },
+   {
+    "slug": "last-update",
+    "type": "DateTime",
+    "displayName": "Last Update"
+   },
+   {
+    "slug": "content",
+    "type": "RichText",
+    "displayName": "Content"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69eb1ebc49e0fc5f9abc303d",
+  "slug": "sub-categories-learn",
+  "displayName": "Sub Categories { learn }",
+  "detailTemplate": "detail_sub-categories-learn.html",
+  "liveRoutePrefix": "/sub-categories-learn/:slug",
+  "liveUrlCount": 1,
+  "itemCount": 16,
+  "liveItemCount": 1,
+  "reconciles": true,
+  "fields": [
+   {
+    "slug": "icon",
+    "type": "Image",
+    "displayName": "Icon"
+   },
+   {
+    "slug": "main-category",
+    "type": "Reference",
+    "displayName": "Main Category"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d992",
+  "slug": "team-member",
+  "displayName": "Team Members",
+  "detailTemplate": "detail_team-member.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 28,
+  "liveItemCount": 25,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "featured-member",
+    "type": "Switch",
+    "displayName": "Featured Member"
+   },
+   {
+    "slug": "jersey-team-member",
+    "type": "Switch",
+    "displayName": "Jersey Team Member"
+   },
+   {
+    "slug": "role",
+    "type": "RichText",
+    "displayName": "Role"
+   },
+   {
+    "slug": "image",
+    "type": "Image",
+    "displayName": "Image"
+   },
+   {
+    "slug": "bio-excerpt",
+    "type": "PlainText",
+    "displayName": "Bio Excerpt"
+   },
+   {
+    "slug": "twitter",
+    "type": "Link",
+    "displayName": "Twitter"
+   },
+   {
+    "slug": "linkedin",
+    "type": "Link",
+    "displayName": "Linkedin"
+   },
+   {
+    "slug": "blank-item",
+    "type": "Switch",
+    "displayName": "Blank Item?"
+   },
+   {
+    "slug": "order",
+    "type": "Number",
+    "displayName": "Order"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "69eb1dcfdf507b399377ca82",
+  "slug": "team-members-learn",
+  "displayName": "Team members { learn }",
+  "detailTemplate": "detail_team-members-learn.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 1,
+  "liveItemCount": 1,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "job-title",
+    "type": "PlainText",
+    "displayName": "Job Title"
+   },
+   {
+    "slug": "photo",
+    "type": "Image",
+    "displayName": "Photo"
+   },
+   {
+    "slug": "biography",
+    "type": "RichText",
+    "displayName": "Biography"
+   },
+   {
+    "slug": "facebook-link",
+    "type": "Link",
+    "displayName": "Facebook Link"
+   },
+   {
+    "slug": "twitter-link",
+    "type": "Link",
+    "displayName": "Twitter Link"
+   },
+   {
+    "slug": "linkedin-link",
+    "type": "Link",
+    "displayName": "LinkedIn Link"
+   },
+   {
+    "slug": "profile-header-photo",
+    "type": "Image",
+    "displayName": "Profile Header Photo"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "674715eb5cdc8c636020bb07",
+  "slug": "testemonials",
+  "displayName": "Testimonials",
+  "detailTemplate": "detail_testemonials.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 7,
+  "liveItemCount": 7,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "content",
+    "type": "PlainText",
+    "displayName": "Content"
+   },
+   {
+    "slug": "image",
+    "type": "Image",
+    "displayName": "Image"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ },
+ {
+  "id": "649aa8a9681ec6168a57d9ab",
+  "slug": "tweets",
+  "displayName": "Tweets",
+  "detailTemplate": "detail_tweets.html",
+  "liveRoutePrefix": null,
+  "liveUrlCount": 0,
+  "itemCount": 25,
+  "liveItemCount": 24,
+  "reconciles": false,
+  "fields": [
+   {
+    "slug": "location",
+    "type": "Option",
+    "displayName": "Location"
+   },
+   {
+    "slug": "url",
+    "type": "Link",
+    "displayName": "URL"
+   },
+   {
+    "slug": "avatar",
+    "type": "Image",
+    "displayName": "Avatar"
+   },
+   {
+    "slug": "content",
+    "type": "PlainText",
+    "displayName": "Content"
+   },
+   {
+    "slug": "order",
+    "type": "Number",
+    "displayName": "Order"
+   },
+   {
+    "slug": "name",
+    "type": "PlainText",
+    "displayName": "Name"
+   },
+   {
+    "slug": "slug",
+    "type": "PlainText",
+    "displayName": "Slug"
+   }
+  ]
+ }
+]

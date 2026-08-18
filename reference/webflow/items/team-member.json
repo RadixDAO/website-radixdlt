@@ -1,0 +1,726 @@
+[
+ {
+  "id": "649aa8a9681ec6168a57dda9",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T17:13:35.337Z",
+  "createdOn": "2022-01-13T17:13:16.317Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Director of Finance &amp; Investments - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57e079",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61e05d91827b08a4a749ff91_Jules2.JPG",
+    "alt": null
+   },
+   "bio-excerpt": "Jules has founded, supported and invested in high growth tech businesses, and has advised the UK government on innovation around Fintech and DLT. When he\u2019s not working hard, he enjoys board sports on mountains or oceans.",
+   "twitter": null,
+   "linkedin": null,
+   "blank-item": false,
+   "order": 15,
+   "name": "Jules Ratcliffe",
+   "slug": "jules-ratcliffe"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dd36",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:00:43.751Z",
+  "createdOn": "2021-06-18T11:17:24.051Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Senior Customer Support Representative - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfed",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cc80a79c0dca7b41f6451f_Katy%20Simmons.png",
+    "alt": null
+   },
+   "bio-excerpt": "Katy has over 5 years of experience working in customer support and account management. Previously working for a crypto-based video platform, she has managed customer support throughout an ICO, the Radix token sale, and beyond.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/katy-simmons-a086ba55/",
+   "blank-item": false,
+   "order": 16,
+   "name": "Katy Simmons",
+   "slug": "katy-simmons"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dd35",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:01:14.050Z",
+  "createdOn": "2021-06-18T08:58:08.459Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Marketing Director -&nbsp;RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dffe",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cc5ffbce01438a49b623ef_Emre.png",
+    "alt": null
+   },
+   "bio-excerpt": "Emre is a seasoned blockchain marketing professional, as well as a crypto enthusiast and trader since early 2017. Coming from another Layer 1 DeFi project, Energi Core, Emre brings a wealth of knowledge on the marketing trends in the space.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/egonen/",
+   "blank-item": false,
+   "order": 13,
+   "name": "Emre Gonen",
+   "slug": "emre-gonen"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dcf5",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T11:00:38.701Z",
+  "createdOn": "2021-05-03T09:26:32.937Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": true,
+   "role": "<p>VP&nbsp;Product Operations - RDX&nbsp;Works Ltd</p><p>Head of Operations - Radix Tokens Jersey Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfdd",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608fc5aed3f502271fbfd857_Sophie_Donkin_-_Head_of_Operations_RTJL-removebg-preview.png",
+    "alt": null
+   },
+   "bio-excerpt": "Sophie is an experienced Head of Operations with a demonstrated history of working across industries with rapidly scaling startups. At Radix Sophie leads on many of our regulatory activities as well as helping define processes and ways of working for our Jersey entities.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/sophie-donkin/",
+   "blank-item": false,
+   "order": 25,
+   "name": "Sophie Donkin",
+   "slug": "sophie-donkin"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dd05",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:01:42.938Z",
+  "createdOn": "2021-04-25T19:20:47.730Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Developer \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfe1",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6099327363f8ce7ca491df3f_Theo.png",
+    "alt": null
+   },
+   "bio-excerpt": "Theo has worked in a variety of EU companies and has developed his very own smart contracts. He has an interest in Raspberry Pi projects and Dungeons and Dragons and brings his sense of adventure and testing expertise to Radix.",
+   "twitter": null,
+   "linkedin": null,
+   "blank-item": false,
+   "order": 26,
+   "name": "Theoklitos Christodolou",
+   "slug": "theoklitos-christodolou"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc1f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:01:50.767Z",
+  "createdOn": "2021-04-25T19:20:31.860Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>DevOps \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57da04",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c1519b55a56639ccc615_shambu.png",
+    "alt": null
+   },
+   "bio-excerpt": "Shambu is a seasoned DevOps and IT practitioner. He is now putting his passion for programming & Infrastructure with code practices to use at Radix",
+   "twitter": null,
+   "linkedin": null,
+   "blank-item": false,
+   "order": 24,
+   "name": "Shambu Pujar",
+   "slug": "shambu-pujar"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc4d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:01:59.200Z",
+  "createdOn": "2021-04-25T19:20:15.161Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Developer \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfb3",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d2ef485fa8e71da9c64c_sergiy.png",
+    "alt": null
+   },
+   "bio-excerpt": "Sergiy is curious about everything related to computers at any level, from processes inside single transistor to global scale distributed systems.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/sergiy-yevtushenko-6977a12/",
+   "blank-item": false,
+   "order": 23,
+   "name": "Sergiy Yevtushenko",
+   "slug": "sergiy-yevtushenko"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc4c",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2021-09-09T10:59:33.537Z",
+  "createdOn": "2021-04-25T19:19:57.580Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Technical Writer \u2013 Radix DLT Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfb0",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d2da92d34241e8d47191_ray.png",
+    "alt": null
+   },
+   "bio-excerpt": "Ray has worked in the IT industry since Java was first released way back in 1996, dividing his career between software development and technical writing. Ray comes with a wealth of knowledge from his experience with companies such as Oracle, Hitachi and Honda.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/ray-offiah-044874/",
+   "blank-item": false,
+   "order": 22,
+   "name": "Ray Offiah",
+   "slug": "ray-offiah"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc4b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:02:10.541Z",
+  "createdOn": "2021-04-25T19:19:36.873Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>DevOps Lead \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfa6",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d2bc891eb01f6c18bddd_raul.png",
+    "alt": null
+   },
+   "bio-excerpt": "Raul Velaz started his career as a software developer and then moved to the infrastructure and DevOps areas. During this time, he has worked in different industries, including education, e-commerce and blockchain. Before Radix, Raul was the Lead DevOps for ConsenSys Solutions. He has also been involved in blockchain projects for trade finance and commodity trading.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/raulvelazmayo/",
+   "blank-item": false,
+   "order": 21,
+   "name": "Raul Velaz Mayo",
+   "slug": "raul-velaz-mayo"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dd06",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2021-09-09T10:59:27.254Z",
+  "createdOn": "2021-04-25T19:19:17.784Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Community Manager\u2013 Radix DLT Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfe5",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6099327d8dec072be87900d9_Mikael.png",
+    "alt": null
+   },
+   "bio-excerpt": "Mikael was part of the original 2013 Bitcoin Meetup group in Finland, and has been passionate about crypto since. As Head of Community, he builds, grows, and helps manage the communities of Radix.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/mikael-perttula-8b11ba139/",
+   "blank-item": false,
+   "order": 20,
+   "name": "Mikael Perttula",
+   "slug": "mikael-perttula"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dcce",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:02:18.416Z",
+  "createdOn": "2021-04-25T19:18:59.050Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Consensus Architect \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfcf",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60897707dbb005290721e5aa_michal.png",
+    "alt": null
+   },
+   "bio-excerpt": "Michal formerly worked with Aeternity and Senui and joins Radix with plenty of hands-on experience in distributed systems and consensus. Michal has spent almost a decade travelling or living in various tech hubs to work on exciting projects.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/mzajda/",
+   "blank-item": false,
+   "order": 19,
+   "name": "Michal Zajda",
+   "slug": "michal-zajda"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dd07",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:02:26.928Z",
+  "createdOn": "2021-04-25T19:18:37.568Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Developer \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfdf",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60993287b013f40d39460a6f_Lukasz.png",
+    "alt": null
+   },
+   "bio-excerpt": "Lukasz has formerly worked with IOHK and been on research teams within the Ethereum eco-system. He now works on Cerberus, our consensus mechanism.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/%C5%82ukasz-g%C4%85sior-b0180986/",
+   "blank-item": false,
+   "order": 17,
+   "name": "Lukasz Gasior",
+   "slug": "lukasz-gasior"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc4a",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T17:19:07.047Z",
+  "createdOn": "2021-04-25T19:18:21.208Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Finance &amp; Operations \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfa8",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d26af3898ccb2decbeda_leroy.png",
+    "alt": null
+   },
+   "bio-excerpt": "With a background in banking with technology & telecoms clients, Leroy is leveraging his experience to set the financial strategic objectives for Radix\u2019s next phase of growth",
+   "twitter": null,
+   "linkedin": null,
+   "blank-item": false,
+   "order": 16,
+   "name": "Leroy Margolis",
+   "slug": "leroy-margolis"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc38",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:02:59.650Z",
+  "createdOn": "2021-04-25T19:18:00.832Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Developer \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfa3",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d02ead66ea72312382b4_josh.png",
+    "alt": null
+   },
+   "bio-excerpt": "Josh proudly claims to writing a chess bot in college which beat the bot of Professor Danny Sleator. He now researches & develops code/theory around consensus at Radix",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/joshua-primero-22024730/",
+   "blank-item": false,
+   "order": 15,
+   "name": "Josh Primero",
+   "slug": "josh-primero"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc2c",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:03:16.689Z",
+  "createdOn": "2021-04-25T19:17:33.111Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Social Media Manager \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57df9e",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d0060c0ceb3143dc73b5_jacob.png",
+    "alt": null
+   },
+   "bio-excerpt": "Originally from Sydney, Jacob has spent the last 6 years helping UK businesses build their brand using Social Media. While his career started talking about the Land Rover Defender, Jacob has had a love for all things Crypto since 2016.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/jacob-mcatamney-1296481bb/",
+   "blank-item": false,
+   "order": 14,
+   "name": "Jacob McAtamney",
+   "slug": "jacob-mcatamney"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dd34",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:03:29.557Z",
+  "createdOn": "2021-04-25T19:17:03.462Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Talent Acquisition Lead \u2013 RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57e00c",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cc5fa39d608775bb2db02b_Farrah%20Ather%20-%20Talent%20Lead%20v2.png",
+    "alt": null
+   },
+   "bio-excerpt": "Farrah has had over 7 years sourcing hard-to-find developers and building teams from the ground up, formerly working with Sky, LoveHolidays and Upfield Foods. Originally from Scotland, Farrah is a classically trained opera singer and avid whiskey connoisseur.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/farrah-ather-7570b67b/",
+   "blank-item": false,
+   "order": 13,
+   "name": "Farrah Ather",
+   "slug": "farrah-ather"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc2b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:03:40.729Z",
+  "createdOn": "2021-04-25T19:16:14.589Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Head of Partnerships -&nbsp;RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfa4",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087cf9785506106606bed07_ben.png",
+    "alt": null
+   },
+   "bio-excerpt": "At Deloitte and PwC in London, Ben advised and audited over 50 financial institutions; specialising in technology risk and the governance of financial market infrastructure. He\u2019s been a keen member of the Radix community since 2016",
+   "twitter": null,
+   "linkedin": null,
+   "blank-item": false,
+   "order": 12,
+   "name": "Ben Fargher",
+   "slug": "ben-fargher"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc22",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:03:49.994Z",
+  "createdOn": "2021-04-25T18:41:43.011Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": true,
+   "jersey-team-member": false,
+   "role": "<p>Founder - RDX&nbsp;Works Ltd</p><p>Director - Radix Tokens (Jersey) Limited</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57db85",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c21fe1567140cd79eb61_dan.png",
+    "alt": null
+   },
+   "bio-excerpt": "Dan founded Radix after developing & selling IP now found in key mobile NFC payment technology. He also designed and co-built T-Mobile\u2019s 1st mobile app platform",
+   "twitter": "https://twitter.com/fuserleer",
+   "linkedin": "https://www.linkedin.com/in/dan-hughes-2a6b117/",
+   "blank-item": false,
+   "order": 1,
+   "name": "Dan Hughes",
+   "slug": "dan-huges"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc25",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:04:02.119Z",
+  "createdOn": "2021-04-25T17:18:02.067Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": true,
+   "jersey-team-member": true,
+   "role": "<p>CEO - RDX&nbsp;Works Ltd</p><p>Director - Radix Tokens (Jersey) Limited</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57df58",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c4f9bcdbd15d65d90e44_Frame%2071.png",
+    "alt": null
+   },
+   "bio-excerpt": "A Y Combinator Alumni, Piers joined Radix after exiting his previous company which built DLT based deal rooms for clearing syndicated insurance contracts",
+   "twitter": "https://twitter.com/PiersRidyard",
+   "linkedin": "https://www.linkedin.com/in/piersridyard/",
+   "blank-item": false,
+   "order": 2,
+   "name": "Piers Ridyard",
+   "slug": "piers-ridyard"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc20",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:05:07.656Z",
+  "createdOn": "2021-04-25T17:18:02.014Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": true,
+   "jersey-team-member": false,
+   "role": "<p>CTO - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dbdb",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c1604893b9961d5270d9_russ.png",
+    "alt": null
+   },
+   "bio-excerpt": "A veteran of Microsoft and Kaiser Permanente, Russ brings extensive experience with releasing complex products on schedule. Beset by an abiding need to make useful things, Russ distributed his first program at age 7 and hasn\u2019t stopped shipping things since.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/russell-harvey/",
+   "blank-item": false,
+   "order": 3,
+   "name": "Russell Harvey",
+   "slug": "russell-harvey"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc24",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:05:21.923Z",
+  "createdOn": "2021-04-25T17:18:01.980Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": true,
+   "jersey-team-member": false,
+   "role": "<p>CSO - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57db6a",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c259565d4fd78ef84f30_adam.png",
+    "alt": null
+   },
+   "bio-excerpt": "A digital marketing expert, Adam previously built a video sharing platform to over 35 million Monthly Active Users and the VRA token community to over 250k people.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/adamsimmons1/",
+   "blank-item": false,
+   "order": 4,
+   "name": "Adam Simmons",
+   "slug": "adam-simmons"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc23",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-25T19:25:57.485Z",
+  "createdOn": "2021-04-25T17:18:01.969Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": true,
+   "jersey-team-member": true,
+   "role": "<p>Director - Radix Tokens (Jersey) Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57db01",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c2423142cc2b55bb9cb9_andrew.png",
+    "alt": null
+   },
+   "bio-excerpt": "An experienced chartered director with an entrepreneurial approach to business. Founded a number of businesses in the areas of datacentres, big data, fintech and gambling, was instrumental in developing Jersey\u2019s crypto currency legislation.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/andrewjarrett1/",
+   "blank-item": false,
+   "order": 5,
+   "name": "Andrew Jarrett",
+   "slug": "andrew-jarrett"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc21",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2021-04-27T14:23:01.338Z",
+  "createdOn": "2021-04-25T17:18:01.965Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": true,
+   "jersey-team-member": true,
+   "role": "<p>Director - Radix Tokens&nbsp;(Jersey)&nbsp;Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57da43",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c2006f3120bb225b7563_Mask%20Group.png",
+    "alt": null
+   },
+   "bio-excerpt": "Legally qualified, involvement in digital enterprise \u2013 emoji, messagemates, prepaid cards, mobile games services. Founder of licensed, online gaming company, and developer of next generation gaming and blockchain platforms.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/james-cunningham-davis-55b1465/",
+   "blank-item": false,
+   "order": 6,
+   "name": "James Cunningham-Davis",
+   "slug": "james-cunningham-davis"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc27",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:05:41.370Z",
+  "createdOn": "2021-04-25T17:18:01.916Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>CPO -&nbsp;RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57df9d",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087ceab34b00750f892ac7f_matt.png",
+    "alt": null
+   },
+   "bio-excerpt": "Matthew has 15 years of systems engineering experience and has been an advisor to blockchain companies. He is now our \u2018technology bridge-builder\u2019 helping guide Radix\u2019s strategic approaches to core technology & governance",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/hinematthew/",
+   "blank-item": false,
+   "order": 7,
+   "name": "Matthew Hine",
+   "slug": "matthew-hine"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc26",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:05:50.541Z",
+  "createdOn": "2021-04-25T17:18:01.878Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Chief of Staff - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dab5",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60867914ad4ae273fa624cfb_stacey.png",
+    "alt": null
+   },
+   "bio-excerpt": "Hailing from NZ, Stacey has a strong background of Operations in tech startups. As Chief of Staff, she is working closely with Piers to steer the Radix ship",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/stacey-williams-53341336/",
+   "blank-item": false,
+   "order": 8,
+   "name": "Stacey Williams",
+   "slug": "stacey-williams"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc28",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:06:02.204Z",
+  "createdOn": "2021-04-25T17:18:01.789Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Developer - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfa0",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087cf1f8550614efb6b500c_Alex.png",
+    "alt": null
+   },
+   "bio-excerpt": "Alex is a software developer with a passion for Swift, chess and cryptography. Being polyglot, Alex is involved in most code repos at Radix. Alex cares deeply about correctness and code quality, which is why he loves Swift so much.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/alexcyon/",
+   "blank-item": false,
+   "order": 9,
+   "name": "Alex Cyon",
+   "slug": "alex-cyon"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc29",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2021-10-06T09:53:56.243Z",
+  "createdOn": "2021-04-25T17:18:01.783Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Developer - Radix DLT&nbsp;Ltd</p>",
+   "image": null,
+   "bio-excerpt": "An ex-ConsenSys engineer, Alex is a coder & nerd at heart. When not programming, you may find him salsa dancing or playing old-school RPG's.",
+   "twitter": null,
+   "linkedin": null,
+   "blank-item": false,
+   "order": 10,
+   "name": "Alex",
+   "slug": "alex"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57dc2a",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-01-13T10:06:10.209Z",
+  "createdOn": "2021-04-25T17:18:01.781Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "featured-member": false,
+   "jersey-team-member": false,
+   "role": "<p>Consumer Applications Engineer - RDX&nbsp;Works Ltd</p>",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57dfad",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087cf363dd56bb54660174f_artme.png",
+    "alt": null
+   },
+   "bio-excerpt": "Artem is crazy about building complex commercial IT products from a concept to the end solution and support. Value creation and breakthroughs are the main focus for him in implementing any software deliverable because any piece of code has to bring a tangible value to the end customer.",
+   "twitter": null,
+   "linkedin": "https://www.linkedin.com/in/artemvalmus/",
+   "blank-item": false,
+   "order": 11,
+   "name": "Artem Valmus",
+   "slug": "artem-valmus"
+  }
+ }
+]

@@ -1,0 +1,40 @@
+ {
+   "id": "66dafcf71128dd159338e324",
+   "displayName": "Project Categories",
+   "singularName": "Project Category",
+   "slug": "project-categories",
+   "createdOn": "2024-09-06T13:00:39.906Z",
+   "lastUpdated": "2025-06-10T09:02:35.965Z",
+   "fields": [
+     {
+       "id": "0218452af02df0e3b3d387ebf18abbff",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Category Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "f29065fefd86789bb394b9ffc833a0c6",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

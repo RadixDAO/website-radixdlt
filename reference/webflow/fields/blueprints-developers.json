@@ -1,0 +1,120 @@
+ {
+   "id": "69ee5c5f0ada5ef0d56053a7",
+   "displayName": "Blueprints { developers }",
+   "singularName": "Blueprints { developers }",
+   "slug": "blueprints-developers",
+   "createdOn": "2026-04-26T18:41:35.811Z",
+   "lastUpdated": "2026-04-26T18:46:33.569Z",
+   "fields": [
+     {
+       "id": "85560d53c6d445175580add25bdace6a",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Number",
+       "slug": "order",
+       "displayName": "Order",
+       "helpText": "Ascending order - (1 is shown above 2 etc)",
+       "validations": {
+         "format": "integer",
+         "precision": 1,
+         "allowNegative": false
+       }
+     },
+     {
+       "id": "1c3f2e9e04019dfe46878d8e92a0867c",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "username",
+       "displayName": "Username",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "8a71b98b639acdee1612f16ccac356ba",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "icon",
+       "displayName": "Icon",
+       "helpText": "Please make sure image in square and at least 100px x 100px",
+       "validations": null
+     },
+     {
+       "id": "c78b25144ec93ff1ee1ecc8d126d8e18",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "MultiReference",
+       "slug": "category",
+       "displayName": "Category",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69ee5b4bc14aea79cf4feae6"
+       }
+     },
+     {
+       "id": "f325969a4f632630ca831b1b01181431",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "description",
+       "displayName": "Description",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "77da7a6eb20c06d0f76c90bf73cdb260",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "github-url",
+       "displayName": "GitHub URL",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "b2faa654395f3a06c4f93819c3497727",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "website-url",
+       "displayName": "Website URL",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "ac206ba9e5ebf1f70d107b23e0386272",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "c89893ca21dbb08e050e718ee1f72ac8",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

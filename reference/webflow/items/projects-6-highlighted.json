@@ -1,0 +1,243 @@
+[
+ {
+  "id": "67a0d29c97bd419059809500",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T14:34:10.285Z",
+  "lastUpdated": "2025-02-03T14:30:09.113Z",
+  "createdOn": "2025-02-03T14:28:44.164Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Root is a decentralized Lending & Borrowing protocol operating on the Radix DLT, where lenders and borrowers interact within an overcollateralized market environment. It's a non-custodial liquidity protocol enabling users to participate either as depositors or borrowers. ",
+   "project-logo": {
+    "fileId": "67a0d260ca51cabc4e038788",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67a0d260ca51cabc4e038788_rootcolored.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67a0d299e4b75b44978d77d2",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67a0d299e4b75b44978d77d2_Background.png",
+    "alt": null
+   },
+   "link-to-project": "https://app.rootfinance.xyz/markets",
+   "categories": [
+    "66dafd303535702e99f6c8f5"
+   ],
+   "rank": 3,
+   "name": "Root Finance",
+   "slug": "root-finance"
+  }
+ },
+ {
+  "id": "66e36fea7f50246b7c75f7a1",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T14:35:41.992Z",
+  "lastUpdated": "2025-02-03T14:35:41.992Z",
+  "createdOn": "2024-09-12T22:49:14.563Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A platform providing aggregated and enriched data and statistics for Radix DLT and its ecosystem, helping visualize current status and growth.",
+   "project-logo": {
+    "fileId": "66e36fd40f833ed451fd4c57",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e36fd40f833ed451fd4c57_2.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e36fd73f8c51168df1c505",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e36fd73f8c51168df1c505_RadixCharts%20banner.png",
+    "alt": null
+   },
+   "link-to-project": "https://radixcharts.com/",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 4,
+   "name": "RadixCharts",
+   "slug": "radixcharts"
+  }
+ },
+ {
+  "id": "66e32b137fab839f98955406",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T18:16:47.858Z",
+  "lastUpdated": "2024-09-12T18:16:17.134Z",
+  "createdOn": "2024-09-12T17:55:31.155Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A decentralized exchange engineered to reduce the risk of impermanent loss and make liquidity provision sustainably profitable.",
+   "project-logo": {
+    "fileId": "66e32b0171e4164570d07ed5",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e32b0171e4164570d07ed5_defiplaza-badge-token.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e32b04d861033aee45f13f",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e32b04d861033aee45f13f_Group%203.png",
+    "alt": null
+   },
+   "link-to-project": "https://defiplaza.net/",
+   "categories": [
+    "66dafd5e7c1a27edea88c639",
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 6,
+   "name": "DefiPlaza",
+   "slug": "defiplaza"
+  }
+ },
+ {
+  "id": "66e3005bc7a5fb8414f6071c",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T18:16:47.858Z",
+  "lastUpdated": "2024-09-12T18:16:24.490Z",
+  "createdOn": "2024-09-12T14:53:15.186Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "An NFT marketplace for pro traders and creators, offering experimental tools and new standards to build the next wave of non-fungible Web3 experiences.",
+   "project-logo": {
+    "fileId": "66e329c70af4acd322e45775",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e329c70af4acd322e45775_trove_logo_240px.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e329cb542df8e63412374a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e329cb542df8e63412374a_radix_cover_trove.png",
+    "alt": null
+   },
+   "link-to-project": "https://trove.tools/",
+   "categories": [
+    "66dafd561128dd1593392a87",
+    "66dafd4ec76901ac3209fbb0",
+    "66dafd3847c321c70ec5953f"
+   ],
+   "rank": 3,
+   "name": "Trove",
+   "slug": "trove"
+  }
+ },
+ {
+  "id": "66e2c9af6a0145fb170b6c8e",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T14:35:33.826Z",
+  "lastUpdated": "2025-02-03T14:35:33.826Z",
+  "createdOn": "2024-09-12T10:59:59.719Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Weft Finance is a non-custodial community-driven dApp on Radix for lending and borrowing digital assets offering features optimizing yield and risk management.",
+   "project-logo": {
+    "fileId": "66e1add36f4dec9e775be63a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1add36f4dec9e775be63a_Weft%20profile%20image%20green.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e1add6e8f39e44c7d5dcb8",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1add6e8f39e44c7d5dcb8_Weft%20banner_image_green%20pattern.png",
+    "alt": null
+   },
+   "link-to-project": "https://weft.finance/#/",
+   "categories": [
+    "66dafd66ee5760990041564f",
+    "66dafd303535702e99f6c8f5"
+   ],
+   "rank": 7,
+   "name": "Weft Finance",
+   "slug": "weft-finance"
+  }
+ },
+ {
+  "id": "66e2c97eeeee3adceaa8d944",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T18:16:47.858Z",
+  "lastUpdated": "2024-09-12T18:16:35.603Z",
+  "createdOn": "2024-09-12T10:59:10.955Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Surge stands as the premier perpetual Dex on Radix, offering a secure, intuitive and comprehensive trading platform tailored specifically for off-ledger markets with leverage.",
+   "project-logo": {
+    "fileId": "66df17c59b8df33721a5dfed",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df17c59b8df33721a5dfed_Icon%20(1).png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df17c8166093a6b613b60b",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df17c8166093a6b613b60b_banner1.png",
+    "alt": null
+   },
+   "link-to-project": "https://www.surge.trade/",
+   "categories": [
+    "66dafd66ee5760990041564f",
+    "66dafd5e7c1a27edea88c639"
+   ],
+   "rank": 5,
+   "name": "Surge",
+   "slug": "surge"
+  }
+ },
+ {
+  "id": "66e2c946ecc23e83cd33e3ba",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-13T15:41:39.217Z",
+  "lastUpdated": "2024-09-13T15:41:39.217Z",
+  "createdOn": "2024-09-12T10:58:14.252Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Ociswap is the Front Page of Radix: the platform to explore and exchange tokens with confidence. Break DeFi barriers with advanced concentrated liquidity and game-changing hooks.",
+   "project-logo": {
+    "fileId": "66e2c905c7daca67a8733ee5",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e2c905c7daca67a8733ee5_66df19a4dc6556a368a695c3_oci-svg2-01-p-500.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df19a7e83d01e256dd386d",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df19a7e83d01e256dd386d_Frame%2041622.png",
+    "alt": null
+   },
+   "link-to-project": "https://ociswap.com/",
+   "categories": [
+    "66dafd66ee5760990041564f",
+    "66dafd5e7c1a27edea88c639"
+   ],
+   "rank": 2,
+   "name": "Ociswap",
+   "slug": "ociswap"
+  }
+ },
+ {
+  "id": "66e2c8f5e2b54a78d62ce0ed",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T18:16:47.858Z",
+  "lastUpdated": "2024-09-12T18:16:46.150Z",
+  "createdOn": "2024-09-12T10:56:53.226Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "CaviarNine is the leading DeFi project on Radix with extensive knowledge and experience in traditional finance, providing users with seamless access to professional-grade innovative DeFi products.",
+   "project-logo": {
+    "fileId": "66e2ce8a9d2650e91a96102c",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e2ce8a9d2650e91a96102c_66df1695298f1c8854e55fc8_icon.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e2ce8f76e29535c24e4fcb",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e2ce8f76e29535c24e4fcb_66df169762a2c882fbd3715b_banner2.png",
+    "alt": null
+   },
+   "link-to-project": "https://www.caviarnine.com/",
+   "categories": [
+    "66dafd66ee5760990041564f",
+    "66dafd5e7c1a27edea88c639",
+    "66dafd47bb99ef6418f1a300",
+    "66dafd3847c321c70ec5953f"
+   ],
+   "rank": 1,
+   "name": "CaviarNine",
+   "slug": "caviarnine"
+  }
+ }
+]

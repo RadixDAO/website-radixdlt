@@ -1,0 +1,128 @@
+[
+ {
+  "id": "674715a420a4c1e16666dfd7",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:44.557Z",
+  "createdOn": "2024-11-27T12:50:44.557Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a420a4c1e16666df2a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a420a4c1e16666df2a_67387849d6914ae792be030d_6735fcaebab37291b513a87e_Uniswap%25207.svg",
+    "alt": null
+   },
+   "name": "Uniswap",
+   "slug": "uniswap"
+  }
+ },
+ {
+  "id": "674715a3ed0628e035f941cf",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:43.897Z",
+  "createdOn": "2024-11-27T12:50:43.897Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a3ed0628e035f94103",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a3ed0628e035f94103_6738785914e6e06d839b7105_6735fcaebab37291b513a87e_Uniswap%25205.svg",
+    "alt": null
+   },
+   "name": "Uniswap Copy 2",
+   "slug": "uniswap-copy-2"
+  }
+ },
+ {
+  "id": "674715a34128471fe8607d78",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:43.110Z",
+  "createdOn": "2024-11-27T12:50:43.110Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a24128471fe8607cea",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a24128471fe8607cea_673878832aa3b51fcbfeb184_6735fcaebab37291b513a87e_Uniswap%25202.svg",
+    "alt": null
+   },
+   "name": "Uniswap Copy 5",
+   "slug": "uniswap-copy-5"
+  }
+ },
+ {
+  "id": "674715a295645721be11adb0",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:42.990Z",
+  "createdOn": "2024-11-27T12:50:42.990Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a295645721be11ad6e",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a295645721be11ad6e_67387852f354ca4c7cafdff6_6735fcaebab37291b513a87e_Uniswap%25206.svg",
+    "alt": null
+   },
+   "name": "Uniswap Copy",
+   "slug": "uniswap-copy"
+  }
+ },
+ {
+  "id": "674715a2139af06249c5aba2",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:42.945Z",
+  "createdOn": "2024-11-27T12:50:42.945Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a2139af06249c5ab6b",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a2139af06249c5ab6b_6738786012ab66f45bd5c134_6735fcaebab37291b513a87e_Uniswap%25204.svg",
+    "alt": null
+   },
+   "name": "Uniswap Copy 3",
+   "slug": "uniswap-copy-3"
+  }
+ },
+ {
+  "id": "674715a237e4a93c77a724c5",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:42.783Z",
+  "createdOn": "2024-11-27T12:50:42.783Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a237e4a93c77a7247f",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a237e4a93c77a7247f_673878702aa3b51fcbfe831b_6735fcaebab37291b513a87e_Uniswap%25203.svg",
+    "alt": null
+   },
+   "name": "Uniswap Copy 4",
+   "slug": "uniswap-copy-4"
+  }
+ },
+ {
+  "id": "674715a2c47f7551aa392d2d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-11-29T08:59:05.544Z",
+  "lastUpdated": "2024-11-27T12:50:42.758Z",
+  "createdOn": "2024-11-27T12:50:42.758Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "logo": {
+    "fileId": "674715a2c47f7551aa392d17",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/674715a2c47f7551aa392d17_6738788bf354ca4c7cb0002c_6735fcaebab37291b513a87e_Uniswap%25201.svg",
+    "alt": null
+   },
+   "name": "Uniswap Copy 6",
+   "slug": "uniswap-copy-6"
+  }
+ }
+]

@@ -1,0 +1,91 @@
+ {
+   "id": "649aa8a9681ec6168a57da21",
+   "displayName": "Full stack Social Comments",
+   "singularName": "Full stack Social Comment",
+   "slug": "full-stack-social-comments",
+   "createdOn": "2023-05-24T10:14:05.085Z",
+   "lastUpdated": "2025-09-07T14:04:34.780Z",
+   "fields": [
+     {
+       "id": "66c6f2f8b9696d92571eb2a5bdadd011",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "text",
+       "displayName": "Text",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "5d252e178d133a048d6854960ee4d24a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "platform",
+       "displayName": "Platform",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Reddit",
+             "id": "2b768495691c4cd8e4536a41f1456d66"
+           },
+           {
+             "name": "Twitter",
+             "id": "80334be403c6166a3f295cf8e2de505f"
+           },
+           {
+             "name": "Telegram",
+             "id": "9ca04548f0bd31ac50b72f99d843535a"
+           },
+           {
+             "name": "Discord",
+             "id": "790730fb8247a07bddbb6df93eab3bee"
+           }
+         ]
+       }
+     },
+     {
+       "id": "68c475e9f3ad6e9f36e3184fe33f1ee8",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "social-url",
+       "displayName": "Social URL",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "c47a8ae11427327c24c50865c868ba12",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "62850360ceb89577520351f06610ce2c",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

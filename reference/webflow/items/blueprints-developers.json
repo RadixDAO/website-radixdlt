@@ -1,0 +1,654 @@
+[
+ {
+  "id": "69ee5d80da802928688af452",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-26T18:47:00.145Z",
+  "createdOn": "2026-04-26T18:46:24.474Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 1,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5da0aa723b2b08eadf11",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5da0aa723b2b08eadf11_63becf7c03b15167054ce1a5_radit.jpg",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbefcbe7f0b2813c5f3"
+   ],
+   "description": "Put Your Money Where Your Mouth Is! Radit is the first and only community platform running on the Radix ledger, powered by $RADIT - the first yield token on Radix.",
+   "github-url": null,
+   "website-url": "https://www.radit.io/",
+   "name": "Radit",
+   "slug": "radit"
+  }
+ },
+ {
+  "id": "69ee5caa6808ef1ff1ed28b4",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.685Z",
+  "createdOn": "2026-04-26T18:42:50.185Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5caa6808ef1ff1ed28ad",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5caa6808ef1ff1ed28ad_63bf1c2bbb7d5412d7b97f8e_XRD_Logo_-_Transparent_1.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbd13e17cc4b345c2fa"
+   ],
+   "description": "XRD.domains is the primary developer of the Radix Name Service (RNS), a community owned project operated by The RNS Foundation. The RNS provides the community with human readable addresses and corresponding sources of trust and reputation.",
+   "github-url": null,
+   "website-url": "https://xrd.domains/",
+   "name": "XRD.domains",
+   "slug": "xrd-domains"
+  }
+ },
+ {
+  "id": "69ee5ca9c9062e4c20a023e9",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.680Z",
+  "createdOn": "2026-04-26T18:42:49.159Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5ca9c9062e4c20a023db",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca9c9062e4c20a023db_63c049d3c944af2b039e047c_vikingland1-logo.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbc86024e569590dfa6"
+   ],
+   "description": "VikingLand is a NFT marketplace that is exclusively built on the Radix network. It offers low cost NFT selling/buying/trading both for NFT traders and NFT artists. VikingLand also offers creators a NFT launchpad to get their artwork out on Radix without anything needed.",
+   "github-url": null,
+   "website-url": "https://www.vikingland.io/",
+   "name": "VikingLand",
+   "slug": "vikingland"
+  }
+ },
+ {
+  "id": "69ee5ca821af66d448b56f36",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:26:52.208Z",
+  "createdOn": "2026-04-26T18:42:48.011Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 60,
+   "username": "@devmannic",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb86487a8df6997cbe7"
+   ],
+   "description": "An almost-production-ready Scrypto package for using Bancor-style bonding curves as an AMM on Radix. Created by @devmannic it showcases high-precision math and community packages scrypto-unit and scrypto_statictypes to increase quality and security.",
+   "github-url": "https://github.com/radixdlt/community-scrypto/tree/main/defi/amms/bonding",
+   "website-url": null,
+   "name": "Scrypto-Bonding",
+   "slug": "scrypto-bonding"
+  }
+ },
+ {
+  "id": "69ee5ca7d5c4b25467162741",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2026-04-28T17:34:18.646Z",
+  "createdOn": "2026-04-26T18:42:47.476Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "order": 5,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5ca7d5c4b2546716273c",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca7d5c4b2546716273c_62671547c2c7602d7580fdc8_raduel.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bba05a3f6da31b69cdc",
+    "69ee5bbc86024e569590dfa6"
+   ],
+   "description": "A 2D MMORPG that brings together gaming and player owned assets. Play how you want: Explore, Build, Skill, PvE, PvP, Craft, Forge Alliances, Conquer, whilst having the ability to transfer in, out, and mint your own items that can be used in-game.",
+   "github-url": null,
+   "website-url": "https://raduel.com/",
+   "name": "Raduel",
+   "slug": "raduel"
+  }
+ },
+ {
+  "id": "69ee5ca640879c696f20409d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.677Z",
+  "createdOn": "2026-04-26T18:42:46.443Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5ca640879c696f204098",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca640879c696f204098_63c04a2a4e7e677818e1df38_radlock_icon.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbd13e17cc4b345c2fa"
+   ],
+   "description": "RadLock provides tools to increase safety and trust on Radix for both founders and investors. Core services include: locking, vesting, launchpad and more.",
+   "github-url": null,
+   "website-url": "https://radlock.io/",
+   "name": "RadLock",
+   "slug": "radlock"
+  }
+ },
+ {
+  "id": "69ee5ca58e555cf1c7b910c6",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.708Z",
+  "createdOn": "2026-04-26T18:42:45.407Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5ca58e555cf1c7b910c1",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca58e555cf1c7b910c1_63c04ad11d8b1d83c7bfabb8_Radix%2520Stream.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbd13e17cc4b345c2fa"
+   ],
+   "description": "Radix Stream is a self custodian Mobile Wallet that makes it Easy & Safe to store, send, and receive tokens on the Radix ledger.",
+   "github-url": null,
+   "website-url": "https://radix.stream/",
+   "name": "Radix Stream",
+   "slug": "radix-stream"
+  }
+ },
+ {
+  "id": "69ee5ca3f71e0e1c693cffc9",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.636Z",
+  "createdOn": "2026-04-26T18:42:43.692Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 6,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5ca3f71e0e1c693cffc0",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca3f71e0e1c693cffc0_626715c790e2e774d7274a96_radish_eco.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbc86024e569590dfa6"
+   ],
+   "description": "Radish aims to innovate the application of digital assets by utilizing Scrypto\u2019s composability within a friendly environment where creators can unleash their ideas!",
+   "github-url": null,
+   "website-url": "https://radish.world/",
+   "name": "Radish Eco",
+   "slug": "radish-eco"
+  }
+ },
+ {
+  "id": "69ee5ca25a1922a3cf6ee8d1",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:26:38.508Z",
+  "createdOn": "2026-04-26T18:42:42.727Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 50,
+   "username": "@0xOmar",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb86487a8df6997cbe7"
+   ],
+   "description": "RaDEX is a constant function AMM DEX protocol built on the Radix ledger using Scrypto: the smart contracts language of the Radix ledger. RaDEX is a reimagination of the Uniswap v2 built with the new concepts introduced by Radix.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/1-exchanges/RaDEX",
+   "website-url": null,
+   "name": "RaDEX",
+   "slug": "radex"
+  }
+ },
+ {
+  "id": "69ee5ca212ea220cf2b75d2a",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.706Z",
+  "createdOn": "2026-04-26T18:42:42.158Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 5,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5ca212ea220cf2b75d25",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca212ea220cf2b75d25_6267151558273953d8ee6663_ociswap.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb86487a8df6997cbe7"
+   ],
+   "description": "Blazing the way for easy swaps at global scale. Ociswap is the first pairwise decentralized exchange in the special meow-y way that will be launched at the Radix Babylon release. Building exclusively on the future-proof Radix network with drastically reduced risk for hacks and exploits allows us to provide super easy, always fast and safe swaps at near zero cost.",
+   "github-url": null,
+   "website-url": "https://ociswap.com",
+   "name": "Ociswap",
+   "slug": "ociswap"
+  }
+ },
+ {
+  "id": "69ee5ca18a9ff765120e44be",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-26T18:42:41.027Z",
+  "createdOn": "2026-04-26T18:42:41.027Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 5,
+   "username": "Peter Kim",
+   "icon": {
+    "fileId": "69ee5ca08a9ff765120e44b9",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca08a9ff765120e44b9_62e924c9c8c390afa86350e2_neuracle.svg",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbdd535bb6852e4987f"
+   ],
+   "description": "NeuRacle is a Decentralized, Trustless Oracle built on Radix Ledger that provide decentralized, trustless data validation service to bring-in off-chain data.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/2-oracles/NeuRacle",
+   "website-url": null,
+   "name": "NeuRacle",
+   "slug": "neuracle"
+  }
+ },
+ {
+  "id": "69ee5c9fa8047f8b5de48f8b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.714Z",
+  "createdOn": "2026-04-26T18:42:39.982Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 5,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c9fa8047f8b5de48f85",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9fa8047f8b5de48f85_62bdac7114e9b3202c04c91a_impahla.jpeg",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb82f70b5d59f31f840"
+   ],
+   "description": "Impahla is a DAO (Decentralized Autonomous Organization) governing a community-owned digital assets platform specializing in crypto-native start-up fundraising (via Fungible Tokens) and Non-Fungible Token (NFT) full-cycle management platform.",
+   "github-url": null,
+   "website-url": "http://www.impahla.io",
+   "name": "Impahla",
+   "slug": "impahla"
+  }
+ },
+ {
+  "id": "69ee5c9e02830a749a0bedb9",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.758Z",
+  "createdOn": "2026-04-26T18:42:38.976Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c9e02830a749a0bedb4",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9e02830a749a0bedb4_63c04a9b7356ec627d0d43bc_Ideomaker%2520icon.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbd13e17cc4b345c2fa"
+   ],
+   "description": "Ideomaker is a multi tool application allowing users to easily build products and services faster on an open network of global creators and suppliers, and to boost their distribution with automated sales and logistics.",
+   "github-url": null,
+   "website-url": "https://ideomaker.com/",
+   "name": "Ideomaker",
+   "slug": "ideomaker"
+  }
+ },
+ {
+  "id": "69ee5c9d05a3f6da31b6aabd",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:26:26.832Z",
+  "createdOn": "2026-04-26T18:42:37.962Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 70,
+   "username": "@devmannic",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb86487a8df6997cbe7"
+   ],
+   "description": "HareSwap is a P2P DEX platform @devmannic created for the first Scrypto Challenge. Inspired by Airswap but unique to Radix. Transaction manifests and advanced Blueprints enable trading and customizable settlement of any resource on the Radix Ledger.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/1-exchanges/hareswap",
+   "website-url": null,
+   "name": "HareSwap",
+   "slug": "hareswap"
+  }
+ },
+ {
+  "id": "69ee5c9d75be6b0f544d3925",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.825Z",
+  "createdOn": "2026-04-26T18:42:37.427Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c9d75be6b0f544d391f",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9d75be6b0f544d391f_63c04a6d1d8b1db4a3bf432a_FOTON%2520icon.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbc86024e569590dfa6"
+   ],
+   "description": "FOTON is a modular NFTs Marketplace and SDK allowing users to create various Tokenized Digital Assets and to sell or trade them with other users. Assets range from digital art, in-game items or tickets, to subscriptions or access passes to gated content.",
+   "github-url": null,
+   "website-url": "https://foton.is/",
+   "name": "Foton",
+   "slug": "foton"
+  }
+ },
+ {
+  "id": "69ee5c9c00396c59bf2eb20a",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.681Z",
+  "createdOn": "2026-04-26T18:42:36.287Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 1,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c9c00396c59bf2eb205",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9c00396c59bf2eb205_63becf2baddf3011bb4bb4db_dsor.jpeg",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbd13e17cc4b345c2fa"
+   ],
+   "description": "DSOR (\"dee-soar\") aggregates multiple venues of liquidity in the Radix ecosystem to provide you with the best optimal trade execution. Slick UI design, powerful centralized realtime optimal routes solver, staking + more arriving at Babylon",
+   "github-url": null,
+   "website-url": "https://dsor.io/",
+   "name": "DSOR",
+   "slug": "dsor"
+  }
+ },
+ {
+  "id": "69ee5c9b6a80d580823d04dd",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:26:15.594Z",
+  "createdOn": "2026-04-26T18:42:35.364Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 50,
+   "username": "scryptonight",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbba9d1ead9c0be3367"
+   ],
+   "description": "This project provides a set of blueprints which when used together will allow you to offer micro-finance services on the ledger.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/3-lending/demifi",
+   "website-url": null,
+   "name": "DeMIFI",
+   "slug": "demifi"
+  }
+ },
+ {
+  "id": "69ee5c9a822fbad4f5e66fe0",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.678Z",
+  "createdOn": "2026-04-26T18:42:34.744Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 5,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c9a822fbad4f5e66fd0",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9a822fbad4f5e66fd0_6388dcf91e94a47cec507cc3_delphi-logo-darkblue.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb9752d31141e344e7c"
+   ],
+   "description": "Trustless, transparent & secure. Delphibets is the first prediction market protocol being built on Radix DLT. Users will have the opportunity to place bets and compete with opposing bettors by predicting future events. Alongside Peer-2-Peer (P2P) betting, the protocol utilizes complex AMM and totalisator mechanisms that ensure an engaging, responsive, and frictionless user experience.",
+   "github-url": null,
+   "website-url": "http://delphibets.com",
+   "name": "Delphibets",
+   "slug": "delphibets"
+  }
+ },
+ {
+  "id": "69ee5c99fddc2a87eca3d443",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:26:06.148Z",
+  "createdOn": "2026-04-26T18:42:33.589Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 50,
+   "username": "PostNutClarity",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbba9d1ead9c0be3367"
+   ],
+   "description": "DegenFi is a lending protocol for degens masquerading as credit worthy borrowers. Its main feature allows users to leverage their underlying assets to earn a multiple on their earnings (or losses) using flash loans.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/3-lending/degenfi",
+   "website-url": null,
+   "name": "DegenFi",
+   "slug": "degenfi"
+  }
+ },
+ {
+  "id": "69ee5c999efb028b56ec183f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:25:47.863Z",
+  "createdOn": "2026-04-26T18:42:33.045Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 50,
+   "username": "@Kansuler",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb82f70b5d59f31f840"
+   ],
+   "description": "This is a blueprint example of a crowdsourcing campaign. The creator becomes a fundraiser, while anyone can pledge to the campaign, or recall their pledge. The fundraiser can withdraw the collected XRD if the campaign has ended and the goal is met.",
+   "github-url": "https://github.com/radixdlt/community-scrypto-examples/tree/main/defi/crowdsourcing",
+   "website-url": null,
+   "name": "Crowd Sourcing",
+   "slug": "crowd-sourcing"
+  }
+ },
+ {
+  "id": "69ee5c98eafa6f0bfc0a0079",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:25:51.596Z",
+  "createdOn": "2026-04-26T18:42:32.549Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": null,
+   "username": "@you",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbaf54d643c74a0c920",
+    "69ee5bbe2ff7d1decf028fdc"
+   ],
+   "description": "Be the first in this space by submitting your own project or blueprint!",
+   "github-url": null,
+   "website-url": null,
+   "name": "Coming soon...",
+   "slug": "coming-soon"
+  }
+ },
+ {
+  "id": "69ee5c9748c67fbcebccc22e",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:25:55.875Z",
+  "createdOn": "2026-04-26T18:42:31.994Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 80,
+   "username": "@FR05T8YTE",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb86487a8df6997cbe7"
+   ],
+   "description": "ChainDEX is an order book exchange built for defi.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/1-exchanges/ChainDEX",
+   "website-url": null,
+   "name": "ChainDEX",
+   "slug": "chaindex"
+  }
+ },
+ {
+  "id": "69ee5c978989b549c085cff3",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.677Z",
+  "createdOn": "2026-04-26T18:42:31.460Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 1,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c978989b549c085cfeb",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c978989b549c085cfeb_63becee10f096573db2ad1c1_caviarswap.jpeg",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb86487a8df6997cbe7"
+   ],
+   "description": "CaviarSwap is a decentralized exchange, powered by Radix DLT with the native token being FLOOP. Caviar is the leader in DEX innovation with Single Token Liquidity Providing, Dynamic Fees, AI assistance, FLOOP staking, Pool based AMM and user defined token risks.",
+   "github-url": null,
+   "website-url": "https://caviarswap.io/",
+   "name": "CaviarSwap",
+   "slug": "caviarswap"
+  }
+ },
+ {
+  "id": "69ee5c966560b7414bf58e6e",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T10:54:47.754Z",
+  "lastUpdated": "2026-04-27T09:25:30.581Z",
+  "createdOn": "2026-04-26T18:42:30.475Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 50,
+   "username": "backyard-coder",
+   "icon": {
+    "fileId": "69eef863aa184f15f109ef65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bbdd535bb6852e4987f"
+   ],
+   "description": "This oracle style component gives blueprint developers the power to schedule method callbacks to happen at a specific epoch or wall-clock time. It also showcases the flexibility and power of Scrypto's asset oriented approach.",
+   "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/2-oracles/callback-scheduler",
+   "website-url": null,
+   "name": "CallbackScheduler",
+   "slug": "callbackscheduler"
+  }
+ },
+ {
+  "id": "69ee5c953ab1b5cf6471ebff",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-28T18:59:23.705Z",
+  "lastUpdated": "2026-04-28T17:34:18.689Z",
+  "createdOn": "2026-04-26T18:42:29.835Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "order": 5,
+   "username": null,
+   "icon": {
+    "fileId": "69ee5c953ab1b5cf6471ebfa",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c953ab1b5cf6471ebfa_62166de8126733d88d630195_image.png",
+    "alt": null
+   },
+   "category": [
+    "69ee5bb82f70b5d59f31f840"
+   ],
+   "description": "Adept is a platform that empowers digital creators to build their own decentralized communities. We take a \u201cuser first\u201d approach focusing on providing users with all the necessary tools and components to build and manage their own community.",
+   "github-url": null,
+   "website-url": "https://adeptdao.org/",
+   "name": "Adept",
+   "slug": "adept"
+  }
+ }
+]

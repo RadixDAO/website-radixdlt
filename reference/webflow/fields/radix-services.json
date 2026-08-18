@@ -1,0 +1,40 @@
+ {
+   "id": "65006fb5f3dde67a65a4e058",
+   "displayName": "Radix - Services",
+   "singularName": "Radix - Service",
+   "slug": "radix-services",
+   "createdOn": "2023-09-12T14:03:33.350Z",
+   "lastUpdated": "2025-06-10T09:02:35.926Z",
+   "fields": [
+     {
+       "id": "a38a8ecf6663e359db08f7c425a09e2c",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "b7908b4aecb89410625b53960aeb3fe4",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

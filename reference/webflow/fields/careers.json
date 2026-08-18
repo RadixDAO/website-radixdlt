@@ -1,0 +1,50 @@
+ {
+   "id": "649aa8a9681ec6168a57d8fa",
+   "displayName": "Careers",
+   "singularName": "Career",
+   "slug": "careers",
+   "createdOn": "2021-04-27T12:08:11.592Z",
+   "lastUpdated": "2025-06-10T09:02:35.919Z",
+   "fields": [
+     {
+       "id": "ee12b637f1be2737602634cbb36a8ad4",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "RichText",
+       "slug": "job-spec",
+       "displayName": "Job Spec",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "c4cba1d4691a6d28f2b568f14e48c80d",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "e947aced36ef91cfd2fe3f77ba91096b",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

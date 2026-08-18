@@ -1,0 +1,230 @@
+[
+ {
+  "id": "649aa8a9681ec6168a57de49",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-12-19T14:51:31.402Z",
+  "lastUpdated": "2023-12-15T14:18:18.902Z",
+  "createdOn": "2022-06-09T14:37:34.618Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": "CPO of RDX Works",
+   "image": null,
+   "description": null,
+   "name": "Matthew Hine",
+   "slug": "matthew-hine-3"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de48",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-09T14:16:17.183Z",
+  "createdOn": "2022-06-09T14:16:17.183Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": "CPO",
+   "image": null,
+   "description": null,
+   "name": "Matthew Hine",
+   "slug": "matthew-hine-2"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de38",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-11-22T11:05:35.281Z",
+  "createdOn": "2022-06-06T09:01:49.615Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Ben Far",
+   "slug": "ben-far"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de37",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-12-20T17:00:54.724Z",
+  "lastUpdated": "2023-12-20T17:00:47.937Z",
+  "createdOn": "2022-06-06T09:01:48.798Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": "RDX Works CTO",
+   "image": null,
+   "description": null,
+   "name": "Russell Harvey",
+   "slug": "russell-harvey"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de36",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.490Z",
+  "createdOn": "2022-06-06T09:01:48.490Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "RDX Works",
+   "slug": "rdx-works"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de35",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.423Z",
+  "createdOn": "2022-06-06T09:01:48.423Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Radix Tokens (Jersey)",
+   "slug": "radix-tokens-jersey"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de34",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.384Z",
+  "createdOn": "2022-06-06T09:01:48.384Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Piers Ridyard",
+   "slug": "piers-ridyard"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de33",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.380Z",
+  "createdOn": "2022-06-06T09:01:48.380Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Radix",
+   "slug": "radix"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de32",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.371Z",
+  "createdOn": "2022-06-06T09:01:48.371Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Matthew Hine",
+   "slug": "matthew-hine"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de31",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.187Z",
+  "createdOn": "2022-06-06T09:01:48.187Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Jeremy Epstein",
+   "slug": "jeremy-epstein"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de30",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.107Z",
+  "createdOn": "2022-06-06T09:01:48.107Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Dan Hughes",
+   "slug": "dan-hughes"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de2e",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.073Z",
+  "createdOn": "2022-06-06T09:01:48.073Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Adam Simmons",
+   "slug": "adam-simmons"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de2f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T09:01:48.072Z",
+  "createdOn": "2022-06-06T09:01:48.072Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": null,
+   "image": null,
+   "description": null,
+   "name": "Josh Primero",
+   "slug": "josh-primero"
+  }
+ },
+ {
+  "id": "649aa8a9681ec6168a57de2d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2023-06-27T09:16:16.378Z",
+  "lastUpdated": "2022-06-06T12:06:49.758Z",
+  "createdOn": "2022-06-06T09:01:48.066Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "role": "Community Lead, RDX Works",
+   "image": {
+    "fileId": "649aa8a9681ec6168a57e1f8",
+    "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629decdc85944713d20b0626_jacob.png",
+    "alt": null
+   },
+   "description": "Jacob is originally from Sydney, Australia, and after moving to England in 2014 he began working as a social media consultant, helping business owners build communities around their products and services.",
+   "name": "Jacob McAtamney",
+   "slug": "jacob-mcatamney"
+  }
+ }
+]

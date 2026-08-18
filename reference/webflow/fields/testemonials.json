@@ -1,0 +1,62 @@
+ {
+   "id": "674715eb5cdc8c636020bb07",
+   "displayName": "Testimonials",
+   "singularName": "Testimonial",
+   "slug": "testemonials",
+   "createdOn": "2024-11-27T12:51:55.463Z",
+   "lastUpdated": "2025-06-10T09:02:35.970Z",
+   "fields": [
+     {
+       "id": "3cc12a8910b5d8c1499be63187f79eb5",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "content",
+       "displayName": "Content",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "d11bcf563fd3f4102d72f63932ee0cd2",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "image",
+       "displayName": "Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "fcacf9b665aba4157713baba80c9cc16",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "491f3f53612cfd2f4d2a97d1c5b110d9",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,980 @@
+[
+ {
+  "id": "6863e2702ca262a89b8b07e6",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-07-04T17:18:38.178Z",
+  "lastUpdated": "2025-07-01T13:29:42.394Z",
+  "createdOn": "2025-07-01T13:28:16.321Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Launch your project on Radix with ease. Instantly create your coin with infinite liquidity using a bonding curve.",
+   "project-logo": {
+    "fileId": "6863e2a38d82aedac9921a65",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e2a38d82aedac9921a65_Rakoon%20logo.svg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "6863e2a791c4ed531837e50d",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e2a791c4ed531837e50d_Rakoon%20BG.svg",
+    "alt": null
+   },
+   "link-to-project": "https://rakoon.fun",
+   "categories": [
+    "66dafd47bb99ef6418f1a300",
+    "66dafd561128dd1593392a87"
+   ],
+   "rank": 32,
+   "featured": false,
+   "name": "Rakoon.fun",
+   "slug": "rakoon-fun"
+  }
+ },
+ {
+  "id": "6863e1e08debb195fcd33166",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-07-04T17:18:38.178Z",
+  "lastUpdated": "2025-07-01T13:57:45.600Z",
+  "createdOn": "2025-07-01T13:25:52.221Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Prism Terminal is a yield derivatives protocol, giving users powerful new ways to manage and speculate on yield.",
+   "project-logo": {
+    "fileId": "6863e8747c9816b4b0635922",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e8747c9816b4b0635922_Prism%20Profile.svg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "6863e878ed2cae6f61c08d49",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e878ed2cae6f61c08d49_Prism%20Banner.svg",
+    "alt": null
+   },
+   "link-to-project": "https://www.prismterminal.com/",
+   "categories": [
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 31,
+   "featured": false,
+   "name": "Prism Terminal",
+   "slug": "prism-terminal"
+  }
+ },
+ {
+  "id": "6863e17edd2ee3f74318d66d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-07-04T17:18:38.178Z",
+  "lastUpdated": "2025-07-01T13:25:38.296Z",
+  "createdOn": "2025-07-01T13:24:14.186Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "RadFolio is a modern portfolio manager for the Radix network. Track your Radix assets across multiple accounts with ease.",
+   "project-logo": {
+    "fileId": "6863e19b67e06b32acf47347",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e19b67e06b32acf47347_radfolio-logo.svg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "6863e19fbdff987aac78667f",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e19fbdff987aac78667f_radfolio-bg.svg",
+    "alt": null
+   },
+   "link-to-project": "https://radfolio.xyz",
+   "categories": [
+    "66dafd9a71b1547992aadb0e"
+   ],
+   "rank": 30,
+   "featured": false,
+   "name": "RadFolio",
+   "slug": "radfolio"
+  }
+ },
+ {
+  "id": "6814c66afdde9536d4905460",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-05-03T10:11:29.418Z",
+  "lastUpdated": "2025-05-03T10:11:29.418Z",
+  "createdOn": "2025-05-02T13:19:38.898Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A cutting-edge NFT marketplace & launchpad, XRDEGEN uses innovative tools & gamified experiences to empower digital asset collectors and creators alike",
+   "project-logo": {
+    "fileId": "6814c65b51339da577bea10f",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6814c65b51339da577bea10f_photo_2025-05-02_14-12-47.jpg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "6814c6580a7f7085ff10ee30",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6814c6580a7f7085ff10ee30_photo_2025-05-02_14-12-47%20(2).jpg",
+    "alt": null
+   },
+   "link-to-project": "https://xrdegen.com",
+   "categories": [
+    "66dafd4ec76901ac3209fbb0",
+    "66dafd561128dd1593392a87"
+   ],
+   "rank": 29,
+   "featured": false,
+   "name": "XRDEGEN",
+   "slug": "xrdegen"
+  }
+ },
+ {
+  "id": "67bf3ae19337e5811888b362",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-26T16:01:44.513Z",
+  "lastUpdated": "2025-02-26T16:01:37.939Z",
+  "createdOn": "2025-02-26T16:01:37.939Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Twinstake is an institutional-grade, non-custodial staking provider designed and built in collaboration with leaders in the digital assets space.",
+   "project-logo": {
+    "fileId": "67bf3aadd3f7edf109a9f224",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf3aadd3f7edf109a9f224_idv__4hppI_logos.jpeg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67bf3aaf13ac2e26d1f78abf",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf3aaf13ac2e26d1f78abf_Twinstake.png",
+    "alt": null
+   },
+   "link-to-project": "https://www.twinstake.com/",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 29,
+   "featured": false,
+   "name": "Twinstake",
+   "slug": "twinstake"
+  }
+ },
+ {
+  "id": "67bf3a9fe662ee978ac0208f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-26T16:01:44.513Z",
+  "lastUpdated": "2025-02-26T16:00:31.760Z",
+  "createdOn": "2025-02-26T16:00:31.760Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Hardware Wallet for extra account security",
+   "project-logo": {
+    "fileId": "67bf3a54807f12fee93e98c0",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf3a54807f12fee93e98c0_LEDGER-WORDMARK-SINGLE-CHARACTER-BLACK-CMYK.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67bf3a4fe58a23fc5d986d32",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf3a4fe58a23fc5d986d32_Ledger.png",
+    "alt": null
+   },
+   "link-to-project": "https://www.ledger.com/",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 28,
+   "featured": false,
+   "name": "Ledger",
+   "slug": "ledger"
+  }
+ },
+ {
+  "id": "67bf39efe2d4ebb4ebb9ef5e",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-26T16:01:44.513Z",
+  "lastUpdated": "2025-02-26T15:57:35.496Z",
+  "createdOn": "2025-02-26T15:57:35.496Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "The easiest way to track and report your crypto tax.",
+   "project-logo": {
+    "fileId": "67bf39bdc0db1b6da659b783",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf39bdc0db1b6da659b783_ufd6fxwv98m7ivp4dc%20(1).svg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67bf39bf6ab3fa084c9ffe7d",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf39bf6ab3fa084c9ffe7d_Koinly.png",
+    "alt": null
+   },
+   "link-to-project": "https://koinly.io/",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 27,
+   "featured": false,
+   "name": "Koinly",
+   "slug": "koinly"
+  }
+ },
+ {
+  "id": "67bf3994db62a45f6048ca6d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-26T16:01:44.513Z",
+  "lastUpdated": "2025-02-26T15:56:04.409Z",
+  "createdOn": "2025-02-26T15:56:04.409Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Open and transparent DeFi analytics",
+   "project-logo": {
+    "fileId": "67bf396e5478ae1b3387ec39",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf396e5478ae1b3387ec39_defillama-logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67bf395f5cac687d16fcf46a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf395f5cac687d16fcf46a_DeFiLlama.png",
+    "alt": null
+   },
+   "link-to-project": "https://defillama.com/chain/Radix",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 26,
+   "featured": false,
+   "name": "DeFiLlama",
+   "slug": "defillama"
+  }
+ },
+ {
+  "id": "67bf394fabb05f2c4abab6ac",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-26T16:01:44.513Z",
+  "lastUpdated": "2025-02-26T15:54:55.357Z",
+  "createdOn": "2025-02-26T15:54:55.357Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Custody, Prime Services, and Collateral Management for Digital Assets",
+   "project-logo": {
+    "fileId": "67bf39155478ae1b33879ccc",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf39155478ae1b33879ccc_idlob7siGx_1740392029635.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67bf391782794df4b16d03e7",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf391782794df4b16d03e7_Copper.png",
+    "alt": null
+   },
+   "link-to-project": "https://copper.co/en",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 25,
+   "featured": false,
+   "name": "Copper",
+   "slug": "copper"
+  }
+ },
+ {
+  "id": "67bf3900abb05f2c4aba6a1b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-26T16:01:44.513Z",
+  "lastUpdated": "2025-02-26T15:53:36.864Z",
+  "createdOn": "2025-02-26T15:53:36.864Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Advanced Explorer where you can check any metrics like transactions, tokens, validators and much more.",
+   "project-logo": {
+    "fileId": "67bf36bcdc9fffe1ef6a6765",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf36bcdc9fffe1ef6a6765_RadXplorer%20Icon.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "67bf36c079b675e5ab6b6b06",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf36c079b675e5ab6b6b06_RadXplorer%20Banner.jpg",
+    "alt": null
+   },
+   "link-to-project": "https://www.radxplorer.com/",
+   "categories": [
+    "66dafd4047c321c70ec59b34",
+    "66dafd9a71b1547992aadb0e"
+   ],
+   "rank": 24,
+   "featured": false,
+   "name": "RadXplorer",
+   "slug": "radxplorer"
+  }
+ },
+ {
+  "id": "66e1afcfeec31766606201dc",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-11T14:57:38.622Z",
+  "lastUpdated": "2024-09-11T14:57:19.582Z",
+  "createdOn": "2024-09-11T14:57:19.582Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "The Radix Billboard is a shared digital canvas, segmented into thousands of blocks that you can personally own and customize with an image, link, and title.",
+   "project-logo": {
+    "fileId": "66e1afb9dea4a1b12fdd4a2c",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1afb9dea4a1b12fdd4a2c_profile-image.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e1afbce87ae1b13dc37d90",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1afbce87ae1b13dc37d90_banner.png",
+    "alt": null
+   },
+   "link-to-project": "https://radixbillboard.com/",
+   "categories": [
+    "66dafd561128dd1593392a87"
+   ],
+   "rank": 15,
+   "featured": false,
+   "name": "Radix Billboard",
+   "slug": "radix-billboard"
+  }
+ },
+ {
+  "id": "66e1ada0aad90d28829cb918",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T14:34:10.285Z",
+  "lastUpdated": "2025-01-21T20:02:56.995Z",
+  "createdOn": "2024-09-11T14:48:00.080Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A community-driven project promoting the idea of being early in the space, inviting users to join and redefine what it means to be an early adopter in the crypto world.",
+   "project-logo": {
+    "fileId": "66e4722cc9deebcc5b5349ab",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e4722cc9deebcc5b5349ab_photo_2024-09-13%2018.10.45.jpeg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e1ad872b9111e8d3123a28",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1ad872b9111e8d3123a28_bg3.png",
+    "alt": null
+   },
+   "link-to-project": "https://stillearly.tech",
+   "categories": [
+    "66dafd47bb99ef6418f1a300"
+   ],
+   "rank": 29,
+   "featured": false,
+   "name": "EARLY",
+   "slug": "early"
+  }
+ },
+ {
+  "id": "66df6d1491611e595c6ad59e",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T15:54:34.264Z",
+  "lastUpdated": "2025-02-03T15:45:38.157Z",
+  "createdOn": "2024-09-09T21:48:04.627Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Provides additional endpoints and functionality to the Radix Gateway API, simplifying the retrieval of required data and ledger services.",
+   "project-logo": {
+    "fileId": "66df6d0124735667eed32376",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6d0124735667eed32376_1%20(1).png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df6d03f3d6f1068d722900",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6d03f3d6f1068d722900_RadixAPI%20banner.png",
+    "alt": null
+   },
+   "link-to-project": "https://radixapi.net/",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 28,
+   "featured": false,
+   "name": "Radix API",
+   "slug": "radix-api"
+  }
+ },
+ {
+  "id": "66df6c9fa636c396d27dd4d6",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:36:04.163Z",
+  "createdOn": "2024-09-09T21:46:07.497Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A decentralized finance protocol focusing on innovative yield optimization and interoperability strategies, with liquid staking derivatives and leveraged yield farming.",
+   "project-logo": {
+    "fileId": "66df6c906a483bff5de42041",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6c906a483bff5de42041_logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df6c916966ee165ca25875",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6c916966ee165ca25875_banner%20(1).png",
+    "alt": null
+   },
+   "link-to-project": "https://radix.jewelswap.io/stake",
+   "categories": [
+    "66dafd5e7c1a27edea88c639",
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 27,
+   "featured": false,
+   "name": "JewelSwap",
+   "slug": "jewelswap"
+  }
+ },
+ {
+  "id": "66df6c6a548d0870f29b6c3c",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:35:32.337Z",
+  "createdOn": "2024-09-09T21:45:14.917Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "The first decentralized order book exchange on Radix, built by volunteers and fully governed by the community.",
+   "project-logo": {
+    "fileId": "66df6c4a0f6bf4fa7a31d782",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6c4a0f6bf4fa7a31d782_Dexter%20Logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df6c570a8ddb811f2fc33a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6c570a8ddb811f2fc33a_Dexter%20-%20Ecosystem%20page%20banner%2002.png",
+    "alt": null
+   },
+   "link-to-project": "https://dexteronradix.com/",
+   "categories": [
+    "66dafd5e7c1a27edea88c639",
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 26,
+   "featured": false,
+   "name": "DeXter",
+   "slug": "dexter"
+  }
+ },
+ {
+  "id": "66df1d55d27d4b5d1573f9ee",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:34:51.764Z",
+  "createdOn": "2024-09-09T16:07:49.833Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A cutting-edge lending and borrowing protocol built on Radix, offering innovative, secure, and scalable lending solutions.",
+   "project-logo": {
+    "fileId": "66df1d49f82c4656cbc810dc",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d49f82c4656cbc810dc_Gable_Logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1d4aa322cec0c4b6d265",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d4aa322cec0c4b6d265_photo_2024-09-09%2010.15.48.jpeg",
+    "alt": null
+   },
+   "link-to-project": "https://gable.finance/",
+   "categories": [
+    "66dafd303535702e99f6c8f5"
+   ],
+   "rank": 24,
+   "featured": false,
+   "name": "Gable Finance",
+   "slug": "gable-finance"
+  }
+ },
+ {
+  "id": "66df1d15caf9bf13a56abf07",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:34:09.050Z",
+  "createdOn": "2024-09-09T16:06:45.514Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A social trading platform simplifying crypto trading by allowing users to copy expert traders in a secure, transparent, and permissionless way.",
+   "project-logo": {
+    "fileId": "66df1d039965c191bf12882d",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d039965c191bf12882d_Fidenaro_Logo_black_background_50_50.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1d05e445765b6711081d",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d05e445765b6711081d_Banner_03_OnlyBackground.png",
+    "alt": null
+   },
+   "link-to-project": "https://fidenaro.com/",
+   "categories": [
+    "66dafd5e7c1a27edea88c639",
+    "66dafd3847c321c70ec5953f"
+   ],
+   "rank": 8,
+   "featured": false,
+   "name": "Fidenaro",
+   "slug": "fidenaro"
+  }
+ },
+ {
+  "id": "66df1cda6016a2c3b73289da",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T15:54:34.264Z",
+  "lastUpdated": "2025-02-03T15:45:23.132Z",
+  "createdOn": "2024-09-09T16:05:46.728Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A digital distribution platform for comics, manga, and manhwa, featuring an in-house art studio and developing its own intellectual property.",
+   "project-logo": {
+    "fileId": "66df1ccbd27d4b5d1572f84a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ccbd27d4b5d1572f84a_photo_2024-09-06%2016.20.48.jpeg",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1cc76016a2c3b73272a0",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1cc76016a2c3b73272a0_photo_2024-09-06%2016.20.45.jpeg",
+    "alt": null
+   },
+   "link-to-project": "https://www.indeapp.xyz/",
+   "categories": [
+    "66dafd4ec76901ac3209fbb0",
+    "66dafd561128dd1593392a87"
+   ],
+   "rank": 22,
+   "featured": false,
+   "name": "IN:DE",
+   "slug": "in-de"
+  }
+ },
+ {
+  "id": "66df1ca2d49f73d012b2c2ac",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:32:25.381Z",
+  "createdOn": "2024-09-09T16:04:50.923Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A next-gen name service registry and DAO focused on offering human-readable addresses and innovative tools to fully unlock the potential of Web3.",
+   "project-logo": {
+    "fileId": "66df1c91839d5e7d9d6d5f1b",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c91839d5e7d9d6d5f1b_RNS%20Foundation%20Logo%20-%20Square.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1f84bb0862582d26cb8e",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1f84bb0862582d26cb8e_1.png",
+    "alt": null
+   },
+   "link-to-project": "https://rns.foundation/",
+   "categories": [
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 21,
+   "featured": false,
+   "name": "Radix Name Service",
+   "slug": "radix-name-service"
+  }
+ },
+ {
+  "id": "66df1c568f90ca4144084c84",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2025-05-08T10:07:10.587Z",
+  "createdOn": "2024-09-09T16:03:34.759Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "The ultimate Web3 hub for digital assets, NFTs, and project launches. FOTON allows users to create, collaborate, and swap tokenized items while boosting community engagement.",
+   "project-logo": {
+    "fileId": "66df1c473ec1430cf4ac10ea",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c473ec1430cf4ac10ea_Foton%20Icon%20Green%20on%20Gradient%20-%20Main%20one.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1c493ee4a89e9885043a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c493ee4a89e9885043a_banner.png",
+    "alt": null
+   },
+   "link-to-project": "https://foton.is/",
+   "categories": [
+    "66dafd561128dd1593392a87",
+    "66dafd4ec76901ac3209fbb0",
+    "66dafd47bb99ef6418f1a300"
+   ],
+   "rank": 20,
+   "featured": false,
+   "name": "FOTON",
+   "slug": "foton"
+  }
+ },
+ {
+  "id": "66df1c20db775db9ba0f3e54",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2025-02-08T11:47:39.172Z",
+  "createdOn": "2024-09-09T16:02:40.094Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A marketing agency dedicated to empowering Radix projects by providing strategic support to enhance visibility, drive engagement, and foster growth.",
+   "project-logo": {
+    "fileId": "66df1c109937adfd0ee059bb",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c109937adfd0ee059bb_Untitled-1a.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1c12f898309d4b9356df",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c12f898309d4b9356df_Frame%203.png",
+    "alt": null
+   },
+   "link-to-project": "https://projectnow.io/",
+   "categories": [
+    "66dafd47bb99ef6418f1a300",
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 19,
+   "featured": false,
+   "name": "Project Now",
+   "slug": "project-now"
+  }
+ },
+ {
+  "id": "66df1bc9c0b596bae47cf342",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T15:54:34.264Z",
+  "lastUpdated": "2025-02-03T15:39:29.491Z",
+  "createdOn": "2024-09-09T16:01:13.298Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A Radix memecoin movement that spreads positivity, community, and generosity in the crypto space, counteracting the typical FUD and negativity.",
+   "project-logo": {
+    "fileId": "66df1bc2bbb7af693f51afa0",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1bc2bbb7af693f51afa0_HUGHEARTLOGO-10.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1bc4dfe5310a4b00f5d9",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1bc4dfe5310a4b00f5d9_Frame%2033.png",
+    "alt": null
+   },
+   "link-to-project": "https://hug.meme/",
+   "categories": [
+    "66dafd47bb99ef6418f1a300"
+   ],
+   "rank": 18,
+   "featured": false,
+   "name": "HUG",
+   "slug": "hug"
+  }
+ },
+ {
+  "id": "66df1b99db775db9ba0e7eda",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:30:59.790Z",
+  "createdOn": "2024-09-09T16:00:25.891Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "The gateway to Radix cross-chain swaps, allowing users to swap XRD for native BTC, ETH, USDC, and more, with no KYC or centralized exchange required.",
+   "project-logo": {
+    "fileId": "66df1b248874669e07d3a23f",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1b248874669e07d3a23f_240%20x%20240%20(2).png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1b26234a7608919e54c0",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1b26234a7608919e54c0_Banner%20(4).png",
+    "alt": null
+   },
+   "link-to-project": "https://cacaoswap.app/",
+   "categories": [
+    "66dafd5e7c1a27edea88c639",
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 17,
+   "featured": false,
+   "name": "Cacao Swap",
+   "slug": "cacao-swap"
+  }
+ },
+ {
+  "id": "66df1af1eb4c965039138abb",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2025-02-03T15:54:01.863Z",
+  "createdOn": "2024-09-09T15:57:37.962Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A collection of 10,000 fully 3D and gameable NFTs designed for use within games, virtual communities, and game engines like Unity or Unreal.",
+   "project-logo": {
+    "fileId": "66df1ae31e4fdd9c72cb9b0a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ae31e4fdd9c72cb9b0a_pyro-logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1ae63e23b710ee669e74",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ae63e23b710ee669e74_pyro-header.png",
+    "alt": null
+   },
+   "link-to-project": "https://www.pyrosworld.com/",
+   "categories": [
+    "66dafd4ec76901ac3209fbb0"
+   ],
+   "rank": 15,
+   "featured": false,
+   "name": "Pyros World",
+   "slug": "pyros-world"
+  }
+ },
+ {
+  "id": "66df1abfd17b576ae09a8a5c",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": null,
+  "lastUpdated": "2025-02-08T11:47:59.310Z",
+  "createdOn": "2024-09-09T15:56:47.148Z",
+  "isArchived": true,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A meme token designed to make DeFi more accessible and inclusive, aiming to make decentralized finance fun and approachable for everyone.",
+   "project-logo": {
+    "fileId": "66df1aaedd5a2912b90e4dfa",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1aaedd5a2912b90e4dfa_RDX%20WORKS%201.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1ab06dfe83203ee98d0d",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ab06dfe83203ee98d0d_Ontwerp%20zonder%20titel%20(6).png",
+    "alt": null
+   },
+   "link-to-project": "https://wowoproject.com/",
+   "categories": [
+    "66dafd47bb99ef6418f1a300"
+   ],
+   "rank": 14,
+   "featured": false,
+   "name": "WOWO",
+   "slug": "wowo"
+  }
+ },
+ {
+  "id": "66df1a861e4fdd9c72cb1616",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:28:57.471Z",
+  "createdOn": "2024-09-09T15:55:50.674Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A platform offering trust and transparency tools for Web3. It allows users to lock and vest tokens or NFTs with custom schedules to build confidence and track projects.",
+   "project-logo": {
+    "fileId": "66df1a74c74b27676fccaa31",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1a74c74b27676fccaa31_RadLock-square-motif-with-pinkback.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1a77173bbb1304472d45",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1a77173bbb1304472d45_banner(1600x600).png",
+    "alt": null
+   },
+   "link-to-project": "https://radlock.io/",
+   "categories": [
+    "66dafd4047c321c70ec59b34",
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 13,
+   "featured": false,
+   "name": "RadLock",
+   "slug": "radlock"
+  }
+ },
+ {
+  "id": "66df1a241b97df6db286280a",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-13T16:18:29.773Z",
+  "lastUpdated": "2024-09-13T15:39:07.912Z",
+  "createdOn": "2024-09-09T15:54:12.356Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Enhances social experiences with DeFi by enabling asset trading and NFT purchases directly from social media using Radix DLT, capitalizing on early trends.",
+   "project-logo": {
+    "fileId": "66df1a1731406199a4dcb7fd",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1a1731406199a4dcb7fd_logo-with-bg-2.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66e45c90dcdfa90de577d1d8",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e45c90dcdfa90de577d1d8_selfi-banner-3%20(1).png",
+    "alt": null
+   },
+   "link-to-project": "https://chromewebstore.google.com/detail/selfi-social/ddnbhjahpdcchonegnilkimcbiopabdl",
+   "categories": [
+    "66dafd4047c321c70ec59b34",
+    "66dafd4ec76901ac3209fbb0"
+   ],
+   "rank": 12,
+   "featured": false,
+   "name": "Selfi Social",
+   "slug": "selfi-social"
+  }
+ },
+ {
+  "id": "66db00b05ada159eab066ed7",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2025-02-03T15:54:34.264Z",
+  "lastUpdated": "2025-02-03T15:37:37.595Z",
+  "createdOn": "2024-09-06T13:16:32.062Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A DEX aggregator that finds the best rates across multiple exchanges for swapping, bridging, dollar-cost averaging (DCA), or setting limit orders.",
+   "project-logo": {
+    "fileId": "66df15204da9ec87af45e4b1",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df15204da9ec87af45e4b1_Astrolescent%20Logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df15230cb0e9287562411c",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df15230cb0e9287562411c_Astrolescent%20Banner.png",
+    "alt": null
+   },
+   "link-to-project": "https://astrolescent.com/",
+   "categories": [
+    "66dafd5e7c1a27edea88c639",
+    "66dafd66ee5760990041564f",
+    "66dafd47bb99ef6418f1a300"
+   ],
+   "rank": 11,
+   "featured": false,
+   "name": "Astrolescent",
+   "slug": "astrolecent"
+  }
+ },
+ {
+  "id": "66db007189ead127c982158b",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:27:10.690Z",
+  "createdOn": "2024-09-06T13:15:29.931Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Your one-stop Radix shop! ShardSpace provides everything you need for portfolio management, token creation, airdrops, swaps, and account exploration.",
+   "project-logo": {
+    "fileId": "66df17250cd8feb7a6fca084",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df17250cd8feb7a6fca084_Profile.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1729965e55265b1297af",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1729965e55265b1297af_V1.png",
+    "alt": null
+   },
+   "link-to-project": "https://shardspace.app/",
+   "categories": [
+    "66dafd9a71b1547992aadb0e",
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 6,
+   "featured": false,
+   "name": "ShardSpace",
+   "slug": "shardspace"
+  }
+ },
+ {
+  "id": "66dafff2b67e74e21f26556f",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:24:33.616Z",
+  "createdOn": "2024-09-06T13:13:22.087Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A DeFi Tech Lab focused on enabling decentralized finance for a broader audience by bringing real-world assets to the Radix network.",
+   "project-logo": {
+    "fileId": "66df183659edc7bb5a3e1775",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df183659edc7bb5a3e1775_color4_2.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1839db775db9ba09fd3e",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1839db775db9ba09fd3e_2_2.png",
+    "alt": null
+   },
+   "link-to-project": "https://srwa.io/",
+   "categories": [
+    "66dafd66ee5760990041564f",
+    "66dafd303535702e99f6c8f5"
+   ],
+   "rank": 9,
+   "featured": false,
+   "name": "SRWA",
+   "slug": "srwa"
+  }
+ },
+ {
+  "id": "66daffc91ff9963762a42e2c",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:24:07.161Z",
+  "createdOn": "2024-09-06T13:12:41.880Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "Streamlines Radix domain management with a user-friendly, jargon-free interface, accessible to both newcomers and experienced Web3 users.",
+   "project-logo": {
+    "fileId": "66df1880c74b27676fc9c818",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1880c74b27676fc9c818_XRD%20Domains%20Logo%20Mark.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df2858f132d504b0b048cc",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df2858f132d504b0b048cc_Screenshot%202024-09-09%20at%2017.51.48.png",
+    "alt": null
+   },
+   "link-to-project": "https://xrd.domains/",
+   "categories": [
+    "66dafd561128dd1593392a87",
+    "66dafd4047c321c70ec59b34"
+   ],
+   "rank": 8,
+   "featured": false,
+   "name": "XRD Domains",
+   "slug": "xrddomains"
+  }
+ },
+ {
+  "id": "66dafef40dc69ebef0ef7fe7",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2024-09-12T11:49:04.264Z",
+  "lastUpdated": "2024-09-11T16:21:37.885Z",
+  "createdOn": "2024-09-06T13:09:08.734Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "project-description": "A Web3 betting interface on Radix that allows users to create bets, place wagers, and earn in decentralized, secure markets with a user-friendly DeFi experience.",
+   "project-logo": {
+    "fileId": "66df1932c74b27676fcaf5cc",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1932c74b27676fcaf5cc_db-logo.png",
+    "alt": null
+   },
+   "project-background": {
+    "fileId": "66df1934ed9e3665e415cf77",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1934ed9e3665e415cf77_db-header.png",
+    "alt": null
+   },
+   "link-to-project": "https://delphibets.com/",
+   "categories": [
+    "66dafd66ee5760990041564f"
+   ],
+   "rank": 7,
+   "featured": false,
+   "name": "DELPHIBETS",
+   "slug": "delphibets"
+  }
+ }
+]

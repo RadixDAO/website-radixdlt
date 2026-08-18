@@ -1,0 +1,52 @@
+ {
+   "id": "649aa8a9681ec6168a57d914",
+   "displayName": "FAQs",
+   "singularName": "FAQ",
+   "slug": "faqs",
+   "createdOn": "2021-04-25T01:08:48.364Z",
+   "lastUpdated": "2025-06-10T09:02:35.893Z",
+   "fields": [
+     {
+       "id": "db305b2eadb5413c010370fa8747da2e",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "content",
+       "displayName": "Content",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "b6f79e56413086406c9d23bcd080f39a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "97394c195e60c4a694e81d1b1f0372ab",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,126 @@
+ {
+   "id": "649aa8a9681ec6168a57d951",
+   "displayName": "Podcasts",
+   "singularName": "Podcast",
+   "slug": "podcast",
+   "createdOn": "2021-03-19T02:36:39.908Z",
+   "lastUpdated": "2025-06-10T09:02:35.891Z",
+   "fields": [
+     {
+       "id": "86f223f696f0578bc42cc8c3c63b8eb9",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "featured",
+       "displayName": "Featured?",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "a361c35e187ec444cf796b62317eafc7",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "DateTime",
+       "slug": "date",
+       "displayName": "Date",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "c54dfc6ac7b809bb136ae0adb3a5abfc",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "guest-name",
+       "displayName": "Guest Name",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "137aa41cf177c5ce6dc3147ccec91408",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "guest-image",
+       "displayName": "Guest Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "5312edf1884fe2088ad78d2e016551a4",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "company-logo",
+       "displayName": "Company Logo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "6cf41b31b1ded07d544164afdc9bbf65",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "excerpt",
+       "displayName": "Excerpt",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "80f132b87dfb790da2925ed1d4cdad47",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "main-content",
+       "displayName": "Main Content",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "f45b04bbd487ace475f44bea5a48835a",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "podcast-embed-code",
+       "displayName": "Podcast Embed Code",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "c81bbcc25ac68c0cee4a9a9aa5903f39",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Title",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "b1a766418f58240fae366ab879c3843d",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

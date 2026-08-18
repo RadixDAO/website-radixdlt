@@ -1,0 +1,184 @@
+ {
+   "id": "649aa8a9681ec6168a57d972",
+   "displayName": "Blog Posts",
+   "singularName": "Blog Post",
+   "slug": "blog",
+   "createdOn": "2021-03-19T02:24:45.320Z",
+   "lastUpdated": "2025-09-07T14:04:32.140Z",
+   "fields": [
+     {
+       "id": "de125d5c3c44837c570fa8a8923b1166",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "DateTime",
+       "slug": "date",
+       "displayName": "Date",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "ba6023b27862b4b828126bdfe6004eed",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "show-table-of-contents",
+       "displayName": "Hide Table of Contents",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "d96b4160ec663bd736477618f032e99d",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Reference",
+       "slug": "blog-author",
+       "displayName": "Blog Author",
+       "helpText": null,
+       "validations": {
+         "collectionId": "649aa8a9681ec6168a57da02"
+       }
+     },
+     {
+       "id": "c6476c87870b1276942d26520a31eadd",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "featured-post",
+       "displayName": "Featured post?",
+       "helpText": "Determines whether the post is shown as the hero item on the blog page. Limited to 1 post and if multiple posts have been selected the most recent by date will be presented.",
+       "validations": null
+     },
+     {
+       "id": "6d9f513122841b3d7ebf13e492b5bbe0",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "MultiReference",
+       "slug": "blog-category",
+       "displayName": "Blog Category",
+       "helpText": null,
+       "validations": {
+         "collectionId": "649aa8a9681ec6168a57d9e2"
+       }
+     },
+     {
+       "id": "87d1e6e9f8643b2e6a4360763bce7f7f",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "image",
+       "displayName": "Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "7b7a9afe75e594f454b1786302800b78",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "excerpt",
+       "displayName": "Excerpt",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "a812de768edee30400aa6079ca7993c3",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "main-content",
+       "displayName": "Main Content",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "90513b3c082e68f299b011499a70e699",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "seo-meta-description",
+       "displayName": "SEO Meta description",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "376728396495d35102a10b706985fe65",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "use-video-over-image",
+       "displayName": "Use Video over Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "5f061d04cb1ebdf39b0a0cec99e60ca8",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "video-code",
+       "displayName": "Video thumbnail url",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "3bc75e1815860df7c7306ea29f9a9ab7",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "video-mp4-url",
+       "displayName": "Video mp4 url",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "2ed9eb85757c1969e6aff88fa185c64a",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "video-webm-url",
+       "displayName": "Video webm url",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "c6068dfa9bd847ed9dce433b40e0b1be",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Title",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "dfaf28bfe45fdcc6d3330346fcbe3c04",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

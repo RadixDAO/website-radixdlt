@@ -1,0 +1,26 @@
+[
+ {
+  "id": "69eb1e37d22c65f903fdf05d",
+  "cmsLocaleId": "653ad18be882f528b3005330",
+  "lastPublished": "2026-04-27T08:18:20.118Z",
+  "lastUpdated": "2026-04-24T07:39:35.719Z",
+  "createdOn": "2026-04-24T07:39:35.719Z",
+  "isArchived": false,
+  "isDraft": false,
+  "fieldData": {
+   "job-title": "Head of Strategy",
+   "photo": {
+    "fileId": "649aa8a9681ec6168a57db6a",
+    "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6085c259565d4fd78ef84f30_adam.png",
+    "alt": null
+   },
+   "biography": null,
+   "facebook-link": null,
+   "twitter-link": null,
+   "linkedin-link": null,
+   "profile-header-photo": null,
+   "name": "Adam Simmons",
+   "slug": "adam-simmons"
+  }
+ }
+]

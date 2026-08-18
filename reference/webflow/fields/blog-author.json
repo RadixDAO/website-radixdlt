@@ -1,0 +1,74 @@
+ {
+   "id": "649aa8a9681ec6168a57da02",
+   "displayName": "Blog Authors",
+   "singularName": "Blog Author",
+   "slug": "blog-author",
+   "createdOn": "2022-05-24T16:31:04.704Z",
+   "lastUpdated": "2025-06-10T09:02:35.932Z",
+   "fields": [
+     {
+       "id": "52f55bc913d81986b8bf2b43c8767c15",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "role",
+       "displayName": "Role",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "1ef3a2fa34361e28f0bff2bed574d43a",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "image",
+       "displayName": "Image",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "dbfc9a6a3033fb06d0c020d0df4d7fe2",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "PlainText",
+       "slug": "description",
+       "displayName": "Description",
+       "helpText": null,
+       "validations": {
+         "singleLine": false
+       }
+     },
+     {
+       "id": "fdcddff1779f291265d88bc3b49ad89b",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "ee9b686ea3594526b2cf02b995745ee5",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

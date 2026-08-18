@@ -1,0 +1,112 @@
+ {
+   "id": "69eb1dcfdf507b399377ca82",
+   "displayName": "Team members { learn }",
+   "singularName": "Team members { learn }",
+   "slug": "team-members-learn",
+   "createdOn": "2026-04-24T07:37:51.603Z",
+   "lastUpdated": "2026-04-24T07:39:09.802Z",
+   "fields": [
+     {
+       "id": "126ecd51ccb24b59e4b6925e20366b98",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "job-title",
+       "displayName": "Job Title",
+       "helpText": null,
+       "validations": {
+         "singleLine": true
+       }
+     },
+     {
+       "id": "56c6e586d7c4463214faae48d31582dc",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Image",
+       "slug": "photo",
+       "displayName": "Photo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "74cf08e24f42424bd4015b7f6afc02a8",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "biography",
+       "displayName": "Biography",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "d9efb5f6c93a0cc38ff7017ad9ba6f6c",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "facebook-link",
+       "displayName": "Facebook Link",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "01a3385531b67f25d12d427e37ab4371",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "twitter-link",
+       "displayName": "Twitter Link",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "dd4188f07bdfddc4c6fe04ecae2459fa",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Link",
+       "slug": "linkedin-link",
+       "displayName": "LinkedIn Link",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "56cf83aa01e10fadfd48317f38008a67",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "profile-header-photo",
+       "displayName": "Profile Header Photo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "e0d962cb54e3c48d233978dfcd16ca9a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "d0c7037a4c018d64fec4f0fc978223dc",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,128 @@
+ {
+   "id": "650071763c7ff9157acead46",
+   "displayName": "Radix - Statuses",
+   "singularName": "Radix - Status",
+   "slug": "radix-statuses",
+   "createdOn": "2023-09-12T14:11:02.814Z",
+   "lastUpdated": "2025-06-10T09:02:35.962Z",
+   "fields": [
+     {
+       "id": "98df0f7aac77728734a35ca0149595ec",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "status",
+       "displayName": "Status",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Known issues",
+             "id": "42fccce846319326a036f566207e6884"
+           },
+           {
+             "name": "Updates",
+             "id": "82bc2398f3b7dcc6cda0cb6b91f236ec"
+           }
+         ]
+       }
+     },
+     {
+       "id": "3ba7204387fc199f80a9eb7e6094206d",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "MultiReference",
+       "slug": "service-s",
+       "displayName": "Service(s)",
+       "helpText": null,
+       "validations": {
+         "collectionId": "65006fb5f3dde67a65a4e058"
+       }
+     },
+     {
+       "id": "4ab41bb5d481e7b45b51e792eefc646d",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "severity",
+       "displayName": "Severity",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Low",
+             "id": "8b745c475d51171a390bb1beb0771165"
+           },
+           {
+             "name": "Medium",
+             "id": "89797114b043896c877019fb01bf5ce6"
+           },
+           {
+             "name": "High",
+             "id": "3205080ad1d3fe1318bfb4d081ffb144"
+           }
+         ]
+       }
+     },
+     {
+       "id": "62ba6a819c0408d2ff7d63cfaf3a9a29",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "DateTime",
+       "slug": "date-reported",
+       "displayName": "Date Reported",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "3a0251978d1c018b6f2650c65a5f32b4",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "DateTime",
+       "slug": "last-updated",
+       "displayName": "Last updated",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "4ed9d6a99f7537c93b643baa260e9e8d",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "content",
+       "displayName": "Content",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "f4bb0db7f476112e35b81c001ac57b12",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "f87284a4bf8f71e27d802f7035de90dc",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

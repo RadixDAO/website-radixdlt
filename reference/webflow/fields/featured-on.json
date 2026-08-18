@@ -1,0 +1,50 @@
+ {
+   "id": "6747158d500d23295ce9865f",
+   "displayName": "Featured ons",
+   "singularName": "Featured on",
+   "slug": "featured-on",
+   "createdOn": "2024-11-27T12:50:21.125Z",
+   "lastUpdated": "2025-06-10T09:02:36.033Z",
+   "fields": [
+     {
+       "id": "b793f16d90ed8269023e33d9746c61bd",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "logo",
+       "displayName": "Logo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "c29fa78b76fbaa96178bafa7bc26f265",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "855300574dfb8fa85617c77ae5c32ef6",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,50 @@
+ {
+   "id": "69ee5b4bc14aea79cf4feae6",
+   "displayName": "Categories { developers }",
+   "singularName": "Categories { developers }",
+   "slug": "categories-developers",
+   "createdOn": "2026-04-26T18:36:59.333Z",
+   "lastUpdated": "2026-04-26T18:39:04.793Z",
+   "fields": [
+     {
+       "id": "369c09b67327b3061d7a0982670e5140",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "RichText",
+       "slug": "description",
+       "displayName": "Description",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "416df7c94ea6fd2de6b70fab65da0f3c",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "ce7fc309a11ba0c7cc1106f63d20e21a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

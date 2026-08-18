@@ -1,0 +1,132 @@
+ {
+   "id": "69eb0cc49d33f411d5e04322",
+   "displayName": "Radix - Statuses { status }",
+   "singularName": "Radix - Statuses { status }",
+   "slug": "radix-opp-statuses",
+   "createdOn": "2026-04-24T06:25:08.573Z",
+   "lastUpdated": "2026-04-24T06:25:17.061Z",
+   "fields": [
+     {
+       "id": "6b9d2f684cb74342ac54f2a4d0b9dcbc",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "status",
+       "displayName": "Status",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Open",
+             "id": "8e0819e294ace51e942b2873f55ed251"
+           },
+           {
+             "name": "Closed",
+             "id": "5d07bb893cd14595735bc9ca3038d8bc"
+           }
+         ]
+       }
+     },
+     {
+       "id": "8a1ac21887f8ab9af1a55f7ee5b753ad",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "MultiReference",
+       "slug": "service-s",
+       "displayName": "Service(s)",
+       "helpText": null,
+       "validations": {
+         "collectionId": "69eb0bece5f4e6a7908f0952"
+       }
+     },
+     {
+       "id": "3210602eaeb08e40d573b714b2e5d779",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Option",
+       "slug": "severity",
+       "displayName": "Severity",
+       "helpText": null,
+       "validations": {
+         "options": [
+           {
+             "name": "Low (Default Blue)",
+             "id": "51a903ff8e8718bde8e6bf96c57aa638"
+           },
+           {
+             "name": "Medium (Orange)",
+             "id": "f3a4e3e8afa799c42cc809e61c1f3134"
+           },
+           {
+             "name": "High (Red)",
+             "id": "c4752271c0d619470c9d2a7e139faa80"
+           }
+         ]
+       }
+     },
+     {
+       "id": "729470958c0d5350e6981e308c24ff32",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "DateTime",
+       "slug": "date-reported",
+       "displayName": "Date Reported",
+       "helpText": null,
+       "validations": {
+         "format": "date-time"
+       }
+     },
+     {
+       "id": "4a329955bef509d5192f78dc6d5d6add",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "DateTime",
+       "slug": "last-update",
+       "displayName": "Last Update",
+       "helpText": null,
+       "validations": {
+         "format": "date-time"
+       }
+     },
+     {
+       "id": "806b08ddd66c1e66660553dbbe9a6e86",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "RichText",
+       "slug": "content",
+       "displayName": "Content",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "4b8db6de3ff2e59196e47b1a3afe9d57",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "989e5cd8c4325e48bd4802fbbff91fe6",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

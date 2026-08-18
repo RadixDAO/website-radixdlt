@@ -1,0 +1,80 @@
+ {
+   "id": "6509eed36cb833b9c2182a2c",
+   "displayName": "Ecosystem Projects",
+   "singularName": "Ecosystem Project",
+   "slug": "ecosystem-projects",
+   "createdOn": "2023-09-19T18:56:19.150Z",
+   "lastUpdated": "2025-06-10T09:02:35.939Z",
+   "fields": [
+     {
+       "id": "ba142e4067a4ae5e9d9e62b6a76f9184",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "Image",
+       "slug": "logo",
+       "displayName": "Logo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "c25144c313cc0564277e7d58cea159af",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "circle-logo",
+       "displayName": "Circle Logo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "ddad4cd736de260e4d9e0603ce6d100b",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "circle-border-radius-on-ecosystem-page",
+       "displayName": "Circle Border Radius on Ecosystem page",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "d88ff6143d77dbfaed4f866f9daa6d24",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Switch",
+       "slug": "shadow-on-ecosystem-page",
+       "displayName": "Shadow on Ecosystem page",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "a06a79988c65b890bbe995066ff44a92",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "a98302e18b7bc778730db1d96c6da566",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }

@@ -1,0 +1,234 @@
+ [
+   {
+     "id": "69eb1e5630aad0a16f70abbb",
+     "displayName": "Articles { learn }",
+     "singularName": "Articles { learn }",
+     "slug": "articles-learn",
+     "createdOn": "2026-04-24T07:40:06.829Z",
+     "lastUpdated": "2026-04-24T07:44:36.559Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57da02",
+     "displayName": "Blog Authors",
+     "singularName": "Blog Author",
+     "slug": "blog-author",
+     "createdOn": "2022-05-24T16:31:04.704Z",
+     "lastUpdated": "2025-06-10T09:02:35.932Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d9e2",
+     "displayName": "Blog Categories",
+     "singularName": "Blog Category",
+     "slug": "blog-category",
+     "createdOn": "2022-05-20T12:30:29.639Z",
+     "lastUpdated": "2025-06-10T09:02:35.946Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d972",
+     "displayName": "Blog Posts",
+     "singularName": "Blog Post",
+     "slug": "blog",
+     "createdOn": "2021-03-19T02:24:45.320Z",
+     "lastUpdated": "2025-09-07T14:04:32.140Z"
+   },
+   {
+     "id": "69ee5c5f0ada5ef0d56053a7",
+     "displayName": "Blueprints { developers }",
+     "singularName": "Blueprints { developers }",
+     "slug": "blueprints-developers",
+     "createdOn": "2026-04-26T18:41:35.811Z",
+     "lastUpdated": "2026-04-26T18:46:33.569Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d8fa",
+     "displayName": "Careers",
+     "singularName": "Career",
+     "slug": "careers",
+     "createdOn": "2021-04-27T12:08:11.592Z",
+     "lastUpdated": "2025-06-10T09:02:35.919Z"
+   },
+   {
+     "id": "69ee5b4bc14aea79cf4feae6",
+     "displayName": "Categories { developers }",
+     "singularName": "Categories { developers }",
+     "slug": "categories-developers",
+     "createdOn": "2026-04-26T18:36:59.333Z",
+     "lastUpdated": "2026-04-26T18:39:04.793Z"
+   },
+   {
+     "id": "69eb1e91745be047bb44b534",
+     "displayName": "Categories { learn }",
+     "singularName": "Categories { learn }",
+     "slug": "categories-learn",
+     "createdOn": "2026-04-24T07:41:05.909Z",
+     "lastUpdated": "2026-04-24T07:42:13.303Z"
+   },
+   {
+     "id": "66dafe27d5486c299a7c9a5b",
+     "displayName": "DApp Directories",
+     "singularName": "DApp Directory",
+     "slug": "projects",
+     "createdOn": "2024-09-06T13:05:43.495Z",
+     "lastUpdated": "2025-05-02T13:06:45.387Z"
+   },
+   {
+     "id": "6509eed36cb833b9c2182a2c",
+     "displayName": "Ecosystem Projects",
+     "singularName": "Ecosystem Project",
+     "slug": "ecosystem-projects",
+     "createdOn": "2023-09-19T18:56:19.150Z",
+     "lastUpdated": "2025-06-10T09:02:35.939Z"
+   },
+   {
+     "id": "69ee5aa7001bfb0a42ded540",
+     "displayName": "Ecosystems { developers }",
+     "singularName": "Ecosystems { developers }",
+     "slug": "ecosystems-developers",
+     "createdOn": "2026-04-26T18:34:15.466Z",
+     "lastUpdated": "2026-04-26T18:34:24.645Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d9cc",
+     "displayName": "Events",
+     "singularName": "Event",
+     "slug": "events",
+     "createdOn": "2022-03-10T04:30:21.154Z",
+     "lastUpdated": "2025-06-10T09:02:35.929Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d914",
+     "displayName": "FAQs",
+     "singularName": "FAQ",
+     "slug": "faqs",
+     "createdOn": "2021-04-25T01:08:48.364Z",
+     "lastUpdated": "2025-06-10T09:02:35.893Z"
+   },
+   {
+     "id": "6747158d500d23295ce9865f",
+     "displayName": "Featured ons",
+     "singularName": "Featured on",
+     "slug": "featured-on",
+     "createdOn": "2024-11-27T12:50:21.125Z",
+     "lastUpdated": "2025-06-10T09:02:36.033Z"
+   },
+   {
+     "id": "66e2c7c3f223104818b694bd",
+     "displayName": "First 6 Projects",
+     "singularName": "First 6 Project",
+     "slug": "projects-6-highlighted",
+     "createdOn": "2024-09-12T10:51:47.693Z",
+     "lastUpdated": "2025-06-10T09:02:35.936Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57da21",
+     "displayName": "Full stack Social Comments",
+     "singularName": "Full stack Social Comment",
+     "slug": "full-stack-social-comments",
+     "createdOn": "2023-05-24T10:14:05.085Z",
+     "lastUpdated": "2025-09-07T14:04:34.780Z"
+   },
+   {
+     "id": "650a16415183e6fd3dd25ea6",
+     "displayName": "Navigation Featured Sections",
+     "singularName": "Navigation Featured Section",
+     "slug": "navigation-featured-section",
+     "createdOn": "2023-09-19T21:44:33.653Z",
+     "lastUpdated": "2025-06-10T09:02:35.967Z"
+   },
+   {
+     "id": "674713bdf8d85630ffcf63b0",
+     "displayName": "Partners",
+     "singularName": "Partner",
+     "slug": "partners",
+     "createdOn": "2024-11-27T12:42:37.942Z",
+     "lastUpdated": "2025-06-10T09:02:36.025Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d951",
+     "displayName": "Podcasts",
+     "singularName": "Podcast",
+     "slug": "podcast",
+     "createdOn": "2021-03-19T02:36:39.908Z",
+     "lastUpdated": "2025-06-10T09:02:35.891Z"
+   },
+   {
+     "id": "66dafcf71128dd159338e324",
+     "displayName": "Project Categories",
+     "singularName": "Project Category",
+     "slug": "project-categories",
+     "createdOn": "2024-09-06T13:00:39.906Z",
+     "lastUpdated": "2025-06-10T09:02:35.965Z"
+   },
+   {
+     "id": "65006fb5f3dde67a65a4e058",
+     "displayName": "Radix - Services",
+     "singularName": "Radix - Service",
+     "slug": "radix-services",
+     "createdOn": "2023-09-12T14:03:33.350Z",
+     "lastUpdated": "2025-06-10T09:02:35.926Z"
+   },
+   {
+     "id": "69eb0bece5f4e6a7908f0952",
+     "displayName": "Radix - Services { status }",
+     "singularName": "Radix - Services { status }",
+     "slug": "radix-opp-services",
+     "createdOn": "2026-04-24T06:21:32.328Z",
+     "lastUpdated": "2026-04-24T06:23:02.533Z"
+   },
+   {
+     "id": "650071763c7ff9157acead46",
+     "displayName": "Radix - Statuses",
+     "singularName": "Radix - Status",
+     "slug": "radix-statuses",
+     "createdOn": "2023-09-12T14:11:02.814Z",
+     "lastUpdated": "2025-06-10T09:02:35.962Z"
+   },
+   {
+     "id": "69eb0cc49d33f411d5e04322",
+     "displayName": "Radix - Statuses { status }",
+     "singularName": "Radix - Statuses { status }",
+     "slug": "radix-opp-statuses",
+     "createdOn": "2026-04-24T06:25:08.573Z",
+     "lastUpdated": "2026-04-24T06:25:17.061Z"
+   },
+   {
+     "id": "69eb1ebc49e0fc5f9abc303d",
+     "displayName": "Sub Categories { learn }",
+     "singularName": "Sub Categories { learn }",
+     "slug": "sub-categories-learn",
+     "createdOn": "2026-04-24T07:41:48.414Z",
+     "lastUpdated": "2026-04-24T07:41:48.837Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d992",
+     "displayName": "Team Members",
+     "singularName": "Team Member",
+     "slug": "team-member",
+     "createdOn": "2021-03-19T02:29:48.788Z",
+     "lastUpdated": "2025-06-10T09:02:35.941Z"
+   },
+   {
+     "id": "69eb1dcfdf507b399377ca82",
+     "displayName": "Team members { learn }",
+     "singularName": "Team members { learn }",
+     "slug": "team-members-learn",
+     "createdOn": "2026-04-24T07:37:51.603Z",
+     "lastUpdated": "2026-04-24T07:39:09.802Z"
+   },
+   {
+     "id": "674715eb5cdc8c636020bb07",
+     "displayName": "Testimonials",
+     "singularName": "Testimonial",
+     "slug": "testemonials",
+     "createdOn": "2024-11-27T12:51:55.463Z",
+     "lastUpdated": "2025-06-10T09:02:35.970Z"
+   },
+   {
+     "id": "649aa8a9681ec6168a57d9ab",
+     "displayName": "Tweets",
+     "singularName": "Tweet",
+     "slug": "tweets",
+     "createdOn": "2021-04-24T19:01:10.512Z",
+     "lastUpdated": "2025-06-10T09:02:35.948Z"
+   }
+ ]

@@ -1,0 +1,50 @@
+ {
+   "id": "69ee5aa7001bfb0a42ded540",
+   "displayName": "Ecosystems { developers }",
+   "singularName": "Ecosystems { developers }",
+   "slug": "ecosystems-developers",
+   "createdOn": "2026-04-26T18:34:15.466Z",
+   "lastUpdated": "2026-04-26T18:34:24.645Z",
+   "fields": [
+     {
+       "id": "28ac665855340033bcf027ef1c408434",
+       "isEditable": true,
+       "isRequired": false,
+       "type": "Image",
+       "slug": "logo",
+       "displayName": "Logo",
+       "helpText": null,
+       "validations": null
+     },
+     {
+       "id": "53af5b2fd339fcd0327fcb45ee68ff6a",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "name",
+       "displayName": "Name",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256
+       }
+     },
+     {
+       "id": "404a3e0ddff9ab92991b8667891dc7a3",
+       "isEditable": true,
+       "isRequired": true,
+       "type": "PlainText",
+       "slug": "slug",
+       "displayName": "Slug",
+       "helpText": null,
+       "validations": {
+         "maxLength": 256,
+         "pattern": {},
+         "messages": {
+           "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+           "maxLength": "Must be less than 256 characters"
+         }
+       }
+     }
+   ],
+   "fieldGroups": []
+ }
