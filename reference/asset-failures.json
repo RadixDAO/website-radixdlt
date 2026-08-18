@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://uploads-ssl.webflow.com/635bb144ee312a94b07a936f/63611b8918459e105301f237_BG - Heartbeat - 2-poster-00001.jpg",
+    "error": "HTTP 403",
+    "referencedBy": [
+      "html:static export/radfi-thank-you.html"
+    ]
+  },
+  {
+    "url": "https://uploads-ssl.webflow.com/635bb144ee312a94b07a936f/63610e31f7406da8943a4a8c_Radfi%20Logo%20Animation.json",
+    "error": "HTTP 403",
+    "referencedBy": [
+      "html:static export/radfi.html"
+    ]
+  }
+]

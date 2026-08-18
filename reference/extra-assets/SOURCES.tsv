@@ -1,3 +1,6 @@
 https://assets.website-files.com/6053f7fca5bf627283b582c2/608811e3f5d21f235392fee1_Cerberus-Whitepaper-v1.01.pdf
 https://uploads-ssl.webflow.com/6053f7fca5bf627283b582c2/61d5a4583aad156a094c5628_Radix%20DeFi%20White%20Paper%20v2.05.pdf
 https://assets.website-files.com/6053f7fca5bf627283b582c2/6088147cbbc08674b4975349_Economic-2020-V10.4.pdf
+# VERIFIED 2026-08-18: all three are already present in public/assets (they are
+# also referenced from CMS content), so redirects can be repointed at
+# /assets/<id>_<name>.pdf. Local copies removed as redundant.
