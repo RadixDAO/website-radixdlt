@@ -2,14 +2,14 @@
  "collection": "articles-learn",
  "template": "detail_articles-learn.html",
  "route": "/articles-learn/:slug",
- "samples": 8,
+ "samples": 211,
  "head": [
   {
    "target": "title",
    "field": "name",
    "transform": "text",
    "pattern": "{} | The Radix Knowledge Base",
-   "confidence": "8/8"
+   "confidence": "210/211"
   }
  ],
  "slots": [
@@ -20,7 +20,7 @@
    "kind": "inner",
    "field": "article-category",
    "transform": "ref.name",
-   "confidence": "4/8"
+   "confidence": "174/211"
   },
   {
    "slot": 16,
@@ -29,7 +29,7 @@
    "kind": "attr:src",
    "field": "icon",
    "transform": "asset",
-   "confidence": "4/8"
+   "confidence": "171/211"
   },
   {
    "slot": 17,
@@ -38,7 +38,7 @@
    "kind": "inner",
    "field": "name",
    "transform": "text",
-   "confidence": "8/8"
+   "confidence": "210/211"
   },
   {
    "slot": 18,
@@ -47,7 +47,34 @@
    "kind": "html",
    "field": "full-article-text",
    "transform": "text",
-   "confidence": "8/8"
+   "confidence": "211/211"
+  },
+  {
+   "slot": 22,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "author",
+   "transform": "ref.name",
+   "confidence": "13/211"
+  },
+  {
+   "slot": 25,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "$lastUpdated",
+   "transform": "date:MMMM D, YYYY",
+   "confidence": "207/211"
+  },
+  {
+   "slot": 29,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "author",
+   "transform": "ref.name",
+   "confidence": "13/211"
   },
   {
    "slot": 34,
@@ -56,7 +83,7 @@
    "kind": "inner",
    "field": "article-likes",
    "transform": "text",
-   "confidence": "3/8"
+   "confidence": "152/211"
   },
   {
    "slot": 37,
@@ -65,7 +92,7 @@
    "kind": "inner",
    "field": "article-likes",
    "transform": "text",
-   "confidence": "3/8"
+   "confidence": "152/211"
   },
   {
    "slot": 63,
@@ -74,7 +101,7 @@
    "kind": "attr:href",
    "field": "article-category",
    "transform": "ref.slug",
-   "confidence": "1/8",
+   "confidence": "18/211",
    "inList": true
   },
   {
@@ -84,7 +111,7 @@
    "kind": "inner",
    "field": "article-category",
    "transform": "ref.name",
-   "confidence": "1/8",
+   "confidence": "18/211",
    "inList": true
   },
   {
@@ -94,7 +121,17 @@
    "kind": "attr:src",
    "field": "icon",
    "transform": "asset",
-   "confidence": "4/8",
+   "confidence": "162/211",
+   "inList": true
+  },
+  {
+   "slot": 79,
+   "tag": "div",
+   "class": "w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "name",
+   "transform": "text",
+   "confidence": "4/211",
    "inList": true
   }
  ]

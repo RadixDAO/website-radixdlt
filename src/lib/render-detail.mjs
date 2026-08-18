@@ -2,10 +2,16 @@
 // Splices by byte offset -- the surrounding Webflow markup is never re-serialized.
 import { readFileSync, existsSync } from 'node:fs';
 import { enumerate } from '../../tools/lib/dom-slots.mjs';
-import { itemById, assetPath } from './detail-data.mjs';
+import { itemById, assetPath, rewriteAssetUrls } from './detail-data.mjs';
 
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// Webflow's rich-text editor stores a custom HTML embed block (e.g. a raw <table>) as
+// `<div data-rt-embed-type='true'>...`, but the published page always renders it as
+// `<div class="w-embed">...` -- CMS export keeps the editor's marker, live pages show
+// the publish-time class. Normalise it wherever RichText is emitted verbatim.
+const normaliseRichText = (s) => s.replace(/<div data-rt-embed-type=(['"])true\1\s*>/g, '<div class="w-embed">');
 
 const fmtDate = (v, style) => {
   const d = new Date(v);
@@ -15,12 +21,36 @@ const fmtDate = (v, style) => {
   return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 };
 
+// Option fields store the option's id in fieldData, not its display name (e.g. a
+// "status" field holding "5d07bb89..." meaning "Closed"). Resolve via the field's own
+// schema, same source derive-bindings.mjs uses to offer this as a candidate match.
+const optionFieldsCache = new Map();
+function optionName(collection, field, id) {
+  const key = collection;
+  if (!optionFieldsCache.has(key)) {
+    const p = `reference/webflow/fields/${collection}.json`;
+    const map = new Map();
+    if (existsSync(p)) {
+      for (const f of JSON.parse(readFileSync(p, 'utf8')).fields ?? []) {
+        if (f.type === 'Option' && f.validations?.options) {
+          map.set(f.slug, new Map(f.validations.options.map(o => [o.id, o.name])));
+        }
+      }
+    }
+    optionFieldsCache.set(key, map);
+  }
+  return optionFieldsCache.get(key).get(field)?.get(id) ?? '';
+}
+
 /** Resolve one binding to its string value, or '' when the field is empty. */
-export function resolve(item, { field, transform }) {
-  const v = item.fieldData?.[field];
+export function resolve(item, { field, transform }, collection) {
+  // `$`-prefixed fields are Webflow item metadata (lastPublished/lastUpdated/
+  // createdOn) that has no corresponding CMS field -- read the item directly rather
+  // than fieldData. See tools/derive-bindings.mjs for where these are offered.
+  const v = field.startsWith('$') ? item[field.slice(1)] : item.fieldData?.[field];
   if (v == null || v === '') return '';
   switch (true) {
-    case transform === 'text': return typeof v === 'object' ? '' : String(v);
+    case transform === 'text': return rewriteAssetUrls(typeof v === 'object' ? '' : String(v));
     case transform.startsWith('date:'): return fmtDate(v, transform);
     case transform === 'asset': return assetPath(typeof v === 'object' ? v.url : v);
     case transform === 'ref.name': { const r = itemById(v); return r ? (r.fieldData.name ?? r.fieldData.title ?? '') : ''; }
@@ -30,6 +60,7 @@ export function resolve(item, { field, transform }) {
       const ids = Array.isArray(v) ? v : [v];
       return ids.map(id => itemById(id)?.fieldData?.name ?? '').filter(Boolean).join(', ');
     }
+    case transform === 'option.name': return typeof v === 'string' ? optionName(collection, field, v) : '';
     default: return String(v);
   }
 }
@@ -58,7 +89,7 @@ export function renderBody(shellBody, collection, item) {
     if (slot.inList) continue;
     const el = els[slot.slot];
     if (!el) continue;
-    const value = resolve(item, slot);
+    const value = resolve(item, slot, collection);
 
     if (slot.kind === 'inner' || slot.kind === 'html') {
       // An empty CMS field keeps Webflow's own empty marker, matching live exactly.

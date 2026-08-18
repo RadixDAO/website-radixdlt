@@ -21,6 +21,52 @@
    "field": "name",
    "transform": "text",
    "confidence": "8/8"
+  },
+  {
+   "slot": 54,
+   "tag": "div",
+   "class": "badge-3 w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "service-s",
+   "transform": "ref[].name",
+   "confidence": "8/8",
+   "inList": true
+  },
+  {
+   "slot": 59,
+   "tag": "div",
+   "class": "text-small inline w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "date-reported",
+   "transform": "date:MMMM D, YYYY",
+   "confidence": "3/8"
+  },
+  {
+   "slot": 64,
+   "tag": "div",
+   "class": "text-small inline w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "last-update",
+   "transform": "date:MMMM D, YYYY",
+   "confidence": "3/8"
+  },
+  {
+   "slot": 69,
+   "tag": "div",
+   "class": "text-small inline w-dyn-bind-empty",
+   "kind": "inner",
+   "field": "status",
+   "transform": "option.name",
+   "confidence": "8/8"
+  },
+  {
+   "slot": 71,
+   "tag": "div",
+   "class": "c-status-rt w-dyn-bind-empty w-richtext",
+   "kind": "html",
+   "field": "content",
+   "transform": "text",
+   "confidence": "8/8"
   }
  ]
 }

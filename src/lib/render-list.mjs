@@ -7,7 +7,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { findTopLevelByClass } from '../../tools/lib/html-slice.mjs';
 import { enumerate } from '../../tools/lib/dom-slots.mjs';
-import { itemById, assetPath } from './detail-data.mjs';
+import { itemById, assetPath, rewriteAssetUrls } from './detail-data.mjs';
 
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -43,7 +43,7 @@ const fmtDate = (v, style) => {
 function resolve(item, { field, transform }) {
   const v = field === 'slug' ? item.fieldData?.slug : item.fieldData?.[field];
   if (v == null || v === '') return '';
-  if (transform === 'text') return typeof v === 'object' ? '' : String(v);
+  if (transform === 'text') return rewriteAssetUrls(typeof v === 'object' ? '' : String(v));
   if (transform.startsWith('date:')) return fmtDate(v, transform);
   if (transform === 'asset') return assetPath(typeof v === 'object' ? v.url : v);
   if (transform === 'ref.name') { const r = itemById(v); return r ? (r.fieldData.name ?? r.fieldData.title ?? '') : ''; }

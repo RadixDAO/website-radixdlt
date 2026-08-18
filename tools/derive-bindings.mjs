@@ -9,6 +9,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { enumerate, signature } from './lib/dom-slots.mjs';
 import { collapseLists, documentParts } from './lib/html-slice.mjs';
 import { rewriteUrl } from './lib/rewrite-urls.mjs';
+import { applyShellPatch } from './lib/shell-patches.mjs';
 
 const collection = process.argv[2];
 const sampleCount = Number(process.argv[3] ?? 3);
@@ -33,14 +34,31 @@ const loadRef = slug => {
   }
   return refCache.get(slug);
 };
+// A Reference can point at an item that is itself a draft or archived (e.g. a
+// retired category). Webflow can't build a live page for it, so it renders the
+// reference as empty rather than following it -- only offer *live* items as
+// candidates here, matching src/lib/detail-data.mjs's itemById at render time.
 const allRefItems = new Map();          // id -> item, across every collection
-for (const c of map) for (const i of loadRef(c.slug).values()) allRefItems.set(i.id, i);
+for (const c of map) for (const i of loadRef(c.slug).values()) if (!i.isDraft && !i.isArchived) allRefItems.set(i.id, i);
+
+// Option fields store the option's id in fieldData, not its display name (e.g.
+// status: "5d07bb89..." meaning "Closed"). Build field-slug -> (id -> name) so
+// candidates() can offer the resolved label as a match, same as Reference fields.
+const optionFieldsPath = `reference/webflow/fields/${collection}.json`;
+const optionNamesByField = new Map();
+if (existsSync(optionFieldsPath)) {
+  const fieldDefs = JSON.parse(readFileSync(optionFieldsPath, 'utf8')).fields ?? [];
+  for (const f of fieldDefs) {
+    if (f.type !== 'Option' || !f.validations?.options) continue;
+    optionNamesByField.set(f.slug, new Map(f.validations.options.map(o => [o.id, o.name])));
+  }
+}
 
 const shellPath = `/Volumes/Development/radix/radixdlt.com/static export/${meta.detailTemplate}`;
 const shellRaw = readFileSync(shellPath, 'utf8');
 const shellDoc = documentParts(shellRaw);
 const shellHead = shellDoc.head;
-const shellBody = shellDoc.body;   // must match convert-detail-templates.mjs exactly
+const shellBody = applyShellPatch(collection, shellDoc.body);   // must match convert-detail-templates.mjs exactly
 const shellEls = enumerate(shellBody);
 const shellSig = shellEls.map(signature);
 
@@ -62,10 +80,25 @@ const isBindCandidate = (e) => {
 function candidates(item) {
   const out = [];
   const push = (value, field, transform) => { if (value) out.push({ value: String(value), field, transform }); };
+  // Webflow items carry publish/update timestamps outside fieldData (e.g. a
+  // "Last updated: <date>" caption that has no corresponding CMS field at all). Offer
+  // them as candidates too, prefixed with `$` so resolve() knows to read the item's
+  // own metadata rather than fieldData. createdOn is deliberately excluded: in this
+  // export it is equal to lastUpdated for the overwhelming majority of items (a bulk
+  // migration artifact), so including it as a candidate makes nearly every sample
+  // "ambiguous" between the two and starves lastUpdated of the evidence it needs.
+  for (const field of ['lastPublished', 'lastUpdated']) {
+    const v = item[field];
+    if (!v) continue;
+    const d = new Date(v);
+    push(d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }), `$${field}`, 'date:MMMM D, YYYY');
+    push(d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }), `$${field}`, 'date:D MMMM YYYY');
+  }
   for (const [field, v] of Object.entries(item.fieldData ?? {})) {
     if (v == null) continue;
     if (typeof v === 'string') {
       push(v, field, 'text');
+      if (optionNamesByField.has(field)) push(optionNamesByField.get(field).get(v), field, 'option.name');
       if (/^\d{4}-\d{2}-\d{2}T/.test(v)) {
         const d = new Date(v);
         push(d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }), field, 'date:MMMM D, YYYY');
@@ -140,15 +173,32 @@ for (const item of live) {
 
     const lText = stripTags(lInner);
     if (!lText) continue;                                  // markup-only (svg, video, embed)
-    let hit = cands.find(c => norm(c.value) === lText && c.transform !== 'asset');
-    let kind = 'inner';
-    if (!hit && lText.length >= 80) {
+    // Two fields can legitimately share a value (e.g. "Last Update" defaulting to the
+    // same day as "Date Reported"). Picking the textually-first candidate in that case
+    // silently mis-attributes the SECOND field's slot to the FIRST field every time
+    // they tie. Instead, when more than one *distinct field* matches, treat this
+    // sample as ambiguous for this slot and record no evidence at all -- the field's
+    // own unambiguous samples (where the values differ) still carry the vote.
+    const exactMatches = cands.filter(c => norm(c.value) === lText && c.transform !== 'asset');
+    // A RichText field's raw value carries HTML tags, so it never equals the plain
+    // live text directly. Try a full stripped-tag match next -- this covers short
+    // paragraphs the length-gated prefix probe below would otherwise never see,
+    // since that probe only fires for lText.length >= 80.
+    const strippedMatches = exactMatches.length ? []
+      : cands.filter(c => c.transform === 'text' && norm(stripTags(c.value)) === lText);
+    const tieCandidates = exactMatches.length ? exactMatches : strippedMatches;
+    const tieFields = new Set(tieCandidates.map(c => c.field));
+    let hit = null, kind = 'inner';
+    if (tieFields.size === 1) {
+      hit = tieCandidates[0];
+      if (!exactMatches.length) kind = 'html';
+    } else if (tieFields.size === 0 && lText.length >= 80) {
       // rich text: compare a substantial prefix, never an empty one
       const probe = lText.slice(0, 60);
       hit = cands.find(c => c.transform === 'text' && norm(stripTags(c.value)).startsWith(probe));
       if (hit) kind = 'html';
     }
-    if (!hit) { if (isBindCandidate(s)) seen.set(si, lText.slice(0, 70)); continue; }
+    if (!hit) { if (isBindCandidate(s) && tieFields.size <= 1) seen.set(si, lText.slice(0, 70)); continue; }
     const key = [kind, hit.field, hit.transform].join('\u0000');
     const e = evidence.get(si) ?? new Map();
     e.set(key, (e.get(key) ?? 0) + 1);

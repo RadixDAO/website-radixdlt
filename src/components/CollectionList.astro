@@ -1,15 +1,17 @@
 ---
 // A Webflow `w-dyn-list` slot.
 //
-// Phase 1/2: emits the exported shell verbatim, so converted output matches the
-// export exactly and the converter can be verified in isolation.
+// The shell contains exactly one placeholder `w-dyn-item`. renderList clones it per
+// CMS item and fills the slots derived in src/bindings/_lists.json, leaving every
+// surrounding byte untouched -- which is what keeps Finsweet's fs-cmsfilter /
+// fs-cmsnest / fs-cmsload attributes working, since they key off Webflow's list DOM.
 //
-// Phase 3 replaces this body with: take the single placeholder `w-dyn-item` inside
-// `shell` as an item template, clone it per CMS row, and fill each
-// `w-dyn-bind-empty` slot from src/bindings/<route>.<index>.json. The surrounding
-// markup stays byte-identical either way, which is what keeps Finsweet's
-// fs-cmsfilter/cmsnest/cmsload attributes working.
+// A list with no binding returns the shell verbatim. Half-filling is never correct.
+import { renderList } from '../lib/render-list.mjs';
+
 interface Props { route: string; index: number; shell: string }
-const { shell } = Astro.props;
+const { route, index, shell } = Astro.props;
+
+const html = renderList(route, index, shell);
 ---
-<Fragment set:html={shell} />
+<Fragment set:html={html} />
