@@ -1,0 +1,12 @@
+# Discovered by probing internal links that resolve outside the sitemap.
+# NOT a complete redirect table -- Webflow's 301 list must still be exported by hand
+# from Site settings -> Publishing. These are the ones actually in use on-site.
+# from	status	to
+/community	301	/
+/events	301	/
+/careers	301	https://www.rdx.works/careers
+/archived/careers	301	https://www.rdx.works/careers
+/post/rss.xml	301	/blog/rss.xml
+/whitepapers/consensus	301	WEBFLOW_PDF:Cerberus-Whitepaper-v1.01.pdf
+/whitepapers/defi	301	WEBFLOW_PDF:Radix DeFi White Paper v2.05.pdf
+/whitepapers/economics	301	WEBFLOW_PDF:Economic-2020-V10.4.pdf

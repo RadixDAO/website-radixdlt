@@ -14,5 +14,5 @@ fetch() {
     || { rm -f "$out"; echo "FAIL $url" >> "$ROOT/reference/live-failures.txt"; }
 }
 export -f fetch; export ROOT
-xargs -P 6 -I{} bash -c 'fetch "$@"' _ {} < "$ROOT/reference/live-urls.txt"
+xargs -P 6 -I{} bash -c 'fetch "$@"' _ {} < "$ROOT/reference/all-urls.txt"
 echo "mirrored: $(find "$ROOT/reference/live" -name '*.html' | wc -l | tr -d ' ')"
