@@ -49,6 +49,7 @@ const scriptsTail = readFileSync('src/components/articles-learn/articles-learn-s
   <body>
     <SiteNav variant="learn" currentPath={currentPath} />
     <ArticleSection
+      currentSlug={slug}
       categoryName={categoryName}
       articleIconUrl={articleIcon(item)}
       title={item.fieldData.name as string}

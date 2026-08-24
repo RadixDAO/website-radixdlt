@@ -10,7 +10,7 @@
 // result equals the raw nav/footer bytes from dist/ exactly. This is a build artifact
 // check (run `pnpm build` first) -- it proves the transforms are correct, independent
 // of whether the shells have been hoisted yet.
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 import { createHash } from 'node:crypto';
 import { findNavRange } from './lib/find-nav.mjs';
@@ -129,6 +129,39 @@ console.log(`  chrome: ${chrome.length} canonical blocks, ${marked.length} carry
 if (marked.length) {
   console.error(`FAIL: canonical chrome blocks must be unmarked: ${marked.join(', ')}`);
   process.exit(1);
+}
+
+// Site-wide current-marking parity against reference/live.
+//
+// verify.mjs compares the tag/class skeleton and text. An ATTRIBUTE is neither, so a
+// missing aria-current="page" is completely invisible to it -- and that is exactly what
+// happened twice: the nativised blog components emitted the w--current CLASS but dropped
+// the attribute (24 pages, live=29 ours=0), and articles-learn dropped both on its
+// self-referencing related link (8 pages). Both passed every gate at the time.
+//
+// Webflow emits the two together, always. Counting them per page against live is cheap
+// and has an exact expected answer, so there is no reason to infer it from anything else.
+{
+  const live = 'reference/live';
+  let la = 0, da = 0, lw = 0, dw = 0;
+  const bad = [];
+  for (const p of files) {
+    const rel = relative('dist', p).split(sep).join('/');
+    const lp = join(live, rel);
+    if (!existsSync(lp)) continue;
+    const L = readFileSync(lp, 'utf8'), D = readFileSync(p, 'utf8');
+    const c = (s, t) => s.split(t).length - 1;
+    const a1 = c(L, 'aria-current="page"'), a2 = c(D, 'aria-current="page"');
+    const w1 = c(L, 'w--current'), w2 = c(D, 'w--current');
+    la += a1; da += a2; lw += w1; dw += w2;
+    if (a1 !== a2 || w1 !== w2) bad.push(`${rel}  aria live=${a1} ours=${a2}  w--current live=${w1} ours=${w2}`);
+  }
+  console.log(`  current-marking vs live: aria-current ${da}/${la}, w--current ${dw}/${lw}, ${bad.length} pages mismatched`);
+  if (bad.length) {
+    console.error(`\nFAIL: ${bad.length} page(s) disagree with reference/live on current-marking.`);
+    for (const b of bad.slice(0, 20)) console.error(`  ${b}`);
+    process.exit(1);
+  }
 }
 
 console.log(`${files.length} pages checked:`);

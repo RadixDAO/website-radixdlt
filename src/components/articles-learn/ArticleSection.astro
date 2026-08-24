@@ -40,12 +40,15 @@ interface Props {
   likesText: string;
   gettingStarted: CategoryRef[];
   related: CategoryRef[];
+  /** This article's own slug. Webflow marks a self-referencing related link with
+   *  aria-current="page" + " w--current" (see reference/live); without it the link
+   *  loses both the accessibility signal and the current-item styling. */
+  currentSlug: string;
 }
 
 const {
   categoryName, articleIconUrl, title, articleBody, author,
-  lastUpdatedText, likesText, gettingStarted, related,
-} = Astro.props;
+  lastUpdatedText, likesText, gettingStarted, related, currentSlug} = Astro.props;
 ---
 <div class="section article-section">
   <div class="container---main w-clearfix">
@@ -146,7 +149,7 @@ text-align: justify;}
               <div role="list" class="w-dyn-items">
                 {related.map((r) => (
                   <div role="listitem" class="w-dyn-item">
-                    <a href={`/articles-learn/${r.slug}`} data-ix="block-hover" class="category-link-article smaller w-inline-block">
+                    <a href={`/articles-learn/${r.slug}`} data-ix="block-hover" aria-current={r.slug === currentSlug ? 'page' : undefined} class={r.slug === currentSlug ? 'category-link-article smaller w-inline-block w--current' : 'category-link-article smaller w-inline-block'}>
                       <div class="icon-wrapper"><img width="30" loading="lazy" alt="Article icon" src={r.iconUrl} class="icon-3" /></div>
                       <div class="question-wrapper">
                         <div class={dynClass('', !!r.name)}>{r.name}</div>

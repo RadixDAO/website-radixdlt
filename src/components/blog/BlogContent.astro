@@ -69,7 +69,7 @@ const { contentHtml, authorName, authorSlug, related } = Astro.props;
                 <div role="list" class="collection-list-3 w-dyn-items">
                   {related.map((r) => (
                     <div role="listitem" class="w-dyn-item">
-                      <a href={`/blog/${r.slug}`} class={r.isCurrent ? 'related-link w-inline-block w--current' : 'related-link w-inline-block'}>
+                      <a href={`/blog/${r.slug}`} aria-current={r.isCurrent ? 'page' : undefined} class={r.isCurrent ? 'related-link w-inline-block w--current' : 'related-link w-inline-block'}>
                         <div class="">{r.name}</div>
                       </a>
                     </div>
