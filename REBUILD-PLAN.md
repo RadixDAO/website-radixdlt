@@ -366,3 +366,60 @@ The last instruction is the important one. Codex's failure was not that it wrote
 code — the components are competently written. It was that nothing ever told it *no*,
 so 157,000 lines of plausible output accumulated without a single check against the
 thing it was supposed to reproduce.
+
+---
+
+## 10. Phase 4 — Nativisation (the actual target)
+
+Decided 2026-08-24. The end state is a **normal Astro site**: real `.astro` pages and
+components, real content collections. `WebflowPage.astro`, `DetailPage.astro`,
+`src/shells/**`, `src/bindings/**`, the converters, `source/webflow-export/` and
+`reference/` all go away.
+
+**The design is preserved exactly.** It lives in `public/css/radix-web.css` and in
+Webflow's class names, so rewritten components emit the same classes in the same nesting.
+Keeping the stylesheet is not "keeping Webflow" — it is the design system.
+
+**The gate changes.** Byte-identity (`diff-dist.mjs`) was correct for refactors and is
+wrong for a rewrite: the bytes are *supposed* to change. The gate is now `verify.mjs`
+per route — **struct 1.0000 and text >= 0.995 against `reference/live/`**. That is
+"same design", measured page by page, and it is why `reference/live/` must outlive the
+rewrite and leave the repo last, not first.
+
+### Component taxonomy — measured, not guessed
+
+Top-level block shapes across all 1,202 rendered pages, nav/footer excluded:
+132 distinct shapes, of which **88 (67%) appear on exactly one page**.
+
+| Shape | Pages | Root element | Meaning |
+|---|---|---|---|
+| f7c6e563 / f34f87b2 / 578748eb | 618 each | `c-section is-blog-single` / `is-blog-content` / `is-tags` | the blog detail template |
+| 96716221 | 211 | `article-section section` | the articles-learn template |
+| fbc37d3e | 681 | `banner-wrap` | shared banner |
+| bae3074f | 646 | `search-mobile` | shared mobile search |
+| b9cf693c | 24 | `c-section is-blog-cat` | blog category |
+| b06a7f69 | 27 | `c-section is-tags` | tag list |
+
+Two conclusions:
+
+1. **~1,150 of 1,202 pages reduce to roughly eight templates.** The CMS detail routes are
+   near-perfectly uniform. This is where essentially all the leverage is, so it goes first.
+2. **The 49 static pages are bespoke by nature.** A marketing site's landing pages do not
+   share structure, and 67% single-use shapes says so. They become one composition each
+   over a small set of shared primitives — not a speculative component library.
+
+### Order
+
+1. Content collections — **DONE** (`eeda2fc`), 29 collections, 1,590 items, 0 divergences.
+2. Rewire `DetailPage` to content collections, retire `detail-data.mjs`.
+3. Nativise CMS templates, largest first: blog (618), articles-learn (211), then the rest.
+4. Nativise the 49 static pages, one per task.
+5. Delete shells, bindings, layouts, converters. Move `source/` and `reference/` to an
+   archive repo — **last**, once every route has passed its gate.
+
+### The risk `verify.mjs` cannot see
+
+Webflow's IX2 runtime (`public/js/radix-web.js`, 672 KB) drives animations from `data-w-id`
+attributes. A hand-written component can keep every class, pass struct and text, and still
+have dead animations. Pages with interactions need either `data-w-id` preserved verbatim or
+a browser spot-check. Flag them per task; do not discover this at the end.
