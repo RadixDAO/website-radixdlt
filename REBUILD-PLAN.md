@@ -223,13 +223,13 @@ tool for "did my refactor change anything". You need both.
 Every task: refactor → `pnpm build` → `node tools/diff-dist.mjs` → **must print
 `0 files changed`** → commit. If it prints anything else, revert; do not "fix forward".
 
-### 2.1 — `<SiteHead>`
+### 2.1 — `<SiteHead>` — DONE (b9a41c2), 49 WebflowPage routes only
 Diff the `<head>` across all shells. Hoist the identical block (stylesheet links,
 `radix-web.js`, GTM, favicons) into `src/components/site/SiteHead.astro`. Per-page
 props: `title`, `description`, OG/Twitter tags, `data-wf-page`, `data-wf-site`, any
 page-local `<style>`/`<script>`. Shells keep only their unique head fragment.
 
-### 2.2 — `<SiteNav variant currentPath>`
+### 2.2 — `<SiteNav variant currentPath>` — DONE (5395acc), 10 variants, 962 pages, both pipelines
 
 **Measured against all 1,202 built pages, not the export.** Two corrections to the
 original plan, both found before delegating:
@@ -271,7 +271,7 @@ Webflow is being decommissioned, so the collection is frozen regardless. It is s
 semantic change that the byte gate cannot see, so it belongs in the deviations list
 rather than passing silently.
 
-### 2.3 — `<SiteFooter variant currentPath>`
+### 2.3 — `<SiteFooter variant currentPath>` — DONE (c082c9d + 898b672), 9 variants, 962 pages
 
 Same shape, same `mark-current` helper. Measured across all 1,202 pages:
 
@@ -310,28 +310,21 @@ exist in exactly one place; `verify.mjs` unchanged at 1,195 / 1,150.
 
 ---
 
-## 7. Phase 3 — Cutover blockers that are still open on `main`
+## 7. Phase 3 — Cutover items
 
-These are real gaps, independent of the refactor. Found while auditing the export:
-
-**7.1 — Seven Webflow-hosted forms will silently break.** 23 `<form>` elements exist
-in the export: 8 point at `/search` (fine — Pagefind), 1 is `/.wf_auth` (the 401 page),
-and **7 have no `action` at all** — they POST to Webflow's own endpoint and stop
-working the moment the subscription lapses. Affected: `developers/grants`,
-`developers/submit-blueprint`, `developers/sign-up`, and the signup pages.
-They fail *quietly*: the user sees a success state, the submission goes nowhere.
-Codex's `MailerLiteForm.astro` and its "MailerLite form recovery evidence" commit are
-the salvageable half of that branch — see §8. Decide the destination (MailerLite,
-a Worker `POST` handler, or a form service) and prove one round-trip end to end before
-DNS cutover. The 117 pages carrying MailerLite *embeds* are fine; those are external.
+**7.1 Forms — dropped by decision (2026-08-24).** 23 `<form>` elements exist in the
+export: 8 point at `/search` (fine, Pagefind), 1 is `/.wf_auth`, and **7 have no
+`action`** — they POST to Webflow's own endpoint and stop working the moment the
+subscription lapses, failing *quietly*: the user sees a success state, the submission
+goes nowhere. Affected: `developers/grants`, `developers/submit-blueprint`,
+`developers/sign-up` and the signup pages. Recorded here so it is a known cost rather
+than a surprise. The 117 pages carrying MailerLite *embeds* are unaffected — external.
 
 **7.2 — RadFi microsite assets.** 3 pages still reference the dead Webflow CDN
-(`PHASE-5-STATUS.md`). Mirror or accept explicitly.
+(`PHASE-5-STATUS.md`). Mirror them or accept explicitly.
 
-**7.3 — Rollback plan.** As `README.md` already says: keep Webflow published but
-un-DNS'd for a week after cutover. Write the rollback runbook down before you need it.
-
----
+**7.3 Rollback — deferred by decision (2026-08-24); nothing is live yet.** Revisit
+before any DNS cutover: keep Webflow published but un-DNS'd for a week as the fallback.
 
 ## 8. What to salvage from `codex/astro-rebuild-foundation`
 
