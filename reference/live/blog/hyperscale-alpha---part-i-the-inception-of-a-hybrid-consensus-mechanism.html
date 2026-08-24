@@ -1,0 +1,1305 @@
+<!DOCTYPE html><!-- Last Published: Thu Apr 30 2026 10:20:05 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.radixdlt.com" data-wf-page="649aa8a9681ec6168a57d94b" data-wf-site="6053f7fca5bf627283b582c2" lang="en" data-wf-collection="649aa8a9681ec6168a57d972" data-wf-item-slug="hyperscale-alpha---part-i-the-inception-of-a-hybrid-consensus-mechanism"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Hyperscale Alpha - Part I: The Inception of A Hybrid Consensus Mechanism | The Radix Blog | Radix DLT</title><meta content="Hyperscale Alpha will become the backbone of a system that is not only linearly scalable, capable of processing millions of transactions per second with fast finality, but also provides a strong foundation that can maintain network progress during adverse conditions while supporting a highly decentralized uncapped validator set." name="description"/><meta content="Hyperscale Alpha - Part I: The Inception of A Hybrid Consensus Mechanism | The Radix Blog | Radix DLT" property="og:title"/><meta content="Hyperscale Alpha will become the backbone of a system that is not only linearly scalable, capable of processing millions of transactions per second with fast finality, but also provides a strong foundation that can maintain network progress during adverse conditions while supporting a highly decentralized uncapped validator set." property="og:description"/><meta content="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6759758a9f59cb4a98206f04_Hyperscale%20Alpha%20-%20Part%20I%20-%20The%20Inception%20of%20A%20Hybrid%20Consensus%20Mechanism.png" property="og:image"/><meta content="Hyperscale Alpha - Part I: The Inception of A Hybrid Consensus Mechanism | The Radix Blog | Radix DLT" name="twitter:title"/><meta content="Hyperscale Alpha will become the backbone of a system that is not only linearly scalable, capable of processing millions of transactions per second with fast finality, but also provides a strong foundation that can maintain network progress during adverse conditions while supporting a highly decentralized uncapped validator set." name="twitter:description"/><meta content="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6759758a9f59cb4a98206f04_Hyperscale%20Alpha%20-%20Part%20I%20-%20The%20Inception%20of%20A%20Hybrid%20Consensus%20Mechanism.png" name="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="PLH4k2tg1NsSyflI190jsJtrcx6z3PAjcGhI2lBcQEw" name="google-site-verification"/><link href="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/css/radix-web.shared.00ea1d544.min.css" rel="stylesheet" type="text/css" integrity="sha384-AOodVEbEqoNhWjyOQn/9aNcMitQ2c6PNQ+7mOvl3E/wQd+0dFPOwkDb0jTe2+rEp" crossorigin="anonymous"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Inter:300,400,500,600,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60899984b5d494d99cdc8411_Square%20Icon%2032x32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/6089990385fcd7a4e9048f77_Square%20Icon%20256x256.png" rel="apple-touch-icon"/><link href="https://www.radixdlt.com/blog/hyperscale-alpha---part-i-the-inception-of-a-hybrid-consensus-mechanism" rel="canonical"/><link href="rss.xml" rel="alternate" title="RSS Feed" type="application/rss+xml"/><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+})(window,document,'script','dataLayer','GTM-PKNDV4C');</script>
+<!-- End Google Tag Manager-->
+
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=628cfe52549d42001d36920c&product=sop' async='async'></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.min.css">
+
+<style>
+
+.single-content p { overflow-wrap: anywhere; }
+.slideholder .flickity-viewport,
+.slideholder-labs .flickity-viewport {
+  overflow: visible;
+}
+  
+.flickity-button:disabled {
+  opacity: 0;
+}
+  
+.flickity-button {
+  background: #003057;
+  color: #fff;
+}
+.flickity-prev-next-button {
+  width: 60px;
+  height: 60px;
+}
+  
+.flickity-prev-next-button .flickity-button-icon {
+  left: 30%;
+  top: 30%;
+  width: 40%;
+  height: 40%;
+}
+  
+.flickity-button:hover {
+  background: #052cc0;
+}
+  
+.flickity-prev-next-button.next {
+  right: -30px;
+}
+  
+.flickity-prev-next-button.previous {
+  left: -30px;
+}
+  
+.flickity-page-dots .dot {
+  width: 14px;
+  height: 14px;
+  margin: 0 4px;
+  background: #003057;
+}
+  
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -40px;
+}
+  
+.radfi-main-slider .flickity-prev-next-button.previous {
+  left: auto;
+  right:50%;
+}
+
+.radfi-main-slider .flickity-prev-next-button.next {
+  right: auto;
+  left:50%;
+}
+
+.radfi-main-slider .flickity-prev-next-button {
+    width: 40px;
+    height: 40px;
+    top: 100%;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.radfi-main-slider .flickity-button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.radfi-main-slider .flickity-button:hover {
+    background: #fff;
+    color: #052CC4;
+    border: 1px solid #fff;
+}
+
+.radfi-main-slider .flickity-button:disabled {
+    opacity: 0.3;
+}
+  
+.vidhide {
+  opacity: 0;
+  user-select: none;
+}
+  
+.c-countdown-holder {
+ display: block;
+}
+  
+.c-countdown-holder.small .c_time_group {
+  margin: 0;
+  padding: 0;
+}
+.c-countdown-holder.small .c_time_digit {
+  font-size: 14px;
+  line-height: 30px;
+}
+  
+.c-countdown-holder.small .c-time-clip {
+  font-size: 14px;
+  line-height: 14px;
+}
+  
+.filter, .filter-eco {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+}
+
+.modal {
+  position: fixed;
+  width: 580px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+  
+@keyframes fillHeight {
+  0% { height: auto; }
+  100% { height: 100%; }
+}
+  
+.flickity-resize .carousel-cell,
+.flickity-resize .carousel-cell .c-inner {
+	min-height: 100%;
+  	animation: fillHeight 0s 0.2s linear forwards;
+}
+  
+.blog-slider .carousel-cell,
+.blog-slider-small .carousel-cell {
+  opacity:0.5;
+}
+.carousel-cell.is-selected {
+  opacity: 1;
+}
+  
+@media only screen and (min-width: 992px) {
+  .c-breakout-section .flickity-page-dots {
+	display: none;
+  }
+}
+  
+.c_team_block:last-child:after  {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 9000000px;
+  background-color: white;
+}
+  
+  
+.whr-items {
+  list-style-type: none;
+  padding: 0;
+} 
+.whr-info {
+  display: none;
+}
+.whr-title a {  
+  height: 60px;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #003057;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 24px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 2px;
+  -webkit-transition: color .2s,border-color .2s,background-color .2s;
+  transition: color .2s,border-color .2s,background-color .2s;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+.whr-title a:hover {
+  background-color: #00c389;
+}
+  
+.blog-desc a:last-child {
+  display:none;
+}
+  
+.hide { display: none !important; }
+  
+/* Hide sticky scrollbar */
+.fs-sticky-holder::-webkit-scrollbar {
+  display: none;
+}
+
+.fs-sticky-holder {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+  
+</style>
+
+<meta name="facebook-domain-verification" content="dna02xx6erxldww7io7i3ggr2ta39d" />
+
+<!-- Hotjar Tracking Code for https://www.radixdlt.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1904304,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '19241');
+</script>
+<!-- End MailerLite Universal --></head><body><div class="banner-wrap"><div data-w-id="421cf4db-2453-441c-6135-5b6acee23bfc" class="x-holder x2"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/66a6b05f4c8db4dac8e27066_close%20(1).svg" loading="lazy" alt="" class="imgclose"/></div></div><div data-collapse="medium" data-animation="default" data-duration="0" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><div class="c-signup-modal"><div id="modal-signup" class="modal signup"><h4 class="bm-20">Stay updated on the latest Radix news</h4><a href="#" class="modal-close w-inline-block"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/6084b97271f01d685eece365_close.svg" loading="lazy" alt="" class="image-12"/></a><div><div id="signup-1" class="ml-form w-embed"><div class="ml-embedded" data-form="b80Tby"></div></div><div class="privacy-policy"><div>By clicking “Submit”, you agree to our <a href="/privacy-policy" target="_blank" class="privacy-link">Privacy policy</a>. We’ll occasionally send you emails about Radix.</div></div></div></div></div><div class="w-embed w-iframe"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKNDV4C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="fsignup" class="filter" hidden="hidden"></div></div><div class="container is--flex-nav"><a href="/blog" class="logo-holder blog w-nav-brand"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62877d59bf53486d26bed3c6_logo-blog.svg" loading="lazy" alt="Radix Blog Logo
+"/></a><nav role="navigation" class="nav-menu hidden w-nav-menu"><div class="div-block-63"><div data-hover="false" data-delay="0" class="dp-dropdown w-dropdown"><div class="nav-link dp w-dropdown-toggle"><div class="icon-dp w-icon-dropdown-toggle"></div><div>Papers</div></div><nav class="dropdown-list-2 w-dropdown-list"><div class="container id-dp"><div class="div-block-71"><div class="dp-holder"><h4 class="dp-title">Papers</h4><div class="div-block-73"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60874039177748523c0071a6_Polygon%204.svg" loading="lazy" alt="" class="dp-top-triangle"/></div><div class="w-layout-grid grid-3"><div class="div-block-74"><a href="https://radixdlt.com/whitepapers/defi" target="_blank" class="wp-large w-inline-block"><div class="wp-large-img-holder"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/608943a8d3891d2c22341a46_Radix-Whitepaper-Defi.svg" loading="lazy" alt="" class="img-wp-large"/></div><div><div class="title-wp">White Paper</div><div class="bm-10"><h5>How Radix is building the future of DeFi</h5></div><p class="text-small">No maths. Read this to learn about how Radix is building the future of DeFi. 30 pages of pure DeFi goodness! - Read now</p></div></a></div><div class="div-block-77"><a href="https://arxiv.org/abs/2008.04450" target="_blank" class="wp-smaller w-inline-block"><div class="wp-smaller-img-holder"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/6085a0406c47fa974d79959e_Radix-Whitepaper-Shards.svg" loading="lazy" alt="" class="img-wp-smaller"/></div><div class="wp-inner"><div class="title-wp">White Paper</div><div class="bm-10"><h5>Atomic cross-shard consensus</h5></div><p class="text-small">Math proof by the University of California, Davis - Read now</p></div></a><a href="https://radixdlt.com/whitepapers/consensus" target="_blank" class="wp-smaller w-inline-block"><div class="wp-smaller-img-holder"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/6089528ce8973f13a84d3033_Radix-Whitepaper-Cerebus.svg" loading="lazy" alt="" class="img-wp-smaller"/></div><div class="wp-inner"><div class="title-wp">White Paper</div><div class="bm-10"><h5>A Breakthrough in Consensus Theory</h5></div><p class="text-small">Learn about Linear Scaling Without Breaking Composability - Read now</p></div></a><a href="https://learn.radixdlt.com/categories/radix-tokens-tokenomics" target="_blank" class="wp-smaller is-last w-inline-block"><div class="wp-smaller-img-holder"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60a7aa9178851d54c8737e43_Radix-Economics.svg" loading="lazy" alt="" class="img-wp-smaller"/></div><div class="wp-inner"><div class="title-wp">Economics</div><div class="bm-10"><h5><strong>Radix Economics</strong></h5></div><p class="text-small hide">Same content, less maths, more diagrams - Coming soon</p><p class="text-small">The Radix Tokenomics: XRD and eXRD token details - Read Now</p></div></a></div></div></div></div></div></nav></div><a href="https://developers.radixdlt.com/" target="_blank" class="nav-link w-nav-link">Developers &lt;/&gt;<br/></a><div data-hover="false" data-delay="0" class="dp-dropdown docs w-dropdown"><div class="nav-link dp w-dropdown-toggle"><div class="icon-dp w-icon-dropdown-toggle"></div><div>Use Radix</div></div><nav class="dropdown-list left w-dropdown-list"><div class="dp-inner mob-menu"><div class="dp-triangle mob-hide"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60874039177748523c0071a6_Polygon%204.svg" loading="lazy" alt="" class="dp-top-triangle"/></div><a href="https://wallet.radixdlt.com/" target="_blank" class="dp-link w-dropdown-link">Desktop Wallet</a><a href="https://docs.radixdlt.com/main/user-applications/ledger-app-sideload.html" target="_blank" class="dp-link w-dropdown-link">Hardware Wallet</a><a href="https://explorer.radixdlt.com/" target="_blank" class="dp-link w-dropdown-link">Explorer</a><a href="https://www.instapass.io/" target="_blank" class="dp-link w-dropdown-link">Instapass</a><a href="https://www.instabridge.io/" target="_blank" class="dp-link w-dropdown-link">Instabridge</a></div></nav></div><div data-hover="false" data-delay="0" class="dp-dropdown docs w-dropdown"><div class="nav-link dp w-dropdown-toggle"><div class="icon-dp w-icon-dropdown-toggle"></div><div>Learn</div></div><nav class="dropdown-list left w-dropdown-list"><div class="dp-inner mob-menu"><div class="dp-triangle mob-hide"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60874039177748523c0071a6_Polygon%204.svg" loading="lazy" alt="" class="dp-top-triangle"/></div><a href="https://learn.radixdlt.com/" target="_blank" class="dp-link w-dropdown-link">Knowledge Base</a><a href="/blog" class="dp-link w-dropdown-link">Blog</a><a href="/podcast" class="dp-link w-dropdown-link">DeFi Download Podcast</a><a href="/archived/careers" class="dp-link w-dropdown-link">Careers</a><a href="/community" class="dp-link w-dropdown-link">Community</a><a href="/events" class="dp-link w-dropdown-link">Events</a></div></nav></div></div></nav><div class="sidebar-holder blog"><div class="nav-sidebar-button is-blog"><a href="/" class="t_button right-pad w-inline-block"><div>Radix Home</div></a><a href="#" id="signup1" class="t_button is_hero-btn w-inline-block"><div>Sign Up For Updates</div></a></div><form action="/search" class="c-search mobile-hide w-form"><input class="search-input w-input" maxlength="256" name="query" placeholder="Search the blog…" type="search" id="search" required=""/><input type="submit" class="t_button is-search w-button" value="Search"/></form></div></div></div><div class="search-mobile"><div class="container"><form action="/search" class="c-search w-form"><input class="search-input w-input" maxlength="256" name="query" placeholder="Search the blog…" type="search" id="search" required=""/><input type="submit" class="t_button is-search w-button" value="Search"/></form></div></div><div class="c-section is-blog-single"><div class="main-content"><div class="container"><div class="blog-hero-wrapper"><div class="blog-page-holder"><div class="blog-bc"><a href="/blog" class="blog-link">Blog home</a></div><div class="bm-20"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="collection-item-3 w-dyn-item"><a href="/blog-category/radix-labs" class="w-inline-block"><div style="color:hsla(235.93984962406014, 0.00%, 100.00%, 1.00);background-color:hsla(189, 82.17%, 59.54%, 1.00)" class="cbfs-tag">Radix Labs</div></a></div></div></div><div class="dnone w-dyn-list"><div role="list" class="coll-list-nest w-dyn-items"><div role="listitem" class="collection-item-3 w-dyn-item"><a href="/blog-category/radix-labs" class="w-inline-block"><div style="color:hsla(235.93984962406014, 0.00%, 100.00%, 1.00);background-color:hsla(189, 82.17%, 59.54%, 1.00)" class="cbfs-tag">Radix Labs</div></a></div></div></div></div><div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f73e-8a57d94b" class="blog-single-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6759758a9f59cb4a98206f04_Hyperscale%20Alpha%20-%20Part%20I%20-%20The%20Inception%20of%20A%20Hybrid%20Consensus%20Mechanism.png&quot;)" class="blog-single-img-inner"></div></div><div class="bm-20"><h2>Hyperscale Alpha - Part I: The Inception of A Hybrid Consensus Mechanism</h2></div><div>December 11, 2024</div></div></div></div></div><div class="main-blog-bg left"><div class="bottom-triangle"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white.webp" loading="lazy" sizes="(max-width: 4096px) 100vw, 4096px" srcset="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-500.webp 500w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-800.webp 800w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-1080.webp 1080w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-2600.webp 2600w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-3200.webp 3200w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white.webp 4096w" alt="" class="blog-triangle left"/></div></div></div><div class="c-section is-blog-content"><div class="container"><div class="single-blog-content"><div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f74b-8a57d94b" class="single-main-content"><div id="content" data-content="true" class="single-content w-richtext"><p>This article is the first in a series that will lay out the core design philosophies and a high-level technical overview of the Radix Labs Hyperscale Alpha research networks consensus protocol. </p><p>Hyperscale Alpha is part of the <a href="https://www.radixdlt.com/blog/radix-labs-roadmap---to-hyperscale-and-beyond">Radix Hyperscale Roadmap</a> that will become the backbone of a system that is not only linearly scalable, capable of processing millions of transactions per second with fast finality, but also provides a strong foundation that can maintain network progress during adverse conditions while supporting a highly decentralized uncapped validator set. <strong>And like everything in this industry, Hyperscale Alpha also starts with Bitcoin at its core.</strong></p><p><strong>Before we dive in:</strong></p><p><strong>‍</strong>This is just the beginning of a series of deep dives I’m excited to share.</p><p>To ensure you don’t miss any part of the journey, make sure to get engaged with the Radix and Radix Labs community ecosystem in the following places:</p><p><a href="https://x.com/Radixdlt">Follow Radix on X</a></p><p><a href="https://x.com/fuserleer">Follow Dan Hughes (Radix Labs Founder) on X</a></p><p><a href="https://t.me/radix_dlt">Join the Radix Telegram Channel</a></p><p>Hyperscale Alpha (formerly known as Cassandra) consensus protocol <strong>combines principles </strong>from Nakamoto consensus, used in Bitcoin, and classical Byzantine Fault Tolerant (BFT) protocols. <strong>The mandate is to achieve arguably the holy-grail of consensus:</strong> the ability to keep making progress even when network conditions are bad, and strong safety guarantees when the network is working well.</p><p>For broader context, in the upcoming Xian phase, Radix will transform into a pre-sharded architecture with a massive state space of 2^256, providing the foundation for Radix&#x27;s linear scalability approach.</p><figure style="max-width:1258pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b4562c8b141ee1c6cabef_AD_4nXc4l88BeZzl6dyqlcqlDEkp7NEV2zNkU-BHrlQkI2duzb62rlYidPvH-3DZ8dH7i19ZdKRDVXgQBFraa6Nz4xYmgHK4PVOf6EMK-XcEHHMrJ-CxbF0Zbiw_AU_GFwLoeR_Z-JRjTa65zmOiUUjXQZggcHwh7IXkra2UNAVtkkHU6fJirX0Ze3c.jpeg"/></div><figcaption>Source: <a href="https://www.radixdlt.com/blog/cerberus-infographic-series-chapter-ii?utm_source=justthemetrics.beehiiv.com&amp;utm_medium=referral&amp;utm_campaign=the-scalability-problem-is-solved">https://www.radixdlt.com/blog/cerberus-infographic-series-chapter-ii</a></figcaption></figure><p>‍</p><p>The insight for this approach to work, is the requirement of two consensus protocols which operate together seamlessly.</p><ul role="list"><li><strong>Intra-shard Consensus Protocol:</strong> This will ensure that consensus is achieved within a single shard.</li><li><strong>Inter/Cross-shard Consensus:</strong> This will ensure atomic cross-shard transactions, allowing consensus to be reached across multiple shards simultaneously.</li></ul><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b4563916648aaa35f5581_AD_4nXfv1NDHp862f00sxixNjgARqZ5mDVDxHGzpu9NqPozm_KeWRLnBWZyeTuYgG3TyhEhe3wb7Bkd6bQ1KET9xa0eyMkCQTWV-677aNX2eYWAfEfNaaCbX3VK1zo_nHRR_wpIo2ty-nNQ5r5Mcxzj3u7AkiTqd2Hs8u6OmwhQBZHPFpGg3-zYXDdM.png"/></div><figcaption>Source: <a href="https://www.radixdlt.com/blog/cerberus-infographic-series-chapter-i">https://www.radixdlt.com/blog/cerberus-infographic-series-chapter-i</a></figcaption></figure><p>‍<strong>Cassandra will manage the consensus process within a shard (intra-shard)</strong> to bring nodes participating in that shard to agreement.</p><p>It makes sure that the shard can keep making progress even if the network conditions aren&#x27;t ideal. At the same time, it provides strong safety guarantees when the network is operating below its failure bound (one-third of participants are faulty or dishonest).</p><p>On the other hand, <strong>Cerberus will manage the consensus between different shards (inter-shard).</strong></p><figure style="max-width:1456pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b456348d06fa16ef402ae_AD_4nXeXK9mlnXVZ6CJrEHL1_6pMZmS12Umo7U_M6-gbQvOfG1ijhNGuStc4L9L8rvCt8MztvxiK8v4hp-jhbMmyqEwF5XDcmiiMiDqNebn4gBi8LLlazqpjM2MXLKfJFDL2GPAB6aUdLQS_lbFLPgKHghGhCAkNLZvW2Lx6hxu86w-joJxVmuSWw3o.png"/></div><figcaption>Source: <a href="https://www.radixdlt.com/blog/cerberus-infographic-series-chapter-i">https://www.radixdlt.com/blog/cerberus-infographic-series-chapter-i</a></figcaption></figure><p>‍</p><p>When a transaction needs to happen across multiple shards, Cerberus orchestrates the execution and commitment of transactions across the involved shards to ensure atomicity and consistency across the network.</p><p>Simplified, Cassandra ensures agreement within each shard, while Cerberus is like the coordinator and messenger, ensuring all the shards are working together properly.</p><p>Now, this is the first in a series of articles about the Hyperscale Alpha consensus protocol that lays out the design principles and technical details on how we are building Hyperscale Alpha.</p><p>And, as is said above, <strong>“like everything in this industry, Hyperscale Alpha also starts with Bitcoin at its core.”</strong></p><h2>Why Is Bitcoin Special?</h2><p>Now when I talk about Bitcoin in the context of Hyperscale Alpha, I am focusing here on <strong>the backbone of Bitcoin, i.e., the Nakamoto consensus protocol.</strong></p><p>Nakamoto consensus is a revolutionary piece of technology because it transformed the field of distributed systems by <strong>solving the long-standing problem of achieving consensus in a decentralized network</strong> without relying on a trusted third party.</p><p>Before Nakamoto consensus , distributed systems relied on <strong>voting-based mechanisms, </strong>which were vulnerable to Sybil attacks and so r<strong>equired a central authority </strong>to manage who was entitled to vote in the voting process. These types of network are referred to as <strong>permissioned</strong> or <strong>centralized </strong>networks.</p><p>But in Bitcoin, <strong>the Nakamoto Consensus protocol uses proof-of-work (PoW) as both a Sybil resistance and voting mechanism </strong>to reach agreement among participants. This is because it is difficult to continually produce proofs of work which have the most “work” for long durations of time.</p><p>The way in which Bitcoin participants reach agreement isn&#x27;t guaranteed to be 100% certain immediately; instead, the agreement becomes stronger over time because the probability that the majority of network participants haven’t seen all valid proofs of work for a particular period in time reduces. </p><p>Eventually this probability becomes so low, and the effort required to create a sufficiently strong sequence of proofs-of-work so high, that the historical record of events becomes trustworthy, enabling the creation of a <strong>secure, tamper-resistant, and decentralized ledger.</strong></p><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b4564d2861204f4c9ba69_AD_4nXd9kfOBkq3mzlN7YaqyxYjSrQ_ne060WQkNQW36fgKD6IHzm9LkKEL80IzvEoaNCN3V2Agyo6wiXdfTNXwURxIkmaWzn2iy0VFVDL-OUNs7xIQskzWBxMwN2Plm4tiHtwfUoXxGH54M1-JSwii64KL93l_JmfvflwVKGNsLw5LFWCDh4LlezQ.png"/></div><figcaption><a href="https://forkast.news/proof-of-work-what-is-it-bitcoin-halving/">Source: https://forkast.news/proof-of-work-what-is-it-bitcoin-halving/</a></figcaption></figure><p>‍</p><blockquote><strong><em>What makes the Nakamoto consensus protocol particularly well-suited for building resilient and highly decentralized distributed ledger platforms is its ability to maintain two critical properties of a blockchain system: weak liveness and probabilistic safety guarantees.</em></strong></blockquote><p><strong>Weak liveness </strong>ensures that the network can continue to make progress even in the face of network asynchrony or node failures. </p><p>This means that even if a large portion of the network goes offline, the protocol can still operate, though perhaps at reduced efficiency. Ultimately, as long as at least one honest node remains active, the protocol can continue to make progress, albeit more slowly.</p><p>On the other hand, <strong>probabilistic safety</strong> provides increasing assurance over time that confirmed transactions will not be reversed.</p><p>These properties, thanks to the ingenuity of proof-of-work and how Satoshi used it, allows Nakamoto based consensus protocols to tolerate a <strong>high degree of decentralization</strong>, as they do not rely on a fixed set of validators or a leader to coordinate consensus.</p><p>Instead, any node can participate in the consensus process by contributing computational power to solve PoW puzzles. </p><blockquote><strong><em>As a result, the Nakamoto Consensus protocol enables the creation of highly decentralized networks that can scale to thousands of nodes without compromising security.</em></strong></blockquote><p>From my perspective, any distributed ledger platform that aims to scale at a planetary level should be able to be resilient enough and inclusive enough like the Nakamoto Consensus protocol, supporting thousands to hundreds of thousands of validators, without compromising on user-oriented features like high throughput and finality, which are more features of leader-based consensus protocols like Practical Byzantine Fault Tolerance (PBFT - more on that later).</p><p>Now before we go into details of Hyperscale Alpha, it’s important to understand some basic consensus properties.</p><h2>Understanding Consensus Properties</h2><figure style="max-width:1556pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b4563687f92704bce5c6a_AD_4nXfoK8MvLzPXNULvTFUWEFHc_JjBOgi4vJoK85EAGQhg8kRDtU1cZZx-5VnhgIfEi1RtzLDXKEqhKakzlZPpxcqGoJ_4VI1ov0yIWkyZEI6VpIj-9IrI8fnnMb6x6sE0RP4Fq-EIDjJ5td9gXmgLXZIqNOzzkFTJRJCWbHiFTQxWA6EyLnM8zWk.png"/></div></figure><p>‍</p><p>Consensus properties<strong> </strong>are <strong>fundamental characteristics that define how a consensus protocol behaves</strong> and ensures agreement among participants in a distributed system.</p><p>The two<strong> primary consensus properties</strong> are <strong>liveness </strong>and <strong>safety</strong>, which are essential for achieving fault tolerance—i.e., the capacity of a system to operate correctly and reliably even under adverse conditions or in the presence of faults—and consistency in distributed systems.</p><p>Let’s have a look at each of them in detail.</p><h3>A. Liveness</h3><p>Liveness is a property that guarantees the <strong>system will eventually make progress </strong>and produce an output. In other words, a consensus protocol with liveness ensures that the network will not become stuck or deadlocked due to many participants leaving, and the remaining <strong>participants will eventually reach an agreement</strong>.</p><p>There are <strong>two types of liveness</strong>: weak liveness and strong liveness.</p><h4>1. Weak liveness</h4><p>Weak liveness is a guarantee that a <strong>system will make progress</strong>, but it doesn&#x27;t promise when that progress will happen. In other words, the system will eventually move forward, but the time between events<strong> can be unpredictable and unbounded.</strong></p><p>It&#x27;s like saying, <strong>&quot;We&#x27;ll get there eventually, but it might take a while.&quot;</strong></p><p>Consider Bitcoin&#x27;s Nakamoto Consensus algorithm. If all miners except one were to suddenly disappear, the remaining miner would still be able to compute proofs-of-work and produce blocks. However, the time between blocks would likely be much longer than the usual 10 minutes because there may have been thousands of miners attempting to produce valid proofs-of-work, but now there is only one.</p><p>As more miners rejoin the network, the time it takes to produce blocks will gradually decrease. Eventually, the block production time and thus <strong>progress </strong>will return to the targeted interval of 10 minutes.</p><p>So, even though there might be some slowdowns along the way, the system keeps moving along. <strong>It might not be as responsive as we&#x27;d like, but it doesn&#x27;t completely stop and is very resilient</strong>.</p><h4>2. Strong liveness</h4><p>Strong liveness, as the term already indicates, provides a <strong>stronger guarantee than weak liveness</strong> by ensuring that the system will make <strong>progress within a bounded time interval. </strong>This means that the system will not get stuck nor require hours to pass for some progress to happen.</p><p>It&#x27;s like saying, <strong>&quot;We&#x27;ll definitely get this done by next Tuesday.&quot;</strong></p><p>But here&#x27;s the catch: in partially synchronous or asynchronous networks, it&#x27;s actually impossible to achieve strong liveness. This is because of something called the FLP impossibility result. </p><p><a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)#:~:text=In%20a%20fully%20asynchronous%20message,for%20achieving%20consensus%20is%20impossible.">The FLP impossibility result</a>, named after its authors Fischer, Lynch, and Paterson, is a fundamental theorem in distributed systems.</p><p>It is a heavy topic, but worth a read of the paper if you’re that way inclined, but essentially it proves impossibility to achieve consensus in a fully asynchronous system, if even one process can fail. </p><h3>B. Safety</h3><p>Safety is a property that <strong>ensures the system will never agree to an incorrect output</strong> or reach an <strong>invalid state</strong>.</p><p>When we&#x27;re talking about consensus protocols specifically, safety means two things:</p><ol role="list"><li>All the honest participants (the ones following the rules) will come to an agreement on the same value.</li><li>Once a value is committed (meaning it&#x27;s final), it can&#x27;t be changed or undone.</li></ol><p>Now, there are two kinds of safety:<strong> probabilistic safety and deterministic safety.</strong></p><h4>1. Probabilistic safety</h4><p>Probabilistic safety provides a <strong>high probability that the system will maintain consistency</strong>, but there is a non-zero chance of a safety violation.</p><p>When we talk about probabilistic safety in Nakamoto Consensus, it means that there&#x27;s a high chance the system will stay consistent and work as intended, but there&#x27;s still a tiny possibility that something could go wrong. Events such as double-spend attacks or rewrites of historic transactions are common examples.</p><p>The way Nakamoto Consensus achieves this probabilistic safety is through the longest chain rule. In simple terms<strong>, the chain with the most proof-of-work put into it is considered the valid </strong>chain. Proof-of-work is a way for computers to prove they&#x27;ve done a certain amount of computational work.</p><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b45633b311b6f30163fdb_AD_4nXcLrSfHdHa2Zlc1Qy74bSOl2kt0VmO_NoxMlZETcjB6OTCe2uMwIxKkjkUPG6Au0H-kLoGrBiHRxbo_LOsLlIHki2hKRxjUPPgX_oavvmUBqWNN1ULVffFOhg3GqRgZUcYglgmxtCUTXMaJ7gBHeEd7oc3RTk82or7neWZ7SLPSUCnZ6wF-9ro.png"/></div><figcaption>Source: <a href="https://learnmeabitcoin.com/technical/blockchain/longest-chain/">https://learnmeabitcoin.com/technical/blockchain/longest-chain/</a></figcaption></figure><p>‍</p><p>As more blocks are added to a chain,<strong> it becomes harder and harder for an attacker to create a different chain </strong>with more proof-of-work. This is because they would need to redo all the work that&#x27;s already been done on the valid chain, plus add even more blocks to make their chain longer.</p><p>So, with each new block added, the probability of a successful attack at some arbitrary point of time in the past gets smaller and smaller. A transaction performed yesterday is many orders of magnitude harder to double spend, or wipe from the historical record, than a transaction performed an hour ago.</p><p>This decreasing probability of a safety violation is what gives growing confidence in the validity of the chain over time. <strong>The more blocks we see added to the chain, the more certain we can be </strong>that it&#x27;s the true, correct chain.</p><h4>2. Deterministic safety</h4><p>When we talk about deterministic safety in consensus protocols, we&#x27;re referring to a guarantee that the<strong> system will always remain consistent and never produce conflicting results</strong>. This is an important property for ensuring the reliability and trustworthiness of the system.</p><p>One way to achieve deterministic safety is through leader-based consensus protocols, such as PBFT. In these protocols, a supermajority of participants, typically two-thirds or more, must agree on a value before it can be committed.</p><p>‍</p><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b45625fb0ffe7f9703c93_AD_4nXdTCjisP-Z-BUM0FFw7CiFnq0dzSalhjQnvomNXS33hil0uttlylbDX1Aj5ZQYgvrqPAVPDxTDfC654Y51k51dA8T0x8DAq5Rr5oFimCCyNIW8h2WnTIUpEIlXmeyumdHXg_ncHUtDXCw_4xIXVdJLNfW5zBx1xlqsOIta5ulCMTusQvaSzKpo.png"/></div><figcaption>Source: <a href="https://dl.acm.org/doi/10.1145/3579845">https://dl.acm.org/doi/10.1145/3579845</a></figcaption></figure><p>‍</p><p>This high threshold ensures that there is a strong consensus among the participants and that the network has to be severely compromised with dishonest participants for a safety violation to occur. Even in these cases, once an honest participant has committed a result, it will never revert it, ensuring the system&#x27;s consistency at least to the point the network was compromised.</p><h2><strong>The Trade-Offs Between Liveness and Safety</strong></h2><figure class="w-richtext-align-center w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b456379c5f06153032791_AD_4nXfut29JA384FWqtTvZkp6OxG5ZmkwY3lBZAbaz-4mBTydsbKb78L6SsOQnU3cEOVw7e3ZOLRZ2bFJ2q80p6K8uTS-4DgxVgwUvvN-mw18r0tYVMEeTX8fFujNyWIUYVzI2jOyzrkU7zxExOUklUDRJjfdcqP5xFPQasRF_a37kHTtuXcWp4p_E.png"/></div></figure><p>Liveness and safety are often in conflict with each other, and consensus <strong>protocols must make trade-offs between these properties</strong> based on the specific requirements and assumptions of the system.</p><p>In <strong>networks where messages can take an unknown amount of time</strong> to be delivered (partially synchronous or asynchronous networks), it is <strong>not possible to guarantee both </strong>strong liveness and deterministic safety simultaneously, as stated by the FLP impossibility result.</p><p>Even though<strong> Nakamoto Consensus</strong> offers both liveness and safety, it <strong>prioritizes liveness over safety</strong> by allowing the system to make progress even in the presence of network partitions or node failures, albeit at the cost of only providing probabilistic safety.</p><p>On the other hand, <strong>leader-based protocols like PBFT prioritize safety over liveness</strong>, ensuring deterministic safety but sacrificing liveness in the face of network partitions or node failures.</p><p><strong>In fact, leader-based protocols only really offer safety guarantees,</strong> as they rely on a fixed set of validators and a leader to coordinate consensus. If the leader fails and a new one can not be elected with agreement, especially if the network becomes partitioned, the protocol cannot make progress, resulting in a full loss of liveness causing the network to halt.</p><p>This trade-off is inherent to the design of<strong> leader-based protocols</strong>, which <strong>prioritize the consistency and integrity of the system state </strong>over the ability to continuously process transactions in adverse network conditions.</p><p>‍</p><p>​​In contrast, <strong>Nakamoto Consensus continues to operate and make progress even under adverse network conditions,</strong> though with weak/probabilistic safety guarantees.</p><h2>Why Nakamoto Consensus Was Chosen as a Starting Point for Hyperscale Alpha</h2><figure class="w-richtext-align-center w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b45622908ca163b04e34a_AD_4nXeemQ-6pj0ZTyTUDw6UVixtOaK0Cz55Qr7IIJjSJXrV0LV-GNiCqbVi7-y3EP4KCEca5O-WUvYJPYSrRtNSBvoB1AzVhF-bTBYBBqaqC6BLUuNZK4kqMAX8bWm0_E6zxeUHMY1WwhxQb6fc8hA7HNUNqRGR9kJMx7_-tPWFY4mR_ZdB06Vurg.png"/></div></figure><p>As you have seen above, Nakamoto consensus is <strong>the only option for both safety and liveness guarantees.</strong></p><blockquote><strong><em>This unique combination makes it an ideal starting point for Cassandra - the INTRA-SHARD consensus protocol of Radix Labs Hyperscale - to address the challenges of a decentralized network that can scale to a planetary level with hundreds of thousands of validator nodes.</em></strong></blockquote><p>Nakamoto consensus provides a solid foundation that can be built upon to achieve the specific properties required by Hyperscale Alpha, while maintaining an ability to operate under challenging and adversarial network conditions. </p><p>Allow me to outline the specific <strong>properties Hyperscale Alpha aims to achieve</strong>.</p><h2>The Core Design Principles of Hyperscale Alpha</h2><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b4563fe421e0783acf359_AD_4nXcQQVBoijKMgEzHKfecWLvEfmKc-QY4HQCiijJLk5Ug2XP7dYcHOO0Xja_cMHMcNI5H3kBIz7Nylwb_P_zor-HkmHqJafC7sFcVs175EkoROhq7DIOa4j-sm_FZzyEUUhm2grRZrpjio4G2_zamnvThG5QIZiwgscTJV4qL5wwHmTZXwz99yw.png"/></div></figure><p>The motivation behind Hyperscale Alpha is to <strong>combine the best properties of both Nakamoto Consensus and classical BFT  consensus </strong>mechanisms to create a more robust, more decentralized, and more scalable network.</p><p>The specific properties that Hyperscale Alpha requires to achieve this goal are as follows:</p><ol role="list"><li><strong>Weak Liveness Guarantee: </strong>Hyperscale Alpha needs a weak liveness guarantee to ensure that the network can continue to make progress even in the presence of network asynchrony or node failures. This property allows the protocol to recover from situations where a large portion of the network becomes unavailable or disconnected.</li><li><strong>Deterministic Safety:</strong> Hyperscale Alpha requires deterministic safety to ensure that the network will not produce conflicting outputs or reach an invalid state. This property is crucial for maintaining consistency across shards and ensuring the overall system&#x27;s reliability.</li><li><strong>High Decentralization:</strong> Hyperscale Alpha must support a large number of validators (potentially in the thousands to hundreds of thousands) across multiple shards. The protocol must be able to maintain a high degree of decentralization to ensure the network&#x27;s resilience and security.</li><li><strong>Leaderless Design:</strong> A leaderless design is essential for Hyperscale Alpha to avoid various points of failure that can occur in leader-based systems, especially when scaling to a large number of validators.</li><li><strong>Fast Finality: </strong>Hyperscale Alpha must exhibit fast finality, ensuring that transactions are confirmed quickly, ideally within a few seconds. This is particularly important for the user-friendliness of applications that will be built on Radix.</li></ol><h3><strong>Building upon Nakamoto Consensus is the path of least resistance to achieve these properties.</strong></h3><figure style="max-width:1600pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675b456292c7f66dcce7fac5_AD_4nXcRQof1ppr_IBjr6xc15G4Yr-koGA8zZQUzI77uqK2F6UJwQpvKz7CtI8POHH4R-2kpsFOQ3-oAvLXoLQm1kpzNbUePhG3K1JzQ2iWr1PKx-u1G6kV_CdiDW4ln_0T_lwFdYritk77jDjZq9MPR0lj5VAO3fNgBZNNZAQIxEvqcaSXJtLPRcw.png"/></div></figure><p>To begin with, <strong>Nakamoto Consensus inherently provides a weak liveness guarantee</strong>, which is essential for Hyperscale Alpha. Enhancing this existing feature is more straightforward than introducing a liveness guarantee into protocols like PBFT or Hot Stuff which lack it.</p><p>Moreover, by starting with Nakamoto consensus, <strong>Hyperscale Alpha can maintain the original protocol&#x27;s probabilistic safety</strong> as a fallback mechanism. This means that even if the additional layers that provide deterministic safety fail due to extreme network conditions, the system can still operate with the probabilistic safety guarantees of Nakamoto consensus which are now well known, understood and accepted.</p><p>Furthermore, <strong>Nakamoto consensus naturally supports a high degree of decentralization</strong>, as it allows for an unlimited number of participants to join the network as miners. This property <strong>aligns well with Hyperscale Alpha&#x27;s goal of maintaining a large number of validators </strong>across multiple shards.</p><p>Lastly, the <strong>absence of a designated leader in Nakamoto consensus makes it an ideal starting point for Hyperscale Alpha</strong>, as it avoids the need to develop complex mechanisms to ensure a leaderless design.</p><blockquote><strong><em>By using Nakamoto consensus as its foundation, Hyperscale Alpha can build on its strengths while improving safety features to develop a hybrid consensus mechanism. This approach combines high decentralization and adaptability with the deterministic safety and quick finality needed for a large-scale, sharded network.</em></strong></blockquote><h3><strong>Now that we have covered the core design principles of Hyperscale Alpha, the next question is how to put these ideas into practice.</strong></h3><p>The first step is enhancing Nakamoto consensus by introducing deterministic safety. </p><p>This involves an implicit voting mechanism and a hybrid proof-of-work-esq/proof-of-stake model.</p><p>But that&#x27;s just the beginning.</p><p>In the next article, <a href="http://www.radixdlt.com/blog/hyperscale-alpha---part-ii-design-principles"><em>Hyperscale Alpha - Part II</em></a>, we&#x27;ll go deeper into Hyperscale Alpha&#x27;s unique hybrid consensus protocol, exploring how it achieves fast finality while maintaining both liveness and safety, even under extreme network conditions.</p><p>‍</p></div></div><div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f805-8a57d94b" class="single-sidebar"><div class="sidebar-section"><div class="bm-20"><h4>Posted by</h4></div><a href="/blog-author/dan-hughes" class="author-group w-inline-block"><div style="background-image:none" class="author-img small w-condition-invisible"></div><div class="author-holder"><h5>Dan Hughes</h5><div class="author-role w-dyn-bind-empty"></div></div></a></div><div class="sticky-comp"><div class="toc w-embed"><dl id="toc"></dl>
+<style>
+.active .dot {
+  background: #052CC0;
+}
+</style></div><div class="sidebar-section"><div class="bm-20"><h4>Share this post</h4></div><div class="w-embed"><!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END --></div></div><div class="sidebar-section"><h4>Related Articles</h4><div class="w-dyn-list"><div role="list" class="collection-list-3 w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="/blog/interim-hyperscale-closing-the-chapter" class="related-link w-inline-block"><div>Interim Hyperscale: Closing the Chapter</div></a></div><div role="listitem" class="w-dyn-item"><a href="/blog/hyperscale-update-500k-public-test-done" class="related-link w-inline-block"><div>Hyperscale Update: 500k+ Public Test Done</div></a></div><div role="listitem" class="w-dyn-item"><a href="/blog/hyperscale-completing-the-interim-phase" class="related-link w-inline-block"><div>Hyperscale: Completing the Interim Phase</div></a></div><div role="listitem" class="w-dyn-item"><a href="/blog/hyperscale-rebirth-part-3" class="related-link w-inline-block"><div>Hyperscale Rebirth Part 3</div></a></div></div></div></div><div class="blog-sidebar-ns"><div class="bm-20"><h4>Subscribe to our newsletter</h4></div><div class="div-block-135"><div>Subscribe to receive the latest Radix updates.</div></div><div id="signup-3" class="ml-form w-embed"><div class="ml-embedded" data-form="RSre69"></div></div><div class="privacy-policy"><div>By clicking “Submit”, you agree to our <a href="/privacy-policy" target="_blank" class="privacy-link">Privacy policy</a>. We’ll occasionally send you emails about Radix.</div></div></div></div></div></div></div></div><div class="c-section is-tags isauto02"><div class="container z-index-20"><div class="div-block-130"><div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f834-8a57d94b"><div>Discover</div><h2>Explore more topics</h2></div><div id="w-node-_80aa40a1-f822-b623-25ed-3d3823cd4943-23cd4943" class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/ama" class="tag-link">AMA</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/community-ecosystem" class="tag-link">Community &amp; Ecosystem</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/crypto-defi" class="tag-link">Crypto &amp; DeFi</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/events" class="tag-link">Events</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/product-roadmap" class="tag-link">Product &amp; Roadmap</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/radix-labs" class="tag-link">Radix Labs</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/radix-report" class="tag-link">Radix Report</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/scrypto-developers" class="tag-link">Scrypto &amp; Developers</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/team" class="tag-link">Team</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/tech-blog" class="tag-link">Tech Blog</a></div><div role="listitem" class="collection-item w-dyn-item"><a href="/blog-category/token" class="tag-link">Token</a></div></div></div></div></div><div class="slideholder is-blog-slider isautoh w-dyn-list"><div role="list" class="blog-slider-small isautoh w-clearfix w-dyn-items"><div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item"><div class="c-blog-item-link-slide b02"><div class="c-blog-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69f104bba24d46bcf51d665e_Foundation%20Update.png&quot;)" class="c-img-blog-inner"></div></div><div class="blog-inner"><div class="tag-link-holder"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/community-ecosystem" class="cat-tag-link w-inline-block"><div style="color:#003057;background-color:#21ffbe" class="cbfs-tag">Community &amp; Ecosystem</div></a></div></div></div></div><div class="blog-link-title"><div class="bm-10"><h4>Foundation Update: Moving to Maintenance Mode</h4></div><p class="blog-desc w-dyn-bind-empty"></p></div><div class="cbfs-date-holder"><div class="cbfs-date">April 28, 2026</div></div></div><a href="/blog/foundation-update-moving-to-maintenance-mode" class="full-blog-link w-inline-block"></a></div></div><div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item"><div class="c-blog-item-link-slide b02"><div class="c-blog-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/699876940f7a5de1da5af2fe_Closing%20the%20chapter.png&quot;)" class="c-img-blog-inner"></div></div><div class="blog-inner"><div class="tag-link-holder"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/radix-labs" class="cat-tag-link w-inline-block"><div style="color:hsla(235.93984962406014, 0.00%, 100.00%, 1.00);background-color:hsla(189, 82.17%, 59.54%, 1.00)" class="cbfs-tag">Radix Labs</div></a></div></div></div></div><div class="blog-link-title"><div class="bm-10"><h4>Interim Hyperscale: Closing the Chapter</h4></div><p class="blog-desc w-dyn-bind-empty"></p></div><div class="cbfs-date-holder"><div class="cbfs-date">February 20, 2026</div></div></div><a href="/blog/interim-hyperscale-closing-the-chapter" class="full-blog-link w-inline-block"></a></div></div><div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item"><div class="c-blog-item-link-slide b02"><div class="c-blog-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/698f553c6eacb48f9a6e7921_Results%20Validator%20Subsidy.png&quot;)" class="c-img-blog-inner"></div></div><div class="blog-inner"><div class="tag-link-holder"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/token" class="cat-tag-link w-inline-block"><div style="color:hsla(0, 0.00%, 100.00%, 1.00);background-color:#052cc0" class="cbfs-tag">Token</div></a></div><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/community-ecosystem" class="cat-tag-link w-inline-block"><div style="color:#003057;background-color:#21ffbe" class="cbfs-tag">Community &amp; Ecosystem</div></a></div></div></div></div><div class="blog-link-title"><div class="bm-10"><h4>Consultation Results: The Future of the Validator Subsidy</h4></div><p class="blog-desc w-dyn-bind-empty"></p></div><div class="cbfs-date-holder"><div class="cbfs-date">February 13, 2026</div></div></div><a href="/blog/consultation-results-the-future-of-the-validator-subsidy" class="full-blog-link w-inline-block"></a></div></div><div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item"><div class="c-blog-item-link-slide b02"><div class="c-blog-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69872212f1dcdbd9cb63dd44_RAC%20Results.png&quot;)" class="c-img-blog-inner"></div></div><div class="blog-inner"><div class="tag-link-holder"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/community-ecosystem" class="cat-tag-link w-inline-block"><div style="color:#003057;background-color:#21ffbe" class="cbfs-tag">Community &amp; Ecosystem</div></a></div></div></div></div><div class="blog-link-title"><div class="bm-10"><h4>Consultation Results: Radix Accountability Council </h4></div><p class="blog-desc w-dyn-bind-empty"></p></div><div class="cbfs-date-holder"><div class="cbfs-date">February 7, 2026</div></div></div><a href="/blog/consultation-results-radix-accountability-council" class="full-blog-link w-inline-block"></a></div></div><div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item"><div class="c-blog-item-link-slide b02"><div class="c-blog-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/698624ab640bc8cd9f3b7333_Assets%20Restult.png&quot;)" class="c-img-blog-inner"></div></div><div class="blog-inner"><div class="tag-link-holder"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/community-ecosystem" class="cat-tag-link w-inline-block"><div style="color:#003057;background-color:#21ffbe" class="cbfs-tag">Community &amp; Ecosystem</div></a></div></div></div></div><div class="blog-link-title"><div class="bm-10"><h4>Consultation Results: Defining Eligible Assets for Snapshots</h4></div><p class="blog-desc w-dyn-bind-empty"></p></div><div class="cbfs-date-holder"><div class="cbfs-date">February 6, 2026</div></div></div><a href="/blog/consultation-results-defining-eligible-assets-for-snapshots" class="full-blog-link w-inline-block"></a></div></div><div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item"><div class="c-blog-item-link-slide b02"><div class="c-blog-img-holder"><div style="background-image:url(&quot;https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6984d75bfd6f2925776993ba_Validator%20Subsidy.png&quot;)" class="c-img-blog-inner"></div></div><div class="blog-inner"><div class="tag-link-holder"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="cat-c-item w-dyn-item"><a href="/blog-category/community-ecosystem" class="cat-tag-link w-inline-block"><div style="color:#003057;background-color:#21ffbe" class="cbfs-tag">Community &amp; Ecosystem</div></a></div></div></div></div><div class="blog-link-title"><div class="bm-10"><h4>Consultation: The Future of the Validator Subsidy</h4></div><p class="blog-desc w-dyn-bind-empty"></p></div><div class="cbfs-date-holder"><div class="cbfs-date">February 5, 2026</div></div></div><a href="/blog/consultation-the-future-of-the-validator-subsidy" class="full-blog-link w-inline-block"></a></div></div></div></div><div class="mesh-holder"><div data-poster-url="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60ba5985f394bf1012c0c83a_Comp 1 - v2-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60ba5985f394bf1012c0c83a_Comp 1 - v2-transcode.mp4,https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60ba5985f394bf1012c0c83a_Comp 1 - v2-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="mesh-vid-2 z5 w-background-video w-background-video-atom"><video id="5b831036-86d0-f75e-6cd5-d70ce037f85e-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60ba5985f394bf1012c0c83a_Comp 1 - v2-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60ba5985f394bf1012c0c83a_Comp 1 - v2-transcode.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/60ba5985f394bf1012c0c83a_Comp 1 - v2-transcode.webm" data-wf-ignore="true"/></video></div><div class="bottom-triangle"><img src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white.webp" loading="lazy" sizes="(max-width: 4096px) 100vw, 4096px" srcset="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-500.webp 500w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-800.webp 800w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-1080.webp 1080w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-2600.webp 2600w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white-p-3200.webp 3200w, https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/62428c4c7ea8837c60c73442_traingle-hero-white.webp 4096w" alt="" class="blog-triangle"/></div></div></div><footer id="white_papers" class="c-section is_footer"><div class="container"><div class="w-layout-grid grid_footer"><div id="w-node-c08fe1a0-82c7-76e0-d313-813bcc805c25-cc805c22" class="f-column"><h5 class="f-title">Links</h5><ul role="list" class="w-list-unstyled"><li class="list-fb"><a href="/blog" class="f-link">Blog</a><a href="https://www.radixdlt.com/post/rss.xml" target="_blank" class="f-link is-small">RSS</a></li><li class="list-fb"><a href="/podcast" class="f-link">Podcast</a><a href="https://www.radixdlt.com/podcast/rss.xml" target="_blank" class="f-link is-small">RSS</a></li><li><a href="/privacy-policy" class="f-link">Privacy Notice</a></li><li><a href="/radix-brand-pack" class="f-link">Radix Brand Pack</a></li></ul></div><div id="w-node-c08fe1a0-82c7-76e0-d313-813bcc805c38-cc805c22" class="f-column"><h5 class="f-title">Whitepapers</h5><ul role="list" class="w-list-unstyled"><li><a href="https://radixdlt.com/whitepapers/defi" target="_blank" class="f-link">DeFi Whitepaper</a></li><li><a href="https://radixdlt.com/whitepapers/consensus" target="_blank" class="f-link">Consensus White Paper</a></li><li><a href="http://radixdlt.com/whitepapers/peerreview" target="_blank" class="f-link">Peer Reviewed Consensus Paper</a></li></ul></div><div id="w-node-c08fe1a0-82c7-76e0-d313-813bcc805c45-cc805c22" class="f-column align-right"><h5 class="f-title">Join the Radix Community</h5><div class="flex-default is_right"><a href="https://go.radixdlt.com/Discord" target="_blank" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M19.54 0c1.356 0 2.46 1.104 2.46 2.472v21.528l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22h-13.608c-1.356 0-2.46-1.104-2.46-2.472v-16.224c0-1.368 1.104-2.472 2.46-2.472h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524-1.248-.684-2.472-1.02-3.612-1.152-.864-.096-1.692-.072-2.424.024l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012.564-.096 1.14-.264 1.74-.516.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z"></path></svg></div><div class="hidden-alt">Discord</div></a><a href="https://github.com/radixdlt" target="_blank" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg></div><div class="hidden-alt">Github</div></a><a href="https://medium.com/@radixdlt" target="_blank" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"></path></svg></div><div class="hidden-alt">Medium</div></a><a href="https://www.reddit.com/r/Radix/" target="_blank" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.286-1.84.746-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058c0 1.193.975 2.163 2.174 2.163 1.198 0 2.172-.97 2.172-2.163s-.975-2.164-2.172-2.164c-.92 0-1.704.574-2.021 1.379l-4.329-1.015c-.189-.046-.381.063-.44.249l-1.654 5.207c-2.838.034-5.409.798-7.3 2.025-.474-.438-1.103-.712-1.799-.712-1.465 0-2.656 1.187-2.656 2.646 0 .97.533 1.811 1.317 2.271-.052.282-.086.567-.086.857 0 3.911 4.808 7.093 10.719 7.093s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81.832-.447 1.405-1.312 1.405-2.318zm-17.224 1.816c0-.868.71-1.575 1.582-1.575.872 0 1.581.707 1.581 1.575s-.709 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179l-.013-.003-.013.003c-1.777 0-3.028-.386-3.824-1.179-.145-.144-.145-.379 0-.523.145-.145.381-.145.526 0 .65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962.145-.145.381-.144.526 0 .145.145.145.379 0 .524zm-.189-3.095c-.872 0-1.581-.706-1.581-1.574 0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z"></path></svg></div><div class="hidden-alt">Reddit</div></a><a href="https://t.me/radix_dlt" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path id="telegram-1" d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"></path></svg></div><div class="hidden-alt">Telegram</div></a><a href="https://twitter.com/RadixDLT" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></div><div class="hidden-alt">Twitter</div></a><a href="https://www.youtube.com/c/radixdlt" target="_blank" class="f-link-socials w-inline-block"><div class="f-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></div><div class="hidden-alt">Youtube</div></a></div></div><div id="w-node-c08fe1a0-82c7-76e0-d313-813bcc805c6b-cc805c22" class="f-column lockup"><div class="bm-10">Can’t find what you need? Email us on: <a href="mailto:hello@radixdlt.com">hello@radixdlt.com</a><br/></div><div>© Radix Publishing Ltd, 2026. All rights reserved. Radix Publishing Ltd.<br/></div></div></div></div><div class="w-embed"><style>
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a .ico-chat-b svg,
+a .f-icon svg {
+    fill: #003057;
+    -webkit-transition: fill .2s linear;
+    transition: fill .2s linear;
+}
+a:hover .ico-chat-b svg,
+a:hover .f-icon svg{
+    fill: #00c389;
+}
+a .ico-chat svg, 
+.dp-toggle .ico-globe svg {
+    fill: #fff;
+    -webkit-transition: fill .2s linear;
+    transition: fill .2s linear;
+}
+a:hover .ico-chat svg,
+.dp-toggle:hover .ico-globe svg,
+.dp-toggle.w--open .ico-globe svg {
+    fill: #00c389;
+}
+
+.dp-toggle:hover .dp-icon,
+.dp-toggle.w--open .dp-icon {
+	color: #00c389;
+}
+
+.globe {
+	-webkit-filter: drop-shadow(0 0 17px #068bf2);
+  filter: drop-shadow(0 0 17px #068bf2);
+}
+.poly { 
+	clip-path: polygon(100% 0, 10% 0, 0 10%, 0% 100%, 90% 100%, 100% 90%);
+}
+
+.gf-blend-mode,
+.img-defi-logo {
+	mix-blend-mode: multiply;
+}
+
+.arrow-text:after {
+  content: url('https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/611f98a885fb0ead214724b6_pillar-arrow.svg');
+  margin-left: 10px;
+  position: relative;
+}
+
+@media (max-width: 991px) { .arrow-text:after { top: 3px; } }
+
+@media (max-width: 479px) { .arrow-text:after { content: url('https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/611fa543a306ddd705f62cb4_pillar-arrow%202.svg'); } }
+
+/* Staking - Standard 
+============================================================================*/
+
+input[type=range].styled-slider {
+	background: #060F8F;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+/*generated with Input range slider CSS style generator (version 20201227)
+https://toughengineer.github.io/demo/slider-styler*/
+input[type=range].styled-slider {
+  height: 10px;
+  -webkit-appearance: none;
+}
+
+/*progress support*/
+input[type=range].styled-slider.slider-progress {
+  --range: calc(var(--max) - var(--min));
+  --ratio: calc((var(--value) - var(--min)) / var(--range));
+  --sx: calc(0.5 * 30px + var(--ratio) * (100% - 30px));
+}
+
+input[type=range].styled-slider:focus {
+  outline: none;
+}
+
+/*webkit*/
+input[type=range].styled-slider::-webkit-slider-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #fff;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  margin-top: calc(10px * 0.5 - 30px * 0.5);
+  -webkit-appearance: none;
+}
+
+input[type=range].styled-slider::-webkit-slider-runnable-track {
+  height: 10px;
+  border-radius: 8px;
+  background: #060F8F;
+  border: none;
+  box-shadow: none;
+}
+input[type=range].styled-slider::-webkit-slider-thumb:hover {
+  background: #fff;
+}
+
+input[type=range].styled-slider:hover::-webkit-slider-runnable-track {
+  background: #060F8F;
+}
+
+input[type=range].styled-slider::-webkit-slider-thumb:active {
+  background: #fff;
+}
+
+input[type=range].styled-slider:active::-webkit-slider-runnable-track {
+  background: #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress::-webkit-slider-runnable-track {
+  background: linear-gradient(#00C389,#00C389) 0/var(--sx) 100% no-repeat, #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress:hover::-webkit-slider-runnable-track {
+  background: linear-gradient(#00C389,#00C389) 0/var(--sx) 100% no-repeat, #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress:active::-webkit-slider-runnable-track {
+  background: linear-gradient(#00C389,#00C389) 0/var(--sx) 100% no-repeat, #060F8F;
+}
+
+/*mozilla*/
+input[type=range].styled-slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #fff;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type=range].styled-slider::-moz-range-track {
+  height: 10px;
+  border-radius: 8px;
+  background: #060F8F;
+  border: none;
+  box-shadow: none;
+}
+
+input[type=range].styled-slider::-moz-range-thumb:hover {
+  background: #fff;
+}
+
+input[type=range].styled-slider:hover::-moz-range-track {
+  background: #060F8F;
+}
+
+input[type=range].styled-slider::-moz-range-thumb:active {
+  background: #fff;
+}
+
+input[type=range].styled-slider:active::-moz-range-track {
+  background: #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress::-moz-range-track {
+  background: linear-gradient(#00C389,#00C389) 0/var(--sx) 100% no-repeat, #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress:hover::-moz-range-track {
+  background: linear-gradient(#00C389,#00C389) 0/var(--sx) 100% no-repeat, #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress:active::-moz-range-track {
+  background: linear-gradient(#00C389,#00C389) 0/var(--sx) 100% no-repeat, #060F8F;
+}
+
+/*ms*/
+input[type=range].styled-slider::-ms-fill-upper {
+  background: transparent;
+  border-color: transparent;
+}
+
+input[type=range].styled-slider::-ms-fill-lower {
+  background: transparent;
+  border-color: transparent;
+}
+
+input[type=range].styled-slider::-ms-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #fff;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+input[type=range].styled-slider::-ms-track {
+  height: 10px;
+  border-radius: 8px;
+  background: #060F8F;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+input[type=range].styled-slider::-ms-thumb:hover {
+  background: #fff;
+}
+
+input[type=range].styled-slider:hover::-ms-track {
+  background: #060F8F;
+}
+
+input[type=range].styled-slider::-ms-thumb:active {
+  background: #fff;
+}
+
+input[type=range].styled-slider:active::-ms-track {
+  background: #060F8F;
+}
+
+input[type=range].styled-slider.slider-progress::-ms-fill-lower {
+  height: 10px;
+  border-radius: 8px 0 0 8px;
+  margin: -undefined 0 -undefined -undefined;
+  background: #00C389;
+  border: none;
+  border-right-width: 0;
+}
+
+input[type=range].styled-slider.slider-progress:hover::-ms-fill-lower {
+  background: #00C389;
+}
+
+input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
+  background: #00C389;
+}
+
+/* Staking - Advanced 
+============================================================================*/
+
+.qtyStake {
+		max-width: 100%;
+		font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 34px;
+    border: 0;
+    background: none;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+}
+
+.qtyValue {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    line-height: 34px;
+    height: 34px;
+    border: 0;
+    background: none;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 50px;
+}
+
+input.qtyplus, input.qtyminus { 
+    text-align: center;
+    width: 25px;
+    height: 34px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) { .qtyStake {  text-align: right; } }
+
+.t_gradient {
+	background: linear-gradient(45deg, #1544F5 0%, #FF07E6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+}
+
+.t_gradient_full {
+	background: radial-gradient(69.97% 8107.74% at 10.48% 154%, #03B797 0%, #1544F5 41.3%, #0C35CF 68.88%, #FF07E6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+}
+
+.t_gradient_blue {
+	background: radial-gradient(81.86% 9330.03% at 11.85% -41.07%, #03B797 0%, #1544F5 52.08%, #0C35CF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+}
+
+.t_gradient_purple {
+  background: linear-gradient(90deg, #FF43CA -4.42%, #052CC0 50.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+}
+
+.home-heading {
+background: linear-gradient(115deg, #21FFBE 0%, #052CC0 23.20%, #FF43CA 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+
+.c-title-span {
+background: linear-gradient(105deg, #052CC0 4.91%, #FF43CA 99.33%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.c-title-span.ror {
+background: var(--new, linear-gradient(90deg, #1FE9BF 0%, #0A4EC0 46.35%, #FF44CB 97.77%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.c-title-span.nav {
+background: linear-gradient(90deg, #FF43C8 3%, #052CC0 76.35%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ror-col {
+background: linear-gradient(90deg, #0E29C0 0%, #00C389 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+
+.dd-clip {background: linear-gradient(17deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.tweettopright {
+	background: radial-gradient(96.43% 8165.58% at 11.85% -41.07%, #03B797 0%, #1544F5 41.3%, #FF07E6 80.7%, #0C35CF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.tweettopleft, .tweetbottom { background: radial-gradient(96.43% 2721.86% at 11.85% 36.31%, #03B797 0%, #1544F5 41.3%, #FF07E6 80.7%, #0C35CF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+transform: rotate(180deg);
+}
+.fstop {
+	background: linear-gradient(269.62deg, rgba(6, 15, 143, 0.567) 11.11%, rgba(5, 44, 192, 0.95) 139.59%);
+	box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.22);
+}
+
+</style></div><div class="w-embed"><style>
+.contents .anchor:first-child .dot-holder .line,
+dl dd:first-child .anchor .dot-holder .line {
+	top: 11px;
+}
+.contents .anchor:last-child .dot-holder .line,
+dl dd:last-child .anchor .dot-holder .line{
+	height: 10px;
+  bottom: auto;
+}
+.active .dot {
+  margin: 5px 0 0 0;
+  width: 16px;
+  height: 16px;
+}
+dd {
+  margin: 0;
+}
+.tag-link::after {
+    position: relative;
+    top: -1px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+.tag-link:hover::after {
+    border-right: 2px solid #003057;
+    border-top: 2px solid #003057;
+}
+.related-link::after {
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #8A8FA4;
+    border-top: 2px solid #8A8FA4;
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+.related-link:hover::after {
+    border-right: 2px solid #003057;
+    border-top: 2px solid #003057;
+}
+
+.view-more::after {
+    position: relative;
+    top: -2px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid  #060F8F;
+    border-top: 2px solid  #060F8F;
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+.view-more:hover::after {
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+figcaption {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+.cta-inner:hover .cta-chevron-box {
+	/* background: #21ffbe;*/
+}
+.cta-inner.faded { 
+transition: background 0.2s ease-in;
+background: linear-gradient(0deg, #21FFBE 0%, #21FFBE 100%);
+}
+
+.cta-inner.faded:hover {
+background: linear-gradient(90deg, #21FFBE 29.32%, #20E4FF 55.96%, #FF43CA 98.95%);
+}
+.free-txt {
+background: linear-gradient(254deg, #00C389 25.02%, #052CC0 47.87%, #CE0D98 69.26%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+</style></div><div id="cookieBox" class="cookiebox hide hidden"><div class="container"><div class="cookieholder"><div class="div-block-102"><p class="text-small">By clicking &quot;Allow All&quot;, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. <a href="/privacy-policy"><strong class="link_white">Cookie Policy</strong></a>.<br/></p></div><div class="div-block-103"><div class="c-flex-inline is_center"><a id="cookieBtn" href="#" class="t_button">Allow All</a></div></div></div></div></div></footer><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6053f7fca5bf627283b582c2" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/js/radix-web.schunk.f2efb3c5440a81cf.js" type="text/javascript" integrity="sha384-VK02VJvMib7ytrF5M2joPWNtDQs366FZgEQ5B+Iwnjx0WBnwQXfootyziSYxdrmS" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/js/radix-web.schunk.dd1fdf2ac6c24a27.js" type="text/javascript" integrity="sha384-7x//+pjPL9EEeHTf+ltLXJEqpVuOXDI9vgj8PEhVby0Vx5+cNLZmZLAlBdgsswcG" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6053f7fca5bf627283b582c2/js/radix-web.3fb04177.e2fd6f2d25b2855c.js" type="text/javascript" integrity="sha384-HwTZ9crz9PTodrbFOuoC5I1XOh18mY4WhbRq3tN5cS6iir3pVXhSaNiekbP3IkJd" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3/dist/js.cookie.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/vaakash/jquery-collapser@master/dist/jquery.collapser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/table-of-contents@master/table-of-contents.js"></script>
+<script>
+  
+/* Staking control
+============================================================*/
+  
+let stakingManual = true; 
+let stakingManualNumber =  3200000000;
+  
+/* Countdown
+============================================================*/
+
+function makeTimer() {
+
+  var endTime = new Date("8 December 2022 18:00:00 GMT");			
+  endTime = (Date.parse(endTime) / 1000);
+
+  var now = new Date();
+  now = (Date.parse(now) / 1000);
+
+  var timeLeft = endTime - now;
+  
+  if(timeLeft > 0) {
+
+    var days = Math.floor(timeLeft / 86400); 
+    var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+    var fullHours = Math.floor(timeLeft / 3600);
+    var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+    var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+
+    if (hours < "10") { hours = "0" + hours; }
+    if (minutes < "10") { minutes = "0" + minutes; }
+    if (seconds < "10") { seconds = "0" + seconds; }
+    
+    $("#radfi-countdown").html(fullHours + ":" + minutes + ":" + seconds);
+    
+  } else {
+    clearInterval(refreshTime);
+  }
+
+}
+  
+var refreshTime = setInterval(function() { makeTimer(); }, 1000);
+  
+/* Global Radfi Overlay
+============================================================*/ 
+  
+// Video overlay play button
+
+  if (!Cookies.get('cookie-radfi-overlay-live')) {
+    
+    $( "#radfi-overlay-close, #radfi-overlay-close-link" ).hide().delay(7000).fadeIn(500);
+
+    $( "#radfi-overlay" ).removeClass( "hide" );
+
+    $( "#radfi-overlay-close, #radfi-overlay-close-link" ).click(function(e) {
+      e.preventDefault();
+      $( "#radfi-overlay" ).fadeOut(1000);
+      Cookies.set('cookie-radfi-overlay-live', true, { expires: 1 });
+      $("html, body").css({"height": "auto", "overflow": "inherit"});
+    });
+
+  } else {
+    $("html, body").css({"height": "auto", "overflow": "inherit"});
+  }
+
+// Cookie Banner
+  
+  if (!Cookies.get('radfi-top-banner-live')) {
+
+    $('#bannerBox').removeClass('hide');
+    $( "#bannerBoxBtn" ).click(function(e) {
+      e.preventDefault();
+      Cookies.set('radfi-top-banner-live', true, { expires: 365 });
+      $('#bannerBox').slideUp("slow");
+    });
+
+  }
+  
+/* Flickity
+============================================================*/ 
+  
+// Container fix
+  var $container = $('.slideholder, .slideholder-labs');
+  var leftOffset = ($(window).width() -  $container.width()) / 2;
+  
+  var $slider = $('.main-slider').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: false,
+    pageDots: false
+  });    
+  
+  var $radfiSlider = $('.radfi-main-slider').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: false
+  });   
+  
+  var $sliderAlt = $('.main-slider-alt').flickity({
+    // options
+    contain: false,
+    prevNextButtons: false,
+    wrapAround: true,
+    pageDots: false
+  });   
+  
+  var $blogSlider = $('.blog-slider').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: true,
+    adaptiveHeight: false,
+    draggable: false,
+    groupCells: true
+  });
+  
+  var $blogSliderSmall = $('.blog-slider-small').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: true,
+    pageDots: false,
+    adaptiveHeight: false,
+    draggable: false,
+    groupCells: true
+  });  
+  
+// hack  
+  Flickity.prototype._createResizeClass = function() {
+     $(this.element).addClass('flickity-resize');
+  };
+
+  Flickity.createMethods.push('_createResizeClass');
+
+  var resize = Flickity.prototype.resize;
+  Flickity.prototype.resize = function() {
+    $('.carousel-cell').removeClass('mh');
+    this.element.classList.remove('flickity-resize');
+    resize.call( this );
+    this.element.classList.add('flickity-resize');
+  }; 
+  
+  $(document).ready(function() {
+    $slider.flickity('resize');
+  });
+
+  
+if ($(".js-slideshow").length) {
+    
+    // Function to handle individual slideshow
+    function initSlideshow(slideshowEl) {
+
+        // Play with this value to change the speed
+        let tickerSpeed = 1;
+        let flickity = null;
+        let isPaused = false;
+      
+         // Clone the slides to double the amount
+          const slides = Array.from(slideshowEl.children);
+          slides.forEach(slide => {
+              const clone = slide.cloneNode(true);
+              slideshowEl.appendChild(clone);
+          });
+
+        // Functions
+
+        const updateCom = () => {
+            if (isPaused) return;
+            if (flickity.slides) {
+                flickity.x = (flickity.x - tickerSpeed) % flickity.slideableWidth;
+                flickity.selectedIndex = flickity.dragEndRestingSelect();
+                flickity.updateSelectedSlide();
+                flickity.settle(flickity.x);
+            }
+            window.requestAnimationFrame(updateCom);
+        };
+
+        const pause = () => {
+            isPaused = true;
+        };
+
+        const play = () => {
+            if (isPaused) {
+                isPaused = false;
+                window.requestAnimationFrame(updateCom);
+            }
+        };
+
+        // Create Flickity
+
+        flickity = new Flickity(slideshowEl, {
+            autoPlay: false,
+            prevNextButtons: false,
+            pageDots: false,
+            draggable: false,
+            wrapAround: true,
+            selectedAttraction: 0.015,
+            friction: 0.25
+        });
+
+        flickity.x = 0;
+
+        // Add Event Listeners
+
+        slideshowEl.addEventListener('mouseenter', pause, false);
+        slideshowEl.addEventListener('focusin', pause, false);
+        slideshowEl.addEventListener('mouseleave', play, false);
+        slideshowEl.addEventListener('focusout', play, false);
+
+        flickity.on('dragStart', () => {
+            isPaused = true;
+        });
+
+        // Start Ticker
+
+        updateCom();
+    }
+
+    // Initialize each slideshow
+    document.querySelectorAll('.js-slideshow').forEach(initSlideshow);
+
+}
+
+  
+/* Modals
+============================================================*/
+
+// Signup
+  
+$('#signup1, #signup2').on('click', function() {
+  // fade in filter layer and modal
+  $('#fsignup').fadeIn(200);
+  $("#modal-signup").fadeIn(200);
+});
+  
+// Switchere Buy
+  
+$(document).ready(function() {
+  var hash = location.hash;
+  if (hash === "#buy-switchere") {
+    // fade in filter layer and modal
+    $('#fsignup').fadeIn(200);
+    $("#modal-buy").fadeIn(200); 
+      $('html, body').animate({
+          scrollTop: $("#Buy-Radix").offset().top
+      }, 3000);
+  }
+
+  $(window).on('hashchange', function() {
+    var hash = location.hash;
+    if (hash === "#buy-switchere") {
+      $('#fsignup').fadeIn(200);
+      $("#modal-buy").fadeIn(200);
+      $('html, body').animate({
+        scrollTop: $("#Buy-Radix").offset().top
+      }, 3000);
+    }
+  });
+});
+  
+$('#btn-buy-modal').on('click', function() {
+  // fade in filter layer and modal
+  $('#fsignup').fadeIn(200);
+  $("#modal-buy").fadeIn(200);
+});
+  
+// Eco
+  
+$(function() {
+  for (i = 1; i < 8; i++) {
+    (function(i) {
+      $('#top' + i).click(function() {
+        // fade in filter layer and modal
+        $('.filter-eco').fadeIn(200);
+        $('#modal-top' + i).fadeIn(200);
+      });
+    })(i);
+  }
+});
+ 
+
+// close modal by clicking the "close" button or background (outside modal)
+$('.modal-close, .filter, .filter-eco').on('click', function() {
+  // fade out filter layer and modal
+  $('.filter, .modal, .filter-eco').fadeOut(200);
+  //$('html, body').css({ overflow: 'auto'});
+});
+  
+
+// Collapser Text
+  
+$('.eventdesc').collapser({
+    mode: 'words',
+    truncate: 42,
+    ellipsis: ' ... ',
+	showText: ' Expand',
+    hideText: ' Collapse',
+    showClass: 'show-class',
+    hideClass: 'hide-class'
+});
+  
+    
+$('.blog-link-title p').collapser({
+    mode: 'words',
+    truncate: 11,
+    ellipsis: '...',
+	showText: ' Expand',
+    hideText: ' Collapse',
+    showClass: 'blog-show-class',
+    hideClass: 'hide-class'
+});
+
+// Blog TOC
+function convertToSlug(Text) {
+  return Text.toLowerCase()
+             .replace(/[^\w ]+/g, '')
+             .replace(/ +/g, '-');
+}
+
+$(function(){
+  var countId = 1
+  $("#content h1,#content h2,#content h3,#content h4").each(function(){
+    var ttl = $(this).text();
+    var lv = this.nodeName.toLowerCase();
+    this.id = convertToSlug($(this).text());
+    countId ++;
+    $("#toc").append('<dd class="lv_'+lv+'"><a class="anchor '+$(this).prop("tagName").toLowerCase()+'" href="#'+this.id+'"><div class="dot-holder"><div class="dot"></div><div class="line"></div></div><div class="anchor-text">'+ttl+'</div></a></dd>');
+  });
+});
+  
+ var addClassOnScroll = function () {
+   var windowTop = $(window).scrollTop();
+   $('#content h1, #content h2, #content h3, #content h4').each(function (index, elem) {
+     var offsetTop = $(elem).offset().top;
+     var outerHeight = $(this).outerHeight(true);
+     
+     //console.log($(elem).attr('id'));
+
+     if( windowTop > (offsetTop - 50) && windowTop < ( offsetTop + outerHeight)) {
+       var elemId = $(elem).attr('id');
+       $("dd a.active").removeClass('active');
+       $("dd a[href='#" + elemId + "']").addClass('active');
+     }
+   });
+ };
+  //bind to scroll
+  $(function () {
+    $(window).on('scroll', function () {
+      addClassOnScroll();
+    });
+  });
+  
+  //initial load
+  function scrollOnPageLoad() {
+    // to top right away
+    if (window.location.hash) scroll(0, 0);
+    // void some browsers issue
+    setTimeout(scroll(0, 0), 1);
+    var hashLink = window.location.hash;
+      if ($(hashLink).length) {
+        $(function () {
+            // *only* if we have anchor on the url
+            // smooth scroll to the anchor id
+            $('html, body').animate({
+              scrollTop: $(window.location.hash).offset().top
+            }, 2000);
+        });
+      }
+  }
+$(document).ready(function() {
+	scrollOnPageLoad();
+});
+  
+// Blog Hover fix
+$(function() {
+  $('.full-blog-link').hover(function() {
+  	$(this).siblings('.blog-inner').find('h4').css({color: '#00ab84', transition: 'color 0.2s'});
+  }, function() {
+    // on mouseout, reset the background colour
+    $(this).siblings('.blog-inner').find('h4').css({color: '#003052', transition: 'color 0.2s'});
+  });
+});
+  
+// open all blog links in new tab
+$('.single-content a').attr('target', '_blank');
+  
+// Rolling Number
+$(document).ready(function(){var start=parseInt($('.rolling-number').data('start'));var end=parseInt($('.rolling-number').data('end'));var duration=6000;var easingFactor=0.03;var animationTriggered=false;function updateNumber(currentValue){var diff=end-currentValue;var delta=diff*easingFactor;var newValue=currentValue+delta;if(newValue<end){if(newValue>=19999){$('.rolling-number').text('20,000');return;}var formattedValue=Math.floor(newValue).toLocaleString();$('.rolling-number').text(formattedValue);requestAnimationFrame(function(){updateNumber(newValue);});}else{var formattedEndValue=end.toLocaleString();$('.rolling-number').text(formattedEndValue);}}function isInViewport(){var elementTop=$('.rolling-number').offset().top;var viewportTop=$(window).scrollTop();var viewportBottom=viewportTop+$(window).height();var elementHeight=$('.rolling-number').outerHeight();var triggerThreshold=elementHeight*0.4;return elementTop<viewportBottom-triggerThreshold;}if(!animationTriggered&&isInViewport()){animationTriggered=true;updateNumber(start);}$(window).on('scroll',function(){if(!animationTriggered&&isInViewport()){animationTriggered=true;updateNumber(start);}});});
+  
+</script>
+<style>
+/* Mailerlite Modifications 
+====================================================================================*/
+.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+  width: 65% !important;
+}
+.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal{
+  width: 35% !important;
+}
+
+#signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+#signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 10px 10px 10px 20px !important;
+  height: 50px !important;
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+  font-size: 19px !important;
+  font-weight: 700;
+  background-color: #F4F5F9 !important;
+}
+  
+#signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+#signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+  border-radius: 12px !important;
+  background: linear-gradient(86.12deg, #060F8F 21.63%, #0535EA 106.69%) !important;
+  height: 50px !important;
+  border: none !important;
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+  font-size: 19px !important;
+  transition: background 0.4s ease;
+}
+
+#signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover,
+#signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
+  background: linear-gradient(86.12deg, #0535EA 21.63%, #0535EA 106.69%) !important;
+}
+  
+.ml-form ::-webkit-input-placeholder { color: #8A8FA4 !important;}
+.ml-form :-ms-input-placeholder{ color: #8A8FA4 !important; }
+.ml-form ::placeholder { color: #8A8FA4 !important; }
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent {
+  display: none !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm { 
+  padding: 0 !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, 
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+  padding: 0 !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper {
+  background: #fff !important;
+  padding: 6px 6px !important;
+  border-radius: 12px !important;
+  border: 0px solid #E2E5ED !important;
+}
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+  padding: 5px !important;
+  margin: 0 !important;
+}
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+  text-align: center !important; 
+  margin-top: 0 !important; 
+  margin-bottom: 0 !important; 
+  font-size: 18px !important; 
+  line-height: 26px !important; 
+  font-weight: 700 !important; 
+  color: #003057 !important; 
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+}
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  text-align: center !important; 
+  font-family: 'IBM Plex Sans',sans-serif  !important;
+}
+  
+@media only screen and (max-width: 540px) {
+  #signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+  #signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+  #signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input,
+  #signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input
+  #signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+    font-size: 14px !important;
+  }
+
+  #signup-1 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-2 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-3 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-4 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button,
+  #signup-5 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .ml-mobileButton-horizontal {
+    margin-bottom:0 !important;
+  }
+  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+    width: 100% !important;
+  }
+  .ml-form-embedContainer .ml-form-embedWrapper {
+  background: #fff !important;
+  padding: 5px !important;
+   border-radius: 12px !important;*/
+  border: 0 solid #E2E5ED !important;*/
+	}
+  .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+      padding: 0 !important;
+  }
+  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div {
+    margin: 0 !important;
+  }
+  #signup-1 .ml-mobileButton-horizontal button,
+  #signup-2 .ml-mobileButton-horizontal button,
+  #signup-3 .ml-mobileButton-horizontal button,
+  #signup-4 .ml-mobileButton-horizontal button {
+    border-radius: 12px !important;
+    background: linear-gradient(86.12deg, #060F8F 21.63%, #0535EA 106.69%) !important;
+    height: 50px !important;
+    border: none !important;
+    font-family: 'IBM Plex Sans',sans-serif  !important;
+  }
+  .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+    border: 2px solid #E2E5ED !important;
+  }
+  .ml-form {
+    min-height: 126px !important;
+  }
+}
+</style>
+<!-- OneTrust Cookies Consent Notice start for radixdlt.com -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/dad9f07c-a06a-4dd5-b3b9-a0c59235870b/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="dad9f07c-a06a-4dd5-b3b9-a0c59235870b" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for radixdlt.com --></body></html>
