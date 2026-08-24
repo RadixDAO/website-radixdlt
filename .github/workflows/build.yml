@@ -55,5 +55,11 @@ jobs:
       - name: No Astro styling artifacts
         run: node tools/test-astro-artifacts.mjs
 
+      # Whitespace between inline elements is rendered as a space. Astro's compiler
+      # collapses whitespace, so nativised templates can silently close up gaps the
+      # design depends on -- invisible to verify.mjs, which normalises whitespace away.
+      - name: Inline whitespace preserved
+        run: node tools/test-inline-whitespace.mjs
+
       - name: Link check
         run: node tools/check-links.mjs
