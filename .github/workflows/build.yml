@@ -61,5 +61,12 @@ jobs:
       - name: Inline whitespace preserved
         run: node tools/test-inline-whitespace.mjs
 
+      # <head> parity. verify.mjs compares <body> ONLY, so nothing checked <head> until
+      # now -- which is how 1,109 wrong canonicals and ~648 pages of lost social meta
+      # survived a "1,194/1,202 exact" verification. Baseline records known-bad counts;
+      # they may only go down.
+      - name: Head parity
+        run: node tools/test-head-parity.mjs
+
       - name: Link check
         run: node tools/check-links.mjs

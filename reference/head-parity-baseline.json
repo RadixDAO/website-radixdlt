@@ -1,0 +1,15 @@
+{
+ "canonicalMismatched": 1109,
+ "missingTags": {
+  "meta:description": 648,
+  "meta:og:title": 643,
+  "meta:og:description": 643,
+  "meta:og:image": 632,
+  "meta:twitter:title": 643,
+  "meta:twitter:description": 643,
+  "meta:twitter:image": 632,
+  "meta:og:type": 643,
+  "meta:twitter:card": 643,
+  "link:alternate": 618
+ }
+}
