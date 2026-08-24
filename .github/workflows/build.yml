@@ -1,0 +1,53 @@
+# The only real proof that this repo is machine-independent.
+#
+# Everything the build needs is committed -- the Webflow export, the shells, the CDN
+# asset mirror, the live-site oracle -- so this job clones and builds with no external
+# inputs, no secrets and no env setup. If it ever needs something added here to pass,
+# that thing has escaped the repo and the durability property is gone.
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # depth 1: the working tree is ~1.1 GB (913 MB of it the CDN asset mirror, which
+      # dist/ ships verbatim and the byte gate covers). Full history would add ~1.2 GB
+      # for no benefit here.
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # Recreates public/{css,js,fonts,images,videos,documents} from the committed
+      # export. These are derived, so they are gitignored rather than stored twice.
+      - name: Restore derived assets
+        run: node tools/copy-static-assets.mjs
+
+      - run: pnpm build
+
+      # Byte gate: dist/ must match reference/dist-golden.json exactly. Pagefind's index
+      # is excluded (machine-dependent shard hashing) but asserted present -- see
+      # tools/lib/dist-hash.mjs for the measurement behind that exclusion.
+      - name: Byte gate
+        run: node tools/diff-dist.mjs
+
+      # Fidelity against the 1,209-page snapshot of the live Webflow site.
+      - name: Verify against live snapshot
+        run: node tools/verify.mjs
+
+      - name: Chrome invariants
+        run: node tools/test-mark-current.mjs
+
+      - name: Link check
+        run: node tools/check-links.mjs
