@@ -230,17 +230,68 @@ props: `title`, `description`, OG/Twitter tags, `data-wf-page`, `data-wf-site`, 
 page-local `<style>`/`<script>`. Shells keep only their unique head fragment.
 
 ### 2.2 — `<SiteNav variant currentPath>`
-Commit the 6 canonical blocks as `src/chrome/nav.{main,blog,compact,wallet-test,radfi,learn}.html`.
-The component splices the block through `set:html` — *never* re-serialised — and applies
-current-page marking with an offset-based rewrite, matching Webflow's rule: on each
-`<a>` whose href resolves to `currentPath`, insert `aria-current="page"` immediately
-before `class=` and append ` w--current` to the class list. Add `tools/lib/mark-current.mjs`
-for that single transform, with a unit test over all 41 nav-bearing pages.
 
-Remove the nav block from every shell; it now comes from the component.
+**Measured against all 1,202 built pages, not the export.** Two corrections to the
+original plan, both found before delegating:
+
+*The nav is not one block in the shells.* It contains two CMS-driven
+`navigation-featured-section` dropdowns, and `convert-pages.mjs` splits every body at
+top-level `w-dyn-list` boundaries — so on `index` the nav spans
+`body.0 -> list.0 -> body.1 -> list.1 -> body.2`, opening 49 `<div>`s and closing 40.
+
+*But the rendered nav is constant per variant.* Six pages sharing the main variant
+produce six different raw hashes and one identical hash after removing
+`aria-current="page"` and ` w--current`. The CMS dropdowns render the same bytes on
+every page. So the component targets the rendered block, and the chunk split is an
+implementation detail of removing it from the shells.
+
+| Variant | Pages | Size | Example |
+|---|---|---|---|
+| `3991945d` | 646 | 8,708 B | blog / blog-author / all-recent-posts |
+| `d117587c` | 218 | 700 B | articles-learn |
+| `9396e6e1` | 38 | 3,461 B | radix-opp-statuses |
+| `718c32da` | 31 | 39,217 B | index, wallet, token, whitepapers |
+| `fa30e5b4` | 17 | 10,308 B | 404, careers |
+| `4f667650` | 7 | 5,714 B | developers/* |
+| `c438b914` | 1 | 2,091 B | radfi |
+| *(none)* | 244 | — | 401, developers/home |
+
+Current-page marking, the only within-variant difference, follows one rule: on each
+`<a>` whose href resolves to the current path, insert `aria-current="page"` immediately
+before `class=` and append ` w--current` to the class list. Put that single transform in
+`tools/lib/mark-current.mjs` with a test over every nav-bearing page.
+
+**Unlike 2.1, this cannot skip the detail pipeline.** 902 of the 958 nav-bearing pages
+render through `DetailPage.astro`, not `WebflowPage.astro`.
+
+**Deliberate deviation to record:** hoisting the nav freezes its two CMS dropdown slots
+into static markup. Today that changes nothing — `PHASE-5-STATUS.md` documents that
+those 48 slots never resolved from CMS and already render as the exported shell — and
+Webflow is being decommissioned, so the collection is frozen regardless. It is still a
+semantic change that the byte gate cannot see, so it belongs in the deviations list
+rather than passing silently.
 
 ### 2.3 — `<SiteFooter variant currentPath>`
-Same shape, 4 variants, same `mark-current` helper.
+
+Same shape, same `mark-current` helper. Measured across all 1,202 pages:
+
+| Variant | Pages | Size | Example |
+|---|---|---|---|
+| `b47b79e5` | 693 | 22,672 B | the main footer |
+| `19420053` | 218 | 6,760 B | articles-learn |
+| `6e6e1077` | 38 | 11,339 B | radix-opp-statuses |
+| `0e56a016` | 8 | 12,321 B | developers/* |
+| `e390fa45` | 1 | 24,325 B | labs |
+| `20f93856` | 1 | 22,742 B | privacy-policy |
+| *(none)* | 243 | — | 401, events/* |
+
+### 2.1b — the detail-template heads (added after 2.1)
+
+2.1 hoisted the head for the 49 `WebflowPage` routes and deliberately left the 21
+`src/shells/_detail/*` templates alone: they render through `DetailPage.astro` and
+`render-detail.mjs`, which does per-item regex title substitution at runtime. Those 21
+templates produce roughly 1,153 of the 1,202 built pages, so editing the head is now a
+22-place job rather than 70 — real progress, but not the goal. Fold them in.
 
 ### 2.4 — Shells become page content
 After 2.1–2.3 a shell holds only the page's own body. Rename `src/shells/` →
