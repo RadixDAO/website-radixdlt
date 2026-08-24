@@ -1,0 +1,44 @@
+---
+// Shared detail template for the eight CMS collections whose detail routes bind
+// NOTHING (REBUILD-PLAN.md Phase 4 step 3, shape 923a59d8, 197 pages): events,
+// team-member, tweets, radix-services, full-stack-social-comments,
+// project-categories, partners, faqs.
+//
+// src/bindings/<collection>.json is `{ "head": [], "slots": [] }` for all eight --
+// derive-bindings.mjs found zero fields anywhere in the shell that vary by item.
+// reference/live confirms it: every page in these collections renders the exact
+// same <body> (a script/style bundle, no visible markup at all -- these are
+// orphaned Webflow CMS templates, live but content-less) under a literal
+// `<title>Radix</title>`, differing only in the URL slug. Diffed byte-for-byte
+// across all 8 collections' shells before writing this: body.html identical,
+// head.html identical except the `rel="canonical"` link's `detail_<collection>`
+// slug. So there is no per-item data resolution to do here -- the "per-collection
+// data resolution" this component takes is just the two literal constants that
+// vary *per collection* (not per item): the Webflow page id, and which head.html
+// tail to splice in for the canonical link.
+//
+// The body content (bodyTail below) is spliced with set:html, same principle as
+// blog/articles-learn's scriptsTail: it is a Webflow-authored script+style bundle,
+// including one inline <style> block. Injecting it as a raw string rather than
+// literal Astro <script>/<style> tags means Astro's compiler never touches it --
+// no bundling into dist/_astro/, no data-astro-cid scoping. See REBUILD-PLAN.md's
+// "the trap" and commit bdb7345 (blog's dead-carousel-highlight bug): the same
+// failure mode is possible here in principle (this file also has an inline
+// <style>), avoided the same way blog now avoids it.
+import { readFileSync } from 'node:fs';
+import SiteHead from '../site/SiteHead.astro';
+
+interface Props {
+  collection: string;
+  wfPageId: string;
+}
+const { collection, wfPageId } = Astro.props;
+
+const headTail = readFileSync(`src/shells/_detail/${collection}/head.html`, 'utf8');
+const bodyTail = readFileSync('src/components/detail-shared/detail-scripts.html', 'utf8');
+---
+<!doctype html>
+<html data-wf-page={wfPageId} data-wf-site="6053f7fca5bf627283b582c2" lang="en">
+  <head><SiteHead title="Radix" tail={headTail} /></head>
+  <body><Fragment set:html={bodyTail} /></body>
+</html>
