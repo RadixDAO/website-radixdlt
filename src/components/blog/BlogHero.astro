@@ -1,0 +1,91 @@
+---
+// The blog detail template's hero block -- div.c-section.is-blog-single.
+//
+// Markup derived from src/shells/_detail/blog/body.html and cross-checked against
+// dist/blog/*.html (see REBUILD-PLAN.md Phase 4). Two identical category-pill lists
+// are rendered from the same `categories` data: the visible one (`w-dyn-list`) and a
+// hidden duplicate (`dnone w-dyn-list`, items wrapper class `coll-list-nest`) that
+// Webflow's own shell already carries twice -- not a mistake to fix, a fact to keep.
+//
+// `w-dyn-empty` / `hide-empty w-dyn-empty` branches, the `w-dyn-bind-empty` class
+// toggle, and the `background-image:none` fallback all reproduce what
+// src/lib/render-detail.mjs and src/lib/render-list.mjs already proved matches live.
+import { dynClass, bgStyle, type CategoryRef } from '../../lib/blog-detail';
+
+interface Props {
+  title: string;
+  dateText: string;
+  imageUrl: string;
+  categories: CategoryRef[];
+}
+
+const { title, dateText, imageUrl, categories } = Astro.props;
+---
+<div class="c-section is-blog-single">
+  <div class="main-content">
+    <div class="container">
+      <div class="blog-hero-wrapper">
+        <div class="blog-page-holder">
+          <div class="blog-bc">
+            <a href="/blog" class="blog-link">Blog home</a>
+          </div>
+          <div class="bm-20">
+            <div class="w-dyn-list">
+              {categories.length > 0 ? (
+                <div role="list" class="w-dyn-items">
+                  {categories.map((c) => (
+                    <div role="listitem" class="collection-item-3 w-dyn-item">
+                      <a href={`/blog-category/${c.slug}`} class="w-inline-block">
+                        <div class="cbfs-tag">{c.name}</div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div class="hide-empty w-dyn-empty">
+                  <div>No items found.</div>
+                </div>
+              )}
+            </div>
+            <div class="dnone w-dyn-list">
+              {categories.length > 0 ? (
+                <div role="list" class="coll-list-nest w-dyn-items">
+                  {categories.map((c) => (
+                    <div role="listitem" class="collection-item-3 w-dyn-item">
+                      <a href={`/blog-category/${c.slug}`} class="w-inline-block">
+                        <div class="cbfs-tag">{c.name}</div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div class="hide-empty w-dyn-empty">
+                  <div>No items found.</div>
+                </div>
+              )}
+            </div>
+          </div>
+          <div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f73e-8a57d94b" class="blog-single-img-holder">
+            <div class="blog-single-img-inner" style={bgStyle(imageUrl)}></div>
+          </div>
+          <div class="bm-20">
+            <h2 class={dynClass('', !!title)}>{title}</h2>
+          </div>
+          <div class={dynClass('', !!dateText)}>{dateText}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-blog-bg left">
+    <div class="bottom-triangle">
+      <img
+        src="/images/traingle-hero-white.webp"
+        loading="lazy"
+        sizes="(max-width: 4096px) 100vw, 4096px"
+        srcset="/images/traingle-hero-white-p-500.png 500w, /images/traingle-hero-white-p-800.png 800w, /images/traingle-hero-white-p-1080.png 1080w, /images/traingle-hero-white-p-2600.png 2600w, /images/traingle-hero-white-p-3200.png 3200w, /images/traingle-hero-white.webp 4096w"
+        alt=""
+        class="blog-triangle left"
+      />
+    </div>
+  </div>
+</div>
