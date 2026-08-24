@@ -1,0 +1,84 @@
+---
+// The radix-opp-statuses detail template's one top-level block -- div.c-section-2
+// (REBUILD-PLAN.md Phase 4 taxonomy shape b7e01466, 36 pages, no banner-wrap: unlike
+// blog/careers this collection's shell has no banner-wrap div before the nav slot --
+// confirmed against src/shells/_detail/radix-opp-statuses/body.html and dist/
+// radix-opp-statuses/*.html, both start the body straight at the nav).
+//
+// Markup derived from src/shells/_detail/radix-opp-statuses/body.html and
+// cross-checked against dist/radix-opp-statuses/*.html and reference/live/
+// radix-opp-statuses/*.html.
+//
+// `.status-cap-3`'s own "closed" class and the warning-icon <img> are literal, not
+// bound: src/bindings/radix-opp-statuses.json has no slot for either, and grepping
+// reference/live/radix-opp-statuses/*.html confirms both are identical across all 36
+// live pages (the field data that would vary them -- "status" Open/Closed, "severity"
+// Low/Medium/High -- only diverges on the 5 draft/archived items Webflow never
+// published, so the *live* set never rendered anything else).
+import { dynClass, statusName, type ServiceRef } from '../../lib/radix-opp-statuses-detail';
+
+interface Props {
+  title: string;
+  services: ServiceRef[];
+  dateReportedText: string;
+  lastUpdateText: string;
+  status: string;
+  contentHtml: string;
+}
+
+const { title, services, dateReportedText, lastUpdateText, status, contentHtml } = Astro.props;
+const statusText = statusName(status);
+---
+<div class="c-section-2">
+  <div class="container-2 is-small">
+    <div class="c-title-main">
+      <div>
+        <h4>
+          <a href="/status/current-issues">Radix Operations Status</a>
+        </h4>
+      </div>
+      <h1 class={dynClass('', !!title)}>{title}</h1>
+    </div>
+    <div class="status-cap-3 closed">
+      <div class="bm-20-copy"><img loading="lazy" src="/assets/614a0c53de544d060d43ec73_status-warning-blue.svg" alt="" class="image-19" />
+        <div class="w-dyn-list">
+          <div role="list" class="collection-list w-dyn-items">
+            {services.map((s) => (
+              <div role="listitem" class="w-dyn-item">
+                <div class={dynClass('badge-3', !!s.name)}>{s.name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div class="bm-20">
+        <div class="status-date-2">
+          <div class="text-small date">Date Reported:</div>
+          <div class="c-date-time">
+            <div class={dynClass('text-small inline', !!dateReportedText)}>{dateReportedText}</div>
+            <div class="text-small">(UTC)</div>
+          </div>
+        </div>
+        <div class="status-date-2">
+          <div class="text-small date">Last Update:</div>
+          <div class="c-date-time">
+            <div class={dynClass('text-small inline', !!lastUpdateText)}>{lastUpdateText}</div>
+            <div class="text-small inline">(UTC)</div>
+          </div>
+        </div>
+        <div class="status-date-2">
+          <div class="text-small date">Status:</div>
+          <div class="c-date-time">
+            <div class={dynClass('text-small inline', !!statusText)}>{statusText}</div>
+          </div>
+        </div>
+      </div>
+      <div class="c-issue-desc">
+        <div class={dynClass('c-status-rt w-richtext', !!contentHtml)} set:html={contentHtml} />
+      </div>
+      <div class="status-bar-holder">
+        <div class="status-bar-5"></div>
+      </div>
+    </div>
+  </div>
+</div>
