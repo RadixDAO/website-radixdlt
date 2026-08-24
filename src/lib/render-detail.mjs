@@ -222,14 +222,18 @@ function refCollectionFor(collection, field) {
   return field;
 }
 
-export function renderHead(shellHead, collection, item) {
+// Resolve this item's <title>, when the collection binds one (see
+// src/bindings/<collection>.json's `head` array). Returns null when the
+// collection has no title binding, in which case the caller should fall back
+// to the shell's own literal title (src/shells/_detail/manifest.json's
+// per-collection `head.title`, extracted by tools/split-detail-head.mjs) --
+// same shape SiteHead.astro already takes from the static WebflowPage
+// pipeline (see REBUILD-PLAN.md Task 2.1b).
+export function resolveHeadTitle(collection, item) {
   const map = bindings(collection);
-  if (!map?.head?.length) return shellHead;
-  let out = shellHead;
-  for (const h of map.head) {
-    const value = resolve(item, h);
-    const filled = (h.pattern ?? '{}').replace('{}', value);
-    if (h.target === 'title') out = out.replace(/<title>[\s\S]*?<\/title>/i, `<title>${esc(filled)}</title>`);
-  }
-  return out;
+  const h = map?.head?.find((x) => x.target === 'title');
+  if (!h) return null;
+  const value = resolve(item, h, collection);
+  const filled = (h.pattern ?? '{}').replace('{}', value);
+  return esc(filled);
 }

@@ -3,8 +3,9 @@
 // injected with set:html so Astro never parses Webflow markup.
 import { readFileSync } from 'node:fs';
 import manifest from '../shells/_detail/manifest.json';
-import { renderBody, renderHead, renderNestedLists } from '../lib/render-detail.mjs';
+import { renderBody, renderNestedLists, resolveHeadTitle } from '../lib/render-detail.mjs';
 import { markCurrent } from '../../tools/lib/mark-current.mjs';
+import SiteHead from '../components/site/SiteHead.astro';
 import SiteFooter from '../components/site/SiteFooter.astro';
 
 interface Props { collection: string; item: any }
@@ -14,7 +15,14 @@ const meta = (manifest as Record<string, any>)[collection];
 if (!meta) throw new Error(`No detail shell for "${collection}". Run: node tools/convert-detail-templates.mjs`);
 
 const dir = `src/shells/_detail/${collection}`;
-const head = renderHead(readFileSync(`${dir}/head.html`, 'utf8'), collection, item);
+// See REBUILD-PLAN.md Task 2.1b: title is the one field that can vary per CMS
+// item at RENDER time (src/bindings/<collection>.json), so it's resolved here
+// rather than baked into the manifest's `head` object like the rest of the SEO
+// subset (which -- same as the shell's own pre-hoist markup -- is static per
+// collection, not per item; see resolveHeadTitle's doc comment).
+const headProps = { ...(meta.head ?? {}) };
+headProps.title = resolveHeadTitle(collection, item) ?? headProps.title;
+const headTail = readFileSync(`${dir}/head.html`, 'utf8');
 let body = renderBody(readFileSync(`${dir}/body.html`, 'utf8'), collection, item);
 body = renderNestedLists(body, collection, item.fieldData.slug);
 
@@ -41,6 +49,6 @@ const parseAttrs = (s: string): Record<string, string> =>
 ---
 <!doctype html>
 <html {...parseAttrs(meta.htmlAttrs ?? '')}>
-  <head><Fragment set:html={head} /></head>
+  <head><SiteHead {...headProps} tail={headTail} /></head>
   <body {...parseAttrs(meta.bodyAttrs ?? '')}><Fragment set:html={body} /></body>
 </html>
