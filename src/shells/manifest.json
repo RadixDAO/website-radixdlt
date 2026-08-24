@@ -10,7 +10,12 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Protected page",
+   "ogTitle": "Protected page",
+   "twitterTitle": "Protected page"
+  }
  },
  "404": {
   "route": "404",
@@ -23,7 +28,12 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Not Found",
+   "ogTitle": "Not Found",
+   "twitterTitle": "Not Found"
+  }
  },
  "a-game-changer-for-building-defi": {
   "route": "a-game-changer-for-building-defi",
@@ -54,7 +64,17 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "A Game Changer for Building DeFi | Radix DLT - Decentralized Ledger Technology",
+   "description": "Introducing Scrypto: a smart contract language that gives developers an unfair advantage in DeFi.",
+   "ogTitle": "A Game Changer for Building DeFi | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "Introducing Scrypto: a smart contract language that gives developers an unfair advantage in DeFi.",
+   "twitterTitle": "A Game Changer for Building DeFi | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "Introducing Scrypto: a smart contract language that gives developers an unfair advantage in DeFi.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "all-recent-posts": {
   "route": "all-recent-posts",
@@ -85,7 +105,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "All recent posts | Radix DLT",
+   "description": "All recent posts from the Radix blog. Radix is an open-source, public, decentralised ledger. Built to provide unlimited scale.",
+   "ogTitle": "All recent posts | Radix DLT",
+   "ogDescription": "All recent posts from the Radix blog. Radix is an open-source, public, decentralised ledger. Built to provide unlimited scale.",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "All recent posts | Radix DLT",
+   "twitterDescription": "All recent posts from the Radix blog. Radix is an open-source, public, decentralised ledger. Built to provide unlimited scale.",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "blog": {
   "route": "blog",
@@ -170,7 +202,19 @@
     "kind": "html",
     "file": "body.8.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "The Radix Blog | Radix DLT",
+   "description": "The Radix blog. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.",
+   "ogTitle": "The Radix Blog | Radix DLT",
+   "ogDescription": "The Radix blog. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "The Radix Blog | Radix DLT",
+   "twitterDescription": "The Radix blog. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "complaints-procedure": {
   "route": "complaints-procedure",
@@ -201,7 +245,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix DLT | Complaints Procedure",
+   "description": "A decentralized network where developers will build quickly without security risks, where code contributors get rewarded, and where scale is never a bottleneck.",
+   "ogTitle": "Radix DLT | Complaints Procedure",
+   "ogDescription": "A decentralized network where developers will build quickly without security risks, where code contributors get rewarded, and where scale is never a bottleneck.",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Radix DLT | Complaints Procedure",
+   "twitterDescription": "A decentralized network where developers will build quickly without security risks, where code contributors get rewarded, and where scale is never a bottleneck.",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "data-breach-march-2022": {
   "route": "data-breach-march-2022",
@@ -232,7 +288,14 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Data Breach March 2022 | Radix DLT - Decentralized Ledger Technology",
+   "ogTitle": "Data Breach March 2022 | Radix DLT - Decentralized Ledger Technology",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Data Breach March 2022 | Radix DLT - Decentralized Ledger Technology",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
+  }
  },
  "developers/devprogram": {
   "route": "developers/devprogram",
@@ -245,7 +308,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - Developer Program",
+   "description": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
+   "ogTitle": "Radix - Developer Program",
+   "ogDescription": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
+   "twitterTitle": "Radix - Developer Program",
+   "twitterDescription": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/ecosystem": {
   "route": "developers/ecosystem",
@@ -357,7 +430,17 @@
     "kind": "html",
     "file": "body.11.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - DeFi Ecosystem",
+   "description": "The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
+   "ogTitle": "Radix - DeFi Ecosystem",
+   "ogDescription": "The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
+   "twitterTitle": "Radix - DeFi Ecosystem",
+   "twitterDescription": "The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/grants": {
   "route": "developers/grants",
@@ -370,7 +453,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Grants Program",
+   "description": "Providing support to projects building on the Radix Network",
+   "ogTitle": "Grants Program",
+   "ogDescription": "Providing support to projects building on the Radix Network",
+   "twitterTitle": "Grants Program",
+   "twitterDescription": "Providing support to projects building on the Radix Network",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/home": {
   "route": "developers/home",
@@ -455,7 +548,17 @@
     "kind": "html",
     "file": "body.8.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - Developer Hub",
+   "description": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogTitle": "Radix - Developer Hub",
+   "ogDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "twitterTitle": "Radix - Developer Hub",
+   "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/lp/build-with-scrypto": {
   "route": "developers/lp/build-with-scrypto",
@@ -468,7 +571,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - Developer Hub",
+   "description": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogTitle": "Radix - Developer Hub",
+   "ogDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "twitterTitle": "Radix - Developer Hub",
+   "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/lp/scrypto-vs-solidity": {
   "route": "developers/lp/scrypto-vs-solidity",
@@ -481,7 +594,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - Developer Hub",
+   "description": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogTitle": "Radix - Developer Hub",
+   "ogDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "twitterTitle": "Radix - Developer Hub",
+   "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/lp/scrypto-web3": {
   "route": "developers/lp/scrypto-web3",
@@ -494,7 +617,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - Developer Hub",
+   "description": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogTitle": "Radix - Developer Hub",
+   "ogDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "twitterTitle": "Radix - Developer Hub",
+   "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/sign-up": {
   "route": "developers/sign-up",
@@ -507,7 +640,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - Developer Program - Signup Form",
+   "description": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
+   "ogTitle": "Radix - Developer Program - Signup Form",
+   "ogDescription": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
+   "twitterTitle": "Radix - Developer Program - Signup Form",
+   "twitterDescription": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "developers/submit-blueprint": {
   "route": "developers/submit-blueprint",
@@ -520,7 +663,17 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix - DeFi Ecosystem - Submit Blueprint",
+   "description": "Submit your Blueprint. The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
+   "ogTitle": "Radix - DeFi Ecosystem - Submit Blueprint",
+   "ogDescription": "Submit your Blueprint. The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
+   "twitterTitle": "Radix - DeFi Ecosystem - Submit Blueprint",
+   "twitterDescription": "Submit your Blueprint. The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "ecosystem-directory": {
   "route": "ecosystem-directory",
@@ -587,7 +740,19 @@
     "kind": "html",
     "file": "body.6.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix Ecosystem Directory",
+   "description": "Discover the Radix Ecosystem Directory, featuring a comprehensive list of Radix projects. Explore the growing ecosystem and find innovative projects powered by Radix.",
+   "ogTitle": "Radix Ecosystem Directory",
+   "ogDescription": "Discover the Radix Ecosystem Directory, featuring a comprehensive list of Radix projects. Explore the growing ecosystem and find innovative projects powered by Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/66e17ec59a12f4c1d299655c_OPENGRAPH-Ecosystem-Directory.png",
+   "twitterTitle": "Radix Ecosystem Directory",
+   "twitterDescription": "Discover the Radix Ecosystem Directory, featuring a comprehensive list of Radix projects. Explore the growing ecosystem and find innovative projects powered by Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/66e17ec59a12f4c1d299655c_OPENGRAPH-Ecosystem-Directory.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "ecosystem": {
   "route": "ecosystem",
@@ -618,7 +783,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "The Radix Ecosystem | dApps that anyone can use",
+   "description": "Dive into the best user and developer experience in Web3. Exclusively possible on Radix.",
+   "ogTitle": "The Radix Ecosystem | dApps that anyone can use",
+   "ogDescription": "Dive into the best user and developer experience in Web3. Exclusively possible on Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/6511d286a75e5058630c6197_OPENGRAPH-eco.png",
+   "twitterTitle": "The Radix Ecosystem | dApps that anyone can use",
+   "twitterDescription": "Dive into the best user and developer experience in Web3. Exclusively possible on Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/6511d286a75e5058630c6197_OPENGRAPH-eco.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "full-stack": {
   "route": "full-stack",
@@ -658,7 +835,19 @@
     "kind": "html",
     "file": "body.3.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix: The Full stack for Defi",
+   "description": "Radix is a highly optimized full stack for DeFi that provides the radically better user and developer experience needed for the mass adoption of Web3 and DeFi.",
+   "ogTitle": "Radix: The Full stack for Defi",
+   "ogDescription": "Radix is a highly optimized full stack for DeFi that provides the radically better user and developer experience needed for the mass adoption of Web3 and DeFi.",
+   "ogImage": "https://www.radixdlt.com/assets/6476241f09a553b6dfacd8cc_Full-Stack-URL_Sharing-2.png",
+   "twitterTitle": "Radix: The Full stack for Defi",
+   "twitterDescription": "Radix is a highly optimized full stack for DeFi that provides the radically better user and developer experience needed for the mass adoption of Web3 and DeFi.",
+   "twitterImage": "https://www.radixdlt.com/assets/6476241f09a553b6dfacd8cc_Full-Stack-URL_Sharing-2.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "index": {
   "route": "index",
@@ -707,7 +896,19 @@
     "kind": "html",
     "file": "body.4.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix DLT | Radically Better Web3",
+   "description": "A decentralized network with the radically better user &amp; developer experience needed for everyone to confidently use Web3 &amp; DeFi.",
+   "ogTitle": "Radix DLT | Radically Better Web3",
+   "ogDescription": "A decentralized network with the radically better user &amp; developer experience needed for everyone to confidently use Web3 &amp; DeFi.",
+   "ogImage": "https://www.radixdlt.com/assets/671f6bde046afdebc5f2c15a_OPENGRAPH-1.png",
+   "twitterTitle": "Radix DLT | Radically Better Web3",
+   "twitterDescription": "A decentralized network with the radically better user &amp; developer experience needed for everyone to confidently use Web3 &amp; DeFi.",
+   "twitterImage": "https://www.radixdlt.com/assets/671f6bde046afdebc5f2c15a_OPENGRAPH-1.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "labs": {
   "route": "labs",
@@ -765,7 +966,12 @@
     "kind": "html",
     "file": "body.5.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Labs",
+   "ogTitle": "Labs",
+   "twitterTitle": "Labs"
+  }
  },
  "learn/knowledge-base": {
   "route": "learn/knowledge-base",
@@ -814,7 +1020,17 @@
     "kind": "html",
     "file": "body.4.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "The Radix Knowledge Base",
+   "description": "Learn more about how Radix works and how to use our growing ecosystem of tools and products.",
+   "ogTitle": "The Radix Knowledge Base",
+   "ogDescription": "Learn more about how Radix works and how to use our growing ecosystem of tools and products.",
+   "twitterTitle": "The Radix Knowledge Base",
+   "twitterDescription": "Learn more about how Radix works and how to use our growing ecosystem of tools and products.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "lp/brave/brave-landing": {
   "route": "lp/brave/brave-landing",
@@ -836,7 +1052,19 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Decentralizing Global Finance: The $400 Trillion Opportunity",
+   "description": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "ogTitle": "Decentralizing Global Finance: The $400 Trillion Opportunity",
+   "ogDescription": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "ogImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
+   "twitterTitle": "Decentralizing Global Finance: The $400 Trillion Opportunity",
+   "twitterDescription": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "twitterImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "lp/brave/discover-report": {
   "route": "lp/brave/discover-report",
@@ -858,7 +1086,19 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Discover-ebook",
+   "description": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "ogTitle": "Discover-ebook",
+   "ogDescription": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "ogImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
+   "twitterTitle": "Discover-ebook",
+   "twitterDescription": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "twitterImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "lp/brave/discover": {
   "route": "lp/brave/discover",
@@ -880,7 +1120,19 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Discover",
+   "description": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "ogTitle": "Discover",
+   "ogDescription": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "ogImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
+   "twitterTitle": "Discover",
+   "twitterDescription": "Web 3 Fintech is inevitable. The only question: how will it be powered? Radix is the only Layer-1 protocol intentionally designed to meet the needs of billions of users and trillions worth of assets.",
+   "twitterImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "lp/ebooks/web3report-brave": {
   "route": "lp/ebooks/web3report-brave",
@@ -893,7 +1145,12 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "eBook Landing Brave",
+   "ogTitle": "eBook Landing Brave",
+   "twitterTitle": "eBook Landing Brave"
+  }
  },
  "lp/ebooks/web3report": {
   "route": "lp/ebooks/web3report",
@@ -906,7 +1163,12 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix Web 3 Report",
+   "ogTitle": "Radix Web 3 Report",
+   "twitterTitle": "Radix Web 3 Report"
+  }
  },
  "notices/updates": {
   "route": "notices/updates",
@@ -946,7 +1208,12 @@
     "kind": "html",
     "file": "body.3.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Notices - Updates | Radix DLT - Decentralized Ledger Technology",
+   "ogTitle": "Notices - Updates | Radix DLT - Decentralized Ledger Technology",
+   "twitterTitle": "Notices - Updates | Radix DLT - Decentralized Ledger Technology"
+  }
  },
  "notices": {
   "route": "notices",
@@ -986,7 +1253,12 @@
     "kind": "html",
     "file": "body.3.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology",
+   "ogTitle": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology",
+   "twitterTitle": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology"
+  }
  },
  "podcast": {
   "route": "podcast",
@@ -1026,7 +1298,20 @@
     "kind": "html",
     "file": "body.3.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Podcast | Radix DLT - Decentralized Ledger Technology",
+   "description": "The DeFi Download covers all things about decentralised finance and crypto. Join us as we dive into the details on the projects and assets that are powering the DeFi revolution.",
+   "ogTitle": "Podcast | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "The DeFi Download covers all things about decentralised finance and crypto. Join us as we dive into the details on the projects and assets that are powering the DeFi revolution.",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Podcast | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "The DeFi Download covers all things about decentralised finance and crypto. Join us as we dive into the details on the projects and assets that are powering the DeFi revolution.",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true,
+   "skipInvariant": true
+  }
  },
  "privacy-policy": {
   "route": "privacy-policy",
@@ -1057,7 +1342,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Privacy Notice | Radix DLT - Decentralized Ledger Technology",
+   "description": "The Radix Privacy Policy. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.",
+   "ogTitle": "Privacy Notice | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "The Radix Privacy Policy. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Privacy Notice | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "The Radix Privacy Policy. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "radfi-thank-you": {
   "route": "radfi-thank-you",
@@ -1070,7 +1367,12 @@
     "kind": "html",
     "file": "body.0.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "RadFi 2022 - Thank you for signing up for RadFi",
+   "ogTitle": "RadFi 2022 - Thank you for signing up for RadFi",
+   "twitterTitle": "RadFi 2022 - Thank you for signing up for RadFi"
+  }
  },
  "radfi": {
   "route": "radfi",
@@ -1092,7 +1394,20 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "RadFi - The Future of DeFi Unveiled",
+   "description": "Check out the radically better user experience, learn about the intuitive programming language Scrypto, and understand why only Radix is designed to provide a network built for unlimited growth*",
+   "ogTitle": "RadFi - The Future of DeFi Unveiled",
+   "ogDescription": "Check out the radically better user experience, learn about the intuitive programming language Scrypto, and understand why only Radix is designed to provide a network built for unlimited growth*",
+   "ogImage": "https://www.radixdlt.com/assets/6392335ae2b8a177edd4096b_Radfi-opengraph.png",
+   "twitterTitle": "RadFi - The Future of DeFi Unveiled",
+   "twitterDescription": "Check out the radically better user experience, learn about the intuitive programming language Scrypto, and understand why only Radix is designed to provide a network built for unlimited growth*",
+   "twitterImage": "https://www.radixdlt.com/assets/6392335ae2b8a177edd4096b_Radfi-opengraph.png",
+   "ogType": true,
+   "twitterCard": true,
+   "skipInvariant": true
+  }
  },
  "radix-brand-pack": {
   "route": "radix-brand-pack",
@@ -1123,7 +1438,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix Brand Pack | Radix DLT - Decentralized Ledger Technology",
+   "description": "The Radix Brand Pack",
+   "ogTitle": "Radix Brand Pack | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "The Radix Brand Pack",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Radix Brand Pack | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "The Radix Brand Pack",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "report": {
   "route": "report",
@@ -1154,7 +1481,14 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Report | Radix DLT - Decentralized Ledger Technology",
+   "ogTitle": "Report | Radix DLT - Decentralized Ledger Technology",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Report | Radix DLT - Decentralized Ledger Technology",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
+  }
  },
  "search": {
   "route": "search",
@@ -1176,7 +1510,12 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Blog Search Results | Radix DLT - Decentralized Ledger Technology",
+   "ogTitle": "Blog Search Results | Radix DLT - Decentralized Ledger Technology",
+   "twitterTitle": "Blog Search Results | Radix DLT - Decentralized Ledger Technology"
+  }
  },
  "signup/email-confirmation": {
   "route": "signup/email-confirmation",
@@ -1207,7 +1546,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Email confirmation | Radix DLT - Decentralized Ledger Technology",
+   "description": "Thank you for confirming your email",
+   "ogTitle": "Email confirmation | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "Thank you for confirming your email",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Email confirmation | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "Thank you for confirming your email",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "signup/mailing": {
   "route": "signup/mailing",
@@ -1238,7 +1589,14 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Mailing list | Radix DLT - Decentralized Ledger Technology",
+   "ogTitle": "Mailing list | Radix DLT - Decentralized Ledger Technology",
+   "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
+   "twitterTitle": "Mailing list | Radix DLT - Decentralized Ledger Technology",
+   "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
+  }
  },
  "status/closed-issues": {
   "route": "status/closed-issues",
@@ -1260,7 +1618,12 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix DLT | Services Status | Closed Issues",
+   "ogTitle": "Radix DLT | Services Status | Closed Issues",
+   "twitterTitle": "Radix DLT | Services Status | Closed Issues"
+  }
  },
  "status/current-issues": {
   "route": "status/current-issues",
@@ -1282,7 +1645,17 @@
     "kind": "html",
     "file": "body.1.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix DLT | Services Status",
+   "description": "Radix Operational Status updates.",
+   "ogTitle": "Radix DLT | Services Status",
+   "ogDescription": "Radix Operational Status updates.",
+   "twitterTitle": "Radix DLT | Services Status",
+   "twitterDescription": "Radix Operational Status updates.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "supercharging-defi-ecosystem-growth": {
   "route": "supercharging-defi-ecosystem-growth",
@@ -1313,7 +1686,17 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Supercharging DeFi Ecosystem Growth | Radix DLT - Decentralized Ledger Technology",
+   "description": "A thriving marketplace of DeFi dApps where developers will be able to rapidly innovate, share, and earn.",
+   "ogTitle": "Supercharging DeFi Ecosystem Growth | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "A thriving marketplace of DeFi dApps where developers will be able to rapidly innovate, share, and earn.",
+   "twitterTitle": "Supercharging DeFi Ecosystem Growth | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "A thriving marketplace of DeFi dApps where developers will be able to rapidly innovate, share, and earn.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "token": {
   "route": "token",
@@ -1344,7 +1727,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix DLT | XRD Tokens",
+   "description": "Unlock the potential of Radix with XRD: stake, access DeFi, deploy contracts, and transact seamlessly.",
+   "ogTitle": "Radix DLT | XRD Tokens",
+   "ogDescription": "Unlock the potential of Radix with XRD: stake, access DeFi, deploy contracts, and transact seamlessly.",
+   "ogImage": "https://www.radixdlt.com/assets/6511d2861769df9d87e7be4e_OPENGRAPH-tokens.png",
+   "twitterTitle": "Radix DLT | XRD Tokens",
+   "twitterDescription": "Unlock the potential of Radix with XRD: stake, access DeFi, deploy contracts, and transact seamlessly.",
+   "twitterImage": "https://www.radixdlt.com/assets/6511d2861769df9d87e7be4e_OPENGRAPH-tokens.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "unlimited-scalability-forever": {
   "route": "unlimited-scalability-forever",
@@ -1375,7 +1770,17 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Unlimited Scalability, Forever | Radix DLT - Decentralized Ledger Technology",
+   "description": "Radix is the only decentralized public network that is designed to scale to meet the needs of the $400 trillion global finance system.",
+   "ogTitle": "Unlimited Scalability, Forever | Radix DLT - Decentralized Ledger Technology",
+   "ogDescription": "Radix is the only decentralized public network that is designed to scale to meet the needs of the $400 trillion global finance system.",
+   "twitterTitle": "Unlimited Scalability, Forever | Radix DLT - Decentralized Ledger Technology",
+   "twitterDescription": "Radix is the only decentralized public network that is designed to scale to meet the needs of the $400 trillion global finance system.",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "wallet-landing-2": {
   "route": "wallet-landing-2",
@@ -1406,7 +1811,20 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Wallet New Variant 1",
+   "description": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogTitle": "Wallet New Variant 1",
+   "ogDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "twitterTitle": "Wallet New Variant 1",
+   "twitterDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "ogType": true,
+   "twitterCard": true,
+   "skipInvariant": true
+  }
  },
  "wallet-landing-3": {
   "route": "wallet-landing-3",
@@ -1437,7 +1855,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Wallet New Variant 3",
+   "description": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogTitle": "Wallet New Variant 3",
+   "ogDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "twitterTitle": "Wallet New Variant 3",
+   "twitterDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "wallet-landing-4": {
   "route": "wallet-landing-4",
@@ -1468,7 +1898,20 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Wallet New Variant 4",
+   "description": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogTitle": "Wallet New Variant 4",
+   "ogDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "twitterTitle": "Wallet New Variant 4",
+   "twitterDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "ogType": true,
+   "twitterCard": true,
+   "skipInvariant": true
+  }
  },
  "wallet-landing1": {
   "route": "wallet-landing1",
@@ -1499,7 +1942,20 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "The Radix Wallet | iOS &amp; Android",
+   "description": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogTitle": "The Radix Wallet | iOS &amp; Android",
+   "ogDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/65bccff4ca2094556cd194b0_Radix-Ecosystem-Fund-1.png",
+   "twitterTitle": "The Radix Wallet | iOS &amp; Android",
+   "twitterDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/65bccff4ca2094556cd194b0_Radix-Ecosystem-Fund-1.png",
+   "ogType": true,
+   "twitterCard": true,
+   "skipInvariant": true
+  }
  },
  "wallet": {
   "route": "wallet",
@@ -1530,7 +1986,19 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "The Radix Wallet | iOS &amp; Android",
+   "description": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogTitle": "The Radix Wallet | iOS &amp; Android",
+   "ogDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "ogImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "twitterTitle": "The Radix Wallet | iOS &amp; Android",
+   "twitterDescription": "The first DeFi &amp; Web3 wallet built for everyday people. Use crypto with confidence. Exclusively possible on Radix.",
+   "twitterImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  },
  "whitepapers": {
   "route": "whitepapers",
@@ -1561,6 +2029,18 @@
     "kind": "html",
     "file": "body.2.html"
    }
-  ]
+  ],
+  "head": {
+   "title": "Radix DLT | Radically Better Web3",
+   "description": "In-depth research and reports on the various key attributes of the Radix technology stack and technological breakthroughs.",
+   "ogTitle": "Radix DLT | Radically Better Web3",
+   "ogDescription": "In-depth research and reports on the various key attributes of the Radix technology stack and technological breakthroughs.",
+   "ogImage": "https://www.radixdlt.com/assets/6511d28654653686478cf15a_OPENGRAPH-wp.png",
+   "twitterTitle": "Radix DLT | Radically Better Web3",
+   "twitterDescription": "In-depth research and reports on the various key attributes of the Radix technology stack and technological breakthroughs.",
+   "twitterImage": "https://www.radixdlt.com/assets/6511d28654653686478cf15a_OPENGRAPH-wp.png",
+   "ogType": true,
+   "twitterCard": true
+  }
  }
 }

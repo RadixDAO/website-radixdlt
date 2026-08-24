@@ -4,6 +4,7 @@
 // and IX2 `data-w-id` hooks survive untouched.
 import manifest from '../shells/manifest.json';
 import CollectionList from '../components/CollectionList.astro';
+import SiteHead from '../components/site/SiteHead.astro';
 import { bodyExtras } from '../lib/page-extras.mjs';
 
 interface Props { route: string }
@@ -30,7 +31,7 @@ const bodyAttrs = parseAttrs(page.bodyAttrs ?? '');
 ---
 <!doctype html>
 <html {...htmlAttrs}>
-  <head><Fragment set:html={shell('head.html')} /></head>
+  <head><SiteHead {...page.head} tail={shell('head.html')} /></head>
   <body {...bodyAttrs}>
     {page.order.map((part: any) =>
       part.kind === 'html'
