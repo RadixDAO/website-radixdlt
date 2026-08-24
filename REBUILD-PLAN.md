@@ -436,6 +436,29 @@ Two conclusions:
 5. Delete shells, bindings, layouts, converters. Move `source/` and `reference/` to an
    archive repo — **last**, once every route has passed its gate.
 
+### Standing rule: nativised code must not read `src/shells/`
+
+Found after the shared-template task, and it had already happened three times. Every
+nativisation so far kept reading its `<head>` tail out of `src/shells/_detail/<coll>/`,
+so routes that looked nativised still pinned the scaffolding in place and step 5 could
+never have run. Head tails now live beside their components
+(`src/components/<x>/<x>-head.html`).
+
+**A route is not nativised while anything it imports reads `src/shells/`.** Check with:
+
+```
+grep -rn "src/shells\|'../shells" src/pages src/components src/lib
+```
+
+Known remaining, deliberately deferred: `src/pages/sitemap.xml.ts` reads
+`src/shells/manifest.json` for the static-route list. It needs a real route source and
+is part of the static-page phase (step 4), not a per-collection task.
+
+`src/bindings/` is a separate question and is NOT scaffolding in the same sense: the
+nativised components read `detail-lists/*.json` as *data*, because Webflow's
+Finsweet-computed list selections are not reproducible from the CMS data alone. That
+data needs a home under `src/data/` or `src/content/`, not deletion.
+
 ### The risk `verify.mjs` cannot see
 
 Webflow's IX2 runtime (`public/js/radix-web.js`, 672 KB) drives animations from `data-w-id`

@@ -34,7 +34,13 @@ interface Props {
 }
 const { collection, wfPageId } = Astro.props;
 
-const headTail = readFileSync(`src/shells/_detail/${collection}/head.html`, 'utf8');
+// Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
+// deletion (REBUILD-PLAN.md 10.5); a component that reads it at build time would block
+// that deletion and quietly keep the shell pipeline alive. The eight collections' head
+// tails were verified byte-identical apart from the canonical URL, so one committed
+// asset plus a slug covers all of them.
+const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8')
+  .replace('__CANON__', `https://www.radixdlt.com/detail_${collection}`);
 const bodyTail = readFileSync('src/components/detail-shared/detail-scripts.html', 'utf8');
 ---
 <!doctype html>

@@ -37,7 +37,10 @@ const [categoryName, author, gettingStarted, related] = await Promise.all([
 ]);
 
 const title = resolveHeadTitle('articles-learn', item) ?? '| The Radix Knowledge Base';
-const headTail = readFileSync('src/shells/_detail/articles-learn/head.html', 'utf8');
+// Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
+// deletion (REBUILD-PLAN.md 10.5); reading it at build time would block that deletion
+// and quietly keep the shell pipeline alive.
+const headTail = readFileSync('src/components/articles-learn/articles-learn-head.html', 'utf8');
 const scriptsTail = readFileSync('src/components/articles-learn/articles-learn-scripts.html', 'utf8');
 ---
 <!doctype html>

@@ -38,7 +38,10 @@ const [categories, author, related, topics, slider] = await Promise.all([
 ]);
 
 const title = resolveHeadTitle('blog', item) ?? '| The Radix Blog | Radix DLT';
-const headTail = readFileSync('src/shells/_detail/blog/head.html', 'utf8');
+// Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
+// deletion (REBUILD-PLAN.md 10.5); reading it at build time would block that deletion
+// and quietly keep the shell pipeline alive.
+const headTail = readFileSync('src/components/blog/blog-head.html', 'utf8');
 const scriptsTail = readFileSync('src/components/blog/blog-scripts.html', 'utf8');
 ---
 <!doctype html>
