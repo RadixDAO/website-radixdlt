@@ -1,0 +1,38 @@
+<div class="slideholder is-blog-slider w-dyn-list">
+      <div role="list" class="blog-slider-small w-clearfix w-dyn-items">
+        <div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item">
+          <div class="c-blog-item-link-slide b02">
+            <div class="c-blog-img-holder">
+              <div class="c-img-blog-inner"></div>
+            </div>
+            <div class="blog-inner">
+              <div class="tag-link-holder">
+                <div class="w-embed w-script">
+                  <div class="coll-list-nest" id="tags-"></div>
+                  <script>
+window.addEventListener('DOMContentLoaded', function() {
+   jQuery(function() {
+       jQuery('#tags-').load("/blog/ .coll-list-nest")
+   });
+});
+</script>
+                </div>
+              </div>
+              <div class="blog-link-title">
+                <div class="bm-10">
+                  <h4 class="w-dyn-bind-empty"></h4>
+                </div>
+                <p class="blog-desc w-dyn-bind-empty"></p>
+              </div>
+              <div class="cbfs-date-holder">
+                <div class="cbfs-date w-dyn-bind-empty"></div>
+              </div>
+            </div>
+            <a href="#" class="full-blog-link w-inline-block"></a>
+          </div>
+        </div>
+      </div>
+      <div class="w-dyn-empty">
+        <div>No items found.</div>
+      </div>
+    </div>

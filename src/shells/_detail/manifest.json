@@ -1,0 +1,122 @@
+{
+ "articles-learn": {
+  "collection": "articles-learn",
+  "htmlAttrs": "data-wf-page=\"69eb1e5730aad0a16f70abd6\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_articles-learn.html"
+ },
+ "blog-author": {
+  "collection": "blog-author",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94c\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_blog-author.html"
+ },
+ "blog-category": {
+  "collection": "blog-category",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94d\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_blog-category.html"
+ },
+ "blog": {
+  "collection": "blog",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94b\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_blog.html"
+ },
+ "careers": {
+  "collection": "careers",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94e\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_careers.html"
+ },
+ "categories-learn": {
+  "collection": "categories-learn",
+  "htmlAttrs": "data-wf-page=\"69eb1e92745be047bb44b53b\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_categories-learn.html"
+ },
+ "projects": {
+  "collection": "projects",
+  "htmlAttrs": "data-wf-page=\"66dafe27d5486c299a7c9a7d\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_projects.html"
+ },
+ "events": {
+  "collection": "events",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94f\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_events.html"
+ },
+ "faqs": {
+  "collection": "faqs",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d950\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_faqs.html"
+ },
+ "projects-6-highlighted": {
+  "collection": "projects-6-highlighted",
+  "htmlAttrs": "data-wf-page=\"66e2c7c4f223104818b694f1\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_projects-6-highlighted.html"
+ },
+ "full-stack-social-comments": {
+  "collection": "full-stack-social-comments",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d965\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_full-stack-social-comments.html"
+ },
+ "navigation-featured-section": {
+  "collection": "navigation-featured-section",
+  "htmlAttrs": "data-wf-page=\"650a16415183e6fd3dd25ed6\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_navigation-featured-section.html"
+ },
+ "partners": {
+  "collection": "partners",
+  "htmlAttrs": "data-wf-page=\"674713bef8d85630ffcf63dd\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_partners.html"
+ },
+ "podcast": {
+  "collection": "podcast",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d966\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_podcast.html"
+ },
+ "project-categories": {
+  "collection": "project-categories",
+  "htmlAttrs": "data-wf-page=\"66dafcf81128dd159338e35a\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_project-categories.html"
+ },
+ "radix-services": {
+  "collection": "radix-services",
+  "htmlAttrs": "data-wf-page=\"65006fb5f3dde67a65a4e071\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_radix-services.html"
+ },
+ "radix-opp-statuses": {
+  "collection": "radix-opp-statuses",
+  "htmlAttrs": "data-wf-page=\"69eb0cc49d33f411d5e04328\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_radix-opp-statuses.html"
+ },
+ "sub-categories-learn": {
+  "collection": "sub-categories-learn",
+  "htmlAttrs": "data-wf-page=\"69eb1ebc49e0fc5f9abc3044\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_sub-categories-learn.html"
+ },
+ "team-member": {
+  "collection": "team-member",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d967\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_team-member.html"
+ },
+ "tweets": {
+  "collection": "tweets",
+  "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d968\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
+  "bodyAttrs": "",
+  "template": "detail_tweets.html"
+ }
+}
