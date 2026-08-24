@@ -12,7 +12,7 @@
 //
 // It is deliberately blind to intent: it cannot be argued with, only re-baselined, and
 // re-baselining leaves a commit behind.
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { GOLDEN, hashDist, htmlCount, bytesOf } from './lib/dist-hash.mjs';
 
 const accept = process.argv.includes('--accept');
@@ -25,6 +25,20 @@ if (!existsSync(GOLDEN)) {
 
 const golden = JSON.parse(readFileSync(GOLDEN, 'utf8'));
 const now = hashDist();
+
+// Pagefind is outside the byte gate (see lib/dist-hash.mjs). Assert structurally that
+// it still exists, so "search silently stopped building" cannot hide in the exclusion.
+{
+  const idx = 'dist/pagefind';
+  const shards = existsSync(`${idx}/index`)
+    ? readdirSync(`${idx}/index`).filter(f => f.endsWith('.pf_index')).length : 0;
+  if (!existsSync(`${idx}/pagefind.js`) || shards === 0) {
+    console.error(`FAIL: Pagefind output missing (pagefind.js present: ${existsSync(`${idx}/pagefind.js`)}, shards: ${shards}).`);
+    console.error(`It is excluded from byte comparison, NOT from being required.`);
+    process.exit(3);
+  }
+  console.log(`pagefind    ${shards} index shards present (excluded from byte comparison)`);
+}
 
 const keys = [...new Set([...Object.keys(golden.files), ...Object.keys(now)])].sort();
 const added   = keys.filter(k => !(k in golden.files));

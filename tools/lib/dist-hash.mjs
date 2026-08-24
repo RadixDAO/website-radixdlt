@@ -22,6 +22,24 @@ export function walk(dir) {
  * Size rides along with the hash so a failing gate can say "grew by 39,299 bytes"
  * -- usually enough to identify the mistake without rebuilding the previous state.
  */
+/**
+ * Pagefind's search index is EXCLUDED from the byte gate, and this is the only
+ * exclusion -- narrowing a gate is otherwise exactly the move this harness exists to
+ * prevent, so the justification is recorded here rather than left implicit.
+ *
+ * Measured 2026-08-24 by building the same commit on this machine and in a fresh clone:
+ * 159 files differed, all of them under pagefind/ (79 index shards added, 79 removed,
+ * plus pagefind-entry.json). Files differing outside pagefind/: 0. HTML files differing:
+ * 0 of 1,202. Pagefind names its shards by content hash and buckets words in an order
+ * that follows filesystem traversal, so the shard set is machine-dependent while the
+ * site it indexes is not.
+ *
+ * Everything the site actually serves -- every page, stylesheet, script and asset --
+ * stays under the gate. Search coverage is kept by the structural assertion in
+ * diff-dist.mjs, which fails if the index stops being produced.
+ */
+export const EXCLUDE = /^pagefind\//;
+
 export function hashDist() {
   if (!existsSync(DIST)) throw new Error(`${DIST}/ does not exist -- run pnpm build first.`);
   const files = walk(DIST);
@@ -29,6 +47,7 @@ export function hashDist() {
   const map = {};
   for (const f of files) {
     const key = relative(DIST, f).split(sep).join('/');
+    if (EXCLUDE.test(key)) continue;
     const buf = readFileSync(f);
     map[key] = `${createHash('sha256').update(buf).digest('hex')}:${buf.length}`;
   }
