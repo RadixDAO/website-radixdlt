@@ -1,0 +1,52 @@
+---
+// blog-category's one collection-specific block -- div.c-section.is-blog (REBUILD-PLAN.md
+// Phase 4 taxonomy shape 44f5fef7, 11 pages): category name + description, then the
+// "Latest Posts" heading that introduces TaxonomyPostList. (The banner-wrap block this
+// shell also carries sits at page level, before SiteNav -- see
+// src/pages/blog-category/[slug].astro -- same as blog's and careers' own pages, not
+// part of this component.)
+//
+// Markup derived from src/shells/_detail/blog-category/body.html, cross-checked
+// against reference/live. "description" is a real bound field in the shell
+// (bm-40 > p.w-dyn-bind-empty) but every one of the 11 live categories leaves it null
+// (checked src/content/blog-category/*.json) -- kept static, same precedent
+// src/components/blog/BlogContent.astro documents for its own always-empty
+// "author-role" field, rather than templating a value that never varies from empty.
+import { dynClass } from '../../lib/blog-taxonomy-detail';
+import type { CmsItem } from '../../lib/content';
+
+interface Props {
+  item: CmsItem;
+}
+
+const { item } = Astro.props;
+const name = (item.fieldData.name as string) ?? '';
+---
+<div class="c-section is-blog">
+  <div class="main-content">
+    <div class="container is-small">
+      <div class="bm-20">
+        <a href="/blog" class="blog-link">Blog home</a>
+      </div>
+      <div class="bm-20">
+        <h1 class={dynClass('', !!name)}>{name}</h1>
+      </div>
+      <div class="bm-40">
+        <p class="w-dyn-bind-empty"></p>
+      </div>
+      <h4>Latest Posts</h4>
+    </div>
+  </div>
+  <div class="main-blog-bg">
+    <div class="bottom-triangle">
+      <img
+        src="/images/traingle-hero-white.webp"
+        loading="lazy"
+        sizes="(max-width: 4096px) 100vw, 4096px"
+        srcset="/images/traingle-hero-white-p-500.png 500w, /images/traingle-hero-white-p-800.png 800w, /images/traingle-hero-white-p-1080.png 1080w, /images/traingle-hero-white-p-2600.png 2600w, /images/traingle-hero-white-p-3200.png 3200w, /images/traingle-hero-white.webp 4096w"
+        alt=""
+        class="blog-triangle"
+      />
+    </div>
+  </div>
+</div>

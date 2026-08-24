@@ -1,0 +1,61 @@
+---
+// blog-author's one collection-specific block -- div.c-section.is-blog (REBUILD-PLAN.md
+// Phase 4 taxonomy shape 750a7bb4, 14 pages): author image + name + role + bio, then
+// the "Latest posts" heading that introduces TaxonomyPostList.
+//
+// Markup derived from src/shells/_detail/blog-author/body.html, cross-checked against
+// reference/live. Unlike blog-category, this shell carries NO banner-wrap block before
+// the nav (confirmed diffing the two shells byte-for-byte) -- omitted here, not an
+// oversight.
+//
+// "description" (confidence 1/14) and "role" (4/14) are genuinely bound fields, low
+// confidence only because most of the 14 live authors leave them blank -- unlike
+// blog-category's own description paragraph (0/14 filled everywhere, kept static, see
+// BlogCategoryHero.astro), these do vary and stay templated.
+import { dynClass, bgStyle, heroImage } from '../../lib/blog-taxonomy-detail';
+import type { CmsItem } from '../../lib/content';
+
+interface Props {
+  item: CmsItem;
+}
+
+const { item } = Astro.props;
+const name = (item.fieldData.name as string) ?? '';
+const role = (item.fieldData.role as string) ?? '';
+const description = (item.fieldData.description as string) ?? '';
+const imageUrl = heroImage(item);
+---
+<div class="c-section is-blog">
+  <div class="main-content">
+    <div class="container is-small">
+      <div class="bm-40">
+        <a href="/blog" class="blog-link">Blog home</a>
+      </div>
+      <div class="bm-20">
+        <div class="author-img" style={bgStyle(imageUrl)}></div>
+      </div>
+      <div class="bm-20">
+        <div class="bm-10">
+          <h1 class={dynClass('', !!name)}>{name}</h1>
+        </div>
+        <h5 class={dynClass('', !!role)}>{role}</h5>
+      </div>
+      <div class="bm-40">
+        <p class={dynClass('', !!description)}>{description}</p>
+      </div>
+      <h4>Latest posts</h4>
+    </div>
+  </div>
+  <div class="main-blog-bg">
+    <div class="bottom-triangle">
+      <img
+        src="/images/traingle-hero-white.webp"
+        loading="lazy"
+        sizes="(max-width: 4096px) 100vw, 4096px"
+        srcset="/images/traingle-hero-white-p-500.png 500w, /images/traingle-hero-white-p-800.png 800w, /images/traingle-hero-white-p-1080.png 1080w, /images/traingle-hero-white-p-2600.png 2600w, /images/traingle-hero-white-p-3200.png 3200w, /images/traingle-hero-white.webp 4096w"
+        alt=""
+        class="blog-triangle"
+      />
+    </div>
+  </div>
+</div>

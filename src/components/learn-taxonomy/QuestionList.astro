@@ -1,0 +1,57 @@
+---
+// Shared between categories-learn and sub-categories-learn (REBUILD-PLAN.md Phase 4):
+// one "questions in this term" block -- div.section.categories >
+// div.collection-list-wrapper-3.w-dyn-list. categories-learn uses this twice
+// ("Featured Questions" and "All questions"); sub-categories-learn uses it once
+// ("Featured Questions" only -- its shell has no second section at all).
+//
+// Markup derived from src/shells/_detail/categories-learn/body.html and
+// src/shells/_detail/sub-categories-learn/body.html, cross-checked against
+// reference/live. The two collections' "Featured Questions" sections are identical
+// except the empty-state class -- categories-learn's reads
+// "empty-state-8 w-dyn-empty", sub-categories-learn's reads plain "w-dyn-empty" (byte-
+// diffed, not a guess) -- and categories-learn's own "All questions" section adds a
+// "question-wrapper" class around the question text that neither "Featured Questions"
+// variant carries. Both are real, per-block differences, threaded through as props
+// rather than picked arbitrarily.
+//
+// `alt="file icon\n"` (a literal embedded newline) and the generic
+// `src="/images/Vector-1.svg"`-shaped icon are Webflow's own per-item markup, kept
+// byte-exact; `data-ix="block-hover"` is preserved verbatim, same as CategoryHero's
+// own `data-ix` attributes.
+import { type QuestionRef } from '../../lib/categories-learn-detail';
+
+interface Props {
+  title: string;
+  items: QuestionRef[];
+  itemWrapperClass?: string;
+  emptyStateClass: string;
+}
+
+const { title, items, itemWrapperClass, emptyStateClass } = Astro.props;
+---
+<div class="section categories">
+  <div class="container---main left-vert">
+    <div class="title-36px">{title}</div>
+    <div class="collection-list-wrapper-3 w-dyn-list">
+      {items.length > 0 ? (
+        <div role="list" class="w-dyn-items">
+          {items.map((q) => (
+            <div role="listitem" class="w-dyn-item">
+              <a href={`/articles-learn/${q.slug}`} data-ix="block-hover" class="featured-question-link w-inline-block">
+                <div class="icon-wrapper"><img width="30" loading="lazy" alt={'file icon\n'} src={q.iconUrl} class="icon-3" /></div>
+                <div class={itemWrapperClass || undefined}>
+                  <div class="text-18px">{q.name}</div>
+                </div>
+              </a>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class={emptyStateClass}>
+          <div>No items found.</div>
+        </div>
+      )}
+    </div>
+  </div>
+</div>

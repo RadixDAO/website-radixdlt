@@ -1,0 +1,44 @@
+---
+// Shared between categories-learn and sub-categories-learn (REBUILD-PLAN.md Phase 4):
+// the page header -- div.section.categories.sub-page > ...> div.header-wrapper.
+//
+// Markup derived from src/shells/_detail/categories-learn/body.html and
+// src/shells/_detail/sub-categories-learn/body.html, cross-checked against
+// reference/live -- identical apart from the extra `<p class="text-16px">` subtitle
+// line sub-categories-learn's shell carries and categories-learn's does not (the
+// `subtitle` prop is left undefined for categories-learn, which omits the paragraph
+// entirely, matching that structural difference exactly rather than rendering an
+// empty one).
+//
+// `data-ix` attributes (show-fixed-top-bar / fade-in-on-load / fade-in-on-load-2) are
+// Webflow's legacy interactions API, the same animation-driving role `data-w-id`
+// plays elsewhere on this site -- preserved verbatim, same position, for every page.
+import { dynClass } from '../../lib/categories-learn-detail';
+
+interface Props {
+  iconUrl: string;
+  title: string;
+  subtitle?: string;
+}
+
+const { iconUrl, title, subtitle } = Astro.props;
+---
+<div class="section categories sub-page">
+  <div data-ix="show-fixed-top-bar" class="container---main w-clearfix">
+    <div class="hero-content-block subpage-content-block">
+      <div data-ix="fade-in-on-load-2" class="hero-button-wrapper">
+        <a href="/learn/knowledge-base" class="header-button-block w-inline-block w-clearfix">
+          <div class="header-button-icon">←</div>
+          <div class="back-text">Back</div>
+        </a>
+      </div>
+      <div class="header-wrapper">
+        <img width="80" loading="lazy" alt="" src={iconUrl} class={dynClass('category-image', !!iconUrl)} />
+        <div>
+          <h1 data-ix="fade-in-on-load" class={dynClass('hero-title', !!title)}>{title}</h1>
+          {subtitle !== undefined && <p class={dynClass('text-16px', !!subtitle)}>{subtitle}</p>}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

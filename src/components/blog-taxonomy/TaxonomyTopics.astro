@@ -1,0 +1,88 @@
+---
+// Shared between blog-author and blog-category (REBUILD-PLAN.md Phase 4): the
+// "Explore more topics" closing block -- div.c-section.is-tags. Byte-identical
+// between the two shells apart from field data and two collection-constant ids
+// (Webflow assigns these per collection template, not per item -- same convention
+// src/pages/careers/[slug].astro already uses for its own hardcoded ids). Unlike
+// blog's own is-tags block (src/components/blog/BlogTags.astro) this one carries no
+// slider -- neither shell has one.
+//
+// `topics` isCurrent (blog-category only) reproduces Webflow's markCurrent
+// self-reference marking on the topic pill matching the page you're on -- see
+// src/lib/blog-taxonomy-detail.ts's header comment for why this needs both
+// `aria-current="page"` and the `w--current` class, unlike blog's own isCurrent
+// handling.
+import { type TopicRef } from '../../lib/blog-taxonomy-detail';
+
+interface Props {
+  topics: TopicRef[];
+  discoverNodeId: string;
+  videoId: string;
+}
+
+const { topics, discoverNodeId, videoId } = Astro.props;
+---
+<div class="c-section is-tags">
+  <div class="container z-index-20">
+    <div class="div-block-130">
+      <div id={discoverNodeId}>
+        <div>Discover</div>
+        <h2>Explore more topics</h2>
+      </div>
+      <div id="w-node-_80aa40a1-f822-b623-25ed-3d3823cd4943-23cd4943" class="w-dyn-list">
+        {topics.length > 0 ? (
+          <div role="list" class="w-dyn-items">
+            {topics.map((t) => (
+              <div role="listitem" class="collection-item w-dyn-item">
+                <a
+                  href={`/blog-category/${t.slug}`}
+                  aria-current={t.isCurrent ? 'page' : undefined}
+                  class={t.isCurrent ? 'tag-link w--current' : 'tag-link'}
+                >{t.name}</a>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+  <div class="mesh-holder">
+    <div
+      data-poster-url="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-poster-00001.jpg"
+      data-video-urls="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.mp4,/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.webm"
+      data-autoplay="true"
+      data-loop="true"
+      data-wf-ignore="true"
+      data-beta-bgvideo-upgrade="false"
+      class="mesh-vid-2 z5 w-background-video w-background-video-atom"
+    >
+      <video
+        id={videoId}
+        autoplay
+        loop
+        style={`background-image:url("/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-poster-00001.jpg")`}
+        muted
+        playsinline
+        data-wf-ignore="true"
+        data-object-fit="cover"
+      >
+        <source src="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.mp4" data-wf-ignore="true" />
+        <source src="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.webm" data-wf-ignore="true" />
+      </video>
+    </div>
+    <div class="bottom-triangle">
+      <img
+        src="/images/traingle-hero-white.webp"
+        loading="lazy"
+        sizes="(max-width: 4096px) 100vw, 4096px"
+        srcset="/images/traingle-hero-white-p-500.png 500w, /images/traingle-hero-white-p-800.png 800w, /images/traingle-hero-white-p-1080.png 1080w, /images/traingle-hero-white-p-2600.png 2600w, /images/traingle-hero-white-p-3200.png 3200w, /images/traingle-hero-white.webp 4096w"
+        alt=""
+        class="blog-triangle"
+      />
+    </div>
+  </div>
+</div>
