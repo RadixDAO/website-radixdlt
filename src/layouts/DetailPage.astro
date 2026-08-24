@@ -4,6 +4,7 @@
 import { readFileSync } from 'node:fs';
 import manifest from '../shells/_detail/manifest.json';
 import { renderBody, renderHead, renderNestedLists } from '../lib/render-detail.mjs';
+import { markCurrent } from '../../tools/lib/mark-current.mjs';
 
 interface Props { collection: string; item: any }
 const { collection, item } = Astro.props;
@@ -15,6 +16,18 @@ const dir = `src/shells/_detail/${collection}`;
 const head = renderHead(readFileSync(`${dir}/head.html`, 'utf8'), collection, item);
 let body = renderBody(readFileSync(`${dir}/body.html`, 'utf8'), collection, item);
 body = renderNestedLists(body, collection, item.fieldData.slug);
+
+// The nav (see REBUILD-PLAN.md Task 2.2) was hoisted out of this shell by
+// tools/hoist-nav.mjs and left as a `<!--RADIX_NAV_SLOT-->` marker -- a comment
+// contributes no elements, so every enumerate()-indexed binding above stayed valid.
+// Fill it from the one canonical copy, marked for this item's own path. No CMS
+// item's own path is ever a nav target, so markCurrent is a no-op here in practice,
+// but it's applied for real rather than assumed, same as WebflowPage.astro.
+if (meta.nav) {
+  const canonical = readFileSync(`src/chrome/nav.${meta.nav}.html`, 'utf8');
+  const currentPath = `/${collection}/${item.fieldData.slug}`;
+  body = body.replace('<!--RADIX_NAV_SLOT-->', markCurrent(canonical, currentPath));
+}
 
 const parseAttrs = (s: string): Record<string, string> =>
   Object.fromEntries([...s.matchAll(/([\w:.-]+)="([^"]*)"/g)].map(m => [m[1], m[2]]));

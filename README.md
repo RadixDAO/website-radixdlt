@@ -92,6 +92,13 @@ Before DNS cutover, keep Webflow published but un-DNS'd for a week as rollback.
    sitemap lists 999 and omits eight collections that have working detail routes.
    Correctness over bug-for-bug parity, for a machine-facing file.
 2. **Search** is Pagefind. Webflow's hosted site search does not survive migration.
+3. **The site nav** (`src/components/site/SiteNav.astro`, Task 2.2) is hoisted into
+   one canonical block per variant (`src/chrome/nav.*.html`), which freezes its two
+   CMS `navigation-featured-section` dropdown slots into static markup. This changes
+   nothing today -- those 48 slots never resolved from CMS and already rendered as
+   the exported shell on every page -- but it is a semantic change the byte gate
+   (`tools/diff-dist.mjs`) cannot see, since Webflow is being decommissioned and the
+   collection is frozen regardless.
 
 `reference/KNOWN-BROKEN-ON-LIVE.md` lists defects that already exist on radixdlt.com
 and are reproduced deliberately — do not "fix" them as part of the migration.

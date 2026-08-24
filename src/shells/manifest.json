@@ -27,38 +27,37 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "careers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
    "title": "Not Found",
    "ogTitle": "Not Found",
    "twitterTitle": "Not Found"
-  }
+  },
+  "nav": "careers"
  },
  "a-game-changer-for-building-defi": {
   "route": "a-game-changer-for-building-defi",
   "source": "a-game-changer-for-building-defi.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d90f\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -74,7 +73,8 @@
    "twitterDescription": "Introducing Scrypto: a smart contract language that gives developers an unfair advantage in DeFi.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "all-recent-posts": {
   "route": "all-recent-posts",
@@ -86,6 +86,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "blog"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -117,7 +125,8 @@
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "blog"
  },
  "blog": {
   "route": "blog",
@@ -129,6 +138,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "blog"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -214,32 +231,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "blog"
  },
  "complaints-procedure": {
   "route": "complaints-procedure",
   "source": "complaints-procedure.html",
   "htmlAttrs": "data-wf-page=\"650a2538e3fb0a4215af6872\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -257,32 +265,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "data-breach-march-2022": {
   "route": "data-breach-march-2022",
   "source": "data-breach-march-2022.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94a\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -295,7 +294,8 @@
    "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "twitterTitle": "Data Breach March 2022 | Radix DLT - Decentralized Ledger Technology",
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
-  }
+  },
+  "nav": "main"
  },
  "developers/devprogram": {
   "route": "developers/devprogram",
@@ -307,6 +307,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers-nested"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -318,7 +326,8 @@
    "twitterDescription": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers-nested"
  },
  "developers/ecosystem": {
   "route": "developers/ecosystem",
@@ -330,6 +339,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -440,7 +457,8 @@
    "twitterDescription": "The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "developers/grants": {
   "route": "developers/grants",
@@ -452,6 +470,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -463,7 +489,8 @@
    "twitterDescription": "Providing support to projects building on the Radix Network",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "developers/home": {
   "route": "developers/home",
@@ -475,6 +502,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers-nested"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -558,7 +593,8 @@
    "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers-nested"
  },
  "developers/lp/build-with-scrypto": {
   "route": "developers/lp/build-with-scrypto",
@@ -570,6 +606,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -581,7 +625,8 @@
    "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "developers/lp/scrypto-vs-solidity": {
   "route": "developers/lp/scrypto-vs-solidity",
@@ -593,6 +638,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -604,7 +657,8 @@
    "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "developers/lp/scrypto-web3": {
   "route": "developers/lp/scrypto-web3",
@@ -616,6 +670,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -627,7 +689,8 @@
    "twitterDescription": "Radix&#x27;s developer hub with everything you need to get started building DeFi with Scrypto.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "developers/sign-up": {
   "route": "developers/sign-up",
@@ -639,6 +702,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -650,7 +721,8 @@
    "twitterDescription": "Sign up to the Radix Developers Program for the latest on Scrypto and developer events.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "developers/submit-blueprint": {
   "route": "developers/submit-blueprint",
@@ -662,6 +734,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    }
   ],
   "head": {
@@ -673,32 +753,23 @@
    "twitterDescription": "Submit your Blueprint. The future of DeFi is being built with Scrypto. See the expanding Radix ecosystem, and submit your own blueprints.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "developers"
  },
  "ecosystem-directory": {
   "route": "ecosystem-directory",
   "source": "ecosystem-directory.html",
   "htmlAttrs": "data-wf-page=\"66db00d82767b384ecbface5\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 6,
+  "listCount": 4,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -752,32 +823,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/66e17ec59a12f4c1d299655c_OPENGRAPH-Ecosystem-Directory.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "ecosystem": {
   "route": "ecosystem",
   "source": "ecosystem.html",
   "htmlAttrs": "data-wf-page=\"6509750f6d1956f0940d7586\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -795,32 +857,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6511d286a75e5058630c6197_OPENGRAPH-eco.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "full-stack": {
   "route": "full-stack",
   "source": "full-stack.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d987\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "class=\"fullstack-ms\"",
-  "listCount": 3,
+  "listCount": 1,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main-nested"
    },
    {
     "kind": "html",
@@ -847,32 +900,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6476241f09a553b6dfacd8cc_Full-Stack-URL_Sharing-2.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main-nested"
  },
  "index": {
   "route": "index",
   "source": "index.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d98a\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 4,
+  "listCount": 2,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -908,7 +952,8 @@
    "twitterImage": "https://www.radixdlt.com/assets/671f6bde046afdebc5f2c15a_OPENGRAPH-1.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "labs": {
   "route": "labs",
@@ -920,6 +965,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "labs"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -971,7 +1024,8 @@
    "title": "Labs",
    "ogTitle": "Labs",
    "twitterTitle": "Labs"
-  }
+  },
+  "nav": "labs"
  },
  "learn/knowledge-base": {
   "route": "learn/knowledge-base",
@@ -983,6 +1037,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "learn"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -1030,7 +1092,8 @@
    "twitterDescription": "Learn more about how Radix works and how to use our growing ecosystem of tools and products.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "learn"
  },
  "lp/brave/brave-landing": {
   "route": "lp/brave/brave-landing",
@@ -1175,25 +1238,15 @@
   "source": "notices/updates.html",
   "htmlAttrs": "data-wf-page=\"650a102df8686e2b78a78a64\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 3,
+  "listCount": 1,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1213,32 +1266,23 @@
    "title": "Notices - Updates | Radix DLT - Decentralized Ledger Technology",
    "ogTitle": "Notices - Updates | Radix DLT - Decentralized Ledger Technology",
    "twitterTitle": "Notices - Updates | Radix DLT - Decentralized Ledger Technology"
-  }
+  },
+  "nav": "main"
  },
  "notices": {
   "route": "notices",
   "source": "notices.html",
   "htmlAttrs": "data-wf-page=\"65006f1c9db2c329b4ec94e8\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 3,
+  "listCount": 1,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1258,32 +1302,23 @@
    "title": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology",
    "ogTitle": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology",
    "twitterTitle": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology"
-  }
+  },
+  "nav": "main"
  },
  "podcast": {
   "route": "podcast",
   "source": "podcast.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d9c3\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 3,
+  "listCount": 1,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1311,32 +1346,23 @@
    "ogType": true,
    "twitterCard": true,
    "skipInvariant": true
-  }
+  },
+  "nav": "main"
  },
  "privacy-policy": {
   "route": "privacy-policy",
   "source": "privacy-policy.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d9c4\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1354,7 +1380,8 @@
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "radfi-thank-you": {
   "route": "radfi-thank-you",
@@ -1386,6 +1413,14 @@
     "file": "body.0.html"
    },
    {
+    "kind": "nav",
+    "variant": "radfi"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
+   },
+   {
     "kind": "list",
     "file": "list.0.html",
     "index": 0
@@ -1407,32 +1442,23 @@
    "ogType": true,
    "twitterCard": true,
    "skipInvariant": true
-  }
+  },
+  "nav": "radfi"
  },
  "radix-brand-pack": {
   "route": "radix-brand-pack",
   "source": "radix-brand-pack.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d9f6\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1450,32 +1476,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "report": {
   "route": "report",
   "source": "report.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d9f7\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1488,7 +1505,8 @@
    "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "twitterTitle": "Report | Radix DLT - Decentralized Ledger Technology",
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
-  }
+  },
+  "nav": "main"
  },
  "search": {
   "route": "search",
@@ -1500,6 +1518,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "blog"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -1515,32 +1541,23 @@
    "title": "Blog Search Results | Radix DLT - Decentralized Ledger Technology",
    "ogTitle": "Blog Search Results | Radix DLT - Decentralized Ledger Technology",
    "twitterTitle": "Blog Search Results | Radix DLT - Decentralized Ledger Technology"
-  }
+  },
+  "nav": "blog"
  },
  "signup/email-confirmation": {
   "route": "signup/email-confirmation",
   "source": "signup/email-confirmation.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d96f\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1558,32 +1575,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "signup/mailing": {
   "route": "signup/mailing",
   "source": "signup/mailing.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d9a9\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1596,7 +1604,8 @@
    "ogImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png",
    "twitterTitle": "Mailing list | Radix DLT - Decentralized Ledger Technology",
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
-  }
+  },
+  "nav": "main"
  },
  "status/closed-issues": {
   "route": "status/closed-issues",
@@ -1608,6 +1617,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "status"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -1623,7 +1640,8 @@
    "title": "Radix DLT | Services Status | Closed Issues",
    "ogTitle": "Radix DLT | Services Status | Closed Issues",
    "twitterTitle": "Radix DLT | Services Status | Closed Issues"
-  }
+  },
+  "nav": "status"
  },
  "status/current-issues": {
   "route": "status/current-issues",
@@ -1635,6 +1653,14 @@
    {
     "kind": "html",
     "file": "body.0.html"
+   },
+   {
+    "kind": "nav",
+    "variant": "status"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.html"
    },
    {
     "kind": "list",
@@ -1655,32 +1681,23 @@
    "twitterDescription": "Radix Operational Status updates.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "status"
  },
  "supercharging-defi-ecosystem-growth": {
   "route": "supercharging-defi-ecosystem-growth",
   "source": "supercharging-defi-ecosystem-growth.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57da17\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1696,32 +1713,23 @@
    "twitterDescription": "A thriving marketplace of DeFi dApps where developers will be able to rapidly innovate, share, and earn.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "token": {
   "route": "token",
   "source": "token.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57da1c\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1739,32 +1747,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6511d2861769df9d87e7be4e_OPENGRAPH-tokens.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "unlimited-scalability-forever": {
   "route": "unlimited-scalability-forever",
   "source": "unlimited-scalability-forever.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57da1d\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1780,32 +1779,23 @@
    "twitterDescription": "Radix is the only decentralized public network that is designed to scale to meet the needs of the $400 trillion global finance system.",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "wallet-landing-2": {
   "route": "wallet-landing-2",
   "source": "wallet-landing-2.html",
   "htmlAttrs": "data-wf-page=\"65d4988b00cf5f084c6fc279\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1824,32 +1814,23 @@
    "ogType": true,
    "twitterCard": true,
    "skipInvariant": true
-  }
+  },
+  "nav": "main"
  },
  "wallet-landing-3": {
   "route": "wallet-landing-3",
   "source": "wallet-landing-3.html",
   "htmlAttrs": "data-wf-page=\"65e83666962b3713ea77fc20\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1867,32 +1848,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "wallet-landing-4": {
   "route": "wallet-landing-4",
   "source": "wallet-landing-4.html",
   "htmlAttrs": "data-wf-page=\"65e836a73990ac2dc7c9eee9\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1911,32 +1883,23 @@
    "ogType": true,
    "twitterCard": true,
    "skipInvariant": true
-  }
+  },
+  "nav": "main"
  },
  "wallet-landing1": {
   "route": "wallet-landing1",
   "source": "wallet-landing1.html",
   "htmlAttrs": "data-wf-page=\"65b96f3db6c935c192cba4fe\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1955,32 +1918,23 @@
    "ogType": true,
    "twitterCard": true,
    "skipInvariant": true
-  }
+  },
+  "nav": "main"
  },
  "wallet": {
   "route": "wallet",
   "source": "wallet.html",
   "htmlAttrs": "data-wf-page=\"64d207fd9f4d5c3670bb6d6d\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -1998,32 +1952,23 @@
    "twitterImage": "https://www.radixdlt.com/assets/6512fcee6fdbc5505c335d90_OPENGRAPH-wallet.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  },
  "whitepapers": {
   "route": "whitepapers",
   "source": "whitepapers.html",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d9c2\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "listCount": 2,
+  "listCount": 0,
   "order": [
    {
     "kind": "html",
     "file": "body.0.html"
    },
    {
-    "kind": "list",
-    "file": "list.0.html",
-    "index": 0
-   },
-   {
-    "kind": "html",
-    "file": "body.1.html"
-   },
-   {
-    "kind": "list",
-    "file": "list.1.html",
-    "index": 1
+    "kind": "nav",
+    "variant": "main"
    },
    {
     "kind": "html",
@@ -2041,6 +1986,7 @@
    "twitterImage": "https://www.radixdlt.com/assets/6511d28654653686478cf15a_OPENGRAPH-wp.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "nav": "main"
  }
 }

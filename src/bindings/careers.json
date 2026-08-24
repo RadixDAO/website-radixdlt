@@ -6,7 +6,7 @@
  "head": [],
  "slots": [
   {
-   "slot": 132,
+   "slot": 8,
    "tag": "h1",
    "class": "bm-10 w-dyn-bind-empty",
    "kind": "inner",
@@ -15,7 +15,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 135,
+   "slot": 11,
    "tag": "div",
    "class": "c-rich-text w-dyn-bind-empty w-richtext",
    "kind": "html",

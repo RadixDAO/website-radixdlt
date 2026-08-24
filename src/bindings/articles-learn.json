@@ -14,7 +14,7 @@
  ],
  "slots": [
   {
-   "slot": 14,
+   "slot": 6,
    "tag": "a",
    "class": "breadcrumb-link",
    "kind": "inner",
@@ -23,7 +23,7 @@
    "confidence": "174/211"
   },
   {
-   "slot": 16,
+   "slot": 8,
    "tag": "img",
    "class": "article-icon",
    "kind": "attr:src",
@@ -32,7 +32,7 @@
    "confidence": "171/211"
   },
   {
-   "slot": 17,
+   "slot": 9,
    "tag": "h1",
    "class": "article-title w-dyn-bind-empty",
    "kind": "inner",
@@ -41,7 +41,7 @@
    "confidence": "210/211"
   },
   {
-   "slot": 18,
+   "slot": 10,
    "tag": "div",
    "class": "article-body w-dyn-bind-empty w-richtext",
    "kind": "html",
@@ -50,7 +50,7 @@
    "confidence": "211/211"
   },
   {
-   "slot": 22,
+   "slot": 14,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -59,7 +59,7 @@
    "confidence": "13/211"
   },
   {
-   "slot": 25,
+   "slot": 17,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -68,7 +68,7 @@
    "confidence": "207/211"
   },
   {
-   "slot": 29,
+   "slot": 21,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -77,7 +77,7 @@
    "confidence": "13/211"
   },
   {
-   "slot": 34,
+   "slot": 26,
    "tag": "div",
    "class": "liketext jetboost-item-total-favorites-b1k8 w-dyn-bind-empty",
    "kind": "inner",
@@ -86,7 +86,7 @@
    "confidence": "152/211"
   },
   {
-   "slot": 37,
+   "slot": 29,
    "tag": "div",
    "class": "liketext jetboost-item-total-favorites-b1k8 w-dyn-bind-empty",
    "kind": "inner",
@@ -95,7 +95,7 @@
    "confidence": "152/211"
   },
   {
-   "slot": 63,
+   "slot": 55,
    "tag": "a",
    "class": "category-link-article w-inline-block",
    "kind": "attr:href",
@@ -105,7 +105,7 @@
    "inList": true
   },
   {
-   "slot": 66,
+   "slot": 58,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -115,7 +115,7 @@
    "inList": true
   },
   {
-   "slot": 77,
+   "slot": 69,
    "tag": "img",
    "class": "icon-3",
    "kind": "attr:src",
@@ -125,7 +125,7 @@
    "inList": true
   },
   {
-   "slot": 79,
+   "slot": 71,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",

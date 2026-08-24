@@ -3,37 +3,43 @@
   "collection": "articles-learn",
   "htmlAttrs": "data-wf-page=\"69eb1e5730aad0a16f70abd6\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_articles-learn.html"
+  "template": "detail_articles-learn.html",
+  "nav": "learn"
  },
  "blog-author": {
   "collection": "blog-author",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94c\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_blog-author.html"
+  "template": "detail_blog-author.html",
+  "nav": "blog"
  },
  "blog-category": {
   "collection": "blog-category",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94d\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_blog-category.html"
+  "template": "detail_blog-category.html",
+  "nav": "blog"
  },
  "blog": {
   "collection": "blog",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94b\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_blog.html"
+  "template": "detail_blog.html",
+  "nav": "blog"
  },
  "careers": {
   "collection": "careers",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94e\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_careers.html"
+  "template": "detail_careers.html",
+  "nav": "careers"
  },
  "categories-learn": {
   "collection": "categories-learn",
   "htmlAttrs": "data-wf-page=\"69eb1e92745be047bb44b53b\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_categories-learn.html"
+  "template": "detail_categories-learn.html",
+  "nav": "learn"
  },
  "projects": {
   "collection": "projects",
@@ -69,7 +75,8 @@
   "collection": "navigation-featured-section",
   "htmlAttrs": "data-wf-page=\"650a16415183e6fd3dd25ed6\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_navigation-featured-section.html"
+  "template": "detail_navigation-featured-section.html",
+  "nav": "main"
  },
  "partners": {
   "collection": "partners",
@@ -81,7 +88,8 @@
   "collection": "podcast",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d966\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_podcast.html"
+  "template": "detail_podcast.html",
+  "nav": "main"
  },
  "project-categories": {
   "collection": "project-categories",
@@ -99,13 +107,15 @@
   "collection": "radix-opp-statuses",
   "htmlAttrs": "data-wf-page=\"69eb0cc49d33f411d5e04328\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_radix-opp-statuses.html"
+  "template": "detail_radix-opp-statuses.html",
+  "nav": "status"
  },
  "sub-categories-learn": {
   "collection": "sub-categories-learn",
   "htmlAttrs": "data-wf-page=\"69eb1ebc49e0fc5f9abc3044\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
-  "template": "detail_sub-categories-learn.html"
+  "template": "detail_sub-categories-learn.html",
+  "nav": "learn"
  },
  "team-member": {
   "collection": "team-member",
