@@ -27,13 +27,13 @@ import path from 'node:path';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 
-const ROOT = '/Volumes/Development/radix/radixdlt.com';
-const SITE = path.join(ROOT, 'site');
+import { SITE, EXPORT, LEGACY_ASTRO_SITE } from './lib/paths.mjs';
+const ROOT = SITE;
 const ITEMS_DIR = path.join(SITE, 'reference/webflow/items');
-const EXPORT_DIR = path.join(ROOT, 'static export');
-const ASTRO_MAP_PATH = path.join(ROOT, 'astro-site/src/data/generated/asset-map.json');
-const ASTRO_MIRROR_DIR = path.join(ROOT, 'astro-site/public/mirrored');
-const KNOWN_DEAD_PATH = path.join(ROOT, 'astro-site/src/data/generated/asset-mirror-failures.json');
+const EXPORT_DIR = EXPORT;
+const ASTRO_MAP_PATH = LEGACY_ASTRO_SITE && path.join(LEGACY_ASTRO_SITE, 'src/data/generated/asset-map.json');
+const ASTRO_MIRROR_DIR = LEGACY_ASTRO_SITE && path.join(LEGACY_ASTRO_SITE, 'public/mirrored');
+const KNOWN_DEAD_PATH = LEGACY_ASTRO_SITE && path.join(LEGACY_ASTRO_SITE, 'src/data/generated/asset-mirror-failures.json');
 
 const OUT_ASSETS_DIR = path.join(SITE, 'public/assets');
 const OUT_ASSET_MAP = path.join(SITE, 'reference/asset-map.json');
@@ -247,6 +247,9 @@ function computeFilename(url) {
 // ---------------------------------------------------------------------------
 
 function loadAstroAssetMap() {
+  // Optional: reuses bytes already downloaded by the superseded ../astro-site attempt.
+  // Without LEGACY_ASTRO_SITE set, assets are simply re-downloaded from source.
+  if (!ASTRO_MAP_PATH || !existsSync(ASTRO_MAP_PATH)) return new Map();
   const raw = JSON.parse(readFileSync(ASTRO_MAP_PATH, 'utf8'));
   const map = new Map();
   for (const [url, mirroredPath] of Object.entries(raw)) {
@@ -258,6 +261,7 @@ function loadAstroAssetMap() {
 }
 
 function loadKnownDead() {
+  if (!KNOWN_DEAD_PATH || !existsSync(KNOWN_DEAD_PATH)) return new Map();
   const raw = JSON.parse(readFileSync(KNOWN_DEAD_PATH, 'utf8'));
   const set = new Map();
   for (const entry of raw) set.set(entry.url, entry.error);

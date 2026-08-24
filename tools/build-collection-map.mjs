@@ -4,7 +4,8 @@ import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 
 const REF = 'reference/webflow';
-const EXPORT = '/Volumes/Development/radix/radixdlt.com/static export';
+import { EXPORT, requireExport } from './lib/paths.mjs';
+requireExport('build-collection-map.mjs');
 const collections = JSON.parse(readFileSync(`${REF}/collections.json`, 'utf8'));
 
 // Live route prefixes, counted from the published sitemap.

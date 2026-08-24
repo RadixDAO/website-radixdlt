@@ -10,6 +10,9 @@ import { enumerate, signature } from './lib/dom-slots.mjs';
 import { collapseLists, documentParts } from './lib/html-slice.mjs';
 import { rewriteUrl } from './lib/rewrite-urls.mjs';
 import { applyShellPatch } from './lib/shell-patches.mjs';
+import { join } from 'node:path';
+import { EXPORT, requireExport } from './lib/paths.mjs';
+requireExport('derive-bindings.mjs');
 
 const collection = process.argv[2];
 const sampleCount = Number(process.argv[3] ?? 3);
@@ -54,7 +57,7 @@ if (existsSync(optionFieldsPath)) {
   }
 }
 
-const shellPath = `/Volumes/Development/radix/radixdlt.com/static export/${meta.detailTemplate}`;
+const shellPath = join(EXPORT, meta.detailTemplate);
 const shellRaw = readFileSync(shellPath, 'utf8');
 const shellDoc = documentParts(shellRaw);
 const shellHead = shellDoc.head;

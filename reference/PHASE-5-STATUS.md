@@ -1,5 +1,18 @@
 # Phase 5 — verification status
 
+> **Addendum, 2026-08-24.** These figures are from 2026-08-18 and no longer match a
+> current build, which scores **1,194 / 1,202** (chrome). Two causes, both drift in the
+> reference material rather than regressions in the build:
+>
+> * `/token` — `token.html` in the export was replaced out-of-band on 2026-08-24 with a
+>   newer Webflow publish (updated eXRD copy, plus two `w-dyn-list`s that were empty at
+>   export time and so carry Webflow's baked-in "No items found"). It no longer matches
+>   the 2026-08-18 live snapshot. It is the only export file with a post-08-18 mtime.
+> * `developers/ecosystem`, `lp/brave/*` and `navigation-featured-section/*` — listed
+>   below as failing, but now score exact.
+>
+> The export is committed as of this date, so it can no longer change without a commit.
+
 Every page compared against `reference/live/` (1,207 pages captured while Webflow
 was still serving). Two modes: `chrome` ignores CMS list interiors, `--lists`
 includes them.

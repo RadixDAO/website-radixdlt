@@ -3,7 +3,8 @@
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
-const EXPORT = '/Volumes/Development/radix/radixdlt.com/static export';
+import { EXPORT, requireExport } from './lib/paths.mjs';
+requireExport('build-url-inventory.mjs');
 const urls = new Set();
 const source = {};
 const add = (u, s) => { u = '/' + u.replace(/^\/+|\/+$/g, ''); if (u === '/') u = '/'; urls.add(u); (source[u] ||= new Set()).add(s); };

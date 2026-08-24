@@ -13,7 +13,8 @@ import { applyShellPatch } from './lib/shell-patches.mjs';
 
 const cols = JSON.parse(readFileSync('reference/collection-map.json', 'utf8'));
 const assetMap = JSON.parse(readFileSync('reference/asset-map.json', 'utf8'));
-const EXPORT = '/Volumes/Development/radix/radixdlt.com/static export';
+import { EXPORT, requireExport } from './lib/paths.mjs';
+requireExport('derive-detail-lists.mjs');
 
 // A MultiReference field's schema names the TARGET collection by id, not slug --
 // needed so a 'repeat' binding knows which collection prefix to build hrefs against.

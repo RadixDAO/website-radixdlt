@@ -10,7 +10,8 @@ import { join, dirname, relative } from 'node:path';
 import { documentParts, findTopLevelByClass, splitAt } from './lib/html-slice.mjs';
 import { rewriteHtml } from './lib/rewrite-urls.mjs';
 
-const EXPORT = '/Volumes/Development/radix/radixdlt.com/static export';
+import { EXPORT, requireExport } from './lib/paths.mjs';
+requireExport('convert-pages.mjs');
 const only = process.argv.slice(2).filter(a => !a.startsWith('-'));
 
 const excluded = new Set(

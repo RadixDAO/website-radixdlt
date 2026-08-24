@@ -4,7 +4,8 @@
 import { cpSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-const SRC = '/Volumes/Development/radix/radixdlt.com/static export';
+import { EXPORT as SRC, requireExport } from './lib/paths.mjs';
+requireExport('copy-static-assets.mjs');
 const DIRS = ['css', 'js', 'fonts', 'images', 'videos', 'documents'];
 
 mkdirSync('public', { recursive: true });
