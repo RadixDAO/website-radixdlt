@@ -22,7 +22,7 @@ export const GET: APIRoute = () => {
     const url = `${SITE}/podcast/${p.fieldData.slug}`;
     const raw = p.fieldData['guest-image']?.url ?? p.fieldData.image?.url;
     const img = raw ? SITE + assetPath(raw) : null;
-    const pub = new Date(p.lastPublished ?? Date.now());
+    const pub = new Date(p.lastPublished ?? 0);
     return '<item>'
       + `<title>${esc(`${p.fieldData.name}  |  ${SUFFIX}`)}</title>`
       + `<link>${esc(url)}</link>`
@@ -33,13 +33,17 @@ export const GET: APIRoute = () => {
       + '</item>';
   }).join('');
 
+  // Deterministic -- see the note in blog/rss.xml.ts.
+  const newest = eps.reduce((acc: number, p: any) =>
+    Math.max(acc, new Date(p.lastPublished ?? 0).getTime()), 0);
+
   const body = '<?xml version="1.0" encoding="utf-8"?>'
     + '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">'
     + '<channel>'
     + `<title>${esc(SUFFIX)}</title>`
     + `<link>${SITE}</link>`
     + '<description></description>'
-    + `<pubDate>${new Date().toUTCString()}</pubDate>`
+    + `<pubDate>${new Date(newest).toUTCString()}</pubDate>`
     + '<ttl>60</ttl>'
     + '<generator>Astro</generator>'
     + `<atom:link href="${SITE}/podcast/rss.xml" rel="self" type="application/rss+xml"/>`

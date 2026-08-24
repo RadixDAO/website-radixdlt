@@ -26,7 +26,7 @@ export const GET: APIRoute = () => {
   const items = posts.map((p: any) => {
     const url = `${SITE}/blog/${p.fieldData.slug}`;
     const img = p.fieldData.image?.url ? SITE + assetPath(p.fieldData.image.url) : null;
-    const pub = new Date(p.lastPublished ?? p.fieldData.date ?? Date.now());
+    const pub = new Date(p.lastPublished ?? p.fieldData.date ?? 0);
     return '<item>'
       + `<title>${esc(`${p.fieldData.name} | The Radix Blog | Radix DLT`)}</title>`
       + `<link>${esc(url)}</link>`
@@ -37,13 +37,19 @@ export const GET: APIRoute = () => {
       + '</item>';
   }).join('');
 
+  // Deterministic: the channel date is the newest post's, not the build's. A build
+  // timestamp here makes every build differ from the last, which turns tools/diff-dist.mjs
+  // into noise -- and a gate people learn to ignore is worse than no gate.
+  const newest = posts.reduce((acc: number, p: any) =>
+    Math.max(acc, new Date(p.lastPublished ?? p.fieldData.date ?? 0).getTime()), 0);
+
   const body = '<?xml version="1.0" encoding="utf-8"?>'
     + '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">'
     + '<channel>'
     + '<title>The Radix Blog</title>'
     + `<link>${SITE}</link>`
     + '<description>The Radix blog. Radix is an open source, public, decentralised ledger. Built to provide unlimited scale.</description>'
-    + `<pubDate>${rfc822(new Date())}</pubDate>`
+    + `<pubDate>${rfc822(new Date(newest))}</pubDate>`
     + '<ttl>60</ttl>'
     + '<generator>Astro</generator>'
     + `<atom:link href="${SITE}/blog/rss.xml" rel="self" type="application/rss+xml"/>`
