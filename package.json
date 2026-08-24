@@ -6,7 +6,7 @@
   "scripts": {
     "assets:copy": "node tools/copy-static-assets.mjs",
     "dev": "astro dev",
-    "build": "node tools/build-redirects.mjs && astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist",
     "convert": "node tools/convert-pages.mjs && node tools/convert-detail-templates.mjs",
     "gate": "node tools/diff-dist.mjs",
     "preview": "astro preview",
