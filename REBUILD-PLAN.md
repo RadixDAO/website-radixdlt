@@ -412,7 +412,26 @@ Two conclusions:
 
 1. Content collections — **DONE** (`eeda2fc`), 29 collections, 1,590 items, 0 divergences.
 2. Rewire `DetailPage` to content collections, retire `detail-data.mjs`.
-3. Nativise CMS templates, largest first: blog (618), articles-learn (211), then the rest.
+3. Nativise CMS templates, largest first. **DONE:** blog (618, `bdb7345`),
+   articles-learn (211). Remaining 18 collections / 324 pages measured by page shape
+   (tag+class tree, depth 4) -- they are NOT 18 templates:
+
+   | Shape | Pages | Collections |
+   |---|---|---|
+   | `923a59d8` | 197 | **8 share one template**: events 106, team-member 25, tweets 24, radix-services 11, full-stack-social-comments 9, project-categories 9, partners 8, faqs 5 |
+   | `b7e01466` | 36 | radix-opp-statuses |
+   | `7db24134` | 28 | projects |
+   | `a5012c62` | 16 | careers |
+   | `750a7bb4` | 14 | blog-author |
+   | `44f5fef7` | 11 | blog-category |
+   | `136e190a` | 8 | projects-6-highlighted |
+   | `7fdbbe65` | 5 | categories-learn |
+   | `73de8beb` | 5 | podcast |
+   | `a44f8a4f` | 3 | navigation-featured-section |
+   | `684e5a6b` | 1 | sub-categories-learn |
+
+   Same shape means same layout, not same bindings -- one component with per-collection
+   props, not eight components. About five tasks remain, not eighteen.
 4. Nativise the 49 static pages, one per task.
 5. Delete shells, bindings, layouts, converters. Move `source/` and `reference/` to an
    archive repo — **last**, once every route has passed its gate.
