@@ -41,5 +41,11 @@ export const VARIANT_NAMES = {
 };
 
 export function stripCurrentMarking(navHtml) {
+  // Remove aria-current="page" and w--current that were added by Webflow's current-page marking.
+  // The marking is applied as:
+  //   - insert aria-current="page" immediately before class=
+  //   - append " w--current" to the class value
+  // We reverse both with simple string replacement -- never re-serialize, just remove the
+  // exact bytes Webflow added. Only remove the specifically formatted tokens.
   return navHtml.replace(/ aria-current="page"/g, '').replace(/ w--current/g, '');
 }

@@ -6,6 +6,7 @@ import manifest from '../shells/manifest.json';
 import CollectionList from '../components/CollectionList.astro';
 import SiteHead from '../components/site/SiteHead.astro';
 import SiteNav from '../components/site/SiteNav.astro';
+import SiteFooter from '../components/site/SiteFooter.astro';
 import { bodyExtras } from '../lib/page-extras.mjs';
 
 interface Props { route: string }
@@ -39,6 +40,7 @@ const bodyAttrs = parseAttrs(page.bodyAttrs ?? '');
     {page.order.map((part: any) =>
       part.kind === 'html' ? <Fragment set:html={shell(part.file)} />
       : part.kind === 'nav' ? <SiteNav variant={part.variant} currentPath={currentPath} />
+      : part.kind === 'footer' ? <SiteFooter variant={part.variant} currentPath={currentPath} />
       : <CollectionList route={page.route} index={part.index} shell={shell(part.file)} />
     )}
     <Fragment set:html={bodyExtras(page.route)} />

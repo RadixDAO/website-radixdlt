@@ -53,7 +53,11 @@ export function markCurrent(navHtml, currentPath) {
     }
     const before = tag.slice(0, classMatch.index);
     const after = tag.slice(classMatch.index + classMatch[0].length);
-    const newTag = `${before}aria-current="page" class="${classMatch[1]} w--current"${after}`;
+    // Only append w--current if it's not already in the class (Webflow's marking is idempotent for already-marked links)
+    const classList = classMatch[1];
+    const hasCurrentMark = classList.includes('w--current');
+    const newClass = hasCurrentMark ? classList : `${classList} w--current`;
+    const newTag = `${before}aria-current="page" class="${newClass}"${after}`;
 
     out += navHtml.slice(cur, s) + newTag;
     cur = e;

@@ -35,6 +35,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -42,7 +50,8 @@
    "ogTitle": "Not Found",
    "twitterTitle": "Not Found"
   },
-  "nav": "careers"
+  "nav": "careers",
+  "footer": "main"
  },
  "a-game-changer-for-building-defi": {
   "route": "a-game-changer-for-building-defi",
@@ -62,6 +71,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -74,7 +91,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "all-recent-posts": {
   "route": "all-recent-posts",
@@ -112,6 +130,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -126,7 +152,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "blog"
+  "nav": "blog",
+  "footer": "main"
  },
  "blog": {
   "route": "blog",
@@ -218,6 +245,14 @@
    {
     "kind": "html",
     "file": "body.8.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.8.post.html"
    }
   ],
   "head": {
@@ -232,7 +267,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "blog"
+  "nav": "blog",
+  "footer": "main"
  },
  "complaints-procedure": {
   "route": "complaints-procedure",
@@ -252,6 +288,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -266,7 +310,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "data-breach-march-2022": {
   "route": "data-breach-march-2022",
@@ -286,6 +331,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -295,7 +348,8 @@
    "twitterTitle": "Data Breach March 2022 | Radix DLT - Decentralized Ledger Technology",
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "developers/devprogram": {
   "route": "developers/devprogram",
@@ -315,6 +369,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -327,7 +389,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers-nested"
+  "nav": "developers-nested",
+  "footer": "developers"
  },
  "developers/ecosystem": {
   "route": "developers/ecosystem",
@@ -446,6 +509,14 @@
    {
     "kind": "html",
     "file": "body.11.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.11.post.html"
    }
   ],
   "head": {
@@ -458,7 +529,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "developers/grants": {
   "route": "developers/grants",
@@ -478,6 +550,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -490,7 +570,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "developers/home": {
   "route": "developers/home",
@@ -537,6 +618,14 @@
    {
     "kind": "html",
     "file": "body.3.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers-nested"
+   },
+   {
+    "kind": "html",
+    "file": "body.3.post.html"
    },
    {
     "kind": "list",
@@ -594,7 +683,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers-nested"
+  "nav": "developers-nested",
+  "footer": "developers-nested"
  },
  "developers/lp/build-with-scrypto": {
   "route": "developers/lp/build-with-scrypto",
@@ -614,6 +704,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -626,7 +724,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "developers/lp/scrypto-vs-solidity": {
   "route": "developers/lp/scrypto-vs-solidity",
@@ -646,6 +745,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -658,7 +765,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "developers/lp/scrypto-web3": {
   "route": "developers/lp/scrypto-web3",
@@ -678,6 +786,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -690,7 +806,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "developers/sign-up": {
   "route": "developers/sign-up",
@@ -710,6 +827,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -722,7 +847,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "developers/submit-blueprint": {
   "route": "developers/submit-blueprint",
@@ -742,6 +868,14 @@
    {
     "kind": "html",
     "file": "body.0.post.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "developers"
+   },
+   {
+    "kind": "html",
+    "file": "body.0.post.post.html"
    }
   ],
   "head": {
@@ -754,7 +888,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "developers"
+  "nav": "developers",
+  "footer": "developers"
  },
  "ecosystem-directory": {
   "route": "ecosystem-directory",
@@ -810,6 +945,14 @@
    {
     "kind": "html",
     "file": "body.6.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.6.post.html"
    }
   ],
   "head": {
@@ -824,7 +967,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "ecosystem": {
   "route": "ecosystem",
@@ -844,6 +988,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -858,7 +1010,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "full-stack": {
   "route": "full-stack",
@@ -887,6 +1040,14 @@
    {
     "kind": "html",
     "file": "body.3.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "full-stack"
+   },
+   {
+    "kind": "html",
+    "file": "body.3.post.html"
    }
   ],
   "head": {
@@ -901,7 +1062,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main-nested"
+  "nav": "main-nested",
+  "footer": "full-stack"
  },
  "index": {
   "route": "index",
@@ -939,6 +1101,14 @@
    {
     "kind": "html",
     "file": "body.4.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.4.post.html"
    }
   ],
   "head": {
@@ -953,7 +1123,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "labs": {
   "route": "labs",
@@ -1018,6 +1189,14 @@
    {
     "kind": "html",
     "file": "body.5.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "labs"
+   },
+   {
+    "kind": "html",
+    "file": "body.5.post.html"
    }
   ],
   "head": {
@@ -1025,7 +1204,8 @@
    "ogTitle": "Labs",
    "twitterTitle": "Labs"
   },
-  "nav": "labs"
+  "nav": "labs",
+  "footer": "labs"
  },
  "learn/knowledge-base": {
   "route": "learn/knowledge-base",
@@ -1081,6 +1261,14 @@
    {
     "kind": "html",
     "file": "body.4.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "learn"
+   },
+   {
+    "kind": "html",
+    "file": "body.4.post.html"
    }
   ],
   "head": {
@@ -1093,7 +1281,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "learn"
+  "nav": "learn",
+  "footer": "learn"
  },
  "lp/brave/brave-landing": {
   "route": "lp/brave/brave-landing",
@@ -1114,6 +1303,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1127,7 +1324,8 @@
    "twitterImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "footer": "main"
  },
  "lp/brave/discover-report": {
   "route": "lp/brave/discover-report",
@@ -1148,6 +1346,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1161,7 +1367,8 @@
    "twitterImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "footer": "main"
  },
  "lp/brave/discover": {
   "route": "lp/brave/discover",
@@ -1182,6 +1389,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1195,7 +1410,8 @@
    "twitterImage": "https://www.radixdlt.com/assets/625d983475936822459f8f9e_Brave-Opengraphic.png",
    "ogType": true,
    "twitterCard": true
-  }
+  },
+  "footer": "main"
  },
  "lp/ebooks/web3report-brave": {
   "route": "lp/ebooks/web3report-brave",
@@ -1260,6 +1476,14 @@
    {
     "kind": "html",
     "file": "body.3.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.3.post.html"
    }
   ],
   "head": {
@@ -1267,7 +1491,8 @@
    "ogTitle": "Notices - Updates | Radix DLT - Decentralized Ledger Technology",
    "twitterTitle": "Notices - Updates | Radix DLT - Decentralized Ledger Technology"
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "notices": {
   "route": "notices",
@@ -1296,6 +1521,14 @@
    {
     "kind": "html",
     "file": "body.3.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.3.post.html"
    }
   ],
   "head": {
@@ -1303,7 +1536,8 @@
    "ogTitle": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology",
    "twitterTitle": "Notices - Known Issues | Radix DLT - Decentralized Ledger Technology"
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "podcast": {
   "route": "podcast",
@@ -1332,6 +1566,14 @@
    {
     "kind": "html",
     "file": "body.3.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.3.post.html"
    }
   ],
   "head": {
@@ -1347,7 +1589,8 @@
    "twitterCard": true,
    "skipInvariant": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "privacy-policy": {
   "route": "privacy-policy",
@@ -1367,6 +1610,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "privacy-policy"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1381,7 +1632,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "privacy-policy"
  },
  "radfi-thank-you": {
   "route": "radfi-thank-you",
@@ -1428,6 +1680,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "radfi"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1443,7 +1703,8 @@
    "twitterCard": true,
    "skipInvariant": true
   },
-  "nav": "radfi"
+  "nav": "radfi",
+  "footer": "radfi"
  },
  "radix-brand-pack": {
   "route": "radix-brand-pack",
@@ -1463,6 +1724,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1477,7 +1746,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "report": {
   "route": "report",
@@ -1497,6 +1767,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1506,7 +1784,8 @@
    "twitterTitle": "Report | Radix DLT - Decentralized Ledger Technology",
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "search": {
   "route": "search",
@@ -1535,6 +1814,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1542,7 +1829,8 @@
    "ogTitle": "Blog Search Results | Radix DLT - Decentralized Ledger Technology",
    "twitterTitle": "Blog Search Results | Radix DLT - Decentralized Ledger Technology"
   },
-  "nav": "blog"
+  "nav": "blog",
+  "footer": "main"
  },
  "signup/email-confirmation": {
   "route": "signup/email-confirmation",
@@ -1562,6 +1850,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1576,7 +1872,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "signup/mailing": {
   "route": "signup/mailing",
@@ -1596,6 +1893,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1605,7 +1910,8 @@
    "twitterTitle": "Mailing list | Radix DLT - Decentralized Ledger Technology",
    "twitterImage": "https://www.radixdlt.com/assets/6259b29982795d7439731a97_Radix-Homepage-Opengraph-1200x1200.png"
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "status/closed-issues": {
   "route": "status/closed-issues",
@@ -1634,6 +1940,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "status"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1641,7 +1955,8 @@
    "ogTitle": "Radix DLT | Services Status | Closed Issues",
    "twitterTitle": "Radix DLT | Services Status | Closed Issues"
   },
-  "nav": "status"
+  "nav": "status",
+  "footer": "status"
  },
  "status/current-issues": {
   "route": "status/current-issues",
@@ -1670,6 +1985,14 @@
    {
     "kind": "html",
     "file": "body.1.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "status"
+   },
+   {
+    "kind": "html",
+    "file": "body.1.post.html"
    }
   ],
   "head": {
@@ -1682,7 +2005,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "status"
+  "nav": "status",
+  "footer": "status"
  },
  "supercharging-defi-ecosystem-growth": {
   "route": "supercharging-defi-ecosystem-growth",
@@ -1702,6 +2026,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1714,7 +2046,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "token": {
   "route": "token",
@@ -1734,6 +2067,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1748,7 +2089,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "unlimited-scalability-forever": {
   "route": "unlimited-scalability-forever",
@@ -1768,6 +2110,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1780,7 +2130,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "wallet-landing-2": {
   "route": "wallet-landing-2",
@@ -1800,6 +2151,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1815,7 +2174,8 @@
    "twitterCard": true,
    "skipInvariant": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "wallet-landing-3": {
   "route": "wallet-landing-3",
@@ -1835,6 +2195,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1849,7 +2217,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "wallet-landing-4": {
   "route": "wallet-landing-4",
@@ -1869,6 +2238,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1884,7 +2261,8 @@
    "twitterCard": true,
    "skipInvariant": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "wallet-landing1": {
   "route": "wallet-landing1",
@@ -1904,6 +2282,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1919,7 +2305,8 @@
    "twitterCard": true,
    "skipInvariant": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "wallet": {
   "route": "wallet",
@@ -1939,6 +2326,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1953,7 +2348,8 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "whitepapers": {
   "route": "whitepapers",
@@ -1973,6 +2369,14 @@
    {
     "kind": "html",
     "file": "body.2.html"
+   },
+   {
+    "kind": "footer",
+    "variant": "main"
+   },
+   {
+    "kind": "html",
+    "file": "body.2.post.html"
    }
   ],
   "head": {
@@ -1987,6 +2391,7 @@
    "ogType": true,
    "twitterCard": true
   },
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  }
 }

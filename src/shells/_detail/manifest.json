@@ -4,42 +4,48 @@
   "htmlAttrs": "data-wf-page=\"69eb1e5730aad0a16f70abd6\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_articles-learn.html",
-  "nav": "learn"
+  "nav": "learn",
+  "footer": "learn"
  },
  "blog-author": {
   "collection": "blog-author",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94c\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_blog-author.html",
-  "nav": "blog"
+  "nav": "blog",
+  "footer": "main"
  },
  "blog-category": {
   "collection": "blog-category",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94d\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_blog-category.html",
-  "nav": "blog"
+  "nav": "blog",
+  "footer": "main"
  },
  "blog": {
   "collection": "blog",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94b\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_blog.html",
-  "nav": "blog"
+  "nav": "blog",
+  "footer": "main"
  },
  "careers": {
   "collection": "careers",
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d94e\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_careers.html",
-  "nav": "careers"
+  "nav": "careers",
+  "footer": "main"
  },
  "categories-learn": {
   "collection": "categories-learn",
   "htmlAttrs": "data-wf-page=\"69eb1e92745be047bb44b53b\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_categories-learn.html",
-  "nav": "learn"
+  "nav": "learn",
+  "footer": "learn"
  },
  "projects": {
   "collection": "projects",
@@ -89,7 +95,8 @@
   "htmlAttrs": "data-wf-page=\"649aa8a9681ec6168a57d966\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_podcast.html",
-  "nav": "main"
+  "nav": "main",
+  "footer": "main"
  },
  "project-categories": {
   "collection": "project-categories",
@@ -108,14 +115,16 @@
   "htmlAttrs": "data-wf-page=\"69eb0cc49d33f411d5e04328\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_radix-opp-statuses.html",
-  "nav": "status"
+  "nav": "status",
+  "footer": "status"
  },
  "sub-categories-learn": {
   "collection": "sub-categories-learn",
   "htmlAttrs": "data-wf-page=\"69eb1ebc49e0fc5f9abc3044\" data-wf-site=\"6053f7fca5bf627283b582c2\" lang=\"en\"",
   "bodyAttrs": "",
   "template": "detail_sub-categories-learn.html",
-  "nav": "learn"
+  "nav": "learn",
+  "footer": "learn"
  },
  "team-member": {
   "collection": "team-member",
