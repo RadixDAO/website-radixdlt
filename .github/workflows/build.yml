@@ -49,5 +49,11 @@ jobs:
       - name: Chrome invariants
         run: node tools/test-mark-current.mjs
 
+      # Catches design changes that verify.mjs structurally cannot see: Astro scoping a
+      # Webflow style (rewriting selectors so they stop matching) or emitting CSS of its
+      # own. See tools/test-astro-artifacts.mjs and commit bdb7345.
+      - name: No Astro styling artifacts
+        run: node tools/test-astro-artifacts.mjs
+
       - name: Link check
         run: node tools/check-links.mjs
