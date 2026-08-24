@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dd5a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:58.765Z",
+ "createdOn": "2021-04-30T19:43:17.086Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2021-04-30T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de36",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3b"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e178",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4adaed3b2859ac2dbe3_6087dce1b536c44097f009a8_the-radix-report.png",
+   "alt": null
+  },
+  "excerpt": "Betanet, a new website, and a lot of transactions! Radix delivers.",
+  "main-content": "<p id=\"\">This is a special issue of the Radix Report due to the busy week of big updates! It’ll be a little shorter than usual with just the one section, since all teams have been focused on the recent launches. Don’t worry though, in two weeks time we will be back to the regular format!<br></p><p id=\"\">The end of April was a big month for the whole Radix team and community. It started with Radix DLT Founder Dan successfully testing the Cassandra research network with 25 community validators to perform around<a id=\"\" href=\"https://twitter.com/fuserleer/status/1386035631130824707\"> 20k cross-shard atomic transactions</a> across two shard groups. Shortly after, a new and improved version of the Radix website went live (no need to link it, as you’re here!) which included a style upgrade as well as some new messaging. And the very next day the Radix Betanet went live with the wallet and explorer ready to use! We promised a big month, and Radix delivered.<br></p><p id=\"\">The betanet going live is a milestone we have been looking forward to for a while. While it’s been exciting testing it privately, seeing a flurry of transactions pinging all over the world and betanet wallet addresses flying into the <a id=\"\" href=\"https://t.me/radix_dlt\">Radix Telegram</a> within minutes of the wallet download going live is the moment we have been waiting for! Based on over <strong id=\"\">16k transactions</strong> and <strong id=\"\">280,000 test tokens</strong> being requested from the faucet in the last 36 hours, it seems a lot of other people were waiting for this moment as well. If you haven’t had the chance to test out the betanet yet, or want a reminder of how to get involved, head over to the <a id=\"\" href=\"https://www.radixdlt.com/post/radix-betanet-is-live-quickstart-guide\">quick start guide here</a>.<br></p><p id=\"\">Alongside the betanet going live, it was great to see the response to the new website going live. Seems word spread about it as well, as we have already seen 80% more users with 140% more page views and 38% higher session duration since the new site went live compared to average. While the design change may be the most noticeable, the update site also saw the debut of the refined Radix messaging. If you’re interested to know more behind the new messaging, make sure to read the <a id=\"\" href=\"https://www.radixdlt.com/post/radix-website-updated\">Website Update blog here</a>.&nbsp;&nbsp;&nbsp;&nbsp;<br></p><p id=\"\">The coming weeks will be exciting for all Radix followers, as there will be ongoing betanet testing, much work preparing for the Olympia mainnet release at the end of June, and a wave of exciting news.&nbsp;<br></p><p id=\"\">As always, the Radix community has been fantastic in helping to make this all possible. We appreciate all the feedback on betanet, the website, and all that is going on. Keep spreading the word, keep the energy high, and let’s make sure layer-1 DeFi is done right! </p><p id=\"\"><br></p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Radix Report April 30th",
+  "slug": "radix-report-april-30th"
+ }
+}

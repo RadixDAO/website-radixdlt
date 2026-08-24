@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648e2e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:20:10.304Z",
+ "createdOn": "2026-04-24T08:06:02.476Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\">Unstaking</strong></p><p id=\"\">Unstaking delegated stake from one’s own node works in precisely the same way as a third party unstakes. “Owner” stakers may use the <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-desktop-wallet-introduction\"><strong id=\"\">Desktop Wallet</strong></a> just like any other <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> holder and unstake tokens from their <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator</strong></a>. The same delay of 150 <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epochs</strong></a> is in place for network security.<br></p><p id=\"\"><strong id=\"\">Unregistering</strong></p><p id=\"\">If a validator node unregisters their node, this doesn’t take effect until the end of the current epoch. This is because all validator set changes happen at the epoch switchover - when the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix</strong> <strong id=\"\">Protocol</strong></a> selects a new <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a>. A validator is expected to correctly participate in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> through the end of the <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a> during which they requested unregistration. After this, the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a><strong id=\"\"> </strong>will no longer consider the node for inclusion in the validator set, regardless of the amount of stake delegated to it.<br></p><p id=\"\">To issue the command to unregister, the validator node operator creates a special unregister <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transaction</strong></a> from their node’s address. More details on this can be found in the <a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Technical Documentation</strong></a>.<br></p><p id=\"\">‍<strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">How to Stake and Unstake XRD in the Desktop Wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-happens-if-a-validator-node-drops-out-or-unregisters-during-an-epoch-2\"><strong id=\"\">What happens if a validator node “drops out” or unregisters during an epoch?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-register-a-validator-node\"><strong id=\"\">How do I register a validator node?</strong></a></li></ul><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How do validator nodes unstake or unregister?",
+  "slug": "how-do-validator-nodes-unstake-or-unregister-2"
+ }
+}

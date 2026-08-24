@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c9b6a80d580823d04dd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T09:26:15.594Z",
+ "createdOn": "2026-04-26T18:42:35.364Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 50,
+  "username": "scryptonight",
+  "icon": {
+   "fileId": "69eef863aa184f15f109ef65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbba9d1ead9c0be3367"
+  ],
+  "description": "This project provides a set of blueprints which when used together will allow you to offer micro-finance services on the ledger.",
+  "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/3-lending/demifi",
+  "website-url": null,
+  "name": "DeMIFI",
+  "slug": "demifi"
+ }
+}

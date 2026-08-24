@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc26",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:05:50.541Z",
+ "createdOn": "2021-04-25T17:18:01.878Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Chief of Staff - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dab5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60867914ad4ae273fa624cfb_stacey.png",
+   "alt": null
+  },
+  "bio-excerpt": "Hailing from NZ, Stacey has a strong background of Operations in tech startups. As Chief of Staff, she is working closely with Piers to steer the Radix ship",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/stacey-williams-53341336/",
+  "blank-item": false,
+  "order": 8,
+  "name": "Stacey Williams",
+  "slug": "stacey-williams"
+ }
+}

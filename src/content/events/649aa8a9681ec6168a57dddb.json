@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dddb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:55:30.893Z",
+ "createdOn": "2022-03-10T04:30:55.561Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e250",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491b593d0d3bb5449863_622a274a54b2785b3bd8b3ed_Consensus%25202022.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "RDX Works will participate in Consensus, the most influential crypto & blockchain experience of the year since 2015, will return to an in-person format and be held in Austin, Texas, for the first time ever. This is the only festival showcasing and celebrating all sides of the blockchain, crypto, NFT, and Web 3 ecosystems, and their wide-reaching effect on commerce, culture, and communities. Curated and produced by CoinDesk, Consensus will bring together tens of thousands of attendees to hear from the most sought-after thought leaders and experience a wide range of discussions, meetings, parties, music performances, dinners, experiences, and much more.",
+  "location": "Austin, Texas",
+  "start-date": "2022-06-09T00:00:00.000Z",
+  "end-date": "2022-06-12T00:00:00.000Z",
+  "event-link-text": "Get Tickets",
+  "event-link-url": "https://www.coindesk.com/consensus2022/",
+  "name": "Consensus by Coindesk",
+  "slug": "consensus2022"
+ }
+}

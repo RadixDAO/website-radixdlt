@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de9d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-09-25T17:21:27.568Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-09-25T00:00:00.000Z",
+  "guest-name": "Florian Pieper and Lucas Steffen",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e2d2",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63308de9a49e6fd813a6a615_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e2d3",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63308deecb8b12a26b9b3088_yiIU25Gw_400x400.jpeg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard is joined by Florian and Lukas, co-founders of Ociswap. Ociswap is the first Radix native decentralised exchange going live with Babylon with a focus on concentrated liquidity, capital efficiency and protocol-owned liquidity.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/dxWiPfZA-Ek\"><div><iframe src=\"https://www.youtube.com/embed/dxWiPfZA-Ek\" title=\"Ociswap: bringing concentrated liquidity to Radix\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍</p><p id=\"\">For exchanging your preferred cryptocurrencies on RadixDLT, Ociswap will offer a secure, trustless, and self-custodial environment. On the very first day of the Babylon update, it will debut as the first pairwise DEX that is native to Radix.&nbsp;</p><p id=\"\">The Ociswap team is looking towards protocol-owned liquidity and ways to lessen the effects of impermanent loss in addition to providing capital-efficient Automated Market Maker capabilities.</p><p id=\"\"><strong id=\"\">[01:07]</strong> Lukas and Florian discuss their crypto experience and how they discovered Radix.</p><p id=\"\"><strong id=\"\">[06:58]</strong> The Ociswap team is waiting for Radix to launch Babylon, at which point smart contracts will be available. However, Ociswap is already live on Olympia.</p><p id=\"\"><strong id=\"\">[10:37]</strong> Lucas discusses what they've learned in the two or three weeks of running an exchange that they didn't know previously.</p><p id=\"\"><strong id=\"\">[12:38]</strong> What advice would Florian and Lukas offer to anyone thinking about building their own project on top of Radix in terms of community development?&nbsp;</p><p id=\"\"><strong id=\"\">[16:25]</strong> Florian discusses the three objectives—concentrated liquidity, capital efficiency, and protocol-owned liquidity—that they want to accomplish with Ociswap v1, which will debut on Babylon.</p><p id=\"\"><strong id=\"\">[19:05]</strong> The definition of capital efficiency</p><p id=\"\"><strong id=\"\">[21:14]</strong> How does Ociswap manage liquidity on behalf of the user such that the protocol does not bear all of the risk?</p><p id=\"\"><strong id=\"\">[29:19]</strong> Florian's experiences building using Scrypto thus far, and how they vary from his previous experiences. What kinds of things has he learned while building Ociswap towards Babylon?</p><p id=\"\"><strong id=\"\">[32:30]</strong> The members of the current Ociswap team</p><p id=\"\"><strong id=\"\">[35:10]</strong> How far has the team progressed in terms of achieving all of the capabilities mentioned in terms of protocol-owned liquidity and concentrated liquidity?</p><p id=\"\"><strong id=\"\">[39:24]</strong> What does Florian love most about building with Scrypto, given that he has been tackling genuine challenges as one of the most experienced, production Scrypto developers in the Radix community at the moment?</p><p id=\"\"><strong id=\"\">[42:23]</strong> Lukas goes over some of the milestones they have reached thus far, as well as what they hope to accomplish in the coming months.</p><h2 id=\"\">Further resources</h2><ul id=\"\"><li>Website: <a id=\"\" href=\"https://ociswap.com/\">ociswap.com</a></li><li>Documentation: <a id=\"\" href=\"https://docs.ociswap.com/\">Ociswap Docs</a></li><li>Twitter: <a id=\"\" href=\"https://twitter.com/ociswap\">@ociswap</a>, Lukas: <a id=\"\" href=\"https://twitter.com/lu5st\">@lu5st</a>, Florian: <a id=\"\" href=\"https://twitter.com/f_pieper\">@f_pieper</a></li><li>Discord: <a id=\"\" href=\"https://discord.gg/tAWnagKBVk\">Ociswap – Radix DEX</a></li><li>Telegram: <a id=\"\" href=\"https://t.me/ociswap\">Ociswap - The Radix DEX</a></li><li>Reddit: <a href=\"https://www.reddit.com/r/Ociswap/\">r/Ociswap</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11380864-ociswap-bringing-concentrated-liquidity-to-radix",
+  "name": "Ociswap: bringing concentrated liquidity to Radix",
+  "slug": "ociswap-bringing-concentrated-liquidity-to-radix"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc22",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:03:49.994Z",
+ "createdOn": "2021-04-25T18:41:43.011Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": true,
+  "jersey-team-member": false,
+  "role": "<p>Founder - RDX&nbsp;Works Ltd</p><p>Director - Radix Tokens (Jersey) Limited</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57db85",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c21fe1567140cd79eb61_dan.png",
+   "alt": null
+  },
+  "bio-excerpt": "Dan founded Radix after developing & selling IP now found in key mobile NFC payment technology. He also designed and co-built T-Mobile’s 1st mobile app platform",
+  "twitter": "https://twitter.com/fuserleer",
+  "linkedin": "https://www.linkedin.com/in/dan-hughes-2a6b117/",
+  "blank-item": false,
+  "order": 1,
+  "name": "Dan Hughes",
+  "slug": "dan-huges"
+ }
+}

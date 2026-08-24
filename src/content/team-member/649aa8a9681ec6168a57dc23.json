@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc23",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-25T19:25:57.485Z",
+ "createdOn": "2021-04-25T17:18:01.969Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": true,
+  "jersey-team-member": true,
+  "role": "<p>Director - Radix Tokens (Jersey) Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57db01",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c2423142cc2b55bb9cb9_andrew.png",
+   "alt": null
+  },
+  "bio-excerpt": "An experienced chartered director with an entrepreneurial approach to business. Founded a number of businesses in the areas of datacentres, big data, fintech and gambling, was instrumental in developing Jersey’s crypto currency legislation.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/andrewjarrett1/",
+  "blank-item": false,
+  "order": 5,
+  "name": "Andrew Jarrett",
+  "slug": "andrew-jarrett"
+ }
+}

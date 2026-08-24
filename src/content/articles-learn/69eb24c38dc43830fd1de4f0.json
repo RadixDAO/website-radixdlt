@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4f0",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:26:51.498Z",
+ "createdOn": "2026-04-24T08:06:56.280Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb21e44af4817cdac9ab72",
+  "sub-category": "69eb218cb180744096bf8208",
+  "full-article-text": "<p id=\"\">Yes, it is possible to create new tokens.<br></p><p id=\"\">The application layer of the <a id=\"\" href=\"https://www.radixdlt.com/post/radix-olympia-mainnet-is-coming\"><strong id=\"\">Radix Olympia Mainnet</strong></a> is the<strong id=\"\"> </strong><a id=\"\"><strong id=\"\">Radix Engine v1</strong></a> which includes functionality for developers to create new <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a>.<br></p><p id=\"\">Radix Engine v1 allows for new tokens to be created, named, minted, burned, and transacted via the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-apis-are-relevant-to-the-radix-public-network\"><strong id=\"\">Gateway API</strong></a><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-use-the-json-rpc-radix-node-api\">.</a> Users will not be able to do this via the <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-desktop-wallet-introduction\"><strong id=\"\">Desktop Wallet</strong></a>, and so we expect this feature to be used only by developers.<br></p><p id=\"\">These newly minted tokens can be accessed and used in exactly the same way as XRD, however, they cannot be staked<strong id=\"\"> </strong>or used to pay <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-transaction-fees-work-on-radix-are-they-burned\"><strong id=\"\">transaction fees.</strong></a>&nbsp;&nbsp;<br></p><p id=\"\">Even though Radix Engine v1 does not have user-created Component or Blueprint “smart contract” functionality, tokens created on Olympia demonstrate the kind of easy re-use of common functionality, without writing or deploying new code, that <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-components-blueprints-and-the-blueprint-catalog\"><strong id=\"\">Blueprints</strong></a> will enable for virtually any type of DeFi functionality later with Radix Engine v2 in the Babylon release. <br></p><p id=\"\">If you have the technical skills, and would like to create a token, please visit the <a id=\"\" href=\"https://docs.radixdlt.com/main/node-api/creating-a-token.html\"><strong id=\"\">Radix Tech Docs</strong></a><strong id=\"\">.</strong><br></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-can-i-do-on-the-olympia-mainnet\"><strong id=\"\">What can I do on the Olympia mainnet?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/is-it-possible-to-create-new-tokens-on-the-olympia-mainnet\"><strong id=\"\">What is Radix Engine?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-components-blueprints-and-the-blueprint-catalog\"><strong id=\"\">What are Components, Blueprints, and the Blueprint Catalog?&nbsp;</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-desktop-wallet-introduction\"><strong id=\"\">Start Here! Desktop Wallet Introduction</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 5,
+  "name": "Is it possible to create new tokens on the Olympia Mainnet?",
+  "slug": "is-it-possible-to-create-new-tokens-on-the-olympia-mainnet"
+ }
+}

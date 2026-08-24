@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c966560b7414bf58e6e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T09:25:30.581Z",
+ "createdOn": "2026-04-26T18:42:30.475Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 50,
+  "username": "backyard-coder",
+  "icon": {
+   "fileId": "69eef863aa184f15f109ef65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbdd535bb6852e4987f"
+  ],
+  "description": "This oracle style component gives blueprint developers the power to schedule method callbacks to happen at a specific epoch or wall-clock time. It also showcases the flexibility and power of Scrypto's asset oriented approach.",
+  "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/2-oracles/callback-scheduler",
+  "website-url": null,
+  "name": "CallbackScheduler",
+  "slug": "callbackscheduler"
+ }
+}

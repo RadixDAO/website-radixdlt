@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de562",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:25:31.766Z",
+ "createdOn": "2026-04-24T08:07:30.817Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\">XRD</strong> is the native <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a><strong id=\"\">.</strong>&nbsp; XRD is the only token that can be used to pay <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-transaction-fees-work-on-radix-are-they-burned\"><strong id=\"\">transaction fees</strong></a> on Radix. XRD is also the only token that can be <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-staking\"><strong id=\"\">staked</strong></a> to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">secure</strong></a> the network as part of <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Radix’s Delegated Proof of Stake System</strong></a> and <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-token-holders-earn-and-claim-xrd-emissions-rewards\"><strong id=\"\">earn rewards</strong> </a>for token holders.&nbsp;</p><p id=\"\"><strong id=\"\">eXRD, </strong>as an ERC20 token, is the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a><strong id=\"\">-</strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-wrapped-token\"><strong id=\"\">wrapped</strong></a> version of XRD. eXRD serves as a permanent link between Radix and the Ethereum network, and it can be exchanged 1:1 with XRD, in both directions, via <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-instabridge\"><strong id=\"\">Instabridge</strong></a>.</p><p id=\"\">eXRD allows XRD token holders to deploy their capital within the Ethereum <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> ecosystem, improving interoperability between the Radix and Ethereum ecosystems.</p><p id=\"\">eXRD will never expire, so there will never be a cutoff for swapping between eXRD and XRD.&nbsp;</p><p id=\"\">Because eXRD and XRD are exchangeable 1:1, arbitrageurs might be expected to keep the price of the two tokens at parity.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-can-i-purchase-xrd-and-exrd-tokens\"><strong id=\"\">How can I purchase eXRD and XRD tokens?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-instabridge\"><strong id=\"\">What is Instabridge?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">What are the Radix Public Network and Radix Ledger?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-transaction-fees-work-on-radix-are-they-burned\"><strong id=\"\">How do transaction fees work on Radix? Are they burned?</strong></a></li><li id=\"\"><strong id=\"\">Radix Blog - </strong><a id=\"\" href=\"https://www.radixdlt.com/post/making-xrd-a-cross-chain-token-with-exrd-and-instabridge\"><strong id=\"\">Making XRD a Cross-Chain Token With eXRD and Instabridge</strong></a></li><li id=\"\"><a id=\"\" href=\"https://assets.website-files.com/6053f7fca5bf627283b582c2/6088147cbbc08674b4975349_Economic-2020-V10.4.pdf\"><strong id=\"\">Radix Economics White Paper</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 4,
+  "name": "What are the XRD and eXRD tokens?",
+  "slug": "what-are-the-xrd-and-exrd-tokens"
+ }
+}

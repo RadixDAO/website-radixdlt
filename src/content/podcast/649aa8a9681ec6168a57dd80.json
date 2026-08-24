@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd80",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-10-01T13:16:47.306Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-10-01T00:00:00.000Z",
+  "guest-name": "Douglas Horn",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e034",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/615706e6ca4cb838b0c8a39f_Head.jpg",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e035",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/615706fe014257228c3eecfe_telos-logo-light-e1579090031688.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download podcast. Piers Ridyard interviews Douglas Horn, the Chief Architect of Telos. They discuss the Telos EVM and the EOSIO development environment, as well as how to solve the Governance and Miner-Extractable Value problems. ",
+  "main-content": "<p>In this episode of the DeFi Download podcast. Piers Ridyard interviews Douglas Horn, the Chief Architect of Telos.</p><p>Douglas is the founder of GoodBlock and the Chief Architect at Telos. He began developing for EOSIO and Ethereum-based chains after many years of producing film and video projects as well as interactive games for large corporations and brands such as Disney, Microsoft, Amazon, and Pokémon.&nbsp;</p><p>Douglas joined a group that began building a new network using EOSIO and incorporating several of their own innovations. The result was Telos, a public ledger that rebuilt the EVM for high performance and is dedicated to bringing the best of Ethereum to the mainstream.</p><p>In this episode, Douglas and Piers discuss the critical issue of governance and how Telos intends to make it easier and more inclusive, as well as the Miner-Extractable Value problem, which the Telos EVM solves at a lower cost and with greater capacity and speed than other platforms.&nbsp;</p><p><strong>[00:36] </strong>Douglas Horn's background prior to Telos, his introduction to cryptocurrency, and his involvement with the EOS Mainnet Launch Group&nbsp;</p><p><strong>[03:05] </strong>What EOS did right</p><p><strong>[08:20] </strong>EOS's core technology</p><p><strong>[09:25]</strong> What are the reasons for the lack of widespread adoption of the EOSIO development environment?</p><p><strong>[17:59]</strong> What issues is Telos attempting to address?</p><p><strong>[20:37]</strong> Can a completely decentralized organization rally people around it in the absence of a visionary, charismatic leader at its core, or do “people follow people, not ideas”?</p><p><strong>[25:40]</strong> What does the Telos protocol's intrinsic governance entail?&nbsp;</p><p><strong>[28:41]</strong> The advantages of building on the Telos Network</p><p><strong>[29:53]</strong> How does voting work in GoodBlock's Decide Voter App?</p><p><strong>[38:05]</strong> What exactly is the Miner-Extractable Value, and why is it a concern? What steps does Telos take to put a stop to an MEV attack?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://www.telos.net/\">Telos.net</a>, <a href=\"https://wallet.telos.net/\">Telos Wallet</a>, <a href=\"https://app.telos.net/\">Telos App</a></li><li>Twitter: The Telos Foundation: <a href=\"https://twitter.com/HelloTelos\">@HelloTelos</a>‍</li><li>Douglas Horn: <a href=\"https://twitter.com/Douglas_Horn\">@Douglas_Horn</a>‍</li><li>Telegram: <a href=\"http://t.me/HelloTelos\">t.me/HelloTelos</a><a href=\"https://decidevoter.app/\">‍</a></li><li><a href=\"https://decidevoter.app/\">Decide Voter app</a></li></ul><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9292938-telos-the-best-bits-of-eos-and-ethereum-without-the-compromise",
+  "name": "Telos: the best bits of EOS and Ethereum, without the compromise",
+  "slug": "telos-the-best-bits-of-eos-and-ethereum-without-the-compromise"
+ }
+}

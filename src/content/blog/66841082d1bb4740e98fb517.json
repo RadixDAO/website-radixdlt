@@ -1,0 +1,33 @@
+{
+ "id": "66841082d1bb4740e98fb517",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-07-05T10:43:02.625Z",
+ "lastUpdated": "2024-07-02T16:28:42.940Z",
+ "createdOn": "2024-07-02T14:36:50.248Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2024-07-02T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": null,
+  "featured-post": true,
+  "blog-category": [
+   "649aa8a9681ec6168a57de39",
+   "649aa8a9681ec6168a57de41"
+  ],
+  "image": {
+   "fileId": "6684105f357ab149ac8fad7f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6684105f357ab149ac8fad7f_Radix%20Connect%20-%20for%20mobile%20(2).png",
+   "alt": null
+  },
+  "excerpt": "Radix Wallet v1.7 is now live, extending Radix Connect functionality to now support mobile dApps. This means that the Radix Wallet can now connect seamlessly with dApp web pages running in any mobile web browser on the same phone. ",
+  "main-content": "<p id=\"\">Radix Wallet v1.7 is now live, extending Radix Connect functionality to now support<strong id=\"\"> </strong>mobile dApps. This means that the Radix Wallet can now connect seamlessly with dApp web pages running in any mobile web browser on the same phone.&nbsp;</p><p id=\"\">Radix Connect for Mobile allows users to explore the Radix Ecosystem using only their Radix Wallet and a mobile browser without compromising on security or the exceptional user experience Radix provides. With this update, the Radix Ecosystem opens up to a much wider user base and will provide countless opportunities for dApps built on Radix.</p><p id=\"\">Radix Connect technology continues to support dApps in desktop browsers for a big-screen experience, but has now been extended to also enable a fully mobile dApp experience. Mobile dApps will let Radix onboard new users more easily, and for dApps to solve an even wider set of exciting use cases where instant access from anywhere is key.&nbsp;Mobile dApp capability will be shown off with a coming multi-million dollar user onboarding campaign planned for this summer as part of #Breakout2024.</p><p id=\"\">dApp developers who want to take advantage of mobile support only need to do a quick update to a new version of Radix dApp Toolkit. With that done, the rest is just a matter of traditional web design for mobile browsers. That means that the Radix Ecosystem can quickly begin updating their dApps to support mobile use, starting today. As that happens, marketing promotion for mobile experiences on Radix can begin to ramp up.&nbsp;</p><h2 id=\"\"><strong id=\"\">About the Radix Wallet’s Mobile Focus&nbsp;</strong></h2><p id=\"\">Extending Radix Connect to support dApps on mobile is part of the ongoing strategy to create the ultimate Web3 wallet user experience. That experience is built around a Radix Wallet built from the ground up as a mobile app for iOS and Android.</p><p id=\"\">Focusing on a mobile app was the right choice because ultimately a Web3 wallet should be something that you can always carry around with you. People increasingly rely on their phones as their access point for their digital lives, and that makes it simply the right solution for a digital wallet – as long as that wallet can be <em id=\"\">used anywhere </em>and can hold all of your digital assets <em id=\"\">securely</em>.</p><p id=\"\">Radix Connect is the technology that lets the Radix Wallet connect anywhere, and continues to expand in capability. First, Radix Connect let users connect seamlessly to dApps running in desktop browsers (via the Radix Connector browser extension), because users said that they preferred the big-screen DeFi experience. Next up, today’s Radix Wallet release adds the ability to connect to dApps running in mobile browsers, providing a fully on-the-go experience when desired. In the future, Radix Connect can be further extended to connect to native mobile applications, desktop applications, and even things like Telegram bots, enterprise backend systems, and point of sale systems.</p><p id=\"\">Making the mobile Radix Wallet secure is always a priority. That’s why the next major wallet milestone is the addition of multi-factor account control and recovery that will provide robust and usable security for Accounts and Persona logins – including using easy and secure on-the-go devices like the Arculus card. For now, the Radix Wallet continues to support Ledger devices for secure cold storage.</p><h2 id=\"\"><strong id=\"\">Get Started with Mobile dApps with the Radix Wallet</strong></h2><p id=\"\">If you’re an existing Radix Wallet user, all you need to do is update your iOS or Android Radix Wallet app to version 1.7 or later. For new users, the best place to get started with the Radix Wallet is the official download and setup page at <a id=\"\" href=\"http://wallet.radixdlt.com\">wallet.radixdlt.com</a>.&nbsp;</p><p id=\"\">To try out the mobile dApp experience, the Gumball Club demo dApp has already been updated fully for mobile; just open up <a id=\"\" href=\"https://gumball-club.radixdlt.com\">gumball-club.radixdlt.com</a> in your favorite mobile web browser on the phone where you have your Radix Wallet.</p><p id=\"\">Other official dApps like the Radix Dashboard (and its staking functionality) and the Developer Console can also now be used on mobile, but will have their designs updated for mobile-native presentation in the near future.</p><p id=\"\">For more about using mobile dApps with the Radix Wallet, including information about supported browsers (hint: it’s all of them) and using Ledger hardware wallets (TL;DR you’ll still need to connect them through your PC, but mobile-oriented hardware wallet options are coming), <a href=\"https://learn.radixdlt.com/article/does-the-radix-wallet-support-mobile-dapps\">see this entry on the Radix Knowledge Base</a>.</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Radix Connect for Mobile dApps - Out Now!",
+  "slug": "radix-connect-for-mobile-dapps---out-now"
+ }
+}

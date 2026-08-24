@@ -1,0 +1,31 @@
+{
+ "id": "66dafff2b67e74e21f26556f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:24:33.616Z",
+ "createdOn": "2024-09-06T13:13:22.087Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A DeFi Tech Lab focused on enabling decentralized finance for a broader audience by bringing real-world assets to the Radix network.",
+  "project-logo": {
+   "fileId": "66df183659edc7bb5a3e1775",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df183659edc7bb5a3e1775_color4_2.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1839db775db9ba09fd3e",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1839db775db9ba09fd3e_2_2.png",
+   "alt": null
+  },
+  "link-to-project": "https://srwa.io/",
+  "categories": [
+   "66dafd66ee5760990041564f",
+   "66dafd303535702e99f6c8f5"
+  ],
+  "rank": 9,
+  "featured": false,
+  "name": "SRWA",
+  "slug": "srwa"
+ }
+}

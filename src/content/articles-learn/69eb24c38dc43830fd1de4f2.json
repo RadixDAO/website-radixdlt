@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4f2",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:57.118Z",
+ "createdOn": "2026-04-24T08:06:57.118Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">In <a id=\"\" href=\"https://www.radixdlt.com/post/replaying-bitcoin\"><strong id=\"\">2019 Radix achieved over 1 million transactions per second</strong></a> using Tempo, the predecessor to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix’s</strong> <strong id=\"\">Cerberus</strong></a><strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus protocol</strong></a>. In 2023, as part of the validation that went into publishing the <a id=\"\" href=\"https://www.radixdlt.com/blog/cerberus-consensus-peer-reviewed\"><strong id=\"\">Cerberus paper in the peer-reviewed Journal for Systems Research</strong></a>, tests showed that Cerberus comfortably exceeded 1 million transactions per second under multiple scenarios as per the below graphic.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1600px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1600px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24a08dc43830fd1dde2a_65142c3bd1ee03c99d82cc63_bbAxxTwwUz6lz_VsLE0Dj7-KNAdhuDH3yhfkzjKT67dHoaDnp1cvYECyHqwTB1qcoR5UThkoHMPghh7y68ww-oF6-y9Td9VsWsTZc72fnxRsqpDqQfT8yTjKtICm0i_edUL6N6a_tb50CmFjuY6AgaU.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">What linear scalability looks like, with Cerberus processing over 1m transactions per second (TPS) in some scenarios</p><h1 id=\"\">Tempo Demonstration 2019</h1><p id=\"\">The demonstration replayed the entire 10 years of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">Bitcoin</strong></a> transaction history with full <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transaction</strong></a> and signature validation, in under 30 minutes, on a network of 1,187 Google servers spread across 17 countries. This is the world record for decentralized ledgers and is more throughput than centralized and established payment processors like Alipay, Paypal, or WeChat.</p><p id=\"\">The key innovation in Tempo enabling this kind of scale was the use of a pre-sharded data structure to group related <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-state-and-state-change-mean\"><strong id=\"\">state</strong> <strong id=\"\">changes</strong></a> and separate unrelated state changes for parallel processing.</p><p id=\"\">While Tempo achieved incredible <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">scalability</strong></a>, it also became apparent that the way it conducted parallel consensus was not able to guarantee settlement finality in some possible circumstances.&nbsp;</p><p id=\"\">As this was not good enough, we went back to the drawing board. These lessons formed the foundation for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Cerberus</strong></a>, Radix’s unique consensus protocol, which retains Tempo’s pre-sharded data structure innovation.&nbsp;</p><p id=\"\">You can read about the fully documented journey and lessons learned from Tempo in <a id=\"\" href=\"https://www.radixdlt.com/post/tempo-consensus-lessons-learned\"><strong id=\"\">this article</strong></a>. For a more thorough overview of the previous tech iterations since 2013, you can read about Dan and Radix’s Tech Journey in <a id=\"\" href=\"https://www.radixdlt.com/post/dan-and-radixs-tech-journey\"><strong id=\"\">this article</strong></a><strong id=\"\">.&nbsp;</strong></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/blog/cerberus-consensus-peer-reviewed\"><strong id=\"\">Cerberus Consensus: Peer Reviewed</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack-2\"><strong id=\"\">What is a Sybil attack?&nbsp;</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?&nbsp;</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/tempo-consensus-lessons-learned\"><strong id=\"\">Tempo - Consensus Lessons Learned</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/dan-and-radixs-tech-journey\"><strong id=\"\">Dan &amp; Radix’s Tech Journey</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 8,
+  "name": "Is it true that Radix achieved over 1 million transactions per second?",
+  "slug": "is-it-true-that-radix-achieved-over-1-million-transactions-per-second"
+ }
+}

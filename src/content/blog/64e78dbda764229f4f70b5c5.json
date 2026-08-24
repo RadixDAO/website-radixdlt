@@ -1,0 +1,33 @@
+{
+ "id": "64e78dbda764229f4f70b5c5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-10-03T10:08:02.171Z",
+ "lastUpdated": "2023-10-03T10:07:02.167Z",
+ "createdOn": "2023-08-24T17:05:01.591Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2023-08-24T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de39",
+   "649aa8a9681ec6168a57de3a"
+  ],
+  "image": {
+   "fileId": "64e78d77a764229f4f707612",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64e78d77a764229f4f707612_Olympia-Protocol-released.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\">The last update to the Olympia public network has now been released to node runners, officially starting the countdown until the sunset of Olympia and the dawn of a new era for programmability and usability with Babylon.</p><h3 id=\"\"><strong id=\"\">How does it work?</strong></h3><p id=\"\">Like all coordinated updates on Olympia, a new version of the node is created which is fully backwards compatible with the version currently running on mainnet.&nbsp; Validators who adopt the new software cast an on-ledger vote indicating that they have adopted the update and are ready to proceed.&nbsp; The weight of a vote is equivalent to the amount of XRD staked to that validator.</p><p id=\"\">In order for an update to be enacted, two things have to occur:</p><ol id=\"\"><li id=\"\">A hard-coded vote threshold has to be reached.</li><li id=\"\">A minimum network epoch number must have passed.</li></ol><p id=\"\">Once both of those conditions are met, the entire network deterministically switches to the new protocol.&nbsp; Normally, the network then continues ticking along with the new rules, but this last protocol update is a little more exciting…</p><h3 id=\"\"><strong id=\"\">How does <em id=\"\">this one</em> work?</strong></h3><p id=\"\">At the moment the last protocol update is enacted, the network will cease processing new transactions, and every node will calculate the Olympia network end state and save the results.&nbsp; Then they sit, waiting for anyone to ask them about that end state.</p><p id=\"\">In the run-up to this moment, Babylon nodes have been sitting around twiddling their thumbs, periodically nagging the Olympia nodes to ask if Olympia is done yet.&nbsp; Once the state calculation has completed, the Olympia nodes say “here you go” and pass on that final state to the Babylon nodes, who will use it as input for the genesis of the Babylon network, <a id=\"\" href=\"https://www.radixdlt.com/blog/babylon-automatic-migration-guide\">seamlessly migrating everything</a> to the new model.&nbsp; As soon as Babylon validators comprising over 2/3rds of staked XRD have completed ingesting the state, Babylon begins!</p><h3 id=\"\"><strong id=\"\">So the switch happens on September 27th?</strong></h3><p id=\"\">Because all this update logic is tied to epoch numbers, which don’t have perfectly predictable durations on Olympia, there’s some educated guesswork at play here in order to achieve the desired calendar date of September 27th.&nbsp; The last protocol update includes a minimum update epoch which is targeted, based on average network speed over time, to occur on that date.&nbsp; As long as validators meeting the stake threshold (79%, in this particular case) have cast their vote by then, Olympia will enact the shutdown sequence.&nbsp; If the network is running faster or slower than average over the next month, it will be a little sooner or a little later, and no doubt some eager beavers in the community will be putting up countdown timers that constantly update the exact predicted moment for the changeover.</p><h3 id=\"\"><strong id=\"\">What about the Babylon node software?</strong></h3><p id=\"\">While community validators have already been running test builds of the Babylon node on the RCnet test networks, the production-ready version will not be released until September, with plenty of time left for them to get set up for the changeover.&nbsp; There will also be another public test of a Stokenet migration, to be doubly sure that everyone has had a chance to get used to the process.</p><h3 id=\"\"><strong id=\"\">Is it time to get excited?</strong></h3><p id=\"\">Absolutely.</p><p id=\"\">‍</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Final Olympia Protocol Update Released",
+  "slug": "final-olympia-protocol-update-released"
+ }
+}

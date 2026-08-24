@@ -1,0 +1,33 @@
+{
+ "id": "649aa8a9681ec6168a57de26",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:46.448Z",
+ "createdOn": "2022-05-31T10:21:34.497Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2022-05-31T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de40",
+   "64a6bc7c6c0b576765c2c6ec"
+  ],
+  "image": {
+   "fileId": "64b91ae69c8880298a712cb7",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64b91ae69c8880298a712cb7_6295e99b68ebb36ddaf4afe6_Bildschirmfoto%25202022-05-17%2520um%252009.46.32.png",
+   "alt": null
+  },
+  "excerpt": "The Scrypto Developer workshop is back after a sold-out event in Lisbon!",
+  "main-content": "<p id=\"\">The Scrypto Developer workshop is back after a sold-out event in Lisbon!</p><p id=\"\">This time the team is in Austin, Texas, attending one of the most significant events on the crypto calendar, <a id=\"\" href=\"https://www.radixdlt.com/post/radix-in-texas-consensus-2022\">Consensus 2022</a>, where prominent builders and investors head each year to eye the competition and plan for the future.&nbsp;</p><p id=\"\">What better place to show off the magic of asset-oriented programming?</p><p id=\"\">This full-day developer-focused event introduces you to Scrypto, Radix's <a id=\"\" href=\"https://www.radixdlt.com/post/scrypto-an-asset-oriented-smart-contract-language\">asset-oriented</a> way of building smart contracts. Attendees will immerse themselves in a new world of smart contract development and finish the day having successfully coded NFTs and a simple DEX. Members of the RDX Works builders team will be on standby to assist and take you through the basics as you code in the workshops.&nbsp;</p><p id=\"\">The day will include keynotes from RDX Works CPO, Matthew Hine, and CEO, Piers Ridyard, laying out our vision for the future of DeFi on Radix, and answering your questions from the day in an open Q&amp;A session.&nbsp;</p><p id=\"\">For those who cannot make it to the Lone Star State, the event will be live-streamed and recorded, allowing you to follow along at home at your leisure. <strong id=\"\">You do not need to register for the developer event to watch the live stream.</strong></p><p id=\"\">Following a big week at Consensus, RDX Works will be hosting a party, complete with red carpet, from 18:00 to 01:00 at one of the hottest locations in the city. You'll get some unique Radix Swag on arrival, and drinks and good times will be flowing all night long.&nbsp;</p><h5 id=\"\"><a id=\"\" href=\"https://www.eventbrite.co.uk/e/defi-nft-token-smart-contract-developer-day-austin-registration-341244340007\">Register for the Developer Immersion Event<br><br></a><a id=\"\" href=\"https://www.eventbrite.co.uk/e/radix-consensus-afterparty-tickets-342640846997\">Register for After Party&nbsp;</a></h5><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Schedule:</strong></p><p id=\"\">09:00 - 10:00 Registration + Small Breakfast</p><p id=\"\">10:00 - 11:00 Keynotes Speeches from Matthew Hine (CPO) &amp; Piers Ridyard (CEO)</p><p id=\"\">11:00 - 11:15 Networking + Snacks</p><p id=\"\">11:15 - 12:30 Hello World + Gumball Machine</p><p id=\"\">12:45 - 14:00 Lunch break + Networking</p><p id=\"\">14:00 - 15:30 Bored Gumball Club + Event ticket system</p><p id=\"\">15:45 - 16:00 Networking + Snacks</p><p id=\"\">16:00 - 17:30 Workshop 3 Creating a simple DEX</p><p id=\"\">17:45 - 18:00 Networking + Snacks</p><p id=\"\">18:00 - 19:00 Open Q&amp;A</p><p id=\"\">19:00 - 01:00 Afterparty</p><p id=\"\">If you’re a developer and want to start building with Scrypto you may be interested in our <a id=\"\" href=\"https://developers.radixdlt.com/\">developer’s hub</a>. We’d also love to see you getting involved in the #scrypto channel of our <a id=\"\" href=\"http://discord.gg/radixdlt\">Discord server</a>, or on the community-run Radix Developers <a id=\"\" href=\"https://t.me/RadixDevelopers\">Telegram channel</a>.</p><p id=\"\">‍<br>‍<em id=\"\">To get the latest news about Radix make sure to sign up for our mailing list </em><a id=\"\" href=\"https://developers.radixdlt.com/devprogram\"><em id=\"\">here.</em></a><em id=\"\">&nbsp;</em></p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=bo5LQW5hATQ\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/bo5LQW5hATQ\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍<br>‍</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Austin Developer Event - Consensus 2022",
+  "slug": "austin-developer-event-consensus-2022"
+ }
+}

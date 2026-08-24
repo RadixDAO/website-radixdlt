@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57ded5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-08T18:47:50.061Z",
+ "createdOn": "2022-12-08T18:47:50.061Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "23f65c4f16147049f599abaac991764c",
+  "url": "https://twitter.com/IvanOnTech/status/1600916320144719872?s=20&t=_XviDIxfXaFL0Z-R0UqbJA",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57e305",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/639231527c796855e646de13_2.jpg",
+   "alt": null
+  },
+  "content": "Tesla created a full-stack experience building cars AND charging stations to maximize the user experience Radix is building a full-stack experience building the consensus, devex, wallet to maximize the user experience #RadFi2022",
+  "order": null,
+  "name": "Ivan on Tech",
+  "slug": "ivan-on-tech"
+ }
+}

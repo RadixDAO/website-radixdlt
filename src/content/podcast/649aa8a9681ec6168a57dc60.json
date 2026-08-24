@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc60",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:42.477Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-04-01T00:00:00.000Z",
+  "guest-name": "Michael O'Rourke",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfb5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f3f3a04a919d2b236b92_podcast-18.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Michael O'Rourke, co-founder and CEO of the Pocket Network. During this interview, Michael describes how Pocket supports Blockchain developers to achieve DeFi’s Web 3.0 vision.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Michael O'Rourke. Michael is the co-founder and CEO of the Pocket Network. Pocket allows developers and users to trustlessly access the full API for any blockchain client across a global, distributed network of node operators.</p><p>Pocket is a middleware protocol that sits between the user of any DApp and the blockchain that they are accessing. Pocket is not a smart contract platform but an application-specific independent blockchain meant to ensure redundant, cost-efficient infrastructure for DeFi applications.</p><p>[00:00:47] What is the primary reason for Pocket's conception and development?</p><p>[00:03:28] What does the term “full node” mean? What is a Bitcoin full node?</p><p>[00:04:33] Delving deeper into the “Don't trust, verify” adage: What are the universal aspects that a user or developer would want to be verifying, rather than trusting the network?</p><p>[00: 07:58] How much storage space is currently required to run a full Bitcoin or Ethereum node?</p><p>[00: 08:57] What is the user load on Coinbase that necessitates the use of two full nodes for every 1000 people?</p><p>[00:10:33] A simplified description of the behind-the-scenes operations of public ledgers dealing with requests while processing a transaction.</p><p>[00:14:21] The challenge of running a full node, which dictates interfacing with trusted companies.</p><p>[00:17:22] The Pocket alternative: Entities currently running full nodes for their users are no longer forced to pay to operate their own infrastructure directly. They may instead rely on Pocket, a secondary network designed specifically for query requests. How can these entities be assured that the service provided by Pocket is as reliable as running their own node?</p><p>[00:21:20] Pocket’s handling of throughput: If an application receives millions of requests every day or hour, how does Pocket ensure that the network remains synchronised and dishonest actors are caught and punished quickly enough?</p><p>[00:24:46] Why is Pocket less expensive than rival solutions such as Infura?</p><p>[00:32:33] How does Pocket's security function? Does it use a proof-of-stake algorithm? How does the POKT token work?</p><p>[00:35:17] Recent Pocket Network statistics. How many nodes does it have?</p><p>[00:37:04] What types of applications has Pocket begun to work with, and what kinds of request data is it currently dealing with, in terms of current usage?</p><p>[00:38:31] What difference in experience can a user expect if they switch from using the current MetaMask query nodes provided by MetaMask to using the Pocket network as the query ledger?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://pokt.network/\">pokt.network</a></li><li>Twitter: <a href=\"https://twitter.com/POKTnetwork\">@POKTnetwork</a></li><li>Discord: <a href=\"https://discord.com/invite/uYs6Esum3r\">Pocket Discord</a>&nbsp;</li></ul><p>‍</p><p>Secret Code:&nbsp;RADIXISCOMINGQ22021</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8246708-pokt-network-giving-blockchain-devs-a-serious-helping-hand",
+  "name": "Pokt Network - Giving Blockchain Devs a Serious Helping Hand!",
+  "slug": "pokt-network-giving-blockchain-devs-a-serious-helping-hand"
+ }
+}

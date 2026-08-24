@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57db84",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:13:04.073Z",
+ "createdOn": "2021-04-24T19:06:34.528Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/woonomic/status/1009348689784131584?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d9e4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608542024f9f82519917c027_Willy%20Woo.jpg",
+   "alt": null
+  },
+  "content": "Just watching the @radixdlt Alpha Launch. It feels like the launch of the iPhone, the world has changed, yet in this case nobody knows just yet. In a world of 9800 baud modems, we just got broadband. Congrats to the team!",
+  "order": 1,
+  "name": "Willy Woo",
+  "slug": "willy-woo-tweet"
+ }
+}

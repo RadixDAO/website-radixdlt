@@ -1,0 +1,23 @@
+{
+ "id": "650a18957f1c9d8e2dca6e9c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-09-20T12:00:53.125Z",
+ "lastUpdated": "2023-09-20T12:00:36.880Z",
+ "createdOn": "2023-09-19T21:54:29.111Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "9b468adb0ed4e1fb626d0ead2d92ee35",
+  "url-link": "https://developers.radixdlt.com/",
+  "image": {
+   "fileId": "650a18831f2d0720eff28a13",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/650a18831f2d0720eff28a13_nav-build.png",
+   "alt": null
+  },
+  "content-2": "Radix Developer Hub",
+  "gradient-text": null,
+  "text-with-play-icon": null,
+  "name": "Build Section",
+  "slug": "build-section"
+ }
+}

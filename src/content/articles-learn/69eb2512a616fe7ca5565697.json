@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565697",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:21:27.407Z",
+ "createdOn": "2026-04-24T08:08:50.839Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">Yes, we encourage all <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> holders to stake their XRD to good <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator nodes</strong></a> as greater stake provides greater protection for the network against <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack-2\"><strong id=\"\">Sybil attacks</strong></a> – and so <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix Foundation</strong></a> (and its subsidiaries)&nbsp; intend to stake tokens for the same reason.</p><p id=\"\">A portion of these <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> will be delegated to nodes operated by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix Token (Jersey) Limited</strong></a><strong id=\"\">, </strong>which may, as a result, be selected as part of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a>.&nbsp;</p><p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix Foundation</strong></a> and any subsidiaries aim to stake a total quantity of XRD to Radix-operated nodes that is no more than 25% of the total XRD staked at any given time. This is well short of the 33.3% threshold which would confer the ability to disrupt the network (even by accident) and make clear that control of the network always belongs in the hands of a <a id=\"\" href=\"https://learn.radixdlt.com/article/is-radix-decentralized\"><strong id=\"\">decentralized</strong></a> community.</p><p id=\"\">Any staking above the 25% level is intended to be distributed across the broadest possible selection of validator nodes that we believe are trustworthy and performant.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-foundations-policy-on-staking-node-running-2\"><strong id=\"\">What is the Radix Foundation’s policy on staking &amp; node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-the-radix-foundation-operate-validator-nodes\"><strong id=\"\">Will the Radix Foundation operate validator nodes?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-receive-incentive-rewards-from-staking-and-validator-node-running-2\"><strong id=\"\">Will Radix receive incentive rewards from staking and validator node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-operated-validator-nodes-accept-delegated-stake-from-the-community-2\"><strong id=\"\">Will Radix-operated validator nodes accept delegated stake from the community?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 4,
+  "name": "Will the Radix Foundation stake its own XRD holdings? To which validators?",
+  "slug": "will-the-radix-foundation-stake-its-own-xrd-holdings-to-which-validators"
+ }
+}

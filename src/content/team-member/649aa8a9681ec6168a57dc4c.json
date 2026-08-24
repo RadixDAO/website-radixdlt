@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc4c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2021-09-09T10:59:33.537Z",
+ "createdOn": "2021-04-25T19:19:57.580Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Technical Writer – Radix DLT Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfb0",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d2da92d34241e8d47191_ray.png",
+   "alt": null
+  },
+  "bio-excerpt": "Ray has worked in the IT industry since Java was first released way back in 1996, dividing his career between software development and technical writing. Ray comes with a wealth of knowledge from his experience with companies such as Oracle, Hitachi and Honda.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/ray-offiah-044874/",
+  "blank-item": false,
+  "order": 22,
+  "name": "Ray Offiah",
+  "slug": "ray-offiah"
+ }
+}

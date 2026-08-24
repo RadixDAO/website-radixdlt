@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de05",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:09.832Z",
+ "createdOn": "2022-04-26T16:48:58.382Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Join RDX Works CMO Jeremy Epstein for an evening of Radix chat and amazing food and drink! The event will be held in a fantastic venue. You must leave your name and email address to gain entry. \"Behind the lock is the Secret Garden - a magical courtyard with a secret bar lounge, a dance floor played by the best of DJ's, innovative cocktails, a specially designed menu and endless amounts of style.\"",
+  "location": "Tel Aviv",
+  "start-date": "2022-05-25T00:00:00.000Z",
+  "end-date": "2022-05-25T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://forms.gle/6qk9c32DPFvZZ3HV7",
+  "name": "Community Meet Up - Tel Aviv",
+  "slug": "community-meet-up-tel-aviv"
+ }
+}

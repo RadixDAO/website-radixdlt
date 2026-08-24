@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dea9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-10-07T09:50:40.205Z",
+ "createdOn": "2022-10-07T09:50:34.959Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e258",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62dac72bd6adf8bf3b8cfbee_Thumb_Scrypto-Developer-Event%20(3).png",
+   "alt": null
+  },
+  "event-category": "40034f0dcec0c8a905ad800fdd9c5bcf",
+  "description": "You shouldn't miss our Web 3.0 Workshop for developers - Building DeFi with Scrypto! This is your chance to learn all about smart contracts and how to code them yourself in a relaxed atmosphere in a relaxed atmosphere. The event will happen on the 20th of October in Budapest, Lisbon, Szeged, Warsaw, Prague, Amsterdam, Debrecen and Online. There will be an opportunity after the workshop to network with participants over a drink and share interests, project ideas, and stories.",
+  "location": "Prague, Warsaw, Amsterdam, Budapest, Lisbon, Szeged, Debrecen",
+  "start-date": "2022-10-20T00:00:00.000Z",
+  "end-date": "2022-10-20T00:00:00.000Z",
+  "event-link-text": "Sign up here for the Online Scrypto Event!",
+  "event-link-url": "https://www.eventbrite.co.uk/e/nfts-expensive-jpegs-or-the-future-of-finance-developer-webinar-registration-433447371757",
+  "name": "Webinar - NFTs: expensive JPEGs or the future of finance? Scrypto Developer Workshop ",
+  "slug": "webinar-nfts-expensive-jpegs-or-the-future-of-finance-scrypto-developer-workshop"
+ }
+}

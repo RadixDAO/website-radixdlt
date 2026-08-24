@@ -1,0 +1,30 @@
+{
+ "id": "66e2c946ecc23e83cd33e3ba",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-13T15:41:39.217Z",
+ "lastUpdated": "2024-09-13T15:41:39.217Z",
+ "createdOn": "2024-09-12T10:58:14.252Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Ociswap is the Front Page of Radix: the platform to explore and exchange tokens with confidence. Break DeFi barriers with advanced concentrated liquidity and game-changing hooks.",
+  "project-logo": {
+   "fileId": "66e2c905c7daca67a8733ee5",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e2c905c7daca67a8733ee5_66df19a4dc6556a368a695c3_oci-svg2-01-p-500.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df19a7e83d01e256dd386d",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df19a7e83d01e256dd386d_Frame%2041622.png",
+   "alt": null
+  },
+  "link-to-project": "https://ociswap.com/",
+  "categories": [
+   "66dafd66ee5760990041564f",
+   "66dafd5e7c1a27edea88c639"
+  ],
+  "rank": 2,
+  "name": "Ociswap",
+  "slug": "ociswap"
+ }
+}

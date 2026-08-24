@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc87",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:40.980Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-03-18T00:00:00.000Z",
+  "guest-name": "Daniel Nordh",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfaf",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f411fd1cdf7246decfb0_podcast-11.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "Join Piers Ridyard and the creator of Paymobil, Daniel Nordh, for a discussion on cross-border money transfers using stablecoins.",
+  "main-content": "<p>Join Piers Ridyard and the creator of Paymobil, Daniel Nordh, for a discussion on cross-border money transfers using stablecoins.&nbsp;&nbsp;</p><p>Daniel, who previously worked at Coinbase, founded Paymobil to simplify cross-border money transfers using cryptocurrencies, with a focus on delivering a wonderful user experience through a user-friendly app.</p><p>In this episode, Daniel and Piers dive into the features and functionality of Paymobil, and examine the differences in banking experiences between Europe and the United States.</p><p>[00:00:31] What is the problem that Daniel Nordh is attempting to solve with Paymobil? What has he learned about the market from the market as a result of his quest to build Paymobil?</p><p>[00:02:08] Daniel's rationale for using stablecoins.</p><p>[00:03:14] Paymobil application's ease, intuitiveness, and user-friendliness, as well as its target audience.</p><p>[00:05:37] How does Paymobil function from the viewpoint of off-ramps? How does Paymobil address the issue of converting crypto into local currency?</p><p>[00:07:36] Paymobil’s focus: Creating a user experience like that of non-crypto apps such as Venmo and Square Cash.</p><p>[00:09:00] Daniel’s advice to other DeFi makers looking to create simple user interfaces.</p><p>[00:11:49] Paymobil’s noncustodial role.</p><p>[00:13:02] Paymobil’s community building and future growth plans.</p><p>[00:15:45] Paymobil's preferred stablecoin.</p><p>[00:19:37] How the flow of money works in the Paymobil app.</p><p>[00:21:00] The disparities in banking experiences between Europe and America, as well as the reasons why Venmo is most common in the United States.</p><p>[00:24:57] Which upcoming infrastructure features and tools pique Daniel's interest?</p><p>[00:27:47] Daniel’s general view on the DeFi ecosystem.</p><p>[00:32:46] Daniel’s journey into crypto and the lessons he learned while working at Coinbase. Why are most people still sceptical of cryptocurrencies?</p><h2>Further resources</h2><p>Website: <a href=\"https://www.paymobil.co/\">paymobil.co</a></p><p>Twitter: @PaymobilApp</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8157643-paymobil-venmo-for-the-world",
+  "name": "Paymobil: Venmo for the world",
+  "slug": "paymobil-venmo-for-the-world"
+ }
+}

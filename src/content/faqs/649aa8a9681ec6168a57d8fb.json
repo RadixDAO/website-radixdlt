@@ -1,0 +1,14 @@
+{
+ "id": "649aa8a9681ec6168a57d8fb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-25T01:11:08.471Z",
+ "createdOn": "2021-04-25T01:10:46.717Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "content": "There are no fundamental theoretical limitations to the total number of independent transactions Cerberus can process concurrently in distinct shards. In that regard, Cerberus scales linearly with the number of nodes.",
+  "name": "How scalable is Radix?",
+  "slug": "how-scalable-is-radix"
+ }
+}

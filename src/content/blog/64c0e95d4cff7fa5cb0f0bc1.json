@@ -1,0 +1,33 @@
+{
+ "id": "64c0e95d4cff7fa5cb0f0bc1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-10-03T10:12:00.366Z",
+ "lastUpdated": "2023-10-03T10:11:25.902Z",
+ "createdOn": "2023-07-26T09:37:33.143Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2023-07-26T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de42",
+   "649aa8a9681ec6168a57de3a"
+  ],
+  "image": {
+   "fileId": "64c122112a8a60ca3a5e43e4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64c122112a8a60ca3a5e43e4_Phase2-Babylon-RCnet_v2_Live%20(1).png",
+   "alt": null
+  },
+  "excerpt": "Phase 2 of RCnet v2 is now live, bringing with it new preview versions of the Radix Wallet for Android and iOS, an updated Gateway and Dashboard, new developer tooling, and the long-awaited Radix Off-Ledger Authentication (ROLA) system.",
+  "main-content": "<p id=\"\">Phase 2 of RCnet v2 is now live, bringing with it new preview versions of the Radix Wallet for Android and iOS, an updated <a id=\"\" href=\"https://rcnet-v2.radixdlt.com/swagger/index.html\">Gateway</a> and <a id=\"\" href=\"https://rcnet-v2-dashboard.radixdlt.com/\">Dashboard</a>, new developer tooling, and the long-awaited Radix Off-Ledger Authentication (ROLA) system.</p><h3 id=\"\">What’s New?</h3><h4 id=\"\"><strong id=\"\">ROLA Now Supported</strong></h4><p id=\"\">ROLA allows for off-ledger systems to prove control of an on-ledger identity, account, or other component <em id=\"\">without</em> needing to submit a transaction to the network.&nbsp; This enables a host of use cases, including secure and decentralized Single Sign-On to Web3 applications and easy proof of ownership for accounts and the assets they hold.</p><p id=\"\">All the pieces for ROLA are now in place, including a sample backend implementation of generating and verifying challenges, support in the dApp Toolkit &amp; Connector extension for sending ROLA requests to the Wallet, and Wallet support for recognizing ROLA requests and producing proper responses to the challenges.</p><p id=\"\">You can check out a basic ROLA example <a id=\"\" href=\"https://github.com/radixdlt/rola-examples\">here</a>.&nbsp;</p><h4 id=\"\"><strong id=\"\">Wallet Updates</strong></h4><p id=\"\">An updated developer preview of the iOS and Android Radix Wallet is ready to go, which includes some updates to Persona handling, the aforementioned ROLA support, and in-app transfers of tokens and NFTs to one or more recipients.&nbsp; If you already had access, you can delete your original RCnet version and install the updated version through TestFlight or Google Play.&nbsp; If you’re a developer and would like to sign up for access, <a id=\"\" href=\"https://go.radixdlt.com/betanetwalletemail\">visit the signup page just for developers here</a>.</p><h4 id=\"\"><strong id=\"\">Connector Extension Tweaks</strong></h4><p id=\"\">The browser extension which facilitates communication between your desktop browser and your mobile Wallet has undergone some refinement to root out a few gremlins, particularly in the area of having multiple windows/tabs with multiple connections going at once.&nbsp; It’s also now able to hook into system notifications on Windows and Mac, so it automatically prompts your users to look at their mobile Wallet, and notifies them when transactions complete.</p><p id=\"\">Check our <a id=\"\" href=\"https://docs-babylon.radixdlt.com/main/getting-started-developers/wallet/wallet-and-connector-installation.html#_install_the_connector\">documentation</a> for instructions on how to install the Connector Extension.</p><h4 id=\"\"><strong id=\"\">dApp Toolkit Overhaul</strong></h4><p id=\"\">The Radix dApp Toolkit will be updated within the next few days with some substantial improvements.&nbsp; The √ Connect button presentation has been completely revamped, and now offers the ability to customize the size and appearance of the button so as to integrate smoothly with a wide range of website styles, while maintaining a strongly recognizable appearance to help users consistently identify it as their familiar touchpoint for Web3 apps on Radix.&nbsp; And, as with the rest of the tooling for this release, facilitating ROLA requests is now supported.</p><p id=\"\">The latest release is compatible with RCnet v2, so you can get started right now, but the Connect button presentation styling is undergoing some last integration testing and will be available in an updated toolkit version very shortly.</p><h3 id=\"\">What’s Next?</h3><p id=\"\">With this release out the door, the next step will be RCnet v3 in August, after which the focus will turn to under-the-hood changes, like performance optimizations, leading up to the mainnet Babylon upgrade in September.</p><h3 id=\"\">RCnet v2 Q&amp;A</h3><p id=\"\"><strong id=\"\"><em id=\"\">Will the original RCnet be shut down with the release of phase 2?</em></strong></p><p id=\"\">Yep!</p><p id=\"\"><strong id=\"\"><em id=\"\">Does RCnet v2 have “real” tokens and applications on it that will become part of mainnet?</em></strong></p><p id=\"\">No, it is strictly a test network, and everything on it will eventually vanish.</p><p id=\"\"><strong id=\"\"><em id=\"\">Is there a Radix Dashboard for RCnet v2?</em></strong></p><p id=\"\">Yes, here is the link <a id=\"\" href=\"https://rcnet-v2-dashboard.radixdlt.com/\">https://rcnet-v2-dashboard.radixdlt.com/</a></p><p id=\"\">Further updates will be made to it in preparation for Babylon.</p><p id=\"\"><strong id=\"\"><em id=\"\">Anything new for Node/Engine/Scrypto with phase 2?</em></strong></p><p id=\"\">No headlines there; phase 1 was the major release for those areas and there have only been minor fixes and updates since then. Scrypto developers should update to v0.11.0 for building RCnet v2 compatible blueprints.</p><p id=\"\"><strong id=\"\"><em id=\"\">I’m preparing an application for release with Babylon, where can I get my questions answered?</em></strong></p><p id=\"\">Best place to ask is always in the <a id=\"\" href=\"https://discord.com/channels/417762285172555786/765994894749597697\">Scrypto channel</a> on Discord!</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Phase 2 of RCnet v2 begins",
+  "slug": "phase-2-of-rcnet-v2-begins"
+ }
+}

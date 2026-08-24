@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dc94",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:24.899Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-09-10T00:00:00.000Z",
+  "guest-name": "Stani Kulechov",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfb4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f65bc55dec0660483875_podcast-21.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfcd",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60898052df02638ae1640057_podcast-logo-1.png",
+   "alt": null
+  },
+  "excerpt": "On this episode of the DeFi Download, join Piers Ridyard and Stani Kulechov CEO and founder, Aave as they discuss decentralised debt and the ghost protocol.",
+  "main-content": "<p>On this episode of the DeFi Download, join Piers Ridyard and Stani Kulechov CEO and founder, Aave as they discuss decentralised debt and the ghost protocol.</p><p>‍</p><p>‍</p><p>‍</p><p>‍</p><figure class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div><img src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6123b640a3ad247288cbe401_treasure%201.png\" width=\"auto\" height=\"auto\" loading=\"lazy\"></div></figure>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/5381422-aave-decentralised-debt-and-the-ghost-protocol",
+  "name": "Aave: Decentralised Debt and the Ghost Protocol",
+  "slug": "aave-decentralised-debt-and-the-ghost-protocol"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57eb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:55.037Z",
+ "createdOn": "2026-04-24T08:07:55.037Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Impermanent loss affects users who provide liquidity to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-amms-automated-market-maker-and-cfmms-constant-function-market-maker\"><strong id=\"\">Constant Function Market Makers</strong></a> (CFMMs). Impermanent loss occurs when the total value of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> provided as liquidity sees a relative decrease in value versus if the user had simply held the tokens.</p><p id=\"\">Impermanent loss occurs because the CFMM prices the two assets placed in the pool according to a<strong id=\"\"> </strong>fixed “bonding” curve. The market price one of the assets is sold or bought for the other is not guaranteed to match the market price – in fact, it virtually always lags it. Therefore, as the price between the two assets deviates more and more from when a user first deposited liquidity, the sum of the value of those two assets in the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-liquidity-pool\"><strong id=\"\">liquidity</strong></a><strong id=\"\"> </strong>pool<strong id=\"\"> </strong>declines relative to if the user had just held the two assets and not provided liquidity.</p><p id=\"\">The loss is considered “impermanent” because if the price between the assets were to return to that at the time of the original liquidity contribution, the loss would be reversed.&nbsp;&nbsp;</p><p id=\"\">The following table details what that relative loss looks like for a pool where the assets are split 50/50. </p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1258px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1258px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24da1b0eed71608c5057_60edca439cacae71b40d7856_Screenshot%25202021-07-13%2520at%25206.15.24%2520pm.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><br></p><p id=\"\">Note: if one asset goes up markedly in value and the other stays the same, the user has still made a profit in $ terms. It’s just that they made less than if they had just held the two assets rather than contributing them as liquidity.</p><p id=\"\">So why should users place liquidity in a pool in the first place?</p><p id=\"\">The answer is that providing liquidity to a pool allows users to earn fees every time there is a trade. If the trading volume is high, it can be very profitable to provide liquidity. For some tokens, external incentives are offered to provide liquidity to specific pools. But this should always be judged against the risk of impermanent loss if the price of one of the two assets deviates significantly from the other.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">Whats a DEX?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-total-value-locked-tvl\"><strong id=\"\">What is Total Value Locked (TVL)?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-kind-of-staking-system-does-radix-use\"><strong id=\"\">What kind of staking system does Radix use?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What is Impermanent Loss?",
+  "slug": "what-is-impermanent-loss"
+ }
+}

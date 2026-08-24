@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565659",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:33:03.949Z",
+ "createdOn": "2026-04-24T08:08:35.953Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Emission rewards are distributed at the end of every epoch automatically by the network protocol.</p><p id=\"\">As per the <a id=\"\" href=\"https://assets.website-files.com/6053f7fca5bf627283b582c2/6088147cbbc08674b4975349_Economic-2020-V10.4.pdf\">Radix Economic model</a>, 300m XRD are distributed per year, for 40 years, as staking rewards.</p><p id=\"\"><br></p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "When are rewards distributed?",
+  "slug": "when-are-rewards-distributed"
+ }
+}

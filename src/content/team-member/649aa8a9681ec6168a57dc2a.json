@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc2a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:06:10.209Z",
+ "createdOn": "2021-04-25T17:18:01.781Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Consumer Applications Engineer - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfad",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087cf363dd56bb54660174f_artme.png",
+   "alt": null
+  },
+  "bio-excerpt": "Artem is crazy about building complex commercial IT products from a concept to the end solution and support. Value creation and breakthroughs are the main focus for him in implementing any software deliverable because any piece of code has to bring a tangible value to the end customer.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/artemvalmus/",
+  "blank-item": false,
+  "order": 11,
+  "name": "Artem Valmus",
+  "slug": "artem-valmus"
+ }
+}

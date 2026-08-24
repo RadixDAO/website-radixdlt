@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de51c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:09.411Z",
+ "createdOn": "2026-04-24T08:07:09.411Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=N0utev66iAg\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/N0utev66iAg\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\"><strong id=\"\">Get Started:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/wallet\"><strong id=\"\">Download Radix Wallet and Radix Connector</strong></a></li><li id=\"\"><a id=\"\" href=\"https://dashboard.radixdlt.com\"><strong id=\"\">Access the Radix Dashboard</strong></a></li></ul><p id=\"\">The Radix Wallet is a mobile wallet for iOS and Android that provides a secure way to manage any asset on the Radix network. It is your gateway to the Babylon mainnet, giving you all the benefits of decentralization while maintaining the convenience of the best Web2 apps.</p><p id=\"\">The Radix Wallet is designed as a trusted point of control for the user. The mobile app provides users with the ability to confidently view and manage their accounts, assets, Personas, personal data, and various preferences 'on ledger' on the network.</p><p id=\"\">The Radix Wallet takes advantage of several new features of the Radix Babylon network to create a more secure, user-friendly, and powerful user experience.</p><p id=\"\">These include:</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-personas-and-identities\">Personas</a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-connect?_gl=1*19thn4m*_ga*MTk5NTA1MTU1Mi4xNjU5MzYzMTMy*_ga_MZBXX3HP5Q*MTY4MjY3NzIwNy4yNjcuMS4xNjgyNjc3MjYwLjcuMC4w\">Radix Connect</a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-native-assets\">Native Assets</a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-transaction-manifests\">Transaction Manifests</a></li></ul><p id=\"\">To get started, open your web browser and go to <a id=\"\" href=\"https://wallet.radixdlt.com\">https://wallet.radixdlt.com</a>, here you will find the official links to download the Radix Wallet for iOS and Android in an easy-to-follow process.</p><p id=\"\">If you have assets on the Olympia Network and have installed the Radix Wallet, you can import your accounts from the Olympia Desktop wallet; the following video will walk you through the import process.&nbsp;</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/LqWEdm9koXo?si=rhvWDOqk4hNB41KA\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/LqWEdm9koXo\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">If you need help with any problems covered in this FAQ, you can ask for assistance via the official Telegram or Discord, which is monitored by RDX Works staff and Radix Ambassadors. Discord has specific channels, such as #Support and #Bug-Reports.<br><br>You can also contact us at hello@radixdlt.com, and we will assist in any way we can.</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": true,
+  "feature-in-category-header": true,
+  "feature-in-search": true,
+  "article-likes": 20,
+  "name": "Start Here! Radix Wallet User Guide",
+  "slug": "start-here-radix-wallet-user-guide"
+ }
+}

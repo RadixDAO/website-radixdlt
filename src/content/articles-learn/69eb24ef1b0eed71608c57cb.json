@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57cb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:45.657Z",
+ "createdOn": "2026-04-24T08:07:45.657Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\"><strong id=\"\">Atomicity</strong></p><p id=\"\">Atomicity is the idea that a single transaction may contain many actions (such as transfers of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> or calls to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApps</strong></a>). All of those actions must be correct and possible for the transaction to be accepted.&nbsp;</p><p id=\"\">If any part of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transaction</strong></a> is incorrect or conflicting, the entire transaction should fail. Atomicity is necessary to create complex, safe DeFi transactions instantly, such as a trade of two different <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> between two people or a transaction using multiple DeFi dApps.&nbsp;</p><p id=\"\"><strong id=\"\">Composability</strong></p><p id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/what-is-defi-composability-and-why-does-it-matter\"><strong id=\"\">Composability</strong></a> in DeFi is the ability for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">decentralized applications</strong></a><strong id=\"\"> </strong>running on a DLT to interoperate seamlessly with each other on a transaction-by-transaction basis.</p><p id=\"\">DeFi applications are often called “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-money-lego\"><strong id=\"\">money lego</strong></a>” – a direct reference to their composability. Each individual DeFi app, or “lego brick,” is a specific financial product or service that can be freely combined with others. A new DeFi app may incorporate many of these specific-purpose lego brick products and services into a more complex offering that is even more powerful or customized to specific user needs.</p><p id=\"\">Importantly, these lego bricks are clicked together for each individual transaction on the fly. This enables a level of flexibility and innovation that is unthinkable with traditional financial systems that are locked up behind the (fire)walls of banks.</p><p id=\"\"><strong id=\"\">Atomic Composability</strong></p><p id=\"\">Atomic Composability is the joining of both atomicity and composability. It’s the feature that makes it possible to combine any number of applications together in any shape or form and for all these parts to be combined atomically as a single transaction that either succeeds all together, or fails all together.&nbsp;</p><p id=\"\">Atomic Composability is vital for DeFi to truly shine, as many different DeFi products and services combine multiple different dApps to create novel products, services, and features. An example of a brand new type of feature enabled by atomic composability is that of a <strong id=\"\">“flash loan”</strong>, which is when a user borrows an asset and pays it back all in the same transaction. This allows for hyper-efficient arbitrage to take place without any credit risk.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-money-lego\"><strong id=\"\">What is \"Money Lego\"?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/what-is-defi-composability-and-why-does-it-matter\"><strong id=\"\">Radix Blog - What is DeFi Composability and Why Does it Matter?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": 37,
+  "name": "What is Atomic Composability?",
+  "slug": "what-is-atomic-composability"
+ }
+}

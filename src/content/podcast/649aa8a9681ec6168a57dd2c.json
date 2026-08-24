@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd2c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-06-04T15:35:36.891Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-06-04T00:00:00.000Z",
+  "guest-name": "Annabelle Huang",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dff1",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60ba47f70704954dc2ae06e4_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dff2",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60ba481206f0347fbb812716_Mn5W6aDT_400x400.jpeg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Annabelle Huang, partner at Amber Group, a global financial services provider that aspires to become the Goldman Sachs of crypto. ",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Annabelle Huang, partner at Amber Group, a global financial services provider that aspires to become the Goldman Sachs of crypto.&nbsp;</p><p>Their discourse provides insight into Amber Group's focus, products, strategies, and predictions for the crypto space's future. Amber Group's vision is to create a one-stop-shop for people to buy, sell, structure, and earn yield on their crypto holdings in a highly trusted environment</p><p>[00:00:43] Amber Group's offerings and motivation for developing such a large suite of products, and their long-term cryptocurrency plans.</p><p>[00:02:33] Why does the market require another consumer-facing platform for buying and selling cryptocurrency? What distinguishes the Amber app from others?</p><p>[00:05:55] Why did Amber Group opt for a custodial approach? What difference does it make to the user experience?</p><p>[00:10:20] Managing jurisdiction regulations and on-ramping.</p><p>[00:15:18] The Amber app's target audience.</p><p>[00:17:44] Amber Group's user acquisition strategy and the importance of focus</p><p>[00:23:33] What was Amber Group's initial product set, and who was it aimed at, coming from the traditional finance space?&nbsp;</p><p>[00:32:18] What exactly is market-making, how does it function, and why is it important?</p><p>[00:34:37] The long-term vision and strategy of Amber Group. What motivates them to build the next set of products, how do they decide which opportunities to pursue, and how do they see the crypto space evolving over the next 4 to 10 years?</p><p>[00:37:01] Annabelle's thoughts on industry macro trends.</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://www.ambergroup.io/\">ambergroup.io</a>‍</li><li>Twitter: <a href=\"https://twitter.com/ambergroup_io\">@ambergroup_io</a></li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8644705-amber-group-your-gateway-to-crypto-finance",
+  "name": "Amber Group: Your Gateway to Crypto Finance",
+  "slug": "amber-group-your-gateway-to-crypto-finance"
+ }
+}

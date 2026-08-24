@@ -1,0 +1,21 @@
+{
+ "id": "69eb22f6152b91c44551c7b2",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T07:59:52.829Z",
+ "createdOn": "2026-04-24T07:59:50.268Z",
+ "isArchived": true,
+ "isDraft": true,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb22e2b7592ecdc0260722",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb22e2b7592ecdc0260722_60f71fedda41bd1767453ced_radix-instapass.png",
+   "alt": null
+  },
+  "number-of-questions": "15",
+  "subcategory-set": false,
+  "subcategory": null,
+  "name": "Instapass User Guide",
+  "slug": "instapass-user-guide"
+ }
+}

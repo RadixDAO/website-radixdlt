@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c579d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T08:48:05.797Z",
+ "createdOn": "2026-04-24T08:07:34.295Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">DLT stands for<a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"> <strong id=\"\">distributed</strong></a><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"> <strong id=\"\">ledger</strong></a> technology.<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"> <strong id=\"\">Blockchains</strong></a> and Directed Acyclic Graphs (DAG) are examples of DLT.</p><p id=\"\">As <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> has a unique data structure different from blockchains (it has no blocks), Radix is called Radix DLT.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">What is a Blockchain?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/whitepapers/consensus\"><strong id=\"\">Cerberus White Paper</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">What is a ledger?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": true,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": 26,
+  "name": "What is a DLT?",
+  "slug": "what-is-a-dlt"
+ }
+}

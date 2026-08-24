@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c71",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:24.889Z",
+ "createdOn": "2026-04-24T06:26:24.889Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b7",
+   "69eb0c39904d0db4dee8f8b9"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2023-01-24T09:00:00.000Z",
+  "last-update": "2023-01-24T17:00:00.000Z",
+  "content": "<p id=\"\">Instapass and Instabridge are now back online! Thanks for your patience.</p><p id=\"\">‍</p><p id=\"\">Instapass and Instabridge will be down for scheduled maintenance from 0900 on the 24th January, 2023. If you have any problems, please contact either support@instapass.io or support@instabridge.io</p>",
+  "name": "Instapass and Instabridge down for maintenance",
+  "slug": "instapass-and-instabridge-down-for-maintenance"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc20",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:05:07.656Z",
+ "createdOn": "2021-04-25T17:18:02.014Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": true,
+  "jersey-team-member": false,
+  "role": "<p>CTO - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dbdb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c1604893b9961d5270d9_russ.png",
+   "alt": null
+  },
+  "bio-excerpt": "A veteran of Microsoft and Kaiser Permanente, Russ brings extensive experience with releasing complex products on schedule. Beset by an abiding need to make useful things, Russ distributed his first program at age 7 and hasn’t stopped shipping things since.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/russell-harvey/",
+  "blank-item": false,
+  "order": 3,
+  "name": "Russell Harvey",
+  "slug": "russell-harvey"
+ }
+}

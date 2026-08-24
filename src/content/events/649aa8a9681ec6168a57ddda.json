@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57ddda",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-11-04T09:52:39.835Z",
+ "createdOn": "2022-03-10T04:30:55.413Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e257",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491d0ae5fb43bf9db6f9_6229e695412e1095e52819a2_580e30dadadff-websummit.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "After a very successful participation at WebSummit 2021, RDX Works will present the Radix Ecosystem to developers from all over the world at WebSummit 2022. This year the event will be back in full size, with up to 80,000 visitors being expected to attend in person.",
+  "location": "Lisbon",
+  "start-date": "2022-11-01T00:00:00.000Z",
+  "end-date": "2022-11-05T00:00:00.000Z",
+  "event-link-text": "Pre-Register here",
+  "event-link-url": "https://websummit.com/",
+  "name": "WebSummit",
+  "slug": "websummit2022"
+ }
+}

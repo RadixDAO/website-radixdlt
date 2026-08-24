@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc38",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:02:59.650Z",
+ "createdOn": "2021-04-25T19:18:00.832Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Developer – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfa3",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d02ead66ea72312382b4_josh.png",
+   "alt": null
+  },
+  "bio-excerpt": "Josh proudly claims to writing a chess bot in college which beat the bot of Professor Danny Sleator. He now researches & develops code/theory around consensus at Radix",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/joshua-primero-22024730/",
+  "blank-item": false,
+  "order": 15,
+  "name": "Josh Primero",
+  "slug": "josh-primero"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "id": "69eb218cb180744096bf81fe",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-27T04:53:48.975Z",
+ "createdOn": "2026-04-24T07:53:45.028Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb2188b180744096bf8177",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb2188b180744096bf8177_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "main-category": "69eb2256fe795e52e75a3919",
+  "name": "DeFi",
+  "slug": "defi"
+ }
+}

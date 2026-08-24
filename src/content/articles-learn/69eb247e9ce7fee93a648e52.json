@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648e52",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:13.096Z",
+ "createdOn": "2026-04-24T08:06:13.096Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22ce9c63b54df937828f",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">How to Change Which Radix Address is Connected to Instabridge</p><p id=\"\">Instabridge will automatically select whichever Radix wallet address you have set as default in Instapass. However, clicking on the Radix Account button will allow you to quickly and easily switch between any of your added Radix addresses. If you haven’t added a Radix wallet address to your Instapass account yet, or you want to add a new one, click “Manage in Instapass”.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1468px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1468px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24749ce7fee93a648c06_6405e59cc6d347d40eaa3868_L2CONX4ErJ8hnR7uY6fas-_Yi2fLG9d__1aC0QdGSrHLsrNebfXy2we7bBUB6bRcHRrfgM5LneHsA7XiJBgJAVR3rltLskiuN2aZr_JIJHDtGq_oYccMbrvaFdwZM54dALPBX1XnyknODcZjUlbmSZQ.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">This will take you to Instapass so you can add a new Radix wallet address. Please see our guide on how to do this <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-add-a-new-radix-address\">here</a>.</p><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to change which Radix address is connected to Instabridge",
+  "slug": "how-to-change-which-radix-address-is-connected-to-instabridge"
+ }
+}

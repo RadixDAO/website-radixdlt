@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de558",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:28:40.660Z",
+ "createdOn": "2026-04-24T08:07:28.492Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">For a validator node, based on our initial testing, we currently recommend the equivalent of an AWS c5.xlarge instance provisioned with a gp2 storage volume - with an upper bound of 500 GB for the duration of betanet. We have found this configuration to keep up with consensus without bottlenecking; and it stores ledger state sufficiently to correctly participate in consensus if connected to a fast, reliable internet connection. This is the equivalent of a relatively small virtual server with 4 cores, 8GB of memory, and an SSD. Note that as we learn more about true practical demands during betanet and following mainnet launch, this recommendation may change.</p><p id=\"\">For a full node, a regular home PC should be sufficient with similar storage capacity, although cloud hosting is the typical choice.</p><p id=\"\">Running in archive mode requires the node to store a large amount of indexing data that is needed to provide the JSON-RPC API for clients. This means that storage capacity requirements may be multiple times that of a full/validator node.</p><p id=\"\">For more information on running a node, please visit <a id=\"\" href=\"http://docs.radixdlt.com\">docs.radixdlt.com</a>.<br></p><p id=\"\"><br></p>",
+  "top-note": "<p id=\"\"><br></p>",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What are the computational requirements for running a validator node, full node, or archive node?",
+  "slug": "what-are-the-computational-requirements-for-running-a-validator-node-full-node-or-archive-node"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e4e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:11.522Z",
+ "createdOn": "2026-04-24T08:06:11.522Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/nzrGsmYQs4A\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/nzrGsmYQs4A\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">Here, you will learn how to see your Seed Phrase and be given options on how to store your seed phrase securely.</p><p id=\"\"><strong id=\"\">How to see your seed phrase&nbsp;</strong></p><p id=\"\">Go to the <strong id=\"\">Settings</strong> gear in the top right-hand corner of the wallet, click <strong id=\"\">Account Security and Settings</strong>, then click <strong id=\"\">Seed phrase.</strong></p><p id=\"\">Select<strong id=\"\"> Reveal Seed phrase</strong>.</p><p id=\"\">The wallet will now request a biometrics check to complete the request.</p><p id=\"\">Once the biometrics check is complete, you will see the Seed Phrase displayed on the screen.</p><p id=\"\"><strong id=\"\">A Seed Phrase provides complete access to your accounts and funds. When viewing, ensure you’re in a safe environment, and no one else is looking at your screen. Taking a screenshot has been disabled.</strong></p><p id=\"\"><em id=\"\">For security, backups do not contain any seed phrases or private keys. You must write them down separately. </em>&nbsp;</p><p id=\"\"><strong id=\"\">How to store your seed phrase</strong>&nbsp;</p><p id=\"\">See the below article for guidance on best practices for storing a seed phrase:</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/using-a-crypto-software-wallet-securely\">Using a Crypto Software Wallet Securely</a></li></ul><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Backup My Seed Phrase",
+  "slug": "how-to-backup-my-seed-phrase"
+ }
+}

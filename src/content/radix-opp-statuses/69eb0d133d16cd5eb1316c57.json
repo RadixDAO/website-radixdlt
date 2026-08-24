@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c57",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:23.370Z",
+ "createdOn": "2026-04-24T06:26:23.370Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bd",
+   "69eb0c39904d0db4dee8f8c3"
+  ],
+  "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+  "date-reported": "2022-02-22T15:45:00.000Z",
+  "last-update": "2022-02-22T20:05:00.000Z",
+  "content": "<p id=\"\">The hosted Gateway Service is presently down, causing both the Wallet and the Explorer to be unusable when using the default mainnet.radixdlt.com endpoint.</p><p id=\"\">‍</p><p id=\"\">The network is operating normally; the problem is strictly with the hosted Gateway Service.</p><p id=\"\">‍</p><p id=\"\">Update:&nbsp;We have identified the root cause of the issue and are working on implementing and testing a fix.<br>Update 2:&nbsp;Issues has been resolved.</p><p id=\"\">‍</p>",
+  "name": "Explorer and Wallet not loading - Gateway Service down",
+  "slug": "explorer-and-wallet-not-loading"
+ }
+}

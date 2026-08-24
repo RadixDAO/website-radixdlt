@@ -1,0 +1,31 @@
+{
+ "id": "66df1cda6016a2c3b73289da",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T15:54:34.264Z",
+ "lastUpdated": "2025-02-03T15:45:23.132Z",
+ "createdOn": "2024-09-09T16:05:46.728Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A digital distribution platform for comics, manga, and manhwa, featuring an in-house art studio and developing its own intellectual property.",
+  "project-logo": {
+   "fileId": "66df1ccbd27d4b5d1572f84a",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ccbd27d4b5d1572f84a_photo_2024-09-06%2016.20.48.jpeg",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1cc76016a2c3b73272a0",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1cc76016a2c3b73272a0_photo_2024-09-06%2016.20.45.jpeg",
+   "alt": null
+  },
+  "link-to-project": "https://www.indeapp.xyz/",
+  "categories": [
+   "66dafd4ec76901ac3209fbb0",
+   "66dafd561128dd1593392a87"
+  ],
+  "rank": 22,
+  "featured": false,
+  "name": "IN:DE",
+  "slug": "in-de"
+ }
+}

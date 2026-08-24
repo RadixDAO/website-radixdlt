@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd12",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-05-13T17:11:31.001Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": true,
+  "date": "2021-05-13T00:00:00.000Z",
+  "guest-name": "Do Kwon ",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfda",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/609d5cbc7529447c88e0acb3_Terra%20Luna%20head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfe8",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/609d61633768f10148f08b6f_603cdc17b689ff18302493c7_terra-money-logo.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Do Kwon, the CEO of Terra. Their conversation delves into Do Kown’s background, which influenced the Terra platform's conception and growth, as well as the platform’s envisioned decentralised alternative to the traditional financial system.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Do Kwon, the CEO of Terra. Their conversation delves into Do Kwon’s background, which influenced the Terra platform's conception and growth, as well as the platform’s envisioned decentralised alternative to the traditional financial system.<br><br>Terra is a layer 1 protocol and stablecoin that aims to solve financial problems more effectively than current FinTech solutions. </p><p>The Terra ecosystem consists of several products, including Luna, an elastic supply token with a market cap of $7.4 billion, CHAI, a popular consumer payments app currently used by 5% of Koreans, Anchor, a lending protocol that pays out 20% per year on savings and Terra stablecoins, and Mirror, a decentralised version of Robinhood where you can trade any type of synthetic equity.</p><p>[00:01:01] Do Kown's background before starting Terra, and the reason he decided Terra was necessary to build as a result of his prior experience.</p><p>[00:05:46] The primary motivation for creating Terra: Was Terra's vision as broad as it is today during its early days? Did it begin with the idea that tokens would become interesting or useful? How the emergence of decentralised finance altered the Terra team's original strategy.</p><p>[00:10:24] Growth of the Terra ecosystem: Creating a suite of products as Terraform Labs, launching them, and attracting developers to build on top of the Terra platform rather than other platforms such as Ethereum, Binance, or SmartChain.</p><p>[00:20:20] Do Kown’s perspectives on the interaction or potential interaction between nation-states and protocols such as Terra.</p><p>[00:27:09] Capital controls in South Korea, as well as details on breakage.</p><p>[00:32:54] The Anchor platform's potential risks and weak points.</p><p>[00:37:09] Do Kown’s take on Tether and his reasons to prefer decentralised, stablecoins over centralised stablecoins.</p><p>[00:40:19] Is Do Kown comfortable holding all of his assets in cryptocurrency, and if so, does he?</p><p>[00:41:17] What would Do Kown say if he had one minute of global airtime to speak to everyone in the world?</p><p><br>Further resources</p><ul><li>Website: <a href=\"https://www.terra.money/\" target=\"_blank\">terra.money</a></li><li>Twitter: <a href=\"https://twitter.com/d0h0k1\" target=\"_blank\">@d0h0k1</a> </li></ul><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/8507629-terra-a-complete-ecosystem-for-the-future-of-finance",
+  "name": "Terra - a complete ecosystem for the future of finance",
+  "slug": "terra-a-complete-ecosystem-for-the-future-of-finance"
+ }
+}

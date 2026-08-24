@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57ef",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:26:05.640Z",
+ "createdOn": "2026-04-24T08:07:55.986Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Instapass is a single sign-on compliance service that will be used initially by Instabridge. It is a streamlined way for users to connect to regulatory compliant DeFi applications.</p><p id=\"\">Once a user has provided KYC documents in Instapass, they will have the option to share this information with DeFi dApps and other services that choose to integrate Instapass. This saves users time, increases security, and means you don’t have to repeat the same KYC steps for every new compliant service you want to use.&nbsp;</p><p id=\"\">Instapass is being built to industry leading data security standards, integrating with a leading KYC provider <a id=\"\" href=\"https://sumsub.com/\">SumSub</a>, and drawing on our own team’s past experience building and operating secure systems that manage sensitive personal information.</p><p id=\"\">Instapass will really come into its own around the time of our Babylon release of the Radix network, when we enable powerful, smart contract functionality for dApp builders suitable for both DeFi and CeFi. These dApp builders will be able to integrate Instapass to quickly and easily on-board users in a compliant way.&nbsp;</p><p id=\"\">‍</p><p id=\"\">Learn more about Instapass at <a id=\"\" href=\"https://instapass.io\">https://instapass.io</a> or in the <a id=\"\" href=\"/categories/blockchain-defi-basics\">Instapass User Guide</a></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What is Instapass?",
+  "slug": "what-is-instapass"
+ }
+}

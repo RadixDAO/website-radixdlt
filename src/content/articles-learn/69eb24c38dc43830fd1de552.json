@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de552",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:26.579Z",
+ "createdOn": "2026-04-24T08:07:26.579Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">A “smart contract” is a type of computer program that executes across multiple <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-full-node-2\"><strong id=\"\">nodes</strong></a> (computers) of a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> or <strong id=\"\">DLT</strong> network. Those nodes use a “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a>” protocol to ensure that the program executes in the same way across all nodes. The smart contract itself and the data written when the smart contract executes are typically stored on the blockchain’s <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledger</strong></a>.</p><p id=\"\">Smart contracts allow for different sorts of agreements to be structured between multiple people without the need for a trusted third party like a bank or enforcement through the legal system.<strong id=\"\">&nbsp;</strong></p><p id=\"\">If smart contracts are run on an open, <a id=\"\" href=\"https://learn.radixdlt.com/article/is-radix-decentralized\"><strong id=\"\">decentralized</strong></a> blockchain, they are not just <a id=\"\" href=\"https://learn.radixdlt.com/article/what-does-immutable-mean\"><strong id=\"\">immutable</strong></a>, but <a id=\"\" href=\"https://learn.radixdlt.com/article/is-radix-permissioned-or-permissionless\"><strong id=\"\">permissionless</strong></a> and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-trustless-and-permissionless-mean\"><strong id=\"\">trustless</strong>.</a> This is why smart contracts – such as those used for decentralized finance (<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a>) applications – are often called “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApps</strong></a>,” or decentralized applications.</p><p id=\"\">Smart contracts execute either when a user “calls” them, e.g. depositing ETH in Maker to create Dai, or when another smart contract “calls” them, such as liquidating a position in Aave.</p><p id=\"\">The ERC20 standard is one of the most common types of smart contract on Ethereum. ERC20 smart contracts allow anyone to create a token. <a id=\"\" href=\"https://learn.radixdlt.com/article/how-can-i-purchase-xrd-and-exrd-tokens\"><strong id=\"\">eXRD</strong></a>, the Ethereum wrapped version of <a id=\"\" href=\"https://learn.radixdlt.com/article/how-can-i-purchase-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a>, is an example of one such <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">What is a dApp?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-liquidity-pool\"><strong id=\"\">What is a liquidity pool?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What are Smart Contracts?",
+  "slug": "what-are-smart-contracts"
+ }
+}

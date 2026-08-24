@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc4b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:02:10.541Z",
+ "createdOn": "2021-04-25T19:19:36.873Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>DevOps Lead – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfa6",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d2bc891eb01f6c18bddd_raul.png",
+   "alt": null
+  },
+  "bio-excerpt": "Raul Velaz started his career as a software developer and then moved to the infrastructure and DevOps areas. During this time, he has worked in different industries, including education, e-commerce and blockchain. Before Radix, Raul was the Lead DevOps for ConsenSys Solutions. He has also been involved in blockchain projects for trade finance and commodity trading.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/raulvelazmayo/",
+  "blank-item": false,
+  "order": 21,
+  "name": "Raul Velaz Mayo",
+  "slug": "raul-velaz-mayo"
+ }
+}

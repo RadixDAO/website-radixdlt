@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5815",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:01:34.011Z",
+ "createdOn": "2026-04-24T08:08:07.197Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/entities-in-the-radix-ecosystem\"><strong id=\"\">Radix Publishing</strong></a> will use the following policy as its guide for when and how updates are published to the Radix protocol that affect network fees and validator node incentive <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">XRD emissions</strong></a>:</p><h4 id=\"\"><strong id=\"\">Network Fee Updating Policy</strong></h4><p id=\"\">At any point in time, there is a <strong id=\"\">current network XRD/USD price</strong> that was used as the basis for the Network fee table currently adopted on the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>.</p><p id=\"\">Radix Publishing will use a reputable source for the XRD market price, in USD, to watch the 7-day simple moving average of XRD price. If that 7-day SMA price deviates by a factor of 2 (less than 50% or more than 200%) from the current network XRD/USD price, the target will be to publish a Radix Node with an updated fee table based on a new current network XRD/USD price within 2 weeks – but it may take longer if other planned updates or development commitments make this impractical.</p><p id=\"\">The price used will be the 7-day SMA price on the day that the new <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-and-validator-node\"><strong id=\"\">Node</strong></a> is published.</p><p id=\"\">If such an update is published, it will also include an update to the Emissions Rate, calculated as in the following section.</p><h4 id=\"\"><strong id=\"\">Emissions Rate Updating Policy</strong></h4><p id=\"\">At any point in time, there is a <strong id=\"\">current network average </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix\"><strong id=\"\">epoch duration</strong> </a>that defines the maximum amount of XRD that are emitted to node-runners and stakers (before any burning due to non-participation penalties) in order to equal 300m XRD emitted per year.</p><p id=\"\">The actual duration of epochs on the Radix Public Network will be observed over time in order to watch the 30-day simple moving average of epoch duration. If this 30-day SMA deviates by a factor of 1.2 (less than 83% or more than 120%) from the current network average epoch duration, the target will be to publish a Radix Node with an updated emissions rate within 2 weeks – but it may take longer if other planned updates or development commitments make this impractical.</p><p id=\"\">The updated per-epoch emission rate will target 300m XRD / year based on an epoch duration set by the 30-day SMA epoch duration on the day that the new Node is published. Note that this does not attempt to <em id=\"\">compensate for</em> past low/high emissions rates – only bring it back in line with a 300m XRD / year target. This does not change the maximum XRD that shall be emitted over the lifetime of the emissions program of 24Bn tokens – meaning that the estimated 40-year duration of the program may be somewhat reduced or increased.</p><p id=\"\">Note that per the Network Fee Updating Policy above, the Emissions Rate may be adjusted even when the epoch duration does not deviate by more than a factor of 1.2.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 4,
+  "name": "What is the current policy for Fee/Emissions updates?",
+  "slug": "what-is-the-current-policy-for-fee-emissions-updates"
+ }
+}

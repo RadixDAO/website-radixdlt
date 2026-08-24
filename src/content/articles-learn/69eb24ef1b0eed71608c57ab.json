@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57ab",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:37.412Z",
+ "createdOn": "2026-04-24T08:07:37.412Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fe",
+  "full-article-text": "<p id=\"\">A <strong id=\"\">liquidity pool </strong>is a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart contract</strong></a>&nbsp; or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApp</strong></a> holding a shared set of funds (<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a>) contributed by users. Liquidity pools are used in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> in a wide range of different products and services. Some examples of these include:</p><ul id=\"\"><li id=\"\"><strong id=\"\">Lending</strong>&nbsp; - where users deposit funds into a liquidity pool in return for yield on lent assets. Aave is an example of a lending dApp.</li><li id=\"\"><strong id=\"\">Yield Optimization</strong> - where users deposit funds into a liquidity pool, and that pool then re-invests those assets to generate yield. Yearn.finance is an example of a yield optimization dApp.</li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-amms-automated-market-maker-and-cfmms-constant-function-market-maker\"><strong id=\"\">Constant Function Market Maker</strong></a> based <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">DEXes</strong></a> - where liquidity pools typically contain two assets that users may swap between, e.g., the <a id=\"\" href=\"https://v2.info.uniswap.org/pair/0x684b00a5773679f88598a19976fbeb25a68e9a5f\"><strong id=\"\">eXRD and USDC liquidity pool</strong> </a>on Uniswap.</li><li id=\"\"><strong id=\"\">Collateralized Debt Positions (CDP)</strong> - where users deposit funds into a pool as collateral to mint a smaller amount of debt, often denominated as a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-stablecoins\"><strong id=\"\">stablecoin</strong></a>. MakerDAO is an example of a CDP dApp.</li></ul><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">What are Smart Contracts?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-impermanent-loss\"><strong id=\"\">What is Impermanent Loss?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-amms-automated-market-maker-and-cfmms-constant-function-market-maker\"><strong id=\"\">What are AMMs&nbsp; (Automated Market Maker) and CFMMs (Constant Function Market Maker)?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">What’s a DEX?</strong></a><br></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What is a liquidity pool?",
+  "slug": "what-is-a-liquidity-pool"
+ }
+}

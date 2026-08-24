@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc28",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:06:02.204Z",
+ "createdOn": "2021-04-25T17:18:01.789Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Developer - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfa0",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087cf1f8550614efb6b500c_Alex.png",
+   "alt": null
+  },
+  "bio-excerpt": "Alex is a software developer with a passion for Swift, chess and cryptography. Being polyglot, Alex is involved in most code repos at Radix. Alex cares deeply about correctness and code quality, which is why he loves Swift so much.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/alexcyon/",
+  "blank-item": false,
+  "order": 9,
+  "name": "Alex Cyon",
+  "slug": "alex-cyon"
+ }
+}

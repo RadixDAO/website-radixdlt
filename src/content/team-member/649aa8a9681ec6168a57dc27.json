@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc27",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:05:41.370Z",
+ "createdOn": "2021-04-25T17:18:01.916Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>CPO -&nbsp;RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57df9d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087ceab34b00750f892ac7f_matt.png",
+   "alt": null
+  },
+  "bio-excerpt": "Matthew has 15 years of systems engineering experience and has been an advisor to blockchain companies. He is now our ‘technology bridge-builder’ helping guide Radix’s strategic approaches to core technology & governance",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/hinematthew/",
+  "blank-item": false,
+  "order": 7,
+  "name": "Matthew Hine",
+  "slug": "matthew-hine"
+ }
+}

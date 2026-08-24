@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57ddf7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:10.597Z",
+ "createdOn": "2022-04-02T18:39:46.026Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Join us if you're into RADIX or you want to find out what it's all about! Taking the advantage of the \"DeFi & Scrypto Event Lisbon\" event taking place on the same day and venue, we will have a meet-up with the RADIX team and all the developers and participants of the event. If you're already a participant on that event, then we hope you'll stay until the very end! If you didn't make it or you're not attending it, than please join us for the second half of the day, from 16:30 onward. The event includes free dinner, free drinks (open bar) and music (Live DJ set), on top of all the networking opportunities with your peers and the developers and RADIX team present as well. All you need to bring along is the willingness to share and learn!",
+  "location": "SUD Lisboa Avenida Brasília 1300-598 Lisboa Portugal",
+  "start-date": "2022-04-09T00:00:00.000Z",
+  "end-date": "2022-04-09T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.co.uk/e/lisbon-radix-community-meet-up-2nd-edition-tickets-311813461457",
+  "name": "Community Meet up - Lisbon",
+  "slug": "community-meet-up-lisbon"
+ }
+}

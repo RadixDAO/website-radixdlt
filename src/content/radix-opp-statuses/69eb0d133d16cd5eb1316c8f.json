@@ -1,0 +1,24 @@
+{
+ "id": "69eb0d133d16cd5eb1316c8f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:26.699Z",
+ "createdOn": "2026-04-24T06:26:26.699Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bf",
+   "69eb0c39904d0db4dee8f8c1",
+   "69eb0c39904d0db4dee8f8c3",
+   "69eb0c39904d0db4dee8f8bd"
+  ],
+  "severity": "c4752271c0d619470c9d2a7e139faa80",
+  "date-reported": "2023-12-04T00:19:00.000Z",
+  "last-update": "2023-12-04T10:15:00.000Z",
+  "content": "<p id=\"\">The Radix network is not processing new transactions. Radix Wallets and Dashboard are not showing balance or transaction information because the backing Gateway Service has noticed that the network is not progressing and is configured to not respond to informational queries in that case.</p><p id=\"\">‍</p><p id=\"\">Funds are secure, RDX&nbsp;Works team is investigating the issue.</p><p id=\"\">‍</p><p id=\"\">Update 2023/12/4 3:07 AM:&nbsp;Cause of the issue is now believed to be known, working on a fix.</p><p id=\"\">Update 2023/12/4 7:52 AM:&nbsp;A new version of the node is being packaged to fix the issue, and this is expected to be released within an hour. When enough validators update to this release, the network should be functional once again.</p><p id=\"\">Update 2023/12/4 9:02 AM:&nbsp;Node v1.0.5 has been published, and so far 25 validators have updated. Network functionality should resume once enough validators (~70 out of 100) have updated.</p><p id=\"\">Update 2023/12/4 9:50 AM:&nbsp;The network is now live, although running with high latency. The network speed will pick up as further validators update. We expect Gateway and Wallet functionality to be back online within the next 30 minutes.</p><p id=\"\">Update 23/12/4 10:15 AM:&nbsp;The Gateway and Wallet functionality is back online. </p>",
+  "name": "Radix network not processing transactions",
+  "slug": "radix-network-not-processing-transactions"
+ }
+}

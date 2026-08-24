@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57ddde",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:31:35.036Z",
+ "createdOn": "2022-03-10T15:37:58.053Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e255",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491d46880ff42358a33c_622a13d93e60777a12a18662_unnamed.jpeg",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "In Singapore, TOKEN2049 is the distinguished flagship event of Asia Crypto Week, which features a week of various independently organised side events around TOKEN2049, running from 26 September to 2 October 2022. Expect a wide range of meetups, workshops, networking drinks, parties and Formula 1 Racing.",
+  "location": "Singapore",
+  "start-date": "2022-09-28T00:00:00.000Z",
+  "end-date": "2022-09-29T00:00:00.000Z",
+  "event-link-text": "Get Tickets here!",
+  "event-link-url": "http://www.asia.token2049.com",
+  "name": "Token 2049 Singapore",
+  "slug": "token-2049-singapore"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "66e2c97eeeee3adceaa8d944",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T18:16:47.858Z",
+ "lastUpdated": "2024-09-12T18:16:35.603Z",
+ "createdOn": "2024-09-12T10:59:10.955Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Surge stands as the premier perpetual Dex on Radix, offering a secure, intuitive and comprehensive trading platform tailored specifically for off-ledger markets with leverage.",
+  "project-logo": {
+   "fileId": "66df17c59b8df33721a5dfed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df17c59b8df33721a5dfed_Icon%20(1).png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df17c8166093a6b613b60b",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df17c8166093a6b613b60b_banner1.png",
+   "alt": null
+  },
+  "link-to-project": "https://www.surge.trade/",
+  "categories": [
+   "66dafd66ee5760990041564f",
+   "66dafd5e7c1a27edea88c639"
+  ],
+  "rank": 5,
+  "name": "Surge",
+  "slug": "surge"
+ }
+}

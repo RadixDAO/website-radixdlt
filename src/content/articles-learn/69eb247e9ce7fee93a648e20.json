@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e20",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:25:40.622Z",
+ "createdOn": "2026-04-24T08:05:58.522Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf8208",
+  "full-article-text": "<p id=\"\">For developers, exchanges, and wallet creators, the <strong id=\"\">JSON-RPC Radix Node API</strong> offers a simple way of interacting with the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> by connecting to an <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-validator-node-and-archive-node\"><strong id=\"\">archive node</strong></a> that offers the API endpoint. <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> provides archive nodes for public use; however, often it is preferable for the client user to maintain one of their own. Please visit <a id=\"\" href=\"https://docs.radixdlt.com/main/index.html\"><strong id=\"\">Radix Tech Docs</strong></a> for more information about using the JSON-RPC Radix Node API and setting up an archive node.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://docs.radixdlt.com/main/index.html\"><strong id=\"\">Welcome to the Radix Tech Docs</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">What is Radix Node software?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-validator-node-and-archive-node\"><strong id=\"\">What's the difference between a full node, validator node, and archive node?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "How do I use the JSON-RPC Radix Node API",
+  "slug": "how-do-i-use-the-json-rpc-radix-node-api"
+ }
+}

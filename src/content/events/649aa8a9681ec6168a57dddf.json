@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dddf",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:55:30.949Z",
+ "createdOn": "2022-03-10T15:53:33.005Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e254",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491be55036324bec57e8_623245df95a0f53eefa1daf2_2.png",
+   "alt": null
+  },
+  "event-category": "40034f0dcec0c8a905ad800fdd9c5bcf",
+  "description": "Join us for our first free Scrypto Developer Workshop in Lisbon! Here you can register for a full day of DeFi fun, education and Smart Contract training. Afterwards, there will also be a party hosted by the Radix community where you can participate for free.",
+  "location": "Sud Hall Lisbon",
+  "start-date": "2022-04-09T00:00:00.000Z",
+  "end-date": "2022-04-09T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://lu.ma/ScryptoLisbon",
+  "name": "DeFi & Scrypto Event Lisbon",
+  "slug": "defi-scrypto-event-lisbon"
+ }
+}

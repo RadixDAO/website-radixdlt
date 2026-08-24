@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648e3e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:07.384Z",
+ "createdOn": "2026-04-24T08:06:07.384Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22f6152b91c44551c7b2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">It can take several hours for your ID and biometrics scan to be reviewed, please allow up to 24 hours for your ID to be reviewed. If after 24 hours the status is showing as “In Progress”, please contact support@instapass.io.&nbsp;</p><p id=\"\">You will be able to see the current status of your ID verification in Instapass on the right hand side. Once your ID is verified you can continue on to submit your proof of address documentation by clicking “continue”. You will receive an email from <a id=\"\" href=\"mailto:no-reply@instapass.io\">no-reply@instapass.io</a> if your ID verification has failed. If it has failed you will see that action is needed on your account.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1188px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1188px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb246f9ce7fee93a648b04_6453d6fbc19389288adeccb9_e0d31899.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Click “Continue” and you will be taken to the ID verification page to try again.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1126px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1126px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb246f9ce7fee93a648b01_6453d6ce3786094b98ab5a04_da9d43d6.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">There are a number of reasons why your ID verification may have failed. These are the most common:</p><ul id=\"\"><li id=\"\">Your ID is expired or does not feature an expiry date</li><li id=\"\">The ID was unreadable due to image quality</li><li id=\"\">SumSub couldn’t match your face to your photo ID</li><li id=\"\">Nothing was uploaded</li></ul><p id=\"\">When you click “Retry Identity Verification”, please make sure of the following:</p><ul id=\"\"><li id=\"\">You select the correct type of ID and you have it there ready</li><li id=\"\">Instapass has permission to access your webcam/phone camera</li><li id=\"\">Your ID is valid and features an expiry date (unfortunately at this time we cannot accept IDs which do not feature an expiry date)</li><li id=\"\">There is no glare on the ID</li><li id=\"\">Nothing is obscuring the ID</li></ul><p id=\"\">In the biometrics scan please make sure of the following:</p><ul id=\"\"><li id=\"\">Your face is evenly lit and stands out from the background</li><li id=\"\">Your face is not covered</li><li id=\"\">There is no glare on the camera</li><li id=\"\">Your face is within the marker indicated on the screen</li><li id=\"\">If you have reached the “Max number of session”, please contact <a id=\"\" href=\"mailto:support@instapass.io\">support@instapass.io</a> to reset your number of attempts, they will also give feedback on the reason why your ID verification failed.</li></ul><p id=\"\">Please do not send through documents to Instapass support. We cannot accept documents via email. Once you have passed ID verification please continue to complete your address verification.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "How Long Does ID Verification Take?",
+  "slug": "how-long-does-id-verification-take"
+ }
+}

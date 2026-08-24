@@ -1,0 +1,21 @@
+{
+ "id": "69eb22ab8e57ec268e88daf8",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T07:58:39.070Z",
+ "createdOn": "2026-04-24T07:58:35.160Z",
+ "isArchived": true,
+ "isDraft": true,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb22a6cdf8a553a72b1739",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb22a6cdf8a553a72b1739_6391f8db1f09319af0a75cd5_Babylon%20for%20Learn.svg",
+   "alt": null
+  },
+  "number-of-questions": "13",
+  "subcategory-set": false,
+  "subcategory": null,
+  "name": "Upcoming Babylon Concepts and Technologies",
+  "slug": "upcoming-babylon-concepts-and-technologies"
+ }
+}

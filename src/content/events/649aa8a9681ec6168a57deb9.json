@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57deb9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-11-16T14:37:19.428Z",
+ "createdOn": "2022-11-16T14:33:08.318Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e2fb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6374f42a5c790d74f6b6c92e_bequant2.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "Radix is the headline sponsor second Capital Introduction Crypto Forum of 2022. It will take place on November 23 at the Biltmore Hotel in London, UK and registrations are now open. Save your seat now and join a selected group of fund managers and investors for a full day of meeting diverse strategies & networking, problem-solving and learning with a packed agenda. We will be announcing speakers and agenda closer to the time.",
+  "location": "The Biltmore Hotel, London",
+  "start-date": "2022-11-23T00:00:00.000Z",
+  "end-date": "2022-11-23T00:00:00.000Z",
+  "event-link-text": "Register Now Here!",
+  "event-link-url": "https://research.bequant.pro/cap-intro-2022-2?hsLang=en#register",
+  "name": "BEQUANT Capital Introduction Crypto Forum",
+  "slug": "bequant-capital-introduction-crypto-forum"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de534",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:18.616Z",
+ "createdOn": "2026-04-24T08:07:18.616Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Automated market makers are a staple of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> space. They are a kind of <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">decentralized token exchange</strong></a> that enables anyone to create markets seamlessly and efficiently.&nbsp;</p><p id=\"\">An AMM is a protocol that relies on a mathematical formula to price assets. Instead of using a traditional order book, assets on AMMs are priced according to an algorithm.</p><p id=\"\">Like an order book, however, AMMs use trading pairs – for example, ETH/<a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a>. The revolutionary part is that instead of having someone on the other side to make a trade, you directly interact with a<a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"> <strong id=\"\">smart</strong> <strong id=\"\">contract</strong></a>. The AMM “makes” the market for you.</p><p id=\"\">One of the most common types of AMM is a Constant Function Market Maker, pioneered by Uniswap. CFMMs work when one type of user, a “liquidity provider,” places two assets into a smart contract - creating a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-liquidity-pool\"><strong id=\"\">“pool” of liquidity</strong></a>. Other users can then trade between those two assets by either depositing and withdrawing from the pool. The price of each of those two assets changes on a fixed “bonding” curve, depending on the ratio of the two assets in the pool. In this way, CFMMs can <em id=\"\">always</em> make a market, as there will always be some ratio of those two assets with a price determined by the bonding curve.&nbsp;</p><p id=\"\">Some prominent examples of AMMs in the market as of Q2 2021 are Uniswap, Sushiswap, Curve, and Balancer.</p><p id=\"\">Uniswap was the first CFMM and has the highest volume of any AMM or DEX today. Uniswap v3 now allows users to provide “concentrated liquidity,” which is more capital-efficient than the bonding curves used in Uniswap v2.&nbsp;</p><p id=\"\">Sushiswap is a fork of Uniswap but with unique governance and reward mechanisms.&nbsp;</p><p id=\"\">Curve specializes in creating liquidity pools of similar assets such as <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-stablecoins\"><strong id=\"\">stablecoins</strong></a>. As a result, it offers some of the lowest slippage and most efficient use of capital in the industry.</p><p id=\"\">Balancer is an AMM that creates liquidity pools with up to eight different tokens in any ratio. Pools can be thought of as automatically rebalancing portfolios, allowing you to create or join a decentralized index fund.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">What is a DEX</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-liquidity-pool\"><strong id=\"\">What is a liquidity pool?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">What is a dApp?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What are AMMs  (Automated Market Maker) and CFMMs (Constant Function Market Maker)",
+  "slug": "what-are-amms-automated-market-maker-and-cfmms-constant-function-market-maker"
+ }
+}

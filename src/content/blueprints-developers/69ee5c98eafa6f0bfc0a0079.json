@@ -1,0 +1,27 @@
+{
+ "id": "69ee5c98eafa6f0bfc0a0079",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T09:25:51.596Z",
+ "createdOn": "2026-04-26T18:42:32.549Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": null,
+  "username": "@you",
+  "icon": {
+   "fileId": "69eef863aa184f15f109ef65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbaf54d643c74a0c920",
+   "69ee5bbe2ff7d1decf028fdc"
+  ],
+  "description": "Be the first in this space by submitting your own project or blueprint!",
+  "github-url": null,
+  "website-url": null,
+  "name": "Coming soon...",
+  "slug": "coming-soon"
+ }
+}

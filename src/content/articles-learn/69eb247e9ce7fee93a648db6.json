@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648db6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:05:20.836Z",
+ "createdOn": "2026-04-24T08:05:20.836Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8204",
+  "full-article-text": "<p id=\"\">You cannot move <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-staking\"><strong id=\"\">staked XRD</strong></a> freely between <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validators</strong></a> as this would undermine network <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">security</strong></a> - creating loopholes where stake could be removed from malicious validators<strong id=\"\"> </strong>without incurring any penalties.</p><p id=\"\">However, when you stake, the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix Protocol</strong></a> automatically sends you <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit tokens, or LSUs</strong></a>. These tokens represent a proportional claim on the pool of XRD tokens staked with a particular validator.</p><p id=\"\">LSUs are fully liquid, and so if you need to get into or out of a staked position, you are able to exchange these for other tokens in Radix’s <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a> <a id=\"\" href=\"http://learn.radixdlt.com/article/how-do-i-discover-dapps-and-tokens-in-the-radix-ecosystem\"><strong id=\"\">ecosystem</strong></a> immediately and without delay.</p><p id=\"\">If you want to move the underlying staked XRD, you must request an unstake by sending back your LSUs to the validator component, and wait 2,016 epochs (about 7 days). See <a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix</strong></a> for more details on how this works.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-xrd-emissions-work\"><strong id=\"\">How do XRD emissions work?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">How to Stake and Unstake XRD</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix-2\"><strong id=\"\">How long is an epoch on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">How should I choose validators to stake to?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 8,
+  "name": "Can I move stake freely between validators, or do I have to unstake and restake?",
+  "slug": "can-i-move-stake-freely-between-validators-or-do-i-have-to-unstake-and-restake"
+ }
+}

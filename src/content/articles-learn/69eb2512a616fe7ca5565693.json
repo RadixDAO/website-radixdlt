@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565693",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:22:29.711Z",
+ "createdOn": "2026-04-24T08:08:49.270Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">Yes, Radix Tokens (Jersey) Limited (RTJL), which is a subsidiary of the Radix Foundation, intends to operate validator nodes to provide support to network reliability and security. These nodes are not special in any way - they are simply nodes that RTJL will operate as part of its mission to support Radix and the Radix ecosystem – especially in the early stages of the network. They are intended to provide a multi-region, redundant set of high-reliability nodes alongside other nodes run by the community. RTJL’s nodes <a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-operated-validator-nodes-accept-delegated-stake-from-the-community\">will not accept any community stake</a> - only its own.</p><p id=\"\">However, RTJL also does not wish to compete with good, reliable community validator nodes. Therefore RTJL is adopting a 2-tier policy of staking to its own nodes that will allow those nodes to naturally transition out of the validator set when they are not needed.</p><p id=\"\">RTJL will begin by operating 6 nodes in each of 4 geographical regions, for a total of 24 nodes. The majority of RTJL’s total stake (<a id=\"\" href=\"https://learn.radixdlt.com/article/will-the-radix-foundation-stake-its-own-xrd-holdings-to-which-validators\">no more than 25% of network stake</a>) will be delegated to just 2 nodes in each region (8 total) - with a relatively small amount of stake then spread across the remaining 4 nodes in each region (16 total).</p><p id=\"\">This means that there will be a low bar for community node-runners to attract stake delegation and push most of RTJL’s nodes out of the validator set, reducing its number to just 8 (2 in each region). As more community XRD flows into the network and is staked, we then anticipate that these remaining 8 will also be naturally pushed out of the validator set when they are no longer providing any value over community nodes.</p><p id=\"\"><br></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-foundations-policy-on-staking-node-running-2\"><strong id=\"\">What is the Radix Foundation’s policy on staking &amp; node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-the-radix-foundation-stake-its-own-xrd-holdings-to-which-validators\"><strong id=\"\">Will the Radix Foundation stake its own XRD holdings? To which validators?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-receive-incentive-rewards-from-staking-and-validator-node-running-2\"><strong id=\"\">Will Radix receive incentive rewards from staking and validator node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-operated-validator-nodes-accept-delegated-stake-from-the-community-2\"><strong id=\"\">Will Radix-operated validator nodes accept delegated stake from the community?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 5,
+  "name": "Will the Radix Foundation operate validator nodes?",
+  "slug": "will-the-radix-foundation-operate-validator-nodes"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc95",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:24.083Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-08-27T00:00:00.000Z",
+  "guest-name": "Matthew Wright|Greg Diprisco",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfc8",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f666abf7333574746ecb_podcast-22.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "On this episode of The DeFi Download, Piers speaks with Matthew Wright of Argent about how Argent are seeking to make DeFi accessible to anyone, and bringing a user experience to the non-custodial wallet that was previously thought to be impossible.",
+  "main-content": "<p>On this episode of The DeFi Download, Piers speaks with Matthew Wright of Argent about how Argent are seeking to make DeFi accessible to anyone, and bringing a user experience to the non-custodial wallet that was previously thought to be impossible.</p><p>‍</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/5159455-solving-crypto-s-problem-with-people",
+  "name": "Solving crypto's problem with people!",
+  "slug": "solving-cryptos-problem-with-people"
+ }
+}

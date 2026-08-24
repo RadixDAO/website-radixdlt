@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de0c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:09.803Z",
+ "createdOn": "2022-05-02T12:09:35.540Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Come meet other Radix community members, at the first Radix Singapore event. Location TBD but it will be a local restaurant Please RSVP to attend, so we make sure we have enough space. If you have questions, please contact @jithat on Telegram via the community meet up channel https://t.me/Radix_Meetup.",
+  "location": "TBD",
+  "start-date": "2022-05-14T00:00:00.000Z",
+  "end-date": "2022-05-14T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/radix-singapore-meetup-tickets-330363906337",
+  "name": "Community Meet Up - Singapore",
+  "slug": "community-meetup-singapore"
+ }
+}

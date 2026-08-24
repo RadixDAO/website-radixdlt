@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc1f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:01:50.767Z",
+ "createdOn": "2021-04-25T19:20:31.860Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>DevOps – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57da04",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c1519b55a56639ccc615_shambu.png",
+   "alt": null
+  },
+  "bio-excerpt": "Shambu is a seasoned DevOps and IT practitioner. He is now putting his passion for programming & Infrastructure with code practices to use at Radix",
+  "twitter": null,
+  "linkedin": null,
+  "blank-item": false,
+  "order": 24,
+  "name": "Shambu Pujar",
+  "slug": "shambu-pujar"
+ }
+}

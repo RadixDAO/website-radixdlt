@@ -1,0 +1,30 @@
+{
+ "id": "66df6d1491611e595c6ad59e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T15:54:34.264Z",
+ "lastUpdated": "2025-02-03T15:45:38.157Z",
+ "createdOn": "2024-09-09T21:48:04.627Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Provides additional endpoints and functionality to the Radix Gateway API, simplifying the retrieval of required data and ledger services.",
+  "project-logo": {
+   "fileId": "66df6d0124735667eed32376",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6d0124735667eed32376_1%20(1).png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df6d03f3d6f1068d722900",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df6d03f3d6f1068d722900_RadixAPI%20banner.png",
+   "alt": null
+  },
+  "link-to-project": "https://radixapi.net/",
+  "categories": [
+   "66dafd4047c321c70ec59b34"
+  ],
+  "rank": 28,
+  "featured": false,
+  "name": "Radix API",
+  "slug": "radix-api"
+ }
+}

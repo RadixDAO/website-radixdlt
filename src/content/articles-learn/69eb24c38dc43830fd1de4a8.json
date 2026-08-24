@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4a8",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:05:17.046Z",
+ "createdOn": "2026-04-24T08:06:20.824Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=LqWEdm9koXo&t=11s\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/LqWEdm9koXo?start=11\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\">Before you start the import process, you must install the Radix Mobile wallet via the App Store or Google Play and the Radix Connect browser extension. You can do both of these via <a id=\"\" href=\"http://wallet.radixdlt.com\">Wallet.radixdlt.com </a>&nbsp;</p><p id=\"\">You will also need to do a final update to the Olympia Desktop wallet. This can be done directly via the desktop wallet. Once this has been completed, you will see the below message in your desktop wallet.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:724px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"724px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247c8dc43830fd1dd7bd_651441adab1a27078a0c0d93_licgtG6-1YXCVLzr3dwBfERjJoZuPGyl2X-tKjy6Iwb6PO-FLIetL0l9bZ_IFsqVf2h7YwCoJ3FpwZmRnhQbfMI5r5MZmA-8knQaPeGu3CjLdeLr0sO1PqEurncK_d56Z4g2qigeL2mqC7dZuCv66lk.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Begin the export process by clicking <strong id=\"\">Click here to export your accounts</strong>.</p><p id=\"\">You will now have the option to export selected accounts, or all of your accounts. <br><br>Select <strong id=\"\">Export All</strong> or <strong id=\"\">Export Selected</strong>. <br><br>Once you make your selection, you will be shown a QR code. It contains no secure information; it is safe to scan.&nbsp;</p><p id=\"\">In the mobile wallet, select <strong id=\"\">Settings</strong> the gear icon in the top right corner and select <strong id=\"\">Import Legacy Accounts</strong>. <br><br>The mobile wallet will now show you the account you have selected for import. Select <strong id=\"\">Import Accounts</strong> to proceed.</p><p id=\"\">Once you import your Olympia accounts to Babylon, the Olympia account addresses will cease to function and will be flagged as “Obsolete.” You will see the new account addresses listed under the obsolete address.</p><p id=\"\">You will now be prompted to input your seed phrase. Click <strong id=\"\">Continue to Seed Phrase</strong> and input your password.&nbsp;&nbsp;</p><p id=\"\"><strong id=\"\">This is a security-critical action. Make sure you are in private. Do not input your seed into any other websites. RDX Works or any other entity will not ask you to provide your seed phrase for a customer support query.</strong></p><p id=\"\">You will be prompted to verify with your device if you use a hardware Ledger device. <br><br>To continue, you must download and launch the new Radix Ledger Application. A request will be sent to your device. Click <strong id=\"\">Connect</strong> on the pop-up to grant permission.&nbsp;&nbsp;</p><p id=\"\">Once verification is complete, your ledger account will be imported.&nbsp;</p><p id=\"\"><strong id=\"\">To ensure the security of your seed phrase, it is strongly recommended you use the “Delete Wallet” function in the settings of your Olympia wallet, as the seed phrase can still be used to recover accounts to the mobile wallet.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Import Olympia Accounts to the Babylon Wallet",
+  "slug": "how-to-import-olympia-accounts-to-the-babylon-wallet"
+ }
+}

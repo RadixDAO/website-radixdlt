@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de5d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T15:03:38.413Z",
+ "createdOn": "2022-07-04T09:07:06.829Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e258",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62dac72bd6adf8bf3b8cfbee_Thumb_Scrypto-Developer-Event%20(3).png",
+   "alt": null
+  },
+  "event-category": "40034f0dcec0c8a905ad800fdd9c5bcf",
+  "description": "You shouldn't miss our Web 3.0 Workshop for developers - Building DeFi with Scrypto! This is your chance to learn all about smart contracts and how to code them yourself in a relaxed atmosphere in a relaxed atmosphere. The event will happen on the 23rd of July in Vienna, Budapest, Munich, Szeged and Lisbon. There will be an opportunity after the workshop to network with participants over a drink and share interests, project ideas, and stories.",
+  "location": "Vienna, Budapest, Munich, Szeged, Lisbon",
+  "start-date": "2022-07-23T00:00:00.000Z",
+  "end-date": "2022-07-23T00:00:00.000Z",
+  "event-link-text": "Sign up here for your city!",
+  "event-link-url": "https://www.eventbrite.com/cc/building-defi-with-scrypto-a-web-30-workshop-677139?just_published=true",
+  "name": "Building DeFi with Scrypto - a Web 3.0 workshop for Developers",
+  "slug": "building-defi-with-scrypto-a-web-3-0-workshop-for-developers"
+ }
+}

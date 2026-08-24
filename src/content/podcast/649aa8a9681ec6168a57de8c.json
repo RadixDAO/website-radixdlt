@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de8c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-08-13T12:34:00.861Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-08-13T00:00:00.000Z",
+  "guest-name": "Julien Bouteloup",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e27c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62f78e2091801fc1efcf50bb_Headpod.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e27d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62f79a34750575af670fdc28_rekt-full-black-svg.svg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard of RDX Works and Julien Bouteloup of Stake Capital and Rekt News discuss his background and experience in the crypto space and analyse the current threats to DeFi governance, such as bribery and lobbying.",
+  "main-content": "<p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/zSA4p08kZik\"><div><iframe src=\"https://www.youtube.com/embed/zSA4p08kZik\" title=\"Rekt, Curve.Finance and new threats to DeFi\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">Julien Bouteloup is the creator of the first ever flash loan. He is also the founder and CEO of Stake Capital Group, a member of the Curve Finance core team, and the creator and founder of Rekt News.</p><p id=\"\">Julien has a background in physics and mathematics. He has a Master's degree in Computer Science and Electrical Engineering and has worked in Machine Learning and Artificial Intelligence.&nbsp;</p><p id=\"\">[1:04] Julien’s experience during the early crypto years</p><p id=\"\">[2:55] Into the mind of Julien: His approach to meeting teams and getting involved in projects, as well as his path to where he is now</p><p id=\"\">[6:27] Looking back on his time in the crypto space, what were Julien's opinions or beliefs that he still holds as strongly as he did when he first got into it, and what has he changed his mind about?</p><p id=\"\">[10:18] <a id=\"\" href=\"https://twitter.com/bneiluj/status/1396869138337910796\">The Hopium Diaries, from Julien’s Twitter</a> feed</p><p id=\"\">[11:23] Bribes and Governance: What's happening in the governance token space today?</p><p id=\"\">[19:01] Examples of emerging phenomena that are opposed to how we want the DeFi system to function</p><p id=\"\">[24:47] The solution to the above problem, according to Julien</p><p id=\"\">[30:09] What led to the formation of Rekt? Why did Julien create it? What was lacking in the market at the time?</p><p id=\"\">[34:09] What criteria are used to choose the content for Rekt?</p><p id=\"\">[37:03] Are NFTs dead?</p><h4 id=\"\">Further resources</h4><ul id=\"\"><li>Stake Capital: <a id=\"\" href=\"https://www.stake.capital/\">stake.capital</a>&nbsp;&nbsp;</li><li>Julien’s Twitter: <a id=\"\" href=\"https://twitter.com/bneiluj/\">@bneiluj</a>‍</li><li>Rekt News:<a href=\"https://rekt.news/\">rekt.news</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11131156-rekt-curve-finance-and-new-threats-to-defi",
+  "name": "Rekt, Curve.Finance and new threats to DeFi ",
+  "slug": "rekt-curve-finance-and-new-threats-to-defi"
+ }
+}

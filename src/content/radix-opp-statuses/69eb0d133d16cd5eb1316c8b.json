@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c8b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:26.471Z",
+ "createdOn": "2026-04-24T06:26:26.471Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bb"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2022-07-26T08:30:00.000Z",
+  "last-update": "2022-07-26T08:30:00.000Z",
+  "content": "<p id=\"\">Planned migration of Pte01 and pte02 data between 9AM-10AM GMT Tuesday 26. This may cause issues with the services not accepting traffic for short period of time. This is not expected to be more than 30 minutes.</p>",
+  "name": "Potential disruption to PTE website",
+  "slug": "potential-disruption-to-pte-website"
+ }
+}

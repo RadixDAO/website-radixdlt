@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c578f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:30.541Z",
+ "createdOn": "2026-04-24T08:07:30.541Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8202",
+  "full-article-text": "<p id=\"\">In short, these validators will lose emissions <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a>, and the market price of the relevant <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit (LSU)</strong></a> tokens may change as a result. This is important to ensure that node-runners have a strong incentive to keep the network stable, reliable, and performant.</p><p id=\"\">Of course, in the real world, things happen.&nbsp;Regions go offline; cables get cut; data centers get flooded.&nbsp; Unfortunately, the<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix Protocol</strong></a><strong id=\"\"> </strong>can not establish a “reason” for a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator node</strong></a> not participating in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a>. We recommended that validator node-runners employ strategies to ensure high availability, such as those <a id=\"\" href=\"https://docs.radixdlt.com/main/index.html\"><strong id=\"\">presented in our technical documentation</strong></a>.<br><br>The good news is, as long as such problems are infrequent, validator node-runners and stakers won’t miss out on many <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a>.&nbsp; <a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-are-calculated-for-token-holders\"><strong id=\"\">Penalties</strong></a> are calculated per-<a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a>, and with epochs occurring roughly every 5 minutes, a node-runner that brings their node back online quickly will also quickly pick back up earning rewards.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://docs.radixdlt.com/main/index.html\"><strong id=\"\">Radix Tech Docs</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-are-calculated-for-token-holders\"><strong id=\"\">How XRD staking emissions rewards are calculated - general</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-and-validator-fees-calculated-for-validators\"><strong id=\"\">How XRD staking emissions rewards and validator fees are calculated - for validators</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What happens if a validator node misses many consensus rounds?",
+  "slug": "what-happens-if-a-validator-node-misses-many-consensus-rounds"
+ }
+}

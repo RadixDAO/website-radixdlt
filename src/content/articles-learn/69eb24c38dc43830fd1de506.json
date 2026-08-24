@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de506",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:16:07.641Z",
+ "createdOn": "2026-04-24T08:07:02.918Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8204",
+  "full-article-text": "<p id=\"\"><strong id=\"\"><em id=\"\">This article refers to a special epoch that occurred in July and August 2021. It is no longer relevant and retained only for historical purposes.</em></strong></p><p id=\"\">The period following the genesis of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix</strong> <strong id=\"\">Public</strong> <strong id=\"\">Network</strong></a> on July 28th 2021 was a special “bootstrapping” <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a> lasting at least 14 days.&nbsp;</p><p id=\"\">There was no rush to start swapping <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">eXRD</strong></a> for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">staking</strong></a>, connecting nodes, or <a id=\"\" href=\"https://learn.radixdlt.com/article/can-i-move-stake-freely-between-validators-or-do-i-have-to-unstake-and-restake\"><strong id=\"\">registering</strong> <strong id=\"\">validators</strong></a> during this bootstrapping epoch. During this period, everyone was equally “first in line” when the bootstrapping epoch ended and normal epochs (of approximately 30-90 minutes) began.&nbsp;</p><p id=\"\">The bootstrapping epoch allowed XRD <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> holders and node-runners time to <a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">choose which validators</strong></a> to delegate to, and set up their validator nodes, respectively.</p><p id=\"\">For a full breakdown of how this period worked, please see the blog article <a id=\"\" href=\"https://www.radixdlt.com/post/radix-mainnet-launch-timeline\"><strong id=\"\">Radix Mainnet Launch Timeline</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/radix-mainnet-launch-timeline\"><strong id=\"\">Radix Mainnet Launch Timeline</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">How should I choose validators to stake to?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-being-delivered-for-the-olympia-mainnet\"><strong id=\"\">What is being delivered for the Olympia Mainnet?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-can-i-do-on-the-olympia-mainnet\"><strong id=\"\">What can I do on the Olympia mainnet?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 4,
+  "name": "Radix Mainnet Launch Timeline - “Bootstrapping Epoch”",
+  "slug": "radix-mainnet-launch-timeline-bootstrapping-epoch"
+ }
+}

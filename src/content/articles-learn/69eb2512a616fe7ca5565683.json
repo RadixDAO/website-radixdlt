@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565683",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:45.521Z",
+ "createdOn": "2026-04-24T08:08:45.521Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8204",
+  "full-article-text": "<p id=\"\">Yes.</p><p id=\"\">At the end of every <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a>, your <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a> rewards for that epoch are automatically added to the staked pool within the relevant <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-validator-component\"><strong id=\"\">validator component</strong></a>.&nbsp;&nbsp;</p><p id=\"\">This means that any <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Units (LSUs)</strong></a> that you hold will, after each epoch, have a slightly larger pool of XRD that they can claim.</p><p id=\"\">Your rewards, therefore, compound approximately every 5 minutes (<a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix\"><strong id=\"\">the approximate length of an epoch</strong></a>).</p><p id=\"\">If you prefer to use your new XRD emissions for something other than <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">staking</strong></a> to the same node, you simply need to <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">unstake</strong></a> the quantity you want to use.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd\"><strong id=\"\">How to Stake and Unstake XRD</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-xrd-emissions-work\"><strong id=\"\">How do XRD emissions work?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-penalties-are-calculated-general\"><strong id=\"\">How XRD staking emissions rewards are calculated - general</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-are-calculated-for-token-holders\"><strong id=\"\">How XRD staking emissions rewards are calculated - for token holders</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-token-holders-earn-and-claim-xrd-emissions-rewards\"><strong id=\"\">How do token holders earn and claim XRD emissions rewards</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix-2\"><strong id=\"\">How long is an epoch on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-proof-of-stake-pos-and-delegated-proof-of-stake-dpos\"><strong id=\"\">What's the difference between Proof of Stake (PoS) and Delegated Proof of Stake (DPoS)?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "Will my staking emissions rewards be automatically staked?",
+  "slug": "will-my-staking-emissions-rewards-be-automatically-staked"
+ }
+}

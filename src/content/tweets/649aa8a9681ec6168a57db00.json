@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57db00",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:11:27.752Z",
+ "createdOn": "2021-04-25T10:40:09.237Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/f_pieper/status/1384903019943366656?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d9ad",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085470795651e850c9cad6b_Fpieper.png",
+   "alt": null
+  },
+  "content": "Great to see that such a fundamental next-gen project like Radix gets more known in the community. Unlimited scalability with full atomic composability, but most importantly safe & easier smart contracts (less exploits) are so much needed for future global mainstream",
+  "order": 9,
+  "name": "Florian Pieper",
+  "slug": "florian-pieper"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "66df1abfd17b576ae09a8a5c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-02-08T11:47:59.310Z",
+ "createdOn": "2024-09-09T15:56:47.148Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A meme token designed to make DeFi more accessible and inclusive, aiming to make decentralized finance fun and approachable for everyone.",
+  "project-logo": {
+   "fileId": "66df1aaedd5a2912b90e4dfa",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1aaedd5a2912b90e4dfa_RDX%20WORKS%201.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1ab06dfe83203ee98d0d",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ab06dfe83203ee98d0d_Ontwerp%20zonder%20titel%20(6).png",
+   "alt": null
+  },
+  "link-to-project": "https://wowoproject.com/",
+  "categories": [
+   "66dafd47bb99ef6418f1a300"
+  ],
+  "rank": 14,
+  "featured": false,
+  "name": "WOWO",
+  "slug": "wowo"
+ }
+}

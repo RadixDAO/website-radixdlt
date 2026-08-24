@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de82",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-08-11T10:28:40.491Z",
+ "createdOn": "2022-07-28T07:40:19.589Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e25d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62e23d49aa9c118324fa8c48_mainnet.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "RDX Works will participate in Messari Mainnet, an immersive, agenda-setting summit held annually by Messari. As the crypto industry continues to grow and disrupt adjacent industries, Messari strives to offer investors, developers, entrepreneurs, and newcomers alike with reliable information and data tools that help them participate intelligently in the crypto economy. Building off this ethos, we will continue to experiment with industry partners to ensure the Mainnet experience offers experiential learning, promotes collaboration & networking, and remains anchored with independent content. Relocating to Pier 36 on the East Side of Manhattan, we are eager to design a unique experience for all attendees and build activations that align with our sponsors' objectives. ",
+  "location": "Pier 36, Manhattan, NYC, USA",
+  "start-date": "2022-09-21T00:00:00.000Z",
+  "end-date": "2022-09-23T00:00:00.000Z",
+  "event-link-text": "Get $300 Discount on your Mainnet Tickets here!",
+  "event-link-url": "https://mainnet.events/?promo=Radix300",
+  "name": "Messari Mainnet",
+  "slug": "messari-mainnet"
+ }
+}

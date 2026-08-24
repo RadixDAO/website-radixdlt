@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57deba",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-11-19T16:16:43.323Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-11-19T00:00:00.000Z",
+  "guest-name": "Philippe Engels & John Chen ",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e2fc",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/637900fa2a2433e371c52643_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e2fd",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63790134604b4330e4779304_Umbrella_Network_Logo-Vertical_Version_1.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard speaks with John Chen, Senior Advisor of Umbrella Network, and Philippe Engels, Partnerships and BD Manager. What sets Umbrella apart from other oracles, how it functions, and what the future has in store for it are some of the topics of their conversation. ",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/WErZ2M20ADU\"><div><iframe src=\"https://www.youtube.com/embed/WErZ2M20ADU\" title=\"Umbrella: The first truly decentralized oracle service\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\"><br>Umbrella Network is a community-owned decentralized data oracle that powers anything from DeFi to decentralized applications more broadly. Umbrella accomplishes this on a massive scale at an incredibly low cost.</p><p id=\"\">To alleviate the friction involved in extracting and verifying data, the Umbrella team developed Passport. Passport, an optimized, pre-built, and cost-effective solution, enables dApps to receive Umbrella’s Layer 2 data straight into their smart contracts without the need for proof verification.</p><p id=\"\"><strong id=\"\">[01:15]</strong> Chainlink is already a market-leading oracle. Why does the market require a new oracle? What are the limitations of Chainlink?</p><p id=\"\"><strong id=\"\">[4:04]</strong> How does a developer think about integrating data from Layer 2 into their Ethereum, Radix, or other Layer 1 application?</p><p id=\"\"><strong id=\"\">[7:03]</strong> Unpacking the core operating principles of Umbrella Network's Passport solution</p><p id=\"\"><strong id=\"\">[9:36]</strong> Adding the data feed in the first place is a common problem in the blockchain industry. How does a smart contract developer go about getting data added to Umbrella? How does that process work?</p><p id=\"\"><strong id=\"\">[13:11]</strong> How does the Umbrella oracle ensure that the data it gets is accurate?&nbsp;</p><p id=\"\"><strong id=\"\">[14:55]</strong> What types of projects are using the Umbrella protocol?</p><p id=\"\"><strong id=\"\">[19:41]</strong> The entire crypto space is, in some ways, boring backend technology, but what it provides in terms of potential is exciting. What are some of the broader possibilities of data on ledger that John finds intriguing?</p><p id=\"\"><strong id=\"\">[25:01]</strong> Where would John place his bets for the next bull market on what he believes will be the primary uses of Umbrella's technology in apps built on top of public ledgers?</p><p id=\"\"><strong id=\"\">[29:30]</strong> Philippe's thoughts on sports betting and Web 2.0 platforms in general, possibly increasing their availability on ledgers</p><p id=\"\">Further resources</p><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://www.umb.network/\">Umbrella Network</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/umbnetwork\">@umbnetwork</a>&nbsp;</li><li id=\"\">Telegram: <a id=\"\" href=\"https://t.me/umbrellanet\">t.me/umbrellanet</a> &nbsp;</li><li id=\"\">Medium: <a id=\"\" href=\"https://medium.com/umbrella-network\">medium.com/umbrella-network</a>&nbsp;</li></ul><p id=\"\">‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11726416-umbrella-the-first-truly-decentralized-oracle-service",
+  "name": "Umbrella: The first truly decentralized oracle service",
+  "slug": "umbrella-the-first-truly-decentralized-oracle-service"
+ }
+}

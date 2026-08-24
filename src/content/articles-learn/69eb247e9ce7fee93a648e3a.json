@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648e3a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T08:59:17.245Z",
+ "createdOn": "2026-04-24T08:06:06.475Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22ce9c63b54df937828f",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Upgrading to Tier 2 AML should only take a few minutes, you can check the status of your AML upgrade in your Account Summary.&nbsp;</p><p id=\"\">Upgrading to Tier 3 or 4 can take between 2-4 weeks. This is because the documentation must be manually reviewed by a member of our compliance team and will sometimes require follow-on questions or additional documentation. You will receive an email to let you know if your application has been successful or not or if more information is required.<br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How Long Do AML Tier Upgrades Take?",
+  "slug": "how-long-do-aml-tier-upgrades-take"
+ }
+}

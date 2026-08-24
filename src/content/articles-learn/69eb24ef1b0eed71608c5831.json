@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5831",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:15.087Z",
+ "createdOn": "2026-04-24T08:08:15.087Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">The <strong id=\"\">Radix Protocol</strong> refers to the algorithmic rules that govern how <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator nodes</strong></a>, using <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">Radix Node software</strong></a>, operate the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>. It defines how these nodes communicate with one another, how they conduct <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a><strong id=\"\"> </strong>on<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a>, what transactions are valid, and how <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-transaction-fees-work-on-radix-are-they-burned\"><strong id=\"\">fees</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix-2\"><strong id=\"\">epochs</strong></a>, and much more work on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a>.</p><p id=\"\">The Radix Protocol includes <strong id=\"\">Radix Engine</strong> as its execution environment, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Cerberus</strong></a> as its consensus protocol, and Radix’s <a id=\"\" href=\"https://learn.radixdlt.com/article/what-kind-of-staking-system-does-radix-use\"><strong id=\"\">DPoS</strong> <strong id=\"\">system</strong> </a>as its <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack-2\"><strong id=\"\">Sybil resistance</strong></a><strong id=\"\"> </strong>mechanism.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">What is a validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">What is Radix Node software?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">What are the Radix Public Network and Radix Ledger?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 4,
+  "name": "What is the Radix Protocol?",
+  "slug": "what-is-the-radix-protocol"
+ }
+}

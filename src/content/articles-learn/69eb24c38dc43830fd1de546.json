@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de546",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:23.147Z",
+ "createdOn": "2026-04-24T08:07:23.147Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Public and private keys are strings of text or numbers used to encrypt and decrypt data and “sign” <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong>.</a> They come in pairs. They<strong id=\"\"> </strong>are part of a wider technology known as “public-key cryptography” which is a foundational technology that underpins much of the internet today. For example, it’s what allows you to submit your credit card information over the internet, knowing that only the receiver will be able to see or decrypt your card information.</p><p id=\"\">Within <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">Blockchain</strong></a> and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> networks, public and private keys serve an essential purpose - they are what enable the network to verify whether someone wishing to execute a transaction, such as sending a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a>, has the authority to do so.</p><p id=\"\">Private keys, as the name suggests, are kept private. Each private key creates a matched public key that can be freely provided to anyone (together, they are called your “keypair”). You can’t go the other way: through some mathematical cleverness, nobody with the public key can ever figure out what the matching private key is. The magic happens when, for example, a user uses the private key to sign something, e.g., a message, transaction, or piece of data associated with the public key. In that case, anyone can be 100% certain that <em id=\"\">only </em>the person who has the private key that matches the public key could have signed it.&nbsp;</p><p id=\"\">A public key is like a business card that says, “this is me!” - while the private key lets you <em id=\"\">prove without a doubt</em> that you are the person on the card. Anyone can even send an encrypted message to a given public key that only the holder of the matched private key can read!</p><p id=\"\">On blockchains and DLT networks, the public key is used to create your address where you can hold and transact tokens. Each transaction through that account must be signed by the matching private key for that account/public key; this lets the network automatically verify without a doubt that the right person is requesting the transaction – as long as nobody else knows the private key!</p><p id=\"\">It is absolutely essential that you keep your private key (or seed phrase - basically a kind of private key) safe. If someone has access to your private key or seed phrase, they have control of your account and any of the tokens it holds.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">What is a “transaction” in crypto?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">What is a Blockchain?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">What is a DLT?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">What is a token?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What are public and private keys?",
+  "slug": "what-are-public-and-private-keys"
+ }
+}

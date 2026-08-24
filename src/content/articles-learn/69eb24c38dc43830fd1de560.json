@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de560",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:06:55.061Z",
+ "createdOn": "2026-04-24T08:07:30.370Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> is the native <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>. It is used for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-staking\"><strong id=\"\">staking</strong></a> as part of Radix’s <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Delegated Proof of Stake system</strong></a>, and it is also burned to pay <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-transaction-fees-work-on-radix-are-they-burned\"><strong id=\"\">transaction fees</strong></a>.&nbsp;</p><p id=\"\">There is a hard cap of 24bn XRD:</p><p id=\"\">- 12bn of this XRD is emitted over 40 years as <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">network emission rewards</strong></a> (300m per year);</p><p id=\"\">- 2.4bn is reserved for future <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-stablecoins\"><strong id=\"\">stablecoins</strong></a> on Radix;</p><p id=\"\">- 4.41bn started life as <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">eXRD</strong></a>;</p><p id=\"\">- 2.79bn is held by the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix Foundation</strong></a><strong id=\"\"> </strong>to support the Radix Ecosystem;</p><p id=\"\">- 2.4bn is held by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix DLT</strong></a> to fund development.</p><p id=\"\">All eXRD* and the XRD held by Radix entities is subject to Radix’s price-based unlocking system; this means that 99% of this portion of XRD supply starts out locked, and only if certain price thresholds are met do additional tranches get unlocked. Price-based unlocking is common throughout traditional finance as a means of aligning everyone’s incentives.&nbsp;</p><p id=\"\">Full details can be found in the <a id=\"\" href=\"https://www.radixdlt.com/whitepapers/economics\"><strong id=\"\">Radix Economics Whitepaper</strong></a>.</p><p id=\"\">*with the exception of 200m eXRD provided as liquidity incentives for 6 months, starting November 2020, and 10m eXRD that were allocated to marketing activity for the token launch.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">What are the XRD and eXRD tokens?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-can-i-purchase-xrd-and-exrd-tokens\"><strong id=\"\">How can I purchase eXRD and XRD tokens?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-transaction-fees-work-on-radix-are-they-burned\"><strong id=\"\">How do transaction fees work on Radix? Are they burned?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/whitepapers/economics\"><strong id=\"\">Radix Economics Whitepaper</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What are the tokenomics of Radix?",
+  "slug": "what-are-the-tokenomics-of-radix"
+ }
+}

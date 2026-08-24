@@ -1,0 +1,27 @@
+{
+ "id": "69ee5ca7d5c4b25467162741",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-28T17:34:18.646Z",
+ "createdOn": "2026-04-26T18:42:47.476Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "order": 5,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5ca7d5c4b2546716273c",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca7d5c4b2546716273c_62671547c2c7602d7580fdc8_raduel.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bba05a3f6da31b69cdc",
+   "69ee5bbc86024e569590dfa6"
+  ],
+  "description": "A 2D MMORPG that brings together gaming and player owned assets. Play how you want: Explore, Build, Skill, PvE, PvP, Craft, Forge Alliances, Conquer, whilst having the ability to transfer in, out, and mint your own items that can be used in-game.",
+  "github-url": null,
+  "website-url": "https://raduel.com/",
+  "name": "Raduel",
+  "slug": "raduel"
+ }
+}

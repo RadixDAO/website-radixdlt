@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de47",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T15:02:00.663Z",
+ "createdOn": "2022-06-08T16:36:57.074Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Come join us for lunch at Tumon Lee Garden, as we learn about Radix DLT, a new decentralized network. We will be watching a short presentation, giving away Radix merchandise, and just hanging out. Radix website - www.radixdlt.com",
+  "location": "Tumon Lee Garden 1007 Pale San Vitores Road Tamuning, Guam 96913 Guam",
+  "start-date": "2022-06-18T00:00:00.000Z",
+  "end-date": "2022-06-18T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "http://eventbrite.com/e/radix-guam-meetup-tickets-359020809907?aff=ebdssbdestsearch",
+  "name": "Community Meet Up - Guam",
+  "slug": "community-meet-up-guam"
+ }
+}

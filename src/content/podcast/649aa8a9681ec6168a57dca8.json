@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dca8",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-27T16:43:24.927Z",
+ "createdOn": "2021-04-27T10:31:04.035Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-07-16T00:00:00.000Z",
+  "guest-name": "Mona El Isa",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfb9",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608813aa51284dd4a3447f00_podcast.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of The Defi Download Piers Ridyard talks with Mona El Isa, co-founder of Melon Protocol and founder of Avantgarde Finance about the expansion of DeFi and asset management on chain",
+  "main-content": "<p>In this episode of The Defi Download Piers Ridyard talks with Mona El Isa, co-founder of Melon Protocol and founder of Avantgarde Finance about the expansion of DeFi and asset management on chain</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/4391495-bringing-funds-to-cryptoland-defi-edition",
+  "name": "Bringing Funds to Cryptoland: DeFi edition.",
+  "slug": "bringing-funds-to-cryptoland-defi-edition"
+ }
+}

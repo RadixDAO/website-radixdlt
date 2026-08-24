@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dca5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-27T16:42:32.186Z",
+ "createdOn": "2021-04-27T10:31:01.495Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-06-03T00:00:00.000Z",
+  "guest-name": "Willy Woo",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfc4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608812e7d9f7b63d6840d5e0_podcast.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "Piers Ridyard and Willy Woo discussing different pricing models used to value crypto and why Bitcoin can see 72k USD at the top of the next cycle",
+  "main-content": "<p><a href=\"https://twitter.com/hashtag/DefiDownload/\">#DefiDownload</a> with Piers Ridyard and Willy Woo discussing different pricing models used to value <a href=\"https://slack-redir.net/link?url=https%3A%2F%2Ftwitter.com%2Fhashtag%2Fcrypto%2F\">#crypto</a> and why <a href=\"https://slack-redir.net/link?url=https%3A%2F%2Ftwitter.com%2Fhashtag%2FBitcoin%2F\">#Bitcoin</a> can see 72k USD at the top of the next cycle</p><p>‍</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/4011782-72k-bitcoin-with-willy-woo",
+  "name": "$72k Bitcoin with Willy Woo",
+  "slug": "72k-bitcoin-with-willy-woo"
+ }
+}

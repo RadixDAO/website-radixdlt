@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57df34",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2023-06-16T15:42:23.285Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2023-06-16T00:00:00.000Z",
+  "guest-name": "Mark Richardson",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e381",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/648c8277c75e7b40f1a2a119_Mark%20Richardson.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e05f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/618e675dd6fef42f42cda00d_bancor-black.c26bdefc.png",
+   "alt": null
+  },
+  "excerpt": "Mark Richardson, the project lead at Bancor, joins Piers Ridyard to discuss Carbon, the next stage in DEX evolution, in this episode of the DeFi Download. Carbon provides order book-like functionality on-chain and has already seen over 100 strategies created since its launch on April 20th.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/15ilKfU_u_k\"><div><iframe src=\"https://www.youtube.com/embed/15ilKfU_u_k\" title=\"Carbon: an order book like DEX that actually works!\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\"><strong>Summary</strong></p><p id=\"\">From Bancor V1 to Uniswap, the evolution of cryptocurrency liquidity provision has been characterised by significant innovations that sparked DeFi Summer. Although the Automated Market Maker (AMM) was a game-changer, Bancor is turning away from the AMM, recognising the complexities involved in providing liquidity.</p><p id=\"\">Carbon, as an on-chain order book functionality provider, offers greater flexibility and control over liquidity provision than traditional AMMs. Carbon's app runs in the user's browser using an open-source software development kit (SDK), which is lightweight enough to run smoothly on a smartphone.</p><p id=\"\"><br><strong id=\"\">Key takeaways</strong></p><ul id=\"\"><li id=\"\">Carbon is a gas-efficient, lightweight DEX that prioritises efficiency while still executing swaps trustlessly.</li><li id=\"\">In retrospect, some of the most significant innovations appear obvious, but until an innovation is defined and described, it may not be immediately apparent. The irony of invention is that it is only apparent after it has been discovered. Previously, it may have been unclear why others were not in the right frame of mind to make the discovery themselves.</li><li id=\"\">Carbon's development priorities include identifying the demographic that uses Carbon, exploring other blockchain ecosystems, and supporting features that did not make the critical path for the MVP but still need support.</li></ul><p id=\"\"><strong id=\"\">Chapters</strong></p><p id=\"\">[01:12] What killed the AMM, and what comes next in the world of DeFi liquidity provision?</p><p id=\"\">[07:05] How providing liquidity can align incentives and create a social basis for market making in DeFi</p><p id=\"\">[10:45] What is the simplest way to describe impermanent loss to someone in the context of AMMs?</p><p id=\"\">[13:37] Impermanent loss in liquidity provision and missed profit opportunities</p><p id=\"\">[16:02] What are Mark Richardson's thoughts on how Bancor's Carbon can contribute to the concentrated liquidity pools model, and what is the next step in liquidity provision?</p><p id=\"\">[18:21] What is a short gamma option, and why is it called that?</p><p id=\"\">[23:53] The rise of constant function AMMs and the naive phase of decentralised finance and crypto</p><p id=\"\">[26:50] What are the limitations of the Automated Market Maker (AMM), and why is it not the ideal financial instrument for liquidity provision in DeFi? How does Carbon solve these limitations, and what does it do differently?</p><p id=\"\">[29:20] Carbon's customizable \"buy low, sell high\" strategy execution</p><p id=\"\">[33:39] Is it possible that CLOBs lack statefulness and a concept of time, resulting in only valid or invalid orders and no if-then statements?</p><p id=\"\">[35:27] How does Carbon solve the challenge of creating order book-like functionality and making it easy for users to buy within a certain range without having to pick specific orders, while still maintaining the ability to put trades on in microseconds or nanoseconds and avoiding potential performance issues with state-based logic in order matching engines?</p><p id=\"\">[38:59] The genius of Carbon: a simple on-ledger solution for order routing</p><p id=\"\">[43:29] Does using the SDK in Carbon for executing positions trustlessly while still submitting the execution to the ledger raise concerns among decentralisation maximalists?</p><p id=\"\">[46:37] What are Carbon’s plans for the next 6–12 months?</p><p id=\"\"><br><strong id=\"\">Further resources</strong></p><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://bancor.network/\" target=\"_blank\">bancor.network</a> </li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/Bancor\" target=\"_blank\">@Bancor</a> </li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/CAm3Ncyrxk\" target=\"_blank\">discord.com/invite/CAm3Ncyrxk</a> </li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/13052515-carbon-an-order-book-like-dex-that-actually-works",
+  "name": "Carbon: an order book like DEX that actually works",
+  "slug": "carbon-an-order-book-like-dex-that-actually-works"
+ }
+}

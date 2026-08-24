@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc2b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:03:40.729Z",
+ "createdOn": "2021-04-25T19:16:14.589Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Head of Partnerships -&nbsp;RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfa4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087cf9785506106606bed07_ben.png",
+   "alt": null
+  },
+  "bio-excerpt": "At Deloitte and PwC in London, Ben advised and audited over 50 financial institutions; specialising in technology risk and the governance of financial market infrastructure. He’s been a keen member of the Radix community since 2016",
+  "twitter": null,
+  "linkedin": null,
+  "blank-item": false,
+  "order": 12,
+  "name": "Ben Fargher",
+  "slug": "ben-fargher"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69ee5d80da802928688af452",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-26T18:47:00.145Z",
+ "createdOn": "2026-04-26T18:46:24.474Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 1,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5da0aa723b2b08eadf11",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5da0aa723b2b08eadf11_63becf7c03b15167054ce1a5_radit.jpg",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbefcbe7f0b2813c5f3"
+  ],
+  "description": "Put Your Money Where Your Mouth Is! Radit is the first and only community platform running on the Radix ledger, powered by $RADIT - the first yield token on Radix.",
+  "github-url": null,
+  "website-url": "https://www.radit.io/",
+  "name": "Radit",
+  "slug": "radit"
+ }
+}

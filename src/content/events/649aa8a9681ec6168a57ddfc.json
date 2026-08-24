@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57ddfc",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:10.168Z",
+ "createdOn": "2022-04-14T11:38:24.634Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Welcome to the first Radix meet-up in Malaysia! We're a group of Crypto enthusiast that also loves the Radix DeFi network. Come meet us as we talk about anything Radix & Crypto! Dinner is available too! Those new to crypto, DeFi, or Radix are welcome. 7:00 PM – 10:00 PM. For more information please contact the Event Ambassador @Rain2418 via the Telegram Meetup Channel. https://t.me/Radix_Meetup.",
+  "location": "Secret Of Louisiana at the lake 1 Jalan SS 7/13a #D - 01 Petaling Jaya, Selangor 47301 Malaysia",
+  "start-date": "2022-04-20T00:00:00.000Z",
+  "end-date": "2022-04-20T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/radix-meetup-malaysia-tickets-314604088297",
+  "name": "Community Meet Up - Malaysia",
+  "slug": "radix-meet-up-malaysia"
+ }
+}

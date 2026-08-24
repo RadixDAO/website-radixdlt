@@ -1,0 +1,31 @@
+{
+ "id": "66df1a861e4fdd9c72cb1616",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:28:57.471Z",
+ "createdOn": "2024-09-09T15:55:50.674Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A platform offering trust and transparency tools for Web3. It allows users to lock and vest tokens or NFTs with custom schedules to build confidence and track projects.",
+  "project-logo": {
+   "fileId": "66df1a74c74b27676fccaa31",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1a74c74b27676fccaa31_RadLock-square-motif-with-pinkback.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1a77173bbb1304472d45",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1a77173bbb1304472d45_banner(1600x600).png",
+   "alt": null
+  },
+  "link-to-project": "https://radlock.io/",
+  "categories": [
+   "66dafd4047c321c70ec59b34",
+   "66dafd66ee5760990041564f"
+  ],
+  "rank": 13,
+  "featured": false,
+  "name": "RadLock",
+  "slug": "radlock"
+ }
+}

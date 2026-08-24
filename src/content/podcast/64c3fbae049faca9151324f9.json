@@ -1,0 +1,29 @@
+{
+ "id": "64c3fbae049faca9151324f9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2023-07-28T17:32:30.626Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2023-07-28T00:00:00.000Z",
+  "guest-name": "David Garai",
+  "guest-image": {
+   "fileId": "64c3fa34d9590fdbed10145f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64c3fa34d9590fdbed10145f_David-Garai%201.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "64c3fa35e681c987e7ec4f23",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64c3fa35e681c987e7ec4f23_5sQWX1-q_400x400.jpg",
+   "alt": null
+  },
+  "excerpt": "In this DeFi Download podcast episode, Piers Ridyard interviews David Garai, founder of Raft. Raft is a stablecoin protocol similar to MakerDAO, but it is backed by liquid staking tokens. Piers and David talk about the potential of liquid staking and its role in DeFi, as well as concerns about centralization.\n",
+  "main-content": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=lNBEk06x53M&ab_channel=RadixDLT\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/lNBEk06x53M\" title=\"Raft: an LSD inspired stable coin\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\">In this DeFi Download podcast episode, Piers Ridyard interviews David Garai, founder of Raft. Raft is a stablecoin protocol similar to MakerDAO, but it is backed by liquid staking tokens. Piers and David talk about the potential of liquid staking and its role in DeFi, as well as concerns about centralization.</p><h4 id=\"\">Summary</h4><p id=\"\">Raft is a decentralised stablecoin protocol that uses liquid staking tokens (LSTs), such as staked ETH, as collateral. Raft requires a collateralization ratio of 120% compared to MakerDAO’s 175% and charges a one-time fee rather than an ongoing APY.</p><p id=\"\">The protocol manages risks associated with using fewer liquid tokens as collateral through its liquidation mechanism and position and protocol level caps. Raft also employs a redistribution mechanism to socialise losses and ensure that the protocol remains overcollateralized.</p><p id=\"\">Raft charges a variety of fees, including liquidation fees and flash minting fees, and is integrating with other DeFi protocols to create use cases for R stablecoins. The potential use cases for Raft stablecoins include spending and short-term trading, and the possibility of onboarding other stablecoins as collateral in the future.</p><h4 id=\"\">Key takeaways</h4><ul id=\"\"><li id=\"\">Raft is an LSDFi protocol. LSDs (liquid staking derivatives) are ERC20 tokens issued by liquid staking platforms to represent the staking share in that particular platform. They are also referred to as liquid staking tokens.</li><li id=\"\">Raft’s lower collateralization ratio and one-time fee differentiate it from MakerDAO.</li><li id=\"\">Raft aims to create an even playing field for users to select their preferred staking provider and encourages competition in the market.</li></ul><p>‍</p><h4 id=\"\">Chapters\t\t</h4><p id=\"\"><strong id=\"\">[00:00]</strong> Introduction</p><p id=\"\"><strong id=\"\">[03:02] </strong>Raft's motives to enter the market for decentralised stablecoins backed by liquid staking tokens</p><p id=\"\"><strong id=\"\">[05:08]</strong> Does the use of LSTs in DeFi applications accelerate Ethereum centralization and increase risks?</p><p id=\"\"><strong id=\"\">[08:23]</strong> What differentiates Raft from MakerDAO</p><p id=\"\"><strong id=\"\">[11:35]</strong> Managing risk while using less liquid underlying assets and reducing the collateral requirements</p><p id=\"\"><strong id=\"\">[18:46]</strong> Raft's second tier of defence</p><p id=\"\"><strong id=\"\">[26:35]</strong> Raft's strategies for integrating its stablecoin with other DeFi protocols</p><p id=\"\"><strong id=\"\">[30:39]</strong> Raft's focus on spending as a growth market for its stablecoin</p><p id=\"\"><strong id=\"\">[36:41]</strong> Where to learn more about Raft</p><h4 id=\"\">Further resources</h4><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://raft.fi/\">raft.fi</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/raft_fi\">@raft_fi</a>&nbsp;</li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/raft-fi\">discord.com/invite/raft-fi</a>&nbsp;</li><li id=\"\">Documentation: <a id=\"\" href=\"https://docs.raft.fi/\">docs.raft.fi</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/13308499-raft-an-lsd-inspired-stable-coin",
+  "name": "Raft: an LSD inspired stable coin",
+  "slug": "raft-an-lsd-inspired-stable-coin"
+ }
+}

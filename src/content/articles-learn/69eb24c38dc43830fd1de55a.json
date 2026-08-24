@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de55a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:15:16.237Z",
+ "createdOn": "2026-04-24T08:07:28.954Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">What are the main Radix legal entities?<br></p><p id=\"\"><strong id=\"\">RDX Works Ltd </strong>is a UK-based software company assisting with the development of the <strong id=\"\">Radix Ledger</strong> and related software.</p><p id=\"\"><strong id=\"\">Radix Foundation Ltd</strong> is a UK-based not-for-profit that has as its objectives education and furthering understanding in the Radix technology and application of the technology underpinning the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Ledger</strong></a>.&nbsp;<br></p><p id=\"\"><strong id=\"\">Radix Tokens (Jersey) Limited</strong> is a Jersey-based company and wholly-owned subsidiary of the Radix Foundation. It is the issuer of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">eXRD</strong></a> and the entity that first instantiated the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Ledger</strong></a><strong id=\"\">.</strong></p><p id=\"\"><strong id=\"\">Radix Publishing Ltd</strong> is a Jersey (Channel Islands) company and wholly-owned subsidiary of the Radix Foundation. It is responsible for the publication of the open source code that allows the <strong id=\"\">Radix Ledger</strong> to be run.</p><p id=\"\">‍<strong id=\"\">Metapass (Radix) Limited</strong> is a Jersey-based company and wholly owned subsidiary of the Radix Foundation that operates the <a id=\"\" href=\"http://instapass.io\"><strong id=\"\">Instapass Digital Identity</strong></a> service.<br></p><p id=\"\"><strong id=\"\">Metaverse (Radix) Limited</strong> is a Jersey-based wholly owned subsidiary of RDX Works Ltd that operates the <a id=\"\" href=\"http://instabridge.io\"><strong id=\"\">Instabridge Cross-Chain Asset</strong></a> service.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-does-the-radix-team-look-like\"><strong id=\"\">What does the Radix team look like?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">What is Radix?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 4,
+  "name": "What are the main Radix legal entities?",
+  "slug": "what-are-the-main-radix-legal-entities"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57fd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:00.759Z",
+ "createdOn": "2026-04-24T08:08:00.759Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Radix Connect is a technology that allows the Radix Wallet to be a truly mobile-first experience, while still letting users seamlessly use <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a> and Web3.0 <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApp</strong></a> websites on desktop.</p><p id=\"\">For users, there is an easy one-time setup flow to link the <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-wallet-for-babylon\"><strong id=\"\">Radix Wallet</strong></a> on their mobile phone to their desktop browser. A simple <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-connector-browser-extension\"><strong id=\"\">Radix Connector</strong></a> browser extension for desktop provides a QR code that the mobile Radix Wallet scans. After that, whenever a dApp website wishes to connect to the Radix Wallet, a connection is automatically established.</p><p id=\"\">This connection is fully end-to-end encrypted, so that it is impossible for anyone to read the messages. It’s also peer-to-peer, meaning that there is no need for a centralized server to relay messages back and forth. Even if the desktop computer and phone are on different networks, they are able to find each other and establish the encrypted P2P connection. Radix Connect uses a reliable, industry-standard connection protocol called <a id=\"\" href=\"https://webrtc.org/\"><strong id=\"\">WebRTC</strong></a>, combined with a communication protocol specifically for passing <a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-transaction-manifests\"><strong id=\"\">transaction</strong></a> and wallet data efficiently.</p><p id=\"\">The Radix Wallet is also able to connect to websites on the mobile phone. Here, instead of using Radix Connect, it uses a technique called “deep linking” to directly pass messages between the Radix Wallet app and the mobile browser app, and the dApp running in it.</p><p id=\"\">To learn how to use <strong id=\"\">Radix Connect</strong>, visit <a id=\"\" href=\"http://wallet.radixdlt.com\"><strong id=\"\">wallet.radixdlt.com</strong></a>; or visit the <a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Radix User Guide</strong>.</a></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-connector-browser-extension\"><strong id=\"\">What is the Radix Connector browser extension?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-smart-accounts\"><strong id=\"\">What are Smart Accounts?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">What are Personas (and Identities)?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">What are Native Assets?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-transaction-manifests\"><strong id=\"\">What are Transaction Manifests?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 5,
+  "name": "What is Radix Connect?",
+  "slug": "what-is-radix-connect"
+ }
+}

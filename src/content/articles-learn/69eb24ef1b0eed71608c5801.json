@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5801",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:31:34.293Z",
+ "createdOn": "2026-04-24T08:08:01.870Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Radix uses Delegated Proof of Stake (DPoS), which means:<br></p><ul id=\"\"><li id=\"\">Network security is guaranteed by a community of token holders delegating their stake to nodes that are included in the validator set and are behaving correctly. A validator set is a grouping of validator nodes participating in consensus together.<br></li></ul><ul id=\"\"><li id=\"\">To incentivize this form of security, token holders can delegate their tokens (or “stake”) to validator nodes to receive a portion of tokens newly created by the protocol. These token rewards are called “network emission”. This includes validator node-runners delegating stake to their own node.<br></li></ul><p id=\"\">(Find out more about what Delegated Proof of Stake is <a id=\"\" href=\"/article/what-is-delegated-proof-of-stake-dpos\">here</a>)</p><p id=\"\">(<a id=\"\" href=\"/article/how-do-i-stake-tokens\">How do I stake tokens?</a>)</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is Radix DPoS staking?",
+  "slug": "what-is-radix-dpos-staking"
+ }
+}

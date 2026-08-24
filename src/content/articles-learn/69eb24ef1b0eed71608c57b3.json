@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57b3",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:39.255Z",
+ "createdOn": "2026-04-24T08:07:39.255Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">In a Sybil attack, one person or entity attempts to get an unfair advantage in a system or network by creating many identities or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a> cheaply.</p><p id=\"\">Avoiding these attacks is a significant <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> design problem for public <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> networks. To commit <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a> on a DLT network, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a> need to vote to approve or reject transactions. However, if a simple “one node, one vote” rule is used on a public network, nothing is stopping a bad actor from creating many nodes and getting unfair voting power – a Sybil attack. Another method of voting is needed on an open, public network consensus system.</p><p id=\"\">This is the reason why public blockchain and DLT networks require a Sybil attack prevention mechanism to weight votes more intelligently. <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-proof-of-work-and-proof-of-stake\"><strong id=\"\">Proof of Work (PoW) and Proof of Stake (PoS)</strong></a> are examples of such mechanisms, weighting votes based on scarce resources: computational work and quantity of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> held, respectively. With these mechanisms, it doesn’t matter if one person spreads their available computational power or token holdings across many nodes or one; their voting power is the same.</p><p id=\"\">While it is still possible for a single actor to gain a large weight of the vote in PoW or PoS networks, the cost of doing so becomes increasingly expensive due to the scarcity of the resource used for vote weighting. As a result, attempting to gain this advantage becomes economically unviable.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-proof-of-work-and-proof-of-stake\"><strong id=\"\">What are Proof of Work and Proof of Stake?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-proof-of-stake-pos-and-delegated-proof-of-stake-dpos\"><strong id=\"\">What's the difference between Proof of Stake (PoS) and Delegated Proof of Stake (DPoS)?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/are-my-funds-safe-on-radix\"><strong id=\"\">Are my funds safe on Radix?\t</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">What is a consensus protocol?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-kind-of-staking-system-does-radix-use\"><strong id=\"\">What kind of staking system does Radix use?</strong></a>‍<br></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 10,
+  "name": "What is a Sybil attack?",
+  "slug": "what-is-a-sybil-attack"
+ }
+}

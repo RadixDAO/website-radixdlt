@@ -1,0 +1,14 @@
+{
+ "id": "649aa8a9681ec6168a57d931",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-25T01:11:42.146Z",
+ "createdOn": "2021-04-25T01:11:42.146Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "content": "Scalability typically refers to the amount of transactions the network can process over a period of time (often measured in TPS - transactions per second) and how fast the network can finalize transactions (seconds, minutes, hours). Radix provides transaction finality in seconds. And when fully rolled out, Radix’s sharded Cerberus consensus will enable a “linearly scalable” network which means that the more nodes you put to work the more transactions the network can process.",
+  "name": "What is Scalability?",
+  "slug": "what-is-scalability"
+ }
+}

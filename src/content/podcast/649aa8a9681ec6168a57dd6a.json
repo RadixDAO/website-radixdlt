@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd6a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-08-20T20:08:43.130Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-08-20T00:00:00.000Z",
+  "guest-name": "Travin Keith",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e02c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61200b0590bff2221d70ac92_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e02d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61200b2450ef02b04f026c42_logo-white.svg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Travin Keith, co-founder of Immunefi. Immunefi is the leading bug bounty platform in crypto, currently protecting over $25 billion in user funds.\n",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Travin Keith, co-founder of Immunefi. Immunefi is the leading bug bounty platform in crypto, currently protecting over $25 billion in user funds.</p><p>Travin and Piers discuss DeFi project vulnerabilities and how bug bounties are just as important as audits. Travin describes the characteristics of a good hacker and how Immunefi brings together hackers and projects to create more secure DeFi apps and platforms.&nbsp;</p><p><strong>[00:42]</strong> What exactly is a bug bounty, and why is it important?</p><p><strong>[04:10]</strong> The philosophy of the open-source movement</p><p><strong>[06:52]</strong> The \"Homo economicus\" fallacy, and why would any hacker capable of discovering an exploit in a project choose to accept a pay-out that is less than what they could get for exploiting that vulnerability?</p><p><strong>[12:11]</strong> The old way of thinking of companies that used to sue hackers for discovering vulnerabilities.</p><p><strong>[14:39]</strong> Amount of funds protected and of bounties paid out by Immunefi, as well as the case of Alexander Schlindwein</p><p><strong>[20:16]</strong> Immunefi's approach to recruiting hackers&nbsp;</p><p><strong>[24:55] </strong>What qualities make a good hacker, according to Travin's experience, that Immunefi looks for when looking for hackers for the White Hat Scholarship?&nbsp;</p><p><strong>[26:42]</strong> What events does Immunefi attend in order to recruit hackers?</p><p><strong>[28:29]</strong> Travin's business background and what it was like to live in Longyearbyen, Svalbard, in the Arctic. His path to co-founding Immunefi.</p><p><strong>[37:45]</strong> Immunefi's collaboration with the Maker ecosystem, including work and incubation with the Sustainable Ecosystem Scaling Core Unit</p><p><strong>[40:19]</strong> What would Travin change or improve about the current ecosystem if he had a magic wand? What are his thoughts, particularly on bug bounties and hacking, and what behaviour change he believes is critical for more founders and projects to understand?</p><p><strong>[44:53]</strong> The difference between a white hat and a black hat hacker</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://immunefi.com/\">immunefi.com/</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/immunefi\">@immunefi</a>&nbsp;</li><li>Medium: <a href=\"https://medium.com/immunefi\">medium.com/immunefi</a>‍</li><li>Discord: <a href=\"https://discord.gg/rpkPDR7pVV\">discord.gg/rpkPDR7pVV</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9060962-immunefi-hack-defi-the-ethical-way",
+  "name": "Immunefi: hack DeFi the ethical way",
+  "slug": "immunefi-hack-defi-the-ethical-way"
+ }
+}

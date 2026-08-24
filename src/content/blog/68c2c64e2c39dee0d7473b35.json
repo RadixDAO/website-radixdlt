@@ -1,0 +1,34 @@
+{
+ "id": "68c2c64e2c39dee0d7473b35",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-09-11T14:19:00.771Z",
+ "lastUpdated": "2025-09-11T14:19:00.771Z",
+ "createdOn": "2025-09-11T12:53:34.539Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2025-09-11T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de39",
+   "649aa8a9681ec6168a57de41",
+   "649aa8a9681ec6168a57de3a"
+  ],
+  "image": {
+   "fileId": "68c2c57a1701075b8ed51d78",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/68c2c57a1701075b8ed51d78_arculus%20card%20supported.png",
+   "alt": null
+  },
+  "excerpt": "Radix Wallet 1.17.0 now supports the Arculus Card, giving Radix users a secure, hardware-backed way to sign transactions and manage accounts with a simple tap.",
+  "main-content": "<h1 id=\"\"><strong id=\"\">Radix Wallet Now Supports Arculus Card&nbsp;</strong></h1><p id=\"\">We’re excited to announce that Radix Wallet now supports the <strong id=\"\">Arculus Card</strong>, which makes secure account management and professional-grade protection easier than ever. This marks the second step in our <a id=\"\" href=\"https://www.radixdlt.com/blog/arculus-partners-with-radix-to-support-mfa\">partnership with Arculus</a>, following the earlier listing of XRD in the Arculus Wallet app.</p><p id=\"\">With this integration, Radix users can now:</p><ul id=\"\"><li id=\"\">Create and manage <strong id=\"\">accounts and personas.<br></strong></li><li id=\"\"><strong id=\"\">Sign transactions</strong> securely with just a tap.<br></li><li id=\"\"><strong id=\"\">Prove ownership</strong> of accounts with confidence.<br></li><li id=\"\">Use the card as a <strong id=\"\">recovery factor.</strong><br><br></li></ul><h3 id=\"\"><strong id=\"\">Arculus Card Advantages for Radix Users</strong></h3><p id=\"\">Using the Arculus Card as your Radix Wallet signing device combines the proven security of hardware protection with the convenience of a tap. Here’s why it’s a great choice:</p><ul id=\"\"><li id=\"\"><strong id=\"\">Private keys stay on the card,</strong> they never leave the secure hardware.</li><li id=\"\"><strong id=\"\">Increased safety against attacks</strong>: even if your phone is compromised, the transaction won’t go through unless you tap the card.</li><li id=\"\"><strong id=\"\">One-tap signing</strong>: no cables, PINs, or buttons.</li><li id=\"\"><strong id=\"\">Fits in a normal wallet</strong> or purse, unlike bulkier USB devices.</li><li id=\"\"><strong id=\"\">No charging required</strong>: the card uses NFC, so it never needs to be plugged in or powered up.<strong id=\"\">‍</strong></li><li id=\"\"><strong id=\"\">Works with any NFC-enabled phone</strong>, no dependency on USB port type.<strong id=\"\">‍</strong></li><li id=\"\"><strong id=\"\">Travel-friendly</strong>: it’s durable, waterproof, and tamper-resistant.</li></ul><p id=\"\">‍</p><h3 id=\"\"><strong id=\"\">Make Sure You’re Using a Compatible Arculus Card</strong></h3><p id=\"\">To use your Arculus Card with the Radix Wallet, you’ll need to make sure you have a <strong id=\"\">compatible version of the card firmware</strong>. The Radix Wallet requires <strong id=\"\">Arculus Card version 2.2.7.6 or newer</strong>. You can verify its version number in the <strong id=\"\">Arculus Wallet App</strong> settings before pairing it with the Radix Wallet.</p><h3 id=\"\"><strong id=\"\">How to Add Your Arculus Card to Radix Wallet</strong></h3><ol id=\"\"><li id=\"\">In Radix Wallet, go to <strong id=\"\"><em id=\"\">Security Factors</em></strong> and select <strong id=\"\"><em id=\"\">Arculus Card</em></strong>.<br></li><li id=\"\">Tap <strong id=\"\"><em id=\"\">Add Arculus Card</em></strong>.<br></li><li id=\"\">Set up your card following these steps:<br><ul id=\"\"><li id=\"\"><strong id=\"\"><em id=\"\">Seed Phrase Configuration</em></strong>: Choose whether to create a new seed phrase or import the one already configured in your Arculus Wallet app.<br></li><li id=\"\"><strong id=\"\"><em id=\"\">Card PIN</em></strong>: Set up a secure PIN for your card.<br></li><li id=\"\"><strong id=\"\"><em id=\"\">Card Name</em></strong>: Give your card a name so you can easily identify it later.</li></ul></li></ol><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:2048px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"2048px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/68c2c64e2c39dee0d7473af0_69a02a8c.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p>‍</p><h3 id=\"\"><strong id=\"\">Managing Your Arculus Card&nbsp;</strong></h3><p id=\"\">Once your Arculus Card has been added, it will appear in your <strong id=\"\"><em id=\"\">Security Factors</em></strong> list. From there, you can manage your card with the following options:</p><ul id=\"\"><li id=\"\"><strong id=\"\">Change Name</strong> – Update the card’s display name at any time.<br></li><li id=\"\"><strong id=\"\">Change PIN</strong> – Set a new PIN whenever you like.<br></li><li id=\"\"><strong id=\"\">Forgot PIN</strong> – If you’ve forgotten your PIN, you can reset it by tapping on <strong id=\"\"><em id=\"\">Forgot PIN</em></strong>.&nbsp;</li></ul><p id=\"\">‍</p><p id=\"\">After your Arculus Card is added to the Radix Wallet, you can start using it right away. Whenever you create a new account or persona, simply select the card when prompted, and it will serve as the signing factor for that account.</p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:2048px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"2048px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/68c2c64e2c39dee0d7473aed_29f835b1.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">‍</p><h3 id=\"\"><strong id=\"\">Radix Wallet 1.17.0 for Arculus Card Support</strong></h3><p id=\"\">Update your <a id=\"\" href=\"https://wallet.radixdlt.com/\">Radix Wallet</a> to version 1.17.0 today to unlock Arculus Card support. With the latest release, you can start using your Arculus Card for secure signing and recovery in just a tap.</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Radix Wallet Now Supports Arculus Card",
+  "slug": "radix-wallet-now-supports-arculus-card"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69eb24c38dc43830fd1de50e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:05.362Z",
+ "createdOn": "2026-04-24T08:07:05.362Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22f6152b91c44551c7b2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">As part of your ID verification, SumSub will conduct a “liveness” check. This is a biometric scan which will use your webcam or phone camera to check your face against your photo ID.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:719px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"719px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24938dc43830fd1ddb39_6453d5809998ac49d76507ad_dc8ffee2.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Step 1: </strong>Click “I’m Ready” when you are ready. To make sure the liveness check is successful, please ensure the following:</p><ul id=\"\"><li id=\"\">Your camera is centred</li><li id=\"\">Your face is evenly lit and stands out from the background</li><li id=\"\">There is no glare on the camera</li><li id=\"\">You are not covering your face</li><li id=\"\">Your face is within the marker indicated on the screen</li><li id=\"\">Hold still when prompted to do so on the screen</li><li id=\"\">When the marker changes to a circle, roll your head around the circle to fill the progress bar</li></ul><p id=\"\"><strong id=\"\">Step 2:</strong> The system will then check the image quality and biometrics, this may take a few hours. If a problem is flagged you will be sent an email and asked to try again. If a problem persists after 3 attempts, please contact <a id=\"\" href=\"mailto:support@instapass.io\">support@instapass.io</a>.</p><p id=\"\"><strong id=\"\">Step 3:</strong> Once the check has been completed please continue to the next step of the verification process where you will be asked to provide some more information about yourself. You will be able to see the status of your identity verification on the right-hand side of the screen. It may take some time to process your identity, so please do not be alarmed if it isn’t verified immediately.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1129px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1129px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24938dc43830fd1ddb2c_6453d5803f85ddbdba8cbcaa_ee01d2e9.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">If a problem persists after trying again, please contact <a id=\"\" href=\"mailto:support@instapass.io\">support@instapass.io</a>, so we can assist you.</p><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "Selfie/Liveness check not working",
+  "slug": "selfie-liveness-check-not-working"
+ }
+}

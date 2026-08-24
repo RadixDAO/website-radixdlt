@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57ddb7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-01-22T07:46:09.251Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-01-22T00:00:00.000Z",
+  "guest-name": "Samuel Harrison",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e07c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61ebb573a5ac385d9617b65f_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e07d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61ebb599290515516a98aa05_download.png",
+   "alt": null
+  },
+  "excerpt": "Piers Ridyard interviews Samuel Harrison, Harmony ONE’s Head of Ecosystem Growth, in this episode of the DeFi Download. Solving the Blockchain Trilemma, radical social change through DAOs, and Harmony’s role in facilitating that through their ecosystem development fund are some of the topics of Piers’ and Sam’s discussion.",
+  "main-content": "<p>Piers Ridyard interviews Samuel Harrison, Harmony ONE’s Head of Ecosystem Growth, in this episode of the DeFi Download. Solving the Blockchain Trilemma, radical social change through DAOs, and Harmony’s role in facilitating that through their ecosystem development fund are some of the topics of Piers’ and Sam’s discussion.</p><p>Harmony is an EVM-compatible Layer 1 protocol with 2-second finality and transaction fees that are fractions of a penny.</p><p>Harmony is the first blockchain to successfully implement shards on a functioning proof-of-stake network. It is also decentralized, secure, and scalable. Their ecosystem fund was unlocked in 2021, and they were able to deploy it, resulting in phenomenal growth and engagement.</p><p>In 2022, Harmony will also be focusing on radical social change through Web3 ownership.</p><p><strong>[01:31]</strong> Harmony's inception and the problem the protocol was originally designed to solve</p><p><strong>[03:56]</strong> Is it possible to find a solution to the blockchain trilemma? If that's the case, how would Harmony go about accomplishing it?</p><p><strong>[10:26]</strong> What is Harmony doing to facilitate radical social change via Web3 ownership? In their view, where will the main source of radical social change come from?</p><p><strong>[12:39]</strong> Sam responds to Piers' counter-arguments about DAOs' ability to effect meaningful social change due to the capital-labour split – The qualitative difference between working in the gig economy and working for a DAO</p><p><strong>[22:55]</strong> What Harmony is doing in 2022 to support a radical social change movement that empowers people to take social responsibility for how they deploy their labour, capital, and are compensated</p><p><strong>[30:57]</strong> Harmony's favourite successful projects resulting from the ecosystem development fund</p><p><strong>[35:08]</strong> What defines Harmony’s position in the multi-chain universe: EVM compatibility, 2-second finality, half-penny transaction fees, and bridges to other protocols such as Binance, SmartChain, Ethereum and Bitcoin</p><p><strong>[40:16]</strong> Group identity vs tribalism and open-mindedness vs dogmatism in the crypto universe</p><p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=5Xt2NI_kMAg\"><div><iframe src=\"https://www.youtube.com/embed/5Xt2NI_kMAg\" title=\"Harmony - creating massive social change through scaling and DAOs\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h2>Further resources</h2><ul><li>Website: <a href=\"https://www.harmony.one/\">Harmony</a></li><li>Forum: <a href=\"https://talk.harmony.one/\">Harmony Community Forum</a>&nbsp;&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/harmonyprotocol\">@harmonyprotocol</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9924838-harmony-creating-massive-social-change-through-scaling-and-daos",
+  "name": "Harmony - creating massive social change through scaling and DAOs",
+  "slug": "harmony-creating-massive-social-change-through-scaling-and-daos"
+ }
+}

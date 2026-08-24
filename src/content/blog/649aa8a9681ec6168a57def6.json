@@ -1,0 +1,34 @@
+{
+ "id": "649aa8a9681ec6168a57def6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-10-08T10:55:02.727Z",
+ "lastUpdated": "2024-10-08T10:55:02.727Z",
+ "createdOn": "2023-01-24T17:43:44.142Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2023-11-02T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": null,
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de41",
+   "649aa8a9681ec6168a57de42",
+   "64a6bc7c6c0b576765c2c6ec"
+  ],
+  "image": {
+   "fileId": "64b91ade8eb5ddace1d7a50d",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/64b91ade8eb5ddace1d7a50d_63d3b0dcbb099bef63a53483_Scrypto%2520Incentives%2520Blog%2520banner.png",
+   "alt": null
+  },
+  "excerpt": "At the start of Alexandria, Scrypto was launched in its first public release to the developer community and from this, we kickstarted the Developer Program. As with any other incentive program, to motivate people to submit examples of their first blueprints we offered a reward of $75 in XRD should their blueprints be successfully accepted.",
+  "main-content": "<p id=\"\">Scrypto started its journey with the Alexandria launch, offering a platform for developers to explore and create innovative solutions. The Developer Program, initiated during this phase, aimed to motivate developers to submit their <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-components-blueprints-and-the-blueprint-catalog\">blueprints</a> by offering a reward of $75 in XRD for successful blueprint acceptance.</p><p id=\"\">As Scrypto continues to grow, so does the enthusiasm and feedback from the developer community. Now that Babylon mainnet is live, learning Scrypto is a skill you'll want to have, not only for contributing to the success of the Radix ecosystem but also to expand your horizons as a Web3 developer.&nbsp;</p><p id=\"\">Developer incentives are part of the 250M XRD ($10M) Radix ecosystem Fund. <a href=\"https://developers.radixdlt.com/grants\">Visit the Ecosystem Fund page to learn more about grants and rewards for builders.</a></p><h3 id=\"\"><strong id=\"\">Win up to $1500 in XRD: impress the Team&nbsp;</strong></h3><p id=\"\">The team of RDX Works (the technology company behind the Radix Network) will select Blueprints which they find to be exceptionally elegant and useful examples. Those blueprints will be merged in the <a id=\"\" href=\"https://github.com/radixdlt/scrypto-examples\">official Scrypto example repository</a>.&nbsp;</p><p id=\"\">There is no process to submit a blueprint in this category. The RDX Works team will reach out directly to potential winners for this reward.</p><p id=\"\"><strong id=\"\">$1500 rewards have been attributed to:&nbsp;</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://twitter.com/NellySayon\">@NellySayon</a> for providing useful Data to the Radix ecosystem during the months before the Babylon upgrade. <a id=\"\" href=\"https://twitter.com/Scrypto_Lang/status/1704523034722172977\">Learn more</a>.</li><li id=\"\">&nbsp;<a id=\"\" href=\"https://twitter.com/f_pieper\">@f_pieper</a> for releasing two impressive open-source libraries to help fill in the needs of Scrypto developers. <a id=\"\" href=\"https://twitter.com/Scrypto_Lang/status/1692201723610194229\">Learn more</a>.<a id=\"\" href=\"https://twitter.com/beaker_fi\">‍</a></li><li id=\"\"><a id=\"\" href=\"https://twitter.com/beaker_fi\">@Avincigu</a> for releasing a testing framework which serves as an important testing suite for those looking to test their dApps ahead of Babylon. <a id=\"\" href=\"https://twitter.com/Scrypto_Lang/status/1701278407793733924\">Learn more</a>.</li><li id=\"\">… And more!</li></ul><h3 id=\"\"><strong id=\"\">Earn $500 in XRD: Celebrating Community Leaders</strong></h3><p id=\"\">Starting&nbsp; January 2024, in an effort to recognize exceptional community members who tirelessly support, create valuable content, and contribute significantly to our vibrant builders' community, selected individuals will be rewarded with $500 in XRD.</p><p id=\"\">No applications needed! The RDX Works team will actively spot these remarkable individuals within our developer channels. Have someone in mind who has made a significant impact? Give us a shout-out on <a id=\"\" href=\"https://discord.com/invite/radixdlt\">Discord</a> or Telegram, or drop a direct message to @jakerdxworks or @davidcuellarrdx.</p><h3 id=\"\"><strong id=\"\">Win $500 in XRD with Referrals</strong></h3><p id=\"\">To reward members who actively attract new projects, applicants to any Radix grants can now mention if they were referred by someone. As a referrer, you can win $500 in XRD for any team selected for a grant that you referred. <a id=\"\" href=\"https://go.radixdlt.com/ecosystemfundform\">Simply share the Ecosystem fund form with your network.</a></p><p id=\"\">Let's celebrate those who go above and beyond to elevate our community together!&nbsp;</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Scrypto Developer Program Incentives",
+  "slug": "scrypto-developer-program-incentives"
+ }
+}

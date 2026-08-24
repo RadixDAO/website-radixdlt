@@ -1,0 +1,29 @@
+{
+ "id": "6750259ee738174779bdd155",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2024-12-04T09:49:18.780Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": true,
+  "date": "2024-12-04T00:00:00.000Z",
+  "guest-name": "Marc Tillement",
+  "guest-image": {
+   "fileId": "675025c04f6bdcefe0329d29",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/675025c04f6bdcefe0329d29_Marc%20Tillement.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "67502606b59eb284ef8c4e06",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67502606b59eb284ef8c4e06_Pyth%20Logotype_Light.png",
+   "alt": null
+  },
+  "excerpt": "How do you transform blockchain’s data bottlenecks into real-time, scalable solutions? In this episode of the DeFi Download, Piers Ridyard interviews Marc Tillement director of the Pyth Data Foundation. Marc shares the game-changing innovations behind their oracle system, from conquering Solana’s early challenges to pioneering low-latency, on-demand data feeds that power modern DeFi applications.",
+  "main-content": "<p id=\"\">Pyth is a decentralized data infrastructure designed to power the future of finance on chain. It functions as a data marketplace where providers can contribute proprietary pricing data to the Pyth oracle, which is then made permissionlessly available to developers. With over 80 supported blockchains and 500 price feeds, Pyth secures more than $5 billion in value on ledger and has facilitated over $900 billion in cumulative traded volume in the past year.</p><p id=\"\">Marc Tillement takes us on a journey through Pyth’s evolution—from launching on Solana in 2021 to becoming the industry’s go-to oracle provider. He shares how Pyth leveraged its early positioning to meet the growing needs of DeFi while addressing challenges like Solana’s downtimes and scaling to a cross-chain ecosystem.</p><p id=\"\">Marc introduces the concept of a pull oracle, a system that enables on-demand price updates, where the data is fetched or \"pulled\" by the application (or user) that needs it, rather than being pushed to the application automatically at regular intervals. This breakthrough not only slashes costs compared to push models but also ensures developers can build more efficient and user-friendly applications that are better customized for different use cases.</p><p id=\"\">Marc also talks about Pyth’s Oracle Integrity Staking (OIS), a feature designed to ensure the quality and reliability of data provided by its oracle network. The main purpose of Oracle Integrity Staking is to incentivize good behavior from the data providers and network participants.</p><h2 id=\"\">Listen to this episode to</h2><ul id=\"\"><li id=\"\">Explore how Pyth was created three and a half years ago to address gaps in the oracle ecosystem and how it aimed to compete with established players like Chainlink during the rise of DeFi.</li><li id=\"\">Understand why financial data, especially accurate and timely pricing data, is some of the most valuable in the world and how it impacts trading and market-making decisions.</li><li id=\"\">Dive into how Pyth attracted data providers and DeFi projects, creating a two-sided marketplace, and why timing played a crucial role in the platform’s success.</li><li id=\"\">Explore the challenges of Chainlink's push oracle model and why Pyth's pull oracle service offers a more efficient, cost-effective solution for high-frequency data updates.</li><li id=\"\">Examine Pyth’s rise as the leading oracle provider, its recent institutional adoption, and new innovations like Oracle Integrity Staking, positioning the platform for continued growth.</li><li id=\"\">Learn where developers can find the tools and resources to begin building with Pyth’s decentralized data infrastructure.</li></ul><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=wyMVxSR9ngM\"><div><iframe src=\"https://www.youtube.com/embed/wyMVxSR9ngM\" title=\"Pyth.Network: Smarter data for smarter contracts\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h2 id=\"\"><br>Learn&nbsp;More</h2><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://pyth.network/\">pyth.network</a></li><li id=\"\">Documentation: <a id=\"\" href=\"https://docs.pyth.network/\">docs.pyth.network</a></li><li id=\"\">Twitter: <a id=\"\" href=\"https://x.com/PythNetwork\">@PythNetwork</a></li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/PythNetwork\">discord.com/invite/PythNetwork</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/episodes/16221978",
+  "name": "Pyth.Network: Smarter Data for Smarter Contracts",
+  "slug": "pyth-network-smarter-data-for-smarter-contracts"
+ }
+}

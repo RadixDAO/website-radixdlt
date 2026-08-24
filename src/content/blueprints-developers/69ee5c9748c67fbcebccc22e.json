@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c9748c67fbcebccc22e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T09:25:55.875Z",
+ "createdOn": "2026-04-26T18:42:31.994Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 80,
+  "username": "@FR05T8YTE",
+  "icon": {
+   "fileId": "69eef863aa184f15f109ef65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb86487a8df6997cbe7"
+  ],
+  "description": "ChainDEX is an order book exchange built for defi.",
+  "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/1-exchanges/ChainDEX",
+  "website-url": null,
+  "name": "ChainDEX",
+  "slug": "chaindex"
+ }
+}

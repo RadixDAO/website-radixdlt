@@ -1,0 +1,26 @@
+{
+ "id": "69eb2512a616fe7ca5565673",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:42.302Z",
+ "createdOn": "2026-04-24T08:08:42.302Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22f6152b91c44551c7b2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">All Instabridge users are required to have an Instapass ID and in order to remain compliant with current UK and EU rules and regulations, you may be asked to provide some extra information so you can continue to use Instabridge.&nbsp;</p><p id=\"\">As we are both receiving and sending tokens directly to individuals, we are required to comply with the UK and EU rules on financial transfers. As part of the rules and regulations surrounding Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT), all Instabridge users must have completed identity checks, known as Know Your Customer (KYC) and provided information on their source of funds, before we can send back XRD tokens through Instabridge.</p><p id=\"\">Once you have passed KYC and provided their relevant AML information through Instapass, you will be able to transfer up to your allowed AML limit through Instabridge. In the future, you will also have the option to share this data with dApps that choose to require this information, so you don’t have to provide it more than once.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Why Do I Need to Upload Additional Documents?",
+  "slug": "why-do-i-need-to-upload-additional-documents"
+ }
+}

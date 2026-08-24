@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c91",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:26.810Z",
+ "createdOn": "2026-04-24T06:26:26.810Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bd",
+   "69eb0c39904d0db4dee8f8c3"
+  ],
+  "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+  "date-reported": "2021-11-07T19:10:00.000Z",
+  "last-update": "2021-11-09T17:45:00.000Z",
+  "content": "<p id=\"\">Due an influx of demand, Radix-provided archive nodes (nodes which provide data to the Wallet and <a id=\"\" href=\"https://explorer.radixdlt.com/\" target=\"_blank\">https://explorer.radixdlt.com</a>) are currently experiencing some difficulties keeping up with the current volume of requests. &nbsp;This is causing slow performance for some users, up to and including outright timeouts on requests. Network consensus is unaffected; this is strictly a user interface-level issue.<br><br>To address this problem as quickly as possible, Radix has \"cross-wired\" some archive nodes in lower demand regions to also serve requests from our areas of highest demand (Europe and the US), and we are in the process of spinning up additional archive nodes. &nbsp;We expect this will promptly get us back to snappy performance.<br><br>The long term resolution for this issue is migration to an updated API and gateway service, which will horizontally scale much more easily to meet much greater demand.&nbsp;This remains the Radix Network team's highest priority, and implementation has been underway for some time now. &nbsp;We do not yet have a high-confidence date for that release (which will coincide with a new Wallet release to take advantage of it).</p><p id=\"\">‍</p><p id=\"\">Update:&nbsp;Issue seems resolved for now. We will continue to monitor. </p>",
+  "name": "Radix Wallet and Explorer Slow Performance",
+  "slug": "radix-wallet-and-explorer-slow-performance"
+ }
+}

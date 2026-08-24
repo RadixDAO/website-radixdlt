@@ -1,0 +1,31 @@
+{
+ "id": "66df1c20db775db9ba0f3e54",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-02-08T11:47:39.172Z",
+ "createdOn": "2024-09-09T16:02:40.094Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A marketing agency dedicated to empowering Radix projects by providing strategic support to enhance visibility, drive engagement, and foster growth.",
+  "project-logo": {
+   "fileId": "66df1c109937adfd0ee059bb",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c109937adfd0ee059bb_Untitled-1a.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1c12f898309d4b9356df",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c12f898309d4b9356df_Frame%203.png",
+   "alt": null
+  },
+  "link-to-project": "https://projectnow.io/",
+  "categories": [
+   "66dafd47bb99ef6418f1a300",
+   "66dafd4047c321c70ec59b34"
+  ],
+  "rank": 19,
+  "featured": false,
+  "name": "Project Now",
+  "slug": "project-now"
+ }
+}

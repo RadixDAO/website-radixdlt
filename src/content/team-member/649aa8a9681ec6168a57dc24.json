@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc24",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:05:21.923Z",
+ "createdOn": "2021-04-25T17:18:01.980Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": true,
+  "jersey-team-member": false,
+  "role": "<p>CSO - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57db6a",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c259565d4fd78ef84f30_adam.png",
+   "alt": null
+  },
+  "bio-excerpt": "A digital marketing expert, Adam previously built a video sharing platform to over 35 million Monthly Active Users and the VRA token community to over 250k people.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/adamsimmons1/",
+  "blank-item": false,
+  "order": 4,
+  "name": "Adam Simmons",
+  "slug": "adam-simmons"
+ }
+}

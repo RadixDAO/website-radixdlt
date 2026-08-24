@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c83",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:26.003Z",
+ "createdOn": "2026-04-24T06:26:26.003Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bf"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2022-03-29T09:53:00.000Z",
+  "last-update": "2022-03-29T10:55:00.000Z",
+  "content": "<p id=\"\">There is an issue with the DNS records that it’s affecting the Network Gateway, so users in some countries may experience issues problems with the wallet. <br><br>We are working to resolve this as soon as possible.</p><p id=\"\">‍</p><p id=\"\">----------</p><p id=\"\">‍</p><p id=\"\">Update: The issue has been resolved and the DNS&nbsp;records have been propagated globally. Some users may continue to have issues accessing the wallet for a few more hours whilst their DNS&nbsp;records update.</p>",
+  "name": "Network Gateway DNS Issue",
+  "slug": "network-gateway-dns-issue"
+ }
+}

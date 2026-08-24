@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de6d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T15:01:34.218Z",
+ "createdOn": "2022-07-19T11:25:01.385Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e25f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62e2af6ae19c9248eca7e9cd_mainnet-celebration-min.png",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "To celebrate 1 year anniversary of Radix mainnet launch, come share drink & food with your fellow Singapore community members and chat about crypto, DeFi, and of course RadixDLT! This event will be very casual and welcoming. Anyone who wants to make friends and learn about DeFi is welcome. Free food, drinks for everyone. Feel free to reach out to @jithaton Telegram for any clarification and join Singapore community https://t.me/radix_sg_msia",
+  "location": "TBD",
+  "start-date": "2022-07-28T00:00:00.000Z",
+  "end-date": "2022-07-28T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.co.uk/e/radix-community-meetup-singapore-tickets-387441386617",
+  "name": "Radix Community Meetup - Singapore",
+  "slug": "radix-community-meetup-singapore"
+ }
+}

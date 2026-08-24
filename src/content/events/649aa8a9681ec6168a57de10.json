@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de10",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:10.163Z",
+ "createdOn": "2022-05-06T16:06:38.257Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Join us for another Radix Bangalore meet-up happening in Bangalore, India. The event is a social meetup for those who are new to crypto as well as those who are experts in this field. We will begin the event with an informal networking session. The event will continue with an introduction from the host and a video session showing different aspects of Radix DLT. We will conclude the event with a short Q&A session. We have also arranged for a Buffet dinner and some merch giveaways for the attendees, so be sure to stay after the event. Feel free to reach out to @iMaaD1007 on Telegram in case of any doubts or clarifications regarding the event.",
+  "location": "2, St Johns Rd 2 Saint Johns Road Bengaluru, KA 560042 India",
+  "start-date": "2022-07-02T00:00:00.000Z",
+  "end-date": "2022-07-02T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.co.uk/e/radix-community-meet-up-bangalore-tickets-365886645807",
+  "name": "Community Meet Up -  Bangalore",
+  "slug": "community-meet-up-bangalore-india"
+ }
+}

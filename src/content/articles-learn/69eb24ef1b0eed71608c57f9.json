@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57f9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:59.142Z",
+ "createdOn": "2026-04-24T08:07:59.142Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">On-chain governance is a system for implementing changes to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">decentralized</strong></a> networks. As the name suggests, on-chain governance occurs on the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> itself.&nbsp;</p><p id=\"\">A critical feature of on-chain governance is that the rules for initiating changes are coded into the blockchain protocol. For a change to take place, developers must first propose it through a code update, with each <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-full-node-2\"><strong id=\"\">node</strong></a> then voting on whether to accept or reject the proposal.&nbsp;</p><p id=\"\">On-chain governance may be defined to represent the interests of various stakeholders in decision-making in many ways.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">What do distributed and decentralized mean?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-layer-1-l1-and-layer-2-l2-networks\"><strong id=\"\">What are Layer 1 (L1) and Layer 2 (L2) networks?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-governance-token\"><strong id=\"\">What is a Governance Token?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is “On Chain” Governance for Layer 1 protocols?",
+  "slug": "what-is-on-chain-governance-for-layer-1-protocols"
+ }
+}

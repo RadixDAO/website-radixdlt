@@ -1,0 +1,26 @@
+{
+ "id": "69eb24c38dc43830fd1de508",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:03:48.437Z",
+ "createdOn": "2026-04-24T08:07:03.201Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Have a support question not answered in the FAQ?&nbsp;Please email <a id=\"\" href=\"mailto:hello@radixdlt.com\">hello@radixdlt.com</a> with details of your question. </p><blockquote id=\"\">Please note: you should never share your seed phrase with anyone, and we will never request this information.</blockquote>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "Radix Wallet Support",
+  "slug": "radix-wallet-support"
+ }
+}

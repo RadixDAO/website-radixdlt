@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dd26",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:42.302Z",
+ "createdOn": "2021-04-27T08:16:53.453Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2018-04-19T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de30",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de39"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e1c2",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4bc817078152908e860_60b8b9bae0bb601a984ba6f4_why-algorystm.jpeg",
+   "alt": null
+  },
+  "excerpt": "Consensus algorithms are essential for Distributed Ledger Technology (DLT) to function. They are used to verify which data submitted to a shared ledger should be retained as correct, and which should",
+  "main-content": "<p id=\"\">Consensus algorithms are essential for Distributed Ledger Technology (DLT) to function. They are used to verify which data submitted to a shared ledger should be retained as correct, and which should be ignored.</p><p id=\"\">If the network in question is both ‘trustless’ and ‘permissionless’, any computer may join the network and, once on it, may submit data to be written to the ledger.</p><p id=\"\">In such a system, the only rules that may be imposed are those of the the platform’s protocol itself. If protocol has been followed, the other nodes will accept the input, if protocol has not been followed, those inputs can be ignored.</p><p id=\"\">It is this determination of the validity of inputs that is at the heart of a consensus algorithm. The most famous of these is Proof of Work, the consensus algorithm used by Bitcoin. Since Proof of Work is fairly wasteful of electricity, a number of others have been proposed and are in various stages of development.These include Proof of Stake, Delegated Proof of Stake, Proof of Burn, Voting, Virtual Voting and Proof of Elapsed Time, amongst others. </p><p id=\"\">They all work to achieve the same outcomes: distributed agreement amongst a network of equals.One of the greatest problems in distributed networks is therefore how to achieve this reliability, despite not being able to know which individual users may be trusted. </p><p id=\"\">To accomplish this, the consensus algorithm must be resistant to both unreliable and/or malicious actors attempting to hijack the network – even if said actors make up a large proportion of the network. How can a group of uncoordinated actors reach an agreement on a strategy to avoid failure when they know that some, even many, users will be unreliable and they have no way of trusting each other?This problem, also known as the Byzantine Generals Problem, was a challenge first posed in 1982:Imagine there are a group of Generals who together aim to conquer a hostile city.The Generals are uncoordinated and geographically dispersed - communication is restricted so that each General does not know what the others are doing.</p><p id=\"\">Each General needs to vote to either attack or retreat, but communication is complicated because each may vote for different options and messengers delivering commands may deliver incorrect information, the information out of order, or fail to deliver entirely.To succeed in taking the city, all Generals must attack at the same time. </p><p id=\"\">To do this, the Generals need to be able to come to some sort of consensus to allow them to simultaneously attack despite these issues.This example directly applies to distributed systems. Any decentralized, distributed system must solve the problem that a disparate group of geographically dispersed users who do not know (or trust) each other must work together to attain agreement without succumbing to the malicious or unreliable actors threatening the network.</p><p id=\"\">Solving this problem was an important breakthrough in computing science because it enabled a means of providing trust which was predicated upon <em id=\"\">not needing to trust anyone individually, but creating trust collectively</em>. </p><p id=\"\">This deceptively simple achievement has spawned a new industry, paved the way for thousands of competing projects and generated interest and participation on a global scale.In the next few articles, we will look at each of the major consensus algorithms, as well as exploring some of their strengths and weaknesses and we'll bring you all the latest news as it happens <a id=\"\" href=\"https://www.radixdlt.com/blog/\">right here on the Radix Blog</a>.</p>",
+  "seo-meta-description": "What's the Byzantine General Problem and what it has to do with distributed public networks, such as blockchain? The answer is consensus algorithms.",
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Why consensus algorithms are like military generals",
+  "slug": "why-consensus-algorithms-are-like-military-generals"
+ }
+}

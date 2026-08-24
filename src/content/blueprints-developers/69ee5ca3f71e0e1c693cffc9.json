@@ -1,0 +1,26 @@
+{
+ "id": "69ee5ca3f71e0e1c693cffc9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.636Z",
+ "createdOn": "2026-04-26T18:42:43.692Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 6,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5ca3f71e0e1c693cffc0",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca3f71e0e1c693cffc0_626715c790e2e774d7274a96_radish_eco.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbc86024e569590dfa6"
+  ],
+  "description": "Radish aims to innovate the application of digital assets by utilizing Scrypto’s composability within a friendly environment where creators can unleash their ideas!",
+  "github-url": null,
+  "website-url": "https://radish.world/",
+  "name": "Radish Eco",
+  "slug": "radish-eco"
+ }
+}

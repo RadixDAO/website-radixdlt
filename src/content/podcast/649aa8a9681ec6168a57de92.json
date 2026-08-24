@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de92",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-08-27T17:11:17.822Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-08-27T00:00:00.000Z",
+  "guest-name": "Chris Zhu",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e287",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/630a4f9894dcf25e6f39d530_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e286",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/630a4f6a90db2f92519746dd_mirrorworld-logo.jpeg",
+   "alt": null
+  },
+  "excerpt": "Piers Ridyard is joined by Chris Zhu of Mirror World, in this episode of the DeFi Download. Piers and Chris examine interoperable gaming through the use of blockchain technology.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/eisiM9dFT2o\"><div><iframe src=\"https://www.youtube.com/embed/eisiM9dFT2o\" title=\"Mirror World: Making assets universal in Metaverse gaming with Chris Zhu.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">Piers Ridyard is joined by Chris Zhu of Mirror World, in this episode of the DeFi Download. Piers and Chris examine interoperable gaming through the use of blockchain technology.</p><p id=\"\">Chris Zhu is the founder and CEO of Mirror World. Mirror World is a game matrix powered by a mobile SDK layer that accelerates Web3 game development. Mirror World essentially functions as a Web3 overlay to game engines, making it easier for developers to bring interesting Web3 games to market.</p><p id=\"\"><strong id=\"\">[1:06]</strong> Mirror World is a game matrix. What does that mean?</p><p id=\"\"><strong id=\"\">[2:17]</strong> Creating game assets as NFTs represented on ledger</p><p id=\"\"><strong id=\"\">[3:20]</strong> Why does Mirror World make use of a mobile SDK? What is the significance of this?</p><p id=\"\"><strong id=\"\">[6:37]</strong> Examining the next level of the problem, the user onboarding issue</p><p id=\"\"><strong id=\"\">[9:11]</strong> What has the Mirror World team discovered along the way? What have they identified as a better way to do things? What have they recognized is difficult? And how do they feel about things like fiat on-ramps or the ability to accept payments?</p><p id=\"\"><strong id=\"\">[12:36]</strong> Custodial and non-custodial options that are available on Mirror World’s in-app wallet</p><p id=\"\"><strong id=\"\">[13:36]</strong> The fundamental idea and issues around cross-game assets&nbsp;</p><p id=\"\"><strong id=\"\">[19:14]</strong> Would Mario Kart have been as successful if Nintendo had released it with the same game dynamics but none of the characters?</p><p id=\"\"><strong id=\"\">[20:17]</strong> Is it true that user ownership of a gaming asset reduces a game studio's ability to commercialise its intellectual property?</p><p id=\"\"><strong id=\"\">[24:40]</strong> Is it feasible to design balanced gameplay in cross-game worlds? How much data should interoperability support?</p><p id=\"\"><strong id=\"\">[29:42]</strong> Rarity is built into games to encourage players to spend time playing them. Interoperability, on the other hand, reduces the incentive to devote a significant amount of time to another game. So, why would a game developer want to go through the trouble of creating cross-game interoperable assets?</p><p id=\"\"><strong id=\"\">[33:07]</strong> Sources of monetization for Mirror World</p><h4 id=\"\">Further resources</h4><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://mirrorworld.fun/\">Mirrorworld.fun</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/joinmirrorworld\">@joinmirrorworld</a> and <a id=\"\" href=\"https://twitter.com/chrizhuu\">@Chrizhuu</a></li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/mirrorworld\">discord.gg/mirrorworld</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11209604-mirror-world-making-assets-universal-in-metaverse-gaming-with-chris-zhu",
+  "name": "Mirror World: Making assets universal in Metaverse gaming with Chris Zhu.",
+  "slug": "mirror-world-making-assets-universal-in-metaverse-gaming-with-chris-zhu"
+ }
+}

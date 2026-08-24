@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc88",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:40.094Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-03-11T00:00:00.000Z",
+  "guest-name": "Lafayette Tabor",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfb8",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f45bc615583889abea64_podcast-6.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download podcast, Piers Ridyard talks with Lafayette Tabor, founder of DEUS Finance. During this interview, Lafayette describes the features that make DEUS the Uniswap version of Robinhood.",
+  "main-content": "<p>In this episode of the DeFi Download podcast, Piers Ridyard talks with Lafayette Tabor, founder of DEUS Finance. During this interview, Lafayette describes the features that make DEUS the Uniswap version of Robinhood.</p><p>DEUS Finance is a decentralised application that allows the trading of traditional financial assets. For example, you can buy and sell stocks such as Tesla, AMC, and GameStop, as well as commodities such as silver and gold. </p><p>Lafayette and Piers discuss how the DEUS oracle system works and addresses security issues and the creation of synthetic assets (the dAssets), liquidity and collateral.</p><ul><li>[00:00:50] What does it mean being the “Uniswap version of Robinhood”?</li><li>[00:02:40] What is an \"oracle\"? Why is being able to trade stocks on top of a blockchain an oracle problem, and why is it difficult to set up an oracle server?</li><li>[00:05:50] Centralised vs decentralised oracles, the advantages and disadvantages of each, and DEUS’ approach to balancing the trade-offs.</li><li>[00:07:23] The benefits of a fast and flexible oracle system. Over-collateralisation and the DEUS alternative that does not require providing collateral.</li><li>[00:10:01] How DEUS operates as a decentralised clearinghouse.</li><li>[00:11:20] How does the back-end evolve from a system that facilitates betting on the volatility of stock prices to one that enables the creation of synthetic assets that follow the same trajectory as the underlying? What are “Synchronised Perpetuals”?</li><li>[00:18:58] How is DEUS affected by financial regulations?</li><li>[00:19:42] After a user has created an asset, what needs to happen in terms of liquidity and volume so that the DEUS team, community, and protocol are confident that a newly created stock will indeed track its equivalent counterpart off-ledger? How does DEUS ensure that this happens to all the synthetic assets?</li><li>[00:22:15] What is DEUS’ black swan event?</li><li>[00:22:36] DEUS’ rules on introducing stocks and creating stock pairs.</li><li>[00:24:35] When to expect the next iteration of DEUS that progresses from an over-collateralisation system to a funding rate system.</li></ul><h2>Further resources</h2><ul><li>Website: <a href=\"https://deus.finance/\">deus.finance</a></li><li>Wiki: <a href=\"https://wiki.deus.finance/docs/\">wiki.deus.finance/docs/</a></li><li>Telegram: <a href=\"https://t.me/deusfinance\">t.me/deusfinance</a></li><li>Twitter: <a href=\"http://twitter.com/deusdao\">@DeusDao</a></li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8120868-deus-finance-decentralised-share-trading-bringing-tesla-apple-and-gamestop-to-the-party",
+  "name": "Deus Finance - Decentralised share trading - bringing Tesla, Apple, and GameStop to the party!",
+  "slug": "deus-decentralised-share-trading-bringing-tesla-apple-and-gamestop-to-the-party"
+ }
+}

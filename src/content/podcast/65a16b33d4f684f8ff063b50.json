@@ -1,0 +1,25 @@
+{
+ "id": "65a16b33d4f684f8ff063b50",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2024-01-12T16:39:15.675Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2024-01-12T00:00:00.000Z",
+  "guest-name": "Willy Woo",
+  "guest-image": {
+   "fileId": "65a168686f7725eb82e04037",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/65a168686f7725eb82e04037_Willy%20Woo.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard talks with Willy Woo, managing partner at Crest and SyzCrest. They delve into price prediction concepts, as well as the fundamentals of trading and the importance of purpose.",
+  "main-content": "<h3 id=\"\">‍<strong id=\"\">Summary</strong></h3><p id=\"\">Willy Woo is managing partner at Crest and SyzCrest, a fund that builds financial products to give higher yield than T-bills by harvesting the volatility in crypto.</p><p id=\"\">Willy Woo and Piers discuss various aspects of trading, covering topics like price predictions, the balance between intuition and data when building predictive models, and the social value inherent in trading activities. Their conversation extends to exploring the dynamics of DeFi and altcoin markets, drawing comparisons with TradFi, examining market manipulation, and emphasizing the crucial role of transparency in the crypto space. They weigh the pros and cons of transaction privacy in creating a fairer market and touch upon the impact of MEV, DeFi’s high-frequency trading.</p><p id=\"\">They explore the three forms of the efficient market hypothesis (EMH), hodling versus directional trading, and the fundamental concepts that are necessary for successful trading. They also examine the concept of purpose, discussing how it motivates individuals in their pursuits. </p><p id=\"\">Segueing into Radix, their conversation highlights the Radix team's dedication to their vision and integrity, rather than rushing launch and compromising for easy wins. They talk about compounding games and underscore the need for adopting a long-term view for achieving meaningful, lasting change.</p><h3 id=\"\"><strong id=\"\">Chapters\t\t</strong></h3><ul id=\"\"><li id=\"\">00:00 — Introduction</li><li id=\"\">01:01 — Willy’s predictions about Bitcoin</li><li id=\"\">03:05 — Intuition and data analysis in predictive models</li><li id=\"\">09:00 — Short-term vs long-term trading</li><li id=\"\">13:33 — Social value of trading</li><li id=\"\">19:47 — Transparency in crypto transactions</li><li id=\"\">21:40 — Transaction privacy in DeFi?</li><li id=\"\">27:12 — The 3 forms of the Efficient Markets Hypothesis</li><li id=\"\">33:04 — Hodling as a strategy against volatility</li><li id=\"\">37:15 — What to prioritise learning as a new trader</li><li id=\"\">38:52 — Finding your purpose </li><li id=\"\">46:46 — The vision and integrity of Radix</li></ul><h3 id=\"\"><strong id=\"\">Further resources</strong></h3><ul id=\"\"><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/woonomic\">@woonomic</a></li><li id=\"\">Crest Fund: <a id=\"\" href=\"https://www.crest.fund/\">crest.fund</a> &nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/14298218-will-woo-investing-principles-and-finding-your-purpose",
+  "name": "Willy Woo: investing principles and finding your purpose",
+  "slug": "willy-woo-investing-principles-and-finding-your-purpose"
+ }
+}

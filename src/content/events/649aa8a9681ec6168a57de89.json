@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de89",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-08-11T17:42:09.095Z",
+ "createdOn": "2022-08-11T17:38:18.529Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e25c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62e13596088f42c47e9da743_podcast.jpg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "¡H﻿ola a todos! El próximo 28 de agosto celebraremos un encuentro de la Comunidad de Radix hispanohablante en Madrid. En las instalaciones de Cink Coworking en Calle Henri Dunant 15/17. El plan que tenemos es el siguiente: 1﻿0:00 h. Inscripción 1﻿0.30 h. Introducción a Radix 1﻿1:15 h. Café 1﻿1:30 h. Contratos inteligentes y Scrypto 1﻿2:30 h. Proyectos sobre Scrypto 1﻿3:30 h. Cierre P﻿ara más tarde, sobre las 14.30h. los que quieran, almorzaremos juntos en el Restaurante \"Comic Planet\" sito en Av. ALCOCER 5 Ade Madrid. (Cuentan con comida vegana y libre de gluten). ¡A﻿nimaros!. Aparte de conocernos en persona, ¡Habrá sorpresas! About the event (in English) Hello everyone! On August 28th we will celebrate a meeting of the Spanish-speaking Radix Community in Madrid. At the Cink Coworking facilities at Calle Henri Dunant 15/17. The plan we have is as follows: 1:00 a.m. Inscription 1:30 a.m. Introduction to Radix 1:15 a.m. Coffee 11:30 a.m. Smart contracts and Scrypto 2:30 p.m. Projects about Scrypto 13:30 a.m. Closing For later, around 2:30 p.m. those who want, we will have lunch together at the \"Comic Planet\" Restaurant located at Av. ALCOCER 5 Ade Madrid. (They have vegan and gluten-free food). Apart from meeting in person, there will be surprises so Cheer up!",
+  "location": "C. de Henri Dunant, 15 15 Calle de Henri Dunant 28036 Madrid Spain",
+  "start-date": "2022-08-28T00:00:00.000Z",
+  "end-date": "2022-08-28T00:00:00.000Z",
+  "event-link-text": "RSVP NOW ",
+  "event-link-url": "https://www.eventbrite.co.uk/e/radix-meetup-tickets-386955924587",
+  "name": "Radix Community Meetup - Madrid",
+  "slug": "radix-community-meetup-madrid"
+ }
+}

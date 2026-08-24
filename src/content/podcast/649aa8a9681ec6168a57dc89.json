@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc89",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:39.138Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-03-04T00:00:00.000Z",
+  "guest-name": "CryptoBirb",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfc1",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f467a04a915e8d23ed77_podcast-15.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download Piers Ridyard interviews CryptoBirb, the Founder and CEO of The Birb Nest. Here they explore technical analysis, investigate the driving forces behind the latest Bitcoin bull run, and delve into the cyclical nature and fluctuations of the markets, and how they are affected by human behaviour.",
+  "main-content": "<p>In this episode of the DeFi Download Piers Ridyard interviews CryptoBirb, the Founder and CEO of The Birb Nest. Here they explore technical analysis, investigate the driving forces behind the latest Bitcoin bull run, and delve into the cyclical nature and fluctuations of the markets, and how they are affected by human behaviour.</p><p>Additionally, they dive into the oscillation of Bitcoin prices and its trends.</p><ul><li>[00:00:44] Introduction to our guest, CryptoBirb, a certified technical analyst and founder and CEO of the trading community called The Birb Nest. CryptoBirb introduces us to the NUPL (Net Unrealized Profit/Loss) metric.</li><li>[00:04:28] What is causing the current Bitcoin bull run, what are the fundamentals that have led to this point, and for how long does CryptoBirb estimate the bull run will last?</li><li>[00:08:17] What was happening in the broader spectrum of things that made bitcoin a good buy after its lowest point in 2018? How did this narrative lead to where we are now?</li><li>[00:10:54] When and how did things change from only a few investors considering Bitcoin as an oversold asset and going through a period of accumulation to starting to have a noticeable impact on the price of Bitcoin?</li><li>[00:16:38] The average bitcoin price and how it is determined by the oscillation and volatility of trends and prices.</li><li>[00:21:56] Has technical analysis become so big that it acts as a self-fulfilling prophecy?</li><li>[00:23:53] What does a technical analysis of the Radix chart look like?</li><li>[00:23:53] NUPL in practice.</li><li>[00:29:58] Technical analysis of the EXRD token and explanation of patterns.</li><li>[00:31:47] When to use Fundamental vs Technical analysis.</li><li>[00:37:37] What are the risks of using technical analysis? Lessons from Behavioural finance about perception bias and the prospect theory, and why 90% of traders lose money.</li><li>[00:41:12] The ‘investor inertia’ problem of the everyday investor, the endowment effect and loss aversion.</li></ul><h2>Further resources</h2><ul><li>Website: <a href=\"https://www.thebirbnest.com/\">The Birb Nest</a></li><li>Twitter: <a href=\"https://twitter.com/crypto_birb\">@crypto_birb</a>, <a href=\"https://twitter.com/thebirbnest\">@TheBirbNest</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8068148-crypto-birb-what-moves-a-market-fundamental-vs-technical-analysis",
+  "name": "Crypto Birb: What moves a market? Fundamental vs Technical analysis",
+  "slug": "crypto-birb-what-moves-a-market-fundamental-vs-technical-analysis"
+ }
+}

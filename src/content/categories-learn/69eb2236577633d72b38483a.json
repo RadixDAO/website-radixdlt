@@ -1,0 +1,25 @@
+{
+ "id": "69eb2236577633d72b38483a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T07:56:38.885Z",
+ "createdOn": "2026-04-24T07:56:38.885Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb221f7c3c9a3ee6cd3623",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb221f7c3c9a3ee6cd3623_60c9124b8959c973102d5585_illustration-staking.svg",
+   "alt": null
+  },
+  "number-of-questions": "41",
+  "subcategory-set": false,
+  "subcategory": [
+   "69eb218cb180744096bf8204",
+   "69eb218cb180744096bf8202",
+   "69eb218cb180744096bf8206"
+  ],
+  "name": "Staking & Validating on Radix",
+  "slug": "staking-on-radix"
+ }
+}

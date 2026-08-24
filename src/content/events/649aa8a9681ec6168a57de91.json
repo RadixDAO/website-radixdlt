@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de91",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-08-26T13:17:18.796Z",
+ "createdOn": "2022-08-26T13:17:08.909Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e25c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62e13596088f42c47e9da743_podcast.jpg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "The Fall 2022 Radix SoCal Meetup is being held in San Diego! Come down and hang out with the rest of the Radix SoCal Community! About this event\nFall 2022 Radix SoCal Meetup\nDate: Saturday, Sept 24th Time: 3 pm City: San Diego Venue: Casa Guadalajara Restaurant Map: https://goo.gl/maps/rpvwYmXd4i5a4WZd7 The restaurant is located right off I-5 and also in walking distance from the San Diego Old Town train station.(If you take the train, the Pacific Surfliner 774 train will arrive a few minutes before the meetup begins.)Come down for the day or stay for the weekend! Looking forward to seeing you all there. ",
+  "location": "Casa Guadalajara 4105 Taylor Street San Diego, CA 92110 United States",
+  "start-date": "2022-09-24T00:00:00.000Z",
+  "end-date": "2022-09-24T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/fall-2022-radix-socal-meetup-tickets-407755386337",
+  "name": "Community MeetUp - San Diego",
+  "slug": "community-meet-up-san-diego"
+ }
+}

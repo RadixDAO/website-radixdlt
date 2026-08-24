@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57db1e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:11:33.627Z",
+ "createdOn": "2021-04-25T10:39:24.298Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/TradePsychCoach/status/1384795794075652096?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d994",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608546dae8405ed8a8289b67_Trade%20Psych.png",
+   "alt": null
+  },
+  "content": "Radix @radixdlt will be launching their Olympia Betanet in a week!\nIt will be an exciting transition as they gather help from the community to iron things out before mainnet.",
+  "order": 10,
+  "name": "Trade Psych Coach",
+  "slug": "trade-psych-coach"
+ }
+}

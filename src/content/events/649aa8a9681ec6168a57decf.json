@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57decf",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-01T14:34:33.307Z",
+ "createdOn": "2022-12-01T14:34:33.307Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e300",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/637fadb6478b3526d4d072c8_RadFi%20Watch%20Party%20Blog%20Banner.png",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Faith in Crypto Renewed Centralized exchanges can’t be trusted. Meanwhile, a host of problems including scalability, poor UX, and hacks plague smart contract platforms and DeFi protocols. It can feel hopeless. But it’s not. For 9 years, Radix has focused on one vision: how to deliver on the promise of crypto, making Satoshi proud. And at RadFi 2022, you’ll see how it will all work…a radically better user experience with all the benefits of Web 3, all built on a network designed for unlimited growth. Come watch the RadFi 2022 livestream with our fellow Indian community, you’ll feel excited about crypto again.",
+  "location": "Draper Startup House for Entrepreneurs No.384 1st A Main Road Bengaluru, KA 560095 India",
+  "start-date": "2022-12-08T00:00:00.000Z",
+  "end-date": "2022-12-08T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.co.uk/e/radfi-community-meetup-bangalore-india-tickets-479172607167",
+  "name": "RadFi Community Meetup - Bangalore, India",
+  "slug": "radfi-community-meetup-bangalore-india"
+ }
+}

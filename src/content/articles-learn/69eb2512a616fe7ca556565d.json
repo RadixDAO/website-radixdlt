@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca556565d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:28:28.395Z",
+ "createdOn": "2026-04-24T08:08:37.057Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">All applications submitted under the validator program were published <a id=\"\" href=\"https://www.radixdlt.com/post/community-validator-proposals-published/\">here</a>.</p><p id=\"\">The final selection of betanet validators were published <a id=\"\" href=\"https://docs.google.com/spreadsheets/d/1r0HCYqQoDNPixECwJWGFXoVnsQIcXYLuibneStghATY/edit#gid=0\">here</a>.</p><p id=\"\">The Radix token (XRD) holding community may wish to use these submissions to consider what validator nodes they wish to delegate to on the Olympia Mainnet.<br><br></p><p id=\"\"><br></p>",
+  "top-note": "<p id=\"\"><br></p>",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Where can I see the validator applications?",
+  "slug": "where-can-i-see-the-validator-applications"
+ }
+}

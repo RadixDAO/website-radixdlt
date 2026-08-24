@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57ddee",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:10.207Z",
+ "createdOn": "2022-03-28T18:51:53.060Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Come meet other Radix community members at the first Radix NYC event, a Meet and Greet with Radix's CMO Jeremy Epstein. Pizza and Drinks will be served! Location: Williamsburg near McCarren Park (address will be sent to RSVPs) You must RSVP to attend, tickets will be checked at the door. Any questions please contact @LolSure via Telegram. Join the Meetup Channel: https://t.me/Radix_Meetup.",
+  "location": "Williamsburg near McCarren Park (address will be sent to RSVPs)",
+  "start-date": "2022-05-01T00:00:00.000Z",
+  "end-date": "2022-05-01T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/radix-nyc-meet-greet-w-new-cmo-tickets-308285077967",
+  "name": "Community Meet Up - New York City",
+  "slug": "community-meet-up-new-york-city"
+ }
+}

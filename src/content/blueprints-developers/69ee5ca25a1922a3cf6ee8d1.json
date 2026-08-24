@@ -1,0 +1,26 @@
+{
+ "id": "69ee5ca25a1922a3cf6ee8d1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T09:26:38.508Z",
+ "createdOn": "2026-04-26T18:42:42.727Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 50,
+  "username": "@0xOmar",
+  "icon": {
+   "fileId": "69eef863aa184f15f109ef65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb86487a8df6997cbe7"
+  ],
+  "description": "RaDEX is a constant function AMM DEX protocol built on the Radix ledger using Scrypto: the smart contracts language of the Radix ledger. RaDEX is a reimagination of the Uniswap v2 built with the new concepts introduced by Radix.",
+  "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/1-exchanges/RaDEX",
+  "website-url": null,
+  "name": "RaDEX",
+  "slug": "radex"
+ }
+}

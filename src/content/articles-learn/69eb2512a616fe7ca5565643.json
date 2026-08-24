@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565643",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:29.594Z",
+ "createdOn": "2026-04-24T08:08:29.594Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">A badge is a way of referring to a <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-resource-on-radix\"><strong id=\"\">resource</strong></a> on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> (such as a fungible <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-an-nft\"><strong id=\"\">NFT</strong></a>) when it is used for <strong id=\"\">authorization purposes</strong>.</p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1139px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1139px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24fda616fe7ca556524c_6514503d1214c33776378542_EUBiN-Vj6RDZgw1q8ZKhNl0Hx8IOjEZjO3gyDeqc3ZV4aeg4JK30mwCaIf_SJgVwhIk1yUFdv4meO5-zULbuwf_d7XHOJL63revK5yYiEdGgVNfP2R7KBSSF6MLjTxMzdn8intuDVeJMFBpU1fb6Fjw.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">For example, a car parking dApp may provide users a loyalty card NFT badge.</p><p id=\"\">‍</p><p id=\"\">The user can present that NFT badge when interacting with the dApp, which can provide discounts on their purchases of parking.</p><p id=\"\">‍</p><p id=\"\">The NFT never leaves the user’s account as Radix makes it possible to produce a “proof” of ownership of a badge within a transaction, without it ever having to leave their Smart Account. The dApp logic can use this proof to authorize the user. This is kind of like “flashing” a real-life badge to prove you have access to something, without it leaving your wallet.</p><p id=\"\">‍</p><p id=\"\">Badges, in combination with Radix’s <strong id=\"\">native access control </strong>features, allows for powerful dApps to be built with complex authorization systems, quickly, safely and securely.</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/blog/rekt-retweet-10-badges-why-the-326m-wormhole-hack-on-solana-could-never-happen-on-radix\"><strong id=\"\">Radix Blog - Rekt Retweet #10: Badges - Why the $326m Wormhole hack on Solana could NEVER happen on Radix</strong></a></li><li id=\"\"><a id=\"\" href=\"http://www.radixdlt.com/radfi\"><strong id=\"\">RadFi Keynote</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 10,
+  "name": "What's a Badge?",
+  "slug": "whats-a-badge"
+ }
+}

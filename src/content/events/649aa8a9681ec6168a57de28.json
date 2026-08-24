@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de28",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:23.664Z",
+ "createdOn": "2022-05-31T16:59:15.265Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e251",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491b15788d5f07ae8832_629648e06e2e026b303c0bf7_visual-2022.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "The Cryptovalley Conference 2022 is setting the foundation for the future of Blockchain. The 4th edition of the Crypto Valley Conference is coming up with two days of in-depth discussions on the current state and future of blockchain technology.",
+  "location": "Rotkreuz, Switzerland",
+  "start-date": "2022-06-02T00:00:00.000Z",
+  "end-date": "2022-06-03T00:00:00.000Z",
+  "event-link-text": "Get Tickets here!",
+  "event-link-url": "https://cryptovalleyconference.com/tickets",
+  "name": "CRYPTOVALLEY CONFERENCE 2022",
+  "slug": "cryptovalley-conference-2022"
+ }
+}

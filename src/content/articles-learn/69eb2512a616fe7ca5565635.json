@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565635",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:25.298Z",
+ "createdOn": "2026-04-24T08:08:25.298Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Web3 refers to a new layer of products and services for the internet built with decentralized networks, cryptography, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart contracts</strong></a>, and public <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledgers</strong></a>.</p><p id=\"\">With these technologies, Web3 has the potential to create:</p><ol id=\"\"><li id=\"\">an automated rules-based financial system existing entirely on the internet - <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a><strong id=\"\"> (including </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-an-nft\"><strong id=\"\">NFTs</strong></a><strong id=\"\">)</strong>;</li><li id=\"\">a way to fully control your identity, data, and privacy online - <strong id=\"\">Sovereign Identity</strong>; (see <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">Personas</strong></a> for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix’s</strong></a> implementation)</li><li id=\"\">novel ways to organize and coordinate online communities and endeavors - <strong id=\"\">Decentralized Autonomous Organizations (DAOs)</strong>;</li><li id=\"\">ways to enrich <strong id=\"\">Gaming &amp; Metaverse</strong> experiences with finance, property rights, and identity;&nbsp;</li><li id=\"\">the ability to find, connect, communicate and share with others outside of the control of any one party - <strong id=\"\">Decentralized Social</strong>.&nbsp;</li></ol><p id=\"\">Perhaps Himgajria <a id=\"\" href=\"https://web.archive.org/web/20211021071745/https://www.himgajria.com/writings/web3\"><strong id=\"\">summed it up best</strong></a> as “where Web 2.0 was read-write, Web 3.0 is read-write-own”.</p><p id=\"\">To learn more about Web3 and these five use cases, definitely check out <a id=\"\" href=\"https://www.radixdlt.com/lp/ebooks/web3report\"><strong id=\"\">The 5 use cases of Web3 that will dominate the next market cycle</strong></a><strong id=\"\">.</strong></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">What is DeFi?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">What is a Blockchain?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt\"><strong id=\"\">What is a DLT?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "What is Web3?",
+  "slug": "what-is-web3"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de50",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T15:02:25.216Z",
+ "createdOn": "2022-06-16T08:57:44.839Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e253",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491b98654d2d93ba2fe0_62ac46092b579d695dcc9f62_Frame%25208.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "Capital into DeFi has 220x over the past year. This event explores the confluence of traditional finance and decentralized finance. It examines the opportunities and threats facing current institutional models and offers insights into the future of Finance in a Web3-enabled world. This is an opportunity to gain insights from industry experts, reflect on your business and explore ideas with industry experts.",
+  "location": "St. Helier, JE",
+  "start-date": "2022-07-07T00:00:00.000Z",
+  "end-date": "2022-07-07T00:00:00.000Z",
+  "event-link-text": "Get Tickets here!",
+  "event-link-url": "https://www.eventbrite.de/e/inaugural-jersey-decentralised-finance-summit-tickets-367448296747",
+  "name": "Jersey Decentralized Finance Summit",
+  "slug": "jersey-decentralized-finance-summit"
+ }
+}

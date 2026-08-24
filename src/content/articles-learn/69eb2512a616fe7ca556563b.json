@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca556563b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:32:44.839Z",
+ "createdOn": "2026-04-24T08:08:26.824Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The <a id=\"\" href=\"http://betanet-explorer.radixdlt.com/\">Radix Explorer</a> website will detail the amount of stake against each validator node - breaking this down into stake delegated by a validator node to themselves, and stake delegated to that validator by token holders.</p><p id=\"\">On mainnet, we intend to highlight key factors on the validator list shown on the Explorer Website to aid token holders in making a decision. It will include the % of consensus rounds a node has participated in, will highlight nodes at the top of the list with a dangerous amount of stake and strongly encourage stakers to delegate to other nodes, and will allow validators to link to an info webpage about themselves and their node to earn community trust. Learn more about how and why delegating stake is important <a id=\"\" href=\"/article/how-should-i-choose-validators-to-stake-to\">here</a>.</p><p id=\"\">Please also review the <a id=\"\" href=\"https://www.reddit.com/r/RadixValidators/\">Radix Validators Subreddit</a> as well as #node-runner channel on <a id=\"\" href=\"https://discord.com/invite/WkB2USt\">Discord</a>.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What tools will be available to token holders to support them in deciding which validator node to stake with?",
+  "slug": "what-tools-will-be-available-to-token-holders-to-support-them-in-deciding-which-validator-node-to-stake-with"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de524",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:13:29.150Z",
+ "createdOn": "2026-04-24T08:07:11.100Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The Radix Ledger app has just gone live on the Ledger Live Manager – which means now it is possible to load the Radix app using Ledger Live in a couple of clicks rather than side-loading. And you can now install the Radix app on either a Ledger Nano S or Nano X and use it with your Radix Desktop Wallet! How to upgrade to the new Radix app on your device?</p><p id=\"\"><strong id=\"\">For those who have never side-loaded the Radix app onto their Ledger Nano device</strong>, all you have to do is <a id=\"\" href=\"https://www.google.com/url?q=https://learn.radixdlt.com/article/using-ledger-nano-s-or-x-with-the-radix-desktop-wallet&sa=D&source=editors&ust=1642142375630057&usg=AOvVaw3S10Ngufz-lw4sdsmfSWOK\">follow these instructions to load it from the Ledger Live app</a>. Done!</p><p id=\"\"><strong id=\"\">For those who already have the Radix app on their Nano S via side-loading</strong> (Nano X side-loading has never been possible), it may be nearly as easy.</p><p id=\"\">First, <strong id=\"\">you must have the latest firmware on your Nano S</strong>. Ledger has updated the firmware quite recently and if you still have the old version, the Radix app won’t even appear in Ledger Live for you. You also will need to ensure that \"developer mode\" is enabled in Ledger Live – check the instructions above to see how to do this.</p><p id=\"\">As you may have experienced in the past, upgrading your Ledger Nano S firmware clears all of your Ledger’s installed apps and they must be reinstalled. After you perform the firmware update, Ledger Live will ask you if you wish to reinstall the apps you had loaded before. Now that the Radix app is listed in Ledger Live (and if you have turned on \"developer mode\", it should in fact recognize that you had the side-loaded app before and ask if you wish to load the new Ledger&nbsp;Live-listed app. If so, you're done!</p><p id=\"\">However <strong id=\"\">if you’re already on the latest firmware and have the Radix app side-loaded</strong>, you’ll need to do it a different way – you'll have to manually remove the side-loaded Radix app.</p><p id=\"\">All you need to do is run two commands using the command line tools you installed to side-load in the first place. Just go to the side-loading instructions and at the bottom you’ll find instructions for <strong id=\"\">Uninstalling the Radix Ledger App</strong> (<a id=\"\" href=\"https://www.google.com/url?q=https://docs.radixdlt.com/main/user-applications/ledger-app-sideload-macos.html%23_uninstalling_the_radix_ledger_app&sa=D&source=editors&ust=1642142375632989&usg=AOvVaw1W50Uut1hTArfihRwhljTJ\">MacOS instructions</a>, <a id=\"\" href=\"https://www.google.com/url?q=https://docs.radixdlt.com/main/user-applications/ledger-app-sideload-windows.html%23_uninstalling_the_radix_ledger_app&sa=D&source=editors&ust=1642142375633265&usg=AOvVaw05TeEnVMSpGWE0h5eGUgjv\">Windows instructions</a>).</p><p id=\"\">That’s it! Now go back to the regular installation instructions above to load up the Radix app through Ledger Live.</p><p id=\"\">‍</p><p id=\"\">‍<strong id=\"\"><em id=\"\">NOTE:</em></strong><em id=\"\"> Uninstalling the side-loaded Radix app and installing the new Radix app via Ledger Live </em><strong id=\"\"><em id=\"\">DOES NOT change your Radix account address </em></strong><em id=\"\">when connecting the Ledger to your Radix Desktop Wallet. The address is derived from the hardware device itself and so after you upgrade to the new Radix app, it will use exactly the same Radix address as before. No need to move tokens or stake.</em></p><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "Upgrading from Ledger side-load to Ledger Live direct installation",
+  "slug": "upgrading-from-ledger-side-load-to-ledger-live-direct-installation"
+ }
+}

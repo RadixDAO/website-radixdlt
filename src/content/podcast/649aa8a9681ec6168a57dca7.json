@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dca7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-27T16:43:10.188Z",
+ "createdOn": "2021-04-27T10:31:03.322Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-07-02T00:00:00.000Z",
+  "guest-name": "DavidPhoto|DavidPhoto",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfc5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6088136f8c0f4606969edd22_podcast.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of Defi Download Piers Ridyard speaks with David Johnston, managing director of Yeoman’s Capital and the person who coined the term Dapp about the growth of the cryptocurrency and the blockchain space.",
+  "main-content": "<p>In this episode of Defi Download Piers Ridyard speaks with David Johnston, managing director of Yeoman's Capital and the person who coined the term Dapp about the growth of the cryptocurrency and the blockchain space.</p><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/4315817-vitalik-buterin-walks-into-a-room",
+  "name": "Vitalik Buterin walks into a room...",
+  "slug": "vitalik-buterin-walks-into-a-room"
+ }
+}

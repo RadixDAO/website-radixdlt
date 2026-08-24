@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57bb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:41.654Z",
+ "createdOn": "2026-04-24T08:07:41.654Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">A utility token is a type of cryptographic <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> that can be redeemed or used as part of a service provided by the issuer of the token; hence, it has “utility.”&nbsp;</p><p id=\"\">For example, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum’s</strong></a> ETH is often considered a utility token, as ETH owners can use ETH to pay for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-gas-in-ethereum\"><strong id=\"\">transaction</strong> <strong id=\"\">fees</strong></a> on the Ethereum network. Likewise, Filecoin’s FIL is also widely considered a utility token, as FIL is used to pay for file storage on the Filecoin network.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-governance-token\"><strong id=\"\">What is a Governance Token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-an-nft\"><strong id=\"\">What is an NFT?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is a Utility Token?",
+  "slug": "what-is-a-utility-token"
+ }
+}

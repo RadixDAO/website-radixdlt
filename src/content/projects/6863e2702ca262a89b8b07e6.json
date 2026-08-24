@@ -1,0 +1,31 @@
+{
+ "id": "6863e2702ca262a89b8b07e6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-07-04T17:18:38.178Z",
+ "lastUpdated": "2025-07-01T13:29:42.394Z",
+ "createdOn": "2025-07-01T13:28:16.321Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Launch your project on Radix with ease. Instantly create your coin with infinite liquidity using a bonding curve.",
+  "project-logo": {
+   "fileId": "6863e2a38d82aedac9921a65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e2a38d82aedac9921a65_Rakoon%20logo.svg",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "6863e2a791c4ed531837e50d",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e2a791c4ed531837e50d_Rakoon%20BG.svg",
+   "alt": null
+  },
+  "link-to-project": "https://rakoon.fun",
+  "categories": [
+   "66dafd47bb99ef6418f1a300",
+   "66dafd561128dd1593392a87"
+  ],
+  "rank": 32,
+  "featured": false,
+  "name": "Rakoon.fun",
+  "slug": "rakoon-fun"
+ }
+}

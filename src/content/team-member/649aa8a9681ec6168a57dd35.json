@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dd35",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:01:14.050Z",
+ "createdOn": "2021-06-18T08:58:08.459Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Marketing Director -&nbsp;RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dffe",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cc5ffbce01438a49b623ef_Emre.png",
+   "alt": null
+  },
+  "bio-excerpt": "Emre is a seasoned blockchain marketing professional, as well as a crypto enthusiast and trader since early 2017. Coming from another Layer 1 DeFi project, Energi Core, Emre brings a wealth of knowledge on the marketing trends in the space.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/egonen/",
+  "blank-item": false,
+  "order": 13,
+  "name": "Emre Gonen",
+  "slug": "emre-gonen"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dda9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T17:13:35.337Z",
+ "createdOn": "2022-01-13T17:13:16.317Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Director of Finance &amp; Investments - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e079",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61e05d91827b08a4a749ff91_Jules2.JPG",
+   "alt": null
+  },
+  "bio-excerpt": "Jules has founded, supported and invested in high growth tech businesses, and has advised the UK government on innovation around Fintech and DLT. When he’s not working hard, he enjoys board sports on mountains or oceans.",
+  "twitter": null,
+  "linkedin": null,
+  "blank-item": false,
+  "order": 15,
+  "name": "Jules Ratcliffe",
+  "slug": "jules-ratcliffe"
+ }
+}

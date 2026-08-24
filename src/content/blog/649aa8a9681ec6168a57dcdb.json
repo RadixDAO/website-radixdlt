@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dcdb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:31:08.582Z",
+ "createdOn": "2021-04-27T08:17:41.301Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2020-10-20T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de35",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3f"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e13c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4a5f6823c058fc26327_60898d0bc2ef8039d6202eb5_E-Radix-LP-Incentives-1024x512.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\"><em id=\"\">This publication is made on behalf of Radix Tokens Jersey Limited, a company registered in Jersey with registration number 132555 and the expressions “Radix”, “RTJL”, “we”, “us”, “our” or “team” shall be construed accordingly.</em></p><p id=\"\">Update: The community liquidity rewards are now live. You can stake your eXRD/USDC Uniswap LP tokens via <a id=\"\" href=\"https://rewards.radixtokens.com\">rewards.radixtokens.com</a>. </p><p id=\"\">A full guide on how to do this can be found <a id=\"\" href=\"https://radixtokens.helpscoutdocs.com/article/52-exrd-community-liquidity-incentives-guide\">here</a>.</p><p id=\"\">On <strong id=\"\">November 17th, 2020</strong>, the first E-RADIX (eXRD) tokens will be distributed. Prior to this date, tokens can only be purchased via <a id=\"\" href=\"http://radixtokens.com\">radixtokens.com</a>. If you see tokens for sale on UniSwap or similar prior to this date, they are not genuine!</p><p id=\"\">Once the sale is complete, <strong id=\"\">200,000,000</strong> additional eXRD tokens are planned to be distributed as community liquidity rewards. The proposed details of the program can be found below, with the Liquidity Incentives due to start on the 17th of November 2020:</p><blockquote id=\"\"><strong id=\"\"><em id=\"\">Reward Pool:</em></strong><em id=\"\"> 200,000,000 eXRD ($7.8M at the token sale price of $0.039)</em></blockquote><blockquote id=\"\"><strong id=\"\"><em id=\"\">Incentivised Liquidity Pair</em></strong><em id=\"\">: eXRD / USDCDeFi </em></blockquote><blockquote id=\"\"><strong id=\"\"><em id=\"\">Platform:</em></strong><em id=\"\"> Uniswap</em></blockquote><blockquote id=\"\"><strong id=\"\"><em id=\"\">Duration: </em></strong><em id=\"\">November 17th, running for 180 days.</em></blockquote><blockquote id=\"\"><strong id=\"\"><em id=\"\">Reward Allocation:</em></strong><em id=\"\"> First 30 days: 75,000,000 eXRD target allocation (approximately $2.9m at the token sale price)</em></blockquote><p id=\"\">Day 31-60: &nbsp;50,000,000 eXRD target allocation (approximately <strong id=\"\">$1.95m</strong> at the token sale price)</p><p id=\"\">Day 61-90: 25,000,000 eXRD target allocation (approximately <strong id=\"\">$975k</strong> at the token sale price)</p><p id=\"\">Day 91-120: &nbsp;25,000,000 eXRD target allocation(approximately <strong id=\"\">$975k</strong> at the token sale price)</p><p id=\"\">Day 121-150: &nbsp;15,000,000 eXRD target allocation (approximately <strong id=\"\">$585k</strong> at the token sale price)</p><p id=\"\">Day 151-180: 10,000,000 eXRD target allocation (approximately <strong id=\"\">$390k</strong> at the token sale price)</p><blockquote id=\"\"><strong id=\"\">Bonus Multiplier: </strong>The bonus multiplier follows the following curve, starting at 1x and reaching 6x by day 90. The longer a Liquidity provider stays in the reward program, the more bonus tokens they earn. If staked LP tokens are removed before the multiplier has reached 6, the unclaimed bonus tokens are redistributed to the reward pool.</blockquote><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087c8a4e717fb94b2995f92_Incentive-Bonus-Multiple-vs-Stake-Time.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><h2 id=\"\"><strong id=\"\">Example Liquidity Rewards</strong></h2><p id=\"\">A token holder continually providing 1% of the staked LP tokens from the start of the program would receive the following rewards, at a minimum, but could receive more if others leave the program before reaching the maximum bonus multiplier:</p><p id=\"\"><strong id=\"\">Number of Days Staked</strong></p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60898f089cdbebd376930f59_Screenshot%202021-04-28%20at%205.36.15%20pm.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">In addition, the above does not account for other users leaving the pool before reaching the maximum bonus multiplier. When a liquidity provider unstakes their liquidity tokens from the eXRD reward smart-contract before they have reached the maximum bonus multiplier, their unclaimed bonus tokens are returned to the reward pool.</p><p id=\"\">‍</p><p id=\"\">‍<em id=\"\">This publication is made on behalf of Radix Tokens Jersey Limited, a company registered in Jersey with registration number 132555 and the expressions “Radix”, “RTJL”, “we”, “us”, “our” or “team” shall be construed accordingly Radix Tokens (Jersey) Limited is incorporated and operated under the supervision of the Jersey Financial Services Commission.</em></p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "E-RADIX Liquidity Incentives",
+  "slug": "e-radix-liquidity-incentives"
+ }
+}

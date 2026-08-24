@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dee2",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-14T16:48:34.561Z",
+ "createdOn": "2022-12-14T16:47:21.735Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e31c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6399fdc6b4ecc7d7981054de_ces.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "A world-leading event in the industry, CES is a hub for tech leaders and innovators. With some of the greatest minds in technology set to take stage and over 100,000 attendees expected to visit, the team at RDX works is gearing up to share the Radix vision for a radically better financial future at this year’s event.\n",
+  "location": "Las Vegas , NV",
+  "start-date": "2023-01-05T00:00:00.000Z",
+  "end-date": "2023-01-08T00:00:00.000Z",
+  "event-link-text": "Register For CES 2023 Here!",
+  "event-link-url": "https://registration.experientevent.com/ShowCES231/wizard/landing",
+  "name": "CES 2023",
+  "slug": "ces-2023"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dda0",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-12-17T11:42:38.769Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-12-17T00:00:00.000Z",
+  "guest-name": "Hannes Graah",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e06e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61bc777a57fc3775c4794c42_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e06f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61bc7785c2706b7925561977_groprotocol_logo.jpeg",
+   "alt": null
+  },
+  "excerpt": "Gro is a DeFi protocol that facilitates generating yield on stablecoins. Gro’s main product options are PWRD, a stablecoin with a substantial amount of collateral backing for protection, or Vault, which provides leveraged yield within the DeFi ecosystem. ",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Hannes Graah, founder of the Gro Protocol. Their conversation focuses on the inner workings of Gro and its products, PWRD, Vault, and Labs, and how they offer both leveraged yield as well as deposit security.</p><p>Gro is a DeFi protocol that facilitates generating yield on stablecoins. Gro’s main product options are PWRD, a stablecoin with a substantial amount of collateral backing for protection, or Vault, which provides leveraged yield within the DeFi ecosystem.&nbsp;</p><p>Vault is a token representation (Gro Vault Token or GVT) of stablecoin yield farming activities on the Gro Protocol. It is not a stablecoin itself. It is designed to be a long-term, high-yielding, high-risk investment that requires no upkeep from its holders.</p><p>PWRD, on the other hand, is a low-risk savings product. It offers more secure access to DeFi yields, and it is tokenised as a stablecoin with built-in yield and protection via Risk Balancer. Risk Balancer gives Gro<strong> </strong>protocol<strong> </strong>a systemic view of protocol and stablecoin exposure and allows for decentralised and user-driven portfolio rebalancing.</p><p><strong>[0:49]</strong> What exactly is the Gro Protocol, and how does it work? Introduction to Gro Protocol’s products: Vault and PWRD</p><p><strong>[2:38]</strong> The reasons behind the creation of the PWRD stablecoin\t</p><p><strong>[5:06]</strong> Why would the leveraged product essentially pay for the lower risk products' coverage? More details about the mechanism of the leveraged product, the Vault</p><p><strong>[7:40]</strong> The 3 main sources of yield for the Gro Protocol:&nbsp;</p><ol><li>Lending income (from lending protocols like Aave)&nbsp;</li><li>Market making income (from AMMs such as Curve)</li><li>Governance Token incentives</li></ol><p><strong>[10:52]</strong> Gro Protocol’s strategies of asset distribution and stablecoin yield</p><p><strong>[11:45]</strong> How Gro Protocol employs tranches and the Risk Balancer module to protect against failure&nbsp;</p><p><strong>[18:38]</strong> What was the launch experience like for the Gro Protocol team? What is the APY, TVL, and utilisation of Gro?</p><p><strong>[22:37]</strong> Labs: The recently launched Gro Protocol product on Avalanche with Alpha Homora v2, which provides advanced experimental leveraged yield farming strategies that are free of complexity</p><p><strong>[33:24]</strong> The Gro governance, the Gro DAO, and the Gro DAO Token (GRO)</p><p><strong>[37:49]</strong> The Gro DAO's recent decisions and what they've learned about governance as a result of this process</p><p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=we4eyF9MmNM\"><div><iframe src=\"https://www.youtube.com/embed/we4eyF9MmNM\" title=\"DeFi savings with deposit insurance included. Plus a little something for the DeFi degens.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h3>Further resources</h3><ul><li>Website: <a href=\"https://www.gro.xyz/\">gro.xyz</a>&nbsp;</li><li>Discord: <a href=\"https://discord.gg/gro\">discord.gg/gro</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/groprotocol\">@groprotocol</a>&nbsp;</li><li>Medium: <a href=\"https://groprotocol.medium.com/\">groprotocol.medium.com</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9739160-defi-savings-with-deposit-insurance-included-plus-a-little-something-for-the-defi-degens",
+  "name": "Gro Protocol: DeFi savings with deposit insurance included. Plus a little something for the DeFi degens.",
+  "slug": "defi-savings-with-deposit-insurance-included-plus-a-little-something-for-the-defi-degens"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e26",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:04:02.469Z",
+ "createdOn": "2026-04-24T08:06:00.044Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb22ab8e57ec268e88daf8",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\"><em id=\"\">This page refers to features planned for the Babylon version of the Radix network, coming in September 2023, and may not apply to the current Olympia network version. For more information about the Radix roadmap, click </em></strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\"><em id=\"\">here</em></strong></a><strong id=\"\"><em id=\"\">. To learn about other core capabilities of Babylon, return to </em></strong><a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-upcoming-babylon-concepts-and-technologies\"><strong id=\"\"><em id=\"\">Start Here! Upcoming Babylon Concepts and Technologies</em></strong></a><strong id=\"\"><em id=\"\">.</em></strong></p><p id=\"\">At Babylon, the native Olympia token model will be upgraded to the much more powerful <strong id=\"\">resource</strong> model, and all pre-existing tokens will be converted to fungible resources (note that there are no non-fungible tokens on Olympia, though some community NFT-related projects have distributed fungible placeholder tokens).</p><p id=\"\">The configuration of the new resource-based tokens will be set to mimic the behavior of those tokens on Olympia.&nbsp; Symbol, name, and description will be mapped to metadata fields.&nbsp; Tokens which were set to have a mutable supply will have a badge created with the authority to mint and burn them, and that badge will be placed in a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-accounts\">smart account</a> controlled by the same key which had that authority on Olympia.</p><p id=\"\">While there is no set maximum supply of any resource on Babylon, the maximum amount that can be minted in a single action is 2^152 atto.&nbsp; Any Olympia tokens with a supply exceeding 2^152 will be proportionally reduced such that the migrated supply does not exceed 2^152. That is, if you had a token whose supply was 10 * 2^152 atto, any accounts holding those tokens would wind up with 1/10th what they held prior to migration.&nbsp;&nbsp; </p><p id=\"\">New resource behaviors which were not possible on Olympia tokens will be locked off from the migrated assets, so that holders can be confident that nothing surprising can suddenly happen with their tokens that could not happen on Olympia.</p><p id=\"\">Developers who released a token on Olympia and now wish to take advantage of the new features offered by resources may wish to re-create a representation on Babylon, and can easily deploy a simple redemption component which exchanges the new resource for the old one.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/blog/babylon-automatic-migration-guide\"><strong id=\"\">Babylon Automatic Migration Guide</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">Native Assets on Babylon</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How do tokens on Olympia migrate to resources on Babylon?",
+  "slug": "how-do-tokens-on-olympia-migrate-to-resources-on-babylon"
+ }
+}

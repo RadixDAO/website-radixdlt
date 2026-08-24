@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57cf",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:28:07.816Z",
+ "createdOn": "2026-04-24T08:07:46.907Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Radix has delivered three pieces of software to support the Olympia Betanet.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24d21b0eed71608c4ede_608882d72711f12160200c36_mCYrE5wzNXc0JKfxQUKmv7m2l57BXOGQIPd_vYiaCdwliNXgPBsQYvVdLAN6PRIDQSppnuPlUME7pDjPnyHI7ua3kFF6_zZbE_OYX3jDFdGfLEwc0rwxdsounMtD2ESf7_v_kKKf.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><strong id=\"\">① </strong>Radix Desktop Wallet - Used for storing, transacting, and staking tokens. For the Olympia Betanet, the wallet will include “faucet” functionality to distribute test tokens which will cease to exist after the betanet is shut down.&nbsp;</p><p id=\"\"><strong id=\"\">②</strong> Radix Node - The Radix Node is the key software that runs the Radix public network and provides useful API endpoints for things like wallets, depending how it is configured.</p><p id=\"\">Once installed, the Node may be run in one of three modes:</p><ul id=\"\"><li id=\"\">Validator Node</li><li id=\"\">Full Node</li><li id=\"\">Archive Node</li></ul><p id=\"\">A validator node is simply a full node where the operator has “registered” with the Radix network for consideration of inclusion in the validator set that operates consensus on the Radix network.</p><p id=\"\">Validator Node</p><ol id=\"\"><li id=\"\">&nbsp;Maintains state and thus a copy of the ledger&nbsp;&nbsp;</li><li id=\"\">&nbsp;Participates in consensus</li><li id=\"\">Up to 100 validator nodes. On mainnet these are protocol-selected by delegated XRD token stake – on betanet, the validator set will be selected by Radix for testing purposes.&nbsp;</li><li id=\"\">Unlikely to be run on home PC - best run on server hardware with high hardware and network reliability to ensure continuous consensus participation</li></ol><p id=\"\">Full Node</p><ol id=\"\"><li id=\"\">Maintains state and thus a copy of the ledger</li><li id=\"\">Does not participate in consensus</li><li id=\"\"><a id=\"\" href=\"https://emojis.wiki/infinity/#:~:text=Meaning%20of%20%E2%99%BE%EF%B8%8F%20Infinity%20Emoji,a%20limitless%2C%20never%20ending%20cycle.\">♾️</a> No restriction on participation&nbsp;</li><li id=\"\">Can likely be run on home PC if desired</li></ol><p id=\"\">Archive Node</p><ol id=\"\" start=\"5\"><li id=\"\">Maintains state and thus a copy of the ledger</li><li id=\"\">Indexes state so that it can respond to API queries</li><li id=\"\">Can create and forward transactions to other nodes (eg. for a wallet)</li><li id=\"\">Does not participate in consensus</li><li id=\"\"><a id=\"\" href=\"https://emojis.wiki/infinity/#:~:text=Meaning%20of%20%E2%99%BE%EF%B8%8F%20Infinity%20Emoji,a%20limitless%2C%20never%20ending%20cycle.\">♾️</a> No restriction on participation&nbsp;</li><li id=\"\">Requires significantly greater storage than a full node for index data</li></ol><p id=\"\">&nbsp;</p><p id=\"\"><strong id=\"\">(3) </strong>Explorer Website - Lets you view network conditions and see details about addresses and transactions.</p><p id=\"\">Also lists all nodes that have registered to be a validator and are available for staking, along with information about each validator node.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "<p id=\"\"><br></p>",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is being delivered for the Olympia Betanet?",
+  "slug": "what-is-being-delivered-for-the-olympia-betanet"
+ }
+}

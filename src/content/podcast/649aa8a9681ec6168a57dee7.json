@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dee7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-12-17T14:29:22.872Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-12-17T00:00:00.000Z",
+  "guest-name": "Gaurav Dubey",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e324",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/639dcee4c99f406dc15ecdb8_Head%208.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e32e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63b84c4d21104a1e2f6b600c_s0CHIe9X_400x400.jpg",
+   "alt": null
+  },
+  "excerpt": "On this episode of the DeFi Download podcast, Piers Ridyard interviews Gaurav Dubey, the CEO of TDeFi, a Web3 metaverse and crypto services incubator and consulting company.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/m_w9oFHVgPI\"><div><iframe src=\"https://www.youtube.com/embed/m_w9oFHVgPI\" title=\"Tde.fi: Lessons from 50 DeFi and Web 3.0 businesses.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\">What can we learn from the experience of a Web3 incubator and advisory firm? Find out in this episode of the DeFi Download podcast, in which Piers Ridyard interviews Gaurav Dubey, the CEO of TDeFi, a Web3 metaverse and crypto services incubator and consulting company.</p><p id=\"\">TDeFi is a subsidiary of a larger ecosystem, TradeDog. TradeDog is an institutional grade financial services firm in crypto that offers services such as research and advisory, as well as token and treasury management.</p><p id=\"\">The TDeFi platform has incubated over 50 firms in the Web3 industry, including Vulcan Forged, an NFT gaming studio. A couple of those projects have reached a market cap of more than a billion dollars.</p><p id=\"\">Gaurav’s experience with crypto began in 2015 with mining, building collocations, and investing in the DAO. He now has 15 years of expertise in traditional investing, angel investing, and running a tech start-up incubator for the past 14 years.</p><p id=\"\">TDeFi originated as an abandoned TradeDog initiative that Gaurav resolved to rescue.</p><p id=\"\">Key takeaways</p><ul id=\"\"><li id=\"\">If you stumble across an issue that you know will be solved only if <em id=\"\">you</em> solve it, you have found your business idea.</li><li id=\"\">The builder's dilemma is one of the most fatal flaws in any project. Tech entrepreneurs frequently believe solely in the strength of the technology, or the product. Marketing and sales are more prevalent in the equities market, whereas crypto merely adds to the complexity.</li><li id=\"\">\"Token engineering\" is a better term for what is now referred to as \"tokenomics.\"</li></ul><p id=\"\">Chapters</p><p id=\"\"><strong id=\"\">[01:12]</strong> When did TDeFi first begin, and how long has it been in existence?</p><p id=\"\"><strong id=\"\">[02:52]</strong> What is Gaurav's most important takeaway from the DAO saga?</p><p id=\"\"><strong id=\"\">[06:25]</strong> What was the opportunity that inspired the team to create TDeFi?</p><p id=\"\"><strong id=\"\">[11:39]</strong> What sets TDeFi apart from other advisors who take a portion of your tokens in exchange for placing their face on your website and guaranteeing you a plethora of introductions?</p><p id=\"\"><strong id=\"\">[15:51]</strong> What are the most common mistakes made by cryptocurrency start-ups that TDeFi assists their clients in avoiding?</p><p id=\"\"><strong id=\"\">[20:13]</strong> In the way that Gaurav defines product market fit, has anything in the cryptocurrency industry attained it?</p><p id=\"\"><strong id=\"\">[28:03]</strong> In the crypto space there are a lot of questions around generational infrastructure, like how the digital mobile network evolution went from GSM to 5G, and the transformational changes that happened in the user experience, as in the case of the evolution of the mobile phone from the early consumer handsets with digital displays to smartphones with touchscreens. Is crypto still like the internet in the early 1990s in this regard?</p><p id=\"\"><strong id=\"\">[29:31]</strong> Has Ethereum ever been hacked?</p><p id=\"\"><strong id=\"\">[32:49]</strong> Solidity and the architecture of smart contracts in Ethereum and other ledgers is problematic</p><p id=\"\"><strong id=\"\">[34:04]</strong> TDeFi's unique perspective on token economics</p><p id=\"\"><strong id=\"\">[41:01]</strong> A fine example of well-executed token engineering, according to Gaurav</p><p id=\"\"><strong id=\"\">[43:51]</strong> Examples of apps built on top of public ledgers with solid token models</p><p id=\"\">Further resources</p><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://tde.fi/\">tde.fi</a> </li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/Tde_Fi\">@Tde_Fi</a></li><li id=\"\">Gaurav’s Twitter: <a id=\"\" href=\"https://twitter.com/gauravdubeylive\">@GauravDubeyLive</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11888604-tde-fi-lessons-from-50-defi-and-web-3-0-businesses",
+  "name": "Tde.fi: Lessons from 50 DeFi and Web 3.0 businesses.",
+  "slug": "tde-fi-lessons-from-50-defi-and-web-3-0-businesses"
+ }
+}

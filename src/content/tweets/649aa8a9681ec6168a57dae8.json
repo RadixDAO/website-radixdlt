@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dae8",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:13:38.963Z",
+ "createdOn": "2021-04-24T19:06:34.522Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/scottmelker/status/1296530817175429121?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d9ce",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608542ab49afb25de3905c36_Wolf.jpg",
+   "alt": null
+  },
+  "content": "A lot of layer 1 solutions being announced. @Algorand had big news that I shared yesterday - here's another one: @radixdlt. I wonder who will win the layer 1 DeFi wars?",
+  "order": 12,
+  "name": "Wolf Of All Streets",
+  "slug": "scottmelker"
+ }
+}

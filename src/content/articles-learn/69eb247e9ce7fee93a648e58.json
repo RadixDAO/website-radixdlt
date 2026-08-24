@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e58",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:16.181Z",
+ "createdOn": "2026-04-24T08:06:16.181Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/OVwcsMC0TqM\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/OVwcsMC0TqM\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\"><em id=\"\">Choose this option if you want third parties to deposit assets into your Account directly. Deposits that you approve yourself in your Radix Wallet are always accepted.</em></p><p id=\"\">Select the accounts you would like to configure Third-party deposits for, then select the three dots in the upper right-hand corner of the account screen.</p><p id=\"\">Tap <strong id=\"\">Third-party Deposits.</strong></p><p id=\"\">Select from:</p><p id=\"\"><strong id=\"\">Accept all Deposits</strong>: Allow third parties to deposit any asset</p><p id=\"\"><strong id=\"\">Only accept known</strong>:&nbsp; Allow third parties to deposit only assets this account already holds</p><p id=\"\"><strong id=\"\">Deny all</strong>: Deny all third-party deposits</p><p id=\"\">Click <strong id=\"\">Update.</strong></p><p id=\"\"><strong id=\"\">You have now set your third-party account deposit preferences. </strong></p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Configure Third-party Deposits",
+  "slug": "how-to-configure-third-party-deposits"
+ }
+}

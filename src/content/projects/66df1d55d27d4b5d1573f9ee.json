@@ -1,0 +1,30 @@
+{
+ "id": "66df1d55d27d4b5d1573f9ee",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:34:51.764Z",
+ "createdOn": "2024-09-09T16:07:49.833Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A cutting-edge lending and borrowing protocol built on Radix, offering innovative, secure, and scalable lending solutions.",
+  "project-logo": {
+   "fileId": "66df1d49f82c4656cbc810dc",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d49f82c4656cbc810dc_Gable_Logo.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1d4aa322cec0c4b6d265",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d4aa322cec0c4b6d265_photo_2024-09-09%2010.15.48.jpeg",
+   "alt": null
+  },
+  "link-to-project": "https://gable.finance/",
+  "categories": [
+   "66dafd303535702e99f6c8f5"
+  ],
+  "rank": 24,
+  "featured": false,
+  "name": "Gable Finance",
+  "slug": "gable-finance"
+ }
+}

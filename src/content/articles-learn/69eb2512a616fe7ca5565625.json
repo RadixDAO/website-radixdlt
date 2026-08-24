@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565625",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:02:11.452Z",
+ "createdOn": "2026-04-24T08:08:21.378Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">A completely new <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-wallet-for-babylon\"><strong id=\"\">Radix Wallet</strong> </a>was introduced for the Babylon update to the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> that is designed for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a> and <a id=\"\" href=\"https://www.radixdlt.com/lp/ebooks/web3report\"><strong id=\"\">Web3.0</strong></a>. It replaced the <strong id=\"\">Radix Olympia Desktop Wallet</strong>, and that wallet no longer works with the Radix Network. <a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-smart-accounts\"><strong id=\"\">Accounts</strong></a> and assets (ie. any tokens created on the Radix <a id=\"\" href=\"http://learn.radixdlt.com/article/what-was-radixs-olympia-mainnet\"><strong id=\"\">Olympia Mainnet</strong></a>) were automatically migrated to Babylon and users <strong id=\"\">migrated to the Radix Wallet</strong> for Babylon.</p><p id=\"\">The Radix Wallet for Babylon is a mobile application for iOS and Android. It provides not only a way to manage<strong id=\"\"> </strong><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-smart-accounts\"><strong id=\"\">accounts</strong></a> and securely hold <a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">any kind of asset</strong></a> on Radix, but also a powerful way to <a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">log in to Web3.0 applications</strong></a> (including on <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radix-connect\"><strong id=\"\">desktop</strong></a>) without a password, and<strong id=\"\"> </strong>view and sign <a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-transaction-manifests\"><strong id=\"\">transactions</strong></a> with confidence.</p><p id=\"\">The Radix Wallet is made possible by five new platform technologies on the Radix Babylon network that address <a id=\"\" href=\"http://www.radixdlt.com/post/the-problem-with-crypto-wallets-today\"><strong id=\"\">shortcomings on other networks that have made it impossible to create truly usable, secure wallets</strong></a>.</p><p id=\"\">To learn how to use the <strong id=\"\">Radix Wallet</strong>, visit <a id=\"\" href=\"http://wallet.radixdlt.com\"><strong id=\"\">wallet.radixdlt.com</strong></a>; or visit the <a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Start Here! Radix Wallet User Guide</strong>.</a></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Start Here! Radix Wallet User Guide</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.youtube.com/watch?v=iynGh7rPKmM\"><strong id=\"\">RadFi Deep Dive Video - Radix Wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-smart-accounts\"><strong id=\"\">What are Smart Accounts?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">What are Personas (and Identities)?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radix-connect\"><strong id=\"\">What is Radix Connect?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">What are Native Assets?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-transaction-manifests\"><strong id=\"\">What are Transaction Manifests?</strong></a></li></ul><p id=\"\">‍</p><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What is the Radix Wallet for Babylon?",
+  "slug": "what-is-the-radix-wallet-for-babylon"
+ }
+}

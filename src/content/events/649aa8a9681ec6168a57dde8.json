@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dde8",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:55:30.953Z",
+ "createdOn": "2022-03-22T10:34:33.174Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Join us for fun and casual conversation about Radix DLT, financial technology, and the emerging world of decentralized finance. We reserved space at Blackfinn DC to eat, drink, and make new connections. The first 15 people to sign-up will get a free drink ticket at the event. Light appetizers for all attendees will also be provided. CMO of RDX Works Jeremy Epstein will be in attendance!",
+  "location": "Blackfinn DC, 1620 I Street Northwest, Washington, DC 20006 United States",
+  "start-date": "2022-03-30T00:00:00.000Z",
+  "end-date": "2022-03-30T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/fintech-happy-hour-decentralized-finance-and-radix-tickets-302477266647?aff=ebdssbdestsearch",
+  "name": "Community Meet Up - Washington, DC",
+  "slug": "community-meet-up-washington-dc"
+ }
+}

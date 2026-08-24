@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565621",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:20.238Z",
+ "createdOn": "2026-04-24T08:08:20.238Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb21e44af4817cdac9ab72",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">A “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-stablecoins\"><strong id=\"\">stablecoin</strong></a>” is a type of cryptocurrency <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> with a value intended to track that of a real-world asset – typically a fiat currency like dollars or euros.</p><p id=\"\">Some components of a public<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralized</strong></a> ecosystem are intrinsically important to its success. Reliable&nbsp; and low volatility stores of value are one such important component for any public ledger focusing on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">Decentralised Finance</strong></a>.</p><p id=\"\">Decentralised stable coins may provide: a mechanism for converting native tokens into stable exchange tokens and back again; function as a helpful leverage mechanism; create large amounts of lockup; and provide a useful decentralized stable store of value for other applications to use.&nbsp;</p><p id=\"\">Intrinsically, decentralized stores of value also introduce a degree of systemic risk when pegged to an external store of value (such as the USD). To potentially help bootstrap important projects of this type, the Stable Coin Reserve was formed.&nbsp;</p><p id=\"\">This Reserve holds 2.4Bn RADIX TOKENS that are locked and entirely removed from circulating supply. There is a 10-year period in which to review, and potentially disburse this reserve to support a systemic stabilization protocol for one or several <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> native stable coins, which may or may not require the use of the Stable Coin Reserve.&nbsp;</p><p id=\"\">Should the Stable Coin Reserve not be needed, it will remain locked and be destroyed after the 10-year period.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-tokens-tokenomics\"><strong id=\"\">Start Here! Radix Tokens &amp; Tokenomics Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-was-the-xrd-token-allocated\"><strong id=\"\">How was the XRD token allocated?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 17,
+  "name": "What is the Radix Stable Coin Reserve?",
+  "slug": "what-is-the-radix-stable-coin-reserve"
+ }
+}

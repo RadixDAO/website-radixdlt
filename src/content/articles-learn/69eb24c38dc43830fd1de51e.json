@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de51e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:02:01.442Z",
+ "createdOn": "2026-04-24T08:07:09.877Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb22ab8e57ec268e88daf8",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\"><em id=\"\">This page refers to features planned for the Babylon version of the Radix network, coming in September 2023, and may not apply to the current Olympia network version. For more information about the Radix roadmap, click </em></strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\"><em id=\"\">here</em></strong></a><strong id=\"\"><em id=\"\">.</em></strong></p><p id=\"\">Babylon is a major update to the Radix Public Network coming in September 2023. It marks the addition of powerful, asset-oriented smart contract capability to the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>, via the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-engine\"><strong id=\"\">Radix Engine</strong></a> execution environment and the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-scrypto\"><strong id=\"\">Scrypto</strong></a> smart contract language.</p><p id=\"\">It also includes the introduction of numerous new technologies and concepts. The following articles will get you oriented on Babylon:</p><p id=\"\"><strong id=\"\">Five new platform technologies:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-smart-accounts\"><strong id=\"\">What are Smart Accounts?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">What are Personas (and Identities)?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radix-connect\"><strong id=\"\">What is Radix Connect?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">What are Native Assets?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-transaction-manifests\"><strong id=\"\">What are Transaction Manifests?</strong></a></li></ul><p id=\"\"><strong id=\"\">Other Babylon concepts and technologies:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-wallet-for-babylon\"><strong id=\"\">What is the Radix Wallet for Babylon?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-connector-browser-extension\"><strong id=\"\">What is the Radix Connector browser extension?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 17,
+  "name": "Start Here! Upcoming Babylon Concepts and Technologies",
+  "slug": "start-here-upcoming-babylon-concepts-and-technologies"
+ }
+}

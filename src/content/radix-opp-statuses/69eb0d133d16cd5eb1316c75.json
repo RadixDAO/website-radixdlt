@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c75",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:25.127Z",
+ "createdOn": "2026-04-24T06:26:25.127Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b9"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2023-05-01T09:00:00.000Z",
+  "last-update": "2023-05-01T07:35:00.000Z",
+  "content": "<p id=\"\">Instapass maintenance complete. Instapass is now back up and running. </p><p id=\"\">‍</p><p id=\"\">Instapass will be down for scheduled maintenance from 10am GMT&nbsp;for a short time. If you have any questions, please reach out to support@instapass.io</p>",
+  "name": "Instapass down for scheduled maintenance",
+  "slug": "instapass-down-for-scheduled-maintenance"
+ }
+}

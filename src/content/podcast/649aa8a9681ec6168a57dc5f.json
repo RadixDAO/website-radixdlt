@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc5f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:43.272Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-04-15T00:00:00.000Z",
+  "guest-name": "Simon Yu",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfa9",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f37eabf73339b67319e1_podcast-19.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard talks with Simon Yu, co-founder, and CEO of the award-winning crypto cashback app StormX that rewards you with crypto while you shop.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard talks with Simon Yu, co-founder, and CEO of the award-winning crypto cashback app StormX that rewards you with crypto while you shop.</p><p>The StormX app deposits your cryptocurrency earnings directly into your connected wallet, one such as TrustWallet, Argent, or MetaMask. Simon also talks about the StormX (STMX) token, the latest Staking feature, and the StormX roadmap.&nbsp;</p><p>[00:00:44] Delving into StormX’s origins: How and why it was created</p><p>[00:04:41] The foreground functionality of the StormX Shop from a consumer’s point of view, as well as the background workings that allow it to happen</p><p>[00:06:84] The cryptocurrencies that consumers who use the StormX app to make purchases may earn</p><p>[00:08:52] StormX’s global user base</p><p>[00:10:42] What allows StormX to offer such a high level of cashback in comparison to its competitors?</p><p>[00:12:23] Customer acquisition strategies employed by the StormX team, as well as errors made and lessons learned along the way</p><p>[00:18:21] Is there a noncustodial wallet built into StormX, or does it partner with companies like TrustWallet and Argent?</p><p>[00:19:26] The evolution of the StormX community over time, as well as lessons learned about community building, management, and maintenance during challenging times</p><p>[00:22:54] Finding strength and developing tenacity and resilience in the face of hardship</p><p>[00:26:10] StormX’s next moves and how to stake STMX tokens</p><p>[00:28:05] The primary driver of StormX’s user growth</p><p>[00:28:58] How to maximise StormX rewards and the benefits of early adoption</p><p>[00:30:49] How to get involved with StormX and the StormX community</p><p>[00:32:20] Simon’s and Piers’ observations on the “stay poor” attitude on crypto Twitter</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://stormx.io/\">stormx.io</a></li><li>Twitter: <a href=\"https://twitter.com/stormxio\">@stormxio</a></li><li>Telegram: <a href=\"https://t.me/stormxapp\">StormX Official Channel</a></li><li>Browser extension: <a href=\"https://stormx.io/shop\">StormX Shop</a></li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8341718-stormx-spend-money-earn-crypto",
+  "name": "StormX - Spend Money, Earn Crypto",
+  "slug": "stormx-spend-money-earn-crypto"
+ }
+}

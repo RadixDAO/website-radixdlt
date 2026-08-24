@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dcce",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:02:18.416Z",
+ "createdOn": "2021-04-25T19:18:59.050Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Consensus Architect – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfcf",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60897707dbb005290721e5aa_michal.png",
+   "alt": null
+  },
+  "bio-excerpt": "Michal formerly worked with Aeternity and Senui and joins Radix with plenty of hands-on experience in distributed systems and consensus. Michal has spent almost a decade travelling or living in various tech hubs to work on exciting projects.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/mzajda/",
+  "blank-item": false,
+  "order": 19,
+  "name": "Michal Zajda",
+  "slug": "michal-zajda"
+ }
+}

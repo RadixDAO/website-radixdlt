@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd03",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-05-06T16:10:38.801Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-06-05T00:00:00.000Z",
+  "guest-name": "Philip Lao ",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfd9",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6094147f000b841c8f6321d1_podcast.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfdb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/609414b6095797ff614da628_brightid%20full%20logo.svg",
+   "alt": null
+  },
+  "excerpt": "Join Piers Ridyard, in this DeFi Download episode, as he interviews Philip Silva, founding advisor of BrightID, which helps you prove your digital uniqueness. Their conversation ranges from explaining the inner workings of BrightID to delving into the feasibility of a cryptocurrency-based UBI, as well as what makes CryptoPunk NFTs so popular.",
+  "main-content": "<p><strong>BrightID - Decentralised Identity, Governance and Universal Basic Income</strong></p><p><strong><em>With Philip Silva, founding advisor, BrightID </em></strong></p><p>‍</p><p>BrightID is a social graph in which you make connections by scanning QR codes. Those connections are made cryptographically. The BrightID team has improved upon robust open-source anti-Sybil analyses algorithms of previous social graphs and integrated them into their system.</p><p>Phillip Silva is also involved in the LAO, Flamingo DAO, and Neptune, and is a staunch supporter of universal decentralisation.</p><p>[00:00:46] What is the currently unresolved problem in the world that BrightID is attempting to solve?</p><p>[00:02:05] From the cypherpunk movement and beyond: How to build a system where you can rely on the attestation without seeing the original information.</p><p>[00:04:04] BrightID’s function and the mechanics of its positive and negative points. What happens when creating a BrightID and how to create one?</p><p>[00:06:07] How to solve the Sybil problem in a social graph system?</p><p>[00:09:40] BrightID’s present focus and the RabbitHole example, as well as its potential, 10-to-20-year vision and a cryptocurrency-based Universal Basic Income. BrightID’s aspiration to provide anti-Sybil solutions for ventures considering UBI experiments.</p><p>[00:14:53] Artificial intelligence, automation, and the need for Universal Basic Income: New distribution mechanisms within capitalism.</p><p>[00:19:42] Solutions to the Sybil problem and their limitations, such as weak subjectivity: BrightID’s seed-based approach.</p><p>[00:25:03] The importance of on-ledger identity to governance, which allows associating a key and a vote that is cryptographically verified with something that has an anti-Sybil mechanism. How BrightID views the concept of governance of decentralised autonomous organisations and how the tools at its disposal aid in the operation of such organisations.</p><p>[00:27:08] Plutocracy within decentralised autonomous organisations and the tyranny of the wealthy: BrightID’s response to plutocracy and Gitcoin example.</p><p>[00:31:20] Philip’s involvement with the decentralised autonomous organisations LAO, Flamingo DAO, and Neptune:</p><p>[00:31:56] LAO (legal autonomous organisation), “the DAO wrapped in a legally compliant manner”</p><p>[00:36:47] Flamingo DAO, NFTs, and CryptoPunk Aliens</p><p>[00:41:08] Neptune and Yearn-like algorithmic strategies for yield</p><p><br>Further resources</p><ul><li>Website: <a href=\"https://www.brightid.org/\" target=\"_blank\">brightid.org</a></li><li>Twitter: <a href=\"https://twitter.com/BrightIDProject\" target=\"_blank\">@BrightIDProject</a></li><li>Philip Silva’s Twitter: <a href=\"https://twitter.com/UBIpromoter\" target=\"_blank\">@UBIpromoter</a></li><li>LAO Website: <a href=\"https://www.thelao.io/\" target=\"_blank\">thelao.io</a> </li></ul><p>‍</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8471411-brightid-decentralised-identity-governance-and-universal-basic-income",
+  "name": "BrightID - Decentralised Identity, Governance and Universal Basic Inco",
+  "slug": "brightid-decentralised-identity-governance-and-universal-basic-inco"
+ }
+}

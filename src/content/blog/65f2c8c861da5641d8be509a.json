@@ -1,0 +1,33 @@
+{
+ "id": "65f2c8c861da5641d8be509a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-03-25T17:14:17.378Z",
+ "lastUpdated": "2024-03-14T13:57:25.211Z",
+ "createdOn": "2024-03-14T09:52:08.420Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2024-03-14T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": null,
+  "featured-post": true,
+  "blog-category": [
+   "649aa8a9681ec6168a57de39",
+   "649aa8a9681ec6168a57de41"
+  ],
+  "image": {
+   "fileId": "65f2f8e7c248438d683cf4ff",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/65f2f8e7c248438d683cf4ff_image1.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\">Project Ignition is officially live! With $10 million in liquidity incentives, you are about to see more liquidity added to the Radix DeFi ecosystem, which will improve the opportunities for participants in the ecosystem and the scale at which strategies can be executed.</p><p id=\"\">If you already have xUSDC, xUSDT, xwBTC, or xETH, then head on over to one of the DEXs listed below to add liquidity to the Ignition pools. If you don’t yet have wrapped assets on Radix, see the guide below!</p><p id=\"\">Add liquidity to Project Ignition on:</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.caviarnine.com/ignition\">CaviarNine</a></li><li id=\"\"><a id=\"\" href=\"http://radix.defiplaza.net/ignition\">DeFiPlaza</a></li><li id=\"\"><a href=\"http://ociswap.com/ignition\">Ociswap<br>‍</a></li></ul><p id=\"\">If you missed the full announcement of <a id=\"\" href=\"https://www.radixdlt.com/blog/project-ignition-10m-liquidity-incentive-program-for-wrapped-assets-on-radix\">Project Ignition</a>, here is the TLDR. For each $1 in wrapped assets you add to the participating liquidity pools, Project Ignition supplies an equal amount of XRD on the other side. This means that the original $10M will turn into $20M when Project Ignition is fully claimed, resulting in Radix TVL growing significantly over the next few weeks.&nbsp;</p><p id=\"\">Other than doubling the liquidity in the Radix Ecosystem, users who provide liquidity to Project Ignition receive up to 20% bonus XRD instantly and benefit from significant impermanent loss protection. Full details about the program can be found <a id=\"\" href=\"https://uploads-ssl.webflow.com/6053f7fca5bf627283b582c2/65c3bfd9846b7773b8dd7148_project-ignition-details.pdf\">here</a>.</p><p id=\"\">Project Ignition is just one of many initiatives launched as part of <a id=\"\" href=\"https://youtu.be/NuwTyHJc9i0?si=m-a0L2RPNWVIvFHf\">#Breakout2024</a>, and much more will be announced throughout 2024.&nbsp;</p><p id=\"\">While your liquidity is hard at work over the next 9-12 months, why not explore the Radix ecosystem and experience what true DeFi feels like? The full list of live dApps and projects is on the <a id=\"\" href=\"https://radixecosystem.com/\">Radix ecosystem website</a>.&nbsp;</p><h2 id=\"\"><strong id=\"\">How to take part in Project Ignition</strong></h2><p id=\"\">If you haven’t yet provided liquidity, be sure to start the process quickly. Project Ignition is a first-come, first-served initiative, meaning you might miss out on up to a 20% instant XRD bonus, DEX incentives, trading rewards, and significant impermanent loss protection if you don’t act now!&nbsp;</p><p id=\"\"><strong id=\"\">Step 1:</strong> Starting <a id=\"\" href=\"https://www.instapass.io/\">here</a>, <a id=\"\" href=\"https://learn.instapass.io/article/how-to-verify-your-identity-in-instapass\">verify your identity via Instapass</a>.</p><p id=\"\"><strong id=\"\">Step 2: </strong>Once done, link your Instapass account to Instabridge. <a id=\"\" href=\"https://learn.instapass.io/article/how-to-connect-your-radix-and-ethereum-wallet-addresses-to-your-instapass-account\">Authorise Instapass to connect to your Instabridge account and log in using Metamask.</a></p><p id=\"\"><strong id=\"\">Step 3: </strong>Now you have verified and linked your Instapass and Instabridge accounts,<strong id=\"\"> </strong>you can use<a id=\"\" href=\"https://learn.instabridge.io/article/swapping-wrapping-tokens-on-instabridge\"> Instabridge to swap your tokens between your Ethereum Wallet and Radix Wallet.</a><em id=\"\">‍</em></p><p id=\"\"><em id=\"\">(If you need any assistance, please contact support@instapass.io or hello@instabridge.io)</em></p><p id=\"\"><strong id=\"\">Step 4:</strong> Once you have wrapped assets in your Radix Wallet, you can connect to your chosen dApp to supply liquidity into the following Project Ignition-compatible pools.&nbsp;</p><p id=\"\">If you’re really desperate to get started right away, you can swap some XRD for xUSDC, xUSDT, xwBTC, or xETH straight from the three participating DEXs, <a id=\"\" href=\"http://caviarnine.com/\">CaviarNine</a>, <a id=\"\" href=\"http://ociswap.com/\">Ociswap</a>, or <a id=\"\" href=\"http://defiplaza.net/\">DefiPlaza</a>, and then provide liquidity to one of their pools.&nbsp;</p><p id=\"\">For those who want to swap assets from a different chain, such as Arbitrum, Solana, or others, to Radix (XRD), you can do this via RocketX. A step-by-step guide is available <a id=\"\" href=\"https://www.radixdlt.com/blog/project-ignition-your-step-by-step-guide-through-rocketx-to-radix\">here</a>.&nbsp;</p><h3 id=\"\"><strong id=\"\">Useful Links:</strong></h3><p id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/blog/project-ignition-10m-liquidity-incentive-program-for-wrapped-assets-on-radix\">Project Ignition</a>&nbsp;</p><p id=\"\"><a id=\"\" href=\"https://app.rocketx.exchange/swap/ETHEREUM.ethereum/RADIX.radix/1?from=Ethereum&to=Radix\">RocketX</a></p><p id=\"\"><a id=\"\" href=\"http://ociswap.com/\">Ociswap</a></p><p id=\"\"><a id=\"\" href=\"http://caviarnine.com/\">CaviarNine</a></p><p id=\"\"><a id=\"\" href=\"http://defiplaza.net/\">DefiPlaza</a></p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Project Ignition is Now Live",
+  "slug": "project-ignition-is-now-live"
+ }
+}

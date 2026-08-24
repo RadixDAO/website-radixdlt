@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57e7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:53.762Z",
+ "createdOn": "2026-04-24T08:07:53.762Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Ethereum is a decentralized blockchain network with its own cryptocurrency, called Ether (ETH), and the capability to run “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart contracts</strong></a>” often written in a new programming language called Solidity.&nbsp;</p><p id=\"\">Ethereum was first proposed in <a id=\"\" href=\"https://vitalik.ca/general/2017/09/14/prehistory.html\"><strong id=\"\">October 2013</strong></a><strong id=\"\"> </strong>by Vitalik Buterin, <a id=\"\" href=\"https://bitcointalk.org/index.php?topic=220530.0\"><strong id=\"\">which is five months after the project that would become Radix was first proposed in May 2013</strong></a>. It&nbsp; was developed by a team of developers at the non-profit Ethereum Foundation. Ethereum is similar to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">Bitcoin</strong></a> in that it allows you to transfer digital assets. However, its smart contract capability makes it possible to deploy your own code to add new functionality and to interact with applications created by others.&nbsp;</p><p id=\"\">Ethereum was created to enable developers to build decentralized applications (or “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApps</strong></a>”) that anyone can use and run automatically without relying on a centralized server.&nbsp;</p><p id=\"\">While Bitcoin is primarily a store of value and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralized</strong></a> currency, the idea behind Ethereum is to create a “world computer” where many kinds of decentralized services can be built. <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> (decentralized finance) has become a popular use of Ethereum, with dApps offering many types of financial products and services.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">What Is Bitcoin?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">What is a token?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What Is Ethereum?",
+  "slug": "what-is-ethereum"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de98",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-09-09T18:18:54.333Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-09-09T00:00:00.000Z",
+  "guest-name": "Campbell Harvey",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e293",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/631b837206492f0260ce15b8_Campbell%20Harvey.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Professor Campbell Harvey, Professor of Finance at Duke University, and co-author of DeFi and the future of finance. ",
+  "main-content": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/lxQzWYmIHhc\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/lxQzWYmIHhc\" title=\"Professor Harvey: Lessons for the future in DeFi\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\">Campbell R. Harvey graduated from the University of Chicago with a PhD in finance. He held the position of Editor of The Journal of Finance, one of the most prestigious journals in the field of economics, from 2006 to 2012. He presided over the American Finance Association in 2016.</p><p id=\"\">More than 150 scholarly articles by Professor Campbell Harvey have been published on subjects as diverse as investment finance, emerging markets, corporate finance, behavioural finance, financial econometrics, and computer science.&nbsp;</p><p id=\"\">Professor Harvey has been teaching \"Innovation and Cryptoventures\" at Duke University for the past few years. This course focuses on the workings and uses of blockchain technology as well as decentralised finance. You can find his DeFi-related online courses on Coursera.&nbsp;</p><p id=\"\"><strong id=\"\">[1:00]</strong> How Campbell Harvey came to be a finance professor and write about DeFi and the future of finance</p><p id=\"\"><strong id=\"\">[12:46]</strong> What is the purpose of the financial system?</p><p id=\"\"><strong id=\"\">[19:48]</strong> What makes DeFi special? Why does this technological application differ from other digital service approaches?</p><p id=\"\"><strong id=\"\">[24:00]</strong> The Internet's peer-to-peer nature as a network of services, providers, and users, its current degree of centralisation, the differences between Web 1.0, 2.0, and 3.0, and the significance of DeFi</p><p id=\"\"><strong id=\"\">[27:47]</strong> Web 3.0's powerful advancements</p><p id=\"\"><strong id=\"\">[31:28]</strong> Regulatory issues in the United States and globally</p><h4 id=\"\">Further resources</h4><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://people.duke.edu/~charvey/\">people.duke.edu/~charvey/</a>&nbsp;</li><li id=\"\">Book on Amazon: <a id=\"\" href=\"https://www.amazon.com/DeFi-Future-Finance-Campbell-Harvey-ebook/dp/B09DJV2QLC/\"><em id=\"\">DeFi and the Future of Finance</em></a></li><li id=\"\"><a id=\"\" href=\"https://www.coursera.org/instructor/~46121307\">Coursera Courses</a>‍</li><li id=\"\">Twitter: <a href=\"https://twitter.com/camharvey\">@camharvey</a></li><li><a href=\"https://www.linkedin.com/in/camharvey\">LinkedIn</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11290693-professor-harvey-lessons-for-the-future-in-defi",
+  "name": "Professor Harvey: Lessons for the future in DeFi",
+  "slug": "professor-harvey-lessons-for-the-future-in-defi"
+ }
+}

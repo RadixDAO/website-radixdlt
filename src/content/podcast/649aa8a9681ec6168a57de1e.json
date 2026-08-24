@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de1e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-05-13T15:53:08.916Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-05-13T00:00:00.000Z",
+  "guest-name": "Josh Tobkin",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0fc",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/627e7e1e41554804aa86c506_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0fd",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/627e7e2e59c32de856abb510_-6KlTSEa_400x400.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Josh Tobkin, CEO of SupraOracles. SupraOracles is supercharging oracles for a better, decentralised future by building better, faster, more accurate, and more secure on-chain sources of off-chain data.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:45%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"45%\" data-rt-dimensions=\"640:480\" data-page-url=\"https://www.youtube.com/watch?v=4QMgSvOWAl0\"><div><iframe src=\"https://www.youtube.com/embed/4QMgSvOWAl0\" title=\"SupraOracles: the hard problem of getting fast, trustworthy data on ledger\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>Josh's background in supply chains and start-ups, as well as his blockchain research, prompted him to speculate on how to make it possible to securely get external data on-chain.&nbsp;</p><p>As a result, Josh and his team devised a novel cross-chain interoperability approach that is both secure (using innovative cryptography) and fast (with a finality time of 3-5 seconds).&nbsp;</p><p><strong>[0:46]</strong> Background on SupraOracles and what Josh believes was the missing market gap that inspired them to build what they are building.&nbsp;</p><p><strong>[4:08]</strong> Josh explains how SupraOracles would solve a couple of exploits that occurred during the early days of DeFi summer.</p><p><strong>[8:46]</strong> Piers’ first example of betting on the future price of Bitcoin and how SupraOracles would solve the issue of a faulty data source</p><p><strong>[14:19]</strong> Is SupraOracles performing all of the integration point calculations and then pushing the aggregated data to the ledger?</p><p><strong>[16:10]</strong> How does data get from an off-ledger state to an on-ledger state if anyone can submit it?</p><p><strong>[17:22]</strong> Do you have to be integrated into all of the data sources or a subset of the data sources to run a SupraOracles node?</p><p><strong>[20:04]</strong> How does the SupraOracles network's consensus-based answer get from SupraOracles to another network?</p><p><strong>[24:13]</strong> Piers' second example of Ethereum cross-chain communication and how the SupraOracles node network is aware of Ethereum events. How is data transferred from the SupraOracles network to Ethereum?</p><p><strong>[28:58]</strong> Who is responsible for paying the transaction fee?&nbsp;</p><p><strong>[31:47]</strong> Oracles frequently appear to suffer from the tragedy of the commons, as once data is on-ledger, anyone can access and use it. But who pays for that data to be on Ledger in the first place? How does Josh see this changing over time, as it shifts from one interested party to many interested parties paying for data?</p><p><strong>[35:25]</strong> How can nodes collectively report incorrect information without malicious intent? In what way does SupraOracles prevent that?</p><p><strong>[38:18]</strong> In the event of a flash loan attack/on-ledger oracle manipulation, how can SupraOracles help?</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://supraoracles.com/\">supraoracles.com</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/SupraOracles\">@SupraOracles</a>&nbsp;</li><li>Discord: <a href=\"https://discord.io/supraoracles\">discord.io/supraoracles</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10612585-supraoracles-the-hard-problem-of-getting-fast-trustworthy-data-on-ledger",
+  "name": "SupraOracles: the hard problem of getting fast, trustworthy data on ledger",
+  "slug": "supraoracles-the-hard-problem-of-getting-fast-trustworthy-data-on-ledger"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69eb24ef1b0eed71608c578d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:15:55.395Z",
+ "createdOn": "2026-04-24T08:07:30.014Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">There is no need for a “buffer” of<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator nodes</strong></a> waiting to jump in as<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Radix consensus</strong></a> does not actually require 100 validator nodes – that’s just the upper limit.</p><p id=\"\">If a node (or several nodes) stops responding for whatever reason, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> will see that they have timed out and move on.&nbsp;</p><p id=\"\">Suppose nodes are missing consensus rounds like this. In that case, their <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emission rewards</strong></a> will rapidly go to zero, and we expect that stakers will quickly remove their stake and allow other validators to move into the top-100.&nbsp;</p><p id=\"\">As the<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> does not require 100 validator nodes, and there are strong incentives for stakers to delegate to nodes with high participation in consensus rounds, there is no need to have a set of validators-in-waiting from the perspective of network <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">liveness</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">How should I choose validators to stake to?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-can-validator-nodes-minimise-disruption-if-they-need-to-leave-the-network\"><strong id=\"\">How can validator nodes minimize disruption if they need to leave the network?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-validator-nodes-unstake-or-unregister-2\"><strong id=\"\">How do validator nodes unstake or unregister?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/why-not-incentivize-validators-below-the-top-100-as-a-buffer\"><strong id=\"\">Why not incentivize validators below the top-100 as a “buffer”?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-nodes-outside-of-the-top-100-incentivised-to-step-in-if-any-of-the-top-100-validators-drop-out-2\"><strong id=\"\">How are nodes outside of the top 100 incentivized to “step in” if any of the top 100 validators drop out?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What happens if a validator node “drops out” or unregisters during an epoch?",
+  "slug": "what-happens-if-a-validator-node-drops-out-or-unregisters-during-an-epoch-2"
+ }
+}

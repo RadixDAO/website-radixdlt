@@ -1,0 +1,29 @@
+{
+ "id": "66e36fea7f50246b7c75f7a1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T14:35:41.992Z",
+ "lastUpdated": "2025-02-03T14:35:41.992Z",
+ "createdOn": "2024-09-12T22:49:14.563Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A platform providing aggregated and enriched data and statistics for Radix DLT and its ecosystem, helping visualize current status and growth.",
+  "project-logo": {
+   "fileId": "66e36fd40f833ed451fd4c57",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e36fd40f833ed451fd4c57_2.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66e36fd73f8c51168df1c505",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e36fd73f8c51168df1c505_RadixCharts%20banner.png",
+   "alt": null
+  },
+  "link-to-project": "https://radixcharts.com/",
+  "categories": [
+   "66dafd4047c321c70ec59b34"
+  ],
+  "rank": 4,
+  "name": "RadixCharts",
+  "slug": "radixcharts"
+ }
+}

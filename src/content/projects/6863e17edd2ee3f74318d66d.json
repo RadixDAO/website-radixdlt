@@ -1,0 +1,30 @@
+{
+ "id": "6863e17edd2ee3f74318d66d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-07-04T17:18:38.178Z",
+ "lastUpdated": "2025-07-01T13:25:38.296Z",
+ "createdOn": "2025-07-01T13:24:14.186Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "RadFolio is a modern portfolio manager for the Radix network. Track your Radix assets across multiple accounts with ease.",
+  "project-logo": {
+   "fileId": "6863e19b67e06b32acf47347",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e19b67e06b32acf47347_radfolio-logo.svg",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "6863e19fbdff987aac78667f",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e19fbdff987aac78667f_radfolio-bg.svg",
+   "alt": null
+  },
+  "link-to-project": "https://radfolio.xyz",
+  "categories": [
+   "66dafd9a71b1547992aadb0e"
+  ],
+  "rank": 30,
+  "featured": false,
+  "name": "RadFolio",
+  "slug": "radfolio"
+ }
+}

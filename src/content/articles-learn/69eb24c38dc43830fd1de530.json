@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de530",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:13:44.894Z",
+ "createdOn": "2026-04-24T08:07:17.662Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">If you are having issues logging into the wallet or getting it to load your balances and history, the first thing to check is that you are using the most recent version of the wallet. You can download the latest version of the wallet <a id=\"\" href=\"https://wallet.radixdlt.com/\">here</a>.&nbsp;</p><p id=\"\">If you are using the latest version of the wallet and there is still a problem, please check the network status <a id=\"\" href=\"https://status.radixdlt.com/\">here</a>. Any known issues will be reported on the status page, if the issue you are experiencing is reported here, please be assured that we are working on it and please try again later.</p><p id=\"\">If you have tried the above and are still having a problem please contact <a id=\"\" href=\"mailto:hello@radixdlt.com\">hello@radixdlt.com</a> for support. When you do, please provide your wallet version, details of the issue you are facing and what operating system you are using.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Wallet Not Loading",
+  "slug": "wallet-not-loading"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c9a822fbad4f5e66fe0",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.678Z",
+ "createdOn": "2026-04-26T18:42:34.744Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 5,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5c9a822fbad4f5e66fd0",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9a822fbad4f5e66fd0_6388dcf91e94a47cec507cc3_delphi-logo-darkblue.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb9752d31141e344e7c"
+  ],
+  "description": "Trustless, transparent & secure. Delphibets is the first prediction market protocol being built on Radix DLT. Users will have the opportunity to place bets and compete with opposing bettors by predicting future events. Alongside Peer-2-Peer (P2P) betting, the protocol utilizes complex AMM and totalisator mechanisms that ensure an engaging, responsive, and frictionless user experience.",
+  "github-url": null,
+  "website-url": "http://delphibets.com",
+  "name": "Delphibets",
+  "slug": "delphibets"
+ }
+}

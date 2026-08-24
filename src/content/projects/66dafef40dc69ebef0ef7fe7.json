@@ -1,0 +1,30 @@
+{
+ "id": "66dafef40dc69ebef0ef7fe7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:21:37.885Z",
+ "createdOn": "2024-09-06T13:09:08.734Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A Web3 betting interface on Radix that allows users to create bets, place wagers, and earn in decentralized, secure markets with a user-friendly DeFi experience.",
+  "project-logo": {
+   "fileId": "66df1932c74b27676fcaf5cc",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1932c74b27676fcaf5cc_db-logo.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1934ed9e3665e415cf77",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1934ed9e3665e415cf77_db-header.png",
+   "alt": null
+  },
+  "link-to-project": "https://delphibets.com/",
+  "categories": [
+   "66dafd66ee5760990041564f"
+  ],
+  "rank": 7,
+  "featured": false,
+  "name": "DELPHIBETS",
+  "slug": "delphibets"
+ }
+}

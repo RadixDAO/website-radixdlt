@@ -1,0 +1,31 @@
+{
+ "id": "66df1b99db775db9ba0e7eda",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:30:59.790Z",
+ "createdOn": "2024-09-09T16:00:25.891Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "The gateway to Radix cross-chain swaps, allowing users to swap XRD for native BTC, ETH, USDC, and more, with no KYC or centralized exchange required.",
+  "project-logo": {
+   "fileId": "66df1b248874669e07d3a23f",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1b248874669e07d3a23f_240%20x%20240%20(2).png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1b26234a7608919e54c0",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1b26234a7608919e54c0_Banner%20(4).png",
+   "alt": null
+  },
+  "link-to-project": "https://cacaoswap.app/",
+  "categories": [
+   "66dafd5e7c1a27edea88c639",
+   "66dafd66ee5760990041564f"
+  ],
+  "rank": 17,
+  "featured": false,
+  "name": "Cacao Swap",
+  "slug": "cacao-swap"
+ }
+}

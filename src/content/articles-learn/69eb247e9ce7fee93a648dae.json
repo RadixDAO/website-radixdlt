@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648dae",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:27:42.106Z",
+ "createdOn": "2026-04-24T08:05:19.068Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">This FAQ is intended to support the Radix community in participating in the Olympia Betanet.</p><p id=\"\">Please note, these FAQs and their answers are subject to change as we progress through development, validation and testing. We will endeavor to keep these FAQs as up to date as possible.</p><p id=\"\">We have tried to answer as many questions as we can in this FAQ about what the betanet network is, and how it works.</p><p id=\"\">But what can you do on the Olympia Betanet?</p><p id=\"\">First, you can run the betanet Radix Desktop Wallet where you can create accounts, get tokens, send and receive them, and experiment with staking and unstaking of betanet-only XRD tokens. <a id=\"\" href=\"/article/betanet-desktop-wallet-introduction\">Click here to get started with the Desktop Wallet.</a></p><p id=\"\">Second, we are offering a <a id=\"\" href=\"http://betanet-explorer.radixdlt.com\">Radix Explorer webpage</a> where you can view various bits of on-ledger data in real time. <a id=\"\" href=\"/article/how-to-use-the-betanet-radix-explorer\">Click here for an overview of the Radix Explorer</a>.</p><p id=\"\">Last, if you are technically inclined, we offer the betanet Radix Node which you can run as a “full node”, “validator node”, or “archive node” – as well as a JSON-RPC API you can use to perform basic queries and create transactions programmatically. <a id=\"\" href=\"http://docs.radixdlt.com\">Click here to visit docs.radixdlt.com</a> for more information about the Node and API.</p><p id=\"\">For a more general overview of Radix, please visit <a id=\"\" href=\"/categories/radix-overview\">here</a>.</p><p id=\"\">For an overview of staking on Radix, including how to engage with validators, how to stake and unstake tokens, please visit the Radix Staking Guide <a id=\"\" href=\"/categories/staking-on-radix\">here</a>.</p><p id=\"\">For information on Blockchain and DeFi basics, such as what an epoch is, please visit <a id=\"\" href=\"/categories/blockchain-defi-basics\">here</a>.</p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": true,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Betanet User Guide Introduction",
+  "slug": "betanet-user-guide-introduction"
+ }
+}

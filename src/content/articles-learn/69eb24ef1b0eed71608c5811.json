@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5811",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:06.246Z",
+ "createdOn": "2026-04-24T08:08:06.246Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Staking in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a>, and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> systems is where a token holder somehow “locks” tokens up in a way that they cannot be used temporarily, often putting those tokens at risk in exchange for some expected reward.</p><p id=\"\">Staking is used extensively throughout crypto-economic systems as a means of incentivizing game-theoretic behavior that allows a disparate group of self-interested agents to collectively achieve a certain objective, even in the face of malicious actors.&nbsp;</p><p id=\"\">The design of staking systems typically includes some combination of:&nbsp;</p><p id=\"\">- economic incentives for good collective behavior;</p><p id=\"\">- bets on future expectations;</p><p id=\"\">- incentivized collateralization of tokens; or&nbsp;</p><p id=\"\">- a loan.</p><p id=\"\">So how does staking generally work? There are four steps:</p><ol id=\"\"><li id=\"\"><strong id=\"\">Stake assets: </strong>When someone “stakes”, they place <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> in a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart</strong> <strong id=\"\">contract</strong></a> or equivalent feature of the underlying DLT protocol. Those tokens are then locked, meaning they can’t be sent anywhere. They become governed by the rules of the contract or protocol.</li><li id=\"\"><strong id=\"\">Incentivize “good” behavior</strong>: Those rules incentivize the staker to act (or have already acted) in a way that supports the achievement of particular objectives. For example, in a <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-proof-of-stake-pos-and-delegated-proof-of-stake-dpos\"><strong id=\"\">Delegated Proof of Stake (DPoS) system</strong></a>, the staker is encouraged to select <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator nodes</strong></a> that they deem to be performant and trustworthy. If the validator node that is staked to achieves this, the staker is provided a periodic reward.</li><li id=\"\"><strong id=\"\">Disincentivize “bad” behavior</strong>: Those rules also attempt to disincentivize behavior that goes counter to the achievement of the desired objectives. Using the same DPoS system example, if the validator node that was staked to is not performant or acts maliciously, the stake can be reduced, “slashed”.&nbsp;</li><li id=\"\"><strong id=\"\">Unstake assets</strong>: Depending on the rules, the staker may unstake their assets, sometimes after a delay to ascertain that there was no bad behavior. Those tokens are then unlocked and are free to be <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transacted</strong></a> with once more. Sometimes economic incentives or “yield” are realized at this point in time if they are not continuous.</li></ol><p id=\"\">How a smart contract or protocol determines whether good or bad behavior occurred comes down to the intricacies of its rules, with the network as a whole agreeing on the execution of those rules through<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a>.</p><p id=\"\">Some other examples of staking include encouraging good behavior in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-an-oracle\"><strong id=\"\">Oracle</strong></a> networks, fraud proofs for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-layer-1-l1-and-layer-2-l2-networks\"><strong id=\"\">layer 2</strong></a> scaling solutions, prediction markets, auctions, and decentralized yield optimization protocols.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-kind-of-staking-system-does-radix-use\"><strong id=\"\">What kind of staking system does Radix use?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-proof-of-stake-pos-and-delegated-proof-of-stake-dpos\"><strong id=\"\">What's the difference between Proof of Stake (PoS) and Delegated Proof of Stake (DPoS)?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">How to Stake and Unstake in the Desktop Wallet</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "What is staking?",
+  "slug": "what-is-staking"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69eb24c38dc43830fd1de512",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:06.735Z",
+ "createdOn": "2026-04-24T08:07:06.735Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22ce9c63b54df937828f",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><a id=\"\" href=\"http://www.instabridge.io\">Instabridge</a> is our 2-way “bridge” between the two forms of token, eXRD and XRD. Instabridge allows holders of eXRD to swap those tokens for XRD at a 1:1 ratio, if they choose to do so. Following initial release, we will begin building Instabridge out into a service that makes it as easy as possible for as many forms of value as possible to flow in and out of the Radix network, starting with a variety of cryptocurrencies. You can read more about Instabridge<a id=\"\" href=\"https://www.radixdlt.com/post/making-xrd-a-cross-chain-token-with-exrd-and-instabridge\"> here</a>.</p><p id=\"\">Before you can use Instabridge you will first need to create an Instapass account. Read our full guide on how to create your Intapass ID <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-create-your-instapass-identity\">here</a>. Once your Instapass account has been fully verified you will then be able to use Instabridge.</p><p id=\"\"><strong id=\"\">Step 1:</strong> Go to <a id=\"\" href=\"http://instabridge.io\">Instabridge</a> and click “Login with Metamask”.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1199px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1199px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247c9ce7fee93a648cd1_6405e611aae9649a02a2e449_bwQSxHvBXRT9jmB-0x03QbXy3eDTlhjePC4Wc29pEu9kmwCqHdn9pMUa7uyHLh-LQPixf2ED7i2FJNXM-Du0zkK3PnTS54ravNrJyDMmsXVqcn2aRPZXLncisq8pr-5waMPOC-0I9ft6WEoIG3JICvQ.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><strong id=\"\">Step 2: </strong>Connect your wallet. You will need to connect with the Metamask wallet address that you have added to your Instapass account as default. Clicking “Login with Metamask” should automatically bring up your Metamask browser extension with a transaction to sign.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:276px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"276px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247b9ce7fee93a648cb1_6405e611b3959dd17e086553_DiBQV9cCpwAeR5zwvAqDCVHesJXkD0cUrHO85JCE5zU5rqqGTZtdSL7hy0FEZABObpte2zSUty8Mk_dveMAtCpQUj87d9wGXxEaeWasIQO9p_0pHYOg4QLkOLbMFvA9-N_fjVZ6Z5aA4uXPWAWZTc50.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><strong id=\"\">Step 3: </strong>Sign the transaction. No funds are transferred during this transaction, it is simply to confirm your ownership of the account to allow you to login.&nbsp; If you haven’t yet connected your Ethereum address to your Instapass account or haven’t completed your KYC, you will be prompted to return to Instapass to enter the required information.</p><p id=\"\">If it is your first time connecting to Instabridge, you will be prompted to read and agree to the terms and conditions as well as consent for Instapass to share your personal data. This is necessary for us to comply with international rules and regulations to make sure your KYC and AML data is up to date.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:841px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"841px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247b9ce7fee93a648cbc_6405e6114ac4e7ca7710398c_sdwHdhSLVGwslUj-sCa5tuMmTjSS2tjxLy7SgV1hyYSnsKv-ziG0Qz3iDc9AYa1ISJdfmcdfi4IsUhNTJEdOUfvWzOvRcD5TRVTXnB6iywRk2B8S6AaGQ5UWT96YcOZHP49v4iks7e1tJUWzGLgvk5I.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><strong id=\"\">Step 4: </strong>Use Instabridge!&nbsp;</p><p id=\"\"><a id=\"\" href=\"http://www.instabridge.io\">If you have any problems connecting to Instabridge, please contact support@instabridge.io for assistance.<br></a></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "Signing into Instabridge",
+  "slug": "signing-into-instabridge"
+ }
+}

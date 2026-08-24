@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648e60",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:04:57.522Z",
+ "createdOn": "2026-04-24T08:06:21.060Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/yYoHJF4M0gU\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/yYoHJF4M0gU\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\">A new ledger app is needed for the Babylon network. Go to <a id=\"\" href=\"https://www.ledger.com/ledger-live\"><strong id=\"\">Ledger Live</strong></a> and download the <strong id=\"\">Radix Babylon App</strong>.</p><p id=\"\"><strong id=\"\">Steps:</strong></p><p id=\"\">Click <strong id=\"\">Create a New Account</strong> at the bottom of the home screen.</p><p id=\"\">Enter your chosen account name, slide the toggle <strong id=\"\">Create with Ledger hardware</strong> <strong id=\"\">wallet, </strong>and press <strong id=\"\">Continue</strong>.&nbsp;</p><p id=\"\">You now have the option to Choose Ledger<strong id=\"\">,</strong> click <strong id=\"\">Add Ledger Device, </strong>and <strong id=\"\">Continue</strong>.&nbsp;</p><p id=\"\"><em id=\"\">Before proceeding, you need to connect your ledger device to a linked Radix Connector browser extension and ensure the Radix Babylon App runs on the ledger device.&nbsp;</em></p><p id=\"\">You will now see a pop-up on the desktop browser extension with a <strong id=\"\">Ledger connection request; click Continue</strong>.</p><p id=\"\">You are now connected to your Ledger device. Your<strong id=\"\"> </strong>Ledger Hardware account has been created.</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Create a Ledger Hardware Account",
+  "slug": "how-to-create-a-ledger-hardware-account"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de52e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:37:25.088Z",
+ "createdOn": "2026-04-24T08:07:17.129Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf820a",
+  "full-article-text": "<p id=\"\">Validators are nodes that vote in “consensus” to approve new transactions and maintain a record of them. On Radix, there will be 100 validators in the Olympia and Alexandria releases of the Radix Public Network. Together, these 100 validators form the “validator set”.</p><p id=\"\">To become a validator, a node must first register with the network. This allows token-holders to stake (“delegate”) tokens to it. Registered nodes will be visible on both the Radix Explorer website and Desktop Wallet.</p><p id=\"\">Anyone can make their own choice about which validator they wish to delegate staked tokens to, allowing the community to effectively vote on the best validators (and receive incentive rewards when those validators do the right thing). Delegating stake is an important aspect of network security, and you can find more information about delegating stake in the <a id=\"\" href=\"/article/how-do-i-stake-tokens\">Radix Staking Guide here</a>.</p><p id=\"\">At the beginning of each epoch, the protocol will automatically select the 100 validator nodes that have the most delegated stake to become the validator set. This stake is the sum of both self-stake and delegated stake. The validator set then participates in consensus until the end of that epoch and the cycle repeats.</p><p id=\"\">Radix will therefore be fully decentralised and permissionless from genesis.</p><p id=\"\">For information on what a validator node and epoch is, please visit <a id=\"\" href=\"https://learn.radixdlt.com/categories/blockchain-defi-basics&sa=D&source=editors&ust=1619623751366000&usg=AOvVaw0q-WhaYI3TOfeUy0udNjdH\">Blockchain and DeFi basics</a>.</p><p id=\"\">For more information on running a validator node, please visit <a id=\"\" href=\"http://docs.radixdlt.com\">docs.radixdlt.com</a>.</p><p id=\"\">For more information on staking on Radix, please visit the <a id=\"\" href=\"/article/what-is-radix-staking\">Radix Staking Guide</a>.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Validators selection on the Olympia Mainnet",
+  "slug": "validators-selection-on-the-olympia-mainnet"
+ }
+}

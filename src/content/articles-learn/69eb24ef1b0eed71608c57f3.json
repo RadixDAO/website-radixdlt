@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57f3",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:56.997Z",
+ "createdOn": "2026-04-24T08:07:56.997Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Linear scalability is a subset of the broader concept of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">scalability</strong></a>.</p><p id=\"\">Specifically, linear scalability refers to the fact that a system can increase its <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">throughput</strong></a> as you provide it with more resources, and the relationship between throughput and resources is linear. In other words, if you were to add 30% more computing power/network/bandwidth to a system, the throughput of the system also increases by 30%. In this way, the internet itself is linearly scalable, as the total amount of network bandwidth available scales directly with the amount of network capacity that is built (to fulfill user demand for more usage).</p><p id=\"\">In <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> systems, those processing resources are <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a>. So if a system is linearly scalable, the system’s throughput increases as you add more nodes to the network.</p><p id=\"\">Radix’s<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"> <strong id=\"\">Cerberus consensus protocol</strong></a> is the only <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralized</strong></a> Distributed Ledger Technology that achieves practically infinite linear scalability while preserving <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic composability</strong></a>. Radix believes that providing this kind of scalability is the only meaningful goal when considering a public DLT network designed for global finance – any fixed limit on scalability will eventually be reached.</p><p id=\"\"><strong id=\"\">Further reading:&nbsp;</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">What do scalability, throughput, and TPS mean?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">What is a validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">What is Atomic Composability?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series - Episode 3 - Why Blockchains Can’t Scale</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 8,
+  "name": "What is linear scalability?",
+  "slug": "what-is-linear-scalability"
+ }
+}

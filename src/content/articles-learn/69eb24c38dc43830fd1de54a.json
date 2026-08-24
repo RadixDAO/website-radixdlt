@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de54a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:26:38.139Z",
+ "createdOn": "2026-04-24T08:07:24.434Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf820c",
+  "full-article-text": "<p id=\"\"><strong id=\"\">Radix Labs</strong>, led by Dan Hughes, is the research and development arm of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a>. The purpose of Radix Labs is to research and test potential new directions for Radix’s groundbreaking technology well ahead of production-level implementation for a secure, reliable public network. It is where we take the big risks and explore what is possible. Radix Labs utilizes cutting-edge technology that has been <a id=\"\" href=\"https://www.radixdlt.com/post/dan-and-radixs-tech-journey\"><strong id=\"\">developed from 2013</strong></a> through to the present day.</p><p id=\"\"><strong id=\"\">Cassandra</strong> is a project and test network being run within Radix Labs to research, test, and demonstrate various implementations of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Cerberus</strong></a>, Radix’s <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">cross-shard</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus protocol</strong></a>. Fully sharded Cerberus is scheduled to go live in the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">Radix Xi’an release</strong></a><strong id=\"\">,</strong> and Cassandra is exploring some of the outer reaches of the form the implementation at Xi’an might take</p><p id=\"\">Cassandra is being undertaken in collaboration with the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-community\"><strong id=\"\">Radix Community</strong></a>, who run Cassandra <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a> with Dan <a id=\"\" href=\"https://www.twitch.tv/fuserleer\"><strong id=\"\">live on his Twitch channel</strong></a>, as well as the University of California Davis’ ExpoLab consensus experts. You can read more about the output of this academic research in:</p><p id=\"\"><a id=\"\" href=\"https://arxiv.org/abs/2008.04450\"><strong id=\"\">Cerberus: Minimalistic Multi-shard Byzantine-resilient Transaction Processing</strong></a>, August 2020. This paper independently assessed the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">safety and liveness</strong></a> of Cerberus’ cross-shard consensus.</p><p id=\"\"><a id=\"\" href=\"https://www.morganclaypool.com/doi/abs/10.2200/S01068ED1V01Y202012DTM065\"><strong id=\"\">Fault-Tolerant Distributed Transactions on Blockchain</strong></a>, February 2021. This book features Cerberus as a novel consensus protocol.</p><p id=\"\">Some of Cassandra’s achievements to date include:</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://twitter.com/fuserleer/status/1386035631130824707\"><strong id=\"\">Demonstrating</strong></a> the world’s first public cross-shard <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic transactions</strong></a>.</li><li id=\"\"><a id=\"\" href=\"https://youtu.be/y-NqI0RAO-0\"><strong id=\"\">Demonstrating</strong></a> that different parts (images, videos) of static websites and even games can be hosted and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">distributed</strong></a> on different shards of Cassandra.&nbsp;</li><li id=\"\"><a id=\"\" href=\"https://twitter.com/fuserleer/status/1337829053462704132\"><strong id=\"\">Demonstrating</strong></a> that large quantities of data can be imported on-<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledger</strong></a><strong id=\"\"> </strong>and replayed as atomic transactions on a sharded network.</li><li id=\"\"><a id=\"\" href=\"https://twitter.com/fuserleer/status/1375812077571469313\"><strong id=\"\">Demonstrating</strong></a> hybrid probabilistic and deterministic consensus models.</li></ul><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.twitch.tv/fuserleer\"><strong id=\"\">Dan Hughes’ Twitch</strong></a></li><li id=\"\"><a id=\"\" href=\"https://twitter.com/fuserleer\"><strong id=\"\">Dan Hughes’ Twitter</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/whitepapers/consensus\"><strong id=\"\">Cerberus Whitepaper</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">What is the Radix roadmap?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 16,
+  "name": "What are Radix Labs and Cassandra?",
+  "slug": "what-are-radix-labs-and-cassandra"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57a1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:35.090Z",
+ "createdOn": "2026-04-24T08:07:35.090Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Full nodes typically are computers that synchronize with a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> network in order to store a record of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a> or perform other functions.</p><p id=\"\">On <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a>, full nodes are primarily useful for those who want to prepare to become a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator node</strong></a>, or wish to operate a fully <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-trustless-and-permissionless-mean\"><strong id=\"\">trustless</strong></a> connection point to the network for account control or network monitoring, via the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-apis-are-relevant-to-the-radix-public-network\"><strong id=\"\">Core API</strong></a>.&nbsp;</p><p id=\"\">A full node may easily <a id=\"\" href=\"https://learn.radixdlt.com/article/can-i-move-stake-freely-between-validators-or-do-i-have-to-unstake-and-restake\"><strong id=\"\">register as a validator node</strong></a>, meaning they can begin accepting <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">stake</strong></a> and will be considered for being included in the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a><strong id=\"\"> </strong>by the network protocol.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node\"><strong id=\"\">What is a validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-and-validator-node\"><strong id=\"\">What's the difference between a full node and validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-register-a-validator-node\"><strong id=\"\">How do I register a validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">What is Radix Node software?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://docs.radixdlt.com/main/index.html\"><strong id=\"\">Radix Tech Docs</strong></a><br></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What is a full node?",
+  "slug": "what-is-a-full-node"
+ }
+}

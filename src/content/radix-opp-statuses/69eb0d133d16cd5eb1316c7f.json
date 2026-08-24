@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c7f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:25.769Z",
+ "createdOn": "2026-04-24T06:26:25.769Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bf",
+   "69eb0c39904d0db4dee8f8c1"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2023-01-10T12:02:00.000Z",
+  "last-update": "2023-01-11T12:02:00.000Z",
+  "content": "<p id=\"\">Jan 11th at 10 - 11 AM UK time mainnet nodes will be undergoing maintenance. </p><p id=\"\">Mainnet nodes address book is old and creating unnecessary port scanning on some of the old IP addresses. To cleanup the address book, mainnet nodes will be shut down for brief period one by one to minimise the impact on the network. Actual down-time on the individual node will be less than a minute.</p>",
+  "name": "Mainnet nodes including validators will be undergoing maintenance",
+  "slug": "mainnet-nodes-including-validators-will-be-undergoing-maintenance"
+ }
+}

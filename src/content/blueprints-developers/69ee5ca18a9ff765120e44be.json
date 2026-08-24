@@ -1,0 +1,26 @@
+{
+ "id": "69ee5ca18a9ff765120e44be",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-26T18:42:41.027Z",
+ "createdOn": "2026-04-26T18:42:41.027Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 5,
+  "username": "Peter Kim",
+  "icon": {
+   "fileId": "69ee5ca08a9ff765120e44b9",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca08a9ff765120e44b9_62e924c9c8c390afa86350e2_neuracle.svg",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbdd535bb6852e4987f"
+  ],
+  "description": "NeuRacle is a Decentralized, Trustless Oracle built on Radix Ledger that provide decentralized, trustless data validation service to bring-in off-chain data.",
+  "github-url": "https://github.com/radixdlt/scrypto-challenges/tree/main/2-oracles/NeuRacle",
+  "website-url": null,
+  "name": "NeuRacle",
+  "slug": "neuracle"
+ }
+}

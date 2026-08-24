@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd67",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-08-13T14:55:58.677Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-08-13T00:00:00.000Z",
+  "guest-name": "Amber Ghaddar",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e01b",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61168795b50cb42347f45abf_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e01a",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/611687f3e1c4ef78ac991c4a_AllianceBlock-500.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Amber Ghaddar, one of the founders of Alliance Block. Alliance Block is working to create the world's first globally compliant decentralized capital market.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Amber Ghaddar, one of the founders of Alliance Block. &nbsp;Alliance Block is working to create the world's first globally compliant decentralized capital market.<br><br>Piers and Amber discuss what it means to be a globally compliant decentralized capital market, how Alliance Block is creating a decentralized exchange with minimal impermanent loss, the concept of Trustless KYC/AML, Alliance Block’s Oracle of Oracles, and finally, why institutions find DeFi exciting!<br><br><strong>00:37</strong> What does it mean to be a \"globally compliant decentralized financial market,\" as the Alliance Block concept proposes?<br><strong>‍</strong></p><p><strong>01:33</strong> How Alliance Block defines \"globally regulatory compliant\" in the context of a set of DeFi tools or primitives<br><strong>‍</strong></p><p><strong>07:06</strong> What is it about DeFi that attracts the attention of institutions?<br><strong>‍</strong></p><p><strong>08:36</strong> How do you bridge a permissioned pool of yield-seeking institutions with the people who provide the yield, who primarily come from the permissionless DeFi space?<br><strong>‍</strong></p><p><strong>11:25</strong> The concept of Trustless KYC/AML and how you can be both anonymous and transparent.<br><strong>‍</strong></p><p><strong>13:28</strong> Permissioned DeFi applications on top of a permissionless infrastructure - How does KYC/AML responsibility and regulatory compliance work from the point of view of a trustless environment?<br><strong>‍</strong></p><p><strong>16:47</strong> Alliance Block’s first products: What is ‘Liquidity Mining as a Service’ (LMaaS)?<br><strong>‍</strong></p><p><strong>19:48</strong> Alliance Block's partnership with the DAFI protocol, which implements LMaaS<br><strong>‍</strong></p><p><strong>21:13</strong> The Alliance Block token (ALBT)<br><strong>‍</strong></p><p><strong>23:16</strong> Defining 'impermanent loss' and Alliance Block's goal of creating a decentralized exchange with minimal impermanent loss<br><strong>‍</strong></p><p><strong>28:30</strong> What steps does the Alliance Block system take to reduce impermanent loss?<br><strong>‍</strong></p><p><strong>34:01 </strong>Data Tunnel, the Oracle of Oracles<br><br><strong>Further resources</strong><br>Website: allianceblock.io<br>Twitter: @allianceblock <br>Telegram: t.me/allianceblock</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/9024283-alliance-block-making-defi-work-for-institutions",
+  "name": "Alliance Block: making DeFi work for institutions",
+  "slug": "alliance-block-making-defi-work-for-institutions"
+ }
+}

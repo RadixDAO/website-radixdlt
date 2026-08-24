@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dc07",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:11:53.965Z",
+ "createdOn": "2021-04-25T10:37:08.171Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/Crypto_Briefing/status/1139582772870287360?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57da60",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608546504a79796a9880ddbc_cryptobriefing.jpg",
+   "alt": null
+  },
+  "content": "Even as Dr Evil / Mark Zuckerberg courts Visa and PayPal for #ProjectLibra, #DLT is leaving centralized players behind. @RadixDLT just processed the entire #Bitcoin ledger in a little over 15 minutes at over 1.2M transactions per second. See ya, Zuckers! https://crypp.to/1MTPS",
+  "order": 11,
+  "name": "Crypto Briefing",
+  "slug": "crypto-briefing"
+ }
+}

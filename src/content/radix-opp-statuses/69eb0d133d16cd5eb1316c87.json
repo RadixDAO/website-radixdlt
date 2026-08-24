@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c87",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:26.248Z",
+ "createdOn": "2026-04-24T06:26:26.248Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bb",
+   "69eb0c39904d0db4dee8f8bf"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2022-09-29T08:00:00.000Z",
+  "last-update": "2022-09-29T20:00:00.000Z",
+  "content": "<p id=\"\"><em id=\"\">Planned update of mainnet network gateway instances is scheduled between 11:00 AM - 1:00 PM GMT 29th September. The disruption is estimated to last for 5 minutes or less. </em><a id=\"\" href=\"http://mainnet.radixdlt.com/\" target=\"_blank\"><em id=\"\">Mainnet.radixdlt.com</em></a><em id=\"\"> will be down and submission of transactions will be impacted for this brief period of disruption</em></p>",
+  "name": "Network Gateway Undergoing Planned Maintenance",
+  "slug": "network-gateway-undergoing-planned-maintenance-2"
+ }
+}
