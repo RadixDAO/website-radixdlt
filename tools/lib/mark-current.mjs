@@ -45,19 +45,25 @@ export function markCurrent(navHtml, currentPath) {
     const hrefMatch = /\bhref="([^"]*)"/.exec(tag);
     if (!hrefMatch || hrefMatch[1] !== currentPath) continue;
 
+    // Webflow marks a link two ways, both observed in reference/live:
+    //   with a class:    <a href="/x" class="f-link">  -> aria-current before class=, " w--current" appended
+    //   without a class: <a href="/x">                 -> aria-current + class="w--current" appended before >
     const classMatch = /\bclass="([^"]*)"/.exec(tag);
-    if (!classMatch) {
-      throw new Error(
-        `markCurrent: <a href="${currentPath}"> has no class attribute -- ` +
-        `Webflow's marking rule (insert before class=) doesn't apply: ${tag}`);
+    let newTag;
+    if (classMatch) {
+      if (classMatch[1].split(/\s+/).includes('w--current')) {
+        throw new Error(
+          `markCurrent: input already carries w--current for "${currentPath}". Canonical ` +
+          `chrome blocks must be stored UNMARKED; tolerating this silently would let a ` +
+          `page-specific block masquerade as a shared variant: ${tag}`);
+      }
+      const before = tag.slice(0, classMatch.index);
+      const after = tag.slice(classMatch.index + classMatch[0].length);
+      newTag = `${before}aria-current="page" class="${classMatch[1]} w--current"${after}`;
+    } else {
+      const close = tag.lastIndexOf('>');
+      newTag = `${tag.slice(0, close)} aria-current="page" class="w--current"${tag.slice(close)}`;
     }
-    const before = tag.slice(0, classMatch.index);
-    const after = tag.slice(classMatch.index + classMatch[0].length);
-    // Only append w--current if it's not already in the class (Webflow's marking is idempotent for already-marked links)
-    const classList = classMatch[1];
-    const hasCurrentMark = classList.includes('w--current');
-    const newClass = hasCurrentMark ? classList : `${classList} w--current`;
-    const newTag = `${before}aria-current="page" class="${newClass}"${after}`;
 
     out += navHtml.slice(cur, s) + newTag;
     cur = e;

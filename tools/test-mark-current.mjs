@@ -120,6 +120,17 @@ for (const f of files) {
   }
 }
 
+// Canonical chrome blocks must be stored UNMARKED. A block that keeps its source page's
+// current-marking still passes the byte gate whenever that variant has exactly one page
+// -- it is only wrong later, when the variant is shared or re-derived. Fail loudly.
+const chrome = readdirSync('src/chrome').filter(f => f.endsWith('.html'));
+const marked = chrome.filter(f => /w--current|aria-current/.test(readFileSync(`src/chrome/${f}`, 'utf8')));
+console.log(`  chrome: ${chrome.length} canonical blocks, ${marked.length} carrying stale marking`);
+if (marked.length) {
+  console.error(`FAIL: canonical chrome blocks must be unmarked: ${marked.join(', ')}`);
+  process.exit(1);
+}
+
 console.log(`${files.length} pages checked:`);
 console.log(`  nav: ${navPass} reproduced exactly, ${navFail} failed, ${noNav} had no nav`);
 console.log(`  footer: ${footerPass} reproduced exactly, ${footerFail} failed, ${noFooter} had no footer`);

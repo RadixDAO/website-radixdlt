@@ -47,5 +47,11 @@ export function stripCurrentMarking(navHtml) {
   //   - append " w--current" to the class value
   // We reverse both with simple string replacement -- never re-serialize, just remove the
   // exact bytes Webflow added. Only remove the specifically formatted tokens.
-  return navHtml.replace(/ aria-current="page"/g, '').replace(/ w--current/g, '');
+  // NB: / w--current/ alone misses class="w--current", where w--current is the only
+  // class and has no leading space -- that hole left a page-specific block stored as a
+  // shared variant (see the privacy-policy footer). Drop the whole attribute in that case.
+  return navHtml
+    .replace(/ aria-current="page"/g, '')
+    .replace(/ class="w--current"/g, '')
+    .replace(/ w--current/g, '');
 }
