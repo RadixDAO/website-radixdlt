@@ -30,9 +30,19 @@ function toRootPath(url, pageDir) {
   return '/' + segs.join('/');
 }
 
+// A CSS url() inside a style ATTRIBUTE carries its quotes as HTML entities, so the
+// captured value looks like `&quot;https://host/x.jpg&quot;`. Every absolute-URL test
+// below then fails on the leading entity and the URL is treated as relative -- which
+// prepended "/" and collapsed "https://" to "https:/", breaking the video-poster
+// background on 674 pages. Unwrap the entities, rewrite, re-wrap.
+const ENTITY_QUOTED = /^(&quot;|&#34;|&apos;|&#39;)([\s\S]*)\1$/;
+
 export function rewriteUrl(raw, pageDir) {
   let url = raw.trim();
   if (!url) return raw;
+
+  const eq = ENTITY_QUOTED.exec(url);
+  if (eq) return eq[1] + rewriteUrl(eq[2], pageDir) + eq[1];
 
   if (WEBFLOW_HOST.test(url)) {
     const hit = assetMap[url] ?? assetMap[decodeURI(url)] ?? cdnByOrigin.get(url.split('/').pop());
