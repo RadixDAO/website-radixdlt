@@ -9,6 +9,11 @@ webflow.json
 # ---------------------------------------------------------------------------
 # What is NOT ignored, and why
 # ---------------------------------------------------------------------------
+# public/assets/         the 913 MB Webflow CDN mirror: 2,226 files reachable only from
+#                         CMS rich text. Committed rather than parked in object storage --
+#                         it is a frozen migration snapshot that will never be rewritten,
+#                         so git never pays the binary-delta cost, and `git clone` stays
+#                         the single restore path. See REBUILD-PLAN.md 0.2.
 # source/webflow-export/  the Webflow static export, committed in full (241 MB).
 #                         It dies with the Webflow subscription and is the input to
 #                         every converter. Nothing here is regenerable.
@@ -26,10 +31,6 @@ public/fonts/
 public/images/
 public/videos/
 public/documents/
-
-# The 913 MB Webflow CDN mirror. Reproducible from reference/asset-map.json only while
-# the Webflow CDN is alive -- see REBUILD-PLAN.md 0.2 for the R2 + checksum plan.
-public/assets/
 
 reference/mirror-live.log
 reference/live-failures.txt
