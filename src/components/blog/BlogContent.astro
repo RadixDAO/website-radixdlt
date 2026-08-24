@@ -1,4 +1,12 @@
 ---
+// NOTE on the inline <style> below (.active .dot): it is Webflow-authored and must NOT
+// be Astro-scoped. `.active` is added at runtime by jQuery, and the `.dot` elements it
+// targets are rendered outside this component, so a scoped rule can never match them --
+// Astro stamps data-astro-cid only on markup it authors. Scoped, it emitted
+// `.active[data-astro-cid-x] .dot[data-astro-cid-x]` against 2 unstamped .dot elements:
+// a silently dead highlight that neither verify.mjs (tag/class + text) nor the byte gate
+// can see. is:inline rather than is:global because reference/live carries it inline at
+// exactly this position, inside div.toc.w-embed.
 // The blog detail template's body block -- div.c-section.is-blog-content.
 //
 // `contentHtml` is the post's rich-text field, injected raw with set:html: it is
@@ -41,7 +49,7 @@ const { contentHtml, authorName, authorSlug, related } = Astro.props;
         <div class="sticky-comp">
           <div class="toc w-embed">
             <dl id="toc"></dl>
-            <style>
+            <style is:inline>
 .active .dot {
   background: #052CC0;
 }
