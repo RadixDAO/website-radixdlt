@@ -7,5 +7,6 @@ import { getPaths } from '../../lib/content';
 import GenericDetailPage from '../../components/detail-shared/GenericDetailPage.astro';
 
 export const getStaticPaths = () => getPaths('partners');
+const { item } = Astro.props;
 ---
-<GenericDetailPage collection="partners" wfPageId="674713bef8d85630ffcf63dd" />
+<GenericDetailPage collection="partners" wfPageId="674713bef8d85630ffcf63dd" slug={item.fieldData.slug as string} />

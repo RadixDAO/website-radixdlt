@@ -43,8 +43,7 @@ const image = headImage(item);
 // the shared detail-head.html) because this collection's live pages carry one extra
 // tag the generic tail doesn't: <link rel="alternate" ... rss.xml> (see
 // src/lib/podcast-detail.ts's header comment).
-const headTail = readFileSync('src/components/podcast/podcast-head.html', 'utf8')
-  .replace('__CANON__', `https://www.radixdlt.com${currentPath}`);
+const headTail = readFileSync('src/components/podcast/podcast-head.html', 'utf8');
 const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html', 'utf8');
 ---
 <!doctype html>
@@ -61,6 +60,7 @@ const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html
       twitterImage={image}
       ogType
       twitterCard
+      canonical={`https://www.radixdlt.com${currentPath}`}
       tail={headTail}
     />
   </head>

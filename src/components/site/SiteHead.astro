@@ -18,6 +18,21 @@
 // interleave page-specific tags into that invariant block, breaking its
 // contiguity -- those pass skipInvariant and carry the whole block, verbatim and
 // already in place, as part of their own `tail` instead.
+//
+// `canonical` is the fix for the 1,109-page wrong-canonical defect (see
+// tools/test-head-parity.mjs / REBUILD-PLAN.md): rel=canonical is per-ITEM, so it
+// can never be a literal baked into a tail asset shared by a whole collection (that
+// was the bug -- every detail page in a collection inherited the same
+// `detail_<collection>` Webflow-template placeholder). Every nativised detail
+// template's own `tail` HTML still carries the canonical `<link>` at its original
+// position (right after apple-touch-icon, before the GTM script -- matching
+// reference/live byte-for-byte), but with its href left as the literal placeholder
+// `__CANON__` instead of a real URL. When `canonical` is supplied here, it is
+// substituted into that placeholder centrally, in this one component, rather than
+// by each of the ~20 call sites doing their own readFileSync().replace(). Pages
+// that don't pass `canonical` (static WebflowPage.astro shells, whose tail already
+// carries a correct, hardcoded canonical from the original export) are unaffected --
+// `tail` passes through untouched.
 interface Props {
   title: string;
   description?: string;
@@ -30,13 +45,14 @@ interface Props {
   ogType?: boolean;
   twitterCard?: boolean;
   skipInvariant?: boolean;
+  canonical?: string;
   tail: string;
 }
 
 const {
   title, description, ogTitle, ogDescription, ogImage,
   twitterTitle, twitterDescription, twitterImage,
-  ogType, twitterCard, skipInvariant, tail,
+  ogType, twitterCard, skipInvariant, canonical, tail,
 } = Astro.props;
 
 let html = `\n  <meta charset="utf-8">\n  <title>${title}</title>\n`;
@@ -58,6 +74,6 @@ if (!skipInvariant) {
     + `  <link href="https://fonts.googleapis.com" rel="preconnect">\n`
     + `  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">\n`;
 }
-html += tail;
+html += canonical !== undefined ? tail.replace('__CANON__', canonical) : tail;
 ---
 <Fragment set:html={html} />

@@ -11,11 +11,20 @@
 // orphaned Webflow CMS templates, live but content-less) under a literal
 // `<title>Radix</title>`, differing only in the URL slug. Diffed byte-for-byte
 // across all 8 collections' shells before writing this: body.html identical,
-// head.html identical except the `rel="canonical"` link's `detail_<collection>`
-// slug. So there is no per-item data resolution to do here -- the "per-collection
-// data resolution" this component takes is just the two literal constants that
-// vary *per collection* (not per item): the Webflow page id, and which head.html
-// tail to splice in for the canonical link.
+// head.html identical except the `rel="canonical"` link's slug. So there is no
+// per-item BODY resolution to do here -- the "per-collection data resolution" this
+// component takes as props is the two constants that vary *per collection* (not
+// per item): the Webflow page id, and which head.html tail to splice in.
+//
+// canonical DOES vary per item, though (it's the item's own URL,
+// `https://www.radixdlt.com/<collection>/<slug>` -- confirmed against
+// reference/live for all eight collections, e.g.
+// reference/live/events/atomic-series-london.html), so it can't be one of those
+// per-collection constants. It's taken here as `slug`, straight from the item
+// getStaticPaths already handed the calling page, and built into the URL passed to
+// SiteHead's `canonical` prop -- the fix for the 1,109-page wrong-canonical defect
+// (every page here used to carry the same `detail_<collection>` Webflow-template
+// placeholder regardless of which item it was).
 //
 // The body content (bodyTail below) is spliced with set:html, same principle as
 // blog/articles-learn's scriptsTail: it is a Webflow-authored script+style bundle,
@@ -31,20 +40,20 @@ import SiteHead from '../site/SiteHead.astro';
 interface Props {
   collection: string;
   wfPageId: string;
+  slug: string;
 }
-const { collection, wfPageId } = Astro.props;
+const { collection, wfPageId, slug } = Astro.props;
 
 // Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
 // deletion (REBUILD-PLAN.md 10.5); a component that reads it at build time would block
 // that deletion and quietly keep the shell pipeline alive. The eight collections' head
 // tails were verified byte-identical apart from the canonical URL, so one committed
 // asset plus a slug covers all of them.
-const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8')
-  .replace('__CANON__', `https://www.radixdlt.com/detail_${collection}`);
+const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8');
 const bodyTail = readFileSync('src/components/detail-shared/detail-scripts.html', 'utf8');
 ---
 <!doctype html>
 <html data-wf-page={wfPageId} data-wf-site="6053f7fca5bf627283b582c2" lang="en">
-  <head><SiteHead title="Radix" tail={headTail} /></head>
+  <head><SiteHead title="Radix" canonical={`https://www.radixdlt.com/${collection}/${slug}`} tail={headTail} /></head>
   <body><Fragment set:html={bodyTail} /></body>
 </html>

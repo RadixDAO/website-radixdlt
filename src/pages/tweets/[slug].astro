@@ -7,5 +7,6 @@ import { getPaths } from '../../lib/content';
 import GenericDetailPage from '../../components/detail-shared/GenericDetailPage.astro';
 
 export const getStaticPaths = () => getPaths('tweets');
+const { item } = Astro.props;
 ---
-<GenericDetailPage collection="tweets" wfPageId="649aa8a9681ec6168a57d968" />
+<GenericDetailPage collection="tweets" wfPageId="649aa8a9681ec6168a57d968" slug={item.fieldData.slug as string} />

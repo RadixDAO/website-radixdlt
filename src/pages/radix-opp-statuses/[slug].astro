@@ -34,13 +34,12 @@ const title = resolveHeadTitle('radix-opp-statuses', item) ?? '| Radix DLT | Ser
 // collections (byte-identical apart from the canonical URL -- see
 // src/components/detail-shared/GenericDetailPage.astro's own note on this), so it's
 // read from that shared asset rather than duplicated per collection.
-const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8')
-  .replace('__CANON__', 'https://www.radixdlt.com/detail_radix-opp-statuses');
+const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8');
 const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html', 'utf8');
 ---
 <!doctype html>
 <html data-wf-page="69eb0cc49d33f411d5e04328" data-wf-site="6053f7fca5bf627283b582c2" lang="en">
-  <head><SiteHead title={title} tail={headTail} /></head>
+  <head><SiteHead title={title} canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
   <body>
     <SiteNav variant="status" currentPath={currentPath} />
     <RadixOppStatusSection

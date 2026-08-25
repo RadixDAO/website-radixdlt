@@ -8,5 +8,6 @@ import { getPaths } from '../../lib/content';
 import GenericDetailPage from '../../components/detail-shared/GenericDetailPage.astro';
 
 export const getStaticPaths = () => getPaths('full-stack-social-comments');
+const { item } = Astro.props;
 ---
-<GenericDetailPage collection="full-stack-social-comments" wfPageId="649aa8a9681ec6168a57d965" />
+<GenericDetailPage collection="full-stack-social-comments" wfPageId="649aa8a9681ec6168a57d965" slug={item.fieldData.slug as string} />

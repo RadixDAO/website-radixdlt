@@ -35,13 +35,12 @@ const currentPath = `/navigation-featured-section/${slug}`;
 // Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
 // deletion (REBUILD-PLAN.md 10.5); reading it at build time would block that deletion
 // and quietly keep the shell pipeline alive.
-const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8')
-  .replace('__CANON__', `https://www.radixdlt.com${currentPath}`);
+const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8');
 const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html', 'utf8');
 ---
 <!doctype html>
 <html data-wf-page="650a16415183e6fd3dd25ed6" data-wf-site="6053f7fca5bf627283b582c2" lang="en">
-  <head><SiteHead title="Radix" tail={headTail} /></head>
+  <head><SiteHead title="Radix" canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
   <body>
     <SiteNav variant="main" currentPath={currentPath} />
     <Fragment set:html={scriptsTail} />

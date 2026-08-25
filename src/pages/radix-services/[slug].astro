@@ -8,5 +8,6 @@ import { getPaths } from '../../lib/content';
 import GenericDetailPage from '../../components/detail-shared/GenericDetailPage.astro';
 
 export const getStaticPaths = () => getPaths('radix-services');
+const { item } = Astro.props;
 ---
-<GenericDetailPage collection="radix-services" wfPageId="65006fb5f3dde67a65a4e071" />
+<GenericDetailPage collection="radix-services" wfPageId="65006fb5f3dde67a65a4e071" slug={item.fieldData.slug as string} />
