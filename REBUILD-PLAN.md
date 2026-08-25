@@ -506,3 +506,41 @@ the feed, the `<link>` pointing at it was simply never reproduced.
 `tools/test-head-parity.mjs` after the fix: 0 missing tag kinds (previously up to 648),
 canonical mismatches still 0. `verify.mjs` unaffected (still 1,194/1,202 exact — `<body>`
 untouched).
+
+---
+
+## 11. Static pages — the round-trip finding that makes them tractable
+
+Measured 2026-08-25. The 49 static routes are genuinely bespoke: **43 distinct top-level
+shapes across 49 routes**, only five small families (lp/brave x3, lp/ebooks x2, notices x2,
+two longform x2, wallet-landing-3/-4). There is no component library hiding in them, and
+inventing one would be fabricating structure that is not there.
+
+So each becomes what a normal Astro page is: a `.astro` file containing its own markup,
+composed with `SiteHead` / `SiteNav` / `SiteFooter`. That is only safe because of this:
+
+### Astro DOES round-trip Webflow markup — under two conditions
+
+Tested by putting `complaints-procedure`'s 23,491-byte body verbatim into a page and
+diffing the output:
+
+| Condition | Result |
+|---|---|
+| as-is | `data-astro-cid` stamped on **every element**, an `_astro/*.css` bundle emitted, and Webflow's jQuery/Flickity CDN `<script>` tags **rewritten into Astro module bundles** |
+| `<style is:inline>` only | scope attributes and CSS bundle gone; scripts still bundled |
+| `<style is:inline>` **and** `<script is:inline>` | **identical markup**, 0 scope attributes, 0 `_astro` assets |
+
+**Both are mandatory for every static page.** Astro processes `<style>` and `<script>`
+by default; on this project that silently rewrites the design's selectors and replaces
+Webflow's runtime with a bundle. `tools/test-astro-artifacts.mjs` catches the first two
+symptoms; nothing catches script bundling except reading the output, so it goes in the
+brief every time.
+
+Whitespace between tags is collapsed regardless — harmless where it does not render,
+and `tools/test-inline-whitespace.mjs` gates the case where it does.
+
+### Note on `src/pages/_*.astro`
+
+Astro EXCLUDES `src/pages` files whose name starts with `_`. Two probe pages earlier in
+this project silently produced no output because of it, which reads exactly like a build
+failure. Do not name a route file with a leading underscore.
