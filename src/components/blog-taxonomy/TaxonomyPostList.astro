@@ -1,4 +1,5 @@
 ---
+import { tagStyle } from '../../lib/blog-detail';
 // Shared between blog-author and blog-category (REBUILD-PLAN.md Phase 4): the
 // "posts belonging to this taxonomy term" block -- div.c-section.is-blog-cat.
 //
@@ -47,7 +48,7 @@ const { posts } = Astro.props;
                               aria-current={c.isCurrent ? 'page' : undefined}
                               class={c.isCurrent ? 'cat-tag-link w-inline-block w--current' : 'cat-tag-link w-inline-block'}
                             >
-                              <div class="cbfs-tag">{c.name}</div>
+                              <div style={tagStyle(c)} class="cbfs-tag">{c.name}</div>
                             </a>
                           </div>
                         ))}
@@ -58,7 +59,7 @@ const { posts } = Astro.props;
                     <div class="bm-10">
                       <h4 class={dynClass('', !!p.title)}>{p.title}</h4>
                     </div>
-                    <p class="blog-desc w-dyn-bind-empty"></p>
+                    <p class={dynClass('blog-desc', !!p.desc)}>{p.desc}</p>
                   </div>
                   <div class="cbfs-date-holder">
                     <div class={dynClass('cbfs-date', !!p.dateText)}>{p.dateText}</div>

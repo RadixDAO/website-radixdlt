@@ -68,5 +68,16 @@ jobs:
       - name: Head parity
         run: node tools/test-head-parity.mjs
 
+      # verify.mjs default mode STRIPS w-dyn-list interiors, so it says nothing about CMS
+      # list content. Not gating on --lists let blog-category fall 11/11 -> 1/11 unnoticed.
+      - name: List-interior fidelity
+        run: node tools/verify-lists-gate.mjs
+
+      # Webflow puts real design in inline style attributes (pill colours, background
+      # images). Losing one is invisible to structure and text comparison -- 8,066 coloured
+      # category pills across 644 pages went missing and every gate passed.
+      - name: Inline style attributes preserved
+        run: node tools/test-style-attrs.mjs
+
       - name: Link check
         run: node tools/check-links.mjs

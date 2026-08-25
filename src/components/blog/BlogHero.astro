@@ -10,7 +10,7 @@
 // `w-dyn-empty` / `hide-empty w-dyn-empty` branches, the `w-dyn-bind-empty` class
 // toggle, and the `background-image:none` fallback all reproduce what
 // src/lib/render-detail.mjs and src/lib/render-list.mjs already proved matches live.
-import { dynClass, bgStyle, type CategoryRef } from '../../lib/blog-detail';
+import { dynClass, bgStyle, type CategoryRef, tagStyle} from '../../lib/blog-detail';
 
 interface Props {
   title: string;
@@ -36,7 +36,7 @@ const { title, dateText, imageUrl, categories } = Astro.props;
                   {categories.map((c) => (
                     <div role="listitem" class="collection-item-3 w-dyn-item">
                       <a href={`/blog-category/${c.slug}`} class="w-inline-block">
-                        <div class="cbfs-tag">{c.name}</div>
+                        <div style={tagStyle(c)} class="cbfs-tag">{c.name}</div>
                       </a>
                     </div>
                   ))}
@@ -53,7 +53,7 @@ const { title, dateText, imageUrl, categories } = Astro.props;
                   {categories.map((c) => (
                     <div role="listitem" class="collection-item-3 w-dyn-item">
                       <a href={`/blog-category/${c.slug}`} class="w-inline-block">
-                        <div class="cbfs-tag">{c.name}</div>
+                        <div style={tagStyle(c)} class="cbfs-tag">{c.name}</div>
                       </a>
                     </div>
                   ))}

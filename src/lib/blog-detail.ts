@@ -25,7 +25,19 @@ const SITE = 'https://www.radixdlt.com';
 const esc = (s: unknown): string => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-export interface CategoryRef { slug: string; name: string }
+export interface CategoryRef { slug: string; name: string; textColour: string; bgColour: string }
+
+/**
+ * The inline colour Webflow renders on a category pill, e.g.
+ *   <div style="color:white;background-color:#00ab84" class="cbfs-tag">AMA</div>
+ *
+ * These come from the blog-category item's `text-colour` / `background-colour` fields.
+ * Dropping them cost 8,066 coloured pills across 644 pages and NO gate could see it:
+ * verify.mjs default mode strips list interiors, and even --lists compares tags, classes
+ * and text -- a style attribute is none of the three.
+ */
+export const tagStyle = (c: { textColour?: string; bgColour?: string }): string | undefined =>
+  c.textColour && c.bgColour ? `color:${c.textColour};background-color:${c.bgColour}` : undefined;
 export interface AuthorRef { slug: string; name: string }
 export interface RelatedArticle { slug: string; name: string; isCurrent: boolean }
 export interface SliderPost {
@@ -99,7 +111,12 @@ export async function getCategories(item: CmsItem): Promise<CategoryRef[]> {
   const refs = await Promise.all(ids.map((id) => itemById(id)));
   return refs
     .filter((r): r is CmsItem => !!r)
-    .map((r) => ({ slug: r.fieldData.slug as string, name: (r.fieldData.name as string) ?? '' }));
+    .map((r) => ({
+      slug: r.fieldData.slug as string,
+      name: (r.fieldData.name as string) ?? '',
+      textColour: (r.fieldData['text-colour'] as string) ?? '',
+      bgColour: (r.fieldData['background-colour'] as string) ?? '',
+    }));
 }
 
 export async function getAuthor(item: CmsItem): Promise<AuthorRef | null> {
@@ -158,7 +175,12 @@ export async function getExploreTopics(slug: string): Promise<CategoryRef[]> {
   return entry.items
     .map((s) => bySlug.get(s))
     .filter((i): i is CmsItem => !!i)
-    .map((i) => ({ slug: i.fieldData.slug as string, name: (i.fieldData.name as string) ?? '' }));
+    .map((i) => ({
+      slug: i.fieldData.slug as string,
+      name: (i.fieldData.name as string) ?? '',
+      textColour: (i.fieldData['text-colour'] as string) ?? '',
+      bgColour: (i.fieldData['background-colour'] as string) ?? '',
+    }));
 }
 
 /** The bottom "latest posts" slider -- identical on all 618 blog posts (verified),

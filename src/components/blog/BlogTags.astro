@@ -12,7 +12,7 @@
 // `w-dyn-items` wrapper when a slide has zero categories. That branch is unreachable
 // with the current, verified-identical slider data (every slide has >=1 category),
 // so it's implemented the same way (empty wrapper) but has never been exercised.
-import { type CategoryRef, type SliderPost } from '../../lib/blog-detail';
+import { type CategoryRef, type SliderPost, tagStyle} from '../../lib/blog-detail';
 
 interface Props {
   topics: CategoryRef[];
@@ -61,7 +61,7 @@ const { topics, slider } = Astro.props;
                       {p.categories.map((c) => (
                         <div role="listitem" class="cat-c-item w-dyn-item">
                           <a href={`/blog-category/${c.slug}`} class="cat-tag-link w-inline-block">
-                            <div class="cbfs-tag">{c.name}</div>
+                            <div style={tagStyle(c)} class="cbfs-tag">{c.name}</div>
                           </a>
                         </div>
                       ))}

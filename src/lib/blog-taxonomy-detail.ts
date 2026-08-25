@@ -95,6 +95,14 @@ export interface TopicRef extends CategoryRef {
 export interface TaxonomyPost {
   slug: string;
   title: string;
+  /** The post's seo-meta-description, rendered into <p class="blog-desc">. NOT `excerpt`
+   *  -- live binds excerpt to the HEAD meta description and seo-meta-description to this
+   *  list text. Two different fields for two different purposes; assuming they were the
+   *  same made the score worse, not better. Webflow binds it and adds
+   *  w-dyn-bind-empty only when the field is empty; this component previously hardcoded
+   *  the empty state on every item, silently dropping the excerpt from every taxonomy
+   *  listing. Invisible to verify.mjs default mode, which strips list interiors. */
+  desc: string;
   imageUrl: string;
   dateText: string;
   categories: TopicRef[];
@@ -142,6 +150,7 @@ export async function getTaxonomyPosts(
       return {
         slug: p.fieldData.slug as string,
         title: (p.fieldData.name as string) ?? '',
+        desc: (p.fieldData['seo-meta-description'] as string) ?? '',
         imageUrl: heroImage(p),
         dateText: fmtDate(p.fieldData.date),
         categories: categories.map((c) => ({
