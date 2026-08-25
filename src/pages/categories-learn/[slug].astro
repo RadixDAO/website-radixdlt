@@ -19,7 +19,7 @@
 import { readFileSync } from 'node:fs';
 import { getPaths } from '../../lib/content';
 import { resolveHeadTitle } from '../../lib/render-detail.mjs';
-import { categoryIcon, getQuestions } from '../../lib/categories-learn-detail';
+import { categoryIcon, getQuestions, headDescription } from '../../lib/categories-learn-detail';
 import SiteHead from '../../components/site/SiteHead.astro';
 import SiteNav from '../../components/site/SiteNav.astro';
 import SiteFooter from '../../components/site/SiteFooter.astro';
@@ -38,6 +38,7 @@ const [featured, all] = await Promise.all([
 ]);
 
 const title = resolveHeadTitle('categories-learn', item) ?? '| The Radix Knowledge Base';
+const description = headDescription(item);
 // Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
 // deletion (REBUILD-PLAN.md 10.5); reading it at build time would block that deletion
 // and quietly keep the shell pipeline alive.
@@ -46,7 +47,7 @@ const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html
 ---
 <!doctype html>
 <html data-wf-page="69eb1e92745be047bb44b53b" data-wf-site="6053f7fca5bf627283b582c2" lang="en">
-  <head><SiteHead title={title} canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
+  <head><SiteHead title={title} description={description} canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
   <body>
     <SiteNav variant="learn" currentPath={currentPath} />
     <CategoryHero iconUrl={categoryIcon(item)} title={(item.fieldData.name as string) ?? ''} />

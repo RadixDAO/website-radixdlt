@@ -22,7 +22,7 @@
 import { readFileSync } from 'node:fs';
 import { getPaths } from '../../lib/content';
 import { resolveHeadTitle } from '../../lib/render-detail.mjs';
-import { getTaxonomyPosts, getTaxonomyTopics } from '../../lib/blog-taxonomy-detail';
+import { getTaxonomyPosts, getTaxonomyTopics, headDescription } from '../../lib/blog-taxonomy-detail';
 import SiteHead from '../../components/site/SiteHead.astro';
 import SiteNav from '../../components/site/SiteNav.astro';
 import SiteFooter from '../../components/site/SiteFooter.astro';
@@ -42,6 +42,7 @@ const [posts, topics] = await Promise.all([
 ]);
 
 const title = resolveHeadTitle('blog-category', item) ?? '| The Radix Blog | Radix DLT';
+const description = headDescription(item);
 // Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
 // deletion (REBUILD-PLAN.md 10.5); reading it at build time would block that deletion
 // and quietly keep the shell pipeline alive.
@@ -50,7 +51,20 @@ const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html
 ---
 <!doctype html>
 <html data-wf-page="649aa8a9681ec6168a57d94d" data-wf-site="6053f7fca5bf627283b582c2" lang="en">
-  <head><SiteHead title={title} canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
+  <head>
+    <SiteHead
+      title={title}
+      description={description}
+      ogTitle={title}
+      ogDescription={description}
+      twitterTitle={title}
+      twitterDescription={description}
+      ogType
+      twitterCard
+      canonical={`https://www.radixdlt.com${currentPath}`}
+      tail={headTail}
+    />
+  </head>
   <body>
     <div class="banner-wrap">
       <div data-w-id="421cf4db-2453-441c-6135-5b6acee23bfc" class="x-holder x2"><img src="/images/close-1.svg" loading="lazy" alt="" class="imgclose" /></div>

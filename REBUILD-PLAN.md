@@ -465,3 +465,44 @@ Webflow's IX2 runtime (`public/js/radix-web.js`, 672 KB) drives animations from 
 attributes. A hand-written component can keep every class, pass struct and text, and still
 have dead animations. Pages with interactions need either `data-w-id` preserved verbatim or
 a browser spot-check. Flag them per task; do not discover this at the end.
+
+### 2.1c — closing the `<head>` blind spot (added after 2.1b)
+
+`verify.mjs` compares the `<body>` only — its skeleton and text comparisons both start at
+`<body>`. Nothing in this project ever checked `<head>`, which let a Phase 4 regression
+survive a "1,194/1,202 exact" verification: the nativised per-collection pages (blog,
+blog-author, blog-category, categories-learn, articles-learn, careers, ...) pass only
+`title`/`description` to `SiteHead`, dropping `meta description`/`og:*`/`twitter:*`
+entirely on ~648 of 1,202 pages, plus the blog RSS `link rel="alternate"` on 618 of them.
+`tools/test-head-parity.mjs` (commit `e092a27`) closed the blind spot by diffing meta
+name/property keys and link rels against `reference/live`, gated with a known-bad baseline
+so it can only improve.
+
+Fixed per collection by deriving the field mapping straight from `reference/live` (never
+assumed to generalise from blog):
+
+| Collection | description/og:description/twitter:description | og:title/twitter:title | og:image/twitter:image | og:type/twitter:card |
+|---|---|---|---|---|
+| blog | `excerpt` field | `{name} \| The Radix Blog \| Radix DLT` (same pattern as `<title>`) | `image.url` | static |
+| blog-author | `description` field (empty on 13/14 items — matches live) | `{name} \| The Radix Blog \| Radix DLT` | `image.url` (tag always present, empty content when no photo) | static |
+| blog-category | `description` field (empty on all 11 items — matches live) | `{name} \| The Radix Blog \| Radix DLT` | *(no image field on live; tags omitted entirely, not emitted empty)* | static |
+| categories-learn | literal `Learn more about {name}` (not a CMS field) | — (no OG/Twitter on live) | — | — |
+| podcast | `excerpt` field (already fixed pre-existing) | `{name}  \|  Podcast \| Radix DLT - ...` (note double space) | `guest-image.url` | static |
+| articles-learn, careers, navigation-featured-section, radix-opp-statuses, sub-categories-learn, projects, projects-6-highlighted, and the 8 collections sharing `GenericDetailPage.astro` (events/team-member/tweets/radix-services/full-stack-social-comments/project-categories/partners/faqs) | confirmed against every live item in each collection: no description, no OG, no Twitter meta at all (some, like articles-learn, carry an empty `<meta name="description" content="">`) | — | — | — |
+
+**Deliberate deviation to record:** `og:image`/`twitter:image` point at our own asset
+mirror (`https://www.radixdlt.com` + `assetPath(...)`), not live's
+`https://cdn.prod.website-files.com/...` URL. Social-card scrapers need an absolute URL,
+and the Webflow CDN dies with the subscription (same reasoning as every other mirrored
+asset on this site) — so this is intentionally not byte-parity with `reference/live`.
+`src/lib/podcast-detail.ts` set this precedent first; blog, blog-author and blog-category
+now follow the same convention.
+
+The RSS `<link rel="alternate">` was restored on blog's 618 detail pages (spliced into
+`src/components/blog/blog-head.html` right after the canonical link, same position and
+markup podcast already carried) — `src/pages/blog/rss.xml.ts` already existed and served
+the feed, the `<link>` pointing at it was simply never reproduced.
+
+`tools/test-head-parity.mjs` after the fix: 0 missing tag kinds (previously up to 648),
+canonical mismatches still 0. `verify.mjs` unaffected (still 1,194/1,202 exact — `<body>`
+untouched).

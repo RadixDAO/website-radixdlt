@@ -20,6 +20,11 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { itemById, liveItems, assetPath, rewriteAssetUrls, type CmsItem } from './content';
 
+const SITE = 'https://www.radixdlt.com';
+
+const esc = (s: unknown): string => String(s ?? '')
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
 export interface CategoryRef { slug: string; name: string }
 export interface AuthorRef { slug: string; name: string }
 export interface RelatedArticle { slug: string; name: string; isCurrent: boolean }
@@ -56,6 +61,25 @@ export const fmtDate = (v: unknown): string => {
 export const heroImage = (item: CmsItem): string => {
   const img = item.fieldData.image as { url: string } | null;
   return img?.url ? assetPath(img.url) : '';
+};
+
+// description/og:description/twitter:description come from the `excerpt` field, NOT
+// `seo-meta-description` (which also exists on this collection and differs) --
+// verified against reference/live/blog/2018-year-in-review.html: its <meta
+// name="description"> content matches fieldData.excerpt exactly, while
+// seo-meta-description holds a longer, different string that appears nowhere in
+// live's <head>.
+export const headDescription = (item: CmsItem): string => esc(item.fieldData.excerpt);
+
+// og:image/twitter:image: live points at the Webflow CDN
+// (https://cdn.prod.website-files.com/...), which dies with the Webflow
+// subscription. Social scrapers need an absolute URL, so this emits one against our
+// own mirror instead -- SITE + assetPath(...), same convention
+// src/pages/blog/rss.xml.ts and src/lib/podcast-detail.ts already use. Deliberate
+// deviation from live, recorded in REBUILD-PLAN.md.
+export const headImage = (item: CmsItem): string => {
+  const p = heroImage(item);
+  return p ? SITE + p : '';
 };
 
 export const richText = (item: CmsItem): string =>

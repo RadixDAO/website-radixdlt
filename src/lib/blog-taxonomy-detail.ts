@@ -46,12 +46,38 @@
 // reference/live; the gap in blog's own components is flagged separately, out of
 // scope for this task.
 import { readFileSync, existsSync } from 'node:fs';
-import { liveItems, type CmsItem } from './content';
+import { liveItems, assetPath, type CmsItem } from './content';
 import { dynClass, bgStyle, fmtDate, heroImage, getCategories, type CategoryRef } from './blog-detail';
 
 export { dynClass, bgStyle, fmtDate, heroImage };
 
 export type TaxonomyCollection = 'blog-author' | 'blog-category';
+
+const SITE = 'https://www.radixdlt.com';
+
+const esc = (s: unknown): string => String(s ?? '')
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// description/og:description/twitter:description on both collections' live pages
+// come straight from the CMS `description` field (empty on all but one item --
+// verified against reference/live/blog-author/jacob-mcatamney.html, the one author
+// with a real bio, and empty everywhere else including all of blog-category).
+export const headDescription = (item: CmsItem): string => esc(item.fieldData.description);
+
+// blog-author's live pages always carry og:image/twitter:image (empty content="" when
+// the author has no photo, the CDN URL when they do) -- the `image` field. blog-category
+// has no image field and never emits these tags at all on live, so this is exported
+// for blog-author's page only; blog-category's page leaves ogImage/twitterImage
+// undefined so SiteHead omits the tags entirely, matching live.
+//
+// Absolute URL against our own asset mirror, not live's Webflow CDN URL -- same
+// deliberate deviation as blog/podcast (see REBUILD-PLAN.md): social scrapers need an
+// absolute URL, and the Webflow CDN dies with the subscription.
+export const headImage = (item: CmsItem): string => {
+  const img = item.fieldData.image as { url: string } | null;
+  const p = img?.url ? assetPath(img.url) : '';
+  return p ? SITE + p : '';
+};
 
 export interface TopicRef extends CategoryRef {
   isCurrent: boolean;

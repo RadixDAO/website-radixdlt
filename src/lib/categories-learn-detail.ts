@@ -32,6 +32,17 @@ export const dynClass = (base: string, filled: boolean): string => {
   return tokens.join(' ');
 };
 
+const esc = (s: unknown): string => String(s ?? '')
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// categories-learn's live pages carry a meta description, "Learn more about {name}"
+// -- a literal template, not a CMS field (verified against all 5 live pages, e.g.
+// reference/live/categories-learn/radix-overview.html: "Learn more about Radix
+// Overview"). No og:*/twitter:* meta at all on this collection. sub-categories-learn
+// (which shares this module) has neither a description nor OG/Twitter on its one
+// live page, so this export is used only by categories-learn's own template.
+export const headDescription = (item: CmsItem): string => `Learn more about ${esc(item.fieldData.name)}`;
+
 export interface QuestionRef {
   slug: string;
   name: string;
