@@ -536,8 +536,23 @@ Webflow's runtime with a bundle. `tools/test-astro-artifacts.mjs` catches the fi
 symptoms; nothing catches script bundling except reading the output, so it goes in the
 brief every time.
 
-Whitespace between tags is collapsed regardless — harmless where it does not render,
-and `tools/test-inline-whitespace.mjs` gates the case where it does.
+### Whitespace: Astro deletes newline-containing text nodes entirely
+
+Not merely "collapsed". Astro's compiler condenses a whitespace text node containing a
+newline to **nothing**, so `</a>\n  <a>` becomes `</a><a>` — a rendered space that
+disappears. Under the old `set:html` splicing these survived, because Astro never parsed
+the markup.
+
+Measured on `token`: **88 inline gaps before, 25 after**, until fixed. The same happened
+across the wallet-landing family.
+
+**Fix, applied per static page:** collapse inter-tag whitespace runs to a single literal
+space (no newline for Astro to strip) — identical rendering — and only outside `<script>`
+and `<style>` blocks so JS and CSS are never touched.
+
+`tools/test-inline-whitespace.mjs` catches this, and its BASELINE half is what does the
+work: live is minified and carries 0 inline gaps on these pages, so the floor-against-live
+half sees nothing. Both halves exist for a reason.
 
 ### Note on `src/pages/_*.astro`
 
