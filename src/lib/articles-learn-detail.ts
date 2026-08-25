@@ -115,3 +115,14 @@ export async function getRelatedArticles(slug: string): Promise<CategoryRef[]> {
       iconUrl: articleIcon(i),
     }));
 }
+
+// Live's meta description on all 174 articles-learn pages is the article's CATEGORY NAME
+// (e.g. "Staking &amp; Validating on Radix"), HTML-escaped for the attribute -- not the
+// empty string the shell pipeline emitted. Escaping matters: 106 of them contain "&".
+export const headDescription = (categoryName: string): string =>
+  String(categoryName ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/[\s\u00a0]+$/, '');

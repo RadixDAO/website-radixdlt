@@ -11,13 +11,15 @@
 // build time since this route no longer reads that manifest for anything else. Unlike
 // blog, this collection's <head> carries no OG/Twitter meta and no ogType/twitterCard
 // (see the manifest entry) -- so SiteHead only gets title + description here.
+// The meta description is the article's CATEGORY NAME: that is what reference/live
+// carries on all 174 pages (e.g. "Radix Overview"), not the empty string the shell
+// pipeline emitted. Confirmed by diffing every live articles-learn page.
 import { readFileSync } from 'node:fs';
 import { getPaths } from '../../lib/content';
 import { resolveHeadTitle } from '../../lib/render-detail.mjs';
 import {
   getCategoryName, getAuthor, getGettingStarted, getRelatedArticles,
-  articleIcon, richText, likesText, fmtDate,
-} from '../../lib/articles-learn-detail';
+  articleIcon, richText, likesText, fmtDate, headDescription} from '../../lib/articles-learn-detail';
 import SiteHead from '../../components/site/SiteHead.astro';
 import SiteNav from '../../components/site/SiteNav.astro';
 import SiteFooter from '../../components/site/SiteFooter.astro';
@@ -45,7 +47,7 @@ const scriptsTail = readFileSync('src/components/articles-learn/articles-learn-s
 ---
 <!doctype html>
 <html data-wf-page="69eb1e5730aad0a16f70abd6" data-wf-site="6053f7fca5bf627283b582c2" lang="en">
-  <head><SiteHead title={title} description="" canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
+  <head><SiteHead title={title} description={headDescription(categoryName)} canonical={`https://www.radixdlt.com${currentPath}`} tail={headTail} /></head>
   <body>
     <SiteNav variant="learn" currentPath={currentPath} />
     <ArticleSection

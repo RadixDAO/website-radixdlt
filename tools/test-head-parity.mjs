@@ -14,9 +14,19 @@
 //     the old pipeline emitted them from the manifest head object, the rewritten pages
 //     passed only `title` to SiteHead. A PHASE 4 REGRESSION.
 //
-// Compares the set of meta names/properties and link rels, and the canonical URL value.
-// Content of individual meta tags is not compared -- CMS text legitimately differs between
-// the snapshot and a current build -- but presence and canonical target are exact.
+// Compares three things:
+//   1. the set of meta names/properties and link rels (presence)
+//   2. the canonical URL value
+//   3. the VALUE of title/description/og:title/og:description/twitter:* against live
+//
+// (3) was added after presence alone proved insufficient: a change drove every
+// missing-tag count to 0 while 242 descriptions, 68 og:descriptions and 18 titles still
+// disagreed with live -- empty strings, an untrimmed U+00A0, and unescaped ' and &.
+// Presence is not correctness.
+//
+// og:image/twitter:image are EXCLUDED from value comparison by design: live points at
+// the Webflow CDN, which dies with the subscription, so we deliberately emit our own
+// mirror's absolute URL instead (REBUILD-PLAN.md deliberate deviations).
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 
@@ -49,8 +59,21 @@ if (!existsSync('dist')) { console.error('dist/ missing -- run pnpm build first.
 
 const BASELINE = 'reference/head-parity-baseline.json';
 const pages = walk('dist').filter(f => f.endsWith('.html') && !f.includes(`${sep}pagefind${sep}`));
-const missing = {}, canonBad = [];
+const missing = {}, canonBad = [], valueBad = [];
 let compared = 0;
+
+const VALUE_TAGS = {
+  'title': (h) => /<title>(.*?)<\/title>/s.exec(h)?.[1] ?? null,
+};
+for (const [k, sel] of Object.entries({
+  'description': 'name', 'og:title': 'property', 'og:description': 'property',
+  'twitter:title': 'name', 'twitter:description': 'name',
+})) {
+  VALUE_TAGS[k] = (h) => {
+    const m = new RegExp(`<meta[^>]*${sel}="${k.replace(':', ':')}"[^>]*>`).exec(h);
+    return m ? (/content="([^"]*)"/.exec(m[0])?.[1] ?? null) : null;
+  };
+}
 
 for (const p of pages) {
   const rel = relative('dist', p).split(sep).join('/');
@@ -62,14 +85,22 @@ for (const p of pages) {
   for (const k of kl) if (!kd.has(k)) (missing[k] ??= []).push(rel);
   const cd = canonical(hd), cl = canonical(hl);
   if (cd && cl && cd !== cl) canonBad.push({ rel, live: cl, ours: cd });
+  const fd = readFileSync(p, 'utf8'), fl = readFileSync(lv, 'utf8');
+  for (const [k, get] of Object.entries(VALUE_TAGS)) {
+    const src = k === 'title' ? [fd, fl] : [hd, hl];
+    const a = get(src[0]), b = get(src[1]);
+    if (b !== null && a !== b) valueBad.push({ rel, tag: k, live: b, ours: a });
+  }
 }
 
 const report = {
   canonicalMismatched: canonBad.length,
+  valueMismatched: valueBad.length,
   missingTags: Object.fromEntries(Object.entries(missing).map(([k, v]) => [k, v.length])),
 };
 console.log(`head parity: ${compared} pages compared against reference/live`);
 console.log(`  canonical URL mismatched : ${report.canonicalMismatched}`);
+console.log(`  head VALUES mismatched   : ${report.valueMismatched}`);
 const miss = Object.entries(report.missingTags).sort((a, b) => b[1] - a[1]);
 console.log(`  head tags on live but missing from ours: ${miss.length} kind(s)`);
 for (const [k, n] of miss.slice(0, 12)) console.log(`      ${String(n).padStart(5)}  ${k}`);
@@ -88,6 +119,11 @@ if (!existsSync(BASELINE)) {
 }
 const base = JSON.parse(readFileSync(BASELINE, 'utf8'));
 let failed = false;
+if (report.valueMismatched > (base.valueMismatched ?? 0)) {
+  console.error(`\nFAIL: head value mismatches rose ${base.valueMismatched ?? 0} -> ${report.valueMismatched}`);
+  for (const v of valueBad.slice(0, 6)) console.error(`  ${v.rel} [${v.tag}]\n    live ${JSON.stringify(v.live)}\n    ours ${JSON.stringify(v.ours)}`);
+  failed = true;
+}
 if (report.canonicalMismatched > base.canonicalMismatched) {
   console.error(`\nFAIL: canonical mismatches rose ${base.canonicalMismatched} -> ${report.canonicalMismatched}`);
   for (const c of canonBad.slice(0, 5)) console.error(`  ${c.rel}\n    live ${c.live}\n    ours ${c.ours}`);

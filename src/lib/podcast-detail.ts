@@ -71,7 +71,16 @@ export const headTitle = (item: CmsItem): string =>
   `${esc(item.fieldData.name)}${TITLE_SUFFIX}`;
 
 /** Verbatim description/og:description/twitter:description. */
-export const headDescription = (item: CmsItem): string => esc(item.fieldData.excerpt);
+// Webflow TRIMS trailing whitespace -- including U+00A0 -- from the meta description
+// before emitting it. Ours did not, leaving 68 blog pages one nbsp longer than
+// reference/live. Cosmetic, but it is a real difference from the source of truth.
+const trimNbsp = (s: unknown): string => String(s ?? '').replace(/[\s\u00a0]+$/, '');
+// Live also escapes the apostrophe as &#x27; in head attribute values. Not required by
+// HTML (the attribute is double-quoted), but it is what the source of truth emits, and
+// this is applied ONLY to head helpers -- the shared esc() also feeds body text, where
+// changing it would move verify.mjs.
+const escHead = (s: string): string => s.replace(/'/g, '&#x27;');
+export const headDescription = (item: CmsItem): string => escHead(esc(trimNbsp(item.fieldData.excerpt)));
 
 /** Absolute URL for og:image/twitter:image (SITE + the local asset path). */
 export const headImage = (item: CmsItem): string => {

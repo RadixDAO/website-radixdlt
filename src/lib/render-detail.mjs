@@ -235,5 +235,9 @@ export function resolveHeadTitle(collection, item) {
   if (!h) return null;
   const value = resolve(item, h, collection);
   const filled = (h.pattern ?? '{}').replace('{}', value);
-  return esc(filled);
+  // Live escapes the apostrophe as &#x27; in <title> and in head meta. Not required by
+  // HTML, but it is what the source of truth emits -- 18 pages (10 blog, 8
+  // articles-learn) differed on this alone. Head-only: esc() elsewhere feeds body text,
+  // where changing it would move verify.mjs.
+  return esc(filled).replace(/'/g, '&#x27;');
 }
