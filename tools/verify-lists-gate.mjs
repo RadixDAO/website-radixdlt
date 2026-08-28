@@ -12,6 +12,12 @@
 // gate's job to fix. It exists to stop the number going DOWN.
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { oracleDir, skipWithoutOracle } from './lib/oracle.mjs';
+
+// verify.mjs compares against the live snapshot, which lives in the migration archive.
+// Without it verify.mjs skips and prints nothing parseable, so skip here too rather than
+// failing on an unparseable result.
+if (!oracleDir()) skipWithoutOracle('verify-lists-gate.mjs');
 
 const BASELINE = 'tools/baselines/verify-lists-floor.json';
 const out = execFileSync('node', ['tools/verify.mjs', '--lists'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
