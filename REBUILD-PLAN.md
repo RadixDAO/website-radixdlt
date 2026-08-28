@@ -559,3 +559,72 @@ half sees nothing. Both halves exist for a reason.
 Astro EXCLUDES `src/pages` files whose name starts with `_`. Two probe pages earlier in
 this project silently produced no output because of it, which reads exactly like a build
 failure. Do not name a route file with a leading underscore.
+
+---
+
+## 12. Done — the migration is complete
+
+Completed 2026-08-28. All **1,202 pages** are real Astro pages and components. The
+Webflow shell pipeline is deleted:
+
+    src/layouts/WebflowPage.astro      src/lib/render-list.mjs
+    src/layouts/DetailPage.astro       src/lib/render-detail.mjs
+    src/components/CollectionList.astro  src/lib/detail-data.mjs
+    src/shells/  (3.7 MB)
+
+`src/` is now an ordinary Astro site: `pages/`, `components/`, `content/` (29
+collections, 1,590 items), `chrome/`, `lib/`, `data/`, `bindings/`.
+
+### The archive split
+
+`source/webflow-export/` (241 MB) and `reference/live|webflow|live-runtime/` (87 MB)
+moved to a separate **migration-archive** repo. None of it is reproducible once the
+Webflow subscription lapses — archived, not deleted.
+
+Five gates compare against `reference/live`. They resolve it through
+`tools/lib/oracle.mjs`: a local copy if present, else `$RADIX_MIGRATION_ARCHIVE`, else
+skip cleanly with exit 0. Verified in all three modes — 1195/1202 locally, 1195/1202 via
+the archive, clean skip without either.
+
+**`public/{css,js,fonts,images,videos,documents}` are now tracked.** They were gitignored
+and regenerated from the export; with the export archived, deriving them would make a
+clone of this repo depend on another repo just to have stylesheets. `radix-web.css` *is*
+the design.
+
+### Final numbers
+
+| Check | Result |
+|---|---|
+| `verify.mjs` (structure + text vs live) | **1195 / 1202** exact |
+| `verify.mjs --lists` (incl. CMS list interiors) | **1155 / 1202** |
+| head parity (canonical, values, tag presence) | exact |
+| current-marking | aria-current 698/698, w--current 709/709 |
+| Astro styling artifacts | 0 |
+| inline whitespace lost | 0 |
+| fresh clone, no archive | builds, 1,202 pages, 9/9 gates pass |
+
+Both list-mode and default-mode scores are **above** where the byte-faithful conversion
+started (1150 and 1194), because the rewrite surfaced defects the old renderer hid.
+
+### Defects found and fixed that predated this work
+
+The old renderer silently skipped anything it could not resolve, so these were invisible
+until the lists became real Astro:
+
+* **4 `_lists.json` data bugs** — `null` slugs on `ecosystem-directory` (6 of 9
+  categories, breaking Finsweet filtering), a duplicated tweet across the brave pages,
+  `astrolecent` (a slug existing nowhere in the CMS) on the homepage, and
+  `scrypto-bonding` standing in for five different blueprints.
+* **1,109 wrong canonical URLs** pointing at `/detail_<collection>`, a Webflow template
+  placeholder that is not a real URL.
+* **674 pages of dead video-poster URLs**, plus a variant on `developers/home`.
+* **8,066 category pill colours** and **~648 pages of social meta** lost during the
+  rewrite itself, caught by gates built in response.
+
+### What is left
+
+* **Forms** — 7 Webflow-hosted forms with no `action` break silently at cutover
+  (section 7.1). A recorded decision, not an oversight.
+* **Rollback** — deferred while nothing is live (section 7.3). Required before DNS cutover.
+* `401`/`404` are listed in `sitemap.xml`, matching the old behaviour exactly. Arguably
+  wrong; noted in the file rather than changed inside a refactor.

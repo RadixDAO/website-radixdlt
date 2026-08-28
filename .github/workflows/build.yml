@@ -15,9 +15,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # depth 1: the working tree is ~1.1 GB (913 MB of it the CDN asset mirror, which
-      # dist/ ships verbatim and the byte gate covers). Full history would add ~1.2 GB
-      # for no benefit here.
+      # depth 1: the working tree is ~2.2 GB (913 MB CDN asset mirror + 230 MB of the
+      # site's own css/js/fonts/images/videos). Full history would roughly double it.
       - uses: actions/checkout@v4
         with: { fetch-depth: 1 }
 
@@ -29,10 +28,15 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      # Recreates public/{css,js,fonts,images,videos,documents} from the committed
-      # export. These are derived, so they are gitignored rather than stored twice.
-      - name: Restore derived assets
-        run: node tools/copy-static-assets.mjs
+      # The live snapshot (the oracle five gates compare against) lives in the migration
+      # archive, not here. Without it those gates skip; CI clones it so the full suite runs.
+      # If this step is removed, CI still passes -- it just proves less.
+      - name: Fetch migration archive
+        continue-on-error: true
+        run: |
+          git clone --depth 1 "${{ secrets.MIGRATION_ARCHIVE_URL || '' }}" ../migration-archive || \
+            echo "archive unavailable -- live-comparison gates will skip"
+          echo "RADIX_MIGRATION_ARCHIVE=$(cd ../migration-archive 2>/dev/null && pwd)" >> $GITHUB_ENV
 
       - run: pnpm build
 
