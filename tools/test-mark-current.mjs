@@ -13,6 +13,10 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 import { createHash } from 'node:crypto';
+import { oracleDir, skipWithoutOracle } from './lib/oracle.mjs';
+
+const LIVE_DIR = oracleDir();
+if (!LIVE_DIR) skipWithoutOracle('test-mark-current.mjs');
 import { findNavRange } from './lib/find-nav.mjs';
 import { findFooterRange } from './lib/find-footer.mjs';
 import { markCurrent } from './lib/mark-current.mjs';
@@ -142,7 +146,7 @@ if (marked.length) {
 // Webflow emits the two together, always. Counting them per page against live is cheap
 // and has an exact expected answer, so there is no reason to infer it from anything else.
 {
-  const live = 'reference/live';
+  const live = LIVE_DIR;
   let la = 0, da = 0, lw = 0, dw = 0;
   const bad = [];
   for (const p of files) {

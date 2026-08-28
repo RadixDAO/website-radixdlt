@@ -8,6 +8,10 @@
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { elementRange, findTopLevelByClass } from './lib/html-slice.mjs';
+import { oracleDir, skipWithoutOracle } from './lib/oracle.mjs';
+
+const LIVE = oracleDir();
+if (!LIVE) skipWithoutOracle('verify.mjs');
 
 const mode = process.argv.includes('--lists') ? 'lists' : 'chrome';
 const only = process.argv.slice(2).filter(a => !a.startsWith('--'));
@@ -90,7 +94,7 @@ if (only.length) built = built.filter(f => only.some(o => f === o || f === `${o}
 const results = [];
 for (const rel of built) {
   const route = rel.replace(/\.html$/, '');
-  const livePath = join('reference/live', route === 'index' ? 'index.html' : `${route}.html`);
+  const livePath = join(LIVE, route === 'index' ? 'index.html' : `${route}.html`);
   if (!existsSync(livePath)) { results.push({ route, status: 'NO-LIVE' }); continue; }
   const liveHtml = readFileSync(livePath, 'utf8');
   const builtHtml = readFileSync(join('dist', rel), 'utf8');

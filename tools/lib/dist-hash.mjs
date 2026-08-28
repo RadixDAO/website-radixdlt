@@ -5,7 +5,7 @@ import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 
 export const DIST = 'dist';
-export const GOLDEN = 'reference/dist-golden.json';
+export const GOLDEN = 'tools/baselines/dist-golden.json';
 
 export function walk(dir) {
   const out = [];

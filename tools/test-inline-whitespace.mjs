@@ -13,7 +13,7 @@
 //           page did not trip it.
 //
 //   BASELINE  no page may have FEWER gaps than the last accepted build
-//             (reference/inline-gaps.json). This is the precise signal -- it is exactly
+//             (tools/baselines/inline-gaps.json). This is the precise signal -- it is exactly
 //             "this change closed up a space that used to render".
 //
 // Counts, not positions: our markup is pretty-printed where live is minified, so the two
@@ -23,6 +23,10 @@
 // intended; that leaves a reviewable commit.
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
+import { oracleDir, skipWithoutOracle } from './lib/oracle.mjs';
+
+const LIVE = oracleDir();
+if (!LIVE) skipWithoutOracle('test-inline-whitespace.mjs');
 
 const INLINE = 'a|span|strong|em|b|i|small|code|label|button|img|sub|sup|u|mark';
 const RE = new RegExp(`</(${INLINE})>\\s+<(${INLINE})\\b`, 'gi');
@@ -39,7 +43,7 @@ let compared = 0;
 
 for (const p of pages) {
   const rel = relative('dist', p);
-  const live = join('reference/live', rel);
+  const live = join(LIVE, rel);
   if (!existsSync(live)) continue;
   compared++;
   const d = gaps(readFileSync(p, 'utf8'));
@@ -50,7 +54,7 @@ for (const p of pages) {
 console.log(`inline whitespace: ${compared} pages compared against reference/live`);
 
 // BASELINE -- the sensitive check.
-const BASELINE = 'reference/inline-gaps.json';
+const BASELINE = 'tools/baselines/inline-gaps.json';
 const current = {};
 for (const p of pages) current[relative('dist', p).split(sep).join('/')] = gaps(readFileSync(p, 'utf8'));
 

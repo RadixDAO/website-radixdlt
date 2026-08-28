@@ -13,7 +13,7 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
-const BASELINE = 'reference/verify-lists-floor.json';
+const BASELINE = 'tools/baselines/verify-lists-floor.json';
 const out = execFileSync('node', ['tools/verify.mjs', '--lists'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
 const m = /exact match\s*:\s*(\d+)\/(\d+)/.exec(out);
 if (!m) { console.error('could not parse verify.mjs --lists output'); process.exit(2); }

@@ -1,4 +1,4 @@
-// Compare the current build against reference/dist-golden.json, byte for byte.
+// Compare the current build against tools/baselines/dist-golden.json, byte for byte.
 //
 //   node tools/diff-dist.mjs            fail on ANY difference
 //   node tools/diff-dist.mjs --accept   re-baseline, deliberately

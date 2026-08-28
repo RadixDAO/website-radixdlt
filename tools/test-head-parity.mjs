@@ -29,6 +29,10 @@
 // mirror's absolute URL instead (REBUILD-PLAN.md deliberate deviations).
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
+import { oracleDir, skipWithoutOracle } from './lib/oracle.mjs';
+
+const LIVE = oracleDir();
+if (!LIVE) skipWithoutOracle('test-head-parity.mjs');
 
 const walk = d => readdirSync(d, { withFileTypes: true })
   .flatMap(e => e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]);
@@ -57,7 +61,7 @@ const canonical = (h) => {
 
 if (!existsSync('dist')) { console.error('dist/ missing -- run pnpm build first.'); process.exit(2); }
 
-const BASELINE = 'reference/head-parity-baseline.json';
+const BASELINE = 'tools/baselines/head-parity-baseline.json';
 const pages = walk('dist').filter(f => f.endsWith('.html') && !f.includes(`${sep}pagefind${sep}`));
 const missing = {}, canonBad = [], valueBad = [];
 let compared = 0;
@@ -77,7 +81,7 @@ for (const [k, sel] of Object.entries({
 
 for (const p of pages) {
   const rel = relative('dist', p).split(sep).join('/');
-  const lv = join('reference/live', rel);
+  const lv = join(LIVE, rel);
   if (!existsSync(lv)) continue;
   compared++;
   const hd = head(readFileSync(p, 'utf8')), hl = head(readFileSync(lv, 'utf8'));

@@ -15,6 +15,10 @@
 // count them per page and refuse to go below live.
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
+import { oracleDir, skipWithoutOracle } from './lib/oracle.mjs';
+
+const LIVE = oracleDir();
+if (!LIVE) skipWithoutOracle('test-style-attrs.mjs');
 
 const walk = d => readdirSync(d, { withFileTypes: true })
   .flatMap(e => e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]);
@@ -23,14 +27,14 @@ const count = (s) => (s.match(/\sstyle="[^"]*"/g) ?? []).length;
 
 if (!existsSync('dist')) { console.error('dist/ missing -- run pnpm build first.'); process.exit(2); }
 
-const BASELINE = 'reference/style-attrs-baseline.json';
+const BASELINE = 'tools/baselines/style-attrs-baseline.json';
 const pages = walk('dist').filter(f => f.endsWith('.html') && !f.includes(`${sep}pagefind${sep}`));
 const cur = {};
 let tl = 0, td = 0, short = [];
 
 for (const p of pages) {
   const rel = relative('dist', p).split(sep).join('/');
-  const lv = join('reference/live', rel);
+  const lv = join(LIVE, rel);
   if (!existsSync(lv)) continue;
   const d = count(readFileSync(p, 'utf8')), l = count(readFileSync(lv, 'utf8'));
   cur[rel] = d; tl += l; td += d;

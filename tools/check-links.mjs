@@ -46,14 +46,14 @@ for (const [p, refs] of [...missingRoutes].sort((a,b)=>b[1].length-a[1].length).
 
 // Gate against a committed baseline rather than a count.
 //
-// Every unresolved link here is documented in reference/KNOWN-BROKEN-ON-LIVE.md: they
+// Every unresolved link here is documented in docs/KNOWN-BROKEN-ON-LIVE.md: they
 // are defects that already exist on radixdlt.com and are reproduced deliberately, so
 // this can never be driven to zero during the migration. Reporting them and exiting 0
 // made this check unable to fail, which is no check at all -- it now fails on anything
 // NOT in the baseline, which is the regression it can actually catch.
 //
 // Refresh deliberately with --update-baseline when a link is legitimately added/removed.
-const BASELINE = 'reference/link-baseline.json';
+const BASELINE = 'tools/baselines/link-baseline.json';
 const found = [...[...missingAssets.keys()].map(p => `asset ${p}`),
                ...[...missingRoutes.keys()].map(p => `route ${p}`)].sort();
 
@@ -71,7 +71,7 @@ const baseline = new Set(JSON.parse(readFileSync(BASELINE, 'utf8')));
 const novel = found.filter(x => !baseline.has(x));
 const fixed = [...baseline].filter(x => !found.includes(x));
 
-console.log(`\nbaseline: ${baseline.size} known-unresolved (see reference/KNOWN-BROKEN-ON-LIVE.md)`);
+console.log(`\nbaseline: ${baseline.size} known-unresolved (see docs/KNOWN-BROKEN-ON-LIVE.md)`);
 if (fixed.length) console.log(`  ${fixed.length} baseline entries no longer unresolved -- rerun with --update-baseline`);
 if (novel.length) {
   console.error(`\nFAIL: ${novel.length} NEW unresolved link(s) not in the baseline:`);
