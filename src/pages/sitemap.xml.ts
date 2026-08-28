@@ -1,32 +1,50 @@
 // Sitemap.
 //
 // DELIBERATE DEVIATION FROM LIVE: Webflow's published sitemap lists 999 URLs, but the
-// site actually serves ~1,207 -- eight collections with working detail routes
-// (events, team-member, tweets, radix-services, project-categories,
-// full-stack-social-comments, partners, faqs) appear nowhere in it. See
-// MIGRATION-PLAN.md section 0. A sitemap is machine-facing, so correctness beats
-// bug-for-bug parity here; every URL below is one the site genuinely serves.
+// site actually serves 1,202 -- eight collections with working detail routes (events,
+// team-member, tweets, radix-services, project-categories, full-stack-social-comments,
+// partners, faqs) appear nowhere in it. A sitemap is machine-facing, so correctness
+// beats bug-for-bug parity; every URL below is one the site genuinely serves.
+//
+// Routes are derived from the real Astro pages and content collections. It previously
+// read src/shells/manifest.json and reference/collection-map.json -- both scaffolding
+// from the Webflow conversion, now deleted. A sitemap built from the converter's own
+// manifest could only ever describe what the converter knew about, not what the site
+// actually ships.
 import type { APIRoute } from 'astro';
-import { readFileSync } from 'node:fs';
-import { liveItems } from '../lib/detail-data.mjs';
+import { getCollection } from 'astro:content';
 
 const SITE = 'https://www.radixdlt.com';
 
-export const GET: APIRoute = () => {
+// Every non-dynamic .astro page under src/pages. Astro resolves this glob at build time,
+// so the sitemap is derived from the routes that genuinely exist.
+const staticPages = import.meta.glob('./**/*.astro', { eager: true });
+
+// Collections that have a /<collection>/<slug> detail route, i.e. those with a
+// [slug].astro page. Derived from the same glob rather than a hand-maintained list.
+const detailRoutes = Object.keys(staticPages)
+  .filter((p) => p.endsWith('/[slug].astro'))
+  .map((p) => p.replace(/^\.\//, '').replace(/\/\[slug\]\.astro$/, ''));
+
+export const GET: APIRoute = async () => {
   const urls = new Set<string>();
 
-  // static pages, from the converter's own manifest
-  const manifest = JSON.parse(readFileSync('src/shells/manifest.json', 'utf8'));
-  for (const route of Object.keys(manifest)) {
+  for (const path of Object.keys(staticPages)) {
+    if (path.includes('[')) continue;                     // dynamic routes handled below
+    const route = path.replace(/^\.\//, '').replace(/\.astro$/, '');
+    // NB: 401 and 404 ARE included, matching the previous sitemap exactly. Listing error
+    // pages in a sitemap is arguably wrong, but changing it here would smuggle a
+    // behaviour change into a refactor -- raise it separately if it matters.
     urls.add(route === 'index' ? SITE : `${SITE}/${route}`);
   }
 
-  // CMS detail pages, for every collection with a live detail route
-  const cols = JSON.parse(readFileSync('reference/collection-map.json', 'utf8'));
-  for (const c of cols) {
-    if (!c.hasDetailRoute) continue;
-    for (const it of liveItems(c.slug)) {
-      if (it.fieldData?.slug) urls.add(`${SITE}/${c.slug}/${it.fieldData.slug}`);
+  for (const collection of detailRoutes) {
+    const items = await getCollection(collection as never);
+    for (const item of items) {
+      const data = (item as { data?: { isDraft?: boolean; isArchived?: boolean; fieldData?: { slug?: string } } }).data;
+      if (!data?.fieldData?.slug) continue;
+      if (data.isDraft || data.isArchived) continue;      // matches what the routes build
+      urls.add(`${SITE}/${collection}/${data.fieldData.slug}`);
     }
   }
 
