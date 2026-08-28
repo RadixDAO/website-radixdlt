@@ -11,7 +11,7 @@
 // build time since this route no longer reads that manifest for anything else.
 import { readFileSync } from 'node:fs';
 import { getPaths } from '../../lib/content';
-import { resolveHeadTitle } from '../../lib/render-detail.mjs';
+import { resolveHeadTitle } from '../../lib/head-title';
 import {
   getAuthor, getCategories, getExploreTopics, getRelatedArticles, getSliderPosts,
   fmtDate, heroImage, headDescription, headImage, richText,

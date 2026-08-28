@@ -16,7 +16,7 @@
 // pipeline emitted. Confirmed by diffing every live articles-learn page.
 import { readFileSync } from 'node:fs';
 import { getPaths } from '../../lib/content';
-import { resolveHeadTitle } from '../../lib/render-detail.mjs';
+import { resolveHeadTitle } from '../../lib/head-title';
 import {
   getCategoryName, getAuthor, getGettingStarted, getRelatedArticles,
   articleIcon, richText, likesText, fmtDate, headDescription} from '../../lib/articles-learn-detail';

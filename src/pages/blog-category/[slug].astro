@@ -21,7 +21,7 @@
 // listed post is, by construction, tagged with the category being viewed.
 import { readFileSync } from 'node:fs';
 import { getPaths } from '../../lib/content';
-import { resolveHeadTitle } from '../../lib/render-detail.mjs';
+import { resolveHeadTitle } from '../../lib/head-title';
 import { getTaxonomyPosts, getTaxonomyTopics, headDescription } from '../../lib/blog-taxonomy-detail';
 import SiteHead from '../../components/site/SiteHead.astro';
 import SiteNav from '../../components/site/SiteNav.astro';
