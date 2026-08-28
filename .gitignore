@@ -23,14 +23,11 @@ webflow.json
 # src/shells/             generated markup, but committed -- a fresh clone must build
 #                         without re-running the converter. `pnpm convert` regenerates.
 
-# Derived copies of committed source. `node tools/copy-static-assets.mjs` recreates
-# these from source/webflow-export/.
-public/css/
-public/js/
-public/fonts/
-public/images/
-public/videos/
-public/documents/
+# NOTE: public/{css,js,fonts,images,videos,documents} are TRACKED. They used to be
+# gitignored and regenerated from source/webflow-export/, but that export now lives in
+# the migration archive, so deriving them would make a clone of this repo depend on
+# another repo just to have stylesheets. They are the site's own assets -- radix-web.css
+# is the design -- so they are committed like any other asset.
 
 reference/mirror-live.log
 reference/live-failures.txt
