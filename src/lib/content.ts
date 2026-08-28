@@ -9,7 +9,7 @@
 // need a content-collection-backed replacement). The one difference is that these
 // are async: getCollection() is async, so there's no way around it.
 import { getCollection } from 'astro:content';
-export { assetPath, rewriteAssetUrls } from './detail-data.mjs';
+export { assetPath, rewriteAssetUrls } from './assets';
 
 // Keep in sync with the `collections` export of src/content.config.ts (itself
 // generated from reference/webflow/items/*.json by
