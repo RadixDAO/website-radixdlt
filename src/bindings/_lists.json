@@ -524,10 +524,10 @@
   "items": [
    "caviarswap",
    "ociswap",
+   "radex",
    "scrypto-bonding",
-   "scrypto-bonding",
-   "scrypto-bonding",
-   "scrypto-bonding"
+   "hareswap",
+   "chaindex"
   ],
   "slots": [
    {
@@ -722,7 +722,7 @@
   "collection": "blueprints-developers",
   "items": [
    "neuracle",
-   "scrypto-bonding"
+   "callbackscheduler"
   ],
   "slots": [
    {
@@ -756,7 +756,7 @@
   "items": [
    "adept",
    "impahla",
-   "scrypto-bonding"
+   "crowd-sourcing"
   ],
   "slots": [
    {
