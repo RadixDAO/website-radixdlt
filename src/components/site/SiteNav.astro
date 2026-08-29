@@ -4,9 +4,9 @@
 // `variant` selects one of the canonical blocks derived by
 // tools/derive-nav-variants.mjs into src/chrome/nav.<variant>.html (verbatim
 // substrings of the built site -- see that script's header for how the ten variants
-// were measured and named). `currentPath` is spliced in via tools/lib/mark-current.mjs,
+// were measured and named). `currentPath` is spliced in via src/lib/mark-current.mjs,
 // which reproduces Webflow's own current-page marking exactly -- proven against every
-// one of the 962 nav-bearing pages by tools/test-mark-current.mjs.
+// one of the 962 nav-bearing pages (verified during the Webflow migration).
 //
 // Built as a plain string and rendered through ONE <Fragment set:html>, same as
 // SiteHead.astro -- Astro must never parse Webflow markup (attribute order, inline
@@ -15,7 +15,7 @@
 //
 // A page with no nav (240 of them -- e.g. 401, the /lp/* landing pages) simply omits
 // the `variant` prop and renders nothing.
-import { markCurrent } from '../../../tools/lib/mark-current.mjs';
+import { markCurrent } from '../../lib/mark-current.mjs';
 
 interface Props {
   variant?: string;

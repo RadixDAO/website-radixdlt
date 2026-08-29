@@ -1,17 +1,16 @@
-# Already broken on radixdlt.com — parity preserved, do NOT "fix" during migration
+# Already broken on radixdlt.com — reproduced deliberately, not bugs in this repo
 
-Verified against live 2026-08-18. Fixing these changes behaviour vs. the current
-site, so they are out of scope for the migration. Worth a separate ticket.
+Verified against the live site 2026-08-18. Each of these is intentionally reproduced
+because fixing it here would change behaviour the live site itself doesn't have. If any
+of these get fixed on the live site, this repo should follow — check before "fixing" one
+of these on a hunch.
 
 | Issue | Detail |
 |---|---|
-| 13 brand-pack download links 404 | `/radix-brand-pack` links `/images/radix_logo*.webp` and `/images/Radix-Icon-*.webp`. All 404 on live. Not in the Webflow export either. |
-| Homepage "Rolling Number" script throws | Inline script calls `$('.rolling-number').offset().top`; no such element exists in the export, on live, or in our build. Live throws the identical TypeError. |
-| `/archived/old-home` linked but 401 | Linked from `radfi-thank-you` and 2 others; password-protected on live. |
+| 13 brand-pack download links 404 | `/radix-brand-pack` links `/images/radix_logo*.webp` and `/images/Radix-Icon-*.webp`. All 404 on live. |
+| Homepage "Rolling Number" script throws | Inline script calls `$('.rolling-number').offset().top`; no such element exists on live either. Live throws the identical `TypeError`. |
+| `/archived/old-home` linked but 401 | Linked from `radfi-thank-you` and two other pages; password-protected on live. |
 
-# Genuinely missing from our build — TODO
-
-| Item | Status |
-|---|---|
-| `/blog/rss.xml` | Live serves it (application/rss+xml). Captured to `reference/live/blog/rss.xml`. Must be regenerated in Phase 3. |
-| `/podcast/rss.xml` | Same. Captured to `reference/live/podcast/rss.xml`. |
+`tools/check-links.mjs` gates against these via `tools/link-baseline.json` — they're
+expected failures, not regressions. Refresh the baseline (`--update-baseline`) only when
+a link is legitimately added or removed, not to silence a new one.

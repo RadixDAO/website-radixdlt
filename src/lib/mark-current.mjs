@@ -1,4 +1,5 @@
-// Webflow's current-page marking for nav links (see REBUILD-PLAN.md Task 2.2).
+// Webflow's current-page marking for nav/footer links, used by SiteNav.astro and
+// SiteFooter.astro on every page.
 //
 // Measured by diffing the rendered nav across pages that share a variant: the ONLY
 // per-page difference is that every top-level <a> whose `href` equals the current

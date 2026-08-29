@@ -1,112 +1,83 @@
-# radixdlt.com — Astro on Cloudflare Workers
+# radixdlt.com
 
-A byte-faithful rebuild of the Webflow site as a static Astro build, deployed as a
-Workers static-asset site (asset requests are free and unlimited).
-
-**Verified against the live site:** 1,195 / 1,202 pages match exactly; 1,201 score
-≥ 0.98. Including CMS list interiors: 1,150 exact, 1,197 ≥ 0.98.
-See `reference/PHASE-5-STATUS.md` for every remaining diff, individually explained.
+The [radixdlt.com](https://www.radixdlt.com) marketing site. Astro, deployed as a
+Cloudflare Workers static-asset site (asset requests are free and unlimited on both
+Free and Paid plans).
 
 ## Quick start
 
 ```bash
 pnpm install
-pnpm build        # convert -> redirects -> astro build -> pagefind index
-node tools/serve.mjs   # preview at :4399 with Workers asset-routing semantics
+pnpm dev              # dev server with HMR
+pnpm build            # astro build + pagefind index -> dist/
+pnpm preview           # astro's own preview server
+pnpm preview:workers  # preview at :4399 with Cloudflare's actual asset-routing rules
 ```
 
-## The one idea that matters
-
-**Astro never parses the Webflow markup.** The exported HTML is sliced by byte offset
-and re-emitted through `set:html`. A parser round-trip silently mangles attribute
-order, inline `<script>` bodies, and the `data-w-id` hooks that Webflow's IX2 engine
-needs — and the damage doesn't surface as an error, it surfaces as a dead site.
-
-Everything else follows from that: `tools/lib/html-slice.mjs` returns offsets, never
-re-serialised HTML, and every renderer splices rather than rebuilds.
-
-## Layout
+## Structure
 
 ```
-reference/            Phase 0 rescue — everything that dies with the Webflow subscription
-  webflow/            29 collections, 1,590 items, field schemas, asset manifest, 301 table
-  live/               1,207-page snapshot: binding oracle AND regression baseline (gitignored)
-  collection-map.json collections x schemas x counts x templates x probed routes
-  asset-map.json      2,227 CDN URL -> local /assets path
 src/
-  shells/             raw HTML chunks generated from the export (gitignored)
-  bindings/           WHICH CMS field fills WHICH slot — the hand-reviewed core
-  lib/                render-detail, render-list, detail-data, page-extras
-  layouts/            WebflowPage (static pages), DetailPage (CMS detail routes)
-tools/                converters, binding derivation, verification
-public/assets/        2,227 mirrored Webflow assets (gitignored, reproducible)
+  pages/          routes -- one file per static page, [slug].astro per CMS collection
+  components/     site chrome (SiteHead/SiteNav/SiteFooter) and per-collection components
+  content/        29 Astro content collections, ~1,590 items, schemas in content.config.ts
+  chrome/         canonical nav/footer HTML per variant, spliced in by SiteNav/SiteFooter
+  lib/            data resolution helpers (one file per collection, plus shared ones)
+  data/           asset-map.json -- CDN URL -> local /assets path
+  bindings/       CMS list item selections that aren't derivable from the CMS data alone
+public/
+  assets/         mirrored CMS media (rich-text images, uploads)
+  css/js/fonts/images/videos/documents/   the site's own static assets, incl. radix-web.css
+tools/
+  check-links.mjs          every internal href/src in dist/ resolves, gated on a baseline
+                            of known-broken links (docs/KNOWN-BROKEN-ON-LIVE.md)
+  test-astro-artifacts.mjs no Astro-scoped styles, no Astro-generated CSS bundle (see below)
+  serve.mjs                local preview matching Cloudflare's asset-routing semantics
 ```
 
-## Workflow
+## The one thing to know before touching markup here
 
-| Command | Purpose |
-|---|---|
-| `node tools/convert-pages.mjs` | export HTML → shells + `.astro` pages |
-| `node tools/convert-detail-templates.mjs` | `detail_*.html` → shells + `[slug].astro` |
-| `node tools/derive-bindings.mjs <collection> <n>` | propose a detail binding map |
-| `node tools/derive-list-bindings.mjs` | static-page CMS lists |
-| `node tools/derive-detail-lists.mjs` | nested lists inside detail templates |
-| `node tools/verify.mjs [--lists]` | compare `dist/` against `reference/live/` |
-| `node tools/check-links.mjs` | every local href/src resolves |
+Most of this site's HTML predates Astro and still carries Webflow's classes, structure,
+and — on a handful of components — a Webflow-authored inline `<style>` or `<script>`
+sitting inside the markup (video-player CSS, a carousel indicator, third-party embeds).
 
-`tools/BINDING-BRIEF.md` is the self-contained brief for refining a collection.
+**Astro processes `<style>` and `<script>` by default.** If one of these ever loses its
+`is:inline` attribute, Astro will scope the style (rewriting its selectors so they quietly
+stop matching anything) or bundle the script into its own module — replacing behaviour
+the design depends on, with no error and no visual difference until you look closely.
 
-**Use a large sample when deriving.** `derive-bindings.mjs <collection> 8` will miss
-fields that appear on few items — `articles-learn.author` is on 13 of 211. An
-8-sample re-derive once silently dropped that collection from 211/211 exact to
-197/211.
-
-## Verification is the whole game
-
-`tools/verify.mjs` compares structure **and text**. Structure alone is not enough: an
-early version scored empty pages at 1.0000, and fifteen collections looked complete
-while rendering nothing.
-
-Even text is not enough on its own — 945 rich-text images once pointed at Webflow's
-dying CDN while every page scored 1.0000. Run `tools/mirror-residual-assets.mjs`
-after a build to sweep for CDN URLs that survived rewriting.
-
-The recurring failure mode in this project is **output that verifies well while being
-quietly wrong**. Compare against `reference/live/`, not against the export.
+`pnpm check` (`tools/test-astro-artifacts.mjs`) catches both: it fails if any page emits
+an Astro scope attribute (`data-astro-cid`) or an Astro-generated stylesheet
+(`dist/_astro/*.css`). It runs in CI. If you add a new inline `<style>` or `<script>`
+inside a component, mark it `is:inline`.
 
 ## Deployment
 
 ```bash
 pnpm build
-pnpm exec wrangler deploy        # publishes; see wrangler.jsonc
+pnpm deploy      # wrangler deploy -- see wrangler.jsonc
 ```
 
-Static-only Worker — no `main` entry, no SSR. Free-plan limits: 20,000 files and
-25 MiB per file; the build is ~5,750 files with no file over 25 MiB.
+Static-only Worker: no `main` entry, no SSR. Free-plan limits are 20,000 files and
+25 MiB per file.
 
-Before DNS cutover, keep Webflow published but un-DNS'd for a week as rollback.
+## Deliberate deviations from the original Webflow site
 
-## Deliberate deviations from live
+- **`sitemap.xml`** lists every URL the site actually serves. Webflow's published
+  sitemap omitted eight collections that had working detail routes — correctness over
+  bug-for-bug parity for a machine-facing file.
+- **Search** is [Pagefind](https://pagefind.app/), built at `pnpm build` time. Webflow's
+  hosted site search didn't survive the migration.
+- **`og:image`/`twitter:image`** point at this site's own asset mirror rather than the
+  Webflow CDN, which no longer exists.
+- `docs/KNOWN-BROKEN-ON-LIVE.md` lists a few defects reproduced deliberately because the
+  live site itself has them (broken download links, a script error). Check there before
+  "fixing" one on a hunch.
 
-1. **`sitemap.xml`** lists every URL the site serves (1,202). Webflow's published
-   sitemap lists 999 and omits eight collections that have working detail routes.
-   Correctness over bug-for-bug parity, for a machine-facing file.
-2. **Search** is Pagefind. Webflow's hosted site search does not survive migration.
-3. **The site nav** (`src/components/site/SiteNav.astro`, Task 2.2) is hoisted into
-   one canonical block per variant (`src/chrome/nav.*.html`), which freezes its two
-   CMS `navigation-featured-section` dropdown slots into static markup. This changes
-   nothing today -- those 48 slots never resolved from CMS and already rendered as
-   the exported shell on every page -- but it is a semantic change the byte gate
-   (`tools/diff-dist.mjs`) cannot see, since Webflow is being decommissioned and the
-   collection is frozen regardless.
+## History
 
-`reference/KNOWN-BROKEN-ON-LIVE.md` lists defects that already exist on radixdlt.com
-and are reproduced deliberately — do not "fix" them as part of the migration.
-
-## Regenerating content
-
-CMS data comes from the Webflow Data API pull in `reference/webflow/items/`. While the
-subscription is live, `tools/pull-webflow.sh` refreshes it. **After it lapses, that
-directory is the only copy.**
-
-Note: `webflow-cli` 2.4.0's `--limit` flag is broken; the script pages via `--offset`.
+This was a Webflow site until 2026-08. The full migration record — the durability work,
+every nativisation batch, every regression found and fixed along the way, and the final
+verification numbers — lives in the `migration-archive` repo and on this repo's
+`backup/pre-squash-full-history` branch, not here. Nothing in normal day-to-day work on
+this codebase should need either.

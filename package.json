@@ -4,17 +4,15 @@
   "type": "module",
   "packageManager": "pnpm@11.22.0",
   "scripts": {
-    "assets:copy": "node tools/copy-static-assets.mjs",
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
-    "convert": "node tools/convert-pages.mjs && node tools/convert-detail-templates.mjs",
-    "gate": "node tools/diff-dist.mjs",
     "preview": "astro preview",
+    "preview:workers": "node tools/serve.mjs",
+    "check": "node tools/check-links.mjs && node tools/test-astro-artifacts.mjs",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "astro": "^7.2.2",
-    "node-html-parser": "^9.0.1",
     "pagefind": "^1.5.2",
     "wrangler": "^4.118.0"
   }

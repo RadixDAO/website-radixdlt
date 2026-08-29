@@ -53,7 +53,7 @@ for (const [p, refs] of [...missingRoutes].sort((a,b)=>b[1].length-a[1].length).
 // NOT in the baseline, which is the regression it can actually catch.
 //
 // Refresh deliberately with --update-baseline when a link is legitimately added/removed.
-const BASELINE = 'tools/baselines/link-baseline.json';
+const BASELINE = 'tools/link-baseline.json';
 const found = [...[...missingAssets.keys()].map(p => `asset ${p}`),
                ...[...missingRoutes.keys()].map(p => `route ${p}`)].sort();
 

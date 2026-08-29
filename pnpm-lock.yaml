@@ -11,9 +11,6 @@ importers:
       astro:
         specifier: ^7.2.2
         version: 7.2.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
-      node-html-parser:
-        specifier: ^9.0.1
-        version: 9.0.1
       pagefind:
         specifier: ^1.5.2
         version: 1.5.2
@@ -1264,10 +1261,6 @@ packages:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
     engines: {node: '>=0.12'}
 
-  entities@8.0.0:
-    resolution: {integrity: sha512-zwfzJecQ/Uej6tusMqwAqU/6KL2XaB2VZ2Jg54Je6ahNBGNH6Ek6g3jjNCF0fG9EWQKGZNddNjU5F1ZQn/sBnA==}
-    engines: {node: '>=20.19.0'}
-
   error-stack-parser-es@1.0.5:
     resolution: {integrity: sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA==}
 
@@ -1526,9 +1519,6 @@ packages:
 
   node-fetch-native@1.6.7:
     resolution: {integrity: sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==}
-
-  node-html-parser@9.0.1:
-    resolution: {integrity: sha512-QrdiYYm1NnLRXsMXThUgVcF/syWfWIgHFmy8hylWMGFbHFtnRuXLBxxGQvIm3xaIJMUDJ0ayOmT/FGJYT3pZIw==}
 
   node-mock-http@1.0.5:
     resolution: {integrity: sha512-KQyt/wLjG3TAc7DOUhpqWzgd4ERxR80JOlTK5VE5R1S12IaPVN5qkj4klBce9HPG1Njuup4Sb5bljaT34lIyjw==}
@@ -2897,8 +2887,6 @@ snapshots:
 
   entities@6.0.1: {}
 
-  entities@8.0.0: {}
-
   error-stack-parser-es@1.0.5: {}
 
   es-module-lexer@2.3.2: {}
@@ -3207,11 +3195,6 @@ snapshots:
       '@types/nlcst': 2.0.3
 
   node-fetch-native@1.6.7: {}
-
-  node-html-parser@9.0.1:
-    dependencies:
-      css-select: 5.2.2
-      entities: 8.0.0
 
   node-mock-http@1.0.5: {}
 
