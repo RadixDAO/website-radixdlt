@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc86",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:41.422Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-03-25T00:00:00.000Z",
+  "guest-name": null,
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfa5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f405c661dd4ad04eccb6_podcast-17.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard explores risk management solutions in DeFi with Potion.Finance contributors Alfablok and Buendia.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard explores risk management solutions in DeFi with Potion.Finance contributors Alfablok and Buendia.</p><p>Potion is a risk management layer for DeFi, allowing people to manage the risk of their crypto in DeFi positions as well as the volatility that is inherent in the DeFi space.</p><p>Alfablok and Buendia take Piers on an expedition through the intricacies of risk-taking and risk management, proposed alternatives to the Modern Portfolio Theory, Nassim Taleb’s risk management theories, and applications of the Kelly criterion.</p><p>[00:00:46] Where did the inspiration for Potion.Finance come from and what is the purpose of its creation?</p><p>[00:01:52] An overview of Modern Portfolio Theory and its current place in traditional finance</p><p>[00:04:30] Limitations of the Modern Portfolio Theory</p><p>[00:08:38] The first steps in active risk management on DeFi</p><p>[00:10:32] Explanation of the terms “hedged positions” and “put options”</p><p>[00:15:44] Potion’s solution for making hedging accessible to people who are unfamiliar with the complexities of put options</p><p>[00:18:51] Addressing the two sides of put options: the buyer and the seller</p><p>[00:25:58] Potion’s simulation laboratory</p><p>[00:33:00] The Kelly criterion and how the Potion team implemented it into its protocol</p><p>[00:45:23] Creating an emergent pricing model based on the utilisation</p><p>[00:47:06] Conclusion: Does Potion provide an easy way for people to hedge, and does it generate option prices that people are willing to pay?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://potion.fi/#/\">Potion</a></li><li>Twitter: <a href=\"https://twitter.com/PotionLabs\">@PotionLabs</a>&nbsp;</li><li>Medium: <a href=\"https://medium.com/@PotionLabs\">Potion Labs</a>&nbsp;</li><li>Discord: <a href=\"http://discord.potion.finance/\">discord.potion.finance</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8209363-potion-finance-a-new-decentralised-model-for-pricing-risk",
+  "name": "Potion.Finance: a new decentralised model for pricing risk.",
+  "slug": "potion-finance-a-new-decentralised-model-for-pricing-risk"
+ }
+}

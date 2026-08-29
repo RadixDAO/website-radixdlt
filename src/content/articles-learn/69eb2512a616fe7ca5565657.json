@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565657",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:25:50.640Z",
+ "createdOn": "2026-04-24T08:08:35.392Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf8214",
+  "full-article-text": "<p id=\"\">A <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-layer-1-l1-and-layer-2-l2-networks\"><strong id=\"\">“Layer 2” (L2)</strong></a> is another network built on top of a primary <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-layer-1-l1-and-layer-2-l2-networks\"><strong id=\"\">“Layer 1” (L1)</strong></a> network such as <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a><strong id=\"\">, </strong>which does not depend on any other network. L2 networks may have their own set of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validators</strong></a>, liquidity, and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> economic systems.&nbsp;</p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">Composing</strong></a> transactions between the L1 and L2 networks is difficult, as they are separate networks with their own sets of protocol rules. This makes cross-<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApp</strong></a> communication between the L1 and L2 very complicated, with no solution yet for composing “atomic” <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a> between L1 and L2 networks within a single <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transaction</strong></a>. (When a transaction is <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic</strong></a>, all parts of the transaction either settle all together, or it safely fails - it’s all or nothing.)</p><p id=\"\">By losing “atomic composability,” you potentially break most <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> use cases, or at best, make them very complicated. For example, flash loans<strong id=\"\"> </strong>are not possible without <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic composability</strong></a>, as one part of the transaction is to borrow a lot of liquidity, and another part of the transaction is to pay it back - all in one transaction. L2 networks, therefore, create silos of liquidity and fragment DeFi ecosystems.</p><p id=\"\">This is why <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> is built from the ground up to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">scale</strong></a> without friction. By delivering<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-linear-scalability\"> <strong id=\"\">linear scaling </strong></a>without breaking atomic composability as part of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">fully sharded</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">Radix Xi’an release</strong></a>, no L2 solutions will ever be necessary on Radix.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-layer-1-l1-and-layer-2-l2-networks\"><strong id=\"\">What are Layer 1 (L1) and Layer 2 (L2) networks?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What's wrong with Layer 2 (L2) scaling?",
+  "slug": "whats-wrong-with-layer-2-l2-scaling"
+ }
+}

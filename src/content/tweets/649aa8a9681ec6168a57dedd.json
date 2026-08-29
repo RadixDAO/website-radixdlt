@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dedd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-08T19:38:39.820Z",
+ "createdOn": "2022-12-08T19:38:39.820Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "23f65c4f16147049f599abaac991764c",
+  "url": "https://twitter.com/AmirImaduddin/status/1600933461988372480?s=20&t=0iCpupz-1U23um56cWSmMA",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57e316",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63923d3a4741e92ce597d18a_9.jpg",
+   "alt": null
+  },
+  "content": "#RadFi2022 is the beginning of the web3 going mainstream . It isn’t long until people start to replace TradFi with DEFI, and #Radix is definitely going to be the gateway to that.",
+  "order": null,
+  "name": "Imaduddin Amir",
+  "slug": "imaduddin-amir"
+ }
+}

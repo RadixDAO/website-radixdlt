@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e40",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:07.924Z",
+ "createdOn": "2026-04-24T08:06:07.924Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">If you wish to unstake, i.e. convert your <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit (LSU)</strong></a> tokens to claim back the underlying <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">XRD</strong></a> held inside a <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-validator-component\"><strong id=\"\">validator component’s</strong></a> staked pool, you must wait 2,016 <a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix\"><strong id=\"\">epochs</strong></a> (approximately 7 days) for the underlying XRD to be unstaked.</p><p id=\"\">If you are a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node\"><strong id=\"\">validator</strong></a> node-runner and have locked your LSUs as owner stake, then the unstake period is 8,064 epochs, or approximately 28 days.&nbsp;</p><p id=\"\">To learn how this works, see <a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix?</strong></a> and <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd\"><strong id=\"\">How to Stake and Unstake XRD</strong></a><strong id=\"\">.</strong></p><p id=\"\">‍<strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">What is a Liquid Stake Unit (LSU) and Native Liquid Staking?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix\"><strong id=\"\">How long is an epoch on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd\"><strong id=\"\">How to Stake and Unstake XRD</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How long does it take to convert LSUs to XRD and unstake?",
+  "slug": "how-long-does-it-take-to-convert-lsus-to-xrd-and-unstake"
+ }
+}

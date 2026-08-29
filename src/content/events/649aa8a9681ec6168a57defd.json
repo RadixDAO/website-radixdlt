@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57defd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2023-02-20T17:12:34.423Z",
+ "createdOn": "2023-02-10T17:32:53.644Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e342",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63d9261ea4372f0e6c4d6ed5_podcast.jpg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "The evening will focus on the Radix DLT tech stack, and future of DeFi! Come along and network with like minded people, sharing what people are building in the web3 space and how could help such projects grow. Limited spaces are available. D﻿irection: https://goo.gl/maps/BPnLinkkUVfPkiJa8 C﻿ontact @cryptoafrica254a on Telegram.",
+  "location": "KIPEVU RESTAURANT & LOUNGE Thika Road,KCA Centre Nairobi, 00100 Kenya",
+  "start-date": "2023-02-17T00:00:00.000Z",
+  "end-date": "2023-02-17T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/web-3-fuilders-and-founders-meetup-tickets-542230906237",
+  "name": "Web 3 Builders and Founders Meetup - Nairobi ",
+  "slug": "web-3-builders-and-founders-meetup-nairobi"
+ }
+}

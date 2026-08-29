@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4ae",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:22.507Z",
+ "createdOn": "2026-04-24T08:06:22.507Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=6YStgljUqPc\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/6YStgljUqPc\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-seed-phrase\"><strong id=\"\">seed phrase</strong></a> used to sign for your accounts (at least ones not using a <a id=\"\" href=\"http://learn.radixdlt.com/article/using-ledger-nano-s-s-plus-or-x-with-the-radix-wallet\"><strong id=\"\">Ledger</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-software-and-hardware-wallets\"><strong id=\"\">hardware wallet</strong></a>) is protected by the phone's built-in security and requires your device's biometrics/PIN (whatever you've configured) to access it. If you lose your phone, delete the app, or disable that device security, it eliminates the ability to access that seed phrase.</p><p id=\"\">When you see apps automatically return to their last state when deleted and reinstalled, that's using a cloud backup of that app's settings. And in fact the <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-wallet\"><strong id=\"\">Radix Wallet</strong></a> also does that – but only for the overall configuration of your wallet, like your account names, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">personas</strong></a>, list of known <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApps</strong></a>, and settings.</p><p id=\"\">But that backup does NOT contain the seed phrase, because storing your seed phrase in the cloud would be a <strong id=\"\">terrible</strong> idea. So if you reinstall the app (or lose your phone and get a new one, etc), the Wallet app will let you choose if you want to restore its state from that cloud backup (rather than just silently doing it automatically). And after that it will ask you to re-enter the seed phrase so that it can start <strong id=\"\">controlling</strong> your accounts again. Once multifactor authentication (MFA) is implemented in the wallet, the recovery of control gets handled by the MFA system and you can get back to where you were without the seed phrase. But until then, the Radix Wallet is in normal crypto wallet mode. <strong id=\"\">For now, you must back up your seed phrase</strong> – and the wallet will be actively prompting users to do that as soon as an account has <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">XRD</strong></a> in it (ie. it actually has meaning to lose it).</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Start Here! Radix Wallet User Guide</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "How to Recover your Radix Wallet from Backup",
+  "slug": "how-to-recover-your-radix-wallet-from-backup"
+ }
+}

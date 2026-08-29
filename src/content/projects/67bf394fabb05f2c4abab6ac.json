@@ -1,0 +1,30 @@
+{
+ "id": "67bf394fabb05f2c4abab6ac",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-26T16:01:44.513Z",
+ "lastUpdated": "2025-02-26T15:54:55.357Z",
+ "createdOn": "2025-02-26T15:54:55.357Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Custody, Prime Services, and Collateral Management for Digital Assets",
+  "project-logo": {
+   "fileId": "67bf39155478ae1b33879ccc",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf39155478ae1b33879ccc_idlob7siGx_1740392029635.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "67bf391782794df4b16d03e7",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67bf391782794df4b16d03e7_Copper.png",
+   "alt": null
+  },
+  "link-to-project": "https://copper.co/en",
+  "categories": [
+   "66dafd4047c321c70ec59b34"
+  ],
+  "rank": 25,
+  "featured": false,
+  "name": "Copper",
+  "slug": "copper"
+ }
+}

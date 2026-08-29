@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c9e02830a749a0bedb9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.758Z",
+ "createdOn": "2026-04-26T18:42:38.976Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": null,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5c9e02830a749a0bedb4",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9e02830a749a0bedb4_63c04a9b7356ec627d0d43bc_Ideomaker%2520icon.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbd13e17cc4b345c2fa"
+  ],
+  "description": "Ideomaker is a multi tool application allowing users to easily build products and services faster on an open network of global creators and suppliers, and to boost their distribution with automated sales and logistics.",
+  "github-url": null,
+  "website-url": "https://ideomaker.com/",
+  "name": "Ideomaker",
+  "slug": "ideomaker"
+ }
+}

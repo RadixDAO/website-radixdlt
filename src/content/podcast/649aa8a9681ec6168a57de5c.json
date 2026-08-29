@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de5c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-07-01T18:18:28.929Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-07-01T00:00:00.000Z",
+  "guest-name": "Josh Primero",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e235",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62bf39f68fa759bca085de48_Head%20josh.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "Josh is one of Radix’s most senior and longest-standing developers. Piers sits down with him for a chat, just like they did at South by Southwest in Texas, only this time in the studio.",
+  "main-content": "<p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"‍https://youtu.be/IpA7ZeGUdFo\"><div><iframe src=\"https://www.youtube.com/embed/IpA7ZeGUdFo\" title=\"Meet the Team - Josh Primero from machine code to front end. A full stack journey.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍</p><p id=\"\">Josh is one of Radix’s most senior and longest-standing developers. Piers sits down with him for a chat, just like they did at South by Southwest in Texas, only this time in the studio.</p><p id=\"\"><strong id=\"\">[0:47]</strong> Where did Josh go to university and what did he study there?&nbsp;</p><p id=\"\"><strong id=\"\">[3:47]</strong> What courses or subjects stand out the most in terms of teaching Josh principles that he has applied throughout his career?</p><p id=\"\"><strong id=\"\">[6:19]</strong> The cost of rushing the manufacturing process</p><p id=\"\"><strong id=\"\">[13:00]</strong> Josh's experience at his first job after graduating from university, which was at Nvidia</p><p id=\"\"><strong id=\"\">[15:58]</strong> What were the key areas of personal growth that Josh experienced while at Nvidia?</p><p id=\"\"><strong id=\"\">[17:39]</strong> What did Josh discover that aided in the tractability of systems? How did he begin to learn to think about systems in such a way that developing systems became tractable?</p><p id=\"\"><strong id=\"\">[23:42]</strong> Josh's formative experience at the repubHub start-up following his departure from Nvidia – What he learned from building at a higher level</p><p id=\"\"><strong id=\"\">[27:30]</strong> Did Josh have any preconceived notions regarding the difficulty or ease of developing web applications versus low-level systems? Was there anything he learned on his journey that made him think he wasn't completely right about those things?</p><p id=\"\"><strong id=\"\">[29:15]</strong> What else did Josh learn at repubHub that influenced his approach to building?</p><p id=\"\"><strong id=\"\">[30:38]</strong> What was the first design conversation around building the language that is now Scrypto when Josh and the team picked up Scrypto and identified what was crucial about the language?</p><p id=\"\"><strong id=\"\">[33:44]</strong> The early decision to begin with the syntax rather than attempting to build the underlying implementation</p><p id=\"\"><strong id=\"\">[35:16]</strong> Design philosophy, functionality, and fundamental design constraints</p><p id=\"\"><strong id=\"\">[40:21]</strong> What did Josh learn from Scrypto's initial ideas and the testing process of first getting the team to build with Scrypto, and subsequently the developer community? And what are the most significant modifications that have resulted from those discoveries in the Radix Engine v2?</p><p id=\"\"><strong id=\"\">[44:26]</strong> There is a significant difference between the Radix Engine v1 and the Radix Engine v2. How much of the Scrypto development process influenced the Radix Engine v2 design?</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10889950-meet-the-team-josh-primero-from-machine-code-to-front-end-a-full-stack-journey",
+  "name": "Meet the Team - Josh Primero from machine code to front end. A full stack journey.",
+  "slug": "meet-the-team-josh-primero-from-machine-code-to-front-end-a-full-stack-journey"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "64c3c7569f304157054a2603",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2023-07-28T13:49:10.296Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2023-07-28T00:00:00.000Z",
+  "guest-name": "Lasha Antadze",
+  "guest-image": {
+   "fileId": "64cd198979670c05feb8cd1a",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64cd198979670c05feb8cd1a_Lasha-Antadze.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "64cd199cb4cc71de9c967432",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64cd199cb4cc71de9c967432_J5eCYACo_400x400.jpg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard talks with Lasha Antadze, co-founder of Rarify Labs. They explore the growing value of identity across digital ecosystems, the challenges of portable identity in the crypto space, and the benefits of Rarimo's interoperability protocol for application builders.",
+  "main-content": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/y-ymBN8P9Nc\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/y-ymBN8P9Nc\" title=\"Rarimo: an interoperability protocol for the decentralized social identity\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">‍</p><p id=\"\">In this episode of the DeFi Download, Piers Ridyard talks with Lasha Antadze, co-founder of Rarify Labs. They explore the growing value of identity across digital ecosystems, the challenges of portable identity in the crypto space, and the benefits of Rarimo's interoperability protocol for application builders.</p><h3 id=\"\">Summary</h3><p id=\"\">Rarify Labs focuses on creating and implementing interoperability protocols for identity and reputation. Their goal is to make identity portable across ecosystems and layer-1 protocols, allowing users to carry their reputation with them when they move between different applications. To accomplish this, they developed Rarimo, an interoperability protocol that provides identity primitives supported by the ecosystem, enabling users to transfer their reputation across different chains and dApps.</p><p id=\"\">Rarimo enables the movement of reputation and identity components across different ecosystems. It integrates with various identity providers, making it easier for developers to incorporate identity and reputation standards into their dApps. The protocol emphasizes the need for end-to-end flow and demonstrates how it tangibly improves the user experience. Developers are expected to start building on top of Rarimo by the end of the summer.</p><h3 id=\"\">Key takeaways</h3><ul id=\"\"><li id=\"\">The concept of portable identity is difficult to solve because identity evolves and is not just a token, but a token with history associated with it.</li><li id=\"\">Rarimo aggregates various identity components that exist across different forms and allows for full control and management of this entire interaction on-chain via smart contracts.</li><li id=\"\">Rarimo is expected to launch with partnerships with the ten largest identity providers, and a beta mainnet will be available by the end of the summer.</li><li id=\"\">The best place to get started with Rarimo is to read through the documentation available on their website, <a id=\"\" href=\"https://docs.rarimo.com/\">docs.rarimo.com</a>.</li><li id=\"\">The development of identity space and standardization will require time and upbuilding, but Rarify Labs is committed to delivering tangible and user-centric demos to address these challenges.</li></ul><h3 id=\"\">Chapters\t\t</h3><p id=\"\"><strong id=\"\">[01:08]</strong> Why is identity becoming an increasingly important topic in the Web3 and DeFi space?</p><p id=\"\"><strong id=\"\">[03:14]</strong> Is identity interoperability the missing Holy Grail in the crypto space?</p><p id=\"\"><strong id=\"\">[04:00]</strong> Managing multiple identities across different platforms in the digital space using blockchain and Web3</p><p id=\"\"><strong id=\"\">[06:28]</strong> What is Lasha Antadze's background in identity and what makes him interested in identity today?</p><p id=\"\"><strong id=\"\">[10:47]</strong> COVID-19's impact on digital identity in the crypto and Web3 space, changes making identity more portable and creatable on ledger, and how this applies to businesses in the crypto ecosystem</p><p id=\"\"><strong id=\"\">[14:41]</strong> What is Rarimo doing in the identity space?</p><p id=\"\"><strong id=\"\">[18:46]</strong> The challenge of portable identity in the crypto space</p><p id=\"\"><strong id=\"\">[21:38]</strong> What benefits does Rarimo integration provide for application developers, and when should they consider using Rarimo's tools?</p><p id=\"\"><strong id=\"\">[24:43]</strong> What identity providers is Rarimo integrated with?</p><p id=\"\"><strong id=\"\">[26:58]</strong> What is the expected launch date for Rarimo and how can people get involved?</p><h3 id=\"\">Further resources</h3><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"http://rarimo.com/\">http://rarimo.com/</a>&nbsp;</li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.gg/Bzjm5MDXrU\">https://discord.gg/Bzjm5MDXrU</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/13307266-rarimo-an-interoperability-protocol-for-the-decentralized-social-identity",
+  "name": "Rarimo: an interoperability protocol for the decentralized social identity",
+  "slug": "rarimo-an-interoperability-protocol-for-the-decentralized-social-identity"
+ }
+}

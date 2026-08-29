@@ -1,0 +1,29 @@
+{
+ "id": "64f1fd13ef9e22120fdde274",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2023-09-01T15:02:43.529Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2023-09-01T00:00:00.000Z",
+  "guest-name": "Cyrille Pastour",
+  "guest-image": {
+   "fileId": "64f1fc6c83d4a6f22568bd19",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64f1fc6c83d4a6f22568bd19_Cyrille-Pastour.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "64f1fc6f7f8a8404d0143b97",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64f1fc6f7f8a8404d0143b97_photo_2023-08-02%2013.48.28.jpeg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Cyrille Pastour, co-founder of Swaap. Cyrille and Piers discuss the inner workings of the automated market maker that is designed to protect liquidity providers by dynamically responding to the market.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/GKZE0ksVcsc\"><div><iframe src=\"https://www.youtube.com/embed/GKZE0ksVcsc\" title=\"Swaap: Making Liquidity Provision Profitable in DeFi.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍</p><p id=\"\">In this episode of the DeFi Download, Piers Ridyard interviews Cyrille Pastour, co-founder of Swaap. Cyrille and Piers discuss the inner workings of the automated market maker that is designed to protect liquidity providers by dynamically responding to the market.</p><h3 id=\"\">Summary</h3><p id=\"\">Swaap provides yield to liquidity providers by utilising cutting-edge market-making models developed in collaboration with mathematicians. They use oracles and dynamic spread to ensure real and long-term yields.&nbsp;</p><p id=\"\">Swaap's algorithm determines what pricing it will provide to the market on a per-swap basis and includes safeguards to limit damage in the event of a hack. It is designed to safeguard liquidity providers against impermanent loss and ensure that returns are greater than hodling.</p><p id=\"\">During their discussion, Piers and Cyrille clarify the difference between exchanges and market makers. They analyse the problem Swaap seeks to address and the role of market makers in mature versus immature markets in determining price. They also touch on issues with Uniswap v2, in which liquidity providers are perpetually behind the information curve and unable to rebalance themselves, whereas arbitrageurs can make risk-free profits by manipulating the market price.</p><h3 id=\"\">Key takeaways</h3><ul id=\"\"><li id=\"\">Swaap v2 is a new iteration in terms of infrastructure that aims to be more flexible and have better performance than Swaap v1.</li><li id=\"\">Swaap v2 has a hybrid infrastructure consisting of both on-chain and off-chain components. The off-chain module operates the quotation system to provide faster price information, and the on-chain verification module prevents extreme events and ensures a trust-minimized environment.</li><li id=\"\">Swaap is available on both Ethereum and Polygon, with Polygon being a preferable option for smaller portfolios due to its lower gas fees.</li><li id=\"\">The Swaap protocol enables DAOs to create liquidity against volatile assets, and the team is working on establishing partnerships with a number of DAOs.</li></ul><h3 id=\"\">Chapters\t\t</h3><p id=\"\"><strong id=\"\">[01:05]</strong> What is the problem that Swaap is looking to solve as an automated market maker in the DeFi space, and why is it important to separate exchanges and market makers when considering liquidity providers and users?</p><p id=\"\"><strong id=\"\">[03:59]</strong> The Uniswap conundrum: How inexperienced traders create risk-free profits for arbitrageurs</p><p id=\"\"><strong id=\"\">[05:49</strong>] The role of market makers in mature vs. immature markets for determining price</p><p id=\"\"><strong id=\"\">[08:38]</strong> Uniswap v2 liquidity providers are behind the information curve, while arbitrageurs make risk-free profits</p><p id=\"\"><strong id=\"\">[12:02]</strong> The roles of exchange venues and market makers in financial market liquidity and market-making success factors</p><p id=\"\"><strong id=\"\">[14:54]</strong> How Swaap differs from other market makers</p><p id=\"\"><strong id=\"\">[18:54]</strong> Swaap's solution to sophisticated market actors exploiting liquidity providers&nbsp;</p><p id=\"\"><strong id=\"\">[28:25]</strong> How Swaap's algorithm guards liquidity providers against hacks and impermanent loss</p><p id=\"\"><strong id=\"\">[31:29]</strong> What's next on Swaap's roadmap and what to get excited about after V2</p><p id=\"\"><strong id=\"\">[33:43]</strong> Where can people find out more about Swaap, and should they start on Ethereum or Polygon?</p><h3 id=\"\">Further resources</h3><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://www.swaap.finance/\">swaap.finance</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/swaapfinance\">@SwaapFinance</a>&nbsp;</li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/vMNHgz7bMU\">discord.com/invite/vMNHgz7bMU</a>&nbsp;</li></ul><p id=\"\">‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/13512147-swaap-making-liquidity-provision-profitable-in-defi",
+  "name": "Swaap: Making Liquidity Provision Profitable in DeFi.",
+  "slug": "swaap-making-liquidity-provision-profitable-in-defi"
+ }
+}

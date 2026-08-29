@@ -1,0 +1,33 @@
+{
+ "id": "649aa8a9681ec6168a57df17",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:49.777Z",
+ "createdOn": "2023-04-11T16:34:25.595Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2023-04-11T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3a",
+   "64a6bc7c6c0b576765c2c6ec"
+  ],
+  "image": {
+   "fileId": "64b91ae9d09c0bceba9e3658",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64b91ae9d09c0bceba9e3658_64358bf946edf77756e075dd_Babylon%2520Upgrade.png",
+   "alt": null
+  },
+  "excerpt": "The Radix Public Network upgrade from Olympia to Babylon will occur on or about September 27th, 2023, paving the way for global Web3 and DeFi to finally exit the “tech demo” stage with a mainstream-capable user and developer experience.",
+  "main-content": "<p id=\"\">The Radix Public Network upgrade from Olympia to Babylon will occur on or about September 27th, 2023, paving the way for global Web3 and DeFi to finally exit the “tech demo” stage with a mainstream-capable user and developer experience.&nbsp;&nbsp;</p><p id=\"\">The date is approximate because, as detailed in the <a id=\"\" href=\"http://www.radixdlt.com/blog/babylon-automatic-migration-guide\">Babylon Automatic Migration Guide</a>, it’s ultimately up to the Olympia validator set to approve the protocol update which will start the countdown to Babylon.</p><h2 id=\"\"><strong id=\"\">Why July instead of June?</strong></h2><p id=\"\">Following the <a id=\"\" href=\"https://www.radixdlt.com/blog/babylon-rcnet-released\">release of the RCnet network</a>, the team reviewed the state of development against the full list of activities that had to be completed prior to the Babylon upgrade and saw that everything would have to go <em id=\"\">exactly to plan</em> in order to make June.</p><p id=\"\">For example, there just wasn’t enough time to adjust to any difficulties encountered during testing of the Olympia to Babylon migration, which requires a significant amount of coordination across teams to perform a complete end-to-end test run.</p><p id=\"\">Given the high number of projects already making plans around the Babylon upgrade, the responsible development path was to allocate some additional time for hiccups to occur rather than hope for the best and risk a last-minute delay.</p><h2 id=\"\"><strong id=\"\">What can we expect to see ahead of the Babylon upgrade?</strong></h2><p id=\"\">In under a month, members of the first cohort of the Radix Grants Program will be joining the RDX Works team at <a id=\"\" href=\"http://www.radixdlt.com/blog/its-time-for-consensus-and-were-bringing-some-friends\">Consensus in Austin</a>, showcasing their work and spreading the good word about the full stack for DeFi.</p><p id=\"\">There will be a follow-up test network release, RCnet 2, which is planned for mid-June, along with accompanying updates to the developer preview mobile wallets, Radix Dashboard, Gateway, and the host of developer tools.</p><p id=\"\"><a id=\"\" href=\"https://docs-babylon.radixdlt.com/main/frontend/rola.html\">Radix Off-Ledger Authentication</a> (ROLA) will accompany the RCnet 2 release, giving developers access to the tools needed to let their users <em id=\"\">prove</em> that they own an account or identity, without needing to submit a transaction.</p><p id=\"\">You’ll also see a blog post laying out the feature set that will ship with the v1.0 Babylon Wallet, so developers can have clear expectations around what their customers’ user experience will be right out of the gate.</p><h2 id=\"\"><strong id=\"\">Babylon buzz: Momentum is building</strong></h2><p id=\"\">While it’s no fun to hear about a month’s delay, the good news is that sentiment about Radix has never been better.&nbsp; Team morale is still pegged at 11 since RCnet release, and meetings with integrators have been an absolutely unbroken spate of Radix revelations being delivered.&nbsp; At this point you can practically set your watch to the cadence of “help us get started,” followed by “this transaction model is very different,” followed by “transaction manifests are <em id=\"\">really interesting</em>,” followed by the lightbulb going on.</p><p id=\"\">Regardless of what initially brings someone to Radix, whether it’s the radically better user experience, Scrypto, scalability without breaking composability, RadFi, or even something as light-touch as a simple exchange integration, the one constant is that it’s <em id=\"\">sticky</em>.&nbsp; As soon as someone sits down and starts to engage with what’s coming with Babylon, it’s only a matter of time before they’re hooked, and rightly so!&nbsp; The game is about to change, and watching people have that realization is exciting <em id=\"\">every time</em>.</p><p id=\"\">Speaking of momentum, there are some exciting ecosystem partnership announcements in the pipeline; keep your crypto Twitter eyes peeled!<br><br><br><br><strong id=\"\"><em id=\"\">‍</em></strong></p><p id=\"\">‍</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\"><em id=\"\">An update has been made to this article, it has since been decided that the Babylon Upgrade will happen on or about September 27th 2023, rather than what was originally proposed in this article, which was July 31st 2023. </em></strong></p><p id=\"\">‍</p>",
+  "seo-meta-description": "The Radix Public Network upgrade from Olympia to Babylon will occur on or about September 27th, 2023, paving the way for global Web3 and DeFi to finally exit the “tech demo” stage with a mainstream-capable user and developer experience.",
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Babylon Upgrade Date",
+  "slug": "babylon-upgrade-date"
+ }
+}

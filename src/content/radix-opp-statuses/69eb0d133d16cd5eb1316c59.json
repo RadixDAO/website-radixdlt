@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c59",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:23.481Z",
+ "createdOn": "2026-04-24T06:26:23.481Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8bf"
+  ],
+  "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+  "date-reported": "2022-12-29T14:00:00.000Z",
+  "last-update": "2022-12-29T15:45:00.000Z",
+  "content": "<p id=\"\">Impacted services were:<br></p><ul id=\"\"><li id=\"\">Mainnet Gateway</li><li id=\"\">Stokenet Gateway</li><li id=\"\">Babylon Betanet Gateway</li></ul><p id=\"\">The full outage lasted from about 14:00 till around 14:40 and a partial outage / slowness lasted until 15:11.</p><p id=\"\">‍</p><p id=\"\">Issue is now resolved</p>",
+  "name": "Gateway Outage",
+  "slug": "gateway-outage"
+ }
+}

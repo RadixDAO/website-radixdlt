@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57ff",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:27:06.463Z",
+ "createdOn": "2026-04-24T08:08:01.369Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/\">Radix</a> is the first layer-one protocol specifically built to serve DeFi. This protocol is the basis of the Radix public network – a fully decentralized platform for DeFi applications and users.&nbsp;<br></p><p id=\"\">Decentralized finance applications are currently built on protocols that are not fit for this purpose, leading to congestion, hacks and developer frustration. Radix changes this by introducing a scalable, secure-by-design, composable platform with a DeFi centric development environment to make it easy to build and launch scalable DeFi products.<br></p><p id=\"\">This means that Radix is the only decentralized network where developers will be able to build quickly without the constant threat of exploits and hacks, where every improvement will get rewarded, and where scale will never be a bottleneck.<br></p><p id=\"\">Radix will deliver on this vision across a sequence of public network releases that will start with core decentralization (Olympia release), move on to developer features necessary to create an active community of builders and applications (Alexandria and Babylon releases), and finally provide the unlimited scalability those applications will need (Xi’an release).</p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": true,
+  "feature-in-category-header": true,
+  "feature-in-search": true,
+  "article-likes": null,
+  "name": "What is Radix DLT?",
+  "slug": "what-is-radix-dlt"
+ }
+}

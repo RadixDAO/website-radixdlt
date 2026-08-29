@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc2c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:03:16.689Z",
+ "createdOn": "2021-04-25T19:17:33.111Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Social Media Manager – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57df9e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d0060c0ceb3143dc73b5_jacob.png",
+   "alt": null
+  },
+  "bio-excerpt": "Originally from Sydney, Jacob has spent the last 6 years helping UK businesses build their brand using Social Media. While his career started talking about the Land Rover Defender, Jacob has had a love for all things Crypto since 2016.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/jacob-mcatamney-1296481bb/",
+  "blank-item": false,
+  "order": 14,
+  "name": "Jacob McAtamney",
+  "slug": "jacob-mcatamney"
+ }
+}

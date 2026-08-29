@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4e2",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:50.671Z",
+ "createdOn": "2026-04-24T08:06:50.671Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\">XRD Staking Emissions Rewards</strong></p><p id=\"\">A <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator</strong></a> staking to their own node will receive rewards in exactly the same way as a third party staking to it.</p><p id=\"\"><strong id=\"\">Validator Fee</strong></p><p id=\"\">If you are a participating “top 100” validator node-runner, you may also specify a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">validator fee</strong></a> that provides you, as the owner, with a portion of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong>.</a> Your emissions will then be proportional to that fee % and, importantly, the relative amount of stake delegated to the node, both by yourself and others.</p><p id=\"\">If your validator missed a single proposal in an epoch, i.e. had less than 100% participation, the rewards earned by your validator for that epoch are zero; and thus your fees are also zero.&nbsp;</p><p id=\"\">If your validator had 100% participation in an epoch, you may calculate your validator fee emissions as:</p><p id=\"\"><strong id=\"\">E x V x F</strong></p><p id=\"\"><strong id=\"\">E</strong> = This <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch’s</strong></a> total emissions XRD (fixed)</p><p id=\"\"><strong id=\"\">V</strong> = Your validator node’s % of total delegated stake (for this epoch)</p><p id=\"\"><strong id=\"\">F</strong> = Fee % for your node (for this epoch)</p><p id=\"\">So let’s say you have drawn 1% of the total delegated stake to your node. You have set your validator fee to 2%. Your node has 100% participation in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> (of course!). Then your share of the rewards for the epoch will be:</p><p id=\"\"><strong id=\"\">E</strong> x 0.01 x 0.02 = 0.0002 of total <strong id=\"\">E</strong></p><p id=\"\">Over the course of a year of about 300,000,000 XRD emitted, this means you would receive 60,000 XRD – a good incentive to run a high-quality node for a year!</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-validator-node-runners-incentivized\"><strong id=\"\">How are validator node-runners incentivized?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-penalties-are-calculated-general\"><strong id=\"\">How XRD staking emissions rewards are calculated - general</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-are-calculated-for-token-holders\"><strong id=\"\">How XRD staking emissions rewards are calculated - for token holders</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">What are validator fees?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "How XRD staking emissions rewards and validator fees are calculated - for validators",
+  "slug": "how-xrd-staking-emissions-rewards-and-validator-fees-are-calculated-for-validators"
+ }
+}

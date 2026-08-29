@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de25",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-05-27T14:42:38.541Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-05-27T00:00:00.000Z",
+  "guest-name": "Alex Mashinsky",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0ea",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/626c12abf0e84f644f21b07e_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0eb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/626c138a2ecb5d23181c97e9_celsius.png",
+   "alt": null
+  },
+  "excerpt": "In this special edition of the DeFi Download, Piers Ridyard interviews Alex Mashinsky, CEO of Celsius, about what's going on in the market today. Alex addresses everyone's concerns and interest in learning more about why things are happening the way they are, what people believe will happen in the future, and what lessons we can learn.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/RIk9SgznO7Q\"><div><iframe src=\"https://www.youtube.com/embed/RIk9SgznO7Q\" title=\"View from the top - Alex Mashinsky (CEO of Celsius) on the current state of the crypto market.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>In this special edition of the DeFi Download, Piers Ridyard interviews Alex Mashinsky, CEO of Celsius, about what's going on in the market today. Alex addresses everyone's concerns and interest in learning more about why things are happening the way they are, what people believe will happen in the future, and what lessons we can learn.</p><p>Alex Mashinsky talks about his experience at Permissionless 2022, a DeFi conference in the United States, as well as his thoughts on the recent Terra Luna collapse, and the key lessons the DeFi development community can take away from it.&nbsp;</p><p><strong>[0:34]</strong> Alex has just returned from Permissionless. What did he hope to gain from attending the conference and what exactly is he seeing right now?</p><p><strong>[2:09]</strong> What was the nature of Celsius' first relationship with Terra Luna, and how did it begin? What prompted them to decide that was something they wanted to support? What happened to that over the course of Luna's rise and fall?</p><p><strong>[4:56]</strong> What is Alex's personal takeaway from the Luna collapse, and what does he believe the DeFi market as a whole should learn from it? What pain, if any, does he believe is yet to come? What else is going to happen from here on out?</p><p><strong>[7:43]</strong> What should you take away as a lesson for how to build in the future if you're a DeFi protocol developer working in this space, a founder or founding team?</p><p><strong>[9:49]</strong> Innovation during bear market cycles, the secondary market as the most important market to consider when developing DeFi protocols, and liquidation risk versus market capitalization</p><p><strong>[15:09]</strong> Alex's thoughts on the potential regulatory response</p><p><strong>[16:51]</strong> What can the industry do to help prevent the imposition of draconian regulations by regulators in the future?</p><p><strong>[18:16]</strong> What does Alex believe the market will do next? What are his forecasts for the next six, nine, or twelve months?</p><p><strong>[20:40]</strong> Uncertainty and the threat of a global recession. Is Alex of the opinion that this would be beneficial or detrimental to the cryptocurrency market?</p><p><strong>[23:48]</strong> Alex's closing remarks and rallying cry for the community</p><h4>Further resources</h4><ul><li>Twitter: <a href=\"https://twitter.com/Mashinsky\">@Mashinsky</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10692370-view-from-the-top-alex-mashinsky-ceo-of-celsius-on-the-current-state-of-the-crypto-market",
+  "name": "View from the top - Alex Mashinsky (CEO of Celsius) on the current state of the crypto market.",
+  "slug": "view-from-the-top-alex-mashinsky-ceo-of-celsius-on-the-current-state-of-the-crypto-market"
+ }
+}

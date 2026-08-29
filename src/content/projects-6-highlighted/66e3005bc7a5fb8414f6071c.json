@@ -1,0 +1,31 @@
+{
+ "id": "66e3005bc7a5fb8414f6071c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T18:16:47.858Z",
+ "lastUpdated": "2024-09-12T18:16:24.490Z",
+ "createdOn": "2024-09-12T14:53:15.186Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "An NFT marketplace for pro traders and creators, offering experimental tools and new standards to build the next wave of non-fungible Web3 experiences.",
+  "project-logo": {
+   "fileId": "66e329c70af4acd322e45775",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e329c70af4acd322e45775_trove_logo_240px.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66e329cb542df8e63412374a",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e329cb542df8e63412374a_radix_cover_trove.png",
+   "alt": null
+  },
+  "link-to-project": "https://trove.tools/",
+  "categories": [
+   "66dafd561128dd1593392a87",
+   "66dafd4ec76901ac3209fbb0",
+   "66dafd3847c321c70ec5953f"
+  ],
+  "rank": 3,
+  "name": "Trove",
+  "slug": "trove"
+ }
+}

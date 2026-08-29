@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dd05",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:01:42.938Z",
+ "createdOn": "2021-04-25T19:20:47.730Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Developer – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfe1",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6099327363f8ce7ca491df3f_Theo.png",
+   "alt": null
+  },
+  "bio-excerpt": "Theo has worked in a variety of EU companies and has developed his very own smart contracts. He has an interest in Raspberry Pi projects and Dungeons and Dragons and brings his sense of adventure and testing expertise to Radix.",
+  "twitter": null,
+  "linkedin": null,
+  "blank-item": false,
+  "order": 26,
+  "name": "Theoklitos Christodolou",
+  "slug": "theoklitos-christodolou"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69eb24ef1b0eed71608c57dd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:01:45.731Z",
+ "createdOn": "2026-04-24T08:07:50.202Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Coordinated forking is a feature of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">Radix Node</strong></a> that allows the community of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node\"><strong id=\"\">validator</strong></a> node-runners to quickly and seamlessly adopt new “fork” versions of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix protocol</strong> </a>– updates that change core aspects of the Radix protocol in a non-backward-compatible way. No off-ledger coordination is necessary to ensure everybody switches to the new fork at the same time.</p><p id=\"\">Here’s how it works:</p><p id=\"\">When a forking update to the protocol is released (as a new version of the Radix Node), node-runners will be able to update their node at whatever time is convenient for them. The new node will contain both the old (currently-running) version of the protocol <em id=\"\">and</em> the new proposed version of the protocol with the forking change. The node will register with the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">network</strong></a> that it is <em id=\"\">ready</em> to switch to the new protocol, but will continue to participate in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> using the <em id=\"\">existing</em> protocol until the network is ready to switch.</p><p id=\"\">More and more validators will update their nodes, each registering that they are ready to switch to the new protocol. Because these registrations are done on the network itself, each node can see every other node’s registration. This means that when a configurable threshold of nodes (actually a minimum threshold of stake delegated to those nodes) is met, all of the updated nodes will decide at exactly the same epoch to switch to the new protocol. The minimum threshold is set to ensure that enough nodes are ready to switch that consensus will safely and efficiently continue.</p><p id=\"\">If you’re a node-runner and want to know more details about the coordinated forking mechanism,<strong id=\"\"> </strong><a id=\"\" href=\"https://docs.radixdlt.com/main/node-and-gateway/coordinated-forking.html\"><strong id=\"\">see this entry in our documentation site</strong></a><strong id=\"\">.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What is Coordinated Forking?",
+  "slug": "what-is-coordinated-forking"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69ee5ca212ea220cf2b75d2a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.706Z",
+ "createdOn": "2026-04-26T18:42:42.158Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 5,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5ca212ea220cf2b75d25",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5ca212ea220cf2b75d25_6267151558273953d8ee6663_ociswap.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb86487a8df6997cbe7"
+  ],
+  "description": "Blazing the way for easy swaps at global scale. Ociswap is the first pairwise decentralized exchange in the special meow-y way that will be launched at the Radix Babylon release. Building exclusively on the future-proof Radix network with drastically reduced risk for hacks and exploits allows us to provide super easy, always fast and safe swaps at near zero cost.",
+  "github-url": null,
+  "website-url": "https://ociswap.com",
+  "name": "Ociswap",
+  "slug": "ociswap"
+ }
+}

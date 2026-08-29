@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57ded1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-12-04T15:16:13.404Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-12-04T00:00:00.000Z",
+  "guest-name": "Tim Bos",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e302",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/638cb9635514cd0dcfe1dcbd_Head%205.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e303",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/638cb97ade5d2d4e3a59efb8_xe5H6wTm_400x400.jpeg",
+   "alt": null
+  },
+  "excerpt": "The CEO and founder of ShareRing, Tim Bos, is the guest on this episode of the DeFi Download with host Piers Ridyard. Some of the subjects covered include how blockchain technology may benefit identity verification, how ShareRing manages the storing of personal information, and what the future holds for digital ID. ",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/shNNcSauhxY\"><div><iframe src=\"https://www.youtube.com/embed/shNNcSauhxY\" title=\"ShareRing: making identity and Web 3.0 work together.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">ShareRing is a digital identity blockchain system with features that enable its users to utilise their digital ID in the real world.</p><p id=\"\">The ShareRing platform does this by providing users with a highly secure Personal Information Vault where they may securely store encrypted personal information.&nbsp;</p><p id=\"\"><strong id=\"\">[01:03]</strong> The ShareRing experience, viewed from the user's perspective&nbsp;</p><p id=\"\"><strong id=\"\">[03:38]</strong> How can ShareRing enhance the user experience of possessing a digital identity and utilising it to attend an event?&nbsp;</p><p id=\"\"><strong id=\"\">[06:39]</strong> How difficult is it for the events industry to ensure that no one under the age of 18 is permitted entrance to an event and to verify an individual's identity?&nbsp;</p><p id=\"\"><strong id=\"\">[08:20]</strong> How does ShareRing handle user-generated friction, such as the need that tickets be downloaded and shown at the event entrance?&nbsp;</p><p id=\"\"><strong id=\"\">[10:17]</strong> How might blockchain technology aid in the management of verifiable identities?&nbsp;</p><p id=\"\"><strong id=\"\">[12:53]</strong> How does eKYC work?&nbsp;</p><p id=\"\"><strong id=\"\">[17:21]</strong> Does ShareRing intend to handle anti-money laundering from the standpoint of the source of wealth and funds, as well as the regulatory requirements that must be met in order to deposit funds in a financial marketplace?</p><p id=\"\"><strong id=\"\">[18:41]</strong> How does the process of exchanging data between institutions like banks work?</p><p id=\"\"><strong id=\"\">[22:52]</strong> How are digital documents stored and managed within the ShareRing Vault?&nbsp;</p><p id=\"\"><strong id=\"\">[24:00]</strong> Can ShareRing do PEP and sanctions checks?&nbsp;</p><p id=\"\"><strong id=\"\">[25:38]</strong> From the perspective of having verifiable credentials, a large portion of ShareRing's work is structured in accordance with the W3C's standards for decentralised identifiers (DIDs)&nbsp;</p><p id=\"\"><strong id=\"\">[26:38]</strong> What hurdles did ShareRing need to overcome in order to design credentials compliant with W3C specifications?</p><p id=\"\"><strong id=\"\">[28:28]</strong> The process of integrating standards and overcoming the issue of coping with continuously emerging ones&nbsp;</p><p id=\"\"><strong id=\"\">[30:10]</strong> From a philosophical standpoint, doesn't ShareRing's work contradict the ideals of public ledgers, complete pseudonymity, and the ability to transact without identifying oneself? Why is it important to have an actual identity when you can have things like soulbound tokens (SBTs) and reputation that don't have to relate to a real-world identity?&nbsp;</p><p id=\"\"><strong id=\"\">[32:02]</strong> Does a soulbound token offer a reference to an on-ledger zero-knowledge proof about a person, or is each soulbound token a unique issuance that depends on what you wish to prove?&nbsp;</p><p id=\"\"><strong id=\"\">[33:59]</strong> What is ShareRing's primary business growth strategy?&nbsp;</p><p id=\"\"><strong id=\"\">[38:41]</strong> What is ShareRing's approach to doing business?&nbsp;</p><p id=\"\"><strong id=\"\">[39:32]</strong> What is the definition of a transaction in the ShareRing ledger?&nbsp;</p><p id=\"\"><strong id=\"\">[41:11]</strong> How can ShareRing and the institutions with whom it partners ensure that the method of document verification is accurate?&nbsp;</p><p id=\"\"><strong id=\"\">[44:12]</strong> Hackathons hosted by ShareRing</p><p id=\"\">Further resources</p><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://www.sharering.network/\">sharering.network</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/ShareRingGlobal\">@ShareRingGlobal</a>, <a id=\"\" href=\"https://twitter.com/therealtimbos\">@TheRealTimBos</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11809401-sharering-making-identity-and-web-3-0-work-together",
+  "name": "ShareRing: making identity and Web 3.0 work together.",
+  "slug": "sharering-making-identity-and-web-3-0-work-together"
+ }
+}

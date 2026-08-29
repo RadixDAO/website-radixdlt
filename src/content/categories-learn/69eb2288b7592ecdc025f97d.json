@@ -1,0 +1,21 @@
+{
+ "id": "69eb2288b7592ecdc025f97d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T07:58:04.479Z",
+ "createdOn": "2026-04-24T07:58:00.280Z",
+ "isArchived": true,
+ "isDraft": true,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb2283b990f819bef61822",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb2283b990f819bef61822_639a0ab15536ce3cc56c932c_Radix%20Grants%20Program.png",
+   "alt": null
+  },
+  "number-of-questions": "1",
+  "subcategory-set": false,
+  "subcategory": null,
+  "name": "Grants Program",
+  "slug": "grants-program"
+ }
+}

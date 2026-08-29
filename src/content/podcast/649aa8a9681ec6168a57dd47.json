@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd47",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-07-02T17:27:35.017Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-07-02T00:00:00.000Z",
+  "guest-name": "Oliver Xie",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e018",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60df4c4be5f71cba72e8fd56_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e01d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60df4c5ac97bd0e4f96893dd_2021-06-28%208.38.14%20pm.jpg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Oliver Xie, the founder and CEO of the leading DeFi insurance protocol InsurAce. During their conversation, they discuss the various types of risk and the importance of coverage in the DeFi space, as well as what distinguishes InsurAce from its competitors.\n",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Oliver Xie, the founder and CEO of the leading DeFi insurance protocol InsurAce. During their conversation, they discuss the various types of risk and the importance of coverage in the DeFi space, as well as what distinguishes InsurAce from its competitors.</p><p>InsurAce is the leading decentralized insurance protocol, providing reliable, robust, and secure insurance services to DeFi users that allow them to secure their investment funds against a variety of risks.&nbsp;</p><p>InsurAce, a capital-pool-based insurance protocol, offers ultra-low portfolio premiums, cross-chain coverage, and sustainable returns in the form of the InsurAce Token (INSUR) and additional investment products.<br></p><p><strong>[0:46]</strong> What does InsurAce do, and how does it differ from its predecessors and peer DeFi insurance protocols like Nexus Mutual?</p><p><strong>[5:11]</strong> The most challenging aspect of developing an investment strategy as an insurance protocol is determining what the risk is in the first place; this is a necessary step in determining how much capital to put against risk, as well as how and whether you can cover that risk. So, how exactly does InsurAce accomplish this?</p><p><strong>[6:48]</strong> An example of an ideal risk event that InsurAce can cover and the type of risk associated with an Initial DEX Offering (IDO).</p><p><strong>[9:10]</strong> How does InsurAce protect against the risk of a smart contract hack or exploit?</p><p><strong>[12:42]</strong> The higher the stake, the lower the risk. What does this mean?</p><p><strong>[13:29]</strong> What happens if a user has Uniswap V3 coverage and decides to transfer liquidity from Uniswap V3 to Harvest Finance Uniswap V3 Strategy? Is the user charged the difference when using InsurAce? In terms of policy coverage, how does that work? Is it necessary to purchase a new policy for this purpose? Or does the user simply have the option of changing the policy parameters and thus paying a little extra?</p><p><strong>[15:15]</strong> How does InsurAce determine the appropriate level of capital adequacy and calculate the probability of correlated events to ensure capital coverage in the absence of strict insurance rules in DeFi?</p><p><strong>[20:36]</strong> InsurAce's capital-raising strategy: InsurAce staking and token rewards&nbsp;</p><p><strong>[22:30]</strong> From the user's perspective, how does purchasing insurance from InsurAce work?</p><p><strong>[24:36]</strong> InsurAce's multichain strategy: Which chains have they chosen so far, and how does the cross-chain system work?</p><p><strong>[31:44]</strong> The significance of insurance services, as well as Oliver's forecasts for the future of DeFi insurance</p><p><strong>[38:26]</strong> InsurAce's strategy for increasing capital providers' returns: free capital and investing premiums</p><p><strong>[41:35]</strong> What are InsurAce's most significant constraints and challenges in terms of capital versus capacity versus risk-writing ability?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://www.insurace.io/\">InsurAce.io</a></li><li>Twitter: <a href=\"https://twitter.com/insur_ace\">@insur_ace</a></li><li>Medium: <a href=\"https://blog.insurace.io/\">blog.insurace.io</a>&nbsp;</li><li>Discord: <a href=\"https://discord.gg/vCZMjuH69F\">discord.gg/vCZMjuH69F</a>&nbsp;&nbsp;</li></ul><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/8802457-insurace-making-defi-safer-for-everyone",
+  "name": "InsurAce. Making DeFi safer for everyone.",
+  "slug": "insurace-making-defi-safer-for-everyone"
+ }
+}

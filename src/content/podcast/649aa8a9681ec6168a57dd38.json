@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd38",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-06-18T14:13:33.813Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-06-18T00:00:00.000Z",
+  "guest-name": "Red",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfef",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cca92514b9354e69bfa2d7_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dff0",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cca9b7127efbce9abef772_6859.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard catches up with Red, Community Foreman at Harvest Finance. Piers and Red cover yield farming, compounding and automation, the inner workings of Harvest Finance, and why anonymity in DeFi matters, despite cases of fraud.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard catches up with Red, Community Foreman at Harvest Finance. Piers and Red cover yield farming, compounding and automation, the inner workings of Harvest Finance, and why anonymity in DeFi matters, despite cases of fraud.<br></p><p>Harvest Finance is a yield farming aggregator that automatically searches for the best DeFi returns possible. It allows users to deposit funds with confidence that they will always receive the best yields on their assets.</p><p><strong>[00:45]</strong> An ELI5 explanation of what yield farming is, why it matters, and how it began.</p><p><strong>[06:56] </strong>Harvest Finance's launch, the function and significance of the Harvest Finance governance token, and an examination of the ethos of fair launches.</p><p><strong>[08:01] </strong>Real-world examples of how a strategy might look.</p><p><strong>[11:27]</strong> Is the development of Harvest Finance necessitated by the congestion on Ethereum, or were there other factors at play?&nbsp;</p><p><strong>[19:47] </strong>Who develops the strategies at Harvest Finance and how do they get approved?</p><p><strong>[22:24] </strong>What is a Harvest Finance governance token and what is it used for?</p><p><strong>[28:06] </strong>How Harvest Finance overcame the challenge of establishing trust in the community despite having anonymous founders. The Harvest Finance hack and how they were able to grow following the event.</p><p><strong>[36:03]</strong> Reasons for anonymity in DeFi, as well as issues of trust and fraud.</p><p><strong>[42:51]</strong> What is next for Harvest Finance?</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://harvest.finance/\">harvest.finance</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/harvest_finance\">@harvest_finance</a>&nbsp;</li><li>Discord: <a href=\"https://discord.gg/gzWAG3Wx7Y\">discord.gg/gzWAG3Wx7Y</a>&nbsp;</li><li>Telegram: <a href=\"https://t.me/Breadforthepeople\">t.me/Breadforthepeople</a>&nbsp;</li><li>Reddit: <a href=\"https://www.reddit.com/r/HarvestFinance/\">/r/HarvestFinance/</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8724777-harvest-finance-maximise-your-defi-yield-the-easy-way",
+  "name": "Harvest Finance: Maximise your DeFi yield the easy way",
+  "slug": "harvest-finance-maximise-your-defi-yield-the-easy-way"
+ }
+}

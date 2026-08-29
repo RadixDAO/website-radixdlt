@@ -14,7 +14,7 @@
  ],
  "slots": [
   {
-   "slot": 16,
+   "slot": 8,
    "tag": "img",
    "class": "category-image w-dyn-bind-empty",
    "kind": "attr:src",
@@ -23,7 +23,7 @@
    "confidence": "5/5"
   },
   {
-   "slot": 18,
+   "slot": 10,
    "tag": "h1",
    "class": "hero-title w-dyn-bind-empty",
    "kind": "inner",

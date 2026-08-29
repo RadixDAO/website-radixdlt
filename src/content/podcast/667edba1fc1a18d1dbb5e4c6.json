@@ -1,0 +1,29 @@
+{
+ "id": "667edba1fc1a18d1dbb5e4c6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2024-06-28T15:49:53.048Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2024-06-28T00:00:00.000Z",
+  "guest-name": "Friederike Ernst",
+  "guest-image": {
+   "fileId": "667ed90fb647ed183cae9083",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/667ed90fb647ed183cae9083_Friederike%20Ernst.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "667ed922a4c52d4c26d5a497",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/667ed922a4c52d4c26d5a497_GnosisOwl-Cream_onMoss.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Friederike Ernst, co-founder of Gnosis and Gnosis Pay.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/GV06o2m2Pfk\"><div><iframe src=\"https://www.youtube.com/embed/GV06o2m2Pfk\" title=\"Gnosis: the unsung titan of building crypto products with real usage\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h4 id=\"\">Summary:</h4><p id=\"\">In this episode of the DeFi Download, Piers Ridyard is joined by Friederike Ernst, the co-founder of Gnosis and Gnosis Pay. Gnosis is a group of projects centred around the Gnosis token, with a mission to bring all financial rails on-chain. They started with the highly successful Gnosis Safe, a multi-signature wallet that has now been spun out as Safe, securing over $100 billion in crypto assets. Additionally, their decentralized exchange, CoW Swap, has achieved a remarkable total volume of $45 billion. </p><p id=\"\">Friederike shares insights into these groundbreaking projects and discusses the future of decentralized finance. A physicist by training, she talks about the programmability of Ethereum that drew her into crypto technology, what prompted her to co-found Gnosis, and the strategies her team applies to expand distribution and adoption of their product and network.</p><h4 id=\"\">Key takeaways:</h4><ul id=\"\"><li id=\"\">Gnosis was founded to create decentralized payment solutions and other infrastructure that provide tangible value and improve user applications within the Web3 ecosystem.</li><li id=\"\">Gnosis initially focused on developing internal-driven products such as Gnosis Safe, CoW Swap, MEV Blocker, and Gnosis Guild, building foundational blockchain infrastructure. They subsequently shifted to creating user-friendly applications like Metri and Gnosis Pay, aiming to offer a neobank-like experience to a wide audience new to blockchain.</li><li id=\"\">Blockchain technology can revolutionize financial infrastructure by cutting intermediaries, lowering costs, and improving access, similarly to how VoIP transformed telecommunications.</li><li id=\"\">Gnosis is a veteran in blockchain infrastructure with a strong emphasis on decentralization and scalability. Gnosis Chain, a decentralized Ethereum sister protocol boasting over 200,000 validators, offers robust security and scalability advantages over Ethereum's Layer 2 solutions, making it a promising choice for future-proof financial applications.</li><li id=\"\">Circles is a blockchain-based UBI (Universal Basic Income) protocol operating on a decentralized web of trust. It combines Bitcoin's algorithmic money issuance with a focus on equitable distribution, unlike Bitcoin's concentration among a minority of the global population, which would exacerbate inequality if widely adopted today. Circles, in contrast, empowers local economies and fosters community-driven adoption over time.</li></ul><h4 id=\"\">Chapters:\t\t</h4><ul id=\"\"><li id=\"\"><strong id=\"\">01:27</strong> Friederike's journey from doctorate to DeFi</li><li id=\"\"><strong id=\"\">05:14</strong> From prediction markets to multi-sig wallets</li><li id=\"\"><strong id=\"\">08:27</strong> Keys to successful product development</li><li id=\"\"><strong id=\"\">13:34</strong> Building products, from MVP to customer delight</li><li id=\"\"><strong id=\"\">15:41</strong> Beyond a neobank-like experience</li><li id=\"\"><strong id=\"\">24:01</strong> How Gnosis could leapfrog financial infrastructure</li><li id=\"\"><strong id=\"\">28:32</strong> Towards a decentralized financial future</li><li id=\"\"><strong id=\"\">30:04</strong> Ensuring global distribution of Metri</li><li id=\"\"><strong id=\"\">35:56</strong> Introduction to Circles</li><li id=\"\"><strong id=\"\">36:44</strong> The drive behind Bitcoin and the case for UBI</li><li id=\"\"><strong id=\"\">39:20</strong> The Impact of Circles</li><li id=\"\"><strong id=\"\">45:43</strong> Key takeaways and finding more about Gnosis</li></ul><p id=\"\">Further resources</p><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://www.gnosis.io/\">gnosis.io</a> </li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/gnosischain\">@gnosischain</a> </li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.gg/xW3X5EreBM\">discord.gg/xW3X5EreBM</a> </li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/15328617-gnosis-the-unsung-titan-of-building-crypto-products-with-real-usage",
+  "name": "Gnosis: the unsung titan of building crypto products with real usage",
+  "slug": "gnosis-the-unsung-titan-of-building-crypto-products-with-real-usage"
+ }
+}

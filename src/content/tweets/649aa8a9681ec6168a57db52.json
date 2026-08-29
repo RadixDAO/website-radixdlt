@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57db52",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:11:19.464Z",
+ "createdOn": "2021-04-25T10:42:07.042Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/JM_Borg/status/1382936499226873858?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57da80",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085477c1e71b26be76745de_Borg.jpg",
+   "alt": null
+  },
+  "content": "Something BIG is coming this year... @radixdlt. 28th April - Betanet Launch. End of Q2 - Mainnet Launch (Olympia). End of 2021 - Radix Engine v2 (Alexandria).\nThumbs up to the DEV team and to @fuserleer who have performed a HARD work!",
+  "order": 2,
+  "name": "JM Borg",
+  "slug": "jm-borg"
+ }
+}

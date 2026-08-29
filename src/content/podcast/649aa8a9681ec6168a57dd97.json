@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd97",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-11-26T16:58:48.985Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-11-26T00:00:00.000Z",
+  "guest-name": "Chad Barraford",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e061",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61a111eddfa72ea3e82845f9_Head.jpg",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e062",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61a1121061ff7fbcec650fb3_thorchain-rune-logo.png",
+   "alt": null
+  },
+  "excerpt": "The DeFi Download podcast has a special episode today. Piers Ridyard of the Radix DLT and Chad Barraford of the THORChain project debate over the future of DeFi. Is it single or multi-chain?",
+  "main-content": "<p>Today’s episode of the DeFi Download podcast is a little different. Instead of our customary interview, we are holding an informal debate. Joining Piers is Chad Barraford, core developer on the THORChain project. Chad's statements are his own and do not necessarily reflect those of the THORChain project or the THORChain community.&nbsp;</p><p>Piers and Chad will take extreme stances on both sides of the argument throughout the debate. Piers will largely maintain that a single blockchain or public ledger is the only long-term potential for DeFi. Chad will make the case that multi-chain is the way of the future of DeFi. These will not always be the opinions of both speakers, but rather an opportunity for both sides of the topic to be heard and debated.</p><p><strong>[00:04]</strong> Introduction to the debate</p><p><strong>[02:17]</strong> Arguments in support of Piers' proposition that the future of DeFi is single chain</p><p><strong>[05:46]</strong> Arguments in support of Chad's thesis that the future of DeFi is multi-chain</p><p><strong>[09:55]</strong> Piers responds to Chad's arguments by refuting them and presenting more arguments in favour of DeFi's single chain future.</p><p><strong>[13:31]</strong> Chad's rebuttal to Piers' counter-arguments, as well as additional arguments in support of DeFi's multi-chain future</p><p><strong>[18:33]</strong> Piers uses the internet as an example to support his case for a single chain future.</p><p><strong>[20:26]</strong> Chad refutes Piers’ previous claim.</p><p><strong>[22:55]</strong> Piers temporarily switches sides and uses the analogy of countries to evaluate Chad's claims from the multi-chain perspective.</p><p><strong>[25:42]</strong> As a follow-up, Chad briefly adopts the opposing viewpoint and advocates for a single chain future.</p><p><strong>[27:51]</strong> Further discussion of the key roles that THORChain and Radix will play in the future of DeFi</p><p><strong>[34:05]</strong> Piers argues that the global financial system's purpose is to allocate capital efficiently, and DeFi delivers much-needed conveniences and efficiencies — eventually, multiple chains will be replaced by a single chain.</p><p><strong>[39:02]</strong> Chad is confident that the extinction of numerous blockchains is improbable.</p><p><strong>[44:37]</strong> Final thoughts on trustlessness and the future<br>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=we4eyF9MmNM\"><div><iframe src=\"https://www.youtube.com/embed/we4eyF9MmNM\" title=\"DeFi savings with deposit insurance included. Plus a little something for the DeFi degens.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h2>Further resources</h2><ul><li>Website: <a href=\"https://thorchain.org/\">thorchain.org</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/thorchain\">@THORChain</a>&nbsp;&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9617482-let-s-debate-is-the-future-of-defi-single-chain-chad-thorchain-vs-piers-radix-dlt",
+  "name": "Let's Debate: Is the future of DeFi single chain? Chad (THORChain) vs Piers (Radix DLT)",
+  "slug": "lets-debate-is-the-future-of-defi-single-chain-chad-thorchain-vs-piers-radix-dlt"
+ }
+}

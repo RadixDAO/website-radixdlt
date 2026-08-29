@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dd34",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:03:29.557Z",
+ "createdOn": "2021-04-25T19:17:03.462Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Talent Acquisition Lead – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e00c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cc5fa39d608775bb2db02b_Farrah%20Ather%20-%20Talent%20Lead%20v2.png",
+   "alt": null
+  },
+  "bio-excerpt": "Farrah has had over 7 years sourcing hard-to-find developers and building teams from the ground up, formerly working with Sky, LoveHolidays and Upfield Foods. Originally from Scotland, Farrah is a classically trained opera singer and avid whiskey connoisseur.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/farrah-ather-7570b67b/",
+  "blank-item": false,
+  "order": 13,
+  "name": "Farrah Ather",
+  "slug": "farrah-ather"
+ }
+}

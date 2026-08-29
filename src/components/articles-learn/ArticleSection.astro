@@ -1,0 +1,171 @@
+---
+// The articles-learn detail template's one top-level block -- div.section.article-section
+// (REBUILD-PLAN.md Phase 4: measured as the template's entire content, ~24.9 KB, no
+// further top-level shapes on this route -- unlike blog's three, this collection is one
+// component).
+//
+// Markup derived from src/shells/_detail/articles-learn/body.html and cross-checked
+// against dist/articles-learn/*.html.
+//
+// `articleBody` is the article's rich-text field, injected raw with set:html: it is
+// content, not layout, and rewriting its tags would lose markup the CSS depends on
+// (see REBUILD-PLAN.md Phase 4). Everything else here is real Astro template code.
+//
+// The inline <style> below (`.rich-text-block{text-align:justify;}`) is
+// Webflow-authored, static per this template (not per-item), and must NOT be
+// Astro-scoped -- same trap as blog's `.active .dot` rule (see
+// src/components/blog/BlogContent.astro's note and git show bdb7345): this component
+// only authors the *wrapper* around the article body, not the rich-text content
+// itself (that's raw set:html), so a scoped selector could target elements Astro never
+// stamped. is:inline, not is:global, because reference/live carries it inline at
+// exactly this position, inside div.w-embed.
+//
+// "Was this article useful?"'s own answer div carries a second, independent binding
+// to the SAME `author` field as "Article by:" (src/bindings/articles-learn.json's
+// slots 14 and 21, both field=author transform=ref.name) -- confirmed live
+// (reference/live/articles-learn/what-is-a-dlt.html shows "Adam Simmons" in both
+// places), not a mistake to fix. The empty info-block right after it has no confirmed
+// binding anywhere in the bindings map, so it stays a static empty block, not templated.
+import {
+  dynClass, type CategoryRef, type AuthorRef,
+} from '../../lib/articles-learn-detail';
+
+interface Props {
+  categoryName: string;
+  articleIconUrl: string;
+  title: string;
+  articleBody: string;
+  author: AuthorRef | null;
+  lastUpdatedText: string;
+  likesText: string;
+  gettingStarted: CategoryRef[];
+  related: CategoryRef[];
+  /** This article's own slug. Webflow marks a self-referencing related link with
+   *  aria-current="page" + " w--current" (see reference/live); without it the link
+   *  loses both the accessibility signal and the current-item styling. */
+  currentSlug: string;
+}
+
+const {
+  categoryName, articleIconUrl, title, articleBody, author,
+  lastUpdatedText, likesText, gettingStarted, related, currentSlug} = Astro.props;
+---
+<div class="section article-section">
+  <div class="container---main w-clearfix">
+    <div class="article-block-left">
+      <div class="breadcrumb-block">
+        <a href="/learn/knowledge-base" class="breadcrumb-link">Knowledge Base</a>
+        <div class="breadcrumb-arrow">/</div>
+        <a href="#" class={dynClass('breadcrumb-link', !!categoryName)}>{categoryName}</a>
+      </div>
+      <div class="icon-wrapper article"><img width="30" loading="lazy" alt="" src={articleIconUrl} class="article-icon" /></div>
+      <h1 data-ix="show-fixed-top-bar" class={dynClass('article-title', !!title)}>{title}</h1>
+      <div class={dynClass('article-body w-richtext', !!articleBody)} set:html={articleBody} />
+      <div class="article-info-wrapper">
+        <div class="article-info-block date">
+          <div class="article-info-title dynamic">Article by:</div>
+          <div class={dynClass('', !!author?.name)}>{author?.name ?? ''}</div>
+        </div>
+        <div class="article-info-block date">
+          <div class="article-info-title dynamic">Last updated: </div>
+          <div class={dynClass('', !!lastUpdatedText)}>{lastUpdatedText}</div>
+        </div>
+      </div>
+      <div class="article-info-wrapper">
+        <div class="article-info-block date">
+          <div class="article-info-title dynamic">Was this article useful?</div>
+          <div class={dynClass('', !!author?.name)}>{author?.name ?? ''}</div>
+        </div>
+        <div class="article-info-block date"></div>
+        <div class="article-like-button-wrapper jetboost-toggle-favorite-b1k8">
+          <a href="#" class="not-fav-item w-inline-block">
+            <div class="liketext">👍  Yes</div>
+            <div class={dynClass('liketext jetboost-item-total-favorites-b1k8', !!likesText)}>{likesText}</div>
+          </a>
+          <a href="https://www.radixdlt.com/" target="_blank" class="faved-item w-inline-block">
+            <div class="liketext">👍  Yes</div>
+            <div class={dynClass('liketext jetboost-item-total-favorites-b1k8', !!likesText)}>{likesText}</div>
+          </a>
+        </div>
+      </div>
+      <div class="w-embed">
+        <style is:inline>
+.rich-text-block{
+text-align: justify;}
+</style>
+      </div>
+    </div>
+    <div class="article-block-right">
+      <div id="w-node-f97dfcd9-469e-d68c-7520-d9dd90460f8e-6f70abd6" class="sidebar-block-wrapper">
+        <div class="sidebar-block">
+          <div class="article-contact-us-wrapper">
+            <div>
+              <div class="text-18px bold">Can&#x27;t find what you are looking for?</div>
+              <div class="text-16px _25px">Try asking in the Radix Community or emailing out support team.</div>
+            </div>
+            <div class="contact-button-wrapper-copy">
+              <a href="https://t.me/radix_dlt" target="_blank" class="contact-button-article w-inline-block"><img loading="lazy" src="/images/Frame-183.svg" alt="telegram icon" class="contact-icon" />
+                <div>Radix Telegram</div>
+              </a>
+              <a href="https://discord.gg/WkB2USt" target="_blank" class="contact-button-article w-inline-block"><img loading="lazy" src="/images/Discord-Logo-Color-1_1.svg" alt="discord logo" class="contact-icon" />
+                <div>Radix Discord</div>
+              </a>
+              <a href="mailto:hello@radixdlt.com" class="contact-button-article w-inline-block"><img loading="lazy" src="/images/Discord-Logo-Color-1-1.svg" alt="email logo" class="contact-icon" />
+                <div>Radix Support Email</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-block-wrapper">
+        <div class="sidebar-block">
+          <div class="text-24px">Getting started</div>
+          <div class="w-dyn-list">
+            {gettingStarted.length > 0 ? (
+              <div role="list" class="w-dyn-items">
+                {gettingStarted.map((c) => (
+                  <div role="listitem" class="w-dyn-item">
+                    <a href={`/categories-learn/${c.slug}`} data-ix="block-hover" class="category-link-article w-inline-block"><img width="45" loading="lazy" alt="Article icon" src={c.iconUrl} class="icon-3 bigger w-dyn-bind-empty" />
+                      <div>
+                        <div class={dynClass('', !!c.name)}>{c.name}</div>
+                      </div>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="w-dyn-empty">
+                <div>No items found.</div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-block-wrapper">
+        <div class="sidebar-block">
+          <div class="text-24px">Related articles</div>
+          <div class="w-dyn-list">
+            {related.length > 0 ? (
+              <div role="list" class="w-dyn-items">
+                {related.map((r) => (
+                  <div role="listitem" class="w-dyn-item">
+                    <a href={`/articles-learn/${r.slug}`} data-ix="block-hover" aria-current={r.slug === currentSlug ? 'page' : undefined} class={r.slug === currentSlug ? 'category-link-article smaller w-inline-block w--current' : 'category-link-article smaller w-inline-block'}>
+                      <div class="icon-wrapper"><img width="30" loading="lazy" alt="Article icon" src={r.iconUrl} class="icon-3" /></div>
+                      <div class="question-wrapper">
+                        <div class={dynClass('', !!r.name)}>{r.name}</div>
+                      </div>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="w-dyn-empty">
+                <div>No items found.</div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

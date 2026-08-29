@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de87",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-08-09T08:39:47.419Z",
+ "createdOn": "2022-08-09T08:02:05.442Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e272",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62f214d35899eebd8a6a6c34_Facebook%20Main.png",
+   "alt": null
+  },
+  "event-category": "40034f0dcec0c8a905ad800fdd9c5bcf",
+  "description": "Are you a developer interested in Web3? Join this FREE Radix webinar to learn how to code in Web3 and build your first Decentralized App. In only 60 minutes, you will have everything you need to get started building your first dApp!\nThis webinar introduces you to Web3 development, giving you the opportunity to create your first token sale. We will start the webinar with a keynote from RDX Works CPO, Matthew Hine, laying out our vision for the future of Decentralized Finance. Members of the RDX Works builders team will guide you through the basics of Scrypto, Radix's asset-oriented approach to building smart contracts.",
+  "location": "Webinar",
+  "start-date": "2022-08-17T00:00:00.000Z",
+  "end-date": "2022-08-17T00:00:00.000Z",
+  "event-link-text": "Register here!",
+  "event-link-url": "https://go.radixdlt.com/f89a4a",
+  "name": "The opportunity of Web3 made simple - Building DeFi with Scrypto - Webinar",
+  "slug": "the-opportunity-of-web3-made-simple-building-defi-with-scrypto-webinar"
+ }
+}

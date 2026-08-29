@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dcd4",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2023-07-20T11:31:09.374Z",
+ "createdOn": "2021-04-27T08:17:48.828Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2020-11-19T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de35",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3f"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e144",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4a6befa7e599700b816_60897ca58309edbe426e83dd_How-the-exd-unlocking-vault-works-1024x512.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\"><em id=\"\">This publication is made on behalf of Radix Tokens Jersey Limited, a company registered in Jersey with registration number 132555 and the expressions “Radix”, “RTJL”, “we”, “us”, “our” or “team” shall be construed accordingly.</em></p><p id=\"\">eXRD tokens are subject to our unique price-based unlocking mechanism where tokens are progressively unlocked as eXRD reaches price thresholds set out in our Economics paper. To do this unlocking securely, transparently, and efficiently, we have created a custom smart contract that we call the Unlocking Vault.</p><p id=\"\">The Unlocking Vault contains all locked eXRD tokens as well as the listing of how many tokens are owned by each beneficiary (such as members of our Genesis Community, and those who bought eXRD tokens in our public sale).</p><h1 id=\"\">Timing of Price-based Unlocks</h1><p id=\"\">Tokens will be unlocked and made available for buyers to withdraw them when the price of eXRD reaches certain thresholds (which are listed in our<a id=\"\" href=\"https://radixtokens.com/whitepapers/economics\"> Economics whitepaper</a>). Rather than using the highly-volatile spot price, we use what’s called a Simple Moving Average (SMA) of the price. Our SMA is an average of the hourly token price over the last 7 days, using CoinGecko which provides a reliable price feed across multiple exchanges.</p><p id=\"\">When the SMA price reaches one of the price thresholds, this is considered an “unlock trigger”. When a trigger happens, &nbsp;within 24 hours an unlock will be requested to the Unlocking Vault smart contract. The unlock will then happen randomly during the following 24 hours (see the following section for more explanation on this delay). This randomized delay means that no one – not even Radix – can know exactly when tokens will unlock and have an unfair advantage.</p><p id=\"\">When an “unlock trigger” is reached, we reset the SMA and wait 7 days to get a new average price. Unlock triggers can only happen one at a time, so the minimum delay between each unlock at each price threshold is 7 days.</p><h3 id=\"\">Example:</h3><p id=\"\">Let’s say that the SMA price reaches an unlock threshold at noon on Monday the 1st. The “unlock trigger” happens at noon and is announced to everyone. The actual unlock of tokens will happen sometime between then and noon on Wednesday the 3rd – randomly, up to 48 hours after the unlock trigger. Buyers can watch their allocation at <a id=\"\" href=\"http://unlock.radixtokens.com/\">unlock.radixtokens.com</a> to see when the unlock happens and new tokens are available to withdraw.</p><p id=\"\">The SMA price resets and is reestablished at noon on Monday the 8th – exactly 7 days after the previous unlock trigger. If that first SMA is already higher than the next unlock threshold, the next unlock trigger happens immediately. If not, then the SMA is continuously updated until the next threshold is reached.</p><h1 id=\"\">Unlocking Vault Security</h1><p id=\"\">The Unlocking Vault has a special protected “unlock” method that allows a percentage of locked eXRD tokens – for all beneficiaries – to be unlocked and made available to withdraw to each beneficiary’s ethereum wallet address that they provided.</p><p id=\"\">Control of this unlock method is very important, and so we’ve put in place a two-layer system to ensure that it is used correctly and reliably to unlock tokens.The first layer of control is via multisig provided by trusted HSM-based key management company Trustology. HSMs (hardware security modules) are proven systems relied on by enterprise to protect security-critical data - like signatures using private keys. </p><p id=\"\">Trustology has provided a system where 2-of-3 of the directors of Radix Tokens Jersey, the entity entrusted with administering distribution of the eXRD token, must sign any unlocks. The moment that a price-based unlock threshold has been reached, all three directors are instantly notified and they are obligated to proceed with the corresponding unlock.</p><p id=\"\">Trustology provides us with an additional benefit: a custom “policy” ruleset to make unlocks more fair and secure. Only unlocks that follow the sequence of thresholds may be approved, and any unlock is randomly delayed by up to 24 hours before it is submitted to the Ethereum network (as described above in the section on timing).</p><p id=\"\">The second layer is a more traditional on-ledger multisig structure using Gnosis-safe. Here, we have another 2-of-3 structure between the Trustology system above, a Radix operator (able to assist with creating complex smart contract transactions), and a recovery key held by a bonded legal fiduciary. This means that we may address any problems, recover keys, or even remove Trustology if any problems arise – but only with the agreement of the Radix Tokens Jersey directors in order to access the fiduciary’s recovery key.</p><p id=\"\">Here is an illustration of the full signature structure:</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087c8ac3450e6c24ba532fb_Q_4jvoKrCn9T8uiSgMhmxKIXAcEQXEAV08eyXzabSmaaWngKvPDTyt_Rj60SLx2A0hXztKgNMZyy47SjEnByVXvxyl-Cll6-8ZL4i9Hph7NEUhI8NIGCaYV_MNQj0eKCtN8_ufnz.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "How the eXRD Unlocking Vault Works",
+  "slug": "how-the-exrd-unlocking-vault-works"
+ }
+}

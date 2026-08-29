@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57deb1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-10-22T15:52:29.775Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-10-22T00:00:00.000Z",
+  "guest-name": "Zaki Manian",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e2eb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6354115271249f57b6678c13_Zaki%20Manian.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e2ec",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63541173032a281e8cb6420e_QPSVppoA_400x400.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Zaki Manian, co-founder of Sommelier and Iqlusion. They talk about his path from Cosmos to Sommelier, DeFi's revolutions and end state, and what sets this new system apart from TradFi.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:75%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"75%\" data-rt-dimensions=\"640:480\" data-page-url=\"https://youtu.be/_AHyj-NIWM8\"><div><iframe src=\"https://www.youtube.com/embed/_AHyj-NIWM8\" title=\"Sommelier: DeFi Yields, Perfectly Served\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍</p><p id=\"\">Zaki Manian is co-founder of Sommelier and Iqlusion. Using Cosmos technology, Sommelier makes it possible for decentralised actively managed DeFi strategies to be used throughout the Ethereum DeFi ecosystem.</p><p id=\"\">Sommelier is developed on the Cosmos SDK to optimise interoperability with other blockchains. It employs one of the top-performing Ethereum bridges and is currently expanding its access to other chains to ensure that strategies are not only dependent on high-gas ETH markets.</p><p id=\"\"><strong id=\"\">[1:50]</strong> Dave’s journey into the Ethereum ecosystem, Cosmos, and Sommelier</p><p id=\"\"><strong id=\"\">[12:09]</strong> What are the properties of Cosmos that made it preferable to build Sommelier there rather than in Solidity on Ethereum?</p><p id=\"\"><strong id=\"\">[13:46]</strong> Bridging Ethereum and Sommelier while maintaining trust&nbsp;</p><p id=\"\"><strong id=\"\">[18:55]</strong> Government’s purpose is to slow down rapid change. This is an intriguing notion because two things are colliding in DeFi. On the one hand, people desire the ability to move swiftly, innovate, construct new things, and experiment. On the other hand, we are dealing with significant sums of money, and checks and balances must be in place. Piers predicts that DeFi will go down the growth path of Sommelier. However, what aspects of TradFi are we not emulating? What features of the new system will make it superior to the previous one?</p><p id=\"\"><strong id=\"\">[27:29]</strong> Decentralised communities as quasi-nations and the governance system of Cosmos and its structure</p><p id=\"\"><strong id=\"\">[31:50]</strong> Censorship resistance at the heart of a potential future political crisis in Ethereum that might fracture the community</p><p id=\"\"><strong id=\"\">[34:33]</strong> What is the end state for DeFi according to Zaki? What direction is the industry taking?</p><p id=\"\"><strong id=\"\">[37:59]</strong> DeFi’s ability to create liquidity for assets with high trading volumes, as well as the enormous amount of innovation it can unleash</p><p id=\"\"><strong id=\"\">[41:35]</strong> The next wave of DeFi will involve increased complexity and sophistication of financial products, as well as increased complexity in their management. The next revolution will most likely be the abstraction of all of that to something relatively basic and user-friendly. Is Sommelier's eventual goal to turn to a simple user state, or will it always focus on the institutional rather than the retail?</p><h4 id=\"\">Further resources</h4><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://www.sommelier.finance/\">sommelier.finance</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/sommfinance\">@sommfinance</a></li><li id=\"\">Zaki’s Twitter: <a id=\"\" href=\"https://twitter.com/zmanian\">@zmanian</a></li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/ZcAYgSBxvY\">discord.com/invite/ZcAYgSBxvY</a>&nbsp;</li><li id=\"\">Telegram: <a id=\"\" href=\"https://t.me/getsomm\">t.me/getsomm</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11547831-sommelier-defi-yields-perfectly-served",
+  "name": "Sommelier: DeFi Yields, Perfectly Served",
+  "slug": "sommelier-defi-yields-perfectly-served"
+ }
+}

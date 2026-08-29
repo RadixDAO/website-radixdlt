@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd3d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-06-25T14:35:21.145Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-06-25T00:00:00.000Z",
+  "guest-name": "Andrew Brick and Brendan Laiben",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dff3",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60d5e8c47979ce6615771420_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfee",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60d5e8d6540081423799b9c2_Copy%20of%201598123620352.jpeg",
+   "alt": null
+  },
+  "excerpt": "Join Piers Ridyard in this episode of the DeFi Download as he interviews Andrew Brick and Brendan Laiben, the founders of Notoros DLT. They discuss what it’s like to build on top of Radix DLT, sharding, scalability and how to solve the problems of the blockchain.",
+  "main-content": "<p>Join Piers Ridyard in this episode of the DeFi Download as he interviews Andrew Brick and Brendan Laiben, the founders of Notoros DLT. They discuss what it’s like to build on top of Radix DLT, sharding, scalability and how to solve the problems of the blockchain.</p><p>Notoros has developed a protocol that makes it possible to build any application on Radix. Its system is highly adaptable, allowing developers to seamlessly distribute any application with the help of the Radix DLT consensus algorithm, Cerberus. </p><p><strong>00:40</strong> According to Notoros, they have made it possible to build \"any application\" on Radix. In practice, what does this mean?</p><p><strong>04:06</strong> Brendan and Andrew's backgrounds and early experiences prior to building on Radix</p><p><strong>04:37</strong> Brendan's experience developing a website advertising platform</p><p><strong>07:41</strong> Andrew's background in the energy industry, as well as his experience developing a loyalty exchange platform for an airline</p><p><strong>11:35</strong> Is Notoros a Layer-2 for Radix or is it something else?</p><p><strong>14:54</strong> Notoros and the Radix EVM</p><p><strong>16:50</strong> Why did Notoros choose Radix over other platforms that they thoroughly researched?</p><p><strong>22:22</strong> Notoros' long-term objectives and vision for what they want to accomplish</p><p><strong>24:51</strong> Interoperability of DeFi applications vs. adherence to a specific standard</p><p><strong>30:17</strong> Notoros' early projects: Ethereum Prime and the Prometheus Network.</p><p><strong>33:03</strong> Examples of corporations incorporating blockchain technology into their operations&nbsp;</p><p><strong>35:22</strong> The tokenomics of Notoros</p><p><strong>38:33</strong> Notoros' short-term plans for the next three to six months</p><p><strong>41:22</strong> The origin of the name ‘Notoros’</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://www.notoros.io/\">notoros.io</a></li><li>Twitter: <a href=\"https://twitter.com/NotorosDLT\">@NotorosDLT</a></li><li>Reddit: <a href=\"https://www.reddit.com/r/Notoros/\">r/Notoros</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/8762638-build-anything-on-radix-dlt",
+  "name": "Notoros: Build ANYTHING on Radix DLT",
+  "slug": "build-anything-on-radix-dlt"
+ }
+}

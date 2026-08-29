@@ -1,0 +1,34 @@
+{
+ "id": "649aa8a9681ec6168a57dde5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:47.866Z",
+ "createdOn": "2022-03-16T20:32:36.511Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2022-03-16T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de40",
+   "649aa8a9681ec6168a57de42",
+   "64a6bc7c6c0b576765c2c6ec"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e19a",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4b705c23a7ce0258f86_623248fa8ab8345c823f87b6_scrypto-developer-event-lisbon.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\">RDX Works is excited to announce the first Scrypto Developer Event at the beautiful <a id=\"\" href=\"https://sudlisboa.com/en/sud-lisboa-hall-en/\">Sud Hall</a>, Lisbon, Portugal, on the <strong id=\"\">9th of April 2022</strong>. Registration is now open on our <a id=\"\" href=\"https://www.radixdlt.com/events\">event page</a>.&nbsp;</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/623249074b190d1379cb36ac_uOUhQUTzOfTv5Q8znTcj7P2oL3rxQIzJbQUq7VzfhIYo3wTX1jIN0A441XNGUrFJrXdPa58tHiL6T3sWsw1OsVHNLv60OwsLgQdkwV3bKGNJKGwt12k8qULHZDV99BFWSPVBXJ2z.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">This event is all about introducing developers to Scrypto, Radix's <a id=\"\" href=\"https://www.radixdlt.com/post/scrypto-an-asset-oriented-smart-contract-language\">asset-oriented</a> way of building smart contracts.</p><p id=\"\">If you're a developer looking to get a head start on the competition, or build a dApp that may end up on our <a id=\"\" href=\"https://developers.radixdlt.com/ecosystem\">ecosystem page</a>, this event is for you.&nbsp;</p><p id=\"\">The morning session will start with a keynote on “Why DeFi is the Future”, exploring how the current financial markets are operating, the challenges faced by current financial instruments, and how the Radix way of thinking addresses the current <a id=\"\" href=\"https://www.radixdlt.com/post/the-problem-with-smart-contracts-today\">failings of smart contracts</a>.</p><p id=\"\">The main part of the day will feature Scrypto workshops run by the RDX Works Builders&nbsp;Team, taking you through the basics of Scrypto, and on to creating some simple blueprints and components in the afternoon session. Prizes will be awarded to those who complete the set tasks.</p><p id=\"\">The team will be on standby showing full support as you learn, build, and become one of the very first Scrypto devs! At the end of the day each participant will take home a Scrypto developer box.&nbsp;</p><p id=\"\">For those who cannot make the live event, it will be live-streamed and recorded, allowing you to follow along at home at your leisure.</p><p id=\"\">The afternoon session will feature a short talk recapping the day and our vision for the future of Scrypto, along with an open Q&amp;A session for anyone that would like to join.&nbsp;</p><p id=\"\">The Q&amp;A will be streamed to those at home, with questions submitted by smartphone.&nbsp;</p><p id=\"\">The evening will feature a social gathering on location, hosted by the fantastic Radix community in Lisbon! Please RSVP for this event <a id=\"\" href=\"https://forms.clickup.com/f/2j2af-2341/HPT7QZOC8N1CBSH9QS\">here</a>.</p><h4 id=\"\">Schedule:</h4><p id=\"\"><strong id=\"\">09.00 – 10.00</strong> - Registration &amp; Breakfast&nbsp;</p><p id=\"\"><strong id=\"\">10.00 – 11.00</strong> - Talk 1: ‘Why DeFi is the future’</p><p id=\"\"><strong id=\"\">11.00 – 11.30</strong> - Coffee break + Networking</p><p id=\"\"><strong id=\"\">11.30 – 13.00</strong> - Workshop 1</p><p id=\"\"><strong id=\"\">13.00 – 14.00</strong> - &nbsp;Break + Networking</p><p id=\"\"><strong id=\"\">14.00 – 15.30</strong> - \tWorkshop 2&nbsp;</p><p id=\"\"><strong id=\"\">15.30 – 16.00</strong> - \tBreak + Networking</p><p id=\"\"><strong id=\"\">16.00 – 16.30</strong> - &nbsp;Talk 2: Inspire Devs to keep building</p><p id=\"\"><strong id=\"\">16.30 – 17.00 </strong>- &nbsp;30 Minute break&nbsp;</p><p id=\"\"><strong id=\"\">17.00 – 18.00</strong> - &nbsp;Open Q&amp;A&nbsp;</p><h4 id=\"\"><strong id=\"\">Attendance is limited, to avoid disappointment please reserve your spot now</strong><a id=\"\" href=\"https://www.radixdlt.com/events\"><strong id=\"\"> via our events page.&nbsp;</strong></a></h4><p id=\"\">‍</p><p id=\"\">If you’re a developer and want to start building with Scrypto you may be interested in our <a id=\"\" href=\"https://developers.radixdlt.com/\">developer’s hub</a>. We’d also love to see you getting involved in the <a id=\"\" href=\"https://discord.gg/nsFmvPB3\">#scrypto channel of our Discord server</a>, or on the community-run <a id=\"\" href=\"https://t.me/RadixDevelopers\">Radix Developers Telegram channel</a>.</p><p id=\"\">‍<em id=\"\">To get the latest news about Radix make sure to sign up to our mailing list </em><a id=\"\" href=\"https://www.radixdlt.com/signup/mailing\"><em id=\"\">here</em></a><em id=\"\">.&nbsp;</em></p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Scrypto Developer Event - Lisbon",
+  "slug": "scrypto-developer-event-lisbon"
+ }
+}

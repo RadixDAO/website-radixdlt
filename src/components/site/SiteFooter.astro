@@ -1,0 +1,42 @@
+---
+// The site footer shared by every footer-bearing page (see REBUILD-PLAN.md Task 2.3).
+//
+// `variant` selects one of the canonical blocks derived by
+// tools/derive-footer-variants.mjs into src/chrome/footer.<variant>.html (verbatim
+// substrings of the built site -- see that script's header for how the nine variants
+// were measured and named). `currentPath` is spliced in via tools/lib/mark-current.mjs,
+// which reproduces Webflow's own current-page marking exactly -- proven against every
+// one of the 962 footer-bearing pages by tools/test-mark-current.mjs.
+//
+// Built as a plain string and rendered through ONE <Fragment set:html>, same as
+// SiteNav.astro -- Astro must never parse Webflow markup (attribute order, inline
+// <script> bodies and IX2 `data-w-id` hooks all survive a byte splice and none of
+// them survive a parser round-trip).
+//
+// A page with no footer (240 of them -- e.g. events/*, 401) simply omits
+// the `variant` prop and renders nothing.
+import { markCurrent } from '../../../tools/lib/mark-current.mjs';
+
+interface Props {
+  variant?: string;
+  currentPath: string;
+}
+
+const { variant, currentPath } = Astro.props;
+
+// Eager ?raw import (same pattern as WebflowPage.astro's shells glob) rather than a
+// runtime readFileSync: at build time the component's own compiled location moves,
+// so a path resolved relative to import.meta.url no longer points at the source tree.
+const blocks = import.meta.glob<string>('../../chrome/*.html', {
+  query: '?raw', import: 'default', eager: true,
+});
+function canonicalBlock(name: string): string {
+  const key = `../../chrome/footer.${name}.html`;
+  const v = blocks[key];
+  if (v === undefined) throw new Error(`Missing canonical footer block ${key}`);
+  return v;
+}
+
+const html = variant ? markCurrent(canonicalBlock(variant), currentPath) : '';
+---
+{html && <Fragment set:html={html} />}

@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc9f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-27T16:45:27.950Z",
+ "createdOn": "2021-04-27T10:31:19.063Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-08-13T00:00:00.000Z",
+  "guest-name": null,
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfc6",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f81607ad2cc737bdb760_podcast-23.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "Join Piers Ridyard on the DeFi Download talking to Greg Diprisco of MakerDAO about lending, debt and the future of both.",
+  "main-content": "<p>Join Piers Ridyard on the DeFi Download talking to Greg Diprisco of MakerDAO about lending, debt and the future of both.</p><p>‍</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/4934687-debt-is-money-really",
+  "name": "Debt IS money. Really.",
+  "slug": "debt-is-money-really"
+ }
+}

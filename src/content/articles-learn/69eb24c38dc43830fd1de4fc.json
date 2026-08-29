@@ -1,0 +1,26 @@
+{
+ "id": "69eb24c38dc43830fd1de4fc",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:09:08.976Z",
+ "createdOn": "2026-04-24T08:06:59.457Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22f6152b91c44551c7b2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">We are aware of an issue affecting adding Ethereum addresses with Ledger and Trezor through Metamask for desktop (Metamask for mobile is not supported), our team are working on a fix for this now. We aim to have this issue resolved before Instabridge goes live and appreciate your patience in this matter.</p><p id=\"\">We don’t yet support all WalletConnect wallets which means that you may not be able to use certain WalletConnect wallets to add an Ethereum address yet. The wallets which are affected by this issue are Argent and InfinityWallet. We aim to support these wallets before Instabridge goes live.</p><p id=\"\">If you have an issue adding a wallet address with any other wallets, please let us know by contacting <a id=\"\" href=\"mailto:support@instapass.io\">support@instapass.io</a>.</p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 20,
+  "name": "Known issues with Ledger, Trezor and certain WalletConnect wallets",
+  "slug": "known-issues-with-ledger-trezor-and-certain-walletconnect-wallets"
+ }
+}

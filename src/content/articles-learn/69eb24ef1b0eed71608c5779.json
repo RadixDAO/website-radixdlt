@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5779",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:24.689Z",
+ "createdOn": "2026-04-24T08:07:24.689Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\"><strong id=\"\">State</strong></p><p id=\"\"><strong id=\"\">“State”</strong> in computing refers to what something is at a certain point in time, typically the present time.&nbsp;</p><p id=\"\">The state of a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledger</strong></a> of a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> system encompasses the totality of all <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a> that have ever occurred on the ledger since its genesis. This adds up to a final result, such as a set of balances of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> in accounts, or what condition a group of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart contracts</strong></a> are in.</p><p id=\"\">For a very simplified example, if a DLT system existed only to do a running sum of numbers, and currently its ledger was composed of three transactions: +1, +5, and -2. Those transactions would be the ledger’s full state – indicating that the resulting sum at the current time is -4.</p><p id=\"\">For most DLTs, it’s much more complicated than this, as the ledger isn’t just composed of numbers to add and subtract but represents smart contracts, assets, or any other information. You can think of the ledger’s state as the official record of what is guaranteed to be true - by network consensus.</p><p id=\"\"><strong id=\"\">State change</strong></p><p id=\"\">A “<strong id=\"\">state change”</strong> on a blockchain/DLT network is any instance when the state is modified as part of a transaction. Transactions are formed of one or many state changes, and different DLT/blockchain networks may describe these state changes in very different ways. However, in the end, changes to the state of the ledger, as part of a transaction, must be agreed upon by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a> in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-iii\"><strong id=\"\">Cerberus Infographic Series - Episode 6 - Substate</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">What is a “transaction” in crypto?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">What is a ledger?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What do \"state\" and \"state change\" mean?",
+  "slug": "what-do-state-and-state-change-mean"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd85",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-10-17T14:58:26.059Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-10-17T00:00:00.000Z",
+  "guest-name": "Dohyun Pak ",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e051",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/616c3955ec06b309600e1376_Head.jpg",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e052",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/616c39759281e13b9337d928_2021-10-17%203.55.38%20pm.jpg",
+   "alt": null
+  },
+  "excerpt": "Bifrost is the world's first blockchain middleware that enables multi chain technology. Bifrost’s motto is “Never settle for just one protocol. Always get the best of every protocol.” BiFi is a multichain lending protocol like Compound and Aave, but across multiple blockchains. It has over $111 million in assets under management.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard and Dohyun Pak delve into the details of Bifrost and BiFi, the multichain future of the blockchain space, and the role that DeFi can play in ensuring equal financial access for all.</p><p>Bifrost is the world's first blockchain middleware that enables multi chain technology. Bifrost’s motto is “Never settle for just one protocol. Always get the best of every protocol.” BiFi is a multichain lending protocol like Compound and Aave, but across multiple blockchains. It has over $111 million in assets under management.</p><p>[0:57] How did Dohyun become interested in DeFi? What drew him into DeFi, and how did he progress from technical implementation to developing a DeFi product?</p><p>[2:56] What was the turning point for Dohyun in realizing that the blockchain was something revolutionary, something that would change the world?</p><p>[5:23] In the blockchain space, there is a philosophical divide between two schools of thought. Some believe that everything will be done on a single ledger, whereas others envision a multichain future in which different ledgers are being used for different purposes. Which schools of thought does Bifrost belong to, and why did they feel it would be such a valuable piece of technology to develop?</p><p>[7:37] What is the purpose of BiFi? What exactly does it mean to be “multichain”? What is the total number of blockchains that have been integrated, and where is the central logic? Is there a primary blockchain and a few additional blockchains to which assets are moved, or is the entire application dispersed across multiple chains?</p><p>[10:17] WBTC, renBTC, RSK (RBTC), Sovryn (SOV), layer-2 protocols like Polygon and Optimism, and ledgers like Radix, Aave, and Solana, all of which are developing their own DeFi ecosystems, are among the numerous solutions for expanding DeFi beyond the Ethereum network. What do Bifrost and BiFi do to enable all of the above to come together in such a unique way?</p><p>[12:58] In practice, what does \"connecting native Bitcoin\" technically imply? Is it similar to Ren's approach of establishing a separate ledger in charge of the custodianship of the Bitcoin represented on a different ledger? </p><p>[14:27] Bifrost presently manages assets worth $111 million. What do BiFi users do with their money? What kinds of tokens can people contribute, and what benefits can they receive in exchange? If they wish to use BiFi, which ledger should they use?</p><p>[17:26] What are the advantages of lending Bitcoin on BiFi? </p><p>[20:03] Is Bitcoin the most commonly deposited asset? Is it the most popular, and thus the most liquid pool on BiFi?</p><p>[20:26] DeFi may at times appear immature to Dohyun, as a finance professor and someone who has spent a lot of time in the finance industry. What is Dohyun's prediction for DeFi in the coming years? What are some of the exciting developments he sees on the horizon?</p><p>[23:45] The expressions \"banking the unbanked\" and \"underbanked\" have been used to describe persons who lack access to standard banking services. What role does DeFi play in ensuring that everyone has equal financial access?</p><p>[25:57] What about the social aspect of DeFi? Does Dohyun believe that cryptocurrencies and the way crypto communities work will have an impact on finance?</p><p>[30:07] How does Dohyun envisage assets like property, equities, or deliverable commodities like copper and gold being bridged from the real world to the decentralized world? </p><p>[33:20] The Korean government has had an interesting relationship with cryptocurrency. What's the status of that relationship now? </p><p><br><strong>Further resources</strong></p><ul><li>Websites: </li><li><a href=\"https://thebifrost.io/\" target=\"_blank\">Bifrost</a></li><li><a href=\"https://bifi.finance/\" target=\"_blank\">BiFi</a> </li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9381940-bifi-bridging-all-defi-together-regardless-where-it-lives",
+  "name": "BiFi: bridging all DeFi together, regardless of where it lives",
+  "slug": "bifi-bridging-all-defi-together-regardless-of-where-it-lives"
+ }
+}

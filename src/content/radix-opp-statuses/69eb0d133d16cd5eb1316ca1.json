@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316ca1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:27.721Z",
+ "createdOn": "2026-04-24T06:26:27.721Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8c3"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2022-03-16T17:15:00.000Z",
+  "last-update": "2022-04-01T16:16:00.000Z",
+  "content": "<p id=\"\">With the new Core API and Gateway services operational, wallet versions older than 1.3 will no longer be able to connect to the mainnet. </p><p id=\"\">‍</p><p id=\"\">You must update your wallet to connect. You can download the latest version of the Radix Desktop Wallet here:&nbsp;https://wallet.radixdlt.com</p>",
+  "name": "Wallet cannot connect to mainnet",
+  "slug": "wallet-cannot-connect-to-mainnet"
+ }
+}

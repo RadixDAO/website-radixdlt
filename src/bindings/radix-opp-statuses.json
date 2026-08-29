@@ -14,7 +14,7 @@
  ],
  "slots": [
   {
-   "slot": 47,
+   "slot": 6,
    "tag": "h1",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -23,7 +23,7 @@
    "confidence": "36/36"
   },
   {
-   "slot": 54,
+   "slot": 13,
    "tag": "div",
    "class": "badge-3 w-dyn-bind-empty",
    "kind": "inner",
@@ -33,7 +33,7 @@
    "inList": true
   },
   {
-   "slot": 59,
+   "slot": 18,
    "tag": "div",
    "class": "text-small inline w-dyn-bind-empty",
    "kind": "inner",
@@ -42,7 +42,7 @@
    "confidence": "11/36"
   },
   {
-   "slot": 64,
+   "slot": 23,
    "tag": "div",
    "class": "text-small inline w-dyn-bind-empty",
    "kind": "inner",
@@ -51,7 +51,7 @@
    "confidence": "11/36"
   },
   {
-   "slot": 69,
+   "slot": 28,
    "tag": "div",
    "class": "text-small inline w-dyn-bind-empty",
    "kind": "inner",
@@ -60,7 +60,7 @@
    "confidence": "36/36"
   },
   {
-   "slot": 71,
+   "slot": 30,
    "tag": "div",
    "class": "c-status-rt w-dyn-bind-empty w-richtext",
    "kind": "html",

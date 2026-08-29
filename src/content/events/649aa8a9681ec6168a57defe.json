@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57defe",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2023-02-10T17:34:33.866Z",
+ "createdOn": "2023-02-10T17:34:33.866Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e342",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63d9261ea4372f0e6c4d6ed5_podcast.jpg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Join us in the upstairs room at Freddo ATX at 7 PM for the next Radix Meetup on Wednesday February 22nd!! (2336 S. Congress Avenue) Josh Primo of Radix Works will show some slides about the Radix Engine architecture. Rock will present an overview of the current Radix ecosystem.\nThere will be some free food and drinks and perhaps other stuff!! https://www.radixdlt.com/ #### Radix is the only decentralized network where developers will be able to build quickly without the constant threat of exploits and hacks, where every improvement will get rewarded, and where scale will never be a bottleneck. **WOW** Come meet the Doges of Crypto Street and explore the potential of Radix at FreddoATX! Speaker\nJosh Primo\nJosh Primo was the first employee hired by Radix Works many years ago and plays a key role in defining and developing the architecture of the game changing Radix Engine. Rock Howard is a Senior Ambassador for Radix and mentors several notable projects in the ecosystem. https://www.radixdlt.com/radfi#intro",
+  "location": "Freddo ATX 2336 S Congress Ave · Austin, T",
+  "start-date": "2023-02-22T00:00:00.000Z",
+  "end-date": "2023-02-22T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.meetup.com/dogecoin/events/291345274/",
+  "name": "Dogecoin ATX - Radix Edition!",
+  "slug": "dogecoin-atx-radix-edition"
+ }
+}

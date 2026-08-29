@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dd06",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2021-09-09T10:59:27.254Z",
+ "createdOn": "2021-04-25T19:19:17.784Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Community Manager– Radix DLT Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfe5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6099327d8dec072be87900d9_Mikael.png",
+   "alt": null
+  },
+  "bio-excerpt": "Mikael was part of the original 2013 Bitcoin Meetup group in Finland, and has been passionate about crypto since. As Head of Community, he builds, grows, and helps manage the communities of Radix.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/mikael-perttula-8b11ba139/",
+  "blank-item": false,
+  "order": 20,
+  "name": "Mikael Perttula",
+  "slug": "mikael-perttula"
+ }
+}

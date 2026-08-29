@@ -1,0 +1,14 @@
+{
+ "id": "649aa8a9681ec6168a57d973",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-25T01:12:11.281Z",
+ "createdOn": "2021-04-25T01:12:11.281Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "content": "Radix is the first layer-one protocol specifically built to serve DeFi. This protocol is the basis of the Radix public network – a fully decentralized platform for DeFi applications and users. Decentralized finance applications are currently built on protocols that are not fit for this purpose, leading to congestion, hacks and developer frustration. Radix changes this by introducing a scalable, secure-by-design, composable platform with a DeFi centric development environment to make it easy to build and launch scalable DeFi products.",
+  "name": "What is Radix?",
+  "slug": "what-is-radix"
+ }
+}

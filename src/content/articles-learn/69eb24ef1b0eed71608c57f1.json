@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57f1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:56.477Z",
+ "createdOn": "2026-04-24T08:07:56.477Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">KYC is short for Know Your Customer. KYC is an integral part of the global financial system. It isone of the key controls that regulated institutions must abide by when processing payments, transactions, or even entering into any sort of business relationship with another party.</p><p id=\"\">The purpose of KYC is so that companies always know who they are dealing with. Without it, companies could end up doing business with terrorist or criminal organizations or even sanctioned states.</p><p id=\"\">KYC typically includes obtaining information such as knowing who the ultimate beneficial owners of a company are; and for company directors, or individuals, obtaining items such as identity documents, proof of address,&nbsp; and performing criminal background checks.&nbsp;</p><p id=\"\">Without robust KYC controls, businesses, especially financial institutions, could unwittingly facilitate criminal or terrorist activity.</p><p id=\"\">AML stands for Anti-Money Laundering. While KYC is focused on just the act of knowing who you are transacting for or doing business with, AML is the set of controls that companies must implement to ensure that they don’t facilitate money laundering.&nbsp;</p><p id=\"\">Examples of AML controls include nominating a company officer who is criminally liable for ensuring that appropriate AML controls are in place, flagging or preventing suspicious transactions, and submitting suspicious transactions to appropriate regulatory bodies.&nbsp;&nbsp;</p><p id=\"\">In crypto, as of 2021, new KYC and AML regulations are currently being proposed by the Financial Action Task Force (FATF) concerning regulating crypto-related organizations, termed Virtual Asset Service Providers (VASPs).</p><p id=\"\">Radix, through its <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-instapass\"><strong id=\"\">Instapass</strong> </a>service, will allow <strong id=\"\">DeFi</strong> projects to optionally leverage its in-built KYC service; thus allowing users to KYC just once for all services on Radix DeFi.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-instapass\"><strong id=\"\">What is Instapass?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-proof-of-work-and-proof-of-stake\"><strong id=\"\">What are Proof of Work and Proof of Stake?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is KYC/AML",
+  "slug": "what-is-kycaml"
+ }
+}

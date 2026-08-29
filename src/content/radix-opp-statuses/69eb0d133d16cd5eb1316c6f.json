@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c6f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:24.780Z",
+ "createdOn": "2026-04-24T06:26:24.780Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b9",
+   "69eb0c39904d0db4dee8f8b7"
+  ],
+  "severity": "f3a4e3e8afa799c42cc809e61c1f3134",
+  "date-reported": "2023-08-15T07:35:00.000Z",
+  "last-update": "2023-08-15T07:41:00.000Z",
+  "content": "<p id=\"\">All services have resumed. Any issues, please reach out to either support@instapass.io or support@instabridge.io</p><p id=\"\">‍</p><p id=\"\">Instapass and Instabridge are currently experiencing some technical issues, for users trying to log in and use the services. The team are currently investigating to have these services back up and running as soon as possible. If you're experiencing any issues, please reach out to either support@instapass.io or support@instabridge.io</p>",
+  "name": "Instapass and Instabridge experiencing issues",
+  "slug": "instapass-and-instabridge-are-offline"
+ }
+}

@@ -14,7 +14,7 @@
  ],
  "slots": [
   {
-   "slot": 127,
+   "slot": 20,
    "tag": "div",
    "class": "cbfs-tag w-dyn-bind-empty",
    "kind": "inner",
@@ -24,7 +24,7 @@
    "inList": true
   },
   {
-   "slot": 134,
+   "slot": 27,
    "tag": "div",
    "class": "cbfs-tag w-dyn-bind-empty",
    "kind": "inner",
@@ -34,7 +34,7 @@
    "inList": true
   },
   {
-   "slot": 138,
+   "slot": 31,
    "tag": "div",
    "class": "blog-single-img-inner",
    "kind": "attr:style",
@@ -43,7 +43,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 140,
+   "slot": 33,
    "tag": "h2",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -52,7 +52,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 141,
+   "slot": 34,
    "tag": "div",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -61,7 +61,7 @@
    "confidence": "1/8"
   },
   {
-   "slot": 149,
+   "slot": 42,
    "tag": "div",
    "class": "single-content w-dyn-bind-empty w-richtext",
    "kind": "html",
@@ -70,7 +70,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 154,
+   "slot": 47,
    "tag": "a",
    "class": "author-group w-inline-block",
    "kind": "attr:href",
@@ -79,7 +79,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 157,
+   "slot": 50,
    "tag": "h5",
    "class": "w-dyn-bind-empty",
    "kind": "inner",
@@ -88,7 +88,7 @@
    "confidence": "8/8"
   },
   {
-   "slot": 176,
+   "slot": 69,
    "tag": "div",
    "class": "",
    "kind": "inner",
@@ -98,7 +98,7 @@
    "inList": true
   },
   {
-   "slot": 204,
+   "slot": 97,
    "tag": "div",
    "class": "c-img-blog-inner",
    "kind": "attr:style",
@@ -108,7 +108,7 @@
    "inList": true
   },
   {
-   "slot": 211,
+   "slot": 104,
    "tag": "div",
    "class": "cbfs-tag w-dyn-bind-empty",
    "kind": "inner",
@@ -118,7 +118,7 @@
    "inList": true
   },
   {
-   "slot": 214,
+   "slot": 107,
    "tag": "h4",
    "class": "w-dyn-bind-empty",
    "kind": "inner",

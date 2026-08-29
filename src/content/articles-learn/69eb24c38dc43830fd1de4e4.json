@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4e4",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:51.165Z",
+ "createdOn": "2026-04-24T08:06:51.165Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8204",
+  "full-article-text": "<p id=\"\">If you are an <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> staker (i.e. you hold <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Units</strong></a>),&nbsp; those LSUs represent a % claim on the staked pool of XRD held within the relevant validator’s <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-validator-component\"><strong id=\"\">validator component</strong></a>. The total <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a> placed into the staked pool within that validator component for each <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a> is proportional to the % of the total stake staked to the relevant validator. These emissions are then reduced by any&nbsp; <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">validator fee</strong></a>s or if the validator is penalized for not participating fully in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> for the epoch.</p><p id=\"\">If your validator missed a single proposal in an epoch, i.e. had less than 100% participation, the rewards earned by that validator for that epoch are zero; and thus your rewards are also zero.&nbsp;</p><p id=\"\">If your validator had 100% participation in an epoch, you may calculate your emissions as a staker as:</p><p id=\"\"><strong id=\"\">E x S x ( 100 - F )</strong></p><p id=\"\"><strong id=\"\">E</strong> = This epoch’s total emissions XRD (fixed)</p><p id=\"\"><strong id=\"\">S</strong> = Your stake’s % of total delegated stake (for this epoch)</p><p id=\"\"><strong id=\"\">F</strong> = Fee % for the node you’ve staked to (for this epoch)</p><p id=\"\">So let’s say you are staking 1,000 XRD, and there are currently 1,000,000,000 XRD in total that are staked. The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">node</strong></a> you are delegating to has set their <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">validator fee</strong></a> to 2%. And that node has 100% participation in consensus (which a good node certainly should achieve!). Your share of the rewards for the epoch will be:</p><p id=\"\"><strong id=\"\">E</strong> x 0.000001 x ( 98% ) = <strong id=\"\">0.00000098 of total E</strong></p><p id=\"\">Over the course of a year of about 300,000,000 XRD emitted, this means you would receive 294 XRD – a return of 29.4% APY on your original stake!</p><p id=\"\">Note: This ignores the fact that your emissions will be automatically staked into the <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-validator-component\"><strong id=\"\">validator component’s</strong></a> staked pool at each epoch, but since this is the case for everyone else, your % of total stake stays constant, leading to the same result, assuming that neither you nor anybody else is staking/unstaking.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-xrd-emissions-work\"><strong id=\"\">How do XRD emissions work?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-penalties-are-calculated-general\"><strong id=\"\">How XRD staking emissions rewards are calculated - general</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-and-validator-fees-are-calculated-for-validators\"><strong id=\"\">How XRD staking emissions rewards are calculated - for validators</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-token-holders-earn-and-claim-xrd-emissions-rewards\"><strong id=\"\">How do token holders earn and claim XRD emissions rewards?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/when-are-xrd-emissions-rewards-distributed\"><strong id=\"\">When are XRD emissions rewards distributed?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-long-is-an-epoch-on-radix-2\"><strong id=\"\">How long is an epoch on Radix?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 7,
+  "name": "How XRD staking emissions rewards are calculated - for token holders",
+  "slug": "how-xrd-staking-emissions-rewards-are-calculated-for-token-holders"
+ }
+}

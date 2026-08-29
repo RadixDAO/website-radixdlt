@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565667",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:39.578Z",
+ "createdOn": "2026-04-24T08:08:39.578Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">It’s not possible to have a&nbsp;universal “stXRD” <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> issued by the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix Protocol </strong></a>and shared across all <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node\"><strong id=\"\">validators</strong></a> because <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">validator fees</strong></a>, validator performance (which impacts <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-xrd-emissions-work\"><strong id=\"\">emissions</strong></a>), whether or not a validator is in the active <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a>, and <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-slashing-in-blockchain-and-crypto\"><strong id=\"\">slashing</strong></a> all mean that <em id=\"\">where</em> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">XRD</strong></a> is <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">staked</strong></a> matters.&nbsp; Don’t think of 1 <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit</strong></a> as 1 staked XRD; that’s not what they represent.&nbsp; They represent your portion of the total XRD staked at the associated <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-validator-component\"><strong id=\"\">validator component</strong></a>. LSUs are therefore non-fungible across validators.</p><p id=\"\">So Liquid Stake Units are going to be completely fragmented, with every validator component issuing its own supply?</p><p id=\"\">From the base network perspective, they have to be.&nbsp; However, in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-scrypto\"><strong id=\"\">Scrypto</strong></a> it’s quite straightforward to set up a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-components-blueprints-and-the-blueprint-catalog\"><strong id=\"\">component</strong></a> which aggregates Liquid Stake Units from different validators and releases its own single stake token based on those holdings.</p><p id=\"\">For example, a component could accept Liquid Stake Units, check the current XRD value with the associated validator component, and mint an appropriate amount of an aggregate token.&nbsp; Such a component could accept any Liquid Stake Unit, or the owner might be selective about which ones it accepted.&nbsp; For example, the component’s owner might decide to only accept the tokens associated with validators that they felt met a certain quality of service standard.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">What is a Liquid Stake Unit (LSU) and Native Liquid Staking?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix?</strong></a></li></ul><p id=\"\"><br></p><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Why are Liquid Stake Units (LSUs) unique to each validator?",
+  "slug": "why-are-liquid-stake-units-lsus-unique-to-each-validator"
+ }
+}

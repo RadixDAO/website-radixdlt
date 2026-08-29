@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc25",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:04:02.119Z",
+ "createdOn": "2021-04-25T17:18:02.067Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": true,
+  "jersey-team-member": true,
+  "role": "<p>CEO - RDX&nbsp;Works Ltd</p><p>Director - Radix Tokens (Jersey) Limited</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57df58",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c4f9bcdbd15d65d90e44_Frame%2071.png",
+   "alt": null
+  },
+  "bio-excerpt": "A Y Combinator Alumni, Piers joined Radix after exiting his previous company which built DLT based deal rooms for clearing syndicated insurance contracts",
+  "twitter": "https://twitter.com/PiersRidyard",
+  "linkedin": "https://www.linkedin.com/in/piersridyard/",
+  "blank-item": false,
+  "order": 2,
+  "name": "Piers Ridyard",
+  "slug": "piers-ridyard"
+ }
+}

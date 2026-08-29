@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dca1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:44.279Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-04-22T00:00:00.000Z",
+  "guest-name": "Nicholas Fett",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfb7",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60880e40c644a31c62182beb_podcast-20.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfcc",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6089806a4bc74acaa8fabb9d_podcast-logo-19.png",
+   "alt": null
+  },
+  "excerpt": "Join Piers Ridyard in this episode of the DeFi Download, where he interviews Nicholas Fett, co-founder, and CTO of Tellor.io, a decentralised Oracle Network. They discuss what makes Tellor unique and sets it apart from peers such as Chainlink.",
+  "main-content": "<p>Join Piers Ridyard in this episode of the DeFi Download, where he interviews Nicholas Fett, co-founder, and CTO of Tellor.io, a decentralised Oracle Network. They discuss what makes Tellor unique and sets it apart from peers such as Chainlink.</p><p>Tellor is a decentralised Oracle Network that facilitates bringing off-chain data on-chain. It accomplishes this by rewarding competing miners with the TRB token for providing and validating data.</p><p>Tellor allows data to be disputed for a fee, maintaining the system's integrity. The fee increases for each subsequent dispute, making malicious parties’ attempts to attack the network prohibitively expensive.</p><p>[00:00:37] What is a decentralised Oracle Network and what distinguishes Tellor?</p><p>[00:03:32] What if the winner of the Nakamoto leadership proof-of-work race provides false information? Is there a way to ensure that the winner of the proof-of-work race is indeed honest about the price they claim?</p><p>[00:05:22] What was it about decentralised Oracle services that existed at the time that did not compare favourably to what Nick and his team considered essential for ensuring efficient operation?</p><p>[00:11:59] Nick’s observations on the evolution of the oracle space: With Chainlink being the most well-known oracle platform today, what does Nick think about similar entrants into the market? What opportunities and shortcomings does he see in those entrants’ approaches versus Tellor's approach?</p><p>[00:14:32] The concept of anti-fragility and ensuring that the system around which you want to build a trustless ecosystem is also inherently trustless</p><p>[00:16:31] What are some of the projects that people are working on with Tellor that Nick is excited about?&nbsp;</p><p>[00:16:41] The Tellor network's current usage</p><p>[00:18:56] How easy is it for Tellor to add a new feed?</p><p>[00:22:16] The challenge in convincing data and identity providers to interact directly with ledgers</p><p>[00:24:10] Tellor's two- to five-year vision</p><p>[00:26:40] Is there something else besides the stablecoin that Nick considers significant that has not been properly decentralised yet and is waiting on the side-lines to be produced or perfected?</p><p>[00:29:21] What kind of proof-of-work system is the Tellor security paradigm, and what is its proof-of-work algorithm?</p><p>[00:32:36] How do Tellor's voting system and dispute resolution work?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://tellor.io/\">Tellor.io</a></li><li>Telegram: <a href=\"https://t.me/tellor\">t.me/tellor</a></li><li>Discord: <a href=\"https://discord.gg/n7drGjh\">discord.gg/n7drGjh</a></li><li>Tellor Twitter: <a href=\"https://twitter.com/WeAreTellor\">@WeAreTellor</a></li><li>Nicholas Fett Twitter: <a href=\"https://twitter.com/themandalore9\">@themandalore9</a></li><li>Medium: <a href=\"https://medium.com/tellor\">medium.com/tellor</a></li></ul>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8378057-tellor-decentralising-data-oracles-to-increase-trust",
+  "name": "Tellor: Decentralising data oracles to increase trust.",
+  "slug": "tellor-decentralising-data-oracles-to-increase-trust"
+ }
+}

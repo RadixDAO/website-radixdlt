@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dc29",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2021-10-06T09:53:56.243Z",
+ "createdOn": "2021-04-25T17:18:01.783Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Developer - Radix DLT&nbsp;Ltd</p>",
+  "image": null,
+  "bio-excerpt": "An ex-ConsenSys engineer, Alex is a coder & nerd at heart. When not programming, you may find him salsa dancing or playing old-school RPG's.",
+  "twitter": null,
+  "linkedin": null,
+  "blank-item": false,
+  "order": 10,
+  "name": "Alex",
+  "slug": "alex"
+ }
+}

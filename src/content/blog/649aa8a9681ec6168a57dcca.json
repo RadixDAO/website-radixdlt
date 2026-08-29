@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dcca",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:51.920Z",
+ "createdOn": "2021-04-27T08:17:58.459Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2021-02-03T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de36",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3a"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e1b5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4bab6e4373d090f2fc5_60896b9a66cd0a89739718bc_What-is-the-Radix-Engine-V2-1024x576.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\">The Radix Engine V2 is a key component in Radix’s mission to build the first Layer 1 protocol specifically designed for DeFi, and the focus of the <a id=\"\" href=\"https://www.radixdlt.com/post/radix-2021-roadmap/\">Alexandria release</a>. </p><p id=\"\">Today, Matthew Hine, Head of Product at Radix DLT, dives into an overview of the Radix Engine v2, what makes it special, and details of how it works in a two-part video series.</p><h2 id=\"\"><strong id=\"\">Radix Engine v2 Overview</strong></h2><p id=\"\">In the first part of this presentation, Matt gives an overview of how Components and the Radix Engine v2 allow developers to create a more secure, intuitive form of smart contracts for DeFi and how the Component Catalog delivers significant improvements compared to using the Ethereum solution stack.</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/Z5jLiR11gtY\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/Z5jLiR11gtY\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h2 id=\"\"><strong id=\"\">How does Radix Engine V2 work</strong></h2><p id=\"\">In part two, Matt looks under the hood of the Radix Engine v2 to explore the Radix Finite State Machine and how Components built on Radix are more intuitive and easier to define in contrast to those adopting an Ethereum style approach.This video also demonstrates precisely how intuitive this is by showing how Components can be reused, built-on to add new functionality and deployed to construct a gumball machine to serve wrestling superstar, Rowdy Roddy Piper.</p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/Lkt0y8DTx9A\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/Lkt0y8DTx9A\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "What is the Radix Engine V2?",
+  "slug": "what-is-the-radix-engine-v2"
+ }
+}

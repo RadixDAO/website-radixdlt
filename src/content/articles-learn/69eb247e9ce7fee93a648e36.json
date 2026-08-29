@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e36",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:36:54.752Z",
+ "createdOn": "2026-04-24T08:06:05.447Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Radix tokens sold during initial token sale are called eXRD and follow a price-based unlocking schedule.&nbsp;</p><p id=\"\">Once the token price reaches the below price levels, more of the purchased token supply is unlocked, and are claimed by participants of the token sale.&nbsp;</p><p id=\"\">The tokens will be unlocked once the Simple Moving Average (SMA) of the crosses the following price milestones:</p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb246c9ce7fee93a648a7b_60894c8dcdfacc1a1da41a7b_Screenshot%25202021-04-28%2520125231.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><br></p><p id=\"\">On instantiation of the Radix Ledger (mainnet) in our Olympia release, the ERC-20 eXRD tokens will be exchangeable 1:1 for the new XRD token.&nbsp;</p><p id=\"\">The price based unlocking mechanism starting with the eXRD token will continue for the XRD token on the Radix Ledger.&nbsp;</p><p id=\"\">The new XRD token will be instantiated as locked tokens for: the founders, the remainder of the RADIX LEDGER Subsidy; the remainder of the Dev Incentives; the remainder reserved for endowment of the Radix Foundation; and an indefinitely locked allocation for the Stable Coin Reserve.</p><p id=\"\">This chart shows the distribution as a percentage of the maximum 24 Billion supply. The tokens allocated to Network Emission will be distributed in equal parts to all valid delegators over a 40 year period for the release of mainet.&nbsp;</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb246c9ce7fee93a648a80_60894bd89fe702221b8bc654_yGr3mbu5mP_eZEhmubjY2c7RqC0zBAWzwlX-8vKtaDq9MWTtQG8masxza9kEvuCzs_Ygt4t52C94p62ENL889-G1F4JjCp1fBmoT43UnC3y1U0Cn_v-eEtP3M3QqQHNxC4dG_2g8.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Head over to our blog to <a id=\"\" href=\"https://www.radixdlt.com/post/the-radix-economics-a-token-for-an-ecosystem/\">find out more</a> or read the <a id=\"\" href=\"https://www.radixdlt.com/post/the-radix-economics-a-token-for-an-ecosystem/\">Economic White Paper</a> for full details.&nbsp;</p><h2 id=\"\">How many Radix tokens (eXRD) are available now?</h2><p id=\"\">The Circulating Supply can be found <a id=\"\" href=\"https://www.coingecko.com/en/coins/e-radix\">here</a>.</p><p id=\"\">The maximum supply is 24 billion XRD. 12 billion will exist at the launch of the network, where a large portion follows <a id=\"\" href=\"https://www.radixdlt.com/post/how-the-exrd-unlocking-vault-works/\">price vesting</a> and 2.4 billion tokens are locked as a stable coin reserve.&nbsp;</p><p id=\"\">Yearly emission rewards will account for 300m eXRD tokens over 40 years, resulting in an additional 12 billion tokens. For more information, please see the Radix economic model <a id=\"\" href=\"https://www.radixdlt.com/wp-content/uploads/2020/11/Economic-2020-V10.4.pdf\">here</a>.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb246c9ce7fee93a648a87_60894bd81c28a63b6cb7e17b_Bi70eKkykEevKUJqxhKW5q33zD-yH6XMrXEujWutAqj6Sf0ToL0FwPA5UDMlXbOXLBPqWK2MiPwAOG9C4yozo6wWJeFpPG1lrd1yOThE8Jxa5asS-QcazKmukkDALQf1pM6h_70x.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">‍</p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": true,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How Does The eXRD Price Vesting Work?",
+  "slug": "how-does-the-exrd-price-vesting-work"
+ }
+}

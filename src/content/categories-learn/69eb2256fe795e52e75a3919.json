@@ -1,0 +1,24 @@
+{
+ "id": "69eb2256fe795e52e75a3919",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T07:57:10.700Z",
+ "createdOn": "2026-04-24T07:57:10.700Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb224971d2287120f21761",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb224971d2287120f21761_6151c0ba797a9e01270f1ace_Blockchain.svg",
+   "alt": null
+  },
+  "number-of-questions": "57",
+  "subcategory-set": false,
+  "subcategory": [
+   "69eb218cb180744096bf81fc",
+   "69eb218cb180744096bf81fe"
+  ],
+  "name": "Blockchain & DeFi Basics",
+  "slug": "blockchain-defi-basics"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de22",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:23.509Z",
+ "createdOn": "2022-05-21T18:20:13.480Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e252",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d8491b87901cf69f5ee277_628a9a3c4dbd6f3a7eab44f8_Consensus%25202022%2520Event%2520Post.png",
+   "alt": null
+  },
+  "event-category": "40034f0dcec0c8a905ad800fdd9c5bcf",
+  "description": "Join us for our free Scrypto Developer Workshop in Austin! Here you can register for a full day of DeFi fun, education and Smart Contract training. Afterwards, there will also be a party hosted by Radix where you can also participate for free.",
+  "location": "800 Congress, Austin TX",
+  "start-date": "2022-06-11T00:00:00.000Z",
+  "end-date": "2022-06-11T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.de/e/defi-nft-token-smart-contract-developer-day-austin-registration-341244340007",
+  "name": "DeFi & Scrypto Event Austin",
+  "slug": "defi-scrypto-event-austin"
+ }
+}

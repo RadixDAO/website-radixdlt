@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57db35",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:11:48.831Z",
+ "createdOn": "2021-04-25T10:38:26.567Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/cape/status/1141455521817518080?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d932",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608546a0aa68f72bea1649e2_Saul.jpg",
+   "alt": null
+  },
+  "content": "In the week where @LibraCoin_ launched and promised 1k TPS next year, @radixdlt did there 3rd live test in 10 days at >1m TPS - or 500x @Visa @Mastercard - audience of $FB consortium is amazing but they will need a scaleable platform if they want to run web-scale apps cc @tim",
+  "order": 4,
+  "name": "Saul Klein",
+  "slug": "saul-klein"
+ }
+}

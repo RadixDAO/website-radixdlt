@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57deaa",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-10-08T11:51:05.171Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-10-08T00:00:00.000Z",
+  "guest-name": "Bryan Pellegrino",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e2e3",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6341631f60f6081304609d01_Bryan%20Pellegrino.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e2e4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/634163468b3eb5e2f31c8e92_Frame_25.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Brian Pellegrino, co-founder, and CEO of LayerZero Labs, the team behind LayerZero, a generalised cross-chain messaging protocol, as well as Stargate, a cross-chain liquidity transfer layer. ",
+  "main-content": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/2P5XHAxrVCE\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/2P5XHAxrVCE\" title=\"LayerZero & Stargate: connecting all blockchains together via the omni-layers.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">In this episode of the DeFi Download, Piers Ridyard interviews Brian Pellegrino, co-founder, and CEO of LayerZero Labs, the team behind LayerZero, a generalised cross-chain messaging protocol, as well as Stargate, a cross-chain liquidity transfer layer.&nbsp;</p><p id=\"\">LayerZero is an omni-chain interoperability protocol. It is intended for lightweight message transmission across chains. It provides authentic and guaranteed message delivery with trustlessness that may be configured.</p><p id=\"\">Stargate launched on top of LayerZero and quickly became the fastest-growing Defi application of all time. Stargate aspires to resolve the Bridging Trilemma and to provide omni-chain routing as well as pooling and staking options across multiple chains.</p><p id=\"\"><strong id=\"\">[1:03]</strong> What exactly is a generalised cross-chain messaging protocol and why does it matter?</p><p id=\"\"><strong id=\"\">[5:56]</strong> How do gas fees work on LayerZero?</p><p id=\"\"><strong id=\"\">[10:38]</strong> What is a Relayer, how does the Relayer network function, and what safeguards honesty among ledgers?</p><p id=\"\"><strong id=\"\">[13:03]</strong> Dissecting the LayerZero omni-chain interoperability function and its two core mechanisms: the Oracle and the Relayer</p><p id=\"\"><strong id=\"\">[20:28]</strong> What is Stargate by LayerZero Labs?</p><p id=\"\"><strong id=\"\">[25:30]</strong> How does liquidity emerge in the protocol, and what incentives are offered to those who provide liquidity?</p><p id=\"\"><strong id=\"\">[29:35]</strong> How is the Stargate token different from wrapped assets?</p><p id=\"\"><strong id=\"\">[31:02]</strong> Why is the LayerZero Stargate implementation combination more secure than all of the other bridges currently under attack?</p><p id=\"\"><strong id=\"\">[35:41]</strong> How Pre-Crime keeps bridges safe from hackers</p><p id=\"\"><strong id=\"\">[39:26]</strong> Many of the issues observed in these hacks are related to things like permission escalation and other similar issues. How does what LayerZero Labs is doing prevent those types of attacks?</p><p id=\"\"><strong>Further resources</strong></p><ul id=\"\"><li id=\"\">LayerZero Website: <a id=\"\" href=\"https://layerzero.network/\">layerzero.network</a>&nbsp;</li><li id=\"\">Stargate: <a id=\"\" href=\"https://stargate.finance/\">stargate.finance</a>&nbsp;</li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/LayerZero_Labs\">@LayerZero_Labs</a></li><li id=\"\">Bryan’s Twitter: <a id=\"\" href=\"https://twitter.com/PrimordialAA\">@PrimordialAA</a></li><li id=\"\">Documentation: <a id=\"\" href=\"https://layerzero.gitbook.io/docs/\">LayerZero Docs</a></li><li id=\"\">Medium: <a id=\"\" href=\"https://medium.com/layerzero-official\">medium.com/layerzero-official</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/11461440-layerzero-stargate-connecting-all-blockchains-together-via-the-omni-layers",
+  "name": "LayerZero & Stargate: connecting all blockchains together via the omni-layers.",
+  "slug": "layerzero-stargate-connecting-all-blockchains-together-via-the-omni-layers"
+ }
+}

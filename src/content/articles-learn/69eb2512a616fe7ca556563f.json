@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca556563f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:28.144Z",
+ "createdOn": "2026-04-24T08:08:28.144Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Olympia was the first version of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>, commonly referred to as “mainnet”. Olympia has been superseded by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix’s</strong></a> current <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radixs-babylon-mainnet\"><strong id=\"\">Babylon Mainnet</strong></a>.</p><p id=\"\">Olympia ran from 28 July 2021 to 28 September 2023, processed more than 2 million transactions, and had 100% uptime, demonstrating the robustness of unsharded <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus\"><strong id=\"\">Cerberus</strong></a> consensus.</p><p id=\"\">Olympia included the foundational technologies that acted as the basis for all future Radix releases and allowed the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-community\"><strong id=\"\">Radix</strong> <strong id=\"\">Community</strong></a> to start taking advantage of the most fundamental <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> features.&nbsp;</p><p id=\"\">Olympia laid the foundation upon which all future versions of the Radix Public Network will be built.&nbsp;</p><p id=\"\">Three pieces of software were delivered to support the Olympia mainnet.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1600px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1600px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24d31b0eed71608c4ef6_60ed79021ad15778a1e55921_NlC8meg0RhXxHFiU7Uro0XpcdskLbvMDTqktI8x4H5Tu53X0lpi8aH3nB7xKHdLaidtQqzbB9q41zg3VmihO5qtmyPNxu0jzXUMSomhb-fkeVWCpHW4sM4Q7FhADMrGO7vRRsN0z.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\"><strong id=\"\">1 Radix Olympia Node</strong>: The Radix Olympia Node was the key software that ran the Olympia version of the Radix Public Network and provided useful API endpoints for things like wallets, depending on its configuration.</p><p id=\"\">Once installed, the Node could have been run in one of two modes:</p><p id=\"\"><strong id=\"\">Validator Node - to verify transactions on the Radix Olympia Mainnet under consensus.</strong></p><p id=\"\"><strong id=\"\">Full Node</strong> - to sync with the network and provide endpoints.</p><p id=\"\"><strong id=\"\">2 Radix Desktop Wallet </strong>- This was the old software that ran on desktop used to&nbsp; view, transact with, and <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">stake</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD tokens</strong></a> and other tokens on the Olympia Mainnet. It made it easy for anyone to stake and unstake XRD to Radix validators and receive incentive <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a>. It was available on Windows, Mac, and Linux.&nbsp;</p><p id=\"\"><strong id=\"\">3 Radix Explorer </strong>- This website provided a list of all nodes that had registered to be <strong id=\"\">validator nodes </strong>and were available for staking, along with information about each one to help guide choices of which validators to stake to.</p><p id=\"\"><br></p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">What is the Radix roadmap?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radixs-babylon-mainnet\"><strong id=\"\">What is Radix's Babylon Mainnet?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What was Radix's Olympia Mainnet?",
+  "slug": "what-was-radixs-olympia-mainnet"
+ }
+}

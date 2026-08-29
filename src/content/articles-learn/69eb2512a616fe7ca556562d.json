@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca556562d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:23.380Z",
+ "createdOn": "2026-04-24T08:08:23.380Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8202",
+  "full-article-text": "<p id=\"\">In addition to <a id=\"\" href=\"https://learn.radixdlt.com/article/how-can-i-purchase-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> emissions, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix Tokens Jersey Limited (RTJL)</strong></a> provides an additional “subsidy” incentive specifically for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator node</strong></a>-runners. The subsidy is drawn from a reserve of 600m XRD tokens, created at the network’s genesis and held by RTJL for purposes such as this. These subsidy rewards are <strong id=\"\">not</strong> a feature of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix Protocol</strong></a> and are provided directly from RTJL to the validator node-runner. To meet RTJL’s regulatory obligations, only node-runners that successfully complete Know Your Customer (<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-kyc-aml\"><strong id=\"\">KYC</strong></a>)<strong id=\"\"> </strong>checks may be eligible for subsidy rewards.</p><p id=\"\">Subsidy rewards are provided to cover the costs of running a validator node to ensure that anyone who has the technical skill and commitment to run a good reliable validator node can do so. The quantity of XRD provided will be continuously adjusted by RTJL to provide a USD-equivalent value to cover good node hosting and operation costs comfortably. This is approximately $500 per month for full participation in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a>, but it may be adjusted</p><p id=\"\">In the <a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-are-calculated-for-token-holders\"><strong id=\"\">same way as emissions</strong></a>, the quantity of subsidy XRD will be reduced by the penalty for missed participation in consensus.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-and-validator-fees-are-calculated-for-validators\"><strong id=\"\">How XRD staking emissions rewards and validator fees are calculated - for validators</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "What is the XRD subsidy incentive for validators?",
+  "slug": "what-is-the-xrd-subsidy-incentive-for-validators"
+ }
+}

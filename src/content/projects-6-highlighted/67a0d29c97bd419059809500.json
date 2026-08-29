@@ -1,0 +1,29 @@
+{
+ "id": "67a0d29c97bd419059809500",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T14:34:10.285Z",
+ "lastUpdated": "2025-02-03T14:30:09.113Z",
+ "createdOn": "2025-02-03T14:28:44.164Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Root is a decentralized Lending & Borrowing protocol operating on the Radix DLT, where lenders and borrowers interact within an overcollateralized market environment. It's a non-custodial liquidity protocol enabling users to participate either as depositors or borrowers. ",
+  "project-logo": {
+   "fileId": "67a0d260ca51cabc4e038788",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67a0d260ca51cabc4e038788_rootcolored.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "67a0d299e4b75b44978d77d2",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67a0d299e4b75b44978d77d2_Background.png",
+   "alt": null
+  },
+  "link-to-project": "https://app.rootfinance.xyz/markets",
+  "categories": [
+   "66dafd303535702e99f6c8f5"
+  ],
+  "rank": 3,
+  "name": "Root Finance",
+  "slug": "root-finance"
+ }
+}

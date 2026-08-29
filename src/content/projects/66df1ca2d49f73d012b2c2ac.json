@@ -1,0 +1,30 @@
+{
+ "id": "66df1ca2d49f73d012b2c2ac",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:32:25.381Z",
+ "createdOn": "2024-09-09T16:04:50.923Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A next-gen name service registry and DAO focused on offering human-readable addresses and innovative tools to fully unlock the potential of Web3.",
+  "project-logo": {
+   "fileId": "66df1c91839d5e7d9d6d5f1b",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c91839d5e7d9d6d5f1b_RNS%20Foundation%20Logo%20-%20Square.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1f84bb0862582d26cb8e",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1f84bb0862582d26cb8e_1.png",
+   "alt": null
+  },
+  "link-to-project": "https://rns.foundation/",
+  "categories": [
+   "66dafd4047c321c70ec59b34"
+  ],
+  "rank": 21,
+  "featured": false,
+  "name": "Radix Name Service",
+  "slug": "radix-name-service"
+ }
+}

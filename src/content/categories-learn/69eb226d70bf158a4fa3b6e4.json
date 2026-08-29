@@ -1,0 +1,21 @@
+{
+ "id": "69eb226d70bf158a4fa3b6e4",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T07:57:33.148Z",
+ "createdOn": "2026-04-24T07:57:33.148Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb2266745be047bb455a69",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb2266745be047bb455a69_60f02896b25bd480b48db064_Group%2012.png",
+   "alt": null
+  },
+  "number-of-questions": "18",
+  "subcategory-set": false,
+  "subcategory": null,
+  "name": "Radix User Guide",
+  "slug": "radix-user-guide"
+ }
+}

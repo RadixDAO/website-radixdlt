@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de46",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T15:01:54.675Z",
+ "createdOn": "2022-06-08T16:07:20.026Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Get to know the rest of the Radix Saigon Community over some coffee, beer and food. This meetup will be an informal gathering to celebrate how far we have come as a project and chat about how we can best grow the Radix Saigon Community for the future. If you would like to attend this historic event please register now.",
+  "location": "The Joi Factory Cafe 212/2B Đường Nguyễn Trãi Ho Chi Minh, HCM 700000 Viet Nam",
+  "start-date": "2022-07-10T00:00:00.000Z",
+  "end-date": "2022-07-10T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/community-meet-up-sai-gon-tickets-360200006917",
+  "name": "Community Meet Up - Ho Chi Minh City, Vietnam",
+  "slug": "community-meet-up-ho-chi-minh-city-vietnam"
+ }
+}

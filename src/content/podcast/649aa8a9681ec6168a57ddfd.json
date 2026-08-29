@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57ddfd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-04-15T18:04:55.604Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-04-15T00:00:00.000Z",
+  "guest-name": "Robert Cooper",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0bf",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6259b38d303c11844263099f_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0c0",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6259b39f9570129405c9d747_thumb__500_0_0_0_crop.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Robert Cooper, CEO of Digivault. Their conversation covers institutional digital asset custody, private key multi-layer security, and the current interest institutions have in crypto.",
+  "main-content": "<p>Digivault is a back-end service that the average cryptocurrency user is unlikely to be aware of. Most crypto users are familiar with the Ledger Nano, a hardware security device that can be plugged into a computer and provides a higher level of security than simply using a software wallet on a phone or computer by theoretically making it impossible to extract the key from the device.&nbsp;</p><p>Digivault is a custodian of digital assets for institutions. It provides a fully customizable digital asset custody service, a white-glove service that focuses on ensuring security through multiple layers of protection and satisfies the most stringent institutional and regulatory requirements.</p><p><strong>[00:43]</strong> What does institutional custody entail? How does it create the secure environment that people have come to expect from a Ledger Nano device?</p><p><strong>[03:26]</strong> What is the Digivault private key generation process like, and why is it secure?&nbsp;</p><p><strong>[05:06]</strong> Information on hardware security modules (HSMs), which are the basis for the Ledger Nano.</p><p><strong>[08:49]</strong> The main challenge in making HSMs work with crypto is that each cryptocurrency and public ledger has its own key derivation process, and each ledger has its own way of passing a transaction into the device, having the device sign it, returning the signed package, and then submitting it to the network. So, how did Digivault evolve from basic hardware security modules to something that could interact with a public ledger either directly or indirectly?</p><p><strong>[12:32]</strong> What factors influenced Digivault's decision to use HSM, and how did they weigh the benefits and drawbacks of HSM versus MPC (multi-party computation)?</p><p><strong>[16:12]</strong> Care, control, and custody of the private key are the three most important factors for insurance brokers.</p><p><strong>[21:31]</strong> User experience advances are vital, and in the early days of crypto, people lost billions of dollars worth of Bitcoin due to poor secret management. What does the Digivault team see as the shift in the crypto user base and what does that mean for the institutional custody business in terms of institutional custody and the concept of a corporation owning a private key?</p><p><strong>[24:58]</strong> Robert discusses the Bitfinex recovery in detail.&nbsp;</p><p><strong>[27:02]</strong> Conflicts with the GDPR and the FATF travel rule, as well as privacy and non-privacy coins</p><p><strong>[36:13]</strong> What is Robert's assessment of the increase in institutional interest in crypto?</p><p><strong>[38:26]</strong> The regulatory challenge that arises as a result of the crypto industry recruiting and removing talent from the regulator space</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://digivault.com/\">digivault.com</a></li><li>Twitter: <a href=\"https://twitter.com/DigivaultGlobal\">@DigivaultGlobal</a>‍</li><li>Robert’s email: <a href=\"mailto:robert.c@digivault.com\">robert.c@digivault.com</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10445668-digivault-institutionals-are-getting-serious-about-crypto",
+  "name": "Digivault - institutions are getting serious about crypto",
+  "slug": "digivault-institutions-are-getting-serious-about-crypto"
+ }
+}

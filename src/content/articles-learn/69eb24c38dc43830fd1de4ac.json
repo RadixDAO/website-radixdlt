@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4ac",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:29:55.702Z",
+ "createdOn": "2026-04-24T08:06:22.038Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">First, <a id=\"\" href=\"http://wallet.radixdlt.com/\"><strong id=\"\">click here to download the Radix Desktop Wallet.</strong>&nbsp;&nbsp;</a></p><p id=\"\">You have the option to download the Radix Wallet for <strong id=\"\">MacOS, Windows, or Linux.&nbsp;</strong></p><p id=\"\"><strong id=\"\">Below are the instructions for MacOS and Windows.</strong></p><h4 id=\"\"><strong id=\"\">How to install the Radix Desktop Wallet on MacOS:</strong>&nbsp;</h4><p id=\"\">The MacOS download will place a .dmg disk image file in your <strong id=\"\">downloads folder</strong>.</p><p id=\"\">Open the folder and you will be greeted with the below screen.</p><p id=\"\">Drag the Radix Wallet icon into the applications folder to install it.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247d8dc43830fd1dd7dd_60888513474c8883b544f69d_Gm2wS41yuYHtQ0-tazFe8koSpBRxKPY6EvutifZ8QW396C2QZ7T2KoJVU1BZGJvy-ydGjSc-o2geNxOdaiHckqsHpEyr9PSuldf4nAyDXrYmAAzlNGubWCIrJlL0A-Vtb7Ez3hWx.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">You may now eject and discard the disk image file.</p><p id=\"\">You can now open the Radix Wallet in your Applications folder<strong id=\"\">,</strong> and your wallet will run for the first time<strong id=\"\">.</strong></p><p id=\"\">Click<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-set-up-your-wallet\"><strong id=\"\">here</strong></a> to learn how to set up your Wallet with its first account.</p><h4 id=\"\"><strong id=\"\">How to install the Radix Desktop Wallet on Windows:</strong></h4><p id=\"\">Once you have downloaded the installation file it will be saved to your computer in <strong id=\"\">.exe format</strong>. It will usually be in your <strong id=\"\">Downloads</strong> folder unless you saved it in a different folder.</p><p id=\"\">Locate and <strong id=\"\">double-click</strong> the RadixWallet.exe file.</p><p id=\"\">A dialog box will appear. Follow the instructions to install the software.&nbsp;</p><p id=\"\">The software will be installed. You can now open the Desktop Wallet from the <strong id=\"\">Start menu or Home screen.</strong></p><p id=\"\">Click<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-set-up-your-wallet\"><strong id=\"\">here</strong></a><strong id=\"\"> </strong>to learn how to set up your Wallet with its first account.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-completely-reset-your-desktop-wallet-by-deleting-the-keystore\"><strong id=\"\">How to install the Radix Desktop Wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-set-up-your-wallet\"><strong id=\"\">How to set up your wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-check-your-token-balances\"><strong id=\"\">How to check your token balances</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-send-tokens\"><strong id=\"\">How to send tokens</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-completely-reset-your-desktop-wallet-by-deleting-the-keystore\"><strong id=\"\">How to reset your wallet keystore</strong></a></li></ul><p id=\"\"><br><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 11,
+  "name": "How to Install the Radix Desktop Wallet",
+  "slug": "how-to-install-the-desktop-wallet"
+ }
+}

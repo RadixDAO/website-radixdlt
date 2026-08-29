@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648dec",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:05:42.266Z",
+ "createdOn": "2026-04-24T08:05:42.266Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\">Yes! </strong>The goal for the Radix Wallet is to be a wallet you always carry in your pocket, but can connect to dApps <em id=\"\">anywhere</em>.</p><p id=\"\">Radix Connect technology currently enables use of the Radix Wallet with dApp websites running in either a desktop web browser (using the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-connector-browser-extension\">Radix Connector browser extension</a>) or a mobile web browser running on your iOS or Android phone.</p><h2 id=\"\"><strong id=\"\">How does it work?</strong></h2><p id=\"\">To use a mobile dApp, All you have to do is load the dApp website in your preferred web browser on your mobile phone, and tap the <strong id=\"\">√ Connect</strong> button as usual.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24559ce7fee93a64872a_6684033c009996a4932bcd04_AD_4nXeVQT4xzvjyJqeAsm9ZTzo4yGzFoOZtoWi8kaM_7AZzYH4LIc5BvDULO3XfMNhC6XAzQ5GGZxYKxvvK4HJUpPkYGgDwvI5QrhugYku5iVzuBDpwpz-EnAqLTkpS7hcAzmXAj2dX2ShpEodYfxVbATgUy65t.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">You will be automatically asked for permission to open your Radix Wallet app, and the dApp can make all the same kinds of requests you’re used to on desktop: Persona logins, Account lists, and proposed Transactions.</p><p id=\"\">When the request is done, the dApp will get the response, and you’ll just swipe back to your mobile web browser to continue.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24559ce7fee93a64872d_6684033cb3213c5cd9841bcc_AD_4nXeYLlYfvyI-Awbuq5lL1MSVF_6wyx_AJ5mT75hbcI7yoNaMBmn2v__VldTyh4MXO24AdCNA6mjqlAMKEqEYKYfPBKTcoKrcq_P4_ZRcsgtc_0n1K9-zvvZroArum6K9UEhxuDlQIbR-G6mvUc-iL8ktlwTL.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">‍</p><h2 id=\"\"><strong id=\"\">Which mobile web browsers are supported?</strong></h2><p id=\"\">Just about any mobile web browser should work fine for mobile dApps and the Radix Wallet.</p><p id=\"\">Currently these are the only known browsers not supported:</p><ul id=\"\"><li id=\"\">Snapchat in-app browser, iOS</li></ul><h2 id=\"\"><strong id=\"\">What about Ledger hardware wallets?</strong></h2><p id=\"\">You can continue to use your supported Ledger hardware wallet device when signing transactions from mobile dApps. However, there is currently no support for connecting your Ledger device directly to your mobile phone without a PC. This means that even using mobile dApps, you will need to be near your PC to sign with your Ledger.</p><p id=\"\">When multi-factor account control is added to the Radix Wallet, there will be much more flexibility in how Ledgers and other hardware signing devices are used with the Radix Wallet. We expect that Ledger hardware devices will not be the preferred option for “on the go” additional security, in favor of devices like the Arculus card that are designed for smooth on-the-go use.</p><p id=\"\">For this reason, development priority is currently on supporting those mobile-first devices, and Ledger devices will likely remain PC-tethered where they will continue to provide a good option for “cold storage” or, with our multi-factor system, as a “recovery” factor that is only needed occasionally.</p><h2 id=\"\"><strong id=\"\">What about native mobile apps?</strong></h2><p id=\"\">The Radix Wallet roadmap includes addition of support for making dApp requests from native iOS and Android mobile apps, with a very similar user experience as that for mobile web dApps.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Does the Radix Wallet support Mobile dApps?",
+  "slug": "does-the-radix-wallet-support-mobile-dapps"
+ }
+}

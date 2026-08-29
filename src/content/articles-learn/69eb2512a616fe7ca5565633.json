@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565633",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:24.826Z",
+ "createdOn": "2026-04-24T08:08:24.826Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fe",
+  "full-article-text": "<p id=\"\">Total Value Locked is an aggregate of all the funds locked in a <strong id=\"\">DeFi</strong> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">Smart Contract</strong></a>, often as collateral for a financial product or service offered by the smart contract.</p><p id=\"\"><a id=\"\" href=\"https://defipulse.com/\"><strong id=\"\">DeFi Pulse</strong></a> and <a id=\"\" href=\"https://defillama.com/home\"><strong id=\"\">DeFi Llama</strong></a> are two prominent resources collating TVL data.&nbsp; Some of the DeFi protocol categories where funds can be locked include:</p><p id=\"\">- Collateral for Debt &amp; Credit (AAVE, Maker, Compound)</p><p id=\"\">- Liquidity for Decentralized Exchanges (Uniswap, Curve, Balancer)</p><p id=\"\">- Collateral for Derivatives (Synthetix, Nexus, Erasure)</p><p id=\"\">- Liquidity for Payments (Flexa, Lightning Network, XDai)</p><p id=\"\">- Assets for Yield Optimization (Yearn, Harvest Finance)&nbsp;</p><p id=\"\">The total TVL of all DeFi smart contracts has often been used to measure of the size of the DeFi ecosystem, but it has been criticized as a misleading metric as it can count assets more than once.</p><p id=\"\">Imagine I deposit one ETH in Maker to generate $2,000 DAI. That one ETH is “locked” in Maker. But if I then take that $2,000 of Dai, trade it for ETH, and then lock that new ETH in Maker to generate $1,500 more Dai, I’ve managed to “lock” 1.75 ETH in Maker, even though I only started with one ETH. This process can continue all the way down to there being 4-5 ETH being locked in Maker, when all I started with was one ETH.</p><p id=\"\">In this way, TVL is not a metric that can always be used to measure heterogeneous protocols against each other. While it’s an indicator, deeper consideration is always required if you are to truly understand the comparative size or influence of protocols within or across ecosystems.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">What Is Ethereum?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-scrypto\"><strong id=\"\">What is Scrypto?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What is Total Value Locked (TVL)?",
+  "slug": "what-is-total-value-locked-tvl"
+ }
+}

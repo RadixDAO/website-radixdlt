@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57def1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2023-02-06T11:54:59.914Z",
+ "createdOn": "2023-01-23T16:07:04.693Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e337",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63ceaf86c678e214bc41fae8_consensus2.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "RDX Works is proud to announce that the team will be heading back to Consensus in Austin, Texas in 2023. Excitingly, the team will be joined by the 6 Radix Grants Program participants who will each be presenting their projects alongside Radix. The event, hosted by CoinDesk, is the ultimate destination for all things crypto and blockchain, and a great opportunity to connect with the brightest minds and biggest innovators in the industry. It's a chance to learn from the most sought-after thought leaders, meet new people, and experience the many activities that the event has to offer, and the team is excited to be representing Radix for another year running. ",
+  "location": "Austin , TX",
+  "start-date": "2023-04-26T00:00:00.000Z",
+  "end-date": "2023-04-28T00:00:00.000Z",
+  "event-link-text": "Register For CONSENSUS 23 Here!",
+  "event-link-url": "https://consensus.coindesk.com/register/",
+  "name": "CONSENSUS 2023",
+  "slug": "consensus-2023"
+ }
+}

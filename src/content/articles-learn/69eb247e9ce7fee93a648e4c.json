@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e4c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:11.014Z",
+ "createdOn": "2026-04-24T08:06:11.014Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/bbH-tKhKr3o\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/bbH-tKhKr3o\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">Backing up your wallets ensures you can recover access to your Accounts,&nbsp; Personas, and wallet settings on a new phone. There is nothing security-critical in the backups; backups do not contain any seed phrases or private keys. You can save backups to iCloud or as a manual backup file.&nbsp;&nbsp;</p><p id=\"\">To back up your wallet, go to the <strong id=\"\">settings</strong> gear in the top right-hand corner of the mobile app, click <strong id=\"\">app settings, </strong>then<strong id=\"\"> Backups.</strong></p><p id=\"\"><strong id=\"\">Automatic backups</strong> (recommended) - Sync wallet data to iCloud</p><p id=\"\"><strong id=\"\">Manual backup</strong> - A manually exported wallet backup file may also be used for recovery, along with your seed phrase(s) - Here, you can export a wallet backup file - Only the <strong id=\"\">current configuration</strong> of your wallet is backed up with each manual export.&nbsp;</p><p id=\"\">You will need to input your seed to restore the settings to a new wallet. Be sure to do this privately and store your seed securely.</p><p id=\"\"><em id=\"\">This functionality will change once multi-factor authentication is enabled in the Radix wallet. </em></p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Backup My Radix Wallet Settings",
+  "slug": "how-to-backup-my-radix-wallet-settings"
+ }
+}

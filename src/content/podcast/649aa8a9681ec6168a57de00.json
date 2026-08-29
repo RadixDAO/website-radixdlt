@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de00",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-04-22T16:01:21.616Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-04-22T00:00:00.000Z",
+  "guest-name": null,
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0c8",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6262d1089f2ca64a8957c653_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0c9",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6262d12706db16f9d3bdf55c_1_lzsUyyhsJG6CWh7IoxaFtg.png",
+   "alt": null
+  },
+  "excerpt": "Piers Ridyard interviews Patrick Hansen, Head of Strategy & Business Development at Unstoppable Finance, the wallet that aims to bring DeFi to the masses, in this episode of the DeFi Download. Patrick analyses why the EU should fully embrace crypto and Web3, as well as the current regulatory environment, which is stifling progress. ",
+  "main-content": "<p>The Unstoppable Finance team is developing a DeFi investing app, attempting to natively integrate DeFi applications into a mobile app that is extremely simple to use, allowing people to experiment with various protocols and applications. They're currently working on their first product, which they hope to launch in two months.&nbsp;</p><p>Patrick has previously been heavily involved in crypto policy, particularly EU crypto policy, and has been a vocal advocate for reversing, or at the very least providing strong advice on, Europe's current course, and what he refers to as Europe’s \"third way.\"&nbsp;</p><p>[1:01] Where did the concept of Europe's “third way” originate, and where does Patrick see Europe's problems arising?</p><p>[3:14] The General Data Protection Regulation (GDPR) empowers users to control their data, regardless of where it is stored. Users have the right to ask a company what information they have on them and to request that they delete that information if they no longer want them to have it. As a result, businesses' perspectives on data are shifting. They face significant liability if they do not exercise extreme caution when handling user data. What role does crypto play in this principle? To put it another way, how does crypto fit into the larger concept of user sovereignty?</p><p>[7:10] There may be a separation between object ownership and metadata. As a result, there is a great deal of personal information on ledger. How does Patrick perceive the relationship between GDPR and publicly accessible on-ledger, on-chain data that cannot be deleted?</p><p>[10:12] In light of anti-money laundering regulations, VASP rules, and travel rules, the crypto world convinced regulators that chain analytics is beneficial. However, chain analytics provides more user data than the banking system requires. What are Patrick’s thoughts on privacy, privacy coins, and privacy regulation? Is he convinced that they have a place in the EU?</p><p>[17:09] Patrick discusses how he thinks European anti-money laundering regulations should be applied to cryptocurrency.</p><p>[18:05] What necessitates the exchange of information between two financial institutions? What harm are they trying to avoid, and where is the evidence that information sharing truly prevents it?</p><p>[25:01] Is the European Union anti-crypto? What arguments could persuade the European Union to reconsider its stance on cryptocurrency regulation?</p><p>[28:05] Patrick delves deeper into why the EU should go all-in on cryptocurrency from an economic and financial standpoint.</p><p>[31:25] Is the decline in European companies' equity share over the last 20 years due to a regulatory environment that has rendered Europe uncompetitive?</p><p>[33:04] Patrick responds to Piers' argument that if Europe is serious about crypto, it needs to go beyond parity and become more aggressive, as well as to return to the question of what we are attempting to prevent and how we can actually prevent it.</p><p>[38:02] Regulatory guidelines are frequently unclear. The 5th EU Anti-Money Laundering Directive (AML5D) serves as an example.</p><p>[40:05] A brief overview of the work of Unstoppable Finance</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://unstoppable.fi/\">unstoppable.fi</a></li><li>Patrick’s Twitter: <a href=\"https://twitter.com/paddi_hansen\">@paddi_hansen</a></li><li>Unstoppable Finance Twitter: <a href=\"https://twitter.com/UnstoppableDeFi\">@UnstoppableDeFi</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10485406-patrick-hansen-why-the-eu-should-embrace-crypto-and-what-is-getting-in-the-way",
+  "name": "Patrick Hansen - why the EU should embrace crypto, and what is getting in the way.",
+  "slug": "patrick-hansen-why-the-eu-should-embrace-crypto-and-what-is-getting-in-the-way"
+ }
+}

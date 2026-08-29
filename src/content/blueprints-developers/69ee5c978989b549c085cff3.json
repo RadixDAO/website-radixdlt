@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c978989b549c085cff3",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.677Z",
+ "createdOn": "2026-04-26T18:42:31.460Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 1,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5c978989b549c085cfeb",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c978989b549c085cfeb_63becee10f096573db2ad1c1_caviarswap.jpeg",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb86487a8df6997cbe7"
+  ],
+  "description": "CaviarSwap is a decentralized exchange, powered by Radix DLT with the native token being FLOOP. Caviar is the leader in DEX innovation with Single Token Liquidity Providing, Dynamic Fees, AI assistance, FLOOP staking, Pool based AMM and user defined token risks.",
+  "github-url": null,
+  "website-url": "https://caviarswap.io/",
+  "name": "CaviarSwap",
+  "slug": "caviarswap"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565641",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:28.720Z",
+ "createdOn": "2026-04-24T08:08:28.720Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb21e44af4817cdac9ab72",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Prior to September 15 2021, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> had a price-based unlock mechanism. This meant that all <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-exrd-token\"><strong id=\"\">eXRD</strong></a> and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">XRD</strong></a> tokens held by the Radix Community, RDX&nbsp;Works Ltd, and the Radix Foundation (with the exception of the stable coin reserve), followed a price-unlock mechanism where for every $0.02 that the eXRD / XRD price rose by, a further 5% of tokens would be unlocked, up to a price of $0.43 at which point 100% of those tokens would have been unlocked.</p><p id=\"\">On September 15 2021, following a <a id=\"\" href=\"https://www.radixdlt.com/post/final-token-unlock-complete\"><strong id=\"\">community survey</strong></a> that was overwhelmingly in favor of unlocking all tokens, all tokens (with the exception of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-stable-coin-reserve\"><strong id=\"\">stable coin reserve</strong></a>), were fully unlocked.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/token-unlock-september-15th\"><strong id=\"\">Start Here! Radix Tokens &amp; Tokenomics</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/token-unlock-september-15th\"><strong id=\"\">Radix Blog - Token Unlock - September 15th</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/community-survey-radix-token-unlock\"><strong id=\"\">Community Survey - Radix Token Unlock</strong></a></li></ul><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 10,
+  "name": "What was Radix's price-based unlock mechanism?",
+  "slug": "what-was-radixs-price-based-unlock-mechanism"
+ }
+}

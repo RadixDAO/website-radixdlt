@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c93",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:26.916Z",
+ "createdOn": "2026-04-24T06:26:26.916Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8c3"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2021-09-17T10:00:00.000Z",
+  "last-update": "2021-09-24T19:30:00.000Z",
+  "content": "<p id=\"\">Update:&nbsp;Wallet version 1.2.2 is now live and expected to solve the issues. More details here: <a id=\"\" href=\"https://www.radixdlt.com/post/radix-wallet-update-v1-2-2\">https://www.radixdlt.com/post/radix-wallet-update-v1-2-2</a><br><br>We are aware of an issue with the wallet that is causing it to send too many requests, which is triggering the DDoS prevention we had to scale up in the last few weeks due to repeated DDoS attacks. This is only affecting the wallet interface - there is no issue with the core network or funds.</p><p id=\"\">‍</p><p id=\"\">We are working on a fix in the wallet that will resolve this, and is due on Friday this week. </p><p id=\"\">‍</p><p id=\"\">Further details in the below video update from Radix DLT&nbsp;CTO, Russell.</p><p id=\"\">‍</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/XdG-JlELkzE\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/XdG-JlELkzE\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+  "name": "Radix Wallet - Bluescreen",
+  "slug": "radix-wallet-bluescreen"
+ }
+}

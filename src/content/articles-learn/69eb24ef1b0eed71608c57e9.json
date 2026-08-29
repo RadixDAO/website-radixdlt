@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57e9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:54.330Z",
+ "createdOn": "2026-04-24T08:07:54.330Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a> “gas” is analogous to the fees charged by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-mining\"><strong id=\"\">miners</strong></a> for executing a transaction on the Ethereum <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">Blockchain</strong></a><strong id=\"\">, </strong>but specifically for the execution of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart</strong> <strong id=\"\">contract</strong></a> calls. While ETH is the currency of the Ethereum network, <em id=\"\">gas</em> is a unit used to measure how much computation a certain task requires.&nbsp;</p><p id=\"\">ETH and gas are not the same: the price of gas in ETH fluctuates and is mostly decided by a bidding process for priority of execution by miners (the price of gas is set in “gwei” - one gwei is one billionth of one ETH). If the network is congested with lots of transactions, the average gas price will rise, and so the same amount of computation on Ethereum will cost more ETH. If there is less demand on the Ethereum blockchain, the gas fees will decrease.</p><p id=\"\">As of June 2021, there is an Ethereum proposal, EIP-1559, part of the “London” hard fork, that is proposing to revamp the entire gas model by removing the bidding process described above.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">What Is Ethereum?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-developer-royalties-system\"><strong id=\"\">What is the Radix Developer Royalties System?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What is “gas” in Ethereum?",
+  "slug": "what-is-gas-in-ethereum"
+ }
+}

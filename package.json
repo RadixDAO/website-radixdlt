@@ -5,9 +5,10 @@
   "packageManager": "pnpm@11.22.0",
   "scripts": {
     "assets:copy": "node tools/copy-static-assets.mjs",
-    "convert": "node tools/convert-pages.mjs",
     "dev": "astro dev",
-    "build": "node tools/convert-pages.mjs && node tools/convert-detail-templates.mjs && node tools/build-redirects.mjs && astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist",
+    "convert": "node tools/convert-pages.mjs && node tools/convert-detail-templates.mjs",
+    "gate": "node tools/diff-dist.mjs",
     "preview": "astro preview",
     "deploy": "wrangler deploy"
   },

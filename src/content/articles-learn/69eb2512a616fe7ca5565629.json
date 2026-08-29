@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565629",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:22.383Z",
+ "createdOn": "2026-04-24T08:08:22.383Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Radix’s <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radixs-babylon-mainnet\"><strong id=\"\">Babylon Mainnet</strong></a> utilizes an <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">unsharded</strong></a> form of the revolutionary <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Cerberus</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus protocol</strong></a>.&nbsp;</p><p id=\"\">Unsharded Cerberus is capable of at least 50 <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a> transactions per second (<a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">TPS</strong></a>), more than 3x the throughput of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a>, which already serves most of DeFi. As all transactions on Radix are DeFi transactions, it should be noted that this is comparable to other networks as follows:</p><ul id=\"\"><li id=\"\">Ethereum: 9 AMM swaps per second on average</li><li id=\"\">Polygon: 47 AMM swaps per second on average (95 peak)</li><li id=\"\">Avalanche: 31 AMM swaps per second on average (176 peak)</li><li id=\"\">BSC: 194 AMM swaps per second&nbsp;</li><li id=\"\">Solana: 273 AMM swaps per second</li></ul><p id=\"\">Source: <a id=\"\" href=\"https://medium.com/dragonfly-research/the-amm-test-a-no-bs-look-at-l1-performance-4c8c2129d581\"><strong id=\"\">The AMM Test: A No BS Look at L1 Performance</strong></a><strong id=\"\">.</strong></p><p id=\"\">Unsharded Cerberus should provide sufficient <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">throughput</strong></a> to support the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a><strong id=\"\"> </strong>until the Radix <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">Xi’an Mainnet release</strong></a>. Radix Xi’an will be fully <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">sharded</strong></a> and capable of infinite<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-linear-scalability\"><strong id=\"\">linear scalability</strong></a> while preserving <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic composability</strong></a>. Feel free to learn more about how this will work in the <a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a>.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">What is the Radix roadmap?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/whitepapers/consensus\"><strong id=\"\">Cerberus Whitepaper</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "What is the throughput (TPS) of Radix's Babylon Mainnet?",
+  "slug": "what-is-the-throughput-tps-of-radixs-babylon-mainnet"
+ }
+}

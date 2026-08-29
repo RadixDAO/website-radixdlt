@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de520",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:06:33.272Z",
+ "createdOn": "2026-04-24T08:07:10.355Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": "69eb218cb180744096bf820e",
+  "full-article-text": "<p id=\"\">This Olympia user guide is intended to help the Radix community get the most out of the first release of the Radix Public Network, Olympia.&nbsp;</p><p id=\"\">We have tried to preempt as many questions as we can, focusing on what is being delivered as part of Olympia, how it works, and how you can help the network thrive. If you are unable to find an answer to your question please let us know via <a id=\"\" href=\"https://discord.com/invite/WkB2USt?\"><strong id=\"\">Discord</strong></a> or email us at hello@Radixdlt.com.</p><p id=\"\">So, what can you do on the Olympia release of the Radix Public Network?</p><p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-set-up-your-wallet\"><strong id=\"\">Radix Desktop Wallet</strong></a> connects to the network and lets users&nbsp; create accounts, deposit XRD tokens, send and receive them, and help secure the network against Sybil attacks by staking XRD tokens.&nbsp;</p><p id=\"\">Alongside the wallet, there is also the <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-use-the-radix-explorer\"><strong id=\"\">Radix Explorer.</strong></a> This is a webpage that also connects to the network and allows users&nbsp; to view validators that have registered with the network to accept stake, and view details of transactions or accounts.&nbsp;&nbsp;</p><p id=\"\">For an overview of staking on Radix, including how to engage with validators, how to stake and unstake tokens, please visit the<a id=\"\" href=\"https://www.radixdlt.com/post/radix-staking-and-incentive-rewards-guide\"> <strong id=\"\">Radix Staking Guide.</strong></a></p><p id=\"\">If you come across terms you are unfamiliar with you can get up to speed with our <a id=\"\" href=\"https://learn.radixdlt.com/categories/blockchain-defi-basics\"><strong id=\"\">Blockchain</strong> <strong id=\"\">and DeFi basics</strong></a> guide.</p><p id=\"\">Further information</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-set-up-your-wallet\"><strong id=\"\">How to Set Up Your Wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://docs.google.com/document/d/1VAU58cOlVUPHkC7Ri8Fop38VIqGXzBEhaWo0-AB4Ras/edit\"><strong id=\"\">How to stake or unstake your XRD</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-use-the-radix-explorer\"><strong id=\"\">How to use the Radix Explorer</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Start Here! User Guide Introduction",
+  "slug": "start-here-user-guide-introduction"
+ }
+}

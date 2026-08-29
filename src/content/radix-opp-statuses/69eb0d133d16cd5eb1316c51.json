@@ -1,0 +1,25 @@
+{
+ "id": "69eb0d133d16cd5eb1316c51",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T06:36:59.726Z",
+ "createdOn": "2026-04-24T06:26:22.992Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "status": "8e0819e294ace51e942b2873f55ed251",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b7",
+   "69eb0c39904d0db4dee8f8c1",
+   "69eb0c39904d0db4dee8f8bb",
+   "69eb0c39904d0db4dee8f8bd",
+   "69eb0c39904d0db4dee8f8b9"
+  ],
+  "severity": "c4752271c0d619470c9d2a7e139faa80",
+  "date-reported": "2021-12-25T15:38:23.000Z",
+  "last-update": "2021-06-07T19:51:00.000Z",
+  "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=6cDtHjgpCyE&ab_channel=RadixDLT\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/6cDtHjgpCyE\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+  "name": "Amet Risus Condimentum",
+  "slug": "amet-risus-condimentum"
+ }
+}

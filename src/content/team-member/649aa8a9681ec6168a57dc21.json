@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc21",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-27T14:23:01.338Z",
+ "createdOn": "2021-04-25T17:18:01.965Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": true,
+  "jersey-team-member": true,
+  "role": "<p>Director - Radix Tokens&nbsp;(Jersey)&nbsp;Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57da43",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085c2006f3120bb225b7563_Mask%20Group.png",
+   "alt": null
+  },
+  "bio-excerpt": "Legally qualified, involvement in digital enterprise – emoji, messagemates, prepaid cards, mobile games services. Founder of licensed, online gaming company, and developer of next generation gaming and blockchain platforms.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/james-cunningham-davis-55b1465/",
+  "blank-item": false,
+  "order": 6,
+  "name": "James Cunningham-Davis",
+  "slug": "james-cunningham-davis"
+ }
+}

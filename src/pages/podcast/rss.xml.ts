@@ -2,7 +2,7 @@
 // reference/live/podcast/rss.xml. Note the live feed carries a single item and an
 // empty channel <description> -- both preserved deliberately for parity.
 import type { APIRoute } from 'astro';
-import { liveItems, assetPath } from '../../lib/detail-data.mjs';
+import { liveItems, assetPath } from '../../lib/content';
 
 const SITE = 'https://www.radixdlt.com';
 const SUFFIX = 'Podcast | Radix DLT - Decentralized Ledger Technology';
@@ -11,18 +11,22 @@ const esc = (s: string) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
-export const GET: APIRoute = () => {
-  const eps = liveItems('podcast')
+export const GET: APIRoute = async () => {
+  const eps = (await liveItems('podcast'))
     .filter((p: any) => p.fieldData?.slug)
-    .sort((a: any, b: any) =>
-      new Date(b.lastPublished ?? 0).getTime() - new Date(a.lastPublished ?? 0).getTime())
+    .sort((a: any, b: any) => {
+      const d = new Date(b.lastPublished ?? 0).getTime() - new Date(a.lastPublished ?? 0).getTime();
+      if (d !== 0) return d;
+      // Tie-break on createdOn, descending -- see the note in blog/rss.xml.ts.
+      return new Date(b.createdOn).getTime() - new Date(a.createdOn).getTime();
+    })
     .slice(0, 100);
 
   const items = eps.map((p: any) => {
     const url = `${SITE}/podcast/${p.fieldData.slug}`;
     const raw = p.fieldData['guest-image']?.url ?? p.fieldData.image?.url;
     const img = raw ? SITE + assetPath(raw) : null;
-    const pub = new Date(p.lastPublished ?? Date.now());
+    const pub = new Date(p.lastPublished ?? 0);
     return '<item>'
       + `<title>${esc(`${p.fieldData.name}  |  ${SUFFIX}`)}</title>`
       + `<link>${esc(url)}</link>`
@@ -33,13 +37,17 @@ export const GET: APIRoute = () => {
       + '</item>';
   }).join('');
 
+  // Deterministic -- see the note in blog/rss.xml.ts.
+  const newest = eps.reduce((acc: number, p: any) =>
+    Math.max(acc, new Date(p.lastPublished ?? 0).getTime()), 0);
+
   const body = '<?xml version="1.0" encoding="utf-8"?>'
     + '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">'
     + '<channel>'
     + `<title>${esc(SUFFIX)}</title>`
     + `<link>${SITE}</link>`
     + '<description></description>'
-    + `<pubDate>${new Date().toUTCString()}</pubDate>`
+    + `<pubDate>${new Date(newest).toUTCString()}</pubDate>`
     + '<ttl>60</ttl>'
     + '<generator>Astro</generator>'
     + `<atom:link href="${SITE}/podcast/rss.xml" rel="self" type="application/rss+xml"/>`

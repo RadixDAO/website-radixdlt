@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4d6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:47.513Z",
+ "createdOn": "2026-04-24T08:06:47.513Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/_BICwTsQixA\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/_BICwTsQixA\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">On your Chrome browser, go to <strong id=\"\">dashboard.radixdlt.com.</strong></p><p id=\"\">In the top right-hand corner of the dashboard, click <strong id=\"\">Connect</strong> and login to the Radix dashboard.&nbsp;</p><p id=\"\">You will now receive a <strong id=\"\">Login request</strong> in the mobile wallet. Choose or create a <strong id=\"\">Persona</strong> to log in with.&nbsp;</p><p id=\"\">Once you have selected the Persona, click<strong id=\"\"> Continue</strong> and review the account permissions page in the app.&nbsp;</p><p id=\"\">Select the account(s) that you would like to log in with and then press <strong id=\"\">Continue.</strong>&nbsp;</p><p id=\"\">Once complete, the Dashboard’s <strong id=\"\">Connect</strong> button will show you the Persona, data permissions, and account details that you are logged in with</p><p id=\"\">To review an account's transaction history, copy the account details that you wish to review.&nbsp;</p><p id=\"\">Paste the account details into the dashboard search bar, press enter, and you will now see an account overview with the subsections:&nbsp; Tokens, NFTs, Pool units, Recent, and Metadata.</p><p id=\"\">Click <strong id=\"\">Recent transactions</strong></p><p id=\"\">‍<strong id=\"\">You are now able to review the Account's recent transactions.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to View Your Transaction History",
+  "slug": "how-to-view-your-transaction-history"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd90",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-11-12T13:09:50.584Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-11-12T00:00:00.000Z",
+  "guest-name": "Mark Richardson",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e05e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/618e674cdaeb15f94c22d97d_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e05f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/618e675dd6fef42f42cda00d_bancor-black.c26bdefc.png",
+   "alt": null
+  },
+  "excerpt": "Piers Ridyard talks with Mark Richardson, the Bancor Protocol's Head of Research, in this episode of the DeFi Download. T",
+  "main-content": "<p>Bancor is the world's first decentralized trading protocol, allowing traders, liquidity providers, and developers to participate in an open market with no entry barriers. The use of the open-source Bancor protocol is not restricted.</p><p>The Bancor protocol was created as a response to the low-interest rates offered by traditional bank products. Bancor users can invest their cryptocurrencies in this product and earn interest from market-making fees generated. Bancor is essentially a savings product that allows you to earn passive income from your capital.&nbsp;</p><p>Due to the current state of DeFi, users can currently earn approximately 60% per year with the Bancor Network Token.</p><p><strong>0:44 </strong>ELI5: What exactly is Bancor, and why should I care about it?</p><p><strong>2:43</strong> What kinds of assets can I invest in, and how much can I earn as a user on Bancor?&nbsp;</p><p><strong>4:08</strong> What is the source of the Bancor Network Token's (BNT) 60% interest rate?</p><p><strong>15:14</strong> What sets Bancor apart from Uniswap and SushiSwap as an automated market maker, and what gives Bancor its unique ability to provide only one side of the market?</p><p><strong>19:39</strong> How does Bancor protect against impermanent loss?</p><p><strong>26:28</strong> Bancor's history as one of the first DeFi projects, long before the term \"DeFi\" was coined</p><p><strong>29:48</strong> The definition of a ‘community currency’</p><p><strong>33:00</strong> Bancor’s innovations and role as a pioneer in the crypto space</p><p><strong>42:01</strong> The elegance of Uniswap V3</p><p><strong>44:57</strong> The weak points of Uniswap V3 and how Bancor approaches them in a different way</p><p><strong>48:48</strong> The upcoming release of Bancor V3<br>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=UW9wnDRL4kk&list=PLBGHv3uedRNRRmuo-yKwustqHWU15eWGM&index=27\"><div><iframe src=\"https://www.youtube.com/embed/UW9wnDRL4kk\" title=\"Bancor: the original DeFi project on Ethereum\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍</p><h4>Further resources</h4><ul><li>App: <a href=\"https://app.bancor.network/\">Bancor Network</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/Bancor\">@Bancor</a>&nbsp;</li><li>Telegram: <a href=\"https://t.me/bancor\">Bancor Protocol</a>&nbsp; and <a href=\"https://t.me/bancortraders\">Bancor Liquidity Providers</a>&nbsp;</li><li>Discord: <a href=\"https://discord.gg/CAm3Ncyrxk\">discord.gg/CAm3Ncyrxk</a></li></ul><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9537075-bancor-the-original-defi-project-on-ethereum",
+  "name": "Bancor: the original DeFi project on Ethereum",
+  "slug": "bancor-the-original-defi-project-on-ethereum"
+ }
+}

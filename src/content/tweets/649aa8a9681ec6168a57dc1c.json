@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dc1c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:13:59.033Z",
+ "createdOn": "2021-04-24T19:06:34.510Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/TradingTank/status/1383105170213543939?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d974",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6085447905906ec560eae3c0_Trading%20TAnk.png",
+   "alt": null
+  },
+  "content": "It seems @radixdlt $EXRD could become a highly recognized project in the #DeFi space as time goes on! Making @santimentfeed top-10 list is a great achievement. ",
+  "order": 13,
+  "name": "TradingTank",
+  "slug": "tradingtank"
+ }
+}

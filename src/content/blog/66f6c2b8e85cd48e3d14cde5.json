@@ -1,0 +1,33 @@
+{
+ "id": "66f6c2b8e85cd48e3d14cde5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-30T18:42:40.458Z",
+ "lastUpdated": "2024-09-27T14:55:25.103Z",
+ "createdOn": "2024-09-27T14:35:36.249Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2024-09-27T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": null,
+  "featured-post": true,
+  "blog-category": [
+   "649aa8a9681ec6168a57de41",
+   "649aa8a9681ec6168a57de39"
+  ],
+  "image": {
+   "fileId": "66f6c11db7950b7575c00c42",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66f6c11db7950b7575c00c42_Morpher.jpg",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<h3 id=\"\"><strong id=\"\">TLDR</strong></h3><ul id=\"\"><li id=\"\">Morpher, a leading trading platform, will offer its own oracle services to the Radix Network, providing real-time, low-latency data feeds for stocks, crypto, forex, and more.<br><br></li><li id=\"\">The Morpher Oracle uses a pull-based on-chain attestation system, allowing users to request verified, tamper-proof data directly from the blockchain when needed.<br><br></li><li id=\"\">By solving issues like limited data, delayed updates, and single points of failure in traditional oracles, Morpher’s open-source protocol enhances speed, accuracy, and reliability for dApps.<br><br></li></ul><p id=\"\"><a href=\"https://oracle.morpher.com/markets\">Morpher</a> will bring its oracle services to the Radix Network, furthering its mission to democratize access to financial markets. Notably, Morpher Labs is backed by legendary crypto thought leader Tim Draper.</p><p id=\"\">Morpher is a leading trading platform with over 55,000 active portfolios across 100 countries. It enables trading of stocks, crypto, forex, indices, and even unique markets like sneakers and watches.&nbsp;</p><p id=\"\">The Morpher Oracle will provide low-latency, real-time data feeds for US equities, commodities, forex, and crypto markets. These feeds will use a <strong id=\"\">pull-based on-chain attestation system</strong>, which allows users to access verified, tamper-proof market data directly on ledger.&nbsp;</p><h2 id=\"\"><strong id=\"\">What Does This Mean?&nbsp;</strong></h2><p id=\"\">A pull-based on-chain attestation system is a way to get verified information on-chain when you need it.</p><ul id=\"\"><li id=\"\">Pull-based means that instead of automatically getting updates, users or systems can \"pull\" or request data whenever they want it.<br><br></li><li id=\"\">On-chain attestation means that the data is verified and stored on the ledger, which ensures it’s secure and can’t be tampered with. Attestation is just another way of saying that the data is confirmed to be accurate.<br>‍</li></ul><blockquote id=\"\">Thomas Wiesner, Morpher’s CTO, shares his vision for the oracle: \"<em id=\"\">Our vision for the Morpher Oracle is to have the dev community continue to grow its robustness, adding more data streams, increasing the number of chains and further expanding the use cases past what we can currently imagine. We want to give a new tool to bring even more trust into blockchain.</em>\"</blockquote><h2 id=\"\"><strong id=\"\">What Makes Morpher Oracles Unique?&nbsp;</strong></h2><p id=\"\">A blockchain oracle is like a bridge that brings important data from outside sources onto the blockchain, including data from other blockchains. However, current oracles have several issues:</p><p id=\"\"><strong id=\"\">Limited Data:</strong> They don’t always provide a wide range of data, which limits their usefulness.</p><p id=\"\"><strong id=\"\">Not Truly Real-Time:</strong> The data they provide isn’t always up-to-date or delivered instantly, which can be a big problem for systems that need real-time information, such as perpetual markets.</p><p id=\"\"><strong id=\"\">Single Point of Failure:</strong> If one oracle stops working, all the data feeds it provides also stop, which can crash DeFi applications that rely on it.</p><p id=\"\">These issues can make decentralized applications less reliable compared to centralized platforms that don’t depend on oracles.</p><p id=\"\">Morpher’s Oracle fixes these problems by creating an open-source protocol (meaning anyone can use and improve it) that pulls data from multiple sources. This improves the speed, accuracy, and reliability of the data.&nbsp;</p><p id=\"\">This means that DeFi applications that need real-world information can now operate more effectively without worrying about the limitations of current oracles.&nbsp;</p><p id=\"\">Here is a brief introduction to the Radix Morpher Oracle, which gives you instant access to live, low-latency, real-time market data.&nbsp;</p><figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/TAjVl9A7pOU?si=LuwtELx4wk-cBPEf\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/TAjVl9A7pOU\" title=\"Introduction to the Radix Oracle | Morpher's Pull-Based Oracle for Real-Time Market Data\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">If you’re a developer or dApp looking to build on Radix, read more on the <a id=\"\" href=\"https://www.morpher.com/radix\">Morpher Radix Oracle documentation</a>,&nbsp; join their <a id=\"\" href=\"https://t.me/+p1m8jfBibIU4MGE0\">Telegram</a> channel, head to their <a id=\"\" href=\"https://morpher.com\">website</a> or follow them on <a id=\"\" href=\"https://x.com/morpher_io\">X</a>.&nbsp;</p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Morpher Oracles Integrates Radix ",
+  "slug": "morpher-oracles-integrates-radix"
+ }
+}

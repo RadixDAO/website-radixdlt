@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dc5c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:48.323Z",
+ "createdOn": "2021-04-27T08:18:06.043Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2021-03-11T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3a"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e129",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4a305c23af8562589be_6087de755dbfc490964de05b_betanet-node-runner-update.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\"><strong id=\"\"><em id=\"\">This blog article refers to the Olympia Betanet that operated in early 2021. It is not relevant to the Babylon Betanet that is operating in early 2023. For more details on the Radix Roadmap, see </em></strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\"><em id=\"\">What is the Radix roadmap?</em></strong></a></p><p id=\"\">Just over a week ago we <a id=\"\" href=\"https://www.radixdlt.com/post/betanet-is-coming/\">announced our April 28 launch of the Radix betanet</a>, a temporary test network ahead of the Olympia mainnet launch. We also launched our <a id=\"\" href=\"https://www.radixdlt.com/post/validator-community-proposal-program/\">Validator Community Proposal Program</a> for those who wish to run one of the 100 validator nodes on betanet.</p><p id=\"\">We wanted to provide a quick update on betanet, particular for those interested in validator node-running.</p><h2 id=\"\"><strong id=\"\">Validator Community Proposals Due in 4 Days!</strong></h2><p id=\"\"><strong id=\"\">First, validator proposals are due no later than Monday, March 15 – so don’t delay!</strong> We’ve been receiving a great response already, with over 100 applications received, and we strongly encourage anybody interested in being a validator node-runner on mainnet to submit an application.</p><p id=\"\">Submitting a proposal isn’t just a matter of getting in on the betanet fun – it’s your chance to present yourself to the Radix community who will be selecting the 100 <em id=\"\">mainnet</em> validator nodes by delegating their stake across trustworthy node-runners. In addition to publishing all submissions to the community, we’re working on creating a community Radix Validator subreddit for node-runner candidates to engage and answer questions from the community, for betanet and onward after mainnet launch. </p><p id=\"\">More on this soon.See the <a id=\"\" href=\"https://www.radixdlt.com/post/validator-community-proposal-program/\">Validator Community Proposal Program</a> link above for more details.</p><h2 id=\"\"><strong id=\"\">Updates on Betanet Incentives and Requirements</strong></h2><p id=\"\">We also have some additional updates of note for betanet node-runners.</p><p id=\"\">Betanet is a pure test network and so does not include the XRD incentives that will be available to validators and stakers on mainnet. However, we don’t want the costs of node-running to discourage an otherwise great validator candidate from participating in betanet. <strong id=\"\">So we are now committing to providing $400 in eXRD for each selected betanet validator node-runner. </strong>This should more than amply cover the anticipated costs of running a reliable, performant node for the roughly two-month duration of betanet.</p><p id=\"\">So if you think you’ve got a great pitch to the community to be a validator, don’t let out-of-pocket costs keep you from submitting a proposal!</p><p id=\"\">Next, some have rightfully asked us for more info on anticipated storage requirements for validator nodes, since the benchmark AWS node (an AWS c5.xlarge instance provisioned with a gp2 storage volume) &nbsp;includes on-demand storage pricing and there is quite a lot of range in how high that can go depending on actual storage used.</p><p id=\"\">We're still doing some work on optimizing storage so we've hesitated to provide numbers, but we should make it clear that the Radix node will get absolutely nowhere near the upper limit of the AWS gp2 storage limit. <strong id=\"\">We can say for sure right now that the absolute upper limit on storage for operation during betanet is 500 GB</strong>. As mentioned there is still much optimization work to be done and so we hope/expect to do much better than this. But even that high 500GB limit brings the storage costs down to roughly $50/mo at full capacity, which is part of why we’re confident that the $400 betanet subsidy will be more than sufficient.</p><p id=\"\">We’ve also gotten questions about running a node somewhere <em id=\"\">other</em> than AWS. It is indeed highly beneficial to Radix network security (and betanet testing) to have validator nodes running in a diversity of environments! While we have specified an AWS server as a reference benchmark, we certainly don't want all validator nodes running in the same datacenter. We will be sending out a quick follow-up request by email to submitters to describe their anticipated deployment so that Radix and the community can ensure a diversity of deployment types and locations.</p><h2 id=\"\"><strong id=\"\">Keep Connected</strong></h2><p id=\"\">Finally, we’ve created a new <a id=\"\" href=\"https://t.me/RadixDevelopers/2868\">#node-runners</a> channel on the Radix Discord where we’ll be rolling out updates like the above. It’s a great place to ask any other questions you might have. We’ll look forward to seeing you there!</p>",
+  "seo-meta-description": "Just over a week ago we announced our April 28 launch of the Radix betanet, a temporary test network ahead of the Olympia mainnet launch. We also launched our Validator Community Proposal Program for those who wish to run one of the 100 validator nodes on betanet.We wanted to provide a quick update on betanet, particular for those interested in validator node-running.",
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Betanet Node-Runner Update",
+  "slug": "betanet-node-runner-update"
+ }
+}

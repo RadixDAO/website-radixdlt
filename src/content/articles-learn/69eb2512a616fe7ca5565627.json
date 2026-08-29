@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565627",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:27:32.986Z",
+ "createdOn": "2026-04-24T08:08:21.880Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Achieving an early and a broad spread of token distribution is essential to ensure sufficient decentralization of the public network and that participants are incentivized as swiftly as possible from the moment of instantiation.&nbsp;<br></p><p id=\"\">eXRD is an ERC-20 token on the Ethereum network intended to achieve this distribution and decentralization ahead of release of the Radix mainnet as well as to enable existing DeFi applications running on the Ethereum network to begin integrating Radix.<br></p><p id=\"\">XRD is the native utility token of the Radix network that will be created at the genesis of that network.<br></p><p id=\"\">Following the Radix mainnet launch, eXRD token will be exchangeable 1:1 for XRD tokens via a token bridge service provided by Radix. Unlike ICO tokens you might be familiar with, eXRD will not expire and so there is no limited period for swapping for XRD. eXRD is intended to continue as an Ethereum-native representation of XRD.</p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is the relationship between the eXRD and XRD token?",
+  "slug": "what-is-the-relationship-between-the-exrd-and-xrd-token"
+ }
+}

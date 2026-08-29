@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e1e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:29:16.814Z",
+ "createdOn": "2026-04-24T08:05:58.045Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">For developers, exchanges, and wallet creators, the JSON-RPC API offers a simple way of interacting with the Radix network by connecting to an archive node that offers the API endpoint. Radix provides archive nodes for public use – or often it is preferable for the client user to maintain one of their own. Please visit <a id=\"\" href=\"http://docs.radixdlt.com\">docs.radixdlt.com</a> for more information about using the JSON-RPC API and setting up an archive node.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "<p id=\"\"><br></p>",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How do I use the JSON-RPC API?",
+  "slug": "how-do-i-use-the-json-rpc-api"
+ }
+}

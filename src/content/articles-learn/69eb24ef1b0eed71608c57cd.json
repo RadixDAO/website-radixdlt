@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57cd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:14:20.888Z",
+ "createdOn": "2026-04-24T08:07:46.170Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Atomicity is the idea that a single transaction may contain many actions (such as transfers of tokens or calls to DeFi dApps), but <em id=\"\">all</em> of those actions must be correct and possible for the transaction to be accepted.&nbsp;</p><p id=\"\">If any part of the transaction is incorrect or conflicting, the entire transaction should fail. Atomicity is necessary to create complex, safe DeFi transactions instantly, such as a trade of two different tokens between two people or a transaction using multiple DeFi dApps “composably”.&nbsp;</p><p id=\"\">For more information about how Radix enables cross-shard composability, see this <a id=\"\" href=\"https://www.radixdlt.com/post/breakthrough-in-consensus-theory-scaling-defi-without-breaking-composability/#:~:text=Breakthrough%20in%20Consensus%20Theory%3A%20Scaling%20DeFi%20Without%20Breaking%20Composability,-Radix%20DLT&text=while%20not%20breaking%20the%20stuff,shockingly%20short%20period%20of%20time.\">article</a>&nbsp;</p><p id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/what-is-defi-composability-and-why-does-it-matter/\"><br></a></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is Atomicity?",
+  "slug": "what-is-atomicity"
+ }
+}

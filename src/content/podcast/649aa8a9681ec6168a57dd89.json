@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd89",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-10-29T17:03:52.475Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-10-29T00:00:00.000Z",
+  "guest-name": "Spencer Graham",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e058",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/617c2948847debbbf90a869f_Head.jpg",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e059",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/617c2958a19c58a7f8d31bfb_logo.png",
+   "alt": null
+  },
+  "excerpt": "Spencer Graham is the Project Lead of DAOhaus. DAOhaus is a community-owned and operated no-code platform for launching and operating Decentralized Autonomous Organizations. Its framework is based on the open-source code of Moloch.",
+  "main-content": "<p>Join Piers Ridyard and Spencer Graham, Project Lead of DAOhaus, in this episode of the DeFi Download, to find out what a DAO is and how to summon one!</p><p>Spencer Graham is the Project Lead of DAOhaus. DAOhaus is a community-owned and operated no-code platform for launching and operating Decentralized Autonomous Organizations. Its framework is based on the open-source code of Moloch.</p><p><strong>[0:42]</strong> What exactly is a DAO, and why is it important?</p><p><strong>[3:22]</strong> What distinguishes DAOs from previous entities such as collectives, partnerships, and unincorporated corporations that provide a sense of belonging and purpose to groups of people? What is the relationship between blockchain, distributed and public ledger technology, and this new type of organization and management?</p><p><strong>[7:06]</strong> Is the path to the formation of DAOs distinct from the path of human society from small villages to institutionalized power and the invention of representative and direct democracy? If so, how does it differ, and what role does the control of capital play in that difference?</p><p><strong>[10:59]</strong> What are the benefits of DAOs, and what are the drawbacks?</p><p><strong>[14:19]</strong> The ability of decentralized ledger technology to incentivize people to act in their own best interests.</p><p><strong>[16:02]</strong> DAOhaus: What does it mean to be a no-code platform for creating and administering DAOs, and why should it matter to you? The story behind The DAO and its hack.</p><p><strong>[19:01]</strong> Summoning Moloch DAO and the beginnings of the DeFi Summer</p><p><strong>[23:28]</strong> What function have Moloch DAOs served? Why would someone want to summon a Moloch DAO or a DAOhaus DAO? What are the benefits of a no-code way of creation for developers?</p><p><strong>[29:09]</strong> What exactly is a Safe Minion?</p><p><strong>[34:13]</strong> What is the Boosts Marketplace, and how does it work?</p><p><strong>[37:38]</strong> DAOhaus' perspective and strategy on NFTs</p><p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=TNQ0fK-kqow\"><div><iframe src=\"https://www.youtube.com/embed/TNQ0fK-kqow\" title=\"DAOHaus: the borderless social movement of DAO governance\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h4>Further resources</h4><ul><li>Website: <a href=\"https://daohaus.club/\">daohaus.club</a>&nbsp;</li><li>Discord: <a href=\"https://discord.gg/daohaus\">discord.gg/daohaus</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/nowdaoit\">@nowdaoit</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9381940-bifi-bridging-all-defi-together-regardless-where-it-lives",
+  "name": "DAOhaus: the borderless social movement of DAO governance",
+  "slug": "daohaus-the-borderless-social-movement-of-dao-governance"
+ }
+}

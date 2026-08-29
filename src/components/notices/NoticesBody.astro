@@ -1,0 +1,74 @@
+---
+// Shared body for the notices family (REBUILD-PLAN.md section 11 -- "notices x2" is
+// one of the five confirmed small families among the 49 static routes): notices and
+// notices/updates are byte-identical apart from which tab carries Webflow's
+// self-reference highlight (w--current). Lifted verbatim from
+// src/shells/notices/body.{0,2,3}.html.
+//
+// The one list on this template (list.2.html, "There are no open notices.") is a
+// CONFIRMED EMPTY Webflow CMS list on both pages -- src/bindings/_lists.json's
+// "notices#2" and "notices/updates#2" entries are both `{"empty": true}`, and
+// reference/live/notices.html + reference/live/notices/updates.html both render only
+// the w-dyn-empty branch. There is no data to resolve; the empty branch is the whole
+// list.
+import SiteNav from '../site/SiteNav.astro';
+import SiteFooter from '../site/SiteFooter.astro';
+import LongformRuntime from '../longform/LongformRuntime.astro';
+
+interface Props {
+  current: 'known-issues' | 'updates';
+  currentPath: string;
+}
+const { current, currentPath } = Astro.props;
+---
+
+  <div class="banner-wrap">
+    <div data-w-id="421cf4db-2453-441c-6135-5b6acee23bfc" class="x-holder x2"><img src="/images/close-1.svg" loading="lazy" alt="" class="imgclose"></div>
+  </div>
+  <SiteNav variant="main" currentPath={currentPath} />
+  <div class="c-section">
+    <div class="container">
+      <div class="tabs-menu-3">
+        <a href="/notices" aria-current={current === 'known-issues' ? 'page' : undefined} class={current === 'known-issues' ? 'tab tab-wide w-inline-block w--current' : 'tab tab-wide w-inline-block'}>
+          <div class="tab-text">Known Issues</div>
+        </a> <a href="/notices/updates" aria-current={current === 'updates' ? 'page' : undefined} class={current === 'updates' ? 'tab tab-wide w-inline-block w--current' : 'tab tab-wide w-inline-block'}>
+          <div class="tab-text">Updates</div>
+        </a>
+      </div>
+      <div class="w-dyn-list">
+        <div class="tab-empty w-dyn-empty">
+          <div>There are no open notices.</div>
+        </div>
+      </div>
+      <div class="disclaimer w-richtext">
+        <p><strong><em>Third-Party dApps and Tokens:</em></strong><em> Radix Publishing Limited does not have control of or liability for any third-party dApps or tokens on the Radix Network other than those that it directly publishes. Users should exercise caution and conduct due diligence when interacting with third-party dApps and tokens. Radix Publishing Limited is not responsible for any issues or losses arising from the use of such third-party applications or tokens.</em></p>
+        <p>‍</p>
+        <p><strong><em>Disclaimer: </em></strong><em>The Radix Network and its associated dApps and tokens come with inherent risks. By using them, you acknowledge and accept these risks.</em></p>
+        <p>‍</p>
+        <p><strong><em>Volatility: </em></strong><em>The value of tokens on the Radix Network can fluctuate significantly. Prices may rise or fall, resulting in financial gain or loss.</em></p>
+        <p>‍</p>
+        <p><strong><em>Regulatory Risks:</em></strong><em> Cryptocurrency regulations can change rapidly. Users are responsible for understanding and complying with local, national, and international regulations.</em></p>
+        <p>‍</p>
+        <p><strong><em>Security: </em></strong><em>While we employ robust security measures, the Radix Network is not immune to cyber threats. Users should take necessary precautions to secure their accounts and assets. Radix Publishing is not responsible for nor can guarantee the security of any dApps or Tokens released by 3rd parties on the Radix Network.</em></p>
+        <p>‍</p>
+        <p><strong><em>Loss of Funds:</em></strong><em> Users may lose access to their tokens due to various factors, including lost private keys or technical issues. Radix Publishing Limited is not liable for such losses.</em></p>
+        <p>‍</p>
+        <p><strong><em>Smart Contract Risks: </em></strong><em>Smart contracts can have vulnerabilities. Users should assess the risks associated with each dApp before interacting with it.</em></p>
+        <p>‍</p>
+        <p><strong><em>Scams and Frauds:</em></strong><em> Be cautious of fraudulent schemes and phishing attempts. Radix Publishing Limited is not responsible for losses resulting from scams.</em></p>
+        <p>‍</p>
+        <p><strong><em>Lack of Reversibility: </em></strong><em>Transactions on the Radix Network are typically irreversible. Double-check all transaction details before confirming.</em></p>
+        <p>‍</p>
+        <p><strong><em>Market Manipulation:</em></strong><em> Be aware of potential market manipulation by other users. Exercise caution when trading tokens.</em></p>
+        <p>‍</p>
+        <p><strong><em>Legal Disputes:</em></strong><em> Any legal disputes related to the Radix Network should be resolved through appropriate legal channels. Radix Publishing Limited does not provide legal advice.</em></p>
+        <p>‍</p>
+        <p><strong><em>Educational Resources:</em></strong><em> Users are encouraged to educate themselves about blockchain technology, cryptocurrencies, and safe practices.</em></p>
+        <p>‍</p>
+        <p><strong><em>No Investment Advice: </em></strong><em>The information on this platform is not investment advice. Users should conduct their own research before making investment decisions.</em></p>
+        <p>‍</p>
+        <p><em>By using the Radix Network you acknowledge the risks involved. It&#x27;s essential to exercise caution and responsibility while participating in the Radix ecosystem.</em></p></div>
+    </div>
+  </div>
+  <SiteFooter variant="main" currentPath={currentPath} />
+  <LongformRuntime />

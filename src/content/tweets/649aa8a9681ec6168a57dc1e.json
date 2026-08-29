@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dc1e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:12:58.738Z",
+ "createdOn": "2021-04-25T10:35:10.008Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/bradmillscan/status/1006512580611883008",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57d953",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608545da51549182bdb08622_Brad.jpg",
+   "alt": null
+  },
+  "content": "Radix could be the first Bitcoin-aligned scalable DLT that provides another layer of scaling BTC for global transaction adoption while also having its own independent ecosystem of governance, users, developers, etc.",
+  "order": 6,
+  "name": "Brad Mills",
+  "slug": "brad-mills"
+ }
+}

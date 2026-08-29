@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dc55",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:30:48.529Z",
+ "createdOn": "2021-04-27T08:18:21.832Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2021-04-07T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de33",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3a"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e130",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4a44abbac659ac33a4e_6087dd3775097e762c5b2aef_olympia-betanet-validators-selected.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\"><strong id=\"\"><em id=\"\">This blog article refers to the Olympia Betanet that operated in early 2021. It is not relevant to the Babylon Betanet that is operating in early 2023. For more details on the Radix Roadmap, see </em></strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\"><em id=\"\">What is the Radix roadmap?</em></strong></a></p><p id=\"\">After much consideration and review of community feedback, we are pleased to share the validator nodes who have been selected to participate in the <a id=\"\" href=\"https://www.radixdlt.com/post/betanet-is-coming/\">Radix Betanet</a>. Those selected have all been emailed, and we’re happy to share the full list of chosen validators <a id=\"\" href=\"https://docs.google.com/spreadsheets/d/1r0HCYqQoDNPixECwJWGFXoVnsQIcXYLuibneStghATY/edit#gid=0\">here</a>. </p><p id=\"\">Selecting betanet validators was no easy task! All 330+ validator proposals were reviewed, and we made sure to take into account the feedback from the community on places like the <a id=\"\" href=\"https://www.reddit.com/r/RadixValidators/\">Radix Validators Reddit</a> and the #Node-running channel on the <a id=\"\" href=\"https://discord.gg/WkB2USt\">Radix Discord</a>, so thank you to everyone who provided input there. </p><p id=\"\">Overall, it was fantastic to see the quality of the submissions from both the community and professional node running services alike. Due to the limited number of testing spots available, we were unable to include everyone who submitted a proposal. </p><p id=\"\">To maximise the number of validators nodes who could participate in the betanet testing we have two categories of validator nodes for betanet; “full” and “part”. Those who are “full” betanet validators will be operating for the entire betanet period, while those who are “part” validators will be operating for either the first or second half of betanet. </p><p id=\"\">If you weren’t selected, this isn’t the end of the road! This selection process only applies to betanet testing. On mainnet, validator selection is 100% open and decentralised. It is decided by the XRD delegated to nodes who have connected and registered to the network. </p><p id=\"\">While only selected nodes will be validators on betanet, we encourage you to try running a full-node on betanet to get a feel for the node-running experience - and of course don’t forget to try the wallet and test sending tokens, staking, and unstaking. There will be more information about the Radix betanet coming both in the run-up to the 28th and during testing, so make sure to stay tuned to <a id=\"\" href=\"https://www.radixdlt.com/blog/\">the blog</a> and the main <a id=\"\" href=\"https://twitter.com/RadixDLT\">Radix Twitter</a> for updates. </p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Betanet Validators Selected",
+  "slug": "betanet-validators-selected"
+ }
+}

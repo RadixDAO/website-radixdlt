@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c581b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:37:04.974Z",
+ "createdOn": "2026-04-24T08:08:08.818Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf821a",
+  "full-article-text": "<p id=\"\">Following successful completion of the Olympia Betanet, the Olympia Mainnet will launch. This is the first live version of the Radix Public network and will be fully permissionless and decentralized. The Radix Foundation will never at any time have any ability to apply permissions to mainnet validators.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is the Olympia Mainnet?",
+  "slug": "what-is-the-olympia-mainnet"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5821",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:10.827Z",
+ "createdOn": "2026-04-24T08:08:10.827Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">‍The Radix Connector browser extension is a simple background browser extension that enables a connection between the <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-wallet-for-babylon\"><strong id=\"\">Radix Wallet</strong></a> on an iOS or Android mobile phone and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApp</strong></a> websites running on a desktop web browser, using <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radix-connect\"><strong id=\"\">Radix Connect</strong></a> technology.</p><p id=\"\">Unlike Metamask, it is not a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-software-and-hardware-wallets\"><strong id=\"\">wallet</strong></a> and does not hold your <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-public-and-private-keys\"><strong id=\"\">private keys</strong></a>. Once installed and paired to the Radix Wallet on your phone, you can forget it exists. However, it ensures that the Radix Wallet has crucial information about the dApp webpages you connect to that it can use to prevent many “man in the middle” types of attack having to do with fake or misleading websites. Always use only the official Radix Connector browser extension with your Radix Wallet.</p><p id=\"\">To learn how to use the <strong id=\"\">Radix Connector Browser Extension</strong>, visit <a id=\"\" href=\"http://wallet.radixdlt.com\"><strong id=\"\">wallet.radixdlt.com</strong></a>; or visit the <a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Start Here! Radix Wallet User Guide</strong>.</a></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Start Here! Radix Wallet User Guide</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-smart-accounts\"><strong id=\"\">What are Smart Accounts?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-personas-and-identities\"><strong id=\"\">What are Personas (and Identities)?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radix-connect\"><strong id=\"\">What is Radix Connect?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">What are Native Assets?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-transaction-manifests\"><strong id=\"\">What are Transaction Manifests?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 15,
+  "name": "What is the Radix Connector Browser Extension?",
+  "slug": "what-is-the-radix-connector-browser-extension"
+ }
+}

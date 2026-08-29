@@ -1,0 +1,32 @@
+{
+ "id": "66e2c8f5e2b54a78d62ce0ed",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T18:16:47.858Z",
+ "lastUpdated": "2024-09-12T18:16:46.150Z",
+ "createdOn": "2024-09-12T10:56:53.226Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "CaviarNine is the leading DeFi project on Radix with extensive knowledge and experience in traditional finance, providing users with seamless access to professional-grade innovative DeFi products.",
+  "project-logo": {
+   "fileId": "66e2ce8a9d2650e91a96102c",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e2ce8a9d2650e91a96102c_66df1695298f1c8854e55fc8_icon.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66e2ce8f76e29535c24e4fcb",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e2ce8f76e29535c24e4fcb_66df169762a2c882fbd3715b_banner2.png",
+   "alt": null
+  },
+  "link-to-project": "https://www.caviarnine.com/",
+  "categories": [
+   "66dafd66ee5760990041564f",
+   "66dafd5e7c1a27edea88c639",
+   "66dafd47bb99ef6418f1a300",
+   "66dafd3847c321c70ec5953f"
+  ],
+  "rank": 1,
+  "name": "CaviarNine",
+  "slug": "caviarnine"
+ }
+}

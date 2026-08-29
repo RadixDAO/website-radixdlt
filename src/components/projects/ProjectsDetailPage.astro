@@ -1,0 +1,61 @@
+---
+// Shared detail template for the `projects` (28 pages) and `projects-6-highlighted`
+// (8 pages) collections (REBUILD-PLAN.md Phase 4 taxonomy shapes 7db24134 /
+// 136e190a). src/shells/_detail/<collection>/body.html is byte-identical between the
+// two collections (diffed directly), and src/bindings/<collection>.json's single
+// slot is the same "categories" field on both -- one shared component, per-collection
+// props, same principle as GenericDetailPage.astro.
+//
+// Close to that eight-collection orphan-template shape (no nav, no footer, a
+// script/style bundle, literal `<title>Radix</title>`) but NOT a fit for
+// GenericDetailPage.astro itself: this pair has one real per-item content block, a
+// Finsweet-CMS-Nest-rendered list of the project's categories (see
+// src/lib/projects-detail.ts's header comment for how that list's data is resolved
+// -- directly from the item's own `categories` field, not from
+// src/bindings/detail-lists/, since it turned out to be a plain MultiReference).
+//
+// This component takes the real per-item slug and builds `/<collection>/<slug>` as
+// its `canonical` prop to SiteHead, which substitutes it into detail-head.html's
+// `__CANON__` placeholder -- matching reference/live for every projects and
+// projects-6-highlighted page (the shared eight-collection template this component
+// is close to but not built on, GenericDetailPage.astro, gets the same fix).
+import { readFileSync } from 'node:fs';
+import SiteHead from '../site/SiteHead.astro';
+import { dynClass, type CategoryRef } from '../../lib/projects-detail';
+
+interface Props {
+  collection: string;
+  wfPageId: string;
+  slug: string;
+  categories: CategoryRef[];
+}
+const { collection, wfPageId, slug, categories } = Astro.props;
+
+// Read from src/components/, NOT src/shells/. src/shells is scaffolding scheduled for
+// deletion (REBUILD-PLAN.md 10.5); a component that reads it at build time would block
+// that deletion and quietly keep the shell pipeline alive.
+const headTail = readFileSync('src/components/detail-shared/detail-head.html', 'utf8');
+const scriptsTail = readFileSync('src/components/detail-shared/scripts-tail.html', 'utf8');
+---
+<!doctype html>
+<html data-wf-page={wfPageId} data-wf-site="6053f7fca5bf627283b582c2" lang="en">
+  <head><SiteHead title="Radix" canonical={`https://www.radixdlt.com/${collection}/${slug}`} tail={headTail} /></head>
+  <body>
+    <div class="w-dyn-list">
+      {categories.length > 0 ? (
+        <div fs-cmsnest-collection="ce" fs-cmsnest-element="template-reference" role="list" class="w-dyn-items">
+          {categories.map((c) => (
+            <div role="listitem" class="w-dyn-item">
+              <a href={`/project-categories/${c.slug}`} class={dynClass('w-dyn-bind-empty', true)}>{c.name}</a>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class="w-dyn-empty">
+          <div>No items found.</div>
+        </div>
+      )}
+    </div>
+    <Fragment set:html={scriptsTail} />
+  </body>
+</html>

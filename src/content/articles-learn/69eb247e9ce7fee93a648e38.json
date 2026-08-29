@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e38",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:37:14.606Z",
+ "createdOn": "2026-04-24T08:06:06.190Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf8216",
+  "full-article-text": "<p id=\"\">Radix uses Delegated Proof of Stake (DPoS) to secure the network against Sybil attacks. This is done through users “staking” their tokens by delegating them to validator nodes, which is a form of voting. Token holders receive a reward for staking their tokens.&nbsp;&nbsp;&nbsp;</p><p id=\"\">Please visit Blockchain &amp; DeFi basics here for details on <a id=\"\" href=\"/article/what-is-a-sybil-attack\">what a Sybil attack is</a>.&nbsp;</p><p id=\"\">Please visit the Radix Staking Guide here for details on <a id=\"\" href=\"/article/what-is-radix-dpos-staking\">Radix DPoS staking</a>.</p><p id=\"\"><br></p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How is Radix secured against Sybil attacks?",
+  "slug": "how-is-radix-secured-against-sybil-attacks"
+ }
+}

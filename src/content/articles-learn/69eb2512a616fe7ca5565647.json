@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565647",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:30.880Z",
+ "createdOn": "2026-04-24T08:08:30.880Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Decentralized exchanges (DEX) are autonomous <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">decentralized applications</strong> </a>that allow buyers or sellers to trade assets without using a trusted third party to act as an intermediary.</p><p id=\"\">As its name indicates, this type of exchange is the opposite of centralized exchanges.&nbsp;</p><p id=\"\">In a centralized exchange, users transfer their funds into the custody of the exchange, who then act as a custodian and oversee any trades or swaps.&nbsp; Robin Hood, Binance, or Coinbase are examples of a centralized exchange.&nbsp;</p><p id=\"\">DEXes operate via <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">Smart Contracts</strong></a> and rely on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-amms-automated-market-maker-and-cfmms-constant-function-market-maker\"><strong id=\"\">Automated Market Makers</strong></a>, such as Uniswap<strong id=\"\">,</strong> or automated matching engines to match buyers and sellers, in the case of order book-based DEXes such as Kyber or Serum. In either case, the system allows trading almost anything peer to peer.</p><p id=\"\">Decentralized exchanges embrace the early <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">Bitcoin</strong></a> spirit of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-trustless-and-permissionless-mean\"><strong id=\"\">trustlessness</strong></a> and privacy. This ensures users don’t need to rely on a third party to grant access or process <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a>, and keeping tokens held in a personally controlled <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-software-and-hardware-wallets-what-are-software-and-hardware-wallets\"><strong id=\"\">wallet</strong></a> rather than held by a custodian where they can be stolen in a hack.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-liquidity-pool\"><strong id=\"\">What is a liquidity pool?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">What is a dApp?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 8,
+  "name": "What’s a DEX? (Decentralized Exchange)",
+  "slug": "whats-a-dex"
+ }
+}

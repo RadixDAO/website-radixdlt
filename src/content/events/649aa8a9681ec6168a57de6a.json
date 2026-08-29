@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de6a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T15:02:50.616Z",
+ "createdOn": "2022-07-15T14:51:11.089Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e25f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62e2af6ae19c9248eca7e9cd_mainnet-celebration-min.png",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "To celebrate 1 year anniversary of Radix mainnet launch, come share drink & food with your fellow Chicago community members and chat about crypto, DeFi, and of course RadixDLT! This first ever event in Chicago will be very casual and welcoming. Anyone who wants to make friends and learn about DeFi is welcome. Free food, drinks and T-shirt for attendees.\nFeel free to reach out to VandyILL#2014 on Discord for any clarification",
+  "location": "Chief O'Neill's Pub Restaurant Beer Garden 3471 North Elston Avenue Chicago, IL 60618 United States",
+  "start-date": "2022-07-28T00:00:00.000Z",
+  "end-date": "2022-07-28T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/radix-community-meetup-chicago-tickets-385724942687",
+  "name": "Radix Community Meetup - Chicago",
+  "slug": "radix-community-meetup-chicago"
+ }
+}

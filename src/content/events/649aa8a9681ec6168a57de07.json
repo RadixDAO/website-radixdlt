@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de07",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:10.524Z",
+ "createdOn": "2022-04-27T13:56:29.978Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24d",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919744e6444e0806201_62694ad4b778a8cbce3d3c73_Blockdown%2520Logo.jpeg",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "This flagship conference held in the impressive Amadria Park Resort is the perfect opportunity to network with thousands of people who understand the potential of blockchain and what it can do for our society, whilst immersing yourself in the 3-day experience set to celebrate both Web3 and the beauty of human connection.",
+  "location": "Šibenik, Croatia",
+  "start-date": "2022-05-11T00:00:00.000Z",
+  "end-date": "2022-05-13T00:00:00.000Z",
+  "event-link-text": "Blockdown Croatia",
+  "event-link-url": "https://blockdownconf.com/",
+  "name": "Blockdown Conference Croatia 2022",
+  "slug": "blockdown-conference-croatia-2022"
+ }
+}

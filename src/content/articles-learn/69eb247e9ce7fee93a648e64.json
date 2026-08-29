@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e64",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:30:18.417Z",
+ "createdOn": "2026-04-24T08:06:22.871Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": "69eb218cb180744096bf8200",
+  "full-article-text": "<p id=\"\">Once you have successfully set up your <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-desktop-wallet-introduction\"><strong id=\"\">Radix Desktop Wallet </strong></a>you can create multiple accounts/addresses within that wallet.&nbsp;</p><p id=\"\">If you need to recover your wallet later (using your <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-seed-phrase\"><strong id=\"\">seed phrase</strong></a>), all of the accounts/addresses that you create will be recovered at the same time.&nbsp;</p><h5 id=\"\">Here’s how to create new Radix accounts/addresses:</h5><p id=\"\">From the wallet home screen click your current account at the top of the left side navigation bar. In our example its called “Satoshi Nakamoto”</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1067px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1067px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247e9ce7fee93a648d02_61015c26b55fad34b34db164_2H6wJUi0siuH0WLZZRiFdiUrK-Pj-NTQBwDBRxcrUnZSAP5vG-KcpXTc_J4xkuk5S5QgpA9KLiof_vXiz1gPs0DLOn5eTbLk7lsEtWKjh7ISyNpIIgMIsYppCzVD50NuKINzP2aw.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Click <strong id=\"\">Add Account.</strong></p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1073px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1073px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247e9ce7fee93a648d08_61015c26d791dd7ef34d5013_nSmK0d-P8adhM3ERHF4yMYrDrgkyPndcZyoYQsYLgL4eW4S19NgN_GpTzQNt50acN1624Z2hYQzwjQFHn7wyepNI7u-3qOqE7BQbCAIeSOkpKT-i60O-kCrZXClr4MnX1jW3rVbh.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">You will then see the following screen. Enter a name for your new account and then click <strong id=\"\">Save.</strong></p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1036px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1036px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247e9ce7fee93a648d0b_61015c26d791dd51184d5012_X58IB8shi-cZCqvLsWjIqGDO72N_z5GAL-sSVuR5KBuGlZph-uBm382uAZB6ohg0uz6m9sKEAGYuRIT12m68mf_dRYiL2bfeVSG52k_6_8m2gFzTPMEZUmLoXmExP9ylfTpsmZ15.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Your newly created account will not be the actively selected one. To switch between accounts, click the account name in the upper left corner of the blue navigation bar, click on the account you wish to select, and click Back.<br><br></p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1044px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1044px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb247e9ce7fee93a648d05_61015c273a6dc427df4f2b89_f8BwOuu-mUteyXyuCvNU3L7RO4lXVd8Nod4LwrV9qs6adWikc4Lt7UGmvMmhwzNEg1q4LteHByS01qI_Okva0XibOsRbi5hfBZh9X0VEADMwEvsPXtUDAodhvDXzJT8dQDIOaxHR.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">The green symbol next to the account name indicates the selected wallet.</p><p id=\"\">You will now see two accounts, each with their own address. You can create as many accounts as you like!</p><p id=\"\">Further reading:</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-desktop-wallet-introduction\">Desktop Wallet Introduction</a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-completely-reset-your-desktop-wallet-by-deleting-the-keystore\">How to reset Desktop Wallet Keystore</a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-happens-to-my-tokens-when-i-stake-them-could-the-node-i-delegate-to-steal-them\">What happens to my tokens when I stake them? Could the node I delegate to steal them?</a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "How to create Additional Accounts in the Wallet",
+  "slug": "how-to-create-additional-accounts-in-the-wallet"
+ }
+}

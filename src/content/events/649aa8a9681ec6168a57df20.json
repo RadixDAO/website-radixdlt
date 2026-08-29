@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57df20",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2023-05-08T17:06:13.099Z",
+ "createdOn": "2023-05-08T17:04:33.008Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e36e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/64592b14c8d8ab181f89c8f0_Bildschirmfoto%202023-05-08%20um%2019.02.04.png",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Get ready for an unforgettable night of innovation and collaboration as we bring together Radix and Hermes Protocol enthusiasts under one roof! Join us for an exciting evening designed for both seasoned Radix aficionados and newcomers eager to dive into the ecosystem. This is your chance to share ideas, discover potential collaborations, and forge meaningful connections with like-minded individuals. During the event, attendees will have the opportunity to showcase their groundbreaking ideas in a 5-minute pitch, followed by a 5-minute Q&A session. This is the perfect platform to seek potential teammates, investors, or simply gain valuable feedback on your concept. But that's not all! Every participant will receive exclusive Radix goodies as a token of our appreciation for your passion and support. To keep the energy high, we'll be providing delicious food and refreshing drinks throughout the event. Once the pitching session wraps up, we invite you to stay and enjoy the lively atmosphere. Engage in networking with fellow attendees, and participate in some entertaining games designed to spark creativity and forge new connections. Don't miss this fantastic opportunity to immerse yourself in the local Radix community, share your vision, and create lasting relationships with fellow enthusiasts. Mark your calendars and join us for an extraordinary evening that you won't want to miss. See you there!",
+  "location": "Rua Olavo D`Eça Leal 6 Loja 1, 1600-306 Lisboa, Portugal",
+  "start-date": "2023-05-09T00:00:00.000Z",
+  "end-date": "2023-05-09T00:00:00.000Z",
+  "event-link-text": "Sign up here!",
+  "event-link-url": "https://lu.ma/pfi44gge",
+  "name": "Radix Lisbon Meetup",
+  "slug": "radix-lisbon-meetup"
+ }
+}

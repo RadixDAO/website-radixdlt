@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57ddf5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-04-02T11:33:07.994Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-04-02T00:00:00.000Z",
+  "guest-name": "Jazzer",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0ac",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62483446a6ee981ac8d7852e_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0ad",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6248344902daa59c5f930b84_a8Qe_bCU_400x400.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Jazzer, the founder of DeFi Plaza. Jazzer discusses his path to developing DeFi Plaza, his engagement with Radix, and his efforts to create a highly optimized DEX with the lowest gas costs per trade.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Jazzer, the founder of DeFi Plaza. Jazzer discusses his path to developing DeFi Plaza, his engagement with Radix, and his efforts to create a highly optimised DEX with the lowest gas costs per trade.</p><p>DeFi Plaza is an Ethereum-based decentralised exchange that is 50 to 65 per cent cheaper to trade on than Uniswap and other similar DEXs. DeFi Plaza will also be deploying their DEX on Radix.&nbsp;</p><p>[0:58] Jazzer's history and involvement with Radix, beginning as a forum moderator and Dan's assistant, and progressing to become one of the top validators on the Radix Network and an important member of the Radix community.</p><p>[3:52] How to become a Top Validator and Jazzer's validator success secret sauce&nbsp;</p><p>[5:42] Jazzer’s journey to realising he wanted to create DeFi Plaza and how DeFi Plaza accomplishes what it does</p><p>[7:09] The three factors that influence the cost of Ethereum transactions&nbsp;</p><p>[10:16] What aspects contribute to the cost of a transaction?&nbsp;</p><p>[13:03] Two examples of how much gas each operation costs</p><p>[21:59] Building a DeFi application is more than just an engineering problem; it also requires marketing and community building, as well as integration with the rest of the DeFi ecosystem. What has Jazzer learned so far on his journey? And where exactly is he on this journey?</p><p>[24:11] The significance of genuine community building and marketing based on participation, involvement, and ownership</p><p>[27:11] The importance of a good UX/UI</p><p>[30:40] Jazzer discusses his experience of building with Solidity.</p><p>[39:11] Jazzer talks about his building experience using Scrypto.</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://defiplaza.net/\">https://defiplaza.net/</a>&nbsp;</li><li>Telegram: <a href=\"https://t.me/defiplaza\">https://t.me/defiplaza</a></li><li>Twitter: @DefiPlaza</li><li>Jazzer’s Twitter: @Jazzer9F</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10364753-defi-plaza-the-cost-of-gas-is-too-damn-high-engineering-better-dexs",
+  "name": "DeFi Plaza - The cost of gas is too damn high! Engineering better DEXs.",
+  "slug": "defi-plaza-the-cost-of-gas-is-too-damn-high-engineering-better-dexs"
+ }
+}

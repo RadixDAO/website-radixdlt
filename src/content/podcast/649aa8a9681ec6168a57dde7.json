@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dde7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-03-18T20:07:39.042Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-03-18T00:00:00.000Z",
+  "guest-name": "Humayun Sheikh",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0a8",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6234e6506fb4972c3c31286b_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0a7",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6234e64c05df9a703bd57bfa_Fetch.ai-logo.webp",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Humayun Sheikh, co-founder, and CEO of Fetch.ai. They discuss the role of Fetch.ai in democratizing AI, as well as machine learning and automation tools in blockchain and DeFi platforms.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/0QAWRGYPoBw\"><div><iframe src=\"https://www.youtube.com/embed/0QAWRGYPoBw\" title=\"Fetch.ai: train AI to avoid rug pulls! Democratizing AI's predictive power in complex systems.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>In this episode of the DeFi Download, Piers Ridyard interviews Humayun Sheikh, co-founder, and CEO of Fetch.ai. They discuss the role of Fetch.ai in democratising AI, as well as machine learning and automation tools in blockchain and DeFi platforms.</p><p>Fetch.ai is an artificial intelligence and machine learning based blockchain platform populated with intelligent digital twins, who learn and deliver solutions that aid decision-making. Originally based on Ethereum, Fetch.ai quickly shifted to Cosmos while retaining its interoperability as an interchain protocol.&nbsp;</p><p>Fetch.ai, as a decentralised and open platform, intends to foster innovative ideas from the mobility, infrastructure, and energy sectors to develop inclusive and immersive multimodal systems powered by Autonomous Agents.&nbsp;</p><p>With a background as a founding investor in DeepMind, Humayun Sheikh is enthusiastic about the future of the distributed economy.<strong>&nbsp;</strong></p><p><strong>[0:49]</strong> How was Humayun’s experience with the launch of Fetch.ai in 2017-2018?</p><p><strong>[1:54]</strong> What was the platform's original vision? How has it evolved over time to become what it is today?</p><p><strong>[6:03]</strong> What exactly does the term \"democratising AI\" mean?</p><p><strong>[7:38]</strong> What are some instances of questions that a machine learning algorithm might be asked in the open data environment of a public ledger? What is the difference between an individual attempting to design a model that produces strong predictive outcomes and using something like Fetch.ai, which simplifies these challenging tasks and allows individuals to have democratised access to these systems in the first place?</p><p><strong>[14:39]</strong> What role might blockchain play in AI automation?</p><p><strong>[19:56]</strong> Data storage on IPFS, data verification processes, and model upgrading rules</p><p><strong>[22:20]</strong> An example of a user who utilises Fetch.ai to withdraw liquidity from a liquidity pool when a model predicts a rug pull.</p><p><strong>[26:26]</strong> The Fetch.ai token (FET) and the kind of projects Fetch.ai seeks to join their ecosystem</p><p><strong>[28:58]</strong> How does Fetch.ai plan to bootstrap the marketplace? What are their thoughts on matching consumers willing to pay for outcome predictions with experts who know how to build predictive models? How does the Fetch team extrapolate what the market currently requires and then decide which models to bootstrap first?</p><p><strong>[33:34]</strong> The current state of the Fetch.ai framework, as well as the agents that can be deployed at this time</p><p><strong>[34:58]</strong> Upcoming Fetch.io projects: ecosystem funding for projects, hackathons, and Cosmos IBC integration<strong>&nbsp;</strong></p><h4>Further resources</h4><ul><li>Website: <a href=\"https://fetch.ai/\">fetch.ai/</a>&nbsp;</li><li>Discord: <a href=\"https://discord.com/invite/yypdAsRPYm\">discord.com/invite/yypdAsRPYm</a>&nbsp;</li><li>Telegram: <a href=\"https://t.me/fetch_ai\">t.me/fetch_ai</a>&nbsp;</li><li>YouTube: <a href=\"https://www.youtube.com/fetchai\">youtube.com/fetchai</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10274128-fetch-ai-train-ai-to-avoid-rugpulls-democratising-ai-s-predictive-power-in-complex-systems",
+  "name": "Fetch.ai: train AI to avoid rugpulls! Democratising AI's predictive power in complex systems.",
+  "slug": "fetch-ai-train-ai-to-avoid-rugpulls-democratising-ais-predictive-power-in-complex-systems"
+ }
+}

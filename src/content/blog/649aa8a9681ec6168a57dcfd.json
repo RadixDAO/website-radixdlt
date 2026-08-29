@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dcfd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2023-07-20T11:30:29.474Z",
+ "createdOn": "2021-04-27T08:17:15.288Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2020-02-14T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de36",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3c"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e1ce",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4bd7c7faf99aecfadd9_60927ed712ddf00ff2d280c7_elena-koycheva-bGeupv246bM-unsplash-scaled.jpeg",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "",
+  "seo-meta-description": "Piers Ridyard, CEO and Dan Hughes, Founder update our community on technical changes in this Ask Me Anything session.",
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Radix AMA – 12th February 2020",
+  "slug": "radix-ama-12th-february-2020"
+ }
+}

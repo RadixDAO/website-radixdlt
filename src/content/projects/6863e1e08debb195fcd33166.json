@@ -1,0 +1,30 @@
+{
+ "id": "6863e1e08debb195fcd33166",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-07-04T17:18:38.178Z",
+ "lastUpdated": "2025-07-01T13:57:45.600Z",
+ "createdOn": "2025-07-01T13:25:52.221Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Prism Terminal is a yield derivatives protocol, giving users powerful new ways to manage and speculate on yield.",
+  "project-logo": {
+   "fileId": "6863e8747c9816b4b0635922",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e8747c9816b4b0635922_Prism%20Profile.svg",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "6863e878ed2cae6f61c08d49",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6863e878ed2cae6f61c08d49_Prism%20Banner.svg",
+   "alt": null
+  },
+  "link-to-project": "https://www.prismterminal.com/",
+  "categories": [
+   "66dafd66ee5760990041564f"
+  ],
+  "rank": 31,
+  "featured": false,
+  "name": "Prism Terminal",
+  "slug": "prism-terminal"
+ }
+}

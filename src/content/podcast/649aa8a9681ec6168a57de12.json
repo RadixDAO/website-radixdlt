@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de12",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-05-09T08:34:00.276Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-05-09T00:00:00.000Z",
+  "guest-name": "RedFoo",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0f5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6278d1d0b5131cdcbb6d0356_Image%209%201%20(1).png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In the middle of June 2022, Redfoo will host a three-day hackathon at his home in Malibu, California. Four lucky members of the Radix Developer community will team up to create something remarkable using Scrypto, the Radix engine, Redfoo's chess engine, and expand it to create something truly unique. ",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/jEe9Ry0qlhs\"><div><iframe src=\"https://www.youtube.com/embed/jEe9Ry0qlhs\" title=\"RedFoo - from Party Rock Anthems to falling in love with coding. An epic ongoing journey!\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>In the middle of June 2022, Redfoo will host a three-day hackathon at his home in Malibu, California. Four lucky members of the Radix Developer community will team up to create something remarkable using Scrypto, the Radix engine, Redfoo's chess engine, and expand it to create something truly unique.&nbsp;</p><p>Piers Ridyard interviews Redfoo, a multi-award-winning artist best known for being a member of the musical duo LMFAO, in this episode of the DeFi Download. In this interview, Redfoo dissects his journey into coding, his passion for programming, the crypto, blockchain, and DeFi space, and building with Radix and Scrypto. </p><p>[2:22] How did Redfoo transition from musician to coder?&nbsp;</p><p>[7:55] The thrilling early days of computing</p><p>[12:39] The origin of the artist name “Redfoo”</p><p>[15:13] Redfoo describes his dream about binary numbers&nbsp;</p><p>[16:47] Redfoo’s Twitter application</p><p>[19:58] How did Redfoo learn about crypto?</p><p>[24:37] Redfoo talks about his love of chess</p><p>[28:15] How many people does Redfoo expect to inspire through the hackathon? What does he anticipate the consequence of people seeing his interest in coding will be?&nbsp;</p><p>[33:57] What does Redfoo have to say to people who feel intimidated by coding?</p><p>[38:39] A condition of childish curiosity, a state of play that helps you to discover your calling, is the starting point for success.</p><p>[41:26] How Redfoo got a writing credit on a Kendrick Lamar album</p><p>[42:28] What makes Redfoo believe that unless you learn to code, you will be left behind in the future?</p><p>[47:32] What will the DeFi revolution's impact be?</p><h4>Further resources</h4><ul><li>Twitter: <a href=\"https://twitter.com/redfoo\">@redfoo</a>&nbsp;</li><li><a href=\"https://www.radixdlt.com/post/legendary-musician-redfoo-teams-up-with-radix-to-host-foohack\">Legendary Musician RedFoo Teams Up with Radix to Host “FooHack”</a><a href=\"https://www.youtube.com/watch?v=Qwdv3oWPG4A\">‍</a></li><li><a href=\"https://www.youtube.com/watch?v=Qwdv3oWPG4A\">Red-Foo &amp; Dre' Kroon - Life Is a Game of Chess (Original Version) (Jungle 1996)</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10584086-redfoo-from-party-rock-anthems-to-falling-in-love-with-coding-an-epic-ongoing-journey",
+  "name": "RedFoo - from Party Rock Anthems to falling in love with coding. An epic ongoing journey!",
+  "slug": "redfoo-from-party-rock-anthems-to-falling-in-love-with-coding-an-epic-ongoing-journey"
+ }
+}

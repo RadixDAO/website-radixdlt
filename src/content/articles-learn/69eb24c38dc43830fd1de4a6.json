@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4a6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:20.126Z",
+ "createdOn": "2026-04-24T08:06:20.126Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=4-GTJHATDbY\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/4-GTJHATDbY\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">To get started, open your web browser and go to <a id=\"\" href=\"https://wallet.radixdlt.com/\"><strong id=\"\">wallet.radixdlt.com</strong></a>; here, you will find the official links to download the Radix Mobile wallet for iOS and Android.&nbsp;</p><p id=\"\"><em id=\"\">Warning: always refer to </em><a id=\"\" href=\"https://wallet.radixdlt.com/\"><strong id=\"\">wallet.radixdlt.com</strong></a> <em id=\"\">to ensure you are accessing the official Radix wallet.</em></p><p id=\"\">You can scan the on-screen desktop QR code with your mobile device or select the link corresponding to your mobile device's operating system. Follow the applicable link to either the App Store or the Google Play store and download the app.&nbsp;</p><p id=\"\">Once you have downloaded and installed the wallet, tap the wallet icon to launch it.&nbsp;</p><p id=\"\"><strong id=\"\">New wallet users:</strong>&nbsp;</p><p id=\"\">Launch the app and proceed as a new user; here, you will select the <strong id=\"\">I’m a new Radix wallet user</strong> option.</p><p id=\"\">Click <strong id=\"\">Create New Account </strong>at the bottom of the home screen.</p><p id=\"\"><strong id=\"\">Create a New Account</strong> - enter your chosen account name and press <strong id=\"\">Continue</strong>. The app will now request biometric authentication to complete the request.&nbsp;</p><p id=\"\">Once complete, <strong id=\"\">Continue to the Account List</strong>; the wallet main screen is now displaying the named account<strong id=\"\"> </strong>and the account address.</p><p id=\"\"><strong id=\"\">Link the Radix Connector browser extension.&nbsp;</strong></p><p id=\"\">To ensure greater functionality and a secure P2P connection with your new Babylon wallet V 1.0, we suggest that you link the Radix wallet to your desktop. To do this, you will need to install<strong id=\"\"> </strong>Radix Connect for Chrome.</p><p id=\"\">‍</p><p id=\"\">On the desktop, click <strong id=\"\">Install Radix Connector for Chrome </strong>or click <strong id=\"\">Opening the linking QR code</strong>.&nbsp;</p><p id=\"\">Go to the Chrome store and click<strong id=\"\"> Add to Chrome</strong>, grant permissions, and add it to Chrome.</p><p id=\"\">Once added, open the mobile to <strong id=\"\">Settings</strong> and click <strong id=\"\">Link to Connector.</strong>&nbsp;</p><p id=\"\">The mobile app will now display a QR code scanner window, and the desktop will display a QR code.&nbsp;</p><p id=\"\">Using the mobile QR code scanner, scan the QR code displayed on the desktop.</p><p id=\"\">Once the scan is complete, name the new connector.</p><p id=\"\">The linked connector will now be displayed in <strong id=\"\">Settings</strong> within the <strong id=\"\">Authorised dApps</strong> section.</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "How to Download and Setup the Radix Wallet",
+  "slug": "how-to-download-and-setup-the-radix-wallet"
+ }
+}

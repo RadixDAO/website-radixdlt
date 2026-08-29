@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c5b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T06:26:23.591Z",
+ "createdOn": "2026-04-24T06:26:23.591Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "status": "5d07bb893cd14595735bc9ca3038d8bc",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b7"
+  ],
+  "severity": "c4752271c0d619470c9d2a7e139faa80",
+  "date-reported": "2023-02-01T15:00:00.000Z",
+  "last-update": "2023-02-01T17:20:00.000Z",
+  "content": "<p id=\"\">Instabridge technical issue has been resolved.</p><p id=\"\">‍</p><p id=\"\">Instabridge is currently offline due to some technical issues with processing transactions. Our team is working to resolve this ASAP. If you have any issues, please contact support@instabridge.io </p>",
+  "name": "Instabridge currently offline",
+  "slug": "instabridge-currently-offline"
+ }
+}

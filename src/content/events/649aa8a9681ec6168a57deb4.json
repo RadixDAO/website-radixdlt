@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57deb4",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-11-29T10:04:53.035Z",
+ "createdOn": "2022-11-04T10:23:15.627Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e2f5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6364e778f36ba76171e6a6df_RadFi-Event-Page-Banner.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "‍Real DeFi. At Scale. On December 8th at 1800 GMT, Radix will unveil the next big chapter in the 9-year epic to build the most complete smart contract platform for Web 3.0 and DeFi. Register now.",
+  "location": "Online",
+  "start-date": "2022-12-08T00:00:00.000Z",
+  "end-date": "2022-12-08T00:00:00.000Z",
+  "event-link-text": "Register Now Here!",
+  "event-link-url": "https://www.radixdlt.com/radfi?utm_campaign=radfi&utm_medium=events&utm_source=Events1",
+  "name": "RadFi 2022",
+  "slug": "radfi-2022"
+ }
+}

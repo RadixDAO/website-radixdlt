@@ -1,0 +1,23 @@
+{
+ "id": "650a186f4790f33f4402e450",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-09-07T14:30:07.994Z",
+ "lastUpdated": "2025-09-07T14:30:07.994Z",
+ "createdOn": "2023-09-19T21:53:51.815Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "99b8615830fb0196ceb686973d337306",
+  "url-link": "https://incentives.radixdlt.com/",
+  "image": {
+   "fileId": "68bd957769c186434f41d214",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/68bd957769c186434f41d214_770x440.png",
+   "alt": null
+  },
+  "content-2": "Use Radix DeFi, Earn Rewards!",
+  "gradient-text": "Earn Your Share of 1Bn XRD",
+  "text-with-play-icon": null,
+  "name": "Use Section",
+  "slug": "use-section"
+ }
+}

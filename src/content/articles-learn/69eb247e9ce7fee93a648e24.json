@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e24",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:32:30.718Z",
+ "createdOn": "2026-04-24T08:05:59.511Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">If a token holder wishes to unstake, this is done through the <a id=\"\" href=\"/article/betanet-desktop-wallet-introduction\">Desktop Wallet</a>. There, the user submits an unstaking request. This request begins an unstaking delay period after which the tokens are released for use. The purpose of this delay is to allow the network sufficient time to determine confidently that the validator those tokens were delegated to hasn't done anything malicious, such as double-voting.</p><p id=\"\">The unstaking delay has been removed on betanet for testing purposes. The mainnet delay will be announced later, but is likely to be a period of some weeks, which is a typical period for networks using this type of mechanism.</p><p id=\"\"><br></p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How do token holders unstake?",
+  "slug": "how-do-token-holders-unstake"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dd36",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:00:43.751Z",
+ "createdOn": "2021-06-18T11:17:24.051Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Senior Customer Support Representative - RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfed",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60cc80a79c0dca7b41f6451f_Katy%20Simmons.png",
+   "alt": null
+  },
+  "bio-excerpt": "Katy has over 5 years of experience working in customer support and account management. Previously working for a crypto-based video platform, she has managed customer support throughout an ICO, the Radix token sale, and beyond.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/katy-simmons-a086ba55/",
+  "blank-item": false,
+  "order": 16,
+  "name": "Katy Simmons",
+  "slug": "katy-simmons"
+ }
+}

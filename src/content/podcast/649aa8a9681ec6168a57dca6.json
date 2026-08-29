@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dca6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-27T16:42:51.922Z",
+ "createdOn": "2021-04-27T10:31:02.501Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-06-18T00:00:00.000Z",
+  "guest-name": "Tom Trowbridge",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfc2",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608812fa18c033d746b5278e_podcast.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of Defi Download, Piers Ridyard speaks with Tom Trowbridge, co-founder of the Fluence Project and former president of Hedera Hashgraph about governance models in decentralised systems – particularly BTC and HBAR",
+  "main-content": "<p>In this episode of Defi Download, Piers Ridyard speaks with Tom Trowbridge, co-founder of the Fluence Project and former president of Hedera Hashgraph about governance models in decentralised systems - particularly BTC and HBAR</p><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/4209368-hashgraph-vs-bitcoin-a-battle-of-governance-decentralisation",
+  "name": "Hashgraph vs Bitcoin: A battle of Governance & Decentralisation",
+  "slug": "hashgraph-vs-bitcoin-a-battle-of-governance-decentralisation"
+ }
+}

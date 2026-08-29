@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565637",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:25.884Z",
+ "createdOn": "2026-04-24T08:08:25.884Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">Radix uses a specific kind of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-staking\"><strong id=\"\">staking</strong></a> as part of its <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-proof-of-stake-pos-and-delegated-proof-of-stake-dpos\"><strong id=\"\">Delegated Proof of Stake (DPoS)</strong></a><strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack-2\"><strong id=\"\">Sybil</strong></a><strong id=\"\"> </strong>protection<strong id=\"\"> </strong>mechanism. Radix’s DPoS system weights validator <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> votes by the number of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> staked to each <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator node</strong></a> and decides which validators are included in the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a><strong id=\"\"> </strong>for each <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a>.</p><p id=\"\">Because of this, XRD <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> holders play a critical role in securing the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>.&nbsp;</p><p id=\"\">Stakers i.e.<strong id=\"\"> </strong><a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit (LSU)</strong></a> holders, are rewarded for supporting network <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">security</strong></a> through DPoS with newly created XRD tokens over time. These newly created XRD tokens are called <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">network emissions</strong></a>.</p><p id=\"\">In addition, Radix has <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">native liquid staking</strong></a>. While on other networks, such as Ethereum, liquid staking is only provided at the application level by providers such as Lido; on Radix, the Radix Protocol itself issues stakers Liquid Stake Units (LSUs) and represent a proportional claim on the XRD held in each validator component’s staked pool.&nbsp;</p><p id=\"\">As staking is a form of vote that selects which validators participate in consensus and secures the network, <a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">selecting which validators to stake to</strong></a> is perhaps the most important role of any XRD token holder.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">How should I choose validators to stake to?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">How to Stake and Unstake XRD&nbsp;</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What kind of staking system does Radix use?",
+  "slug": "what-kind-of-staking-system-does-radix-use"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "id": "69eb22ce9c63b54df937828f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T07:59:13.212Z",
+ "createdOn": "2026-04-24T07:59:10.728Z",
+ "isArchived": true,
+ "isDraft": true,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb22c96399d7a55f7f64d8",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb22c96399d7a55f7f64d8_610d7d898daf9c77a24f4032_Instabridge%20Favicon.png",
+   "alt": null
+  },
+  "number-of-questions": "9",
+  "subcategory-set": false,
+  "subcategory": null,
+  "name": "Instabridge User Guide",
+  "slug": "instabridge-user-guide"
+ }
+}

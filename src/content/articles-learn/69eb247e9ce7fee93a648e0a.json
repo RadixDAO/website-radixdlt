@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e0a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:23:18.630Z",
+ "createdOn": "2026-04-24T08:05:50.811Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8202",
+  "full-article-text": "<p id=\"\">How can validator nodes minimize disruption if they need to leave the network?</p><p id=\"\">Each <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validators</strong></a> are selected for inclusion in the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator</strong> <strong id=\"\">set</strong> </a>by the stake delegated to that validator node. Even if a node disconnects, it may still be selected for the validator set – but would fail to make proposals and would not receive any <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a> (for the node-runner or delegators). Therefore it is expected that delegators will quickly <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">choose</strong> <strong id=\"\">to</strong> <strong id=\"\">unstake</strong></a> and remove that validator from the validator set.</p><p id=\"\">However, if a node-runner plans to leave the network, validator node-runners should consider sending an “<a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-validator-nodes-unstake-or-unregister\"><strong id=\"\">unregister command</strong></a><strong id=\"\">”</strong>. This will tell the network that it should not attempt to select the validator for the validator set, regardless of the stake delegated to it. It will also send a clear signal to stakers that it is time for them to unstake.<br></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-validator-nodes-unstake-or-unregister-2\"><strong id=\"\">How do validator nodes unstake or unregister?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/why-not-incentivize-validators-below-the-top-100-as-a-buffer\"><strong id=\"\">Why not incentivize validators below the top-100 as a “buffer”?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-nodes-outside-of-the-top-100-incentivised-to-step-in-if-any-of-the-top-100-validators-drop-out-2\"><strong id=\"\">How are nodes outside of the top 100 incentivized to “step in” if any of the top 100 validators drop out?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-happens-if-a-validator-node-drops-out-or-unregisters-during-an-epoch-2\"><strong id=\"\">What happens if a validator node “drops out” or unregisters during an epoch?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "How can validator nodes minimize disruption if they need to leave the network?",
+  "slug": "how-can-validator-nodes-minimise-disruption-if-they-need-to-leave-the-network"
+ }
+}

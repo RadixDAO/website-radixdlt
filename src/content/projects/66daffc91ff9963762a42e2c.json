@@ -1,0 +1,31 @@
+{
+ "id": "66daffc91ff9963762a42e2c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:24:07.161Z",
+ "createdOn": "2024-09-06T13:12:41.880Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Streamlines Radix domain management with a user-friendly, jargon-free interface, accessible to both newcomers and experienced Web3 users.",
+  "project-logo": {
+   "fileId": "66df1880c74b27676fc9c818",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1880c74b27676fc9c818_XRD%20Domains%20Logo%20Mark.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df2858f132d504b0b048cc",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df2858f132d504b0b048cc_Screenshot%202024-09-09%20at%2017.51.48.png",
+   "alt": null
+  },
+  "link-to-project": "https://xrd.domains/",
+  "categories": [
+   "66dafd561128dd1593392a87",
+   "66dafd4047c321c70ec59b34"
+  ],
+  "rank": 8,
+  "featured": false,
+  "name": "XRD Domains",
+  "slug": "xrddomains"
+ }
+}

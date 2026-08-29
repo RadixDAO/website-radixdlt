@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57ddb9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-01-29T16:12:33.548Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-01-29T00:00:00.000Z",
+  "guest-name": "Barney Mannerings",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e07e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61f56743cdadd16b75366bf9_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e07f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/61f56756a33c625777e88975_download%20(1).png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Barney Mannerings, co-founder of the Vega protocol. Vega is a protocol for creating and trading margin finance products on a fully decentralised network. ",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Barney Mannerings, co-founder of the Vega protocol. Vega is a protocol for creating and trading margin finance products on a fully decentralised network.&nbsp;</p><p>Originally listed on CoinList last year, the Vega Protocol has raised over $45 million and currently has over 21,000 token holders.&nbsp;</p><p>Barney worked in traditional finance before getting involved in cryptocurrency by mining Bitcoin and investing in the Ethereum presale. He quickly realised that Ethereum does not support derivatives or other types of trading seen in traditional finance.&nbsp;</p><p>After co-founding Vega with Ramsey Khoury, the team spent a few weeks prototyping together, with Tendermint serving as the back end. They began to realise that it was possible to develop a trading system that could be used on a blockchain.</p><p><strong>[00:51]</strong> What exactly is the Vega Protocol, and what does it hope to achieve?&nbsp;</p><p><strong>[04:46]</strong> Barney’s wish list and what was on it</p><p><strong>[06:01]</strong> What exactly is parity, and what does it mean that the current suite of products lacks it?</p><p><strong>[08:01]</strong> The significance of capital efficiency</p><p><strong>[10:41]</strong> What does a decentralised finance application's capital adequacy look like, and what is its capacity?</p><p><strong>[14:17]</strong> What does the term \"atomic closeout\" mean?&nbsp;</p><p><strong>[20:13]</strong> Barney explains how they came to the decision to build their own blockchain, and what design decisions they made to address the speed problem, the front running problem, and the product parity and capital efficiency problems.</p><p><strong>[25:48]</strong> What is the difference between deploying a DEX on Vega and deploying one on Ethereum?</p><p><strong>[26:59]</strong> What is Wasm or WebAssembly, which has grown in popularity for layer-1 protocols?</p><p><strong>[28:59]</strong> What is the profile of the people Barney hopes will be building on Vega?</p><p><strong>[31:19]</strong> The challenges that new blockchains and layer-1s face, as well as the blurring of the terms “protocol” and “application”</p><p><strong>[35:20]</strong> Vega Protocol’s trustless bridge into the Ethereum ecosystem</p><p><strong>[36:16]</strong> The security profile of the Vega network and its underlying consensus, Tendermint, which employs an optimised practical Byzantine Fault Tolerance (pBFT) algorithm</p><p><strong>[37:05]</strong> The number of validators used by Vega and how they plan to increase it</p><p><strong>[39:42]</strong> <a href=\"https://eprint.iacr.org/2020/885.pdf\">Wendy</a>, a group of low overhead protocols that can implement different concepts of fairness</p><p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=x3SNRA6JiBA&list=PLBGHv3uedRNRRmuo-yKwustqHWU15eWGM&index=30\"><div><iframe src=\"https://www.youtube.com/embed/x3SNRA6JiBA\" title=\"Vega Protocol - getting serious about DeFi derivatives.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h2>Further resources</h2><ul><li>Website: <a href=\"https://vega.xyz/\">vega.xyz</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/vegaprotocol\">@vegaprotocol</a></li><li>Discord: <a href=\"https://vega.xyz/discord\">vega.xyz/discord</a>&nbsp;</li></ul><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/9973697-vega-protocol-getting-serious-about-defi-derivatives",
+  "name": "Vega Protocol – getting serious about DeFi derivatives",
+  "slug": "vega-protocol-getting-serious-about-defi-derivatives"
+ }
+}

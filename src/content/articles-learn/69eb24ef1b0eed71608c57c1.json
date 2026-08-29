@@ -1,0 +1,26 @@
+{
+ "id": "69eb24ef1b0eed71608c57c1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:20:26.571Z",
+ "createdOn": "2026-04-24T08:07:42.943Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">A <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator node</strong></a> is a special type of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-full-node-2\"><strong id=\"\">full node</strong></a> that participates in <strong id=\"\">“</strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a><strong id=\"\">.”</strong> By participating in consensus, validator nodes become responsible for verifying, voting on, and maintaining a record of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a>. On the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-being-delivered-for-the-olympia-mainnet\"><strong id=\"\">Olympia</strong></a> release of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix</strong> <strong id=\"\">Public</strong> <strong id=\"\">Network</strong></a>, there is a maximum of 100 validator nodes at a time. These are selected based on the amount of stake <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> token holders have delegated to them.&nbsp;</p><p id=\"\">Validator nodes underpin the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">security</strong></a> of any <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> network. That is why it is of vital importance to ensure that validator nodes remain both performant and trustworthy.&nbsp;</p><p id=\"\">For <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a>, it is vitally important that you, as an <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> token holder, support the security of the network by <a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">selecting the best validators to stake to</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-validators-on-radix-selected\"><strong id=\"\">How are validators on Radix selected?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-full-node-2\"><strong id=\"\">What is a full node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">What is a validator set?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-and-validator-node\"><strong id=\"\">What's the difference between a full node and validator node?\t</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-register-a-validator-node\"><strong id=\"\">How do I register a validator node?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is a validator node?",
+  "slug": "what-is-a-validator-node-2"
+ }
+}

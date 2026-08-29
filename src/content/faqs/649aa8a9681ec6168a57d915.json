@@ -1,0 +1,14 @@
+{
+ "id": "649aa8a9681ec6168a57d915",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-25T01:11:28.517Z",
+ "createdOn": "2021-04-25T01:11:28.517Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "content": "Decentralized Finance are financial tools running on top of a decentralized ledger. For example, decentralized exchanges, lending/borrowing platforms, automated market makers (like Uniswap), and hedge funds. DeFi has the potential to replace global financial systems with a more democratic, competitive system built by a new generation of innovators.",
+  "name": "What is DeFi",
+  "slug": "what-is-defi"
+ }
+}

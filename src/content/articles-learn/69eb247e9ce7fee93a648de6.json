@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648de6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:05:40.461Z",
+ "createdOn": "2026-04-24T08:05:40.461Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Yes, <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-foundation-and-its-group-of-entities\"><strong id=\"\">Radix Tokens (Jersey) Limited (RTJL)</strong></a>, which is a subsidiary of the <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-the-radix-foundation-and-its-group-of-entities\"><strong id=\"\">Radix Foundation</strong></a>, operates validator nodes to provide support to network reliability and security. These nodes are not special in any way - they are simply nodes that RTJL operates as part of its mission to support Radix and the Radix <a id=\"\" href=\"http://learn.radixdlt.com/article/how-do-i-discover-dapps-and-tokens-in-the-radix-ecosystem\"><strong id=\"\">ecosystem</strong></a>. They are intended to provide a multi-region, redundant set of high-reliability nodes alongside other nodes run by the community. RTJL’s nodes <a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-operated-validator-nodes-accept-delegated-stake-from-the-community\"><strong id=\"\">will not accept any community stake</strong></a> - only its own.</p><p id=\"\">To see the current nodes operated by the Radix Foundation, see the <a id=\"\" href=\"http://dashboard.radixdlt.com\"><strong id=\"\">Radix Dashboard</strong></a>.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-foundations-policy-on-staking-node-running\"><strong id=\"\">What is the Radix Foundation’s policy on staking &amp; node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-the-radix-foundation-operate-validator-nodes\"><strong id=\"\">Does the Radix Foundation operate validator nodes?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-the-radix-foundation-stake-its-own-xrd-holdings-to-which-validators\"><strong id=\"\">Does the Radix Foundation stake its own XRD holdings? To which validators?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-receive-incentive-rewards-from-staking-and-validator-node-running-2\"><strong id=\"\">Does the Radix Foundation receive incentive rewards from staking and validator node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-operated-validator-nodes-accept-delegated-stake-from-the-community-2\"><strong id=\"\">Do validator nodes operated by the Radix Foundation accept delegated stake from the community?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Does the Radix Foundation operate validator nodes?",
+  "slug": "does-the-radix-foundation-operate-validator-nodes"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "69ee5b19eb8ae1df299b3fc6",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-26T18:36:09.385Z",
+ "createdOn": "2026-04-26T18:36:09.385Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "logo": {
+   "fileId": "69ee5b19eb8ae1df299b3fa3",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5b19eb8ae1df299b3fa3_66560d6ecfec6b005dbe5e2f_6509f9c6cf9d6dc95e48a354_eco-logo-12.png",
+   "alt": null
+  },
+  "name": "Eco 12",
+  "slug": "eco-12"
+ }
+}

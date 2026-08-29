@@ -1,0 +1,30 @@
+{
+ "id": "66e1afcfeec31766606201dc",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-11T14:57:38.622Z",
+ "lastUpdated": "2024-09-11T14:57:19.582Z",
+ "createdOn": "2024-09-11T14:57:19.582Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "The Radix Billboard is a shared digital canvas, segmented into thousands of blocks that you can personally own and customize with an image, link, and title.",
+  "project-logo": {
+   "fileId": "66e1afb9dea4a1b12fdd4a2c",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1afb9dea4a1b12fdd4a2c_profile-image.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66e1afbce87ae1b13dc37d90",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1afbce87ae1b13dc37d90_banner.png",
+   "alt": null
+  },
+  "link-to-project": "https://radixbillboard.com/",
+  "categories": [
+   "66dafd561128dd1593392a87"
+  ],
+  "rank": 15,
+  "featured": false,
+  "name": "Radix Billboard",
+  "slug": "radix-billboard"
+ }
+}

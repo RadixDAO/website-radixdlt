@@ -1,0 +1,14 @@
+{
+ "id": "649aa8a9681ec6168a57d952",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2021-04-25T01:11:59.925Z",
+ "createdOn": "2021-04-25T01:11:59.925Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "content": "DLT means decentralized ledger technology. Blockchains and DAGs are types of DLTs. Radix has a novel data structure and consensus design and so it is different from blockchains and DAGs, hence why Radix is often referred to generally as a “DLT”.",
+  "name": "What is a DLT?",
+  "slug": "what-is-a-dlt"
+ }
+}

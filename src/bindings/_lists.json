@@ -524,10 +524,10 @@
   "items": [
    "caviarswap",
    "ociswap",
+   "radex",
    "scrypto-bonding",
-   "scrypto-bonding",
-   "scrypto-bonding",
-   "scrypto-bonding"
+   "hareswap",
+   "chaindex"
   ],
   "slots": [
    {
@@ -722,7 +722,7 @@
   "collection": "blueprints-developers",
   "items": [
    "neuracle",
-   "scrypto-bonding"
+   "callbackscheduler"
   ],
   "slots": [
    {
@@ -756,7 +756,7 @@
   "items": [
    "adept",
    "impahla",
-   "scrypto-bonding"
+   "crowd-sourcing"
   ],
   "slots": [
    {
@@ -893,13 +893,13 @@
   "collection": "project-categories",
   "items": [
    "dashboard",
-   null,
-   null,
+   "defi",
+   "dex",
    "marketplace",
-   null,
-   null,
-   null,
-   null,
+   "nfts",
+   "token",
+   "tools",
+   "trade",
    "lending"
   ],
   "slots": [
@@ -1112,15 +1112,15 @@
    "early",
    "eco-17",
    "rns",
-   null,
-   "astrolecent",
+   "radix-api",
+   "astrolescent",
    "cacao",
    "eco-8",
    "eco-7",
    "eco-6",
    "eco-12",
    "root-finance-2",
-   null,
+   "eco-3",
    "eco-14",
    "root-finance-2",
    "eco-19",
@@ -1507,7 +1507,7 @@
    "lasgidi",
    "lleo-mars",
    "imaduddin-amir",
-   "willy-woo",
+   "willy-woo-tweet",
    "faraz",
    "jm-borg",
    "thomas-gaffney",
@@ -1562,7 +1562,7 @@
    "lasgidi",
    "lleo-mars",
    "imaduddin-amir",
-   "willy-woo",
+   "willy-woo-tweet",
    "faraz",
    "jm-borg",
    "thomas-gaffney",
@@ -1617,7 +1617,7 @@
    "lasgidi",
    "lleo-mars",
    "imaduddin-amir",
-   "willy-woo",
+   "willy-woo-tweet",
    "faraz",
    "jm-borg",
    "thomas-gaffney",

@@ -1,0 +1,30 @@
+{
+ "id": "66df1af1eb4c965039138abb",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-02-03T15:54:01.863Z",
+ "createdOn": "2024-09-09T15:57:37.962Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A collection of 10,000 fully 3D and gameable NFTs designed for use within games, virtual communities, and game engines like Unity or Unreal.",
+  "project-logo": {
+   "fileId": "66df1ae31e4fdd9c72cb9b0a",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ae31e4fdd9c72cb9b0a_pyro-logo.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1ae63e23b710ee669e74",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1ae63e23b710ee669e74_pyro-header.png",
+   "alt": null
+  },
+  "link-to-project": "https://www.pyrosworld.com/",
+  "categories": [
+   "66dafd4ec76901ac3209fbb0"
+  ],
+  "rank": 15,
+  "featured": false,
+  "name": "Pyros World",
+  "slug": "pyros-world"
+ }
+}

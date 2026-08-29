@@ -1,0 +1,79 @@
+---
+// The <head> shared by every Webflow-shell page (see REBUILD-PLAN.md Task 2.1).
+//
+// Built as a plain string and spliced with set:html, same as CollectionList.astro --
+// never as literal Astro markup -- so the Astro compiler never gets a chance to
+// reparse/reserialise it (reorder attributes, requote, etc). `title`/the SEO values
+// are verbatim substrings lifted out of the original per-page head.html by
+// tools/split-site-head.mjs; `tail` is the untouched remainder of that same file.
+//
+// Two things are proven true across all measured shells (see the plan) and encoded
+// literally below rather than as props:
+//   - the SEO meta subset, when elements are present, always appears in exactly this
+//     relative order: description, og:title, og:description, og:image,
+//     twitter:title, twitter:description, twitter:image, og:type, twitter:card.
+//   - the invariant block (viewport, google-site-verification, the three site
+//     stylesheets, two font preconnects) is byte-identical everywhere it appears.
+// Five pages (podcast, radfi, wallet-landing-2, wallet-landing-4, wallet-landing1)
+// interleave page-specific tags into that invariant block, breaking its
+// contiguity -- those pass skipInvariant and carry the whole block, verbatim and
+// already in place, as part of their own `tail` instead.
+//
+// `canonical` is the fix for the 1,109-page wrong-canonical defect (see
+// tools/test-head-parity.mjs / REBUILD-PLAN.md): rel=canonical is per-ITEM, so it
+// can never be a literal baked into a tail asset shared by a whole collection (that
+// was the bug -- every detail page in a collection inherited the same
+// `detail_<collection>` Webflow-template placeholder). Every nativised detail
+// template's own `tail` HTML still carries the canonical `<link>` at its original
+// position (right after apple-touch-icon, before the GTM script -- matching
+// reference/live byte-for-byte), but with its href left as the literal placeholder
+// `__CANON__` instead of a real URL. When `canonical` is supplied here, it is
+// substituted into that placeholder centrally, in this one component, rather than
+// by each of the ~20 call sites doing their own readFileSync().replace(). Pages
+// that don't pass `canonical` (static WebflowPage.astro shells, whose tail already
+// carries a correct, hardcoded canonical from the original export) are unaffected --
+// `tail` passes through untouched.
+interface Props {
+  title: string;
+  description?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+  twitterImage?: string;
+  ogType?: boolean;
+  twitterCard?: boolean;
+  skipInvariant?: boolean;
+  canonical?: string;
+  tail: string;
+}
+
+const {
+  title, description, ogTitle, ogDescription, ogImage,
+  twitterTitle, twitterDescription, twitterImage,
+  ogType, twitterCard, skipInvariant, canonical, tail,
+} = Astro.props;
+
+let html = `\n  <meta charset="utf-8">\n  <title>${title}</title>\n`;
+if (description !== undefined) html += `  <meta content="${description}" name="description">\n`;
+if (ogTitle !== undefined) html += `  <meta content="${ogTitle}" property="og:title">\n`;
+if (ogDescription !== undefined) html += `  <meta content="${ogDescription}" property="og:description">\n`;
+if (ogImage !== undefined) html += `  <meta content="${ogImage}" property="og:image">\n`;
+if (twitterTitle !== undefined) html += `  <meta content="${twitterTitle}" name="twitter:title">\n`;
+if (twitterDescription !== undefined) html += `  <meta content="${twitterDescription}" name="twitter:description">\n`;
+if (twitterImage !== undefined) html += `  <meta content="${twitterImage}" name="twitter:image">\n`;
+if (ogType) html += `  <meta property="og:type" content="website">\n`;
+if (twitterCard) html += `  <meta content="summary_large_image" name="twitter:card">\n`;
+if (!skipInvariant) {
+  html += `  <meta content="width=device-width, initial-scale=1" name="viewport">\n`
+    + `  <meta content="PLH4k2tg1NsSyflI190jsJtrcx6z3PAjcGhI2lBcQEw" name="google-site-verification">\n`
+    + `  <link href="/css/normalize.css" rel="stylesheet" type="text/css">\n`
+    + `  <link href="/css/components.css" rel="stylesheet" type="text/css">\n`
+    + `  <link href="/css/radix-web.css" rel="stylesheet" type="text/css">\n`
+    + `  <link href="https://fonts.googleapis.com" rel="preconnect">\n`
+    + `  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">\n`;
+}
+html += canonical !== undefined ? tail.replace('__CANON__', canonical) : tail;
+---
+<Fragment set:html={html} />

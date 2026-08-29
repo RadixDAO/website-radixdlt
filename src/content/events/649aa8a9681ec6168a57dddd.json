@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dddd",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:55:30.898Z",
+ "createdOn": "2022-03-10T10:25:44.641Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d849197b4f9e167ed2f00a_622a26ddb3d911b2b3494aad_Piers%2520Blockchain%2520Africa.png",
+   "alt": null
+  },
+  "event-category": "ef405bb90e59d4f8366489b9f79c6209",
+  "description": "Piers Ridyard will discuss \"New Economy: Crypto as the Financial System of the Internet?\" in a Fireside Chat with Lane Kasselman. They will discuss how crypto is emerging as the financial system of the internet, and how blockchain is impacting access to financial services. As optimism continues to grow toward crypto, they will speak to this new inflection point as crypto adoption increases among both consumers and institutions, and what this means for companies opening up in this space. Don't miss this opportunity! You can attend this event for free.",
+  "location": "Virtual",
+  "start-date": "2022-03-17T00:00:00.000Z",
+  "end-date": "2022-03-18T00:00:00.000Z",
+  "event-link-text": "Programme",
+  "event-link-url": "https://blockchainafrica.co/programme-2022/",
+  "name": "Blockchain Africa Conference",
+  "slug": "blockchainafrica"
+ }
+}

@@ -1,0 +1,103 @@
+---
+// NOTE on the inline <style> below (.active .dot): it is Webflow-authored and must NOT
+// be Astro-scoped. `.active` is added at runtime by jQuery, and the `.dot` elements it
+// targets are rendered outside this component, so a scoped rule can never match them --
+// Astro stamps data-astro-cid only on markup it authors. Scoped, it emitted
+// `.active[data-astro-cid-x] .dot[data-astro-cid-x]` against 2 unstamped .dot elements:
+// a silently dead highlight that neither verify.mjs (tag/class + text) nor the byte gate
+// can see. is:inline rather than is:global because reference/live carries it inline at
+// exactly this position, inside div.toc.w-embed.
+// The blog detail template's body block -- div.c-section.is-blog-content.
+//
+// `contentHtml` is the post's rich-text field, injected raw with set:html: it is
+// content, not layout, and rewriting its tags would lose markup the CSS depends on
+// (see REBUILD-PLAN.md Phase 4). Everything else here is real Astro template code.
+//
+// The "author-role" field (h5's sibling div) has no confirmed binding anywhere in
+// src/bindings/blog.json -- every sampled page rendered it empty -- so it stays
+// exactly as the shell has it, a static `w-dyn-bind-empty` marker, not templated.
+import { dynClass, type RelatedArticle } from '../../lib/blog-detail';
+
+interface Props {
+  contentHtml: string;
+  authorName: string;
+  authorSlug: string;
+  related: RelatedArticle[];
+}
+
+const { contentHtml, authorName, authorSlug, related } = Astro.props;
+---
+<div class="c-section is-blog-content">
+  <div class="container">
+    <div class="single-blog-content">
+      <div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f74b-8a57d94b" class="single-main-content">
+        <div id="content" data-content="true" class={dynClass('single-content w-richtext', !!contentHtml)} set:html={contentHtml} />
+      </div>
+      <div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f805-8a57d94b" class="single-sidebar">
+        <div class="sidebar-section">
+          <div class="bm-20">
+            <h4>Posted by</h4>
+          </div>
+          <a href={authorSlug ? `/blog-author/${authorSlug}` : '#'} class="author-group w-inline-block">
+            <div class="author-img small"></div>
+            <div class="author-holder">
+              <h5 class={dynClass('', !!authorName)}>{authorName}</h5>
+              <div class="author-role w-dyn-bind-empty"></div>
+            </div>
+          </a>
+        </div>
+        <div class="sticky-comp">
+          <div class="toc w-embed">
+            <dl id="toc"></dl>
+            <style is:inline>
+.active .dot {
+  background: #052CC0;
+}
+</style>
+          </div>
+          <div class="sidebar-section">
+            <div class="bm-20">
+              <h4>Share this post</h4>
+            </div>
+            <div class="w-embed"><!--  ShareThis BEGIN  -->
+              <div class="sharethis-inline-share-buttons"></div><!--  ShareThis END  --></div>
+          </div>
+          <div class="sidebar-section">
+            <h4>Related Articles</h4>
+            <div class="w-dyn-list">
+              {related.length > 0 ? (
+                <div role="list" class="collection-list-3 w-dyn-items">
+                  {related.map((r) => (
+                    <div role="listitem" class="w-dyn-item">
+                      <a href={`/blog/${r.slug}`} aria-current={r.isCurrent ? 'page' : undefined} class={r.isCurrent ? 'related-link w-inline-block w--current' : 'related-link w-inline-block'}>
+                        <div class="">{r.name}</div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div class="hide-empty w-dyn-empty">
+                  <div>No items found</div>
+                </div>
+              )}
+            </div>
+          </div>
+          <div class="blog-sidebar-ns">
+            <div class="bm-20">
+              <h4>Subscribe to our newsletter</h4>
+            </div>
+            <div class="div-block-135">
+              <div>Subscribe to receive the latest Radix updates.</div>
+            </div>
+            <div id="signup-3" class="ml-form w-embed">
+              <div class="ml-embedded" data-form="RSre69"></div>
+            </div>
+            <div class="privacy-policy">
+              <div>By clicking “Submit”, you agree to our <a href="/privacy-policy" target="_blank" class="privacy-link">Privacy policy</a>. We’ll occasionally send you emails about Radix.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

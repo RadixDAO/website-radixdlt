@@ -1,0 +1,30 @@
+{
+ "id": "65a0186784c1a892810d8960",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-01-12T18:40:19.380Z",
+ "lastUpdated": "2024-01-11T16:55:24.392Z",
+ "createdOn": "2024-01-11T16:33:43.280Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2024-01-11T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de36",
+  "featured-post": false,
+  "blog-category": null,
+  "image": {
+   "fileId": "65a0181d343f50e56fb43d58",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/65a0181d343f50e56fb43d58_Fibonacci-Finance%20(1).png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<figure class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1600px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1600px\"><div><img src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/65a0184625163684d041ce11_Fibonacci-Finance.png\" loading=\"lazy\"></div></figure><p>Fibonacci Finance has secured the $15,000 Babylon Booster Grant. </p><h2 id=\"\"><strong id=\"\">What is Fibonacci Finance?</strong></h2><p id=\"\">Fibonacci Finance provides a suite of data-driven financial risk services. Their tools, including APIs and custom risk engine designs, cater to various clients like DeFi and NFT projects, DAOs, and those managing on-chain liquidity. Their customers use the data they provide to manage incentives and monitor on-chain slippage, or to take advantage of arbitrage/trading opportunities.&nbsp;</p><p id=\"\">What sets Fibonacci Finance apart is that it allows users to assess the financial risks of Radix assets using live on-chain data—a first for the Radix ecosystem. This tool is invaluable for developers looking to safeguard their projects against financial risks, which have cost the industry billions due to exploits in protocol logic and pricing mechanisms.</p><p id=\"\">The core team is Shimon and Samiar, with respective backgrounds in International Political Economy and International Business and Finance, who converged in the Netherlands six years ago and have a shared ambition: making DeFi a robust alternative to traditional finance. The pair have already secured 15 clients from 3+ chains with 20+ unique endpoints and receive over 2 million API calls per month.</p><p id=\"\">Fibonacci Finance has worked with notable names within the Web3 space such as <a id=\"\" href=\"https://bonkcoin.com/\">Bonk</a>, <a id=\"\" href=\"https://www.jito.network/staking/\">Jito</a>, and <a id=\"\" href=\"https://app.marginfi.com/\">MarginFi</a>.&nbsp;&nbsp;</p><h2 id=\"\"><strong id=\"\">So, what’s on the horizon?</strong></h2><p id=\"\">Fibonacci aims to enhance its integration with Radix projects, offering insights into financial risks through advanced APIs and risk dashboards at a lower cost compared to other solutions. They aim to collaborate with at least five Radix projects in the coming months and are seeking fundraising to fuel this growth.&nbsp;</p><p id=\"\">They are also soon releasing their flagship product, which will allow token projects and investors alike to easily choose which tokens and on-chain activities they wish to monitor. Fibonacci wishes to take over the entire liquidity management/risk management/incentive management game; they genuinely believe that they have built the best product on the market for these purposes at a fraction of the cost of their competitors.&nbsp;&nbsp;</p><h2 id=\"\"><strong id=\"\">The Radix Advantage: A Founder's Perspective</strong></h2><p id=\"\">Reflecting on the advancements of Fibonacci Finance, the team shared:</p><blockquote id=\"\"><em id=\"\">The Radix Advantage, for us, is the unprecedented professionalism that we experienced when interacting with the Radix Grant Committee. In crypto, many projects move quickly at the direct expense of strong internal organisation. The opposite is true about Radix; working with them, you can really see that the Radix team focuses on quality over short-term gain. This makes us personally very bullish on the future of Radix, as we believe that projects are only as good as those that are responsible for pushing them forward. It is clear that Radix has built a diehard community and internal practices of excellence that will likely translate into the future and imminent success of the Radix DeFi ecosystem. </em><br></blockquote><p id=\"\"><em id=\"\">For more information on the project, head to the </em><a id=\"\" href=\"http://www.fibonacci.fi\"><em id=\"\">website</em></a><em id=\"\">, and follow the project's </em><a id=\"\" href=\"https://x.com/fib_finance?s=21\"><em id=\"\">official Twitter</em></a><em id=\"\"> account.&nbsp;</em></p><p id=\"\"><em id=\"\">‍All information about Fibonacci Finance was provided by the Fibonacci Finance team and has not been verified by Radix Publishing, RDX Works, or their associated companies.</em></p><p id=\"\"><em id=\"\">To stay in the loop with the Radix Grants Program and be first to hear about updates on the upcoming cohort 2, </em><a id=\"\" href=\"https://developers.radixdlt.com/#join-community\"><em id=\"\">join the developer program</em></a><em id=\"\">.</em></p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Babylon Booster Grants: Fibonacci Finance",
+  "slug": "babylon-booster-grants-fibonacci-finance"
+ }
+}

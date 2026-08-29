@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e06",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:27:15.579Z",
+ "createdOn": "2026-04-24T08:05:49.536Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">You can purchase eXRD on <a id=\"\" href=\"https://www.radixdlt.com/#token-buy\">several centralized exchanges</a> and decentralised exchanges such as <a id=\"\" href=\"https://info.uniswap.org/pair/0x684b00a5773679f88598a19976fbeb25a68e9a5f\">Uniswap</a>.</p><p id=\"\">eXRD tokens can be swapped with the native XRD token at a 1:1 ratio. You can read more about the relationship between eXRD and XRD <a id=\"\" href=\"https://www.radixdlt.com/post/white-paper/economics-white-paper/\" target=\"_blank\">here.</a></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": true,
+  "feature-in-category-header": true,
+  "feature-in-search": true,
+  "article-likes": null,
+  "name": "How can I purchase eXRD tokens?",
+  "slug": "how-can-i-purchase-exrd-tokens"
+ }
+}

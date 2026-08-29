@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c999efb028b56ec183f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T10:54:47.754Z",
+ "lastUpdated": "2026-04-27T09:25:47.863Z",
+ "createdOn": "2026-04-26T18:42:33.045Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 50,
+  "username": "@Kansuler",
+  "icon": {
+   "fileId": "69eef863aa184f15f109ef65",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eef863aa184f15f109ef65_61b101dae592b11192143a07_blueprint-thumbnail.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb82f70b5d59f31f840"
+  ],
+  "description": "This is a blueprint example of a crowdsourcing campaign. The creator becomes a fundraiser, while anyone can pledge to the campaign, or recall their pledge. The fundraiser can withdraw the collected XRD if the campaign has ended and the goal is met.",
+  "github-url": "https://github.com/radixdlt/community-scrypto-examples/tree/main/defi/crowdsourcing",
+  "website-url": null,
+  "name": "Crowd Sourcing",
+  "slug": "crowd-sourcing"
+ }
+}

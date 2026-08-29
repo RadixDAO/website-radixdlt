@@ -1,0 +1,32 @@
+---
+// The careers detail template's one top-level block -- div.c-section (REBUILD-PLAN.md
+// Phase 4 taxonomy shape a5012c62, 16 pages: title + a static placeholder image +
+// the job's rich-text body).
+//
+// Markup derived from src/shells/_detail/careers/body.html and cross-checked against
+// dist/careers/*.html and reference/live/careers/*.html.
+//
+// The <img> is Webflow's own "no image set" placeholder (the field this position
+// would bind to was never filled by any of the 16 live items -- src/bindings/
+// careers.json has no slot for it), literal and unbound, same CDN URL on every page.
+import { dynClass } from '../../lib/careers-detail';
+
+interface Props {
+  title: string;
+  jobSpecHtml: string;
+}
+
+const { title, jobSpecHtml } = Astro.props;
+---
+<div class="c-section">
+  <div class="container is-small">
+    <div class="bm-30">
+      <h5 class="is_light">Radix Careers</h5>
+    </div>
+    <div class="bm-30">
+      <h1 class={dynClass('bm-10', !!title)}>{title}</h1>
+    </div>
+    <div class="bm-30"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" /></div>
+    <div class={dynClass('c-rich-text w-richtext', !!jobSpecHtml)} set:html={jobSpecHtml} />
+  </div>
+</div>

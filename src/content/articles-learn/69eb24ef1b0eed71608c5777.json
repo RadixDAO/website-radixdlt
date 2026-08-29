@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5777",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:24.185Z",
+ "createdOn": "2026-04-24T08:07:24.185Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\"><strong id=\"\">Security</strong> in information systems is often described as being composed of three things:</p><p id=\"\"><strong id=\"\">- Confidentiality</strong> - whether data is kept private to only those that are authorized to see it.&nbsp;</p><p id=\"\"><strong id=\"\">- Integrity</strong> - whether data is complete, accurate, and valid.</p><p id=\"\"><strong id=\"\">- Availability</strong> - whether systems and data can be accessed or transacted with when needed.</p><p id=\"\">In <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> systems, confidentiality is generally not possible, given that these are often public <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledgers</strong></a>. Confidentiality comes from pseudonymity, i.e., while the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a> are public, the holders of the accounts are not.&nbsp;</p><p id=\"\">This leaves us with integrity and availability. For blockchains and DLTs, these translate broadly to the concepts of <strong id=\"\">“safety”</strong> and <strong id=\"\">“liveness”</strong>, respectively, although this is a generalization.</p><p id=\"\">Specifically, “safety” can be thought of as nothing incorrect ever happening; and “liveness” can be thought of as the correct thing always eventually happening.</p><p id=\"\">For example:</p><p id=\"\">- Suppose a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus protocol</strong></a> is configured in such a way that <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a> can get “stuck” in an infinite loop and are never able to recover from a disagreement. In that case. that protocol is not adequate in supporting the liveness of the network. As the network is stuck, something correct will never eventually happen. This network is therefore not secure, as it cannot recover from what’s called a “liveness break” - it is unavailable.</p><p id=\"\">- Conversely, suppose a consensus protocol has a loophole that allows a node to convince a majority of other nodes’ vote weight to process an invalid transaction, such as a “double spend”. In that case, we have a safety issue, as a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> could be spent twice, and the majority of the network agreed with it. Something incorrect therefore happened, and so again, this network is not secure - the integrity of its ledger was compromised.</p><p id=\"\">It has actually been mathematically proven that, essentially, for any realistic network, it is impossible to perfectly guarantee safety and liveness at the same time under all conditions! However, a well-designed network limits these conditions to extremely unlikely, economically infeasible, or practically unachievable conditions – and itis able to detect, eliminate, and recover from any problems even in these edge cases. This includes many complex issues of consensus design, as well as providing strong Sybil attack resistance.</p><p id=\"\"><br></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">What are the Radix Public Network and Radix Ledger?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack-2\"><strong id=\"\">What is a Sybil attack?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-proof-of-work-and-proof-of-stake\"><strong id=\"\">What are Proof of Work and Proof of Stake?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/are-my-funds-safe-on-radix\"><strong id=\"\">Are my funds secure on Radix?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 5,
+  "name": "What do security, safety and liveness mean?",
+  "slug": "what-do-security-safety-and-liveness-mean"
+ }
+}

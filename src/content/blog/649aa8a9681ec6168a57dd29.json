@@ -1,0 +1,30 @@
+{
+ "id": "649aa8a9681ec6168a57dd29",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:31:14.498Z",
+ "createdOn": "2021-04-27T08:16:57.595Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2018-01-06T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de34",
+  "featured-post": false,
+  "blog-category": null,
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e1cf",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4bda95b5b5e2222e946_60b8bb8e002cd3d592a54a55_radix-highlights.jpeg",
+   "alt": null
+  },
+  "excerpt": "There have been many exciting developments this year for Radix.",
+  "main-content": "<p id=\"\">There have been many exciting developments this year for Radix. Our team and community have grown considerably, and we hosted our first-ever Hackathon, which was a resounding success.</p><p id=\"\">Join us as we take a look back at some of our highlights and major achievements of this year.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-center\" data-rt-type=\"image\" data-rt-align=\"center\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087c879781878520f4205ff_2018-hightlights.jpeg\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Make sure you keep up to date with all the latest news from Radix and follow our journey to build the first Layer 1 protocol specifically built for DeFi <a id=\"\" href=\"https://radixdlt.com/blog\" target=\"_blank\">just click here</a>. And once you have caught up, why not join the conversation in our lively <a id=\"\" href=\"https://t.me/radix_dlt\" target=\"_blank\">community Telegram group</a>?</p>",
+  "seo-meta-description": "The year 2018 from the Radix perspective - an overview of our achievements, including a testnet, our very first hackathon and the growth of our community.",
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "2018 Year in Review",
+  "slug": "2018-year-in-review"
+ }
+}

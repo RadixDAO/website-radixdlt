@@ -1,0 +1,87 @@
+# The only real proof that this repo is machine-independent.
+#
+# Everything the build needs is committed -- the Webflow export, the shells, the CDN
+# asset mirror, the live-site oracle -- so this job clones and builds with no external
+# inputs, no secrets and no env setup. If it ever needs something added here to pass,
+# that thing has escaped the repo and the durability property is gone.
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # depth 1: the working tree is ~2.2 GB (913 MB CDN asset mirror + 230 MB of the
+      # site's own css/js/fonts/images/videos). Full history would roughly double it.
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # The live snapshot (the oracle five gates compare against) lives in the migration
+      # archive, not here. Without it those gates skip; CI clones it so the full suite runs.
+      # If this step is removed, CI still passes -- it just proves less.
+      - name: Fetch migration archive
+        continue-on-error: true
+        run: |
+          git clone --depth 1 "${{ secrets.MIGRATION_ARCHIVE_URL || '' }}" ../migration-archive || \
+            echo "archive unavailable -- live-comparison gates will skip"
+          echo "RADIX_MIGRATION_ARCHIVE=$(cd ../migration-archive 2>/dev/null && pwd)" >> $GITHUB_ENV
+
+      - run: pnpm build
+
+      # Byte gate: dist/ must match reference/dist-golden.json exactly. Pagefind's index
+      # is excluded (machine-dependent shard hashing) but asserted present -- see
+      # tools/lib/dist-hash.mjs for the measurement behind that exclusion.
+      - name: Byte gate
+        run: node tools/diff-dist.mjs
+
+      # Fidelity against the 1,209-page snapshot of the live Webflow site.
+      - name: Verify against live snapshot
+        run: node tools/verify.mjs
+
+      - name: Chrome invariants
+        run: node tools/test-mark-current.mjs
+
+      # Catches design changes that verify.mjs structurally cannot see: Astro scoping a
+      # Webflow style (rewriting selectors so they stop matching) or emitting CSS of its
+      # own. See tools/test-astro-artifacts.mjs and commit bdb7345.
+      - name: No Astro styling artifacts
+        run: node tools/test-astro-artifacts.mjs
+
+      # Whitespace between inline elements is rendered as a space. Astro's compiler
+      # collapses whitespace, so nativised templates can silently close up gaps the
+      # design depends on -- invisible to verify.mjs, which normalises whitespace away.
+      - name: Inline whitespace preserved
+        run: node tools/test-inline-whitespace.mjs
+
+      # <head> parity. verify.mjs compares <body> ONLY, so nothing checked <head> until
+      # now -- which is how 1,109 wrong canonicals and ~648 pages of lost social meta
+      # survived a "1,194/1,202 exact" verification. Baseline records known-bad counts;
+      # they may only go down.
+      - name: Head parity
+        run: node tools/test-head-parity.mjs
+
+      # verify.mjs default mode STRIPS w-dyn-list interiors, so it says nothing about CMS
+      # list content. Not gating on --lists let blog-category fall 11/11 -> 1/11 unnoticed.
+      - name: List-interior fidelity
+        run: node tools/verify-lists-gate.mjs
+
+      # Webflow puts real design in inline style attributes (pill colours, background
+      # images). Losing one is invisible to structure and text comparison -- 8,066 coloured
+      # category pills across 644 pages went missing and every gate passed.
+      - name: Inline style attributes preserved
+        run: node tools/test-style-attrs.mjs
+
+      - name: Link check
+        run: node tools/check-links.mjs

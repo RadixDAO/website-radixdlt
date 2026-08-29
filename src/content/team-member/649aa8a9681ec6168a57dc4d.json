@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dc4d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T10:01:59.200Z",
+ "createdOn": "2021-04-25T19:20:15.161Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": false,
+  "role": "<p>Developer – RDX&nbsp;Works Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfb3",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087d2ef485fa8e71da9c64c_sergiy.png",
+   "alt": null
+  },
+  "bio-excerpt": "Sergiy is curious about everything related to computers at any level, from processes inside single transistor to global scale distributed systems.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/sergiy-yevtushenko-6977a12/",
+  "blank-item": false,
+  "order": 23,
+  "name": "Sergiy Yevtushenko",
+  "slug": "sergiy-yevtushenko"
+ }
+}

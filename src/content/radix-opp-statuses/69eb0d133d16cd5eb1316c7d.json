@@ -1,0 +1,22 @@
+{
+ "id": "69eb0d133d16cd5eb1316c7d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T06:36:48.431Z",
+ "createdOn": "2026-04-24T06:26:25.623Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "status": "8e0819e294ace51e942b2873f55ed251",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b9",
+   "69eb0c39904d0db4dee8f8c1"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2021-06-05T02:40:14.000Z",
+  "last-update": "2021-05-09T21:36:26.000Z",
+  "content": "<p id=\"\">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.</p>",
+  "name": "Magna Justo Malesuada",
+  "slug": "magna-justo-malesuada"
+ }
+}

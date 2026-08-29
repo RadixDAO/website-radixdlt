@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de514",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:06:23.811Z",
+ "createdOn": "2026-04-24T08:07:07.274Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": "69eb218cb180744096bf8200",
+  "full-article-text": "<p id=\"\">This FAQ provides step-by-step instructions on how to download, install, and use the Radix Desktop Wallet.</p><p id=\"\">The Radix Desktop Wallet will be your gateway to <a id=\"\" href=\"https://www.radixdlt.com/post/radix-olympia-mainnet-is-here\"><strong id=\"\">Olympia mainnet</strong></a>, where you can create accounts, deposit <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a>, <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-send-tokens\"><strong id=\"\">send</strong></a> and receive them, and help <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">secure</strong></a> the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> against <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack\"><strong id=\"\">Sybil attacks</strong></a> by <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">staking</strong></a> XRD tokens.&nbsp;</p><p id=\"\">For any non trivial sums of XRD, we highly encourage you to use the Radix Desktop Wallet in conjunction with either the <strong id=\"\">Ledger Nano S</strong> or <strong id=\"\">Ledger Nano X </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-software-and-hardware-wallets\"><strong id=\"\">hardware wallets</strong></a>. You can read how to use these devices with the Radix Desktop Wallet in this article: <a id=\"\" href=\"https://learn.radixdlt.com/article/using-ledger-nano-s-or-x-with-the-radix-desktop-wallet\"><strong id=\"\">Using Ledger Nano S or X with the Radix Desktop Wallet</strong></a>.</p><p id=\"\">Use of hardware wallets is generally considered more secure than software wallets, as your <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-public-and-private-keys\"><strong id=\"\">private key</strong></a> is stored in a security chip on a device that does not expose it to the internet. If you do not have a hardware wallet or cannot use one, we have also provided advice on how to secure crypto software wallets in this article: <a id=\"\" href=\"https://learn.radixdlt.com/article/using-a-crypto-software-wallet-securely\"><strong id=\"\">Using a Crypto Software Wallet Securely</strong></a>.</p><p id=\"\">If you run into any problems that are not covered in this FAQ please reach out to a member of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-does-the-radix-team-look-like\"><strong id=\"\">team</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-community\"><strong id=\"\">community</strong></a> mods. There are specific channels in <a id=\"\" href=\"https://discord.gg/radixdlt\"><strong id=\"\">Discord</strong> </a>such as <a id=\"\" href=\"https://discord.gg/radixdlt\"><strong id=\"\">#Suppor</strong>t</a> and <a id=\"\" href=\"https://discord.gg/radixdlt\"><strong id=\"\">#Bug-Reports. </strong></a>You can also contact us at hello@radixdlt.com and we will assist in any way we can. <br></p><p id=\"\"><strong id=\"\">Radix team members or moderators will only ever communicate with you in public channels. If you receive a private message, it is likely a scammer. Be vigilant.</strong></p><p id=\"\">Follow these links to get started:</p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-install-the-desktop-wallet\"><strong id=\"\">How to install the Desktop Wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/using-ledger-nano-s-or-x-with-the-radix-desktop-wallet\"><strong id=\"\">Using Ledger Nano S or X with the Radix Desktop Wallet</strong></a>‍</li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/using-a-crypto-software-wallet-securely\"><strong id=\"\">Using a Crypto Software Wallet Securely</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-set-up-your-wallet\"><strong id=\"\">How to set up your wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-check-your-token-balances\"><strong id=\"\">How to check your token balances</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-send-tokens\"><strong id=\"\">How to send tokens</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-completely-reset-your-desktop-wallet-by-deleting-the-keystore\"><strong id=\"\">How to reset wallet keystore</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-can-i-do-on-the-olympia-mainnet\"><strong id=\"\">What can I do on the Olympia mainnet?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-being-delivered-for-the-olympia-mainnet\"><strong id=\"\">What is being delivered for the Olympia Mainnet?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": 127,
+  "name": "Start Here! Desktop Wallet Introduction",
+  "slug": "start-here-desktop-wallet-introduction"
+ }
+}

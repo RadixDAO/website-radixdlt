@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648e50",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:12.601Z",
+ "createdOn": "2026-04-24T08:06:12.601Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22ce9c63b54df937828f",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">In order to use Instabridge, you will first need to add your Ethereum address to your Instapass account. If you haven’t made an Instapass account yet, you can learn how to do so <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-create-your-instapass-identity\">here</a>.&nbsp; You will need to add your Ethereum (“crypto address”) you want to associate with your account in Instapass, rather than directly in Instabridge. You can add as many different Ethereum addresses to your account as you want.</p><p id=\"\"><strong id=\"\">Please be aware that Instabridge will automatically use your default Ethereum address, if you wish to change which address you are using, you will need to change which wallet address you are using to connect to Instabridge in your Metamask browser extension.</strong></p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:348px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"348px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24749ce7fee93a648be6_6405e4731177952e75a2c8e1_HmikVLb45EqMa1pt6gEFoatQUjV0RXUmoziV9JJLtsju7pvs520a5Xj-uLtbSVbI_pWEEz4FOn0IXuVrIyj1c4U-QUPSTTDs4jeDk5o9vMN6PoIcUb66K3AsPHM3ZhS4ScPF--Ywyya1mWJFQmv5IPc.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Select the account you wish to connect with using the coloured symbol in the top right corner and then click the “Not connected” button.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:350px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"350px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24749ce7fee93a648be0_6405e473eb9e1a715a858f2c_UA0Ct_7Py3RxYAEE1PmYNKpm-FQ4ANaGqDuYR18gGmCSuphDw53S9y8zLu-fzprWtaM9Cw-tDO1cUyrXDYLXpIp1a8SqbVZiNTxeCYR9rXRqgxVDgket3JTTfyAqHrM6pkvVIb8iXIjaqZ3wWwCAmUo.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">Click “connect”.</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1446px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1446px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24749ce7fee93a648be3_6405e4744ec31353ec1e611b_hzaeCTaPoG8tv_HLmGLKMDgUjlX2rGCP9CjL53QZsNDv41ErQiQrpFId6Ai-7VPxi0DN8TEOglSGjHM1R7_d7hx8ykATkFVqidY1EnLdGIVj385tgZ7RuH212YDFQZZnQvPQKJW3sZRYVr6B24LjG3o.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">The Ethereum Account at the top of the screen in Instabridge will show which account you are currently connected with. If you haven’t added the account you wish to connect with to Instapass, you will need to do this first. Please see our guide <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-add-a-new-ethereum-address\">here</a> on how to add a new Ethereum address to your account.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Change Which Ethereum Address is Connected to Instabridge",
+  "slug": "how-to-change-which-ethereum-address-is-connected-to-instabridge"
+ }
+}

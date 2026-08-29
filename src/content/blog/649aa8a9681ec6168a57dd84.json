@@ -1,0 +1,32 @@
+{
+ "id": "649aa8a9681ec6168a57dd84",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-24T09:21:21.692Z",
+ "lastUpdated": "2023-07-20T11:31:01.941Z",
+ "createdOn": "2021-10-14T21:01:37.525Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2021-10-14T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": "649aa8a9681ec6168a57de36",
+  "featured-post": false,
+  "blog-category": [
+   "649aa8a9681ec6168a57de3b"
+  ],
+  "image": {
+   "fileId": "649aa8a9681ec6168a57e17f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/629dc4b49f20ee2cb4d873e4_61689aa6e1052d5e99ccd989_the-radix-report.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<h2 id=\"\">Overview (Piers Ridyard, CEO&nbsp;- Radix DLT)</h2><p id=\"\">Token2049 was a fantastic moment to reconnect with some of the great and good in crypto, including getting to host an awesome discussion with Emin Gün Sirer (Avalanche), Eli Ben Sasson (StarkWare), Evan Shapiro (Mina Protocol) and Stan Kladko (Skale Labs) on Scaling Blockchain to Mass Market - the video of which will be coming out soon!</p><p id=\"\">I also got to track down some people I have been trying to get onto the DeFi download for a long time, which I am very much looking forward to interviewing...more on that in the next few weeks.</p><p id=\"\">Lastly, if you haven’t yet had a chance to register for APE NYC on the 12th of November, make sure you do: we have spent the last week doing internal hackathons on Scrypto and it is difficult to explain quite how much of a game changer it is going to be for DeFi in the long run!</p><p id=\"\"><br></p><h2 id=\"\">Strategy &amp; Marketing (Adam Simmons Head of Strategy - Radix DLT)&nbsp;</h2><p id=\"\">The last week has been busy with the Marketing team focused on prepping the Alexandria go to market campaign, as well as Q1 and the path to Babylon. Despite this there is no shortage of good news going on for Radix awareness, so let’s dive in:</p><ul id=\"\"><li id=\"\">The big milestone is we have hit 100k followers on the main Radix Twitter account. This was our goal for the end of the year, so hitting it in October is a fantastic achievement from our team and the Radix community for helping us hit this. Onwards and upwards.&nbsp;</li><li id=\"\">Some Radix team and community members met at <a id=\"\" href=\"https://twitter.com/PiersRidyard/status/1446447659783426055?s=20\">Token2049 in London</a> to watch CEO Piers Ridyard in action! It was an excellent experience, and great to see Radix at the forefront of some major developments in crypto.If you missed this event Piers will also be speaking at <a id=\"\" href=\"https://twitter.com/radixdlt/status/1444663681002917891?s=20\">DAS: London on November 15th</a>.</li><li id=\"\">Some people say our Radix Reports are too fact based, however, it’s not like we are telling everyone that <a id=\"\" href=\"https://www.dtnpf.com/agriculture/web/ag/blogs/market-matters-blog/blog-post/2021/09/28/2021-spring-wheat-crop-good-quality\">Grain Yields are in fact down 41%</a>.</li><li id=\"\">A start to the Alexandria content push started recently, with three great blogs from Matt. Alongside this, we released a video for “The Problems with Smart Contracts Today” which already has over 1300 views on Youtube.</li><li id=\"\">To aid understanding within the Radix community towards some of the more complex things the Radix team deal with, we launched the <a id=\"\" href=\"https://www.youtube.com/watch?v=bLPLY70ywt0\">Round Table discussion</a> with Piers, Russell, Matt, and Adam. The first episode was well received, with 1959 views on YouTube, with clips shared on Twitter being viewed 9850 times.&nbsp;</li><li id=\"\">Radix Founder Dan Hughes has been ramping up his Cassandra <a id=\"\" href=\"https://twitter.com/fuserleer/status/1448222084887420934?s=20\">Web3 Twitter demo</a>, and will be releasing another update shortly! For some background on the tech behind Cassandra Dan and CEO of Radix Piers <a id=\"\" href=\"https://www.youtube.com/watch?v=1rNeL-X40lc\">recorded an hour long discussion</a> on the what and how of the Web3 Twitter demo.&nbsp;</li></ul><p id=\"\"><br></p><h2 id=\"\">Development (<a id=\"\" href=\"mailto:russell@radixdlt.com\">Russell Harvey</a>, CTO &amp; <a id=\"\" href=\"mailto:matt@radixdlt.com\">Matthew Hine</a>, Head of Product - Radix DLT)</h2><p id=\"\">Usually in this space we talk about our ongoing work on the Olympia mainnet and associated apps like the Radix Desktop Wallet. But at the same time, furious work proceeds on our next big release milestone, Alexandria. While Alexandria won’t bring a change to mainnet, it will give developers first access to early forms of Scrypto and Radix Engine v2, running in a simulator environment on their machine.</p><p id=\"\">Over the past several months, the team has taken Scrypto from concept to a working, usable language that compiles, runs, and is letting us quickly iterate on. We’ve remained believers in the value of an “asset-oriented” alternative to smart contract development, but finally putting our hands on actually building things this way feels great.</p><p id=\"\">The Scrypto compiler adapts Rust’s compiler by adding the variety of Radix Engine-specific features for assets and other new functions that Scrypto exposes through a range of new syntax. The initial form of the simulator environment contained a very basic form of that adapted compiler, and the experience was raw, but it allowed us to compile simple Scrypto code through a form of Radix Engine. From that basis, we have been progressively adding features and&nbsp; building out a command line tool that allows the developer to simulate things that would be part of an actual network, like set up accounts and tokens, instantiate blueprints into components, push transactions through them, and read the state of components.</p><p id=\"\">We’ve still got our work cut out for us for the next month until our Alexandria Preview Event where we’ll show our progress to this point for the first time! But everything is looking good for an Alexandria release this year that will show our community a new way of building smart contracts that we’re very excited about.</p><p id=\"\"><br></p>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Radix Report October 14th",
+  "slug": "radix-report-october-14"
+ }
+}

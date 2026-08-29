@@ -1,0 +1,127 @@
+---
+// The blog detail template's closing block -- div.c-section.is-tags.isauto02.
+//
+// `topics` ("Explore more topics") and `slider` (the latest-posts strip) are
+// identical across all 618 blog posts (verified from
+// src/bindings/detail-lists/blog.json); only each slide's own `isCurrent` flag
+// depends on the page being rendered, driving Webflow's `w--current` self-reference
+// highlight the same way src/lib/render-list.mjs's renderRepeat did.
+//
+// The per-slide category-pill nested list has no `w-dyn-empty` fallback branch in
+// the shell (unlike every other list on this template) -- Webflow just empties the
+// `w-dyn-items` wrapper when a slide has zero categories. That branch is unreachable
+// with the current, verified-identical slider data (every slide has >=1 category),
+// so it's implemented the same way (empty wrapper) but has never been exercised.
+import { type CategoryRef, type SliderPost, tagStyle} from '../../lib/blog-detail';
+
+interface Props {
+  topics: CategoryRef[];
+  slider: SliderPost[];
+}
+
+const { topics, slider } = Astro.props;
+---
+<div class="c-section is-tags isauto02">
+  <div class="container z-index-20">
+    <div class="div-block-130">
+      <div id="w-node-_5b831036-86d0-f75e-6cd5-d70ce037f834-8a57d94b">
+        <div>Discover</div>
+        <h2>Explore more topics</h2>
+      </div>
+      <div id="w-node-_80aa40a1-f822-b623-25ed-3d3823cd4943-23cd4943" class="w-dyn-list">
+        {topics.length > 0 ? (
+          <div role="list" class="w-dyn-items">
+            {topics.map((t) => (
+              <div role="listitem" class="collection-item w-dyn-item">
+                <a href={`/blog-category/${t.slug}`} class="tag-link">{t.name}</a>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+  <div class="slideholder is-blog-slider isautoh w-dyn-list">
+    {slider.length > 0 ? (
+      <div role="list" class="blog-slider-small isautoh w-clearfix w-dyn-items">
+        {slider.map((p) => (
+          <div role="listitem" class="carousel-cell is-blog-slider mh mh02 w-dyn-item">
+            <div class="c-blog-item-link-slide b02">
+              <div class="c-blog-img-holder">
+                <div class="c-img-blog-inner" style={p.imageUrl ? `background-image:url("${p.imageUrl}")` : 'background-image:none'}></div>
+              </div>
+              <div class="blog-inner">
+                <div class="tag-link-holder">
+                  <div class="w-dyn-list">
+                    <div role="list" class="w-dyn-items">
+                      {p.categories.map((c) => (
+                        <div role="listitem" class="cat-c-item w-dyn-item">
+                          <a href={`/blog-category/${c.slug}`} class="cat-tag-link w-inline-block">
+                            <div style={tagStyle(c)} class="cbfs-tag">{c.name}</div>
+                          </a>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-link-title">
+                  <div class="bm-10">
+                    <h4 class="">{p.title}</h4>
+                  </div>
+                  <p class="blog-desc w-dyn-bind-empty"></p>
+                </div>
+                <div class="cbfs-date-holder">
+                  <div class="cbfs-date">{p.dateText}</div>
+                </div>
+              </div>
+              <a href={`/blog/${p.slug}`} aria-current={p.isCurrent ? 'page' : undefined} class={p.isCurrent ? 'full-blog-link w-inline-block w--current' : 'full-blog-link w-inline-block'}></a>
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="w-dyn-empty">
+        <div>No items found.</div>
+      </div>
+    )}
+  </div>
+  <div class="mesh-holder">
+    <div
+      data-poster-url="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-poster-00001.jpg"
+      data-video-urls="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.mp4,/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.webm"
+      data-autoplay="true"
+      data-loop="true"
+      data-wf-ignore="true"
+      data-beta-bgvideo-upgrade="false"
+      class="mesh-vid-2 z5 w-background-video w-background-video-atom"
+    >
+      <video
+        id="5b831036-86d0-f75e-6cd5-d70ce037f85e-video"
+        autoplay
+        loop
+        style={`background-image:url("/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-poster-00001.jpg")`}
+        muted
+        playsinline
+        data-wf-ignore="true"
+        data-object-fit="cover"
+      >
+        <source src="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.mp4" data-wf-ignore="true" />
+        <source src="/assets/60ba5985f394bf1012c0c83a_Comp-1-v2-transcode.webm" data-wf-ignore="true" />
+      </video>
+    </div>
+    <div class="bottom-triangle">
+      <img
+        src="/images/traingle-hero-white.webp"
+        loading="lazy"
+        sizes="(max-width: 4096px) 100vw, 4096px"
+        srcset="/images/traingle-hero-white-p-500.png 500w, /images/traingle-hero-white-p-800.png 800w, /images/traingle-hero-white-p-1080.png 1080w, /images/traingle-hero-white-p-2600.png 2600w, /images/traingle-hero-white-p-3200.png 3200w, /images/traingle-hero-white.webp 4096w"
+        alt=""
+        class="blog-triangle"
+      />
+    </div>
+  </div>
+</div>

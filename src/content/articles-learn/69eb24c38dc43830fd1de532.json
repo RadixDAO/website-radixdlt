@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de532",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:18.118Z",
+ "createdOn": "2026-04-24T08:07:18.118Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">Radix Node software</strong></a> exposes two Application Programming Interfaces (APIs): the Core API and the System API; while the <strong id=\"\">Network Gateway software</strong> exposes the Gateway API.</p><p id=\"\">All Radix APIs are documented in accordance with the Open API specification.</p><h2 id=\"\"><strong id=\"\">Radix Node Software APIs</strong></h2><p id=\"\"><strong id=\"\">The </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">RadixNode</strong></a> provides their node-runner access to the Core API and the System API.&nbsp;</p><p id=\"\"><strong id=\"\">The Core API</strong> is primarily designed for network integrations such as exchanges, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledger</strong></a> analytics providers, or hosted ledger data dashboards where detailed ledger data is required and the integrator can be expected to run their own full node. The Core API is NOT intended to be available on the public web. It is mainly designed to be accessed in a private network for integration use.</p><p id=\"\"><strong id=\"\">The System API </strong>provides node-runners detailed information about the state of their node.</p><p id=\"\">For more detail on Node APIs see <a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a>.</p><h2 id=\"\"><strong id=\"\">Network Gateway Software APIs</strong></h2><p id=\"\">Whereas the Core API provides low-level transaction-by-transaction level data, the <strong id=\"\">Gateway API</strong> is designed for public access by individual user clients such as <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-software-and-hardware-wallets\"><strong id=\"\">wallets</strong></a> and dashboards to view specific things about the state of the ledger or to submit transactions.&nbsp;</p><p id=\"\">The Network Gateway is designed to be a scalable way of querying and interacting with the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>. It provides builders a highly familiar set of tools, in the form of a PostgreSQL database, in which they can configure their implementation of the Gateway API to provide any endpoint they so desire.</p><p id=\"\">For more detail on the Gateway API see <a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a>.</p><h2 id=\"\"><strong id=\"\">Foundation-run Gateway Service</strong></h2><p id=\"\">The Foundation-run Gateway Service is the <a id=\"\" href=\"https://learn.radixdlt.com/article/entities-in-the-radix-ecosystem\"><strong id=\"\">Radix Foundation’s</strong></a> implementation of the Network Gateway. It is what allows the <a id=\"\" href=\"http://radixdlt.com/wallet\"><strong id=\"\">Radix Wallet </strong></a>to query the state of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Ledger</strong></a> (e.g. display account balances) and submit transactions to the Radix Public Network. This Gateway Service also serves the <a id=\"\" href=\"http://dashboard.radixdlt.com\"><strong id=\"\">Radix Dashboard</strong></a>.</p><p id=\"\">Third parties may connect directly to the Foundation-run Gateway Service, although this service is rate-limited. Because the Gateway Service must be available for the world at large, this protection limits the amount of demand a single person or application can place on it. We do not recommend third parties who might expect significant demand to use the Foundation-run Gateway Service. Instead, those third parties should configure their own implementation of a Radix Node and Network Gateway for their own use.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a></li></ul><p id=\"\">‍</p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What APIs are relevant to the Radix Public Network?",
+  "slug": "what-apis-are-relevant-to-the-radix-public-network"
+ }
+}

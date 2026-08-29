@@ -1,0 +1,80 @@
+---
+import { tagStyle } from '../../lib/blog-detail';
+// Shared between blog-author and blog-category (REBUILD-PLAN.md Phase 4): the
+// "posts belonging to this taxonomy term" block -- div.c-section.is-blog-cat.
+//
+// Markup derived from src/shells/_detail/blog-author/body.html and
+// src/shells/_detail/blog-category/body.html, cross-checked against reference/live --
+// the two shells are byte-identical for this block apart from field data (see
+// src/lib/blog-taxonomy-detail.ts for why this is genuine shared structure, not a
+// forced abstraction).
+//
+// The nested category-tag list has no `w-dyn-empty` fallback branch in the shell,
+// same situation src/components/blog/BlogTags.astro already documents for its own
+// per-slide category list: Webflow just empties the `w-dyn-items` wrapper when a
+// post has zero categories.
+//
+// `isCurrent` (blog-category only -- always false on every blog-author page, since
+// none of its categories can ever reference blog-author's own collection) reproduces
+// Webflow's markCurrent self-reference marking: `aria-current="page"` plus a
+// `w--current` class token on the one category pill that matches the page you're on.
+import { dynClass, bgStyle, type TaxonomyPost } from '../../lib/blog-taxonomy-detail';
+
+interface Props {
+  posts: TaxonomyPost[];
+}
+
+const { posts } = Astro.props;
+---
+<div class="c-section is-blog-cat">
+  <div class="container">
+    <div class="w-dyn-list">
+      {posts.length > 0 ? (
+        <div role="list" class="blog-list np w-dyn-items">
+          {posts.map((p) => (
+            <div role="listitem" class="w-dyn-item">
+              <div class="c-blog-item-link">
+                <div class="c-blog-img-top">
+                  <div class="c-img-blog-inner" style={bgStyle(p.imageUrl)}></div>
+                </div>
+                <div class="blog-inner">
+                  <div class="tag-link-holder">
+                    <div class="w-dyn-list">
+                      <div role="list" class="w-dyn-items">
+                        {p.categories.map((c) => (
+                          <div role="listitem" class="cat-c-item w-dyn-item">
+                            <a
+                              href={`/blog-category/${c.slug}`}
+                              aria-current={c.isCurrent ? 'page' : undefined}
+                              class={c.isCurrent ? 'cat-tag-link w-inline-block w--current' : 'cat-tag-link w-inline-block'}
+                            >
+                              <div style={tagStyle(c)} class="cbfs-tag">{c.name}</div>
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-link-title">
+                    <div class="bm-10">
+                      <h4 class={dynClass('', !!p.title)}>{p.title}</h4>
+                    </div>
+                    <p class={dynClass('blog-desc', !!p.desc)}>{p.desc}</p>
+                  </div>
+                  <div class="cbfs-date-holder">
+                    <div class={dynClass('cbfs-date', !!p.dateText)}>{p.dateText}</div>
+                  </div>
+                </div>
+                <a href={`/blog/${p.slug}`} class="full-blog-link w-inline-block"></a>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class="w-dyn-empty">
+          <div>No items found.</div>
+        </div>
+      )}
+    </div>
+  </div>
+</div>

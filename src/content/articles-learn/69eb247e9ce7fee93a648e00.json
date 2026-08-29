@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e00",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:33:26.813Z",
+ "createdOn": "2026-04-24T08:05:47.507Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">For the Olympia mainnet, the Radix protocol automatically chooses the top 100 nodes that have the most stake (the sum of self-stake and delegated stake) as those that participate as validators. The top 100 validators are updated by the protocol at the start of every epoch.&nbsp;</p><p id=\"\">Please visit the <a id=\"\" href=\"/categories/radix-overview\">Radix Overview</a> for more information on <a id=\"\" href=\"/article/validators-selection-on-the-olympia-mainnet\">how validators are selected</a>.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How are validators selected for the Olympia Mainnet?",
+  "slug": "how-are-validators-selected-for-the-olympia-mainnet"
+ }
+}

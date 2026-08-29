@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd50",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-07-23T12:32:31.529Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-07-23T00:00:00.000Z",
+  "guest-name": "Clayton Roche",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e013",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60fab696c2ea66770118e279_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e01e",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60fab6a9a41a93276e6ddb0a_UMA_square_red_logo.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Clayton Roche, Head of Community Development at UMA. They discuss how UMA works, the Optimistic Oracle system and how it solves the Oracle Problem, UMA's KPI options, and how to create incentivized engaged communities.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Clayton Roche, Head of Community Development at UMA. They discuss how UMA works, the Optimistic Oracle system and how it solves the Oracle Problem, UMA's KPI options, and how to create incentivized engaged communities.<br><br>UMA is a DeFi application that allows anyone to build decentralized finance products on-chain. UMA's mission is to offer permissionless and universal access to financial markets. For this reason, they began with a focus on synthetic assets that allow exposure and participation in any market in the world.<br><br>0:40 An in-depth look at what UMA is and examples of successful projects built with UMA<br>4:27 How the UMA team decided to create a general framework<br><br>7:25 What is UMA's Oracle System and how did the UMA team address the \"Oracle problem\"?<br><br>11:22 How does UMA's Optimistic Oracle work? An example of a happy case and an example of a dispute<br><br>16:23 Why is UMA's approach superior, or why has the UMA team chosen this approach over Chainlink?<br><br>21:51 What were the various types of the several disputes handled by UMA, and how were they resolved?<br><br>25:29 When Ethereum finance first began, most of the ways we modeled financial products were direct copies of what we saw in traditional finance. Is the traditional financial model also applicable to pooled financial products?<br><br>28:27 What is the reasoning behind people preferring Aave over UMA for developing a system that allows for the fee-based lending and borrowing of Ethereum? What are the reasons why people prefer UMA for borrowing or lending rather than Aave, Compound, or another option?<br><br>31:42 Currently in DeFi, who is using the Optimistic Oracle service?<br><br>33:32 Token holders and UMA's recurring engagement requirement — How the UMA team devised a system to ensure that engagement occurs and that there is no half-life of interest, in which engagement dwindles over time. Aside from resolving disputes, how did they build a community centered on engagement?<br><br>38:32 DAO treasury management, UMA’s KPI Options, and the game theory concept of creating incentivized communities focused on a group of people's objectives<br><br><strong>Further resources</strong><br><br><strong>Website:</strong> umaproject.org<br><strong>Discord:</strong> discord.umaproject.org<br><strong>Twitter:</strong> @UMAprotocol<br><strong>UMA KPI Options:</strong> claim.umaproject.org<br><strong>Clayton Roche’s Twitter:</strong> @TokenArchitect</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/8910630-uma-build-defi-without-developing-smart-contracts",
+  "name": "UMA - build DeFi without developing smart contracts",
+  "slug": "uma-build-defi-without-developing-smart-contracts"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dd4b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-07-09T14:15:20.137Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-07-09T00:00:00.000Z",
+  "guest-name": "Lorien Gabel",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e015",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60e859a55fd2fa74589a3999_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e023",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/60e859b326460309a80c14dd_wum9cvcvq9cqu74t00hp.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Lorien Gabel, CEO of Figment.io. Figment offers complete solutions that make it simple for token holders and developers to use and build on blockchains at the infrastructure, middleware, and application layers.</p><p>Lorien is a serial entrepreneur with more than 20 years of operational, technological, and marketing management focused on Internet infrastructure. Before Figment, he founded and scaled three successful start-ups (Interlog Internet Services, BOAW Networks and Pingg.com). He has also served on the senior leadership teams of two other high-growth technology ventures (MessageLabs and Web.com) and has mentored, advised, and directly invested in several start-ups.</p><p>Figment is one of the world's largest blockchain staking and infrastructure providers. The Figment team envisions a truly decentralized Internet where users can freely interact, share, collaborate, and exchange goods and services in a trustless environment. Based in Canada, serving customers worldwide, Figment's mission is to build a better Internet using blockchain technology.</p><p><strong>[01:47]</strong> As the founder of an ISP, Lorien sees parallels between the early days of the internet and what is happening now in the blockchain.</p><p><strong>[09:19]</strong> Lorien describes himself as the chief stoic at Figment. Why did he make stoicism his life philosophy?</p><p><strong>[12:46]</strong> What did the Figment team notice in 2018 that prompted them to develop Figment?</p><p><strong>[17:27]</strong> For those who have never used a staking service, how does it work in theory? How does the Figment address things such as the security of people's tokens?</p><p><strong>[20:39]</strong> Explaining slashing for those who are unfamiliar with the term.</p><p><strong>[23:39]</strong> What the Figment team thinks they did well, and what they have learned in the three and a half years they have been staking and running their infrastructure.</p><p><strong>[27:00]</strong> Did Figment have a specific go-to-market strategy for a network segment? Or have they tried everything and discovered that a certain customer type is better for them?</p><p><strong>[29:57]</strong> APIs for developers are another aspect of Figment's business. Learn, DataHub, and Hubble are all products from Figment.</p><p><strong>[36:07]</strong> Everyone is aware that Ethereum is transitioning to proof-of-stake, but few are aware of where it is currently and when it will be completed. What is Figment doing to prepare for the proof-of-stake transition?</p><p><strong>[39:47]</strong> What are Lorien's thoughts on Maximum Extractable Value (MEV) strategies, and does Figment intend to pursue them?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://figment.io/\">figment.io</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/Figment_io\">@Figment_io</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/lorientree\">@lorientree</a>&nbsp;</li><li>Telegram: <a href=\"https://t.me/figmentnetworks\">t.me/figmentnetworks</a>&nbsp;</li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/8837107-figment-making-crypto-infrastructure-run-smoothly",
+  "name": "Figment: Making crypto infrastructure run smoothly",
+  "slug": "figment-making-crypto-infrastructure-run-smoothly"
+ }
+}

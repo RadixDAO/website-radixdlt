@@ -1,0 +1,26 @@
+{
+ "id": "69eb2512a616fe7ca556568d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:19:53.039Z",
+ "createdOn": "2026-04-24T08:08:47.698Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> is designed to automatically distribute <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a> rewards to all stakers according to the same rules – including any staking done by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix Tokens (Jersey) Limited</strong></a>. However, any rewards received by Radix Tokens (Jersey) Limited are intended to be funneled back into programs that benefit the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-community\"><strong id=\"\">Radix Community</strong></a> and a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a> ecosystem on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a>. Radix Tokens (Jersey) Limited will configure their own <strong id=\"\">nodes</strong> not to accept delegation of stake from others and so will not receive any <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator</strong></a> fee-based emissions.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-foundations-policy-on-staking-node-running-2\"><strong id=\"\">What is the Radix Foundation’s policy on staking &amp; node-running?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://app.clickup.com/t/95uwjy\"><strong id=\"\">Will Radix operate validator nodes?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-the-radix-foundation-stake-its-own-xrd-holdings-to-which-validators\"><strong id=\"\">Will Radix stake its own XRD holdings? To which validators?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/will-radix-operated-validator-nodes-accept-delegated-stake-from-the-community-2\"><strong id=\"\">Will Radix-operated validator nodes accept delegated stake from the community?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Will Radix receive incentive rewards from staking and validator node-running?",
+  "slug": "will-radix-receive-incentive-rewards-from-staking-and-validator-node-running-2"
+ }
+}

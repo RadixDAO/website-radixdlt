@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57c9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:45.180Z",
+ "createdOn": "2026-04-24T08:07:45.180Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">An oracle is a service that provides access to “off-chain” information (i.e. information not primarily stored on a given <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a>) to smart contracts running “on-chain.”</p><p id=\"\">Often, smart contracts are programmed in such a way that their operation depends on information that they can’t directly access on-chain. Because of this, a great deal of trust has to be placed in oracles to represent information on chain correctly.</p><p id=\"\">For example, in a prediction market <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApp</strong></a> on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a>, a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">smart</strong> <strong id=\"\">contract</strong></a> is defined to make a 1 ETH prize available to a user who correctly predicted the winner of an election. Therefore, the smart contract needs a way to know who won the election before allowing the user to claim the prize - and be absolutely sure that that information is correct. This is an example of an oracle receiving data from an external, real-world source.</p><p id=\"\">Less commonly, oracles can also provide data that is already on-chain but in a more convenient form. An example of on-chain data could be a price feed for a token traded on Uniswap. That price feed could then be used in a variety of ways, such as allowing liquidations in a lending protocol.&nbsp;</p><p id=\"\">Oracles are thus integral to the functioning of <strong id=\"\">DeFi</strong>, and present a risk to the entire ecosystem if they fail, are gamed, or are attacked. That’s why in some of the more common oracle networks, such as Chainlink or Tellor, game-theoretical approaches are used to protect the oracle network from such attacks.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-stablecoins\"><strong id=\"\">What are Stablecoins?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">What do distributed and decentralized mean?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">What is DeFi?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "What is an Oracle?",
+  "slug": "what-is-an-oracle"
+ }
+}

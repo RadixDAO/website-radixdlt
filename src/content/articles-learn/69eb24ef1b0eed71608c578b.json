@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c578b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:29.731Z",
+ "createdOn": "2026-04-24T08:07:29.731Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">If a validator node “drops out” and stops verifying transactions during an epoch, or stops responding for whatever reason, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> will see that they have timed out and move on. However, this may slow down the speed of the network, as other validators continue to wait for that validator to propose rounds or vote in consensus, without response. Their emission rewards will also rapidly go to zero, and the market price of that validator’s <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit (LSU)</strong></a> tokens may change and stakers may quickly remove their stake and allow other validators to move into the top-100.&nbsp;</p><p id=\"\">This is why it’s important to understand the validator community and stake to those validators that are reliable, trustworthy, and performant. See <a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">How should I choose validators to stake to</strong></a> for guidance on this.</p><p id=\"\">If a validator unregisters during an epoch, they will simply be replaced by the next validator with the most amount of staked XRD delegated to their validator component. E.g. if validator #59 drops out before an epoch boundary, they will be replaced by validator #101, who would then become validator #100.</p><p id=\"\">Furthermore, there is no need for a “buffer” of<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator nodes</strong></a> waiting to jump in as<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Radix consensus</strong></a> does not actually require 100 validator nodes – that’s just the upper limit.</p><p id=\"\">As the<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> does not require 100 validator nodes, and there are strong incentives for stakers to delegate to nodes with high participation in consensus rounds, there is no need to have a set of validators-in-waiting from the perspective of network <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">liveness</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-should-i-choose-validators-to-stake-to-2\"><strong id=\"\">How should I choose validators to stake to?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/why-not-incentivize-validators-below-the-top-100-as-a-buffer\"><strong id=\"\">Why not incentivize validators below the top-100 as a “buffer”?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-nodes-outside-of-the-top-100-incentivised-to-step-in-if-any-of-the-top-100-validators-drop-out-2\"><strong id=\"\">How are nodes outside of the top 100 incentivized to “step in” if any of the top 100 validators drop out?</strong></a></li></ul><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What happens if a validator node “drops out” or unregisters during an epoch?",
+  "slug": "what-happens-if-a-validator-node-drops-out-or-unregisters-during-an-epoch"
+ }
+}

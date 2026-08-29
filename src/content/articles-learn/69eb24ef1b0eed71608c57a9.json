@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57a9",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:36.893Z",
+ "createdOn": "2026-04-24T08:07:36.893Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\"><strong id=\"\">What is a Liquid Stake Unit (LSU) and Native Liquid Staking?</strong></p><p id=\"\">A <strong id=\"\">Liquid Stake Unit (LSU)</strong> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> is a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-native-assets\"><strong id=\"\">native asset</strong></a> minted by the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix Protocol</strong></a>’s native <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-validator-component\"><strong id=\"\">validator component</strong></a> and given to users who <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">stake</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">XRD</strong></a> to a validator.&nbsp;</p><p id=\"\">An LSU represents a claim on the underlying <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-liquidity-pool\"><strong id=\"\">pool</strong></a> of staked XRD (the “<strong id=\"\">staked pool</strong>”) within a validator component, in proportion to how much XRD was staked by the user at the time. This means that each validator mints its own unique LSU token specifically for its pool. See <a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix</strong></a> for more.&nbsp;</p><p id=\"\">LSUs are freely transferable and can be swapped with other assets in Radix’s <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a> <a id=\"\" href=\"http://learn.radixdlt.com/article/how-do-i-discover-dapps-and-tokens-in-the-radix-ecosystem\"><strong id=\"\">ecosystem</strong></a>. Radix therefore provides <strong id=\"\">native liquid staking</strong>, and does not require liquid staking to be provided by third parties at the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">application level</strong></a>, as with <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a> and Lido. It is protocol-level and trustless.</p><p id=\"\">LSUs can be returned to their relevant validator component via a special <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd\"><strong id=\"\">unstake</strong></a> request <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transaction</strong></a>. The LSUs then get burnt, and the correct proportion of the XRD held in the staked pool for that validator component is then put into a special “<strong id=\"\">unstaking pool</strong>”, and a claim <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-an-nft\"><strong id=\"\">NFT</strong></a> is minted and given to the user.</p><p id=\"\">After a period of time as defined by the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Network</strong></a>, that XRD in the unstaking pool will then become unlocked and if the claim ticket NFT is returned by the user, the underlying XRD can be claimed.</p><p id=\"\">While displaying similar <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-resource-on-radix\"><strong id=\"\">resource</strong></a> behaviors to <a id=\"\" href=\"http://learn.radixdlt.com/article/what-are-pool-units-or-native-lp-tokens\"><strong id=\"\">Pool Units</strong></a>, there are also a few differences therefore an LSU is not technically a Pool Unit.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/how-does-staking-work-on-radix\"><strong id=\"\">How does staking work on Radix</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-xrd-emissions-work\"><strong id=\"\">How do XRD emissions work?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/start-here-radix-wallet-user-guide\"><strong id=\"\">Start Here! Radix Wallet User Guide</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What is a Liquid Stake Unit (LSU) and Native Liquid Staking?",
+  "slug": "what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking"
+ }
+}

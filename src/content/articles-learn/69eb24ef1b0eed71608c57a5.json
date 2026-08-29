@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57a5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:35.846Z",
+ "createdOn": "2026-04-24T08:07:35.846Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Governance tokens represent voting power on a crypto or <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> project. Governance tokens are widely used by <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">decentralized</strong> <strong id=\"\">finance</strong></a> protocols that need to distribute voting powers to users in a democratic fashion to remain <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralized</strong></a>. Those that hold governance tokens can influence decisions concerning the project, with votes often weighted by the number of governance tokens held by the user.</p><p id=\"\">Some examples of the decision-making powers that governance token holders might have include:</p><p id=\"\">- Changes to the core protocol</p><p id=\"\">- Changes to the project roadmap or new products and features</p><p id=\"\">- Decisions relating to investment, grants, or resource allocation</p><p id=\"\">- Changing fee distribution structures</p><p id=\"\">- The UNI token for Uniswap is an example of a governance token.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">What is a token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-wrapped-token\"><strong id=\"\">What is a wrapped token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-an-nft\"><strong id=\"\">What is an NFT?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is a Governance Token?",
+  "slug": "what-is-a-governance-token"
+ }
+}

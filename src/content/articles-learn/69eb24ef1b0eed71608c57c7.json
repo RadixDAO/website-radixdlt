@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57c7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:44.709Z",
+ "createdOn": "2026-04-24T08:07:44.709Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">NFT is short for Non-Fungible Token. An NFT is a crypto <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> that acts as a digital certificate of ownership for some kind of linked asset.&nbsp;</p><p id=\"\">“Fungibility” is the ability of an asset to be interchanged with assets of the same type. The British Pound is fungible because each GBP is interchangeable with any other GBP. A one-pound coin is interchangeable with any other one-pound coin. Whereas, Non-Fungible Tokens are not interchangeable because each one represents something unique.&nbsp;</p><p id=\"\">NFTs can represent ownership of digital assets or even real-world assets. For example, an NFT can be a digital collectible Pokemon, an NBA card, a piece of digital art, a youtube video, or it can represent the official ownership of just about any unique physical asset like a painting or even a piece of real estate.</p><p id=\"\">Through the power of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a>, digital NFTs can be owned and traded freely and peer to peer without a centralized clearinghouse. This makes them an amazing new type of proof of ownership.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">What is a token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-wrapped-token\"><strong id=\"\">What is a wrapped token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">What Is Bitcoin?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What is an NFT?",
+  "slug": "what-is-an-nft"
+ }
+}

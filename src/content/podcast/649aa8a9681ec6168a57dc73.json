@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57dc73",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:21.945Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-08-01T00:00:00.000Z",
+  "guest-name": null,
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfa5",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f405c661dd4ad04eccb6_podcast-17.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "Our exclusive roundtable with leading members of the DeFi community, discussing various aspects down the path to decentralization.",
+  "main-content": "<p>Our exclusive roundtable with leading members of the DeFi community, discussing various aspects down the path to decentralization.&nbsp;</p><p><strong>Our guests include: </strong>Stani Kulechov, CEO at Aave; Matthew Wright, Head of Strategy and Operations at Argent; Greg Di Prisco, Head of Business Development at Maker Foundation (MakerDAO); Johann Eid, Product Manager at Chainlink; Piers Ridyard, CEO at Radix&nbsp; and Jack Purdy, Research Analyst at Messari (Moderator)</p><p><strong>Topics include: <br>- </strong>CeFi vs DeFi and the right balance between both<br>- Yield farming, staking and pooling : are they sustainable methods of user growth?&nbsp;<br>- Identifying systemic risks within the DeFi ecosystem&nbsp;<br>- Barriers to mainstream DeFi adoption<br>- Navigating DeFi regulations in different geographies</p><p>‍</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/4806422-defi-roundtable-the-path-to-decentralisation",
+  "name": "DeFi Roundtable: The Path to Decentralisation",
+  "slug": "defi-roundtable-the-path-to-decentralisation-2"
+ }
+}

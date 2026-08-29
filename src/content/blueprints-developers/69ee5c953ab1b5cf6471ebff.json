@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c953ab1b5cf6471ebff",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.689Z",
+ "createdOn": "2026-04-26T18:42:29.835Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 5,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5c953ab1b5cf6471ebfa",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c953ab1b5cf6471ebfa_62166de8126733d88d630195_image.png",
+   "alt": null
+  },
+  "category": [
+   "69ee5bb82f70b5d59f31f840"
+  ],
+  "description": "Adept is a platform that empowers digital creators to build their own decentralized communities. We take a “user first” approach focusing on providing users with all the necessary tools and components to build and manage their own community.",
+  "github-url": null,
+  "website-url": "https://adeptdao.org/",
+  "name": "Adept",
+  "slug": "adept"
+ }
+}

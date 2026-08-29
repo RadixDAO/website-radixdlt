@@ -1,0 +1,32 @@
+{
+ "id": "671ec92d0fb69e0b8b07b310",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-10-30T16:28:49.530Z",
+ "lastUpdated": "2024-10-29T14:34:49.913Z",
+ "createdOn": "2024-10-27T23:13:49.531Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2024-10-29T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": null,
+  "featured-post": true,
+  "blog-category": [
+   "649aa8a9681ec6168a57de39"
+  ],
+  "image": {
+   "fileId": "6720d3c4a350d75777242310",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6720d3c4a350d75777242310_Issuing%20%26%20Managing%20Digital%20Assets%20on%20Radix.png",
+   "alt": null
+  },
+  "excerpt": null,
+  "main-content": "<p id=\"\">Web3 is all about real digital assets – whether those assets are RWAs and stablecoins, cryptocurrencies and protocol tokens, or collectible NFTs and memecoins.</p><p id=\"\">So why is it incredibly difficult and risky to create and manage digital assets on blockchains today? Why does it require specialized smart contract code, specialized smart contract developers, and expensive smart contract audits when all you want to do is issue an asset, and have it behave how you expect?</p><p id=\"\">Radix offers a better way.</p><p id=\"\">Solving this massive problem with creating Web3 digital assets is one of the foundational reasons that Radix was built from the ground-up around an “asset oriented” approach (from <a id=\"\" href=\"https://www.radixdlt.com/blog/radix-engine-v2-an-asset-oriented-smart-contract-environment\">virtual machine</a> to <a id=\"\" href=\"https://www.radixdlt.com/blog/scrypto-an-asset-oriented-smart-contract-language\">smart contract language</a> to <a id=\"\" href=\"https://www.radixdlt.com/blog/radixs-asset-oriented-transactions\">transactions</a> to <a id=\"\" href=\"https://www.radixdlt.com/blog/the-problem-with-crypto-wallets-today\">wallet</a>). In short, the Radix Network <em id=\"\">natively</em> understands and guarantees safe, universal asset behavior at its core. You don’t have to build asset behavior yourself from scratch, like on every other network.</p><p id=\"\">This completely changes the game – for issuers of valuable digital assets, and for developers that build dApps around them and users that hold them. Radix opens up digital asset issuance to a vastly larger field of individuals and companies – it’s no longer limited to a narrow field of risk-taking smart contract experts. Anybody who understands the <em id=\"\">business</em> of a given asset type can access the benefits of tokenization and programmable assets on an open network.</p><p id=\"\"><strong id=\"\">The best way to understand Radix’s enormous advantages for digital asset issuers? See it in action.</strong></p><p id=\"\">In this video, RDX Works CPO Matthew Hine demonstrates how easy it is to create and manage a brand new digital asset on Radix. You’ll see how it can be done without any smart contract code, but retaining full flexibility to manage and control those assets with on-ledger or off-ledger business logic.</p><p id=\"\">This isn’t just fun and games. The example used here is a yield-bearing bond, the kind of RWA stuff that is energizing big institutional financial players to begin to get into DeFi. You’ll see how the bond asset’s behavior is configured with appropriate compliance controls in a few clicks, the token is created, and a distribution of yield is conducted to holders. And you’ll see how the same ease and confidence of asset issuance applies to just about any kind of digital asset you can imagine.</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=IoJj2-bOPu4\"><div><iframe src=\"https://www.youtube.com/embed/IoJj2-bOPu4\" title=\"Learn About Radix's No-Code Issuing & Managing Tokens/NFTs\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Demonstrated: Revolutionizing Issuing & Managing Digital Assets on Radix",
+  "slug": "demonstrated-revolutionizing-issuing-managing-digital-assets-on-radix"
+ }
+}

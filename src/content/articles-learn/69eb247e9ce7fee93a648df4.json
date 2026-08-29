@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648df4",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:22:43.648Z",
+ "createdOn": "2026-04-24T08:05:44.441Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-protocol\"><strong id=\"\">Radix Protocol</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-validators-on-radix-selected\"><strong id=\"\">selects</strong></a> the top 100 nodes by delegated stake at the beginning of every <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-an-epoch-2\"><strong id=\"\">epoch</strong></a>.&nbsp;</p><p id=\"\">If any top 100 validator nodes <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-validator-nodes-unstake-or-unregister-2\"><strong id=\"\">unregister</strong></a> (and just become a “<a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-validator-node-and-archive-node\"><strong id=\"\">full node</strong></a>” again), or if token holders remove enough delegated stake to drop that validator out of the top 100 (e.g. because the validator is non-performant or no longer trusted by stakers), that <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator</strong></a> will be replaced at the next epoch boundary.</p><p id=\"\">When this occurs, it opens an opportunity for other registered validator nodes that weren’t previously in the top 100 to move into the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a><strong id=\"\"> </strong>and immediately earn<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">network emission rewards</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/why-not-incentivize-validators-below-the-top-100-as-a-buffer\"><strong id=\"\">Why not incentivize validators below the top-100 as a “buffer”?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-validator-nodes-unstake-or-unregister-2\"><strong id=\"\">How do validator nodes unstake or unregister?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-validators-on-radix-selected\"><strong id=\"\">How are validators on Radix selected?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How are nodes outside of the top 100 incentivised to “step in” if any of the top 100 validators drop out?",
+  "slug": "how-are-nodes-outside-of-the-top-100-incentivised-to-step-in-if-any-of-the-top-100-validators-drop-out-2"
+ }
+}

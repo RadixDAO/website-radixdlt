@@ -1,0 +1,26 @@
+{
+ "id": "69eb247e9ce7fee93a648dc4",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:12:29.011Z",
+ "createdOn": "2026-04-24T08:05:27.100Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf81fa",
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:2000px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"2000px\"><a id=\"\" href=\"https://learn.radixdlt.com/article/cerberus-infographic-series-episode-12-consensus-emergent-cerberus\" target=\"_blank\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/67509c483272631ddefae958_60d33dc433592e41cad7fd22_13.%2520Partial%2520Ordering%2520-%2520Parallelization%2520of%2520Processing-min.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></a></figure><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-floatleft\" data-rt-type=\"image\" data-rt-align=\"floatleft\"><a id=\"\" href=\"https://learn.radixdlt.com/article/cerberus-infographic-series-episode-12-consensus-emergent-cerberus\" target=\"_blank\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24439ce7fee93a6484f4_61b8533eacbc4212ba2c7f8e_Previous.svg\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></a></figure><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-floatright\" data-rt-type=\"image\" data-rt-align=\"floatright\"><a id=\"\" href=\"https://learn.radixdlt.com/article/cerberus-infographic-series-episode-14-maintaining-a-record-of-transactions\" target=\"_blank\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb24429ce7fee93a6484d9_61b852a69562a84b2d55a626_Next.svg\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></a></figure>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Cerberus Infographic Series: Episode 13 - Partial Ordering - Parallelization of Processing",
+  "slug": "cerberus-infographic-series-episode-13-partial-ordering-parallelization-of-processing"
+ }
+}

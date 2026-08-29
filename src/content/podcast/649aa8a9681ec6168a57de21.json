@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de21",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-05-20T16:58:28.266Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-05-20T00:00:00.000Z",
+  "guest-name": "Jordi and Guillem",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e101",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6287c6c30981453a407ebbf5_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e102",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6287c763cdbde21f0be16ba7_NTROPIKA%20LOGO%202.jpg",
+   "alt": null
+  },
+  "excerpt": "Piers Ridyard is joined by Jordi and Guillem, the founders and CEO and CTO of Potion.Finance, in this episode of the DeFi Download. They talk about automated risk management, the Kelly criterion, and how an automated strategy can be embedded into the bonding curve. ",
+  "main-content": "<p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/QWW6JBzPQfM\"><div><iframe src=\"https://www.youtube.com/embed/QWW6JBzPQfM\" title=\"Potion Finance revisited (Ntropika): decentralizing a codebase and launching derivatives.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p><strong><em>Note: Between this podcast being recorded and released, Potion has rebranded as </em></strong><a href=\"https://twitter.com/NtropikaLabs\"><strong><em>@NtropikaLabs.</em></strong></a></p><p>Ntropika is democratising risk management. Potion safeguards the DeFi ecosystem from risk and ensures its sustainability. It is simple to access, open and transparent.</p><p>In a <a href=\"https://www.radixdlt.com/podcast/potion-finance-a-new-decentralised-model-for-pricing-risk\">previous DeFi Download episode</a>, Piers spoke to Jordi and Guillem about Ntropika's approach to risk management when it comes to things like options and derivatives and other similar things, and about the really interesting approach they have taken with the Kelly criterion, versus the traditional Black-Scholes model.</p><p><strong>[0:52]</strong> What is Ntropika Unlock and why should people care? What role and purpose will Ntropika &nbsp;fulfil after it's deployed, and how long will it last?&nbsp;</p><p><strong>[8:14]</strong> What can the code do, and what can we expect the first users to accomplish with the Ntropika &nbsp;protocol once it's up and running?</p><p><strong>[11:39]</strong> The Ntropika &nbsp;team has focused on the user experience by developing visualisation tools that can assist in decoding the complexities of selling option risk management. To illustrate, Piers and Guillem take us on a simple journey, beginning with someone wanting to purchase a put option on Bitcoin and describing both sides of the transaction, first the buyer journey and then the LP route, and how those two things look.</p><p><strong>[17:35]</strong> To represent positions, Uniswap v3 chose NFTs over ERC-20s. Why did Ntropika decide instead to use fungible tokens rather than non-fungible tokens to indicate a specific bet?</p><p><strong>[20:08]</strong> How do Jordi and Guillem envision the emergence of a secondary market? How will they go about establishing a tradable market for their community?&nbsp;</p><p><strong>[26:07]</strong> What is the obstacle that has prevented the Ntropika team from progressing so far?</p><p><strong>[28:05]</strong> Piers discusses two types of end states from the perspective of a liquidity provider. How is Ntropika performing in terms of liquidity, and how has the Kelly criterion aided in this situation?</p><p><strong>[39:44]</strong> What does a liquidity provider require, and how foolproof is the starting point?</p><p><strong>[44:50]</strong> What drives Jordi and Guillem to be Web3 developers and founders, and specifically to build Ntropika?</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://www.ntropika.io/\">https://www.ntropika.io/</a>&nbsp;</li><li>Twitter:&nbsp;<a href=\"https://twitter.com/NtropikaLabs\">@NtropikaLabs</a>‍</li><li>Discord: <a href=\"https://t.co/9QhOGf2XVN\">discord.ntropika.io</a>&nbsp;</li><li>Medium: <a href=\"https://potion-protocol.medium.com/\">https://potion-protocol.medium.com/</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10652881-potion-finance-revisited-ntropikalabs-decentralising-a-codebase-and-launching-derivatives",
+  "name": "Potion Finance revisited (Ntropika): decentralising a codebase and launching derivatives.",
+  "slug": "potion-finance-revisited-ntropika-decentralising-a-codebase-and-launching-derivatives"
+ }
+}

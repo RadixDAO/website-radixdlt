@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5817",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:07.732Z",
+ "createdOn": "2026-04-24T08:08:07.732Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb21e44af4817cdac9ab72",
+  "sub-category": null,
+  "full-article-text": "<h3 id=\"\"><strong id=\"\">E-RADIX token (eXRD) on the Ethereum network</strong></h3><p id=\"\">The E-RADIX token is the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-wrapped-token\"><strong id=\"\">wrapped</strong></a> representation of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">XRD</strong></a> on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a>, with ticker <a id=\"\" href=\"https://www.coingecko.com/en/coins/e-radix\"><strong id=\"\">eXRD</strong></a>.&nbsp;</p><p id=\"\">eXRD serves as a permanent link between the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> and Ethereum networks, and it can be exchanged 1:1 with XRD, via <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-instabridge\"><strong id=\"\">Instabridge</strong></a> or at exchanges such as <a id=\"\" href=\"http://www.bitfinex.com\"><strong id=\"\">Bitfinex</strong></a>.</p><p id=\"\">eXRD was instantiated in November 2020 on the Ethereum network, as an ERC20 token, under contract: <a id=\"\" href=\"https://etherscan.io/token/0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414\"><strong id=\"\">0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414</strong></a>.&nbsp;</p><p id=\"\">eXRD will never expire, so there will never be a cutoff for swapping between eXRD and XRD.&nbsp;</p><p id=\"\">Because eXRD and XRD are exchangeable 1:1, arbitrageurs might be expected to keep the price of the two tokens at parity.</p><p id=\"\"><strong id=\"\">Purpose</strong></p><p id=\"\">In the same way that wBTC allows for a representation of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">Bitcoin</strong></a> to be used in Ethereum’s <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi\"><strong id=\"\">DeFi</strong></a> ecosystem, eXRD allows for a representation of<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix’s</strong></a> XRD token to be used in Ethereum’s DeFi ecosystem.</p><p id=\"\">eXRD was issued prior to XRD as a means of distributing tokens as widely as possible prior to staking commencing as part of Radix’s <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Delegated Proof of Stake system</strong></a>. This served as a means of further <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralizing</strong></a> the Radix Public Network.&nbsp;&nbsp;</p><p id=\"\"><strong id=\"\">Supply &amp; Allocation</strong></p><p id=\"\">Each eXRD is backed 1:1 by an XRD held at a secure third-party custodian, as part of the Instabridge service.</p><p id=\"\">As a wrapped form of XRD, eXRD has a maximum possible supply identical to XRD’s since this is the maximum number of XRD that can ever be wrapped into eXRD form.</p><p id=\"\">The total supply of eXRD is fluid as users unwrap eXRD tokens to XRD, and wrap XRD to eXRD.</p><p id=\"\">For allocation of the XRD token, please see: <a id=\"\" href=\"https://learn.radixdlt.com/article/how-was-the-xrd-token-allocated\"><strong id=\"\">How was the XRD token allocated?</strong></a></p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-tokens-tokenomics\"><strong id=\"\">Start Here! Radix Tokens &amp; Tokenomics</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-xrd-token\"><strong id=\"\">What is the XRD token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-was-the-xrd-token-allocated\"><strong id=\"\">How was the XRD token allocated?</strong></a></li></ul><p id=\"\"><strong id=\"\"><br></strong></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 7,
+  "name": "What is the eXRD token?",
+  "slug": "what-is-the-exrd-token"
+ }
+}

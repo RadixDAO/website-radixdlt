@@ -1,0 +1,32 @@
+{
+ "id": "66df1c568f90ca4144084c84",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-05-08T10:07:10.587Z",
+ "createdOn": "2024-09-09T16:03:34.759Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "The ultimate Web3 hub for digital assets, NFTs, and project launches. FOTON allows users to create, collaborate, and swap tokenized items while boosting community engagement.",
+  "project-logo": {
+   "fileId": "66df1c473ec1430cf4ac10ea",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c473ec1430cf4ac10ea_Foton%20Icon%20Green%20on%20Gradient%20-%20Main%20one.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1c493ee4a89e9885043a",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1c493ee4a89e9885043a_banner.png",
+   "alt": null
+  },
+  "link-to-project": "https://foton.is/",
+  "categories": [
+   "66dafd561128dd1593392a87",
+   "66dafd4ec76901ac3209fbb0",
+   "66dafd47bb99ef6418f1a300"
+  ],
+  "rank": 20,
+  "featured": false,
+  "name": "FOTON",
+  "slug": "foton"
+ }
+}

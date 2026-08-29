@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4bc",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:32.017Z",
+ "createdOn": "2026-04-24T08:06:32.017Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/J31KFZ0Vg80\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/J31KFZ0Vg80\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\"><strong id=\"\">How to Stake</strong></p><p id=\"\">On the left-hand side of the <strong id=\"\">Radix dashboard,</strong> click <strong id=\"\">Network Staking.</strong> Here, you will see a full list of the Nodes currently registered to the Radix Network.</p><p id=\"\">You can select one or multiple validator nodes to stake to. Once selected, click <strong id=\"\">Stake to Selected</strong>; you will see an additional screen titled <strong id=\"\">Add stake.</strong></p><p id=\"\">Here you can select the account that you want to stake from and enter the staking amount.</p><p id=\"\">Slide the toggle in the left-hand corner to <strong id=\"\">distribute the stake amount equally </strong>between validators. You also have the option to enter each stake amount manually.&nbsp;</p><p id=\"\">Review the total stake amount and click <strong id=\"\">Send to Radix Wallet.</strong> <br><br>In the Wallet, you will now see a <strong id=\"\">Review Transaction screen</strong>. Scroll down and use <strong id=\"\">Slide to sign. <br><br></strong>The Radix Dashboard will now display the Validator information that you are staked to.&nbsp;</p><p id=\"\"><strong id=\"\">How to Unstake&nbsp;</strong></p><p id=\"\">On the Radix dashboard, select the Validator that you want to unstake from. You will now see a Validator information screen.</p><p id=\"\">Below the Stake amount, click <strong id=\"\">Request Unstake</strong>. <br><br>Enter the amount that you want to unstake and<strong id=\"\"> </strong>click<strong id=\"\"> Send to Radix Wallet. </strong>You will now see a <strong id=\"\">Review transaction screen </strong>in the wallet. Scroll down and <strong id=\"\">Slide to Sign</strong></p><p id=\"\">Please note, you must wait one week between requesting an unstake and claiming your XRD. Once this period has passed, your tokens will be available in your wallet. When you request an unstake, you will stop receiving rewards for the stake starting in the epoch immediately following the unstake request. This means the stake will still earn rewards for the full epoch in which the unstake request was submitted.</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 17,
+  "name": "How to Stake and Unstake XRD",
+  "slug": "how-to-stake-and-unstake-xrd"
+ }
+}

@@ -1,0 +1,65 @@
+---
+// The podcast detail template's one top-level block -- div.c-section (REBUILD-PLAN.md
+// Phase 4 taxonomy shape 73de8beb, 5 pages).
+//
+// Markup derived from src/shells/_detail/podcast/body.html (the segment between
+// <!--RADIX_NAV_SLOT--> and <!--RADIX_FOOTER_SLOT-->) and cross-checked against
+// reference/live/podcast/*.html. The Apple/Spotify/"See all podcasts" buttons are
+// static, unbound markup (literal on every item) -- kept verbatim, including the
+// exact original line breaks between the three <a class="t_button is-podcast"> tags:
+// they're adjacent INLINE elements (tools/test-inline-whitespace.mjs enforces the
+// gaps between them are not silently collapsed by Astro's compiler).
+//
+// The Buzzsprout embed <script> carries is:inline: same principle as <style is:inline>
+// elsewhere in this phase (see BlogContent.astro/ArticleSection.astro) -- without it
+// Astro processes/bundles the tag as a module (hoisted, deduped, type="module" added),
+// which is not what a per-item external embed script is.
+import { dynClass } from '../../lib/podcast-detail';
+
+interface Props {
+  title: string;
+  dateText: string;
+  embedId: string;
+  embedSrc: string;
+  guestImageUrl: string;
+  guestAlt: string;
+  contentHtml: string;
+}
+
+const { title, dateText, embedId, embedSrc, guestImageUrl, guestAlt, contentHtml } = Astro.props;
+---
+<div class="c-section">
+  <div class="container">
+    <div class="c-podcast">
+      <div class="c-podcast-content">
+        <div class="bm-30">
+          <h5 class="is_light bm-20">Radix Podcast</h5>
+          <h1 class={dynClass('bm-10', !!title)}>{title}</h1>
+          <div class={dynClass('', !!dateText)}>{dateText}</div>
+        </div>
+        <div class="bm-30 w-embed w-script">
+          <p id={embedId}></p>
+          <script is:inline src={embedSrc} type="text/javascript" charset="utf-8"></script>
+        </div>
+        <div class="c-podcast-meta">
+          <h5 class="is_light bm-20">Our guest on this podcast<br /></h5>
+          <div class="div-block-84">
+            <div class="div-block-86"><img src={guestImageUrl} loading="lazy" alt={guestAlt} class={dynClass('image-15', !!guestImageUrl)} /></div>
+            <div class="div-block-85">
+              <a href="https://podcasts.apple.com/gb/podcast/the-defi-download/id1513155088" target="_blank" class="t_button is-podcast w-inline-block"><img src="/images/apple.webp" loading="lazy" alt="Apple Podcasts" class="img-button" />
+                <div>Listen On Apple Podcasts</div>
+              </a>{' '}
+              <a href="https://open.spotify.com/show/3stSE0dzcf0EXRKmV9baCv" target="_blank" class="t_button is-podcast w-inline-block"><img src="/images/spotify.webp" loading="lazy" alt="Spotify" class="img-button" />
+                <div>Listen On Spotify</div>
+              </a>{' '}
+              <a href="/podcast" class="t_button is-podcast w-inline-block">
+                <div>See All Podcasts</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class={dynClass('c-rich-text w-richtext', !!contentHtml)} set:html={contentHtml} />
+      </div>
+    </div>
+  </div>
+</div>

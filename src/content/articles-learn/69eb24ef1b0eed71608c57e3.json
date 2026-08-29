@@ -1,0 +1,26 @@
+{
+ "id": "69eb24ef1b0eed71608c57e3",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:22:55.207Z",
+ "createdOn": "2026-04-24T08:07:52.058Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Decentralized Finance, or “DeFi,” is a global marketplace of financial products, services, and assets that utilize <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> protocols to deliver them in a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralized</strong></a>, autonomous, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-trustless-and-permissionless-mean\"><strong id=\"\">trustless, and permissionless</strong></a> manner.&nbsp;</p><p id=\"\">For example, <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">decentralized exchanges</strong></a> (DEXes), lending/borrowing platforms, and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-amms-automated-market-maker-and-cfmms-constant-function-market-maker\"><strong id=\"\">automated market makers</strong></a> (like Uniswap) are popular types of DeFi applications.</p><p id=\"\">Radix is building a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-layer-1-l1-and-layer-2-l2-networks\"><strong id=\"\">layer 1</strong></a> platform specifically for DeFi and will be the <strong id=\"\">only </strong>decentralized network where developers will be able to build quickly without the constant threat of exploits and hacks, where every improvement will get rewarded, and where <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">scale</strong></a> will never be a bottleneck.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-trustless-and-permissionless-mean\"><strong id=\"\">What do “Trustless” and “Permissionless” mean?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-a-dex\"><strong id=\"\">What’s a DEX?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">What is a dApp?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is DeFi?",
+  "slug": "what-is-defi-2"
+ }
+}

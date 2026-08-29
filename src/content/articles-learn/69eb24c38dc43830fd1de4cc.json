@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de4cc",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:39.487Z",
+ "createdOn": "2026-04-24T08:06:39.487Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/ljxDsjElRk4\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/ljxDsjElRk4\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">To access the Gumball Club, check the Radix mobile wallet and the Radix browser extension connector are installed on your mobile and desktop devices.</p><p id=\"\"><strong id=\"\">Get Started:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/wallet\"><strong id=\"\">Download Radix Wallet and Radix Connector</strong></a></li><li id=\"\"><a id=\"\" href=\"https://dashboard.radixdlt.com\"><strong id=\"\">Access the Radix Dashboard</strong></a></li></ul><p id=\"\">Gumball Club lets you connect your wallet via Radix Connect, acquire Gumball Club tokens and exchange them for Gumballs and more. This hands-on experience will help you become familiar with reviewing and approving transactions using the Radix mobile wallet. Share your experience using the new Radix Wallet and Gumball Club in the <a id=\"\" href=\"https://t.me/radix_dlt\">community channels</a>!</p><p id=\"\"><strong id=\"\">How to connect to the Gumball Club dApp:</strong></p><p id=\"\">Click <strong id=\"\">Connect</strong> in the Radix Connect desktop extension's top right-hand corner; the mobile app will now display a <strong id=\"\">Login Request.</strong></p><p id=\"\">Select the <strong id=\"\">Persona</strong> to log in with and<strong id=\"\"> Continue.&nbsp;</strong></p><p id=\"\">Gumball Club will request permission to view account information when you log in.&nbsp;&nbsp;</p><p id=\"\">A data permissions screen will appear where you can enter, edit, or select which data to share (i.e. first, last, and nickname to share with dApps).</p><p id=\"\"><em id=\"\">Please note if you do not share the information requested by the dApp you are interacting with, the login request will&nbsp;</em></p><p id=\"\"><em id=\"\">Fail.</em></p><p id=\"\">Pick the information you want to share with the Gumball dApp and press <strong id=\"\">Continue.</strong>&nbsp;</p><p id=\"\">The Connect button on the Gumball club landing page will show you the Persona, data permissions, and the account being shared with the Gumball dApp.<em id=\"\"> </em>Updating which data you are sharing is available.</p><p id=\"\"><em id=\"\">Please note, you will be presented by the persona/permissions screen on each login.</em></p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Using Gumball Club:&nbsp;</strong></p><p id=\"\">‍<strong id=\"\">Gumball token dispenser - Receive 20 GC tokens&nbsp;</strong></p><p id=\"\">Select the Account you wish to transfer the token to on the <strong id=\"\">Gumball Club Token Dispenser.</strong>&nbsp;</p><p id=\"\">Click <strong id=\"\">Send Token to Radix Wallet </strong>- The GC Tokens will show in the selected Account - deposit details will show on the screen with the transaction fee at the bottom of the screen - slide to sign&nbsp;</p><p id=\"\">Select account - enter deposit amount - click <strong id=\"\">Send to Radix Wallet.&nbsp;&nbsp;</strong></p><p id=\"\">Wallet will now show the tx details - Slide to Sign&nbsp;</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Gumball Candy Bag Machine&nbsp;</strong></p><p id=\"\">Use GC tokens to buy bags of Candy at a Market price conversion rate.</p><p id=\"\">Select the Account you wish to use, and pick the amount of Gumball Tokens; you will receive an estimate for the return - user can place a ‘customize guarantee’ on the tx - once set, click <strong id=\"\">Apply,</strong> then <strong id=\"\">Slide to Sign</strong> and submit transaction.</p><p id=\"\">Candy will now show in the wallet.&nbsp;</p><p id=\"\">Once candy is bought you unlock the GC member card NFT - which costs 5 GBC tokens.&nbsp;</p><p id=\"\">You will now receive a discount when purchasing GBC tokens!</p><p id=\"\">Transaction review - ‘presenting’ will show the Member's card badge.&nbsp;&nbsp;</p><p id=\"\">‍</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": true,
+  "article-likes": 2,
+  "name": "How to Use the Gumball Club dApp",
+  "slug": "how-to-use-the-gumball-club-dapp"
+ }
+}

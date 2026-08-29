@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648daa",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:34:56.106Z",
+ "createdOn": "2026-04-24T08:05:18.058Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The answer to both of these questions is no.</p><p id=\"\">Firstly, if your validator goes offline and misses consensus rounds during an epoch, it is not possible to move your stake during that epoch. You would have to submit a request to unstake your tokens, wait for the epoch to end, and then potentially wait for a period of up to a few weeks for the network to determine your validator was not malicious. More information about how token holders unstake can be found <a id=\"\" href=\"/article/how-do-token-holders-unstake\">here</a>.</p><p id=\"\">Secondly, unstaking and staking is handled by the network just like any other transaction. If this automated functionality were implemented, the transaction would have to be signed by the user in the Desktop Wallet in advance, with instructions to then execute that transaction when certain conditions are met. Holding a transaction such as this in the Desktop Wallet introduces additional attack vectors, and requires the Desktop Wallet to be online at all times.</p><p id=\"\">To reiterate, we encourage token holders to thoroughly research the validators that they stake to, to stake across a wide variety of validators, and to periodically monitor the performance of their validators, readjusting stake where necessary. More information about how and why delegating is an important aspect for all token holders can be found <a id=\"\" href=\"/article/how-should-i-choose-validators-to-stake-to\">here</a>.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Can the Desktop Wallet automatically restake to another validator if my validator misses consensus rounds during an epoch e.g. goes offline?",
+  "slug": "automatically-restake-to-another-validator-if-my-validator-misses-consensus-rounds-during-an-epoch"
+ }
+}

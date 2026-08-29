@@ -1,0 +1,31 @@
+{
+ "id": "6814c66afdde9536d4905460",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-05-03T10:11:29.418Z",
+ "lastUpdated": "2025-05-03T10:11:29.418Z",
+ "createdOn": "2025-05-02T13:19:38.898Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A cutting-edge NFT marketplace & launchpad, XRDEGEN uses innovative tools & gamified experiences to empower digital asset collectors and creators alike",
+  "project-logo": {
+   "fileId": "6814c65b51339da577bea10f",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6814c65b51339da577bea10f_photo_2025-05-02_14-12-47.jpg",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "6814c6580a7f7085ff10ee30",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6814c6580a7f7085ff10ee30_photo_2025-05-02_14-12-47%20(2).jpg",
+   "alt": null
+  },
+  "link-to-project": "https://xrdegen.com",
+  "categories": [
+   "66dafd4ec76901ac3209fbb0",
+   "66dafd561128dd1593392a87"
+  ],
+  "rank": 29,
+  "featured": false,
+  "name": "XRDEGEN",
+  "slug": "xrdegen"
+ }
+}

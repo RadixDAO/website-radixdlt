@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57d3",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:48.148Z",
+ "createdOn": "2026-04-24T08:07:48.148Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Bitcoin is a decentralized, censorship-resistant, secure, and borderless digital currency created by an anonymous founder called “Satoshi Nakamoto.” </p><p id=\"\">Little is known about Satoshi, with many believing Satoshi was, in fact, a team of people rather than a single creator. Bitcoin is considered the forefather of all cryptocurrencies as it laid the foundation for the entire crypto ecosystem we see today.&nbsp;</p><p id=\"\">Bitcoins are a purely digital currency, with its supply protected by the design of the Bitcoin <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> protocol. When purchasing bitcoin, you don't need to buy a whole coin; you can buy a small fraction of a bitcoin, called a satoshi, which is one hundred millionth of a bitcoin (0.00000001).&nbsp;&nbsp;</p><p id=\"\">There are no physical bitcoins, only balances kept on the Bitcoin blockchain network that everyone has access to. You can think of&nbsp; Bitcoin as a digital form of cash enabling direct peer-to-peer transfers. However, more recently, given the Bitcoin network’s difficulty in <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-wrong-with-layer-2-l2-scaling\"><strong id=\"\">scaling</strong></a> to demand creating slow and expensive transactions, the narrative has shifted to Bitcoin being a kind of “digital gold.” Unlike fiat currencies like dollars or euros, there is no central bank controlling the supply of Bitcoin. Instead, the Bitcoin network is run by thousands of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">computers</strong></a> run around the world by anyone who wishes to participate.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-governance-token\"><strong id=\"\">What is a Governance Token?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-seed-phrase\"><strong id=\"\">What is a seed phrase?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">What is a token?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What Is Bitcoin?",
+  "slug": "what-is-bitcoin"
+ }
+}

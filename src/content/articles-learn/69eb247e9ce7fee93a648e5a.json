@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e5a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:16.727Z",
+ "createdOn": "2026-04-24T08:06:16.727Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/9UdLa_N9shM\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/9UdLa_N9shM\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p id=\"\">In this video, you will learn how to connect to a dApp.</p><p id=\"\">To access dApps you will need to have the Radix mobile wallet and also the Radix Connect browser extension, installed on your Chrome browser.&nbsp;</p><p id=\"\">In the top right-hand corner of the Radix Connect desktop extension, click<strong id=\"\"> Connect</strong>; the mobile app will now display a login request.</p><p id=\"\">Select a <strong id=\"\">Persona</strong> to login with and<strong id=\"\"> </strong>then press <strong id=\"\">Continue.</strong></p><p id=\"\">The dApp will request permission to view account information when you log in.&nbsp;&nbsp;&nbsp;</p><p id=\"\">A<strong id=\"\"> Data permissions screen</strong> will appear here; you can enter, edit, or select which data to share (i.e., first, last, and nickname to share with dApps).</p><p id=\"\"><em id=\"\">Please note if you do not share the information requested by the dApp you are interacting with, the login request will&nbsp;fail.</em></p><p id=\"\">Pick the information you would like to share with the dApp and <strong id=\"\">Continue.</strong>&nbsp;</p><p id=\"\">‍<strong id=\"\">You are now connected to the dApp with your selected persona.</strong></p><p id=\"\">On the dashboard landing page, the <strong id=\"\">Connect</strong> button will show you the Persona, data permissions, and the account details that are being shared with the dApp.&nbsp;</p><p id=\"\"><strong id=\"\">Reminder: Be wary of any unsolicited messages claiming to be from support. There is no customer support via direct messages. Anyone offering to help you resolve a problem via DM will be a scammer. Under no circumstances should you ever share your seed phrases with anyone. Your seed phrases are the keys to your crypto holdings, and keeping them private is paramount for security. Always remain cautious in crypto to safeguard your assets from scams.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Connect to a dApp via Radix Connect",
+  "slug": "how-to-connect-to-a-dapp-via-radix-connect"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57de0b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-04-29T16:34:45.931Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-04-29T00:00:00.000Z",
+  "guest-name": "Alex Mashinsky",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0ea",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/626c12abf0e84f644f21b07e_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0eb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/626c138a2ecb5d23181c97e9_celsius.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Alex Mashinsky, co-founder and CEO of Celsius. Alex shares his vision for Celsius, as well as his passion for value creation and giving back to the people who couldn’t make it.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=22X1ivIz6bo\"><div><iframe src=\"https://www.youtube.com/embed/22X1ivIz6bo\" title=\"Celsius - $23Bn and more Bitcoin than Michael Saylor\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>In this episode of the DeFi Download, Piers Ridyard interviews Alex Mashinsky, co-founder and CEO of Celsius. Alex shares his vision for Celsius, as well as his passion for value creation and giving back to the people who couldn’t make it.</p><p>Celsius is a yield and loan platform that allows users to earn interest on their crypto assets as well as receive a loan in one click.&nbsp;</p><p>Celsius has had an incredible five-year run, with $23 billion in assets under management, including 2 million ETH and over 250,000 Bitcoin, more than Michael Saylor and a number of the Bitcoin community's champions, and they've just raised an incredible $700 million.&nbsp;</p><p>Celsius currently employs over 850 people and has paid out over a billion dollars in yield to its community.&nbsp;</p><p>Alex's backstory is fascinating. He was born in Ukraine and immigrated to the United States in his early twenties, where he built four tech unicorns worth over a billion dollars and invented Voice over IP at the dawn of the internet.&nbsp;</p><p><strong>[1:10]</strong> Alex talks about the four unicorn companies he founded.</p><p><strong>[5:26]</strong> From Voice over IP to internet access to giving people yield, why does Alex Mashinsky care so much about disintermediation?</p><p><strong>[9:27]</strong> Is the crypto world adopting Wall Street's worst habits? Insiders are said to make the most money in crypto, illustrated by the phrase \"If you don't know where the yield is coming from, you're the yield.\" According to Alex, what are these bad habits?</p><p><strong>[12:10]</strong> What drives Alex to do the things he does?</p><p><strong>[14:51]</strong> What accounts for the high yield Celsius generates?</p><p><strong>[19:52]</strong> In the early days of the Internet, AOL was a walled garden focused on user experience. Then came the Netscape Navigator moment, when the internet suddenly became usable, and we quickly transitioned from Web 1.0 to Web 2.0. Instead of a curated garden, people desired an open platform where they could go and use whatever the internet had to offer anywhere in the world. How is Celsius not like AOL, based on this fact?</p><p><strong>[24:01]</strong> Is Alex considering Celsius to be an entire crypto universe? Or does he see it as a starting point for people to learn what it means to own and use cryptocurrency?</p><p><strong>[26:41]</strong> How does the Celsius team think about strategy, customer acquisition, and growth in the industry of yield-based products, given the growing competition from companies like Nexo and Coinbase Institutional?&nbsp;</p><p><strong>[28:50]</strong> Equality of opportunity, one of the key aspects of crypto and DeFi</p><p><strong>[30:57</strong>] CelsiusX: access the rest of DeFi via the Celsius platform</p><p><strong>[33:55]</strong> Celsius's strategy for preventing hacks and mitigating financial risk</p><p><strong>[39:14]</strong> From the perspective of regulatory risk, a single institution is a single point of failure, and the industry is currently unsure how the regulator will view crypto assets and the kinds of things that Celsius is doing. What is Alex's and his team's take on regulatory risk and how they can mitigate it as a company while still providing service to their customers?</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://celsius.network/\">celsius.network</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/celsiusnetwork/\">@CelsiusNetwork</a></li><li>Alex Mashinsky Twitter: <a href=\"https://twitter.com/Mashinsky\">@Mashinsky</a>&nbsp;</li><li><a href=\"https://t.me/joinchat/HYLRa0ReCxzSceDa25ovlg\">Celsius Community Telegram</a></li><li><a href=\"https://www.youtube.com/playlist?list=PLLjzjU2vvKVMNgmFM2oV79WQ0iSqf_5oV\">Celsius AMA Archive on YouTube</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10528061-celsius-23bn-and-more-bitcoin-than-michael-saylor",
+  "name": "Celsius - $23Bn and more Bitcoin than Michael Saylor",
+  "slug": "celsius-23bn-and-more-bitcoin-than-michael-saylor"
+ }
+}

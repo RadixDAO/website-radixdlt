@@ -1,0 +1,21 @@
+{
+ "id": "69eb0d133d16cd5eb1316c61",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T06:37:50.578Z",
+ "createdOn": "2026-04-24T06:26:23.918Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "status": "8e0819e294ace51e942b2873f55ed251",
+  "service-s": [
+   "69eb0c39904d0db4dee8f8b7"
+  ],
+  "severity": "51a903ff8e8718bde8e6bf96c57aa638",
+  "date-reported": "2022-09-14T22:00:00.000Z",
+  "last-update": "2022-09-14T08:57:00.000Z",
+  "content": "<p id=\"\">Due to Ethereum Merge, Instabridge will be taken offline from from 2300BST 14/09/22 until 1600BST 15/09/22 for maintenance and testing</p>",
+  "name": "Instabridge is offline for scheduled maintenance from 23:00BST 14/09/22 until 16:00BST 15/09/22",
+  "slug": "instabridge-is-offline-for-scheduled-maintenance-from-23-00bst-14-09-22-until-16-00bst-15-09-22"
+ }
+}

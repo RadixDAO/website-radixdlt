@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca556562b",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:24:55.147Z",
+ "createdOn": "2026-04-24T08:08:22.864Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf8208",
+  "full-article-text": "<p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-being-delivered-for-the-olympia-mainnet\"><strong id=\"\">Olympia Mainnet</strong></a> marks the genesis of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a><strong id=\"\"> </strong>and the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a>. As the foundation for all future Radix technologies, the Olympia mainnet utilizes an <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">unsharded</strong></a> form of our revolutionary <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Cerberus</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus protocol</strong></a>.&nbsp;</p><p id=\"\">Unsharded Cerberus will be capable of at least 50 transactions per second (<a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">TPS</strong></a>), more than 3x the throughput of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a>, which already serves most of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a>.</p><p id=\"\">Unsharded Cerberus should provide sufficient <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">throughput</strong></a> to support the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a><strong id=\"\"> </strong>until the Radix <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">Xi’an release</strong></a> scheduled for 2023. Radix Xi’an will be fully <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">sharded</strong></a> and capable of infinite<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-linear-scalability\"><strong id=\"\">linear scalability</strong></a> while preserving <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic composability</strong></a>. Feel free to learn more about how this will work in the <a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a>.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-roadmap\"><strong id=\"\">What is the Radix roadmap?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/whitepapers/consensus\"><strong id=\"\">Cerberus Whitepaper</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 6,
+  "name": "What is the throughput (TPS) of the Olympia mainnet?",
+  "slug": "what-is-the-throughput-tps-of-the-olympia-mainnet"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de544",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:22.674Z",
+ "createdOn": "2026-04-24T08:07:22.674Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">Proof of Work (PoW) and Proof of&nbsp; Stake (PoS) are ways of protecting a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">decentralized</strong></a> network against <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-sybil-attack-2\"><strong id=\"\">Sybil</strong> </a>attacks.&nbsp;</p><p id=\"\">A Sybil attack is when someone tries to get an unfair advantage by creating many <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-full-node-2\"><strong id=\"\">nodes</strong></a>. If the decentralized network were to use a simple one-node-one-vote model of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> on <a id=\"\" href=\"https://learn.radixdlt.com/article/is-it-true-that-radix-achieved-over-1-million-transactions-per-second\"><strong id=\"\">transactions</strong></a>, this would allow them to have an unfair say in how the system validates transactions. Using this dominant influence, they could then attempt to disrupt the network or affect the trustability of transactions and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a> on the network.</p><p id=\"\">Both Proof of Work and Proof of Stake provide a better way of weighting the votes of nodes in conducting consensus.</p><p id=\"\"><strong id=\"\">Proof of Work</strong>: Here, nodes are weighted by requiring “miners” (nodes) to perform large amounts of computation. This computation involves three things: the hash of the previous block, the set of transactions to be added to the blockchain, and a nonce (a number that is changed after each wrong attempt) until the correct hash is found. That node then earns (or “mines”) a token reward.</p><p id=\"\">In this way, PoW protects against Sybil attacks, as there is a scarce resource - computation - that nodes must expend in order to propose blocks to the network. Creating many nodes doesn’t help. This makes it more expensive to attack the network and is one of the innovations of Satoshi Nakamoto - using economic incentives to secure <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">distributed</strong></a> systems.</p><p id=\"\"><strong id=\"\">Proof of Stake: </strong>Here, votes are weighted by the amount of “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-tools-are-available-to-token-holders-to-support-them-in-deciding-which-validator-nodes-to-stake-to\"><strong id=\"\">stake</strong></a>,” which are tokens that are locked to a node. This way, it doesn’t matter how many nodes the attacker creates because if stake is spread across many nodes, they each have very little voting weight.</p><p id=\"\">This significantly increases the cost of attacking a PoS network, as an attacker would have to buy an overwhelming quantity of tokens to stake – typically more than a third of all of the tokens currently staked on the network. Because of this, the attacker would be disrupting a network in which they had invested a significant amount of capital!</p><p id=\"\">PoS is becoming more popular as concerns around PoW energy consumption grows. The “scarce resource” in PoS systems is no more than a digital token, making all PoS systems vastly more energy-efficient than PoW systems – sometimes by 99.9%!</p><p id=\"\">In most PoS <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchain</strong></a> systems, the more stake a node has, the more blocks they get to propose, thus earning more token rewards, similar to mining in PoW.&nbsp;</p><p id=\"\">The stake delegated to a node incentivizes the node to confirm only valid transactions as if a majority of the network can prove that the node had voted for an invalid transaction (such as a “double-spend”), then the node may lose a part of its initial stake, in a process called “slashing.”</p><p id=\"\">A prominent form of PoS is Delegated Proof of Stake (DPoS).</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-stake-and-unstake-xrd-in-the-desktop-wallet\"><strong id=\"\">How to Stake and Unstake XRD in the Desktop Wallet</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-money-lego\"><strong id=\"\">What are \"Money Lego\"?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-does-immutable-mean\"><strong id=\"\">What does immutable mean?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-proof-of-stake-pos-and-delegated-proof-of-stake-dpos\"><strong id=\"\">What's the difference between Proof of Stake (PoS) and Delegated Proof of Stake (DPoS)?</strong></a><strong id=\"\">\t</strong></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 2,
+  "name": "What are Proof of Work and Proof of Stake?",
+  "slug": "what-are-proof-of-work-and-proof-of-stake"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "69ee5b179a67af642a72afb1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-26T18:36:07.640Z",
+ "createdOn": "2026-04-26T18:36:07.640Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "logo": {
+   "fileId": "69ee5b179a67af642a72afad",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5b179a67af642a72afad_66560d6e141c1e7751b3a0cf_6509f99e33611d8c8a4ecbc0_eco-logo-10.png",
+   "alt": null
+  },
+  "name": "Eco 10",
+  "slug": "eco-10"
+ }
+}

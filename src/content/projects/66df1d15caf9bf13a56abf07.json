@@ -1,0 +1,31 @@
+{
+ "id": "66df1d15caf9bf13a56abf07",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-12T11:49:04.264Z",
+ "lastUpdated": "2024-09-11T16:34:09.050Z",
+ "createdOn": "2024-09-09T16:06:45.514Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A social trading platform simplifying crypto trading by allowing users to copy expert traders in a secure, transparent, and permissionless way.",
+  "project-logo": {
+   "fileId": "66df1d039965c191bf12882d",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d039965c191bf12882d_Fidenaro_Logo_black_background_50_50.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1d05e445765b6711081d",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1d05e445765b6711081d_Banner_03_OnlyBackground.png",
+   "alt": null
+  },
+  "link-to-project": "https://fidenaro.com/",
+  "categories": [
+   "66dafd5e7c1a27edea88c639",
+   "66dafd3847c321c70ec5953f"
+  ],
+  "rank": 8,
+  "featured": false,
+  "name": "Fidenaro",
+  "slug": "fidenaro"
+ }
+}

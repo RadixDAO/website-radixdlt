@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e62",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:21.529Z",
+ "createdOn": "2026-04-24T08:06:21.529Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb226d70bf158a4fa3b6e4",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">In the Babylon wallet mobile app, select the <strong id=\"\">settings</strong> gear in the top right-hand corner, click <strong id=\"\">Personas,</strong> select <strong id=\"\">Create new Persona, and </strong>then<strong id=\"\"> Continue.</strong></p><p id=\"\">Select a Persona name and <strong id=\"\">Continue</strong>. The wallet will now request biometric authentication to create a new persona.&nbsp;</p><p id=\"\">Authenticate and <strong id=\"\">Continue.</strong>&nbsp;</p><p id=\"\">Continue to the Persona list.</p><p id=\"\"><strong id=\"\">Congratulations, your new Persona has been created.</strong></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How to Create a New Persona",
+  "slug": "how-to-create-a-new-persona"
+ }
+}

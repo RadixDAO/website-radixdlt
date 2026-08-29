@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5807",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:38:15.540Z",
+ "createdOn": "2026-04-24T08:08:03.432Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Generally speaking, “staking” is when a user chooses to lock some of their tokens for a period of time, often to receive a reward. While the tokens are frozen in place; the user can’t send the tokens.</p><p id=\"\">Radix uses a specific kind of staking as part of a protocol mechanism called <a id=\"\" href=\"/article/what-is-delegated-proof-of-stake-dpos\">Delegated Proof of Stake (DPoS)</a>. This staking uses only XRD, the utility token of the Radix network. Holders of XRD may stake their tokens to help guarantee the security of the Radix network against many forms of attack – the more XRD staked the better.<br></p><p id=\"\">To encourage this DPoS staking to support security, stakers are rewarded with newly created XRD tokens over time.<br></p><p id=\"\">Staking XRD tokens however requires making some careful choices. The staker must choose to assign (or “delegate”) their stake to “validator nodes” that operate the Radix network protocol. The tokens still belong to the staker, but delegation is like voting for a representative that must behave correctly to keep the network running securely and quickly.<br></p><p id=\"\">This Radix Staking Guide covers a number of topics about how staking on Radix works, how validator nodes work, and how to choose who to delegate to.<br></p><p id=\"\"><em id=\"\">If you want the TL;DR, at least read “</em><a id=\"\" href=\"/article/how-should-i-choose-validators-to-stake-to\"><em id=\"\">As a token holder, how should I choose validators to stake to</em></a><em id=\"\">?” – and then head over to the </em><a id=\"\" href=\"/article/betanet-desktop-wallet-introduction\"><em id=\"\">Desktop Wallet guide</em></a><em id=\"\"> to learn how to stake and unstake tokens.</em><br></p><p id=\"\"><strong id=\"\">Note: While staking is available on the current Radix Olympia betanet for testing purposes, XRD tokens on this test network have no value. The launch of the Olympia mainnet after betanet conclusion will mark the beginning of real DPoS staking with real XRD tokens.</strong></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": true,
+  "featured-in-header": true,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is Radix staking?",
+  "slug": "what-is-radix-staking"
+ }
+}

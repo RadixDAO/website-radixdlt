@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca5565681",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:45.005Z",
+ "createdOn": "2026-04-24T08:08:45.005Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8206",
+  "full-article-text": "<p id=\"\">There is no need for a “buffer” of<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator nodes</strong></a> waiting to jump in as the unsharded form of<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">Cerberus consensus</strong></a> supporting the <a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-radixs-babylon-mainnet\"><strong id=\"\">Babylon Mainnet</strong></a> does not actually require 100 validator nodes – that’s just the upper limit.</p><p id=\"\">If a node (or several nodes) stops responding for whatever reason, <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> will see that they have timed out and move on.&nbsp;</p><p id=\"\">Suppose nodes are missing consensus rounds like this. In that case, their <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emission rewards</strong></a> will rapidly go to zero, and we expect that stakers (<a id=\"\" href=\"http://learn.radixdlt.com/article/what-is-a-liquid-stake-unit-lsu-and-native-liquid-staking\"><strong id=\"\">Liquid Stake Unit token holders</strong></a>) will quickly remove their stake and allow other validators to move into the top-100.&nbsp;</p><p id=\"\">As the<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> does not require 100 validator nodes, and there are strong incentives for stakers to delegate to nodes with high participation in consensus rounds, there is no need to have a set of validators-in-waiting from the perspective of network <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\"><strong id=\"\">liveness</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-validators-on-radix-selected\"><strong id=\"\">How are validators on Radix selected?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-are-nodes-outside-of-the-top-100-incentivised-to-step-in-if-any-of-the-top-100-validators-drop-out-2\"><strong id=\"\">How are nodes outside of the top 100 incentivized to “step in” if any of the top 100 validators drop out?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-happens-if-a-validator-node-drops-out-or-unregisters-during-an-epoch\"><strong id=\"\">What happens if a validator node “drops out” or unregisters during an epoch?</strong></a></li></ul><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "Why not incentivize validators below the top-100 as a “buffer”?",
+  "slug": "why-not-incentivize-validators-below-the-top-100-as-a-buffer"
+ }
+}

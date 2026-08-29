@@ -1,0 +1,16 @@
+{
+ "id": "64a6bc7c6c0b576765c2c6ec",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-07-06T13:53:42.776Z",
+ "lastUpdated": "2023-07-06T13:53:35.784Z",
+ "createdOn": "2023-07-06T13:07:08.659Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "description": null,
+  "text-colour": "hsla(228, 0.00%, 100.00%, 1.00)",
+  "background-colour": "#003057",
+  "name": "Tech Blog",
+  "slug": "tech-blog"
+ }
+}

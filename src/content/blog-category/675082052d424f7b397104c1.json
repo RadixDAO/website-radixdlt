@@ -1,0 +1,16 @@
+{
+ "id": "675082052d424f7b397104c1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-12-04T16:24:35.620Z",
+ "lastUpdated": "2024-12-04T16:23:33.438Z",
+ "createdOn": "2024-12-04T16:23:33.438Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "description": null,
+  "text-colour": "hsla(235.93984962406014, 0.00%, 100.00%, 1.00)",
+  "background-colour": "hsla(189, 82.17%, 59.54%, 1.00)",
+  "name": "Radix Labs",
+  "slug": "radix-labs"
+ }
+}

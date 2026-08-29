@@ -1,0 +1,30 @@
+{
+ "id": "69eb2512a616fe7ca556564f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:23:42.237Z",
+ "createdOn": "2026-04-24T08:08:33.320Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8202",
+  "full-article-text": "<p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> nodes synchronized with the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a> provide various services to the network and its users. The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">Radix Node software</strong></a> can be configured differently for different purposes. There are three main purposes that people run Radix nodes, and we give each type of node a unique name:</p><p id=\"\"><strong id=\"\">Validator nodes</strong> are what most people think of as a node. These are nodes that have registered with the network to gather delegated stake and potentially be selected for inclusion in the<strong id=\"\"> </strong><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a><strong id=\"\"> </strong>that conducts <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a>. If successful, validator nodes may receive emissions via a “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">validator fee</strong></a><strong id=\"\">”</strong> that they can specify. These are the nodes that are listed on the Validator List on the <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-use-the-radix-explorer\"><strong id=\"\">Radix Explorer</strong></a> webpage.</p><p id=\"\"><strong id=\"\">Archive nodes</strong> can be thought of as gateways to the Radix Public Public Network for applications and users. Archive nodes don’t just sync the raw network <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-state-and-state-change-mean\"><strong id=\"\">state</strong></a>, as other nodes do, but also heavily index it to be more searchable and useful. This allows archive nodes to offer the Radix <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-use-the-json-rpc-radix-node-api\"><strong id=\"\">JSON-RPC API</strong></a> that allows client software (such as the <a id=\"\" href=\"https://learn.radixdlt.com/article/how-to-completely-reset-your-desktop-wallet-by-deleting-the-keystore\"><strong id=\"\">Radix Desktop Wallet</strong></a> and Radix Explorer) to query information on accounts and transactions, as well as create and submit transactions to the network. These nodes do not receive <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-network-emissions\"><strong id=\"\">emissions</strong></a> but are expected to be run by those creating useful <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">applications</strong></a> on the network. The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-main-radix-legal-entities\"><strong id=\"\">Radix</strong> <strong id=\"\">Foundation</strong></a> runs a set of archive nodes to service the wallet and explorer.</p><p id=\"\"><strong id=\"\">Full nodes </strong>are the simplest kind of node. They essentially only synchronize with the network and have their own internal “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-software-and-hardware-wallets-what-are-software-and-hardware-wallets\"><strong id=\"\">wallet</strong></a>” address that can be controlled via API (other nodes have this as well, but it is not generally used). A developer might choose to run a full node as a totally trustless wallet, like a full node on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">Bitcoin</strong></a>. But primarily, full nodes are the precursor step to an archive node before the node has registered. Full nodes also receive no emissions.</p><p id=\"\">For more information about Radix nodes and how to operate them, see <a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">docs.radixdlt.com</strong></a>.</p><p id=\"\"><strong id=\"\">Further Reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-node-software\"><strong id=\"\">What is Radix Node software?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-register-a-validator-node\"><strong id=\"\">How can I register a validator node?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What’s the difference between a full node, validator node, and archive node?",
+  "slug": "whats-the-difference-between-a-full-node-validator-node-and-archive-node"
+ }
+}

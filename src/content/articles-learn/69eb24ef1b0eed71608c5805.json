@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5805",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:08:02.932Z",
+ "createdOn": "2026-04-24T08:08:02.932Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": "69eb218cb180744096bf820c",
+  "full-article-text": "<p id=\"\">The <strong id=\"\">Radix&nbsp; Node</strong> is the software that runs on computers that together forms the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-radix-public-network-and-radix-ledger\"><strong id=\"\">Radix Public Network</strong></a>.</p><p id=\"\">The Radix Node maintains a record of transactions (ledger state) by syncing with the rest of the network, it thus fulfils the role of a <a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-and-validator-node\"><strong id=\"\">Full Node</strong></a> and can also expose the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-apis-are-relevant-to-the-radix-public-network\"><strong id=\"\">Core API</strong></a>.</p><p id=\"\">A Radix Node can also be registered as a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node\"><strong id=\"\">validator node</strong></a>. If a validator node can attract enough XRD stake to place in the top 100 by stake, it joins the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-set\"><strong id=\"\">validator set</strong></a>, validates <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a>, and participates in <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a>.</p><p id=\"\">For more information on the different usages of these node options and how to set them up, see the <a id=\"\" href=\"http://docs.radixdlt.com/\"><strong id=\"\">Radix Tech Docs</strong></a>.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-the-difference-between-a-full-node-and-validator-node\"><strong id=\"\">What’s the difference between a full node and validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-i-register-a-validator-node\"><strong id=\"\">How do I register a validator node?</strong></a></li><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com/\"><strong id=\"\">Radix Tech Docs</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 5,
+  "name": "What is Radix Node software?",
+  "slug": "what-is-radix-node-software"
+ }
+}

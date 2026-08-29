@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648dba",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:05:22.345Z",
+ "createdOn": "2026-04-24T08:05:22.345Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">No, but purely technically speaking, it would be possible to have the <a id=\"\" href=\"http://www.radixdlt.com/wallet\"><strong id=\"\">Radix Wallet </strong></a>connect directly to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApp</strong></a> websites without the Connector browser extension. The issue is trust, security, and user experience.</p><p id=\"\">The <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-the-radix-connector-browser-extension\"><strong id=\"\">Connector extension</strong></a> implements the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix-connect\"><strong id=\"\">Radix Connect </strong></a>logic, but also passes information about dApps to the Radix Wallet with every request. This information helps the wallet verify that the source of the request is the correct official website for that dApp (using our on-ledger system of \"dApp Definitions\"). Basically it helps avoid things like fake dApp websites.</p><p id=\"\">Also, the Connector extension implements a variety of bits of logic that ensure a smooth user experience, like coordinating multiple connections when using multiple dApp websites at the same time, intelligent retry logic, a single permission for system notifications (seeing a pop-up whenever a transaction completes, for example), and more.</p><p id=\"\">If a library for dApp websites to run was published, the benefits above would be lost because users would in effect be downloading (and trusting) a separate connector extension embedded within each dApp they connected to. The experience wouldn't be nearly as seamless, and would lose the important security benefits.</p><p id=\"\">So yes, it's a small bit of extra hassle, but it takes just a few seconds to set up, it's one click to install, you scan a QR code in your Radix Wallet, and then you never have to think about the Connector extension again. It just sits in the background (like a browser extension should) doing its thing for you.</p><p id=\"\">In future, once Radix Wallet connections are enabled on mobile dApps, those won't require an extension – because the connection is local on the same device.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"http://learn.radixdlt.com/article/how-do-i-run-a-validator-on-radix\"><strong id=\"\">How do I run a validator on Radix?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-radix-staking-introduction\"><strong id=\"\">Start Here! Radix Staking Introduction</strong></a></li><li id=\"\"><a id=\"\" href=\"http://docs.radixdlt.com\"><strong id=\"\">Radix Tech Docs</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Can the Radix Wallet Connect Directly to a dApp Website Without the Radix Connector Browser Extension?",
+  "slug": "can-the-radix-wallet-connect-directly-to-a-dapp-website-without-the-radix-connector-browser-extension"
+ }
+}

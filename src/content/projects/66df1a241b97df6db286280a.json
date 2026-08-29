@@ -1,0 +1,31 @@
+{
+ "id": "66df1a241b97df6db286280a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2024-09-13T16:18:29.773Z",
+ "lastUpdated": "2024-09-13T15:39:07.912Z",
+ "createdOn": "2024-09-09T15:54:12.356Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Enhances social experiences with DeFi by enabling asset trading and NFT purchases directly from social media using Radix DLT, capitalizing on early trends.",
+  "project-logo": {
+   "fileId": "66df1a1731406199a4dcb7fd",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1a1731406199a4dcb7fd_logo-with-bg-2.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66e45c90dcdfa90de577d1d8",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e45c90dcdfa90de577d1d8_selfi-banner-3%20(1).png",
+   "alt": null
+  },
+  "link-to-project": "https://chromewebstore.google.com/detail/selfi-social/ddnbhjahpdcchonegnilkimcbiopabdl",
+  "categories": [
+   "66dafd4047c321c70ec59b34",
+   "66dafd4ec76901ac3209fbb0"
+  ],
+  "rank": 12,
+  "featured": false,
+  "name": "Selfi Social",
+  "slug": "selfi-social"
+ }
+}

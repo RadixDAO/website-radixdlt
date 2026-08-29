@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648e30",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:23:30.919Z",
+ "createdOn": "2026-04-24T08:06:02.993Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": "69eb218cb180744096bf8202",
+  "full-article-text": "<p id=\"\">Earning and claiming emissions as an “owner” staker is exactly the same as for <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-token-holders-earn-and-claim-xrd-emissions-rewards\"><strong id=\"\">an individual XRD token holder</strong></a>. The only difference is that a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validator</strong></a> may specify a special “owner address” for their node and stake from that account.</p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">Validator fees</strong></a> are also distributed to the owner address.</p><p id=\"\">This means that emissions <a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-the-xrd-and-exrd-tokens\"><strong id=\"\">XRD</strong></a> tokens for both staking and validator fees are credited to the owner’s account in a staked state, and these tokens may be claimed by <a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-validator-nodes-unstake-or-unregister-2\"><strong id=\"\">unstaking</strong></a> part or all of this constantly updating amount of staked XRD.</p><p id=\"\">Assuming the node-runner has set the owner account to an account in their <a id=\"\" href=\"https://learn.radixdlt.com/article/start-here-desktop-wallet-introduction\"><strong id=\"\">Desktop Wallet</strong></a> (which we recommend), the current amount of XRD stake that can be unstaked will be shown conveniently there.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-do-token-holders-earn-and-claim-xrd-emissions-rewards\"><strong id=\"\">How do token holders earn and claim XRD emissions rewards?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-penalties-are-calculated-general\"><strong id=\"\">How XRD staking emissions rewards are calculated - general</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-are-calculated-for-token-holders\"><strong id=\"\">How XRD staking emissions rewards are calculated - for token holders</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/how-xrd-staking-emissions-rewards-and-validator-fees-calculated-for-validators\"><strong id=\"\">How XRD staking emissions rewards and validator fees are calculated - for validators</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-validator-fees\"><strong id=\"\">What are validator fees?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How do validators earn and claim XRD emissions rewards and validator fees?",
+  "slug": "how-do-validators-earn-and-claim-xrd-emissions-rewards-and-validator-fees"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "669a90f600733b039a207e70",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2024-07-19T16:14:46.786Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2024-07-19T00:00:00.000Z",
+  "guest-name": "Chris Bradbury",
+  "guest-image": {
+   "fileId": "669a908df2810ec0e89528a6",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/669a908df2810ec0e89528a6_Chris%20Bradbury.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "669a90bd1005c49814b0b533",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/669a90bd1005c49814b0b533_rebrand-3.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Chris Bradbury, CEO of SummerFi. They discuss Chris's journey from MakerDAO to SummerFi, and the development of user-friendly financial tools and innovative features aimed at making DeFi more accessible to a wider audience by automating complex financial strategies.",
+  "main-content": "<figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/AAHrCh1EWuI\"><div><iframe src=\"https://www.youtube.com/embed/AAHrCh1EWuI\" title=\"SummerFi - $4.7Bn of Aggregated Crypto Lend/Borrow\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍</p><h3 id=\"\">Summary</h3><p id=\"\">SummerFi curates the best dApps in DeFi to provide the simplest and easiest way to borrow and earn crypto. SummerFi currently manages over $4.5 billion in crypto assets across various DeFi protocols, and in the last 30 days, it has completed $663 million in lend/borrow volume and automated over $275 million in loan positions.</p><p id=\"\">Chris talks about his transition from MakerDAO's product manager to CEO of Oasis.app, which rebranded as SummerFi and focuses on trusted, curated DeFi protocols. Chris discusses SummerFi’s recent advancements and strategic vision, he elaborates on how SummerFi plans to simplify DeFi for a broader audience, and also highlights their goal of integrating DeFi with traditional financial systems to make these advanced tools accessible to everyday users, without requiring them to have deep technical knowledge or actively manage their assets.</p><h3 id=\"\">Key takeaways</h3><ul id=\"\"><li id=\"\">SummerFi integrates key DeFi protocols such as Maker, Aave, Morpho, and Ajna, with a focus on security and usability. It offers features like Multiply, which allows users to leverage assets in a single transaction, enhancing efficiency and safety.</li><li id=\"\">SummerFi's automations, such as stop loss, are designed to protect users by managing risky positions and reducing potential losses during market volatility. Automations are non-custodial smart contracts that trigger actions based on predefined conditions, such as closing a position when the loan-to-value ratio exceeds a set threshold. While automations mitigate risks, they are not risk-free and cannot guarantee optimal prices due to potential market slippage, oracle inaccuracies, or network congestion.</li><li id=\"\">SummerFi's launch of the $RAYS point system aims to incentivize user engagement and reward active management, paving the way toward broader adoption.</li><li id=\"\">SummerFi plans to expand and achieve mainstream adoption by also developing a new Summer Earn protocol that simplifies DeFi participation, offering users automatic yield optimization similar to traditional wealth management products.</li></ul><h3 id=\"\">Chapters\t\t</h3><ul id=\"\"><li id=\"\">01:27 — Chris's background and how he got into crypto</li><li id=\"\">02:27 — Insights gained from MakerDAO and Dai</li><li id=\"\">07:16 — Why was Oasis created &amp; how it became SummerFi</li><li id=\"\">14:23 — Protocols SummerFi currently supports</li><li id=\"\">15:39 — The split of crypto assets under SummerFi</li><li id=\"\">18:24 — Automations addressing volatility in leveraged products</li><li id=\"\">22:21 — What is an automation and why is it powerful</li><li id=\"\">25:21 — What stop-loss is for</li><li id=\"\">29:23 — SummerFi's growth plans and the point-based system</li><li id=\"\">32:07 — What does the product that 100 million people can use look like?</li><li id=\"\">35:09 — What makes SummerFi Earn more viable than Yearn</li><li id=\"\">39:58 — Find out more about SummerFi</li></ul><h3 id=\"\">Further resources</h3><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://summer.fi/\">summer.fi</a> </li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/summerfinance_\">@summerfinance_</a> </li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/summerfi\">discord.com/invite/summerfi</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/15441102-summerfi-4-7bn-of-aggregated-crypto-lend-borrow",
+  "name": "SummerFi - $4.7Bn of Aggregated Crypto Lend/Borrow",
+  "slug": "summerfi---4-7bn-of-aggregated-crypto-lend-borrow"
+ }
+}

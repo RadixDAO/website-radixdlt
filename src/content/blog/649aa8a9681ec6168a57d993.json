@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57d993",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2023-07-20T11:31:16.618Z",
+ "createdOn": "2021-04-27T08:16:21.911Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "date": "2018-07-04T00:00:00.000Z",
+  "show-table-of-contents": false,
+  "blog-author": null,
+  "featured-post": false,
+  "blog-category": null,
+  "image": null,
+  "excerpt": "In this post we'll look at reactive programming and the RxJS library. There are Rx libraries in all major languages, including RxJava which our Java library utilizes heavily...",
+  "main-content": "",
+  "seo-meta-description": null,
+  "use-video-over-image": false,
+  "video-code": null,
+  "video-mp4-url": null,
+  "video-webm-url": null,
+  "name": "Introduction to Reactive Programming and RxJS",
+  "slug": "reactive-programming-and-rxjs"
+ }
+}

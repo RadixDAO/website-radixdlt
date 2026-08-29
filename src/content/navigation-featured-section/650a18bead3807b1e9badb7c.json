@@ -1,0 +1,23 @@
+{
+ "id": "650a18bead3807b1e9badb7c",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-09-01T14:34:02.721Z",
+ "lastUpdated": "2025-08-28T16:03:34.870Z",
+ "createdOn": "2023-09-19T21:55:10.983Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "d437c3a6ac67d7f37c4a6008ff71adbf",
+  "url-link": "https://radixdlt.com/wallet",
+  "image": {
+   "fileId": "68b07d816880a833c8089baa",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/68b07d816880a833c8089baa_RadQuest%20Banner.png",
+   "alt": null
+  },
+  "content-2": "The first DeFi and Web3 wallet where our friends and family can use crypto with confidence.",
+  "gradient-text": "Exclusively Possible On Radix",
+  "text-with-play-icon": null,
+  "name": "Learn Section",
+  "slug": "learn-section"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c5825",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:36:00.107Z",
+ "createdOn": "2026-04-24T08:08:11.928Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2206aba5904ae686d8a2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">The Radix Engine is the application layer for Radix – the part that developers directly interact with. While similar in concept to the virtual machine provided by smart contract platforms like Ethereum or Hyperledger, the Radix Engine is a paradigm shift from traditional smart contract development.</p><p id=\"\">The Radix Engine v1 will be delivered at the Olympia network release. This is a highly simplified form of the Radix Engine able to support common token features. It does not offer accessible “smart contract” capability, but it lays the groundwork for that capability being delivered in Radix Engine v2.</p><p id=\"\">The Radix Engine v2 will make it possible to rapidly and confidently build decentralized applications that take advantage of the true benefits of DLT. Developers will access this capability through a new smart contract language called Scrypto that is designed specifically for the creation and validation of safe financial applications. More information on Radix Engine v2 and Scrypto are coming soon, and initial versions for developer experimentation will be provided at the Alexandria release of the Radix network.<br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is the Radix Engine?",
+  "slug": "what-is-the-radix-engine"
+ }
+}

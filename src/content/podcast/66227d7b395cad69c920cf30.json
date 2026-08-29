@@ -1,0 +1,29 @@
+{
+ "id": "66227d7b395cad69c920cf30",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2024-04-19T14:19:39.904Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2024-04-19T00:00:00.000Z",
+  "guest-name": "Noah Litvin",
+  "guest-image": {
+   "fileId": "66227cd828964772a6130781",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/66227cd828964772a6130781_Noah%20Litvin.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "66227cdb14899b0b2444ebb4",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/66227cdb14899b0b2444ebb4_Podcast-Synthetics_thumbnail.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard speaks with Noah Litvin, a Core Contributor at Synthetix. They talk about Synthetix's vision of revolutionizing derivatives trading in the crypto space by providing innovative solutions.",
+  "main-content": "<figure id=\"\" class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://youtu.be/6jX_pkDA5uk\"><div id=\"\"><iframe src=\"https://www.youtube.com/embed/6jX_pkDA5uk\" title=\"Synthetix: A journey through derivatives in DeFi and Synthetix's role in shaping the DeFi space\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><h3 id=\"\"><strong id=\"\">Summary</strong></h3><p id=\"\">Synthetix tackles the challenge of trading derivatives in a crypto-native way, expanding beyond spot trading. Picture it as the derivative equivalent of Uniswap. Synthetix stands as one of the original crypto projects since 2018, playing a pivotal role in the early days of DeFi. It pioneered functionalities that are now commonplace in crypto and pushed the boundaries of what was achievable on public ledgers at the time.</p><p id=\"\">Noah Litvin has been actively working with the project for some time. He is currently a Core Contributor at Synthetix, having started as a community member and gradually progressed to become more involved.</p><p id=\"\">Noah and Piers explore the evolution of Synthetix, from its origin as Haven to Synthetix v3 and perpetual futures. They cover the challenges earlier versions of Synthetix encountered and the notable enhancements of v3. They also discuss Synthetix's future, its deployment on Base, and cross-chain interoperability.</p><h3 id=\"\"><strong id=\"\">Key takeaways</strong></h3><ul id=\"\"><li id=\"\">Synthetix aims to revolutionize derivatives trading in the crypto space, similar to how Uniswap revolutionized decentralized exchanges. It focuses on creating synthetic assets and perpetual futures markets on the public ledger.</li><li id=\"\">Synthetix addresses issues such as scalability limitations and asset price fluctuations by introducing perpetual futures, which allow for long or short positions without exposing liquidity providers to asset prices. Mechanisms such as funding rates incentivize market equilibrium, enhancing scalability.</li><li id=\"\">Synthetix considers itself as a liquidity protocol first, with the overarching goal of creating collateralized stable coins backed by decentralized collateral, supporting multiple liquidity pools with isolated risks.</li><li id=\"\">Synthetix aims to offer a diverse range of financial products and opportunities by bringing complexity to the blockchain as transparent tools, similar to the complexity seen in traditional finance managed by large hedge funds.</li></ul><p id=\"\">‍</p><h3 id=\"\"><strong id=\"\">Chapters\t</strong>\t</h3><p id=\"\">01:39 — Noah's journey with Synthetix</p><p id=\"\">03:07 — A basic orientation on Synthetix</p><p id=\"\">04:45 — Tokenized derivatives trading obstacles </p><p id=\"\">08:53 — Improvements in Synthetix v3</p><p id=\"\">10:43 — Perpetuals in DeFi</p><p id=\"\">13:02 — Synthetix V3 user acquisition</p><p id=\"\">18:19 — Synthetix perpetuals vs. competitors</p><p id=\"\">19:44 — Why Synthetix deployed on Base</p><p id=\"\">21:08 — Synthetix's Base vs. Optimism experience</p><p id=\"\">21:50 — Coinbase's role in driving adoption</p><p id=\"\">23:34 — Next steps for Synthetix v3 and project</p><p id=\"\">24:37 — Stability, liquidity, and scalability</p><p id=\"\">27:05 — Synthetix liquidity and TVL</p><p id=\"\">28:05 — Synthetix's liquidity-protocol-first approach</p><p id=\"\">30:19 — Leveraging collateral diversity</p><p id=\"\">33:22 — Learn more about Synthetix</p><h3 id=\"\">‍<strong id=\"\">Further resources</strong></h3><ul id=\"\"><li id=\"\">Website: <a id=\"\" href=\"https://synthetix.io/\">synthetix.io</a> </li><li id=\"\">Twitter: <a id=\"\" href=\"https://twitter.com/synthetix_io\">@synthetix_io</a> </li><li id=\"\">Discord: <a id=\"\" href=\"https://discord.com/invite/KVeCZe6ahW\">discord.com/invite/KVeCZe6ahW</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/14918661-synthetix-a-journey-through-derivatives-in-defi-and-synthetix-s-role-in-shaping-the-defi-space",
+  "name": "Synthetix - A journey through derivatives in DeFi and Synthetix's role in shaping the DeFi space",
+  "slug": "synthetix---a-journey-through-derivatives-in-defi-and-synthetixs-role-in-shaping-the-defi-space"
+ }
+}

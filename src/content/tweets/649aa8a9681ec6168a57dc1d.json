@@ -1,0 +1,22 @@
+{
+ "id": "649aa8a9681ec6168a57dc1d",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-12-04T22:11:13.138Z",
+ "createdOn": "2021-04-25T10:43:02.601Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "location": "3b9181d68c7009dbcbdf843bce46361f",
+  "url": "https://twitter.com/AletheiaCrypto/status/1354259494167961601?s=20",
+  "avatar": {
+   "fileId": "649aa8a9681ec6168a57da23",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608547abd19cbd4e149d8978_Athena.jpg",
+   "alt": null
+  },
+  "content": "IN-DEPTH RESEARCH REPORT: on @radixdlt published by @upblock_io. Radix DLT is building a decentralized finance protocol that provides frictionless access, liquidity, and programmability of any asset in the world. $eXRD",
+  "order": 7,
+  "name": "Aletheia",
+  "slug": "aletheia"
+ }
+}

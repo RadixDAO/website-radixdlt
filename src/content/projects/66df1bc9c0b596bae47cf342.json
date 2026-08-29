@@ -1,0 +1,30 @@
+{
+ "id": "66df1bc9c0b596bae47cf342",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T15:54:34.264Z",
+ "lastUpdated": "2025-02-03T15:39:29.491Z",
+ "createdOn": "2024-09-09T16:01:13.298Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "A Radix memecoin movement that spreads positivity, community, and generosity in the crypto space, counteracting the typical FUD and negativity.",
+  "project-logo": {
+   "fileId": "66df1bc2bbb7af693f51afa0",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1bc2bbb7af693f51afa0_HUGHEARTLOGO-10.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66df1bc4dfe5310a4b00f5d9",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66df1bc4dfe5310a4b00f5d9_Frame%2033.png",
+   "alt": null
+  },
+  "link-to-project": "https://hug.meme/",
+  "categories": [
+   "66dafd47bb99ef6418f1a300"
+  ],
+  "rank": 18,
+  "featured": false,
+  "name": "HUG",
+  "slug": "hug"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dc93",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-27T10:31:25.721Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2020-09-24T00:00:00.000Z",
+  "guest-name": "Loong Ren|Clay Robbins",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfab",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6087f64f92acc09dc8fde6cc_podcast.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfcb",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/6089803412db0a50b63e2788_podcast-logo-18.png",
+   "alt": null
+  },
+  "excerpt": "Join Piers Ridyard as he talks to Ren CEO, Loong Wang to uncover the magic behind integrating with DeFi protocols, wrapping-free!",
+  "main-content": "<p>Join Piers Ridyard as he talks to Ren CEO, Loong Wang to uncover the magic behind integrating with DeFi protocols, wrapping-free!</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/5531587-ren-protocol-bringing-bitcoin-and-defi-together-with-trustless-crypto-magic",
+  "name": "Ren Protocol: bringing Bitcoin and DeFi together with trustless crypto magic.",
+  "slug": "ren-protocol-bringing-bitcoin-and-defi-together-with-trustless-crypto-magic"
+ }
+}

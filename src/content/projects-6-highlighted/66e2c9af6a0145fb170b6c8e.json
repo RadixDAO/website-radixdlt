@@ -1,0 +1,30 @@
+{
+ "id": "66e2c9af6a0145fb170b6c8e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T14:35:33.826Z",
+ "lastUpdated": "2025-02-03T14:35:33.826Z",
+ "createdOn": "2024-09-12T10:59:59.719Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "project-description": "Weft Finance is a non-custodial community-driven dApp on Radix for lending and borrowing digital assets offering features optimizing yield and risk management.",
+  "project-logo": {
+   "fileId": "66e1add36f4dec9e775be63a",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1add36f4dec9e775be63a_Weft%20profile%20image%20green.png",
+   "alt": null
+  },
+  "project-background": {
+   "fileId": "66e1add6e8f39e44c7d5dcb8",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/66e1add6e8f39e44c7d5dcb8_Weft%20banner_image_green%20pattern.png",
+   "alt": null
+  },
+  "link-to-project": "https://weft.finance/#/",
+  "categories": [
+   "66dafd66ee5760990041564f",
+   "66dafd303535702e99f6c8f5"
+  ],
+  "rank": 7,
+  "name": "Weft Finance",
+  "slug": "weft-finance"
+ }
+}

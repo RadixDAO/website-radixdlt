@@ -1,0 +1,26 @@
+{
+ "id": "69eb24c38dc43830fd1de4ea",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:54.989Z",
+ "createdOn": "2026-04-24T08:06:54.989Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22ce9c63b54df937828f",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">When you make a transaction in Instabridge, you can view the transaction status in your Transaction History.&nbsp;</p><figure id=\"\" class=\"w-richtext-figure-type-image w-richtext-align-fullwidth\" style=\"max-width:1107px\" data-rt-type=\"image\" data-rt-align=\"fullwidth\" data-rt-max-width=\"1107px\"><div id=\"\"><img id=\"\" alt=\"\" src=\"https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb249e8dc43830fd1ddde1_6405e70d01e8abd1d6422890_ISuv0-bIL-AVDZ6gvR2-JxFEp5ux6dkvf-pNgnHXqNf2zJ62g80NJgpVG7vg0pAX_ckszFK2jYE9E6Gyt1gtQ0HOWJFnVG8_tJ2lN8y4CV7Tg-10g7Z4D6XVZfl87v4TBfQ9_BWm6OVnMFmeiq0d6qM.png\" width=\"auto\" height=\"auto\" loading=\"auto\"></div></figure><p id=\"\">You may see the following statuses:</p><p id=\"\"><strong id=\"\">In Flight - </strong>This means that your transaction has been submitted and we are awaiting confirmation that the transaction has been successful, this might take a few minutes depending on the Ethereum gas price you set in Metamask.</p><p id=\"\"><strong id=\"\">Completed - </strong>Success! This means your transaction has been successful and you should see your XRD in your Radix wallet.</p><p id=\"\"><strong id=\"\">Refunded - </strong>If there was an issue with your transaction meaning your transaction was not successful, you might have received a refund of your eXRD instead. We will be in contact with you to let you know if this has happened so watch out for emails from <a id=\"\" href=\"mailto:support@instabridge.io\">support@instabridge.io</a>. eXRD refunds are always returned to the Ethereum wallet address that they were sent from.</p><p id=\"\"><strong id=\"\">Failed - </strong>Your transaction was not successful and your funds are currently in holding, this means that they are secure but haven’t arrived in your wallet address as expected. In this case, if it isn’t possible to process your transaction, we will refund your eXRD instead. We will email you from <a id=\"\" href=\"mailto:support@instabridge.io\">support@instabridge.io</a> to let you know if this has happened.</p><p id=\"\"><strong id=\"\">Problem - </strong>There has been an error with your transaction. Please email <a id=\"\" href=\"mailto:support@instabridge.io\">support@instabridge.io</a> so we can help resolve this.</p><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "Instabridge Transaction Statuses",
+  "slug": "instabridge-transaction-statuses"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "69eb24c38dc43830fd1de53a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:20.293Z",
+ "createdOn": "2026-04-24T08:07:20.293Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\"><strong id=\"\">Layer 1</strong></p><p id=\"\">A layer 1 (L1) network refers to a <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dlt-2\"><strong id=\"\">DLT</strong></a> (including <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">blockchains</strong></a>) that serves as the base layer to store information that can represent:</p><p id=\"\">- assets such as <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">tokens</strong></a>;</p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-are-smart-contracts\"><strong id=\"\">- smart</strong> <strong id=\"\">contracts</strong></a> which can form <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-dapp\"><strong id=\"\">dApps</strong></a>; as well as</p><p id=\"\">- any kind of information that requires the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-does-immutable-mean\"><strong id=\"\">immutability</strong></a> of a DLT. For example, the historic price of an asset on a certain date.</p><p id=\"\">Collectively, the information stored on a DLT forms its <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledger</strong></a>. Changes to the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-state-and-state-change-mean\"><strong id=\"\">state</strong></a> of the ledger are enacted through <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-transaction-in-crypto\"><strong id=\"\">transactions</strong></a>. And it is transactions that <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">nodes</strong></a> verify and come to <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-consensus-protocol\"><strong id=\"\">consensus</strong></a> on.</p><p id=\"\">It’s called a layer 1 because it’s the base layer that other things can be built on top of, such as smart contracts and dApps, and it does not depend on any lower-level DLT/blockchain network.</p><p id=\"\">Some prominent examples of layer 1 networks include:</p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">- Radix</strong></a></p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-bitcoin\"><strong id=\"\">- Bitcoin</strong></a></p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">- Ethereum</strong></a></p><p id=\"\"><strong id=\"\">Layer 2</strong></p><p id=\"\">Layer 2 networks generally refer to solutions that provide increased <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-scalability-throughput-and-tps-mean\"><strong id=\"\">scaling and throughput</strong></a><strong id=\"\"> </strong>over what is possible on a base layer 1.&nbsp; Layer 1 networks can face bottlenecks, so a Layer 2 network that operates adjacent to a layer 1 network can process transactions in parallel to the L1, settling the net results back onto the L1 when needed; this lessens the load on the L1.</p><p id=\"\">L2 networks often have their own set of <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-validator-node-2\"><strong id=\"\">validators</strong></a>, liquidity, and <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-token\"><strong id=\"\">token</strong></a> economic systems.&nbsp;</p><p id=\"\">Some prominent examples of L2 technologies today include:</p><p id=\"\"><strong id=\"\">- Sidechains</strong> - these are kind of like their own L1 that interoperates into the main L1, sometimes called a “hub.”</p><p id=\"\"><strong id=\"\">- Rollups</strong> - these inherit some of the <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-security-safety-and-liveness-mean\">security</a> of the L1. For “ZK” rollups, this is achieved through cryptographic proofs. For “optimistic” rollups, transactions on the L2 are processed “optimistically,” meaning that only if there is a dispute is the computation to perform the cryptographic proofs undertaken.</p><p id=\"\">Layer 2 networks, however, break <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">atomic composability</strong></a> between the L1 and L2 networks, making them unsuitable for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-defi-2\"><strong id=\"\">DeFi</strong></a>.</p><p id=\"\">Radix will never need a layer 2 network as Radix achieves infinite <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-linear-scalability\"><strong id=\"\">linear scalability</strong></a> all on the L1.&nbsp;</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series - Episode 3 - Why Blockchains Can’t Scale</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/whats-wrong-with-layer-2-l2-scaling\"><strong id=\"\">What's wrong with Layer 2 (L2) scaling??</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 21,
+  "name": "What are Layer 1 (L1) and Layer 2 (L2) networks?",
+  "slug": "what-are-layer-1-l1-and-layer-2-l2-networks"
+ }
+}

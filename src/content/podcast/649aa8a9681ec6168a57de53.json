@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de53",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-06-17T17:15:53.466Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-06-17T00:00:00.000Z",
+  "guest-name": "Reggie Middleton",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e212",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62acb68b55f79a3315a0350f_Head.png",
+   "alt": null
+  },
+  "company-logo": null,
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard and Reggie Middleton debate the concept of patents and how they fit into the ethos of open source in the world of DeFi. ",
+  "main-content": "<p><strong>A note from host Piers Ridyard.</strong></p><p><strong>Reggie and I had a very interested, and at times heated debate. Since Reggie's patent was issued, a very important Supreme Court case, often just referred to as \"Alice\" has thrown a huge degree of doubt on the validity of any software patent covering an abstract idea. To learn more about Alice (something we discuss at several points in the Podcast), this is a good primer: </strong><a href=\"https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbC11UnFWeGVTUjdRU1hVbkZJSEY1YXFnMHJZUXxBQ3Jtc0trRkI5dlp1VTFlQ2gzS2ctQkt0MXBuZFh0eWhBalI3eHIwTHAzMDhXWTVyV1pCdFhpMUxZNGNpX09fYm1rSUR0dlhzSlFDNGM2MExOUi1xbTNjYUE1ZHRGWjZON3hIYUpwcDd1UzBpMW5pZGF5Q0RUMA&q=https%3A%2F%2Fwww.wipo.int%2Fwipo_magazine%2Fen%2F2019%2F04%2Farticle_0006.html&v=Ilr4_qvIBfc\" target=\"_blank\"><strong>https://www.wipo.int/wipo_magazine/en...</strong></a><br>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-center\" style=\"padding-bottom:33.723653395784545%\" data-rt-type=\"video\" data-rt-align=\"center\" data-rt-max-width=\"\" data-rt-max-height=\"33.723653395784545%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=Ilr4_qvIBfc&t=2s\"><div><iframe src=\"https://www.youtube.com/embed/Ilr4_qvIBfc?start=2\" title=\"Reggie Middleton - What if someone had a patent on DeFi?\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure><p>‍<br>In this episode of the DeFi Download, Piers Ridyard and Reggie Middleton debate the concept of patents and how they fit into the ethos of open source in the world of DeFi.&nbsp;</p><p>Reggie Middleton is Disruptor in Chief, 2013 founder of DeFi, holding active patents in bothJapan and the USA. He is also a predictor of booms and busts and an inventor of P2P capital markets and self-sovereign finance.&nbsp;</p><p><strong>[00:43]</strong> Reggie talks about his background in investment and projects he has been involved with, such as UltraCoin</p><p><strong>[10:20]</strong> Reggie’s reasons and the process for filing his first patent in 2014&nbsp;</p><p><strong>[13:26]</strong> Open-source software is designed around the concept of giving away ideas as the fastest way to build human innovation and is one of the greatest pieces of human cooperation that ever has existed. Are patents antithetical to the ethos of open source?</p><p><strong>[16:24]</strong> What exactly is intellectual property?</p><p><strong>[20:19]</strong> Is the concept of ownership of something tangible and separable the same as the concept of ownership of an idea?</p><p><strong>[21:07]</strong> Intellectual property as legal fiction and patent law jurisdictional discrepancies</p><p><strong>[31:47]</strong> Reasons why people dislike patents</p><p><strong>[38:30]</strong> The moral divide: charging rent to those who have independently developed an idea and established it into a business.</p><p><strong>[41:45]</strong> Multiple people can own an idea or come up with an idea independently.</p><p><strong>[45:44]</strong> The patent test: demonstrating that the idea is innovative enough to support the patent's validity.</p><p><strong>[47:29]</strong> The monetary incentive of owning a patent versus open-source and free exchange of ideas, which results in faster innovation</p><p><strong>[56:33]</strong> Someone using someone else's idea; could they have done it without knowing about that person's idea?</p><h4>Further resources</h4><p>Twitter: <a href=\"https://twitter.com/reggiemiddleton\">@ReggieMiddleton</a></p><p>‍</p><p>‍</p>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10809983-reggie-middleton-what-if-someone-had-a-patent-on-defi",
+  "name": "Reggie Middleton - What if someone had a patent on DeFi?",
+  "slug": "reggie-middleton-what-if-someone-had-a-patent-on-defi"
+ }
+}

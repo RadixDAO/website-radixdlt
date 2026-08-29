@@ -1,0 +1,30 @@
+{
+ "id": "69eb24ef1b0eed71608c57f7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:07:58.509Z",
+ "createdOn": "2026-04-24T08:07:58.509Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": "69eb218cb180744096bf81fc",
+  "full-article-text": "<p id=\"\">When you hear someone refer to “Money Lego” when speaking about DeFi, they’re referring to the concept of “<a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">Composability</strong></a><strong id=\"\">.</strong>” Composability is the ability for different DeFi protocols to interact and function as part of a larger system, thus behaving like lego “bricks” that can be composed together in various configurations. This interoperability allows any protocol in DeFi to benefit from any other DeFi protocol. The whole is thus greater than the sum of its parts. This is a core component of DeFi, as protocols are open-source, <a id=\"\" href=\"https://learn.radixdlt.com/article/is-radix-permissioned-or-permissionless\"><strong id=\"\">permissionless</strong></a>, and can be used by anyone at any time.</p><p id=\"\">The basic point to understand about “Money Lego” is that DeFi apps and platforms can work with each other to your benefit. You can combine the best parts of 4 protocols to create something new.</p><p id=\"\">For example, the Alchemix protocol on <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-ethereum\"><strong id=\"\">Ethereum</strong></a> uses composability to allow users to deposit Dai from Maker as collateral and receive a new USD-stablecoin, alUSD, which they can spend any way they like. Meanwhile, the Dai is placed in Yearn vaults and earns a yield, and that yield is used to pay back the original Dai. In this way, users can get an upfront loan of alUSD and receive all their Dai back once the yield in Yearn pays back the original Dai deposited as collateral. This type of innovation would not be possible without the concepts of “Composability” and “Money Lego.”</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-atomic-composability\"><strong id=\"\">What is Atomic Composability?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-linear-scalability\"><strong id=\"\">What is linear scalability?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-sharding\"><strong id=\"\">What is sharding?</strong></a></li></ul>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": true,
+  "feature-in-search": false,
+  "article-likes": 3,
+  "name": "What is \"Money Lego\"?",
+  "slug": "what-is-money-lego"
+ }
+}

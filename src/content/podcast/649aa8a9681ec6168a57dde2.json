@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dde2",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-03-11T19:09:49.651Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-03-11T00:00:00.000Z",
+  "guest-name": "Breno Araujo",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e0a2",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/622b9df8ee22e45e02fee879_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e0a3",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/622b9e0917e0cc6c24901e00_hUYG3oGh_400x400.jpeg",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Breno, founder of Boto, a platform for building bot-based automations for both developers and non-developers in DeFi and Web3.",
+  "main-content": "<p>Boto's goal is to democratise bots by establishing a community in which both developers and non-developers can create and share automation. To accomplish this, the platform is a simple drag-and-drop block-based one, with no code required to build the automation logic.&nbsp;</p><p><strong>[0:37]</strong> The field of bot-based automations interests many people in the crypto space. Bots, on the other hand, are a persistent source of dissatisfaction. So, how does Boto make bots more accessible?</p><p><strong>[2:59]</strong> Boto's current usage on platforms such as Discord and Orange DAO, as well as the primary use case for which people are currently using Boto</p><p><strong>[4:28]</strong> An example of Boto's automation capabilities</p><p><strong>[8:42]</strong> What are the areas in which the Boto team has seen the most growth? How do they categorise their customer base with NFT monitoring and DeFi arbitration having such dissimilar customer groups?</p><p><strong>[10:02]</strong> How far does Breno believe bots will pervade everyday life? Automation, as well as the concepts of automation software and bots, have been around for quite some time. Is this something that more people are going to incorporate into their daily lives? Or will this remain a relatively niche market, appealing to a specific type of person or person with a specific problem set?</p><p><strong>[12:18]</strong> What sets Boto apart from products like Zapier and IFTTT?</p><p><strong>[14:08]</strong> In his wildest dreams or visions of what the Boto platform can do, what is the nature of problems and the most difficult automation problems that Breno would like to be able to solve with Boto?</p><p><strong>[16:59]</strong> What are some of the tasks that Breno is currently automating with Boto? What are some of the things he can't use it for that frustrate him and make him eager to work on next?</p><p><strong>[19:52]</strong> Boto’s $3.7 million raise during seed funding</p><p><strong>[21:04]</strong> Breno expresses his enthusiasm for building with the team, developing the community site, empowering its users by providing them with the necessary tools, and witnessing the many interesting things people create with the platform and share with one another.</p><p><strong>[26:09]</strong> The example of Typeform and the importance of automation — Boto’s core philosophy of making automation accessible to everyone, and the challenges that entails</p><p><strong>[28:38]</strong> Breno and Piers discuss Ray Dalio’s book <em>Principles</em> and how the system of rules he shares in it can be applied to automation logic.</p><h4>Further resources</h4><ul><li>Website: <a href=\"https://boto.io/\">boto.io</a>&nbsp;</li><li>Twitter: <a href=\"https://twitter.com/useboto\">@useboto</a>&nbsp;</li><li>Discord: <a href=\"https://discord.gg/CDdCPburm5\">discord.gg/CDdCPburm5</a></li></ul>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10233537-boto-making-web3-0-and-crypto-bots-that-anyone-can-use-not-just-the-pros",
+  "name": "Boto: Making Web3.0 and crypto bots that anyone can use, not just the pros.",
+  "slug": "boto-making-web3-0-and-crypto-bots-that-anyone-can-use-not-just-the-pros"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57ddd1",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2022-02-25T17:45:41.527Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2022-02-25T00:00:00.000Z",
+  "guest-name": "Max Kordek",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57e095",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62191585a71e9c6b4bf794fe_Head.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57e096",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62191597023b6953bf485087_lisk-lsk-logo.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard interviews Max Kordek, co-founder of Lisk. Lisk, a blockchain application platform founded in 2016, is a decentralised public Layer-1 that aims to make blockchain technology more accessible by creating a world in which everyone benefits from it.",
+  "main-content": "<p>In this episode of the DeFi Download, Piers Ridyard interviews Max Kordek, co-founder of Lisk. Lisk, a blockchain application platform founded in 2016, is a decentralised public Layer-1 that aims to make blockchain technology more accessible by creating a world in which everyone benefits from it.</p><p>Max Kordek noticed the immense potential of blockchain technology when he first learned about it in 2012. After building his first miner, Max became involved with a variety of communities, ranging from decentralised to more centrally organised. During that time, he discovered that even a cryptocurrency, in its early stages, requires an entity to simply push the project forward to marketing and centrally organise it so that it can lead to something. </p><p>In 2016, Max alongside Oliver Beddow co-founded Lisk, a platform for JavaScript-based blockchain applications headquartered in Zug, Switzerland. Later that year, after Lisk's ICO raised over 14,000 BTC, Max founded Lightcurve, a prominent blockchain development studio based in Berlin. </p><p>Max was previously the community manager of Crypti, from which Lisk was forked. He also formerly served as CEO of the Nxt Organisation.</p><p>[0:49] What was Max doing before founding Lisk, how did he become interested in cryptocurrency, and what prompted him to found Lisk? What was it like in the early months of Lisk's existence?</p><p>[4:21] What was it about spending time in decentralised communities in the pre-Ethereum era that made Max realise that some sort of organising entity would be a good idea? When did he first realise that a platform like Lisk could exist?</p><p>[9:08] What was Crypti’s purpose?</p><p>[10:04] What was the founding ethos and vision of Lisk?</p><p>[13:42] What was the process of going from \"We're going to raise money\" to \"We've raised money,\" and how much money did Lisk raise after launching, putting up their first website, and deciding to do an ICO? What is Max's most vivid recollection of this period?</p><p>[20:52] Lisk uses JavaScript, just like Crypti, from which it was forked. What was the impetus for using JavaScript in the first place? What did they have to do to make it work?</p><p>[24:32] Between 2016 and 2017, the Lisk team worked to rewrite the codebase to make it compatible with their vision. What was going on in the community at the time? How did the Lisk community come to be? Who were the founding members, and how did they expand the community?</p><p>[27:20] What were the hard lessons Max felt he learned at that point as someone who had dealt with the challenges of community management?</p><p>[34:04] What has Lisk changed about the way they run their team to help create a buffer while maintaining visibility in the community and to help their team be mentally tough when faced with challenges?</p><p>[38:16] What is the current size of Lisk, and what was it previously? </p><p>[39:23] What mistakes did they make when forming and scaling the team, and what are they doing now to avoid them?</p><p>[43:16] What are they doing differently this time around to scale the organisation than they did before?</p><p><br><strong>Further resources</strong></p><ul><li>Website: <a href=\"https://lisk.com/\">Lisk Blockchain Application Platform</a></li><li>Discord: <a href=\"http://lisk.chat/\">lisk.chat</a></li><li>Lightcurve.io website: <a href=\"https://lightcurve.io/\">Blockchain development studio | Lightcurve</a></li><li>Twitter: <a href=\"https://twitter.com/LiskHQ\">@LiskHQ</a> and <a href=\"https://twitter.com/MaxKordek\">@maxkordek</a></li></ul><p>‍</p><figure class=\"w-richtext-figure-type-video w-richtext-align-fullwidth\" style=\"padding-bottom:56.206088992974244%\" data-rt-type=\"video\" data-rt-align=\"fullwidth\" data-rt-max-width=\"\" data-rt-max-height=\"56.206088992974244%\" data-rt-dimensions=\"854:480\" data-page-url=\"https://www.youtube.com/watch?v=FbmOBHsFlYo\"><div><iframe src=\"https://www.youtube.com/embed/FbmOBHsFlYo\" title=\"Lisk: a multi-year journey through the early layer 1 wars and the lessons learnt.\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\"></iframe></div></figure>",
+  "podcast-embed-code": "https://radixdlt.buzzsprout.com/874030/10143279-lisk-a-multi-year-journey-through-the-early-layer-1-wars-and-the-lessons-learnt",
+  "name": "Lisk: a multi-year journey through the early layer 1 wars and the lessons learnt.",
+  "slug": "lisk-a-multi-year-journey-through-the-early-layer-1-wars-and-the-lessons-learnt"
+ }
+}

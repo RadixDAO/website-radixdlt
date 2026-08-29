@@ -1,0 +1,30 @@
+{
+ "id": "69eb247e9ce7fee93a648dfa",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:32:09.979Z",
+ "createdOn": "2026-04-24T08:05:45.981Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": {
+   "fileId": "69eb243c9ce7fee93a6483ed",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69eb243c9ce7fee93a6483ed_60ccdf1aaf6db157056a422a_Vector%2520(1).svg",
+   "alt": null
+  },
+  "article-category": "69eb2236577633d72b38483a",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Staking is the network’s barrier against Sybil attack; it increases the cost and difficulty of an attacker reaching a threshold where their node(s) can disrupt the network. Therefore incentive rewards (in the form of newly minted XRD tokens) are provided to those who stake their tokens to active validator nodes. Rewards for staked tokens are proportional to your staked tokens compared with all staked tokens.</p><p id=\"\">The exact calculations and breakdown for mainnet will be released closer to mainnet launch.</p><p id=\"\">Please see <a id=\"\" href=\"/article/what-is-a-sybil-attack\">here</a> within Blockchain &amp; DeFi Basics for what a Sybil attack is.</p><p id=\"\"><br></p><p id=\"\"><br></p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": "69eb1e37d22c65f903fdf05d",
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "How are staking rewards for token holders calculated?",
+  "slug": "how-are-staking-rewards-for-token-holders-calculated"
+ }
+}

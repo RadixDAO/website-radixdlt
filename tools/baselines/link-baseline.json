@@ -1,0 +1,23 @@
+[
+ "asset /images/Radix-Icon-256x256.webp",
+ "asset /images/Radix-Icon-400x400.webp",
+ "asset /images/Radix-Icon-50x50.webp",
+ "asset /images/Radix-Icon-64x64.webp",
+ "asset /images/Radix-Icon-Transparent-256x256.webp",
+ "asset /images/Radix-Icon-Transparent-400x400.webp",
+ "asset /images/Radix-Icon-Transparent-50x50.webp",
+ "asset /images/Radix-Icon-Transparent-64x64.webp",
+ "asset /images/Scrypto-Icon-Round.webp",
+ "asset /images/eRadix-Icon-256x256.webp",
+ "asset /images/eRadix-Icon-400x400.webp",
+ "asset /images/eRadix-Icon-50x50.webp",
+ "asset /images/eRadix-Icon-64x64.webp",
+ "asset /images/radix_logo.webp",
+ "asset /images/radix_logo_black.webp",
+ "asset /images/radix_logo_black_white.webp",
+ "asset /images/radix_logo_darkblack_white.webp",
+ "asset /images/radix_logo_white.webp",
+ "asset /js/site-search.js",
+ "route /archived/old-home",
+ "route /articles-learn/"
+]

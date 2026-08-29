@@ -1,0 +1,26 @@
+{
+ "id": "649aa8a9681ec6168a57dcf5",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-01-13T11:00:38.701Z",
+ "createdOn": "2021-05-03T09:26:32.937Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "featured-member": false,
+  "jersey-team-member": true,
+  "role": "<p>VP&nbsp;Product Operations - RDX&nbsp;Works Ltd</p><p>Head of Operations - Radix Tokens Jersey Ltd</p>",
+  "image": {
+   "fileId": "649aa8a9681ec6168a57dfdd",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608fc5aed3f502271fbfd857_Sophie_Donkin_-_Head_of_Operations_RTJL-removebg-preview.png",
+   "alt": null
+  },
+  "bio-excerpt": "Sophie is an experienced Head of Operations with a demonstrated history of working across industries with rapidly scaling startups. At Radix Sophie leads on many of our regulatory activities as well as helping define processes and ways of working for our Jersey entities.",
+  "twitter": null,
+  "linkedin": "https://www.linkedin.com/in/sophie-donkin/",
+  "blank-item": false,
+  "order": 25,
+  "name": "Sophie Donkin",
+  "slug": "sophie-donkin"
+ }
+}

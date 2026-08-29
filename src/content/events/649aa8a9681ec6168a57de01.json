@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de01",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-20T18:56:09.871Z",
+ "createdOn": "2022-04-24T18:41:47.103Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e24f",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62d84919e374e5b83bceb001_622a2739d8102f326e48580f_podcast.jpeg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "Welcome and come join the \"5 a 7\" of information and social with the Radix Montreal Community. A time for some food, drink, and exchange of info on Web 3 and the emergence of the Radix Engine for DeFi, and Scrypto, the Developer's new best friend for safe building. Reserve early as space will be limited. More about Radix at radixdlt.com . Any questions, reach out to @AfterWave2 and Join the Meetup Channel: https://t.me/Radix_Meetup.",
+  "location": "McKibbin's Irish Pub 6361 Route Transcanadienne · Pointe-Claire, QC",
+  "start-date": "2022-05-17T00:00:00.000Z",
+  "end-date": "2022-05-17T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.meetup.com/montreal-radix-community-meetup-rencontre-communautaire/events/285450526/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link",
+  "name": "Community Meet Up - Montreal",
+  "slug": "community-meet-up-malaysia"
+ }
+}

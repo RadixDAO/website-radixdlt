@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57df09",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2023-02-27T21:24:45.297Z",
+ "createdOn": "2023-02-27T21:24:45.297Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e342",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/63d9261ea4372f0e6c4d6ed5_podcast.jpg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "이번 라딕스 밋업을 서울에서 열게 되었습니다. :) 많은 관심 부탁드립니다. 특히 이번 밋업은 암호화폐 리서치 전문가분이신 스노우님을 모시게되어 디파이의 견해와 라딕스의 미래 가치에 대한 주제로 논의를 할 예정입니다. 많은 참석 부탁드립니다.",
+  "location": "21-2, Sapyeong-daero 57-gil, Seocho- gu, Seoul, Republic of Korea ",
+  "start-date": "2023-03-30T00:00:00.000Z",
+  "end-date": "2023-03-30T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.com/e/radix-meet-up-in-korea-tickets-565074542167",
+  "name": "Radix Community Meetup - Seoul, Republic of Korea",
+  "slug": "radix-community-meetup-seoul-republic-of-korea"
+ }
+}

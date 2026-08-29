@@ -1,0 +1,26 @@
+{
+ "id": "69ee5c9c00396c59bf2eb20a",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-28T18:59:23.705Z",
+ "lastUpdated": "2026-04-28T17:34:18.681Z",
+ "createdOn": "2026-04-26T18:42:36.287Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "order": 1,
+  "username": null,
+  "icon": {
+   "fileId": "69ee5c9c00396c59bf2eb205",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/69ee5c9c00396c59bf2eb205_63becf2baddf3011bb4bb4db_dsor.jpeg",
+   "alt": null
+  },
+  "category": [
+   "69ee5bbd13e17cc4b345c2fa"
+  ],
+  "description": "DSOR (\"dee-soar\") aggregates multiple venues of liquidity in the Radix ecosystem to provide you with the best optimal trade execution. Slick UI design, powerful centralized realtime optimal routes solver, staking + more arriving at Babylon",
+  "github-url": null,
+  "website-url": "https://dsor.io/",
+  "name": "DSOR",
+  "slug": "dsor"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "69eb24ef1b0eed71608c579f",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2026-04-24T09:20:37.231Z",
+ "createdOn": "2026-04-24T08:07:34.580Z",
+ "isArchived": true,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb2256fe795e52e75a3919",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">DLT stands for <a id=\"\" href=\"https://learn.radixdlt.com/article/what-do-distributed-and-decentralized-mean\"><strong id=\"\">distributed</strong></a> <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">ledger</strong></a> technology. <a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">Blockchains</strong></a> and Directed Acyclic Graphs (DAG) are examples of DLT.</p><p id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-radix\"><strong id=\"\">Radix</strong></a> will have a unique data structure different from blockchains and DAGs, hence why Radix is Radix DLT.</p><p id=\"\"><strong id=\"\">Further reading:</strong></p><ul id=\"\"><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-cerberus-2\"><strong id=\"\">What is Cerberus?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-blockchain\"><strong id=\"\">What is a Blockchain?</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/post/cerberus-infographic-series-chapter-i\"><strong id=\"\">Cerberus Infographic Series</strong></a></li><li id=\"\"><a id=\"\" href=\"https://www.radixdlt.com/whitepapers/consensus\"><strong id=\"\">Cerberus White Paper</strong></a></li><li id=\"\"><a id=\"\" href=\"https://learn.radixdlt.com/article/what-is-a-ledger\"><strong id=\"\">What is a ledger?</strong></a></li></ul><p id=\"\">‍</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": null,
+  "name": "What is a DLT?",
+  "slug": "what-is-a-dlt-2"
+ }
+}

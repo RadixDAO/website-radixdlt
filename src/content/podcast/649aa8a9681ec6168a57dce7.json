@@ -1,0 +1,29 @@
+{
+ "id": "649aa8a9681ec6168a57dce7",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": null,
+ "lastUpdated": "2025-12-11T11:00:33.779Z",
+ "createdOn": "2021-04-29T16:52:25.829Z",
+ "isArchived": false,
+ "isDraft": true,
+ "fieldData": {
+  "featured": false,
+  "date": "2021-04-29T00:00:00.000Z",
+  "guest-name": "Kyle Lu",
+  "guest-image": {
+   "fileId": "649aa8a9681ec6168a57dfce",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608ae41337d08460ae142981_Group%2039.png",
+   "alt": null
+  },
+  "company-logo": {
+   "fileId": "649aa8a9681ec6168a57dfd6",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/608ae42703cf4b70508edf41_dapp.com.png",
+   "alt": null
+  },
+  "excerpt": "In this episode of the DeFi Download, Piers Ridyard discusses with Kyle Lu, CEO and founder of dApp.com, a cross-chain platform, where you can discover, analyse and use dApps built on blockchains such as Ethereum, EOS, TRON, WAX, and others.",
+  "main-content": "<h3>dApp.com - building a dApp guide for the world</h3><h5><em>With Kyle Lu, CEO &amp; Founder, dapp.com&nbsp;</em></h5><p>In this episode of the DeFi Download, Piers Ridyard discusses with Kyle Lu, CEO and founder of dApp.com, a cross-chain platform, where you can discover, analyse and use dApps built on blockchains such as Ethereum, EOS, TRON, WAX, and others.</p><p>In this episode of the DeFi Download, Piers Ridyard talks with Kyle Lu, the founder and CEO of dApp.com.&nbsp;</p><p>DApp.com is a leading data-driven marketplace for blockchain applications and services, which provides a suite of metrics, market reports and data insights into over 4000 apps from over 16 different smart-contract platforms.&nbsp;</p><p>DApp.com is at the forefront of an emerging market for blockchain applications.&nbsp;</p><p>[00:00:58] The origins of dApp.com&nbsp;</p><p>[00:02:24] What Kyle considers to be the most significant milestones of the dApp market</p><p>[00:06:20] Differences between decentralised applications launched in 2017-2018 and those launched more recently</p><p>[00:09:31] Kyle’s thoughts on how ledgers are currently used. Is he noticing a substantial increase in applications other than DeFi being developed on Ethereum, as well as any significant DeFi usage on other platforms that is worth discussing?</p><p>[00:13:53] Is Kyle noticing other applications, besides DeFi, being created that may be overshadowed by DeFi’s popularity?</p><p>[00:16:00] What piques Kyle's interest in the DeFi space currently, and what are his predictions regarding its evolution?</p><p>[00:19:35] The structural problems of DeFi and the Radix approach to resolving them</p><p>[00:29:12] How to get more information about dApp.com, what you can do with it, and how to learn more if you are interested in diving into the wonderful world of decentralised applications?</p><h2>Further resources</h2><ul><li>Website: <a href=\"https://www.dapp.com/\">dapp.com</a></li><li>Twitter: <a href=\"https://twitter.com/dapp_com\">@dapp_com</a></li><li>Telegram:&nbsp; <a href=\"https://t.me/dapp_com\">t.me/dapp_com</a></li></ul><p>‍</p>",
+  "podcast-embed-code": "https://www.buzzsprout.com/874030/8429154-dapp-com-building-a-dapp-guide-for-the-world",
+  "name": "dApp.com - building a dApp guide for the world",
+  "slug": "dapp-com-building-a-dapp-guide-for-the-world"
+ }
+}

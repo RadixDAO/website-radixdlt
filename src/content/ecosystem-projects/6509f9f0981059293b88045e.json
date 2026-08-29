@@ -1,0 +1,21 @@
+{
+ "id": "6509f9f0981059293b88045e",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2025-02-03T15:54:34.264Z",
+ "lastUpdated": "2025-02-03T15:50:58.947Z",
+ "createdOn": "2023-09-19T19:43:44.796Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "logo": {
+   "fileId": "6509f9ee65f6564c8c563182",
+   "url": "https://cdn.prod.website-files.com/60540b6d30224a7cb015203a/6509f9ee65f6564c8c563182_eco-logo-14.png",
+   "alt": null
+  },
+  "circle-logo": true,
+  "circle-border-radius-on-ecosystem-page": true,
+  "shadow-on-ecosystem-page": true,
+  "name": "Weft",
+  "slug": "eco-14"
+ }
+}

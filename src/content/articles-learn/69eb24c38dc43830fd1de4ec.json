@@ -1,0 +1,26 @@
+{
+ "id": "69eb24c38dc43830fd1de4ec",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2026-04-27T08:18:20.118Z",
+ "lastUpdated": "2026-04-24T08:06:55.267Z",
+ "createdOn": "2026-04-24T08:06:55.267Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "icon": null,
+  "article-category": "69eb22f6152b91c44551c7b2",
+  "sub-category": null,
+  "full-article-text": "<p id=\"\">Instapass was built using our own team’s past experience in building and operating secure systems that manage sensitive, personal information. All data stored within the Instapass system is encrypted to ensure security.&nbsp;</p><p id=\"\">As well as this, Instapass uses <a id=\"\" href=\"https://sumsub.com/\">SumSub</a> to conduct ID and address verification and store documentation. SumSub is trusted by 1000s of companies and institutions worldwide, and has certifications against PCI DSS and ISO/IEC 27001, and GDPR. You can learn more about how SumSub keeps your data safe <a id=\"\" href=\"https://sumsub.com/security-compliance/\">here</a>.</p>",
+  "top-note": "",
+  "bottom-note-extra-tip": "",
+  "author": null,
+  "article-video": null,
+  "featured-in-homepage": false,
+  "featured-in-header": false,
+  "feature-in-category-header": false,
+  "feature-in-search": false,
+  "article-likes": 1,
+  "name": "Is Instapass secure?",
+  "slug": "is-instapass-secure"
+ }
+}

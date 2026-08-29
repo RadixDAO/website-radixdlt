@@ -1,0 +1,25 @@
+{
+ "id": "649aa8a9681ec6168a57de81",
+ "cmsLocaleId": "653ad18be882f528b3005330",
+ "lastPublished": "2023-06-27T09:16:16.378Z",
+ "lastUpdated": "2022-07-29T14:56:45.532Z",
+ "createdOn": "2022-07-27T12:55:32.203Z",
+ "isArchived": false,
+ "isDraft": false,
+ "fieldData": {
+  "event-image": {
+   "fileId": "649aa8a9681ec6168a57e25c",
+   "url": "https://uploads-ssl.webflow.com/60540b6d30224a7cb015203a/62e13596088f42c47e9da743_podcast.jpg",
+   "alt": null
+  },
+  "event-category": "90ad4a1fa8cf5467ab8fd98b0cece705",
+  "description": "The Radix community in Oslo is organizing its first meetup event, with many more to come! Make sure to stop by and have a casual chat about crypto, DeFi, and RadixDLT. It’ll be a fun, welcoming event with free food and drinks.",
+  "location": "Youngs Oslo 3 Youngstorget 0181 ungstorget Norway",
+  "start-date": "2022-08-04T00:00:00.000Z",
+  "end-date": "2022-08-04T00:00:00.000Z",
+  "event-link-text": "RSVP NOW",
+  "event-link-url": "https://www.eventbrite.co.uk/e/radix-community-meetup-oslo-tickets-391495342107",
+  "name": "Radix Community Meetup - Oslo",
+  "slug": "radix-community-meetup-oslo"
+ }
+}
