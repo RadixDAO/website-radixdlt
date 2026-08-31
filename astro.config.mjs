@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://radixdlt.com',
+  site: 'https://www.radixdlt.com',
   output: 'static',
   // Webflow serves /foo, not /foo/ -- match it exactly so no URL changes at cutover.
   trailingSlash: 'never',
