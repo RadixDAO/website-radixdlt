@@ -1,0 +1,26 @@
+---
+title: "Token Holder Consultation Result"
+slug: "token-holder-consultation-result"
+date: "2025-05-20T00:00:00.000Z"
+author: "radix"
+categories:
+  - "token"
+excerpt: "Over the 10-day consultation period, over 1.3 billion XRD* worth of holdings across 1,180 accounts participated. Of the total weighted input, just over 91% signaled in favor of the proposal to repurpose the reserve toward long-term ecosystem growth. "
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/682c9366d215b2b73083cfc2_concultation-cocnluded.png"
+  alt: null
+video: null
+legacy:
+  id: "682c821df146a352d30ed4b3"
+  createdAt: "2025-05-20T13:22:37.249Z"
+  updatedAt: "2025-05-20T14:53:11.427Z"
+  publishedAt: "2025-07-04T17:18:38.178Z"
+---
+
+<p id=""><a id="" href="https://www.radixdlt.com/blog/token-holder-consultation-is-now-live">The consultation</a> on the future of the 2.4 billion XRD Stablecoin Reserve has officially concluded.</p><p id="">Over the 10-day period, more than <strong id="">1.3 billion XRD</strong> worth of holdings across <strong id="">1,180 accounts</strong> participated. Of the total weighted input, <strong id="">91% supported</strong> the proposal to repurpose the reserve toward long-term ecosystem growth.</p><p id="">Results:</p><ul id=""><li>In favour: 1,204,898,492.29 XRD</li><li>Against: 116,589,782.96 XRD</li></ul><p id="">This result reflects growing confidence in the Radix Foundation's strategy to shift from infrastructure buildout to accelerating adoption of the live Radix platform.</p><p id=""><strong id="">Supported Actions:</strong></p><ul id=""><li><strong id="">1 billion XRD</strong> for a multi-season incentives campaign to boost on-chain liquidity and economic activity</li><li><strong id="">1 billion XRD</strong> for a Growth Fund to support strategic initiatives such as top-tier exchange listings, bridges, and VC partnerships.</li><li><strong id="">~6 billion XRD supply reduction</strong> by shortening the emission schedule by 20 years</li><li><strong id="">400 million XRD</strong> held in reserve for potential extension or future burn</li></ul><p id="">Participation used ROLA proofs via the Radix Wallet, ensuring gas-free, off-ledger, cryptographically verifiable signaling. You can download the full results <a id="" href="/assets/682c7cfb5b65e4ba34ae0d44_Consultation_voting_results-Account_voting_details.csv">here</a>.&nbsp;</p><p id=""><strong id="">What’s next</strong></p><p id="">With the community’s support now confirmed, the Foundation will move forward with finalizing the structure of the Incentives Campaign and preparing for the rollout of its first season. Work also begins on deploying the Growth Fund through carefully targeted BD efforts.</p><p id="">More details on both will be shared in the weeks ahead.</p><p id="">To everyone who took the time to participate, thank you.&nbsp;</p><blockquote id="">*Assets included in XRD weighting: XRD, LSUs, unstaking XRD, LSULP, XRD in Root, XRD in WEFT, LSULP in Root, LSULP in Weft.&nbsp;</blockquote>

@@ -32,7 +32,22 @@ export async function staticListItems(key: string): Promise<CmsItem[]> {
   if (!entry || entry.empty || !entry.items?.length) return [];
   const items = await liveItems(entry.collection as CollectionSlug);
   const bySlug = new Map(items.map((i) => [i.fieldData.slug as string, i]));
-  return entry.items
+  const selected = entry.items
     .map((slug) => bySlug.get(slug))
     .filter((i): i is CmsItem => !!i);
+
+  // The captured Webflow selections predate newly added local CMS records. Keep the
+  // existing snapshot intact, while allowing posts dated after its newest entry to
+  // appear in the two "recent posts" lists. The original item count is retained so
+  // this does not change either page's layout or pagination assumptions.
+  if (entry.collection === 'blog' && (key === 'blog#1' || key === 'all-recent-posts#0')) {
+    const newestSelected = Math.max(...selected.map((item) => Date.parse(item.fieldData.date as string) || 0));
+    const additions = items
+      .filter((item) => !entry.items!.includes(item.fieldData.slug as string))
+      .filter((item) => (Date.parse(item.fieldData.date as string) || 0) > newestSelected)
+      .sort((a, b) => (Date.parse(b.fieldData.date as string) || 0) - (Date.parse(a.fieldData.date as string) || 0));
+    return [...additions, ...selected].slice(0, entry.items.length);
+  }
+
+  return selected;
 }

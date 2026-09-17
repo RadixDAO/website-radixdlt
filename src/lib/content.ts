@@ -1,8 +1,7 @@
-// CMS data access, backed by Astro's content collections (src/content.config.ts)
-// instead of reading reference/webflow/items/*.json directly (that's what
-// src/lib/detail-data.mjs still does -- this module is the next-generation
-// replacement, proven equivalent by tools/test-content-equivalence.mjs, but not
-// yet wired into any page/layout).
+// CMS data access, backed by Astro's content collections (src/content.config.ts).
+// Most collections still contain the original Webflow JSON shape. Blog posts use
+// editor-friendly Markdown and are normalised here so the rest of the site can use
+// one read model while the remaining collections are migrated independently.
 //
 // Same public shape as detail-data.mjs (liveItems, itemById, getPaths, plus the
 // re-exported assetPath/rewriteAssetUrls, which are collection-agnostic and don't
@@ -42,8 +41,71 @@ export interface CmsItem {
   fieldData: Record<string, unknown>;
 }
 
+interface BlogFrontmatter {
+  title: string;
+  slug: string;
+  date: string | null;
+  author: string | null;
+  categories: string[];
+  excerpt: string | null;
+  seoDescription: string | null;
+  featured: boolean;
+  showToc: boolean;
+  archived: boolean;
+  draft: boolean;
+  bodyFormat: 'html' | 'markdown';
+  image: { src: string; alt: string | null } | null;
+  video: { poster: string | null; mp4: string | null; webm: string | null } | null;
+  legacy: {
+    id: string;
+    createdAt: string;
+    updatedAt: string;
+    publishedAt: string | null;
+  };
+}
+
+function markdownBlogItem(entry: {
+  id: string;
+  data: BlogFrontmatter;
+  body?: string;
+  rendered?: { html?: string };
+}): CmsItem {
+  const data = entry.data;
+  return {
+    id: data.legacy.id,
+    cmsLocaleId: '',
+    lastPublished: data.legacy.publishedAt,
+    lastUpdated: data.legacy.updatedAt,
+    createdOn: data.legacy.createdAt,
+    isArchived: data.archived,
+    isDraft: data.draft,
+    fieldData: {
+      date: data.date,
+      'show-table-of-contents': data.showToc,
+      'blog-author': data.author,
+      'featured-post': data.featured,
+      'blog-category': data.categories,
+      image: data.image ? { fileId: '', url: data.image.src, alt: data.image.alt } : null,
+      excerpt: data.excerpt,
+      'main-content': data.bodyFormat === 'html'
+        ? entry.body ?? ''
+        : entry.rendered?.html ?? entry.body ?? '',
+      'seo-meta-description': data.seoDescription,
+      'use-video-over-image': !!data.video,
+      'video-code': data.video?.poster ?? null,
+      'video-mp4-url': data.video?.mp4 ?? null,
+      'video-webm-url': data.video?.webm ?? null,
+      name: data.title,
+      slug: data.slug,
+    },
+  };
+}
+
 async function allItems(collection: CollectionSlug): Promise<CmsItem[]> {
   const entries = await getCollection(collection);
+  if (collection === 'blog') {
+    return entries.map((entry) => markdownBlogItem(entry as unknown as Parameters<typeof markdownBlogItem>[0]));
+  }
   return entries.map((e) => e.data as CmsItem);
 }
 

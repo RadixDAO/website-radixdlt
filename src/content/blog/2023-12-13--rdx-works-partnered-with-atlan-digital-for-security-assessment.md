@@ -1,0 +1,27 @@
+---
+title: "RDX Works partnered with Atlan Digital for Security Assessment"
+slug: "rdx-works-partnered-with-atlan-digital-for-security-assessment"
+date: "2023-12-13T00:00:00.000Z"
+author: "rdx-works"
+categories:
+  - "product-roadmap"
+  - "crypto-defi"
+excerpt: null
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/6579793f91332c812ff609ca_image1.jpg"
+  alt: null
+video: null
+legacy:
+  id: "657979ab2a199526947b2346"
+  createdAt: "2023-12-13T09:30:19.107Z"
+  updatedAt: "2023-12-13T14:57:37.485Z"
+  publishedAt: "2023-12-19T14:51:31.402Z"
+---
+
+<p id="">Radix Publishing is proud to announce the successful collaboration between RDX Works and Atlan Digital for a comprehensive security assessment conducted before the Babylon network upgrade.&nbsp;</p><p id="">In preparation for the Babylon Upgrade, RDX Works engaged Atlan Digital to conduct an exhaustive security assessment of various parts of the Radix Tech Stack. This assessment was a vital component of the pre-launch strategy, encompassing the Radix cloud infrastructure, Kubernetes cluster security, and the iOS and Android applications.&nbsp;</p><p id="">The assessment also thoroughly reviewed Web 3 applications integrated with the Ethereum blockchain and the Radix distributed ledger. Identifying and addressing potential vulnerabilities was a top priority, ensuring a robust and secure launch of the Babylon Upgrade.</p><h2 id=""><strong id="">A Testament to Collaboration and Expertise</strong></h2><blockquote id="">Raul Velaz Mayo, Head of Engineering at RDX Works, reflects on the partnership:</blockquote><blockquote id="">“<em id="">Atlan has been an invaluable partner for RDX Works in conducting a comprehensive security assessment. Their expertise was instrumental in defining and executing a clear project outline. Atlan's thorough approach and commitment to deadlines provided us with the insights needed to fortify our platform. Their detailed reports and actionable recommendations have been pivotal in enhancing our security measures, ensuring a successful launch of the Babylon Upgrade.</em>”</blockquote><p id="">Raul’s appreciation for Atlan's role in enhancing RDX Works' security is a sentiment that resonates deeply with Tom Kallo, Managing Director and founder. Kallo's experience working with RDX Works mirrors this perspective, further underscoring this partnership's mutual respect and efficacy.</p><blockquote id="">Tom Kallo - Managing Director &amp; Founder</blockquote><blockquote id=""><em id="">“Working with RDX Works was an absolute pleasure - namely because it’s so rare to have a client that is so able and willing to collaborate, providing access to their source code, and responding immediately to our recommendations live throughout the engagement, and carefully remediating and re-implementing to make their components secure for their user base. Alongside this, they have an excellent team, fantastic vision, and execution of a much-needed professional overhaul of a crypto industry that has had historic usability and security issues. We hope to continue working with RDX and look forward to seeing Radix DLT’s continued growth and evolution.”</em>‍</blockquote><p id="">‍<strong id="">Website:</strong><a id="" href="https://www.atlan.digital">https://www.atlan.digital<br></a><strong id="">X: </strong><a id="" href="https://twitter.com/AtlanDigital">https://twitter.com/AtlanDigital<br></a><strong id="">Atlan Digital Case studies:</strong><a id="" href="https://www.atlan.digital/case-studies">https://www.atlan.digital/case-studies</a></p>

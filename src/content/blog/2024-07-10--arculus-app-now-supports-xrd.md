@@ -1,0 +1,27 @@
+---
+title: "Arculus App Now Supports XRD"
+slug: "arculus-app-now-supports-xrd"
+date: "2024-07-10T00:00:00.000Z"
+author: null
+categories:
+  - "community-ecosystem"
+  - "crypto-defi"
+excerpt: "Radix token holders will be pleased to know that XRD is now available on the multi-network Arculus mobile wallet app for both iOS and Android. "
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/668e4d7823d1c61149a062b7_image2.png"
+  alt: null
+video: null
+legacy:
+  id: "668e4daa7a4427d791896dcb"
+  createdAt: "2024-07-10T09:00:26.562Z"
+  updatedAt: "2024-07-10T14:55:57.623Z"
+  publishedAt: "2024-07-11T13:38:06.409Z"
+---
+
+<p id="">Radix token holders will be pleased to know that XRD is now available on the multi-network Arculus mobile wallet app for both <a id="" href="https://apps.apple.com/us/app/arculus-wallet/id1575425801">iOS</a> and <a id="" href="https://play.google.com/store/apps/details?id=co.arculus.wallet.android&hl=en&pli=1">Android</a>.&nbsp;</p><p id="">Arculus is a cold storage wallet designed to secure crypto and NFTs. It was built by CompoSecure, a NASDAQ-listed company that combines decades of technological innovation with award-winning craftsmanship to create sought-after metal cards.&nbsp;</p><p id="">Named after the ancient Roman god of safes and strongboxes, Arculus safeguards digital assets with a secure metal card and mobile app, ensuring that you have control over your private keys. The Arculus Card is classified as a Secure Element and embedded with a chip that uses NFC technology to communicate with your iOS or Android device.</p><p id="">With XRD now available on the Arculus App, Radix token holders can send XRD held in the app by signing transactions with a simple one-tap of their Arculus Card. The Arculus App only supports holding and sending XRD; you cannot interact with Radix dApps with Arculus until the Radix Wallet App adds support for the Arculus Card.</p><p id="">To start using XRD in the Arculus App, open the iOS or Android app, tap the "Coins" icon, scroll down and tap “Manage Assets”, and then flip the switch on for XRD and tap your Arculus Card to create the account. It will then show Radix in your Arculus App. For more help setting up Arculus, <a id="" href="https://support.arculus.co/hc/en-us/articles/17973900189591-Managing-your-list-of-currencies-Adding-custom-tokens">follow the steps outlined in this helpful guide</a>.&nbsp;</p><h2 id=""><strong id="">The Arculus Card and Radix Multi-Factor Authentication</strong></h2><p id="">In addition to being able to hold XRD in the Arculus App, the Radix Wallet will be introducing support for the Arculus Card as a signing factor as part of the upcoming multi-factor control and recovery feature in the Radix Wallet. This will utilize the Radix Network’s <a id="" href="https://www.radixdlt.com/blog/how-radix-multi-factor-smart-accounts-work-and-what-they-can-do">unique "Smart Account" features</a> that allow users to configure multiple signing factors when making transactions with the Radix Wallet and to use multiple factors to recover control of Accounts or Personas.&nbsp;</p><p id="">Combining the Arculus Card, featuring a CC EAL6+ secure element, with the Radix Wallet experience, users will be able to enjoy Fort Knox-level security with the simplicity of a traditional banking app.&nbsp;</p><p id=""><strong id="">Important:</strong> While current Arculus Cards work with the Arculus App (including XRD), they won’t be compatible with the upcoming Radix Wallet with multi-factor support. An updated version of the Arculus Cards (including the Special Edition card described below) will add support for use as a Radix Wallet signing factor, and will be released prior to the launch of multi-factor support in the Radix Wallet.&nbsp;</p><h2 id=""><strong id="">Special Edition Arculus Card for Radix</strong></h2><p id="">When the <a id="" href="https://www.radixdlt.com/blog/arculus-partners-with-radix-to-support-mfa">partnership with Arculus</a> was first announced in January 2024, a special Radix-branded Arculus Card was teased. Production of these cards is proceeding well and should be ready with plenty of time to spare before multi-factor support is added to the Radix Wallet.&nbsp;</p><figure id="" class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1600px" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="1600px"><div id=""><img id="" alt="" src="/assets/668e4d173b362b138c7d2077_AD_4nXeTcb5jd7Zlpl408Vmqk7HvB6Uy6aSQ63C3qIdO_BXP10d68N6E3nrMFMt6wcJuJM8U3KLDP-b1_3nXDO4yXp4AAD35DPXZ7S2DeuP_NJS1PP9c3Be6bRDsIeS5TPKo0YSQCKC6ThN02JnPezgfWtbDVk.png" width="auto" height="auto" loading="auto"></div></figure><p id="">Full details of how to purchase one of the Radix-branded Arculus Cards will be published once production is complete. The good news is that these cards will be the updated version that is compatible with the Radix Wallet multi-factor systems from launch.&nbsp;</p><h2 id=""><strong id="">More Information</strong></h2><p id=""><a id="" href="https://support.arculus.co/hc/en-us/articles/17973900189591-Managing-your-list-of-currencies-Adding-custom-tokens">Guide: Adding Tokens to Arculus&nbsp;</a></p><p id=""><a id="" href="https://www.getarculus.com/">Website</a></p><p id=""><a href="https://twitter.com/thisisarculus">X (Twitter) </a></p>

@@ -1,0 +1,26 @@
+---
+title: "Explain it like I'm 5 - Consensus vs Sybil"
+slug: "explain-it-like-im-5-consensus-vs-sybil"
+date: "2020-04-16T00:00:00.000Z"
+author: "rdx-works"
+categories:
+  - "radix-labs"
+excerpt: null
+seoDescription: "A short overview of differences between sybil protection and a consensus algorithm, with an eli-5 style explanation."
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/629dc4bcc71d5f3332efa975_60927d265845ef1df2e4b21d_emily-morter-8xAA0f9yQnE-unsplash-scaled-1.jpeg"
+  alt: null
+video: null
+legacy:
+  id: "649aa8a9681ec6168a57dcfa"
+  createdAt: "2021-04-27T08:17:19.206Z"
+  updatedAt: "2024-12-04T18:13:33.522Z"
+  publishedAt: "2024-12-04T18:17:19.339Z"
+---
+
+<h3 id="">The great misconception</h3><p id="">Proof of Stake is not a consensus algorithm, however, it frequently gets mistaken as one!<br></p><p id="">This is an issue that is discussed quite frequently by the crypto community, especially when discussing the scalability of potential consensus algorithms. It normally takes the form of: How can you scale with PoS? I thought POS scaling is impossible? If you use POS then scaling just isn’t going to work right?<br></p><p id="">This misconception is quite popular due to the fact that sybil protection and consensus algorithms have been ‘close’ to each other - this is particularly the case with Proof of Work, which is actually a sybil protection mechanism (yes!) that produces a consensus mechanism, while many confuse it with the consensus algorithm itself.<br></p><p id="">So, let’s take a step back and try to understand, what actually is a consensus mechanism in a decentralized network?</p><h3 id="">How to define consensus for public networks?</h3><p id="">In layman's terms, a consensus algorithm is a way that a bunch of computers can <strong id="">reach an agreement.</strong><br></p><p id="">Consensus algorithms are essential for Distributed Ledger Technology (DLT) to function. They are used to verify which data submitted to a shared ledger should be retained as correct, and which should be ignored.<br></p><p id="">If the network in question is both ‘trustless’ and ‘permissionless’, any computer may join the network and, once on it, may submit data to be written to the ledger.<br></p><p id="">In such a system, the&nbsp; rules that help all the computers decide whether that data should be kept or thrown away are the rules of the consensus algorithm . If the algorithm has been followed, the other nodes will accept the input, if the algorithm has not been followed, those inputs can be ignored.<br></p><h3 id="">What’s a Sybil attack?</h3><p id="">One of the greatest problems in distributed “trustless” networks is therefore how to achieve this agreement without knowing which computers can be trusted and which cannot be. To accomplish this, the consensus algorithm must be resistant to both unreliable and/or malicious actors attempting to hijack the network – even if said actors make up a large proportion of the network. How can a group of uncoordinated actors reach an agreement on a strategy to avoid failure when they know that some, even many, users will be unreliable and they have no way of trusting each other?<br></p><p id="">Think of the book <a id="" href="https://en.wikipedia.org/wiki/Sybil_(Schreiber_book)">Sybil</a> - a story of a woman, who had a multiple personality disorder (16 personalities!) - now think how an attacker, claiming to be in fact multiple different entities, can wreak havoc among a network that works on the basis of a common agreement of multiple nodes.<strong id="">&nbsp; Given this, a Sybil attack can be described as creating multiple false identities in a distributed network, in order to gain control of it.&nbsp;</strong><br></p><h3 id="">Sooo...could you explain it like I’m 5?</h3><p id="">Let’s try with an example - a public election. In this election, the goal is to choose a leader&nbsp; (say, a president). There are two candidates running for this position - A and B. Every adult citizen of the country can vote.<br></p><p id="">There’s only one way to agree which candidate is elected - the one who gets 50% +1 votes from all the adult citizens who decided to vote.<br></p><p id="">For the sake of our example, let’s say candidate A won - 60% votes in favor of him.</p><h3 id="">What would consensus and sybil protection be in this scenario?</h3><p id="">The rules of the voting process - who wins - would be the consensus algorithm; i.e. a way of reaching an agreement on moving forward.<br></p><p id="">Identifying people who are eligible to take part in the election as voters and ensuring they are not voting multiple times - that would be a sybil protection mechanism.<br></p><p id="">While identifying the people who are eligible to vote can take a very long time, once validated voting can be done very quickly.<br></p><p id="">This, in essence, is why Proof of Stake (sybil), while it may be slow as a process, does not mean consensus is slow or hard to scale.&nbsp;&nbsp;<br>If you’re interested in this topic, check out our <a id="" href="https://www.buzzsprout.com/874030/episodes/2901772-ducktales-an-introduction-to-cerberus">podcast</a> - where Founder where Dan and Matt get much more into the details of these two endlessly fascinating topics!</p>

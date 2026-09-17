@@ -1,0 +1,26 @@
+---
+title: "eXRD is now trading on Bitfinex"
+slug: "exrd-is-now-trading-on-bitfinex"
+date: "2021-01-21T00:00:00.000Z"
+author: "radix-tokens-jersey"
+categories:
+  - "token"
+excerpt: null
+seoDescription: null
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/629dc4a5f9aee96671e47f4f_608973f7b83e1e5bcc6d68cd_Bitfinex-1024x512.png"
+  alt: null
+video: null
+legacy:
+  id: "649aa8a9681ec6168a57dccb"
+  createdAt: "2021-04-27T08:17:57.363Z"
+  updatedAt: "2023-07-20T11:31:08.830Z"
+  publishedAt: "2023-07-24T09:21:21.692Z"
+---
+
+<p id="">Today marks another milestone in the Radix journey, as the eXRD token has been listed on Bitfinex with USD/eXRD and BTC/eXRD trading pairs.</p><p id=""><strong id=""><em id="">Trading on Bitfinex opened at 12:00 UTC on January 21st, 2021. </em></strong></p><p id=""><a id="" href="https://trading.bitfinex.com/t/EXRD:USD"><strong id=""><em id="">Click here</em></strong></a><strong id=""><em id=""> to go directly to the eXRD pairs on Bitfinex.</em></strong></p><p id="">Since launching the eXRD token back in November, there has been a great deal of support for the token on <a id="" href="https://info.uniswap.org/pair/0x684b00a5773679f88598a19976fbeb25a68e9a5f">Uniswap</a>, with over $20m of liquidity and $12m of volume in the last 7 days. The growth in market size has also been accompanied by the eXRD market cap and token price increasing, resulting in a series of supply unlocks as per the <a id="" href="https://www.radixdlt.com/post/the-radix-economics-a-token-for-an-ecosystem/">price-based unlocking mechanism</a>. The most recent unlock occurred on January 19th, 2021, when the 7-day simple moving average price of eXRD exceeded $0.13. </p><p id="">It has been fantastic to see eXRD do well on Uniswap and DeFi as a whole reaching an all-time high with over $25Bn of total value locked in the industry. However, there is still an important role played by centralised exchanges such as Bitfinex in supporting the long term health of the Radix token economy. </p><p id="">Bitfinex is one of the largest cryptocurrency exchanges in the world, consistently reaching over $1Bn in 24hr trading volume with a wide range of markets and pairs. For Radix, the BTC/eXRD pair also opens up a large new market that is not directly accessible on Ethereum only platforms like Uniswap. </p><p id="">As a centralised exchange, Bitfinex has a different fee structure compared to Uniswap that has benefits such as not requiring an Ethereum gas fee when making trades. As part of the Bitfinex listing, new Bitfinex accounts created using <a id="" href="https://www.bitfinex.com/?refcode=88vRidhaZ">this link</a> will benefit from a 6% rebate on trading fees over the next 30 days. </p><p id="">The new markets and trading options provided by the Bitfinex listing is an important step forward for eXRD, and there are more discussions on-going to provide additional markets for eXRD token holders that will facilitate further token distribution ahead of the Radix Public Network launch in Q2-2021. </p><p id="">Thank you for your continued support of Radix, and our mission to power the future global mass adoption of decentralised financed.</p><p id="">‍</p><p id=""><em id="">*This publication is made on behalf of Radix Tokens Jersey Limited, a company registered in Jersey with registration number 132555 and the expressions “Radix”, “RTJL”, “we”, “us”, “our” or “team” shall be construed accordingly Radix Tokens (Jersey) Limited is incorporated and operated under the supervision of the Jersey Financial Services Commission.</em></p>

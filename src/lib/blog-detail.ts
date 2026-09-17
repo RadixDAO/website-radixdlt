@@ -18,7 +18,7 @@
 // for a guess; the shell/bindings themselves are left in place per the plan until
 // every collection is nativised, not just read here as page-independent CMS data.
 import { readFileSync, existsSync } from 'node:fs';
-import { itemById, liveItems, assetPath, rewriteAssetUrls, type CmsItem } from './content';
+import { liveItems, assetPath, rewriteAssetUrls, type CmsItem } from './content';
 
 const SITE = 'https://www.radixdlt.com';
 
@@ -107,9 +107,10 @@ export const richText = (item: CmsItem): string =>
   rewriteAssetUrls((item.fieldData['main-content'] as string) ?? '');
 
 export async function getCategories(item: CmsItem): Promise<CategoryRef[]> {
-  const ids = (item.fieldData['blog-category'] as string[] | null) ?? [];
-  const refs = await Promise.all(ids.map((id) => itemById(id)));
-  return refs
+  const slugs = (item.fieldData['blog-category'] as string[] | null) ?? [];
+  const bySlug = await categoryBySlug();
+  return slugs
+    .map((slug) => bySlug.get(slug))
     .filter((r): r is CmsItem => !!r)
     .map((r) => ({
       slug: r.fieldData.slug as string,
@@ -119,10 +120,18 @@ export async function getCategories(item: CmsItem): Promise<CategoryRef[]> {
     }));
 }
 
+let authorBySlugPromise: Promise<Map<string, CmsItem>> | null = null;
+function authorBySlug(): Promise<Map<string, CmsItem>> {
+  if (!authorBySlugPromise) {
+    authorBySlugPromise = liveItems('blog-author').then((items) => new Map(items.map((i) => [i.fieldData.slug as string, i])));
+  }
+  return authorBySlugPromise;
+}
+
 export async function getAuthor(item: CmsItem): Promise<AuthorRef | null> {
-  const id = item.fieldData['blog-author'] as string | null;
-  if (!id) return null;
-  const a = await itemById(id);
+  const slug = item.fieldData['blog-author'] as string | null;
+  if (!slug) return null;
+  const a = (await authorBySlug()).get(slug);
   if (!a) return null;
   return { slug: a.fieldData.slug as string, name: (a.fieldData.name as string) ?? '' };
 }

@@ -1,0 +1,26 @@
+---
+title: "Tech Talk: Using RadQuest to Onboard New Users"
+slug: "tech-talk-using-radquest-to-onboard-new-users"
+date: "2024-07-29T00:00:00.000Z"
+author: null
+categories:
+  - "scrypto-developers"
+excerpt: null
+seoDescription: null
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/66a8dec72fb772fd2adc3565_Using-RadQuest-Assets-with-your-dApp.png"
+  alt: null
+video: null
+legacy:
+  id: "66a7d9d9dfc7850f3ab2f8ca"
+  createdAt: "2024-07-29T18:05:13.189Z"
+  updatedAt: "2024-07-30T14:48:14.503Z"
+  publishedAt: "2024-07-30T14:58:42.036Z"
+---
+
+<p id="">With the launch of <a id="" href="https://www.radixdlt.com/blog/radquest-redefining-web3-onboarding"><strong id="">RadQuest</strong></a>, developers have a range of new tools they can use to help onboard new users into Radix and into their dApp. To enable this, RadQuest includes the possibility of dApps linking users to RadQuest, and have those users directed back to your dApp when they have the Radix Wallet. RadQuest will help them understand the basics of using Radix and the Wallet, and they can then use your dApp with confidence.</p><p id="">The mechanism to do this is a <strong id="">dapp_referrer</strong> parameter that can be passed to RadQuest, specifying the dApp Definition of your dApp.&nbsp; This parameter has also been enabled on the official Radix Wallet download page at wallet.radixdlt.com, if you would prefer to onboard more experienced users to the Radix Wallet more directly rather than through RadQuest.</p><p id="">This guide explains the essentials of using this parameter and offers some best practices for integrating it into your dApp.</p><h3 id=""><strong id="">Usage Instructions</strong></h3><p id="">Both RadQuest and Radix Wallet download pages accept the <strong id="">dapp_referrer</strong> URL parameter. <strong id="">Its function is to ensure users are directed back to your referring dApp</strong> immediately after they get the Radix Wallet, making user onboarding more smooth. Here is how it works:</p><ol id=""><li id="">From your dApp’s website, link to <a id="" href="http://radquest.io">RadQuest</a> or the <a id="" href="http://wallet.radixdlt.com">Radix Wallet download page</a> wherever you feel appropriate for onboarding your users into the Radix Wallet. When creating the link, <strong id="">add the dapp_referrer parameter to the URL</strong>. The value of this parameter is&nbsp; your dApp’s <a id="" href="https://docs.radixdlt.com/docs/dapp-definition-setup">dApp Definition</a> account address. (See example below.)</li><li id="">When a user clicks on the link, they will be sent to RadQuest or the Radix Wallet download page as normal, but those websites will keep track of the referring dApp when linking the user to the App Store or Play Store to get the Radix Wallet..</li><li id="">After downloading and installing the Radix Wallet, <strong id="">a banner will appear in the wallet, informing the user that they are set up and ready to return to the referring dApp</strong>, showing your dApp’s icon defined in the dApp Definition metadata.</li></ol><h3 id=""><strong id="">Benefits</strong></h3><ul id=""><li id=""><strong id="">Seamless Onboarding:</strong> Even users of your dApp that are new to Radix can be smoothly onboarded, with confidence that they will return to your dApp once they’re ready.&nbsp;</li><li id=""><strong id="">Brand Consistency:</strong> The visibility of the dApp’s icon in the wallet after installation reinforces brand identity and trust.</li></ul><h3 id=""><strong id="">Example URLs</strong></h3><p id="">Using the Gumball Club dApp definition address:</p><ul id=""><li id="">&nbsp;For a user referred from your dApp to the <strong id="">Radix Wallet</strong>, the URL might look something like this:</li></ul><p id=""><a id="" href="https://wallet.radixdlt.com?dapp_referrer=account_rdx12xuhw6v30chdkhcu7qznz9vu926vxefr4h4tdvc0mdckg9rq4afx9t">https://wallet.radixdlt.com/?dapp_referrer=account_rdx12xuhw6v30chdkhcu7qznz9vu926vxefr4h4tdvc0mdckg9rq4afx9t</a>&nbsp;&nbsp;&nbsp;</p><ul id=""><li id="">Similarly, for <strong id="">RadQuest</strong>:</li></ul><p id=""><a id="" href="https://radquest.io?dapp_referrer=account_rdx12xuhw6v30chdkhcu7qznz9vu926vxefr4h4tdvc0mdckg9rq4afx9t">https://radquest.io/?dapp_referrer=account_rdx12xuhw6v30chdkhcu7qznz9vu926vxefr4h4tdvc0mdckg9rq4afx9t</a>&nbsp;&nbsp;</p><h3 id=""><strong id="">Conclusion</strong></h3><p id="">Integrating the <strong id="">dapp_referrer</strong> parameter is a straightforward way to enhance user experience and retention for dApps within the Radix Ecosystem.&nbsp;</p><p id="">→ <a id="" href="https://www.radixdlt.com/blog/radquest-redefining-web3-onboarding">To dive deeper into the RadQuest platform and its features, learn more about RadQuest here.</a></p><p id="">→ <a id="" href="https://wallet.radixdlt.com/">Download the Radix Wallet and join the web3 revolution!</a></p><p id="">→ Have questions or want to discuss further? Chat with us on <a id="" href="http://discord.gg/radixdlt"><strong id="">Discord</strong></a> and <a href="http://@radix_dlt"><strong id="">Telegram</strong></a> channels <a id="" href="https://t.me/radix_dlt">Radix DLT Official</a> and <a id="" href="https://t.me/RadixDevelopers">Radix Developer Discussion</a>.</p>
