@@ -108,14 +108,6 @@ export interface TaxonomyPost {
   categories: TopicRef[];
 }
 
-let blogBySlugPromise: Promise<Map<string, CmsItem>> | null = null;
-function blogBySlug(): Promise<Map<string, CmsItem>> {
-  if (!blogBySlugPromise) {
-    blogBySlugPromise = liveItems('blog').then((items) => new Map(items.map((i) => [i.fieldData.slug as string, i])));
-  }
-  return blogBySlugPromise;
-}
-
 let categoryBySlugPromise: Promise<Map<string, CmsItem>> | null = null;
 function categoryBySlug(): Promise<Map<string, CmsItem>> {
   if (!categoryBySlugPromise) {
@@ -141,9 +133,20 @@ export async function getTaxonomyPosts(
   currentCategorySlug?: string,
 ): Promise<TaxonomyPost[]> {
   const entry = detailLists(collection).pages?.[slug]?.['0'];
-  if (!entry || entry.empty || !entry.items?.length) return [];
-  const bySlug = await blogBySlug();
-  const posts = entry.items.map((s) => bySlug.get(s)).filter((i): i is CmsItem => !!i);
+  const term = (await liveItems(collection)).find((item) => item.fieldData.slug === slug);
+  if (!term) return [];
+
+  // The original Webflow captures are useful as evidence of the historical page
+  // shape, but a taxonomy page must also include posts added after that capture.
+  // Resolve the reverse relation from the live content data, in publication-date
+  // order, while retaining the recorded list length (100 for the long lists).
+  const matchesTerm = (post: CmsItem) => collection === 'blog-author'
+    ? post.fieldData['blog-author'] === term.id
+    : ((post.fieldData['blog-category'] as string[] | null) ?? []).includes(term.id);
+  const matchingPosts = (await liveItems('blog'))
+    .filter(matchesTerm)
+    .sort((a, b) => (Date.parse(b.fieldData.date as string) || 0) - (Date.parse(a.fieldData.date as string) || 0));
+  const posts = matchingPosts.slice(0, entry?.items?.length ?? matchingPosts.length);
   return Promise.all(
     posts.map(async (p) => {
       const categories = await getCategories(p);
