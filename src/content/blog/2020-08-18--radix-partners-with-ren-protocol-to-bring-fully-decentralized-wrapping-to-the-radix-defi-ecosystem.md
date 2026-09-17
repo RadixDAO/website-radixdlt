@@ -1,0 +1,26 @@
+---
+title: "Radix partners with Ren Protocol to bring fully decentralized wrapping to the Radix DeFi ecosystem."
+slug: "radix-partners-with-ren-protocol-to-bring-fully-decentralized-wrapping-to-the-radix-defi-ecosystem"
+date: "2020-08-18T00:00:00.000Z"
+author: "radix"
+categories:
+  - "community-ecosystem"
+excerpt: null
+seoDescription: "The Ren Protocol helps Radix move one step closer to enabling seamless bridges between the Ethereum, and Radix DeFi ecosystems."
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/629dc4ad09a2fd20bbd5d061_608bfcb1feebdb13f7a6ec1e_radix-ren-protocol-1024x512.jpeg"
+  alt: null
+video: null
+legacy:
+  id: "649aa8a9681ec6168a57dcec"
+  createdAt: "2021-04-27T08:17:26.910Z"
+  updatedAt: "2023-07-20T11:30:34.996Z"
+  publishedAt: "2023-07-24T09:21:21.692Z"
+---
+
+<p id="">We are thrilled to announce that we have joined the Ren Alliance alongside other major DeFi projects such as Aave, Kyber Network, DDai and others. By joining the Alliance we further our goal towards bringing a fully decentralized wrapping solution to Radix through RenVM. Ren is already providing proven wrapping services for Bitcoin, Bitcoin Cash and Zcash, forming a key enabling technology for the Ethereum DeFi ecosystem.</p><p id="">‍<a id="" href="https://renproject.io/">The Ren Protocol</a> allows native assets to be locked and corresponding “wrapped” tokens to be minted automatically on other public ledgers, without centralized counterparty risk. Ren’s vision is to become the inter-ledger settlement layer that all crypto assets can move seamlessly across, removing the need to trust custodians or other centralised points of failure.</p><blockquote id="">"We are thrilled to be starting the work of integrating RenVM into the Radix public network, providing another low-friction bridge into the Radix ecosystem. Today, there are over $250Bn of crypto assets, with most of them locked out of DeFi. Ren’s innovations allow us to start unlocking that value, while retaining the trustless and permissionless nature of the underlying assets. We’re very pleased to be working with them to bring these assets to the Radix ecosystem as well." - Piers Ridyard, CEO, Radix DLT.</blockquote><p id="">By integrating RenVM, the Ren Protocol helps Radix move one step closer to enabling seamless bridges between the Ethereum, and <a id="" href="https://www.radixdlt.com">Radix DeFi ecosystem</a>s, helping to fulfil our vision of reducing fees and increasing liquidity for both.</p>

@@ -141,8 +141,8 @@ export async function getTaxonomyPosts(
   // Resolve the reverse relation from the live content data, in publication-date
   // order, while retaining the recorded list length (100 for the long lists).
   const matchesTerm = (post: CmsItem) => collection === 'blog-author'
-    ? post.fieldData['blog-author'] === term.id
-    : ((post.fieldData['blog-category'] as string[] | null) ?? []).includes(term.id);
+    ? post.fieldData['blog-author'] === term.fieldData.slug
+    : ((post.fieldData['blog-category'] as string[] | null) ?? []).includes(term.fieldData.slug as string);
   const matchingPosts = (await liveItems('blog'))
     .filter(matchesTerm)
     .sort((a, b) => (Date.parse(b.fieldData.date as string) || 0) - (Date.parse(a.fieldData.date as string) || 0));

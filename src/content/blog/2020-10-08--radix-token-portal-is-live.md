@@ -1,0 +1,25 @@
+---
+title: "Radix Token Portal is Live"
+slug: "radix-token-portal-is-live"
+date: "2020-10-08T00:00:00.000Z"
+author: "radix-tokens-jersey"
+categories: []
+excerpt: null
+seoDescription: null
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/629dc4b5dc21ae5e8d2e4906_608990f38e076bf5f3c4cd37_The-Radix-Token-is-Sale-Portal-is-Now-live-1024x512.png"
+  alt: null
+video: null
+legacy:
+  id: "649aa8a9681ec6168a57dcde"
+  createdAt: "2021-04-27T08:17:39.699Z"
+  updatedAt: "2023-07-20T11:31:16.293Z"
+  publishedAt: "2023-07-24T09:21:21.692Z"
+---
+
+<p id="">This publication is made on behalf of Radix Tokens Jersey Limited, a company registered in Jersey with registration number 132555 and the expressions “Radix”, “RTJL”, “we”, “us”, “our” or “team” shall be construed accordingly.</p><h3 id="">It’s alive!! You can now officially purchase Radix Tokens via the official <a id="" href="https://radixtokens.com/">Token Sale Portal</a></h3><blockquote id=""><strong id="">THE RADIX TOKEN IS NOT LIVE ON UNISWAP OR ANY OTHER PLATFORMMake sure you register on the portal BEFORE you send funds. </strong></blockquote><p id="">Tokens will be allocated on a first-to-send-funds basis if you have registered on the portal.However, if you send funds, then register on the portal, we will take the time you log the transactions in your account (after you register) as the time that we received the funds.</p><blockquote id="">Never send funds to anyone who sends you an address on Telegram, or Twitter or Facebook or any other platform. <a id="" href="https://radixtokens.com/"><strong id="">The Radix Tokens Portal</strong></a><strong id=""> is the ONLY place you can buy tokens.</strong></blockquote><p id="">This is a journey that has been 7 years in the making.In late 2013, when Dan Hughes sat down at his computer and began coding, he certainly did not envision such a long runway into launch. </p><p id="">But his intense and constant desire to develop a true crypto platform that could handle unlimited use cases, which could scale with ease, and provide functionality and speed and that would incentivize developers to continually make it better, more active and robust, has all led up to today.Whether you choose to take part in the public sale or not, there is an open invitation for you to join and follow the project into the future. If you have not, take the time to <a id="" href="https://www.radixdlt.com/post/the-road-ahead-radix-key-milestones-and-deliverables/">look at the roadmap</a>. </p><p id="">‍</p><p id="">The sale is but one small page in a series of chapters that will turn over the next weeks and months to come.</p>

@@ -1,0 +1,27 @@
+---
+title: "Arculus® Partners With Radix To Support MFA "
+slug: "arculus-partners-with-radix-to-support-mfa"
+date: "2024-01-31T00:00:00.000Z"
+author: null
+categories:
+  - "product-roadmap"
+  - "crypto-defi"
+excerpt: null
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/65ba54e37fb5c396c7ce3776_image1.png"
+  alt: null
+video: null
+legacy:
+  id: "65ba54ff4a2c0a3707e1d682"
+  createdAt: "2024-01-31T14:11:11.223Z"
+  updatedAt: "2024-01-31T14:59:44.139Z"
+  publishedAt: "2024-01-31T16:53:08.826Z"
+---
+
+<p id="">Radix Publishing is pleased to announce that Arculus, a card-based crypto wallet solutions provider, will integrate with Radix. This integration will bring two exciting benefits to the Radix community: a highly convenient way of adding hardware-based security to the Radix Wallet’s coming multi-factor authentication (MFA) account control and an expansion of the reach of the XRD token with a new multi-network mobile wallet app option from Arculus.</p><p id="">Arculus cards deliver secure crypto “hardware wallet” transaction signing in a convenient credit card-size form factor. Each card includes a CCEAL 6+ secure element that can sign transactions using a private key that never leaves the card. The user only needs to quickly tap the card to their phone to sign - <em id="">one tap, total security</em>. The integration of Radix with Arculus will bring this powerful capability to the Radix Wallet, as well as bring existing Arculus card users to Radix. This will happen in two stages over the coming months.</p><h2 id=""><strong id="">XRD Listing in the Arculus Wallet App</strong></h2><p id="">First, Arculus will integrate support for the Radix Network and XRD token into their own existing mobile wallet app for iOS and Android.</p><p id="">The Arculus mobile wallet works with the Arculus card to deliver secure wallet control across multiple networks and tokens. By adding XRD support to the Arculus wallet app, Arculus’s existing base will instantly have a convenient way to hold XRD using their current Arculus cards. At the same time, the Radix Community will enjoy a great new option for holding their XRD alongside other tokens.</p><h2 id=""><strong id="">Multi-factor Arculus Card Use in the Radix Wallet</strong></h2><p id="">Second, the Radix Wallet mobile app will support the use of Arculus cold storage cards for use with DeFi and web3 dApps.</p><p id="">Work is underway to add powerful multi-factor support to the Radix Wallet using the Radix Network’s unique “smart account” features. The Arculus card will be a perfect companion to this system, providing a convenient and secure hardware-based signing “factor” for everyday users and professional traders.</p><p id="">Moving beyond typical crypto hardware wallet solutions where a recovery seed phrase must still be backed up, the Arculus card and Radix Wallet together can provide more flexible, usable professional-grade Radix account security. Users will be able to increase the security of their accounts by adding an Arculus card as a convenient additional signing factor that must be tapped for each transaction. Another option will be to use the Arculus card as a recovery factor, used only in case their phone is lost and enabling recovery of account control without a seed phrase.</p><p id="">Existing Arculus cards will work seamlessly with the Radix Wallet once support is added. However, true Radix fans may want to stay tuned for a limited edition Radix-branded Arculus card that’s on the way.</p><figure id="" class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1600px" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="1600px"><div id=""><img id="" alt="" src="/assets/65ba53d523afa6d05a937433_ndKdjY6p45XrTMhfJJD7-vQ9dY-iEJdZyf19NbnHI0qkrMeajYcV4lEh_-5zM9xQhRrbYQW_eotuPC43T5u-jZCvB08ZSOeFKauA-4JibSALyM-O9FK_YI2-mufsUPrN8T0lLy8w30Ic92Drmo3cBj8.png" width="auto" height="auto" loading="auto"></div></figure><h2 id=""><strong id="">About Arculus</strong></h2><p id="">Arculus is a revolutionary new cold storage wallet for securing your crypto and NFTs. Inspired by the ancient Roman god of safes and strongboxes, Arculus protects digital assets with a secure and convenient metal card and mobile app, ensuring only <em id="">you</em> control the private keys to your assets. Arculus Cold Storage works across exchanges, marketplaces, and platforms to bring convenience into the world of self-custody - sparking confidence, autonomy, and peace-of-mind as you navigate the ever-changing Web3 landscape.<br><br><a href="https://www.getarculus.com/">Website</a></p><p><a href="https://twitter.com/thisisarculus">X (Twitter)&nbsp;</a></p>

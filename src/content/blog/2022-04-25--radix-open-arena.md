@@ -1,0 +1,26 @@
+---
+title: "Radix Chess Club: Open Arena"
+slug: "radix-open-arena"
+date: "2022-04-25T00:00:00.000Z"
+author: "jacob-mcatamney"
+categories:
+  - "community-ecosystem"
+excerpt: null
+seoDescription: null
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/629dc4ad6c1714c02c229446_6266ffa481a7a1d3ad5d2e02_chess-competition.jpeg"
+  alt: null
+video: null
+legacy:
+  id: "649aa8a9681ec6168a57de02"
+  createdAt: "2022-04-25T20:10:47.515Z"
+  updatedAt: "2023-07-20T11:30:35.413Z"
+  publishedAt: "2023-07-24T09:21:21.692Z"
+---
+
+<p id="">While <a id="" href="https://www.radixdlt.com/post/radix-chess-club">our first community chess tournament</a> was a great success – it’s time to scale!</p><p id="">On the <strong id="">12th</strong> <strong id="">May 2022 at 18:00 UTC</strong>, the Radix Open Arena chess tournament will take place online, hosted on <a id="" href="https://lichess.org/team/radix-open-arena">lichess.org</a>. This tournament will be open to all, bridging the Radix community with the chess world. The time limit (TBC) will be 3min+0s/move, with Berserk enabled.</p><p id="">This is going to be intense!</p><p id=""><strong id="">The first prize for this tournament will be $500. </strong>There will be cash prizes for the first few places and for some lucky participants selected at random.</p><p id="">A few more things…</p><p id="">We will be joined by the reigning <strong id="">French Chess Champion, </strong><a id="" href="https://ratings.fide.com/profile/662399"><strong id="">Grandmaster Maxime Lagarde</strong></a>, who has agreed to play in our tournament!&nbsp;</p><p id="">Given the prize money, we can expect other world-class players to join too as the word spreads, and are targeting over 1000 participants. </p><p id="">Not only will the tournament attract some elite players, it will also be <strong id="">streamed live on Twitch and YouTube! </strong>Three strong players have already agreed to stream while participating in the event – in both English and French – with over 50k followers between them. We are hoping that more streamers will join us over the coming weeks.</p><p id="">Enticing prizes, high visibility, friendly competition: the Radix Open Arena will certainly be a tournament to remember.</p><p id="">More information soon… get practicing!</p><p id=""><strong id="">The Event‍</strong></p><p id="">Time: 19:00 BST/18:00 UTC</p><p id="">Date: 12th May 2022</p><p id="">Venue: Online at <a id="" href="https://lichess.org/team/radix-open-arena">Lichess.com</a></p><p id=""><strong id="">How to Register:</strong></p><ul id=""><li id="">Join the <a id="" href="https://t.me/+y1xbbAPr8WU4YWI0">Radix Chess Club Telegram</a></li><li id="">Register an account with Lichess.&nbsp;</li><li id="">Go to https://lichess.org/team/radix-open-arena</li><li id="">See full <a id="" href="/assets/62418b453eec2b7aab3822ee_Chess-Tournament-Terms-and-Conditions.pdf">Tournament Competition Terms and Conditions</a></li></ul><p id="">‍</p><p id=""><strong id="">Prizes:&nbsp;</strong></p><ul id=""><li id="">1st - $500 of XRD</li><li id="">2nd -$400 of XRD</li><li id="">3rd- $350</li><li id="">4th - $250</li><li id="">5th - $200</li><li id="">6th - $150</li><li id="">7th - $150</li><li id="">8th - $150</li><li id="">9th - $100</li><li id="">10th - $100</li><li id="">20 participants will be selected at random to receive $50 XRD</li></ul><p id="">‍</p>

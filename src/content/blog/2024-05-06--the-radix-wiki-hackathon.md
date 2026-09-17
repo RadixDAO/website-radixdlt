@@ -1,0 +1,26 @@
+---
+title: "Ecosystem Success: The Radix Wiki Hackathon"
+slug: "the-radix-wiki-hackathon"
+date: "2024-05-06T00:00:00.000Z"
+author: null
+categories:
+  - "community-ecosystem"
+excerpt: null
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/6638e6170d9f552c82268e19_Ecosystem-Success-Radix-wiki.png"
+  alt: null
+video: null
+legacy:
+  id: "6638e67ad0b4fc4f83c65a71"
+  createdAt: "2024-05-06T14:17:30.151Z"
+  updatedAt: "2024-05-09T12:08:31.239Z"
+  publishedAt: "2024-05-09T12:08:48.687Z"
+---
+
+<p id="">Hackathons are all about networking, innovation, and creativity, bringing together people from all walks of life with a shared mission. Recently, over 60 people—from seasoned full-stack developers to those just dipping their toes into crypto—converged at ArtSect in London, the heart of a vibrant <a id="" href="https://www.artsect.xyz/">Web3 art community</a> for the Radix Wiki Hackathon.&nbsp;</p><p id="">Their goal? To spread the word about Radix, turn some pretty cool ideas into reality using Scrypto, and do it all in just two days. This event truly showcased the smooth developer experience and the powerful capabilities of Scrypto as a programming language.</p><figure id="" class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1600px" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="1600px"><div id=""><img id="" alt="" src="/assets/6638e62c6b401df5e17dce8e_AMeqdvt-we9gkv2VMPcFZOqo2f1ZZa8nEFkDl68HxOX76wV0tGo8I0QUX-xr-DHuSTzV5zlAiPb9S-wwpf-UHhOqJQuQP_yEigHv7AWHvWjWUzfcV2A5pWsHLj5y6jzaHfqc5CvNGT35YUQWYbnnrHQ.png" width="auto" height="auto" loading="auto"></div></figure><blockquote id=""><em id="">“</em><strong id=""><em id="">The Scrypto effect is real. Nearly all of the developers commented on how quickly they were able to build, and a few - having never touched Scrypto before - were up to speed within a couple of hours.</em></strong><em id="">”&nbsp; </em>- <strong id="">The Radix Wiki Team.</strong></blockquote><p id="">The Radix Wiki Hackathon<strong id="">,</strong> wasn't just a gathering for Radix enthusiasts; it also attracted developers from other ecosystems, including Solana. The Radix Wiki team shared some insights from the event. One team member noted:</p><blockquote id=""><em id="">“</em><strong id=""><em id="">Beyond Bitcoin, the valence of networks and loyalty of participants is much weaker. Several participants wearing Solana t-shirts simultaneously said how difficult it is to develop on!</em></strong><em id="">”</em></blockquote><p id="">As Scrypto becomes more known for being easy to learn and less complex in its implementation and deployment than anything currently available, more people will be inclined to explore building on Radix.&nbsp;</p><p id="">Congratulations to the Radix Wiki team for a successful Hackathon. This event perfectly showcased the Radix community's collaborative spirit by bringing together a diverse group of developers to innovate using Scrypto. As the Radix community grows, each Hackathon will continue to show that Radix is a superior choice for both users and developers.&nbsp;</p><p id="">Hackathons like these continue to serve as a crucial first step in demonstrating to developers from various backgrounds that there are more accessible and efficient Web3 programming options available, showcasing Radix as a formidable alternative platform to competitors like Ethereum or Solana.</p><p id="">During the Hackathon, participants were divided into groups to develop their projects using Scrypto, resulting in seven submissions. Notable among these were Geochain, which uses Scrypto to track and manage shipments in real-time; TopScorer, a fitness app that allows friends to wager $XRD on physical activities, featuring real-time AI tracking and leaderboards; and InfiniX, which provides customizable loss limits, instant fund settlements, and parametric insurance integration for DeFi investments.</p><p id="">For a deeper dive into the Radix Wiki Hackathon, including detailed insights and outcomes from the event, be sure to <a id="" href="https://radix.wiki/blog/rgh2024-debrief">read their latest blog post</a>.</p><h3 id="">Useful Links</h3><p id=""><a id="" href="https://twitter.com/RadixWiki">Radix Wiki Twitter&nbsp;</a></p><p id=""><a id="" href="https://radix.wiki/">Radix Wiki Website</a></p>

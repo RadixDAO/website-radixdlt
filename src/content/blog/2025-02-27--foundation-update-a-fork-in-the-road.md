@@ -1,0 +1,27 @@
+---
+title: "Foundation Update: A Fork in the Road"
+slug: "foundation-update-a-fork-in-the-road"
+date: "2025-02-27T00:00:00.000Z"
+author: "dan-hughes"
+categories:
+  - "product-roadmap"
+  - "community-ecosystem"
+excerpt: "Change is coming to Radix. The Radix Foundation is taking development in-house and refocusing on what matters most: Hyperscale and DeFi growth."
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/67c08b8ae869c1e52ed6f220_Dan_Hughes-Its_Personal.png"
+  alt: null
+video: null
+legacy:
+  id: "67c08d8205824508830d09c3"
+  createdAt: "2025-02-27T16:06:26.760Z"
+  updatedAt: "2025-02-27T17:01:18.353Z"
+  publishedAt: "2025-03-18T16:56:40.558Z"
+---
+
+<p id="">Dear Radix Community,</p><p id="">Over the past few months, along with the Radix Foundation team, I’ve been carefully evaluating our approach to ensure the Radix ecosystem continues to move forward in a sustainable, focused, and ultimately successful way.&nbsp;</p><p id="">I know updates around this process have been less frequent than many would like, however, the discussions around potential routes forward have been sensitive. Today, we’re able to share some important updates.</p><h2 id=""><strong id="">A Fork in the Road: Parting Ways with RDX Works</strong></h2><p id="">After careful consideration, we’ve decided to end ongoing development work with RDX Works. This wasn’t an easy decision. </p><p id="">We will be adopting a leaner, more efficient approach at the Radix Foundation and part of that strategy is to move development in-house, at least for the medium-term.</p><p id="">This allows us to completely control the development path of features, be more agile, and reduce administrative overhead significantly.</p><p id="">We have also decided to pause MFA support in the Radix Wallet. Whilst it is possible to complete this piece of work, the timeline has consistently slipped due to its complexity, and current estimates are up to 6 months for the initial release at $500k+ of cost.</p><p id="">Perhaps more importantly, it more than doubles the wallet code base and increases the complexity dramatically. The overhead of maintaining this complex piece of engineering, which will not on its own significantly improve our position in market, is significant and it doesn't seem prudent to continue at this time given the criticality of other things.</p><p id="">There are things we should and would have delivered long before MFA had the timeline been clearer to me. I will reassess MFA and its completion once the benefit vs logistics of doing so is more aligned.</p><p id="">A core group of people from RDXW will move to the Foundation so we can ensure all key services are maintained and operational for the Radix ecosystem, while also exploring the features and improvements that matter most. Please rest assured that the Foundation is fully committed to maintaining:</p><ul id=""><li id="">The Radix Wallet and its core functionalities</li><li id="">The Gateway service and other auxiliary services needed by the ecosystem</li><li id="">Up-to-date documentation for developers and community members</li><li id="">Marketing, developer support, and ecosystem support that are essential to our continued growth</li></ul><p>‍</p><h2 id=""><strong id="">Priorities on the Road Ahead</strong></h2><p id="">The focus right now is on:</p><ol id=""><li id=""><strong id="">Delivering Hyperscale &amp; Xi’an: </strong>The broader roadmap remains the guiding star. Scaling to millions of swaps per second was the starting point for Radix, and with a pick-up in institutional and government belief in DeFi, it will be required for the success of crypto. With hyperscale, Radix is uniquely pushing the boundaries of what DeFi can achieve.</li><li id=""><strong id="">A Strong Foundation: </strong>Ensure that the transition of team members is smooth so that the bedrock of the Radix ecosystem remains reliable, and ecosystem projects are supported with minimal disruption. From there we will scale up further where required once our market position improves.&nbsp;</li><li id=""><strong id="">Wallet Features</strong>: Exploring highly requested items like dark mode, Radix Name Service integration, ecosystem links, and better on-/off-ramping.&nbsp;</li><li id=""><strong id="">Growing DeFi Incentives: </strong>In response to community input, we are actively evaluating new incentive campaigns aimed at rewarding on-chain DeFi activity. The goal is to attract new users, XRD holders, grow total value locked (TVL), and keep fueling use and innovation in the Radix ecosystem.</li></ol><p>‍</p><h2 id=""><strong id="">Building a Better Future</strong></h2><p id="">By consolidating critical functions under the Foundation’s umbrella, we are better positioned to deliver the stability and growth Radix, the ecosystem, and community deserve.</p><p id="">Our journey so far hasn’t been perfect. But I’m also more confident than ever that with the right priorities, the right people, and your continued support, Radix will emerge strong! We’re taking bold steps to correct our path, and I’m hoping you will stay by our side as we write the next chapter together.</p><p id=""><strong id="">Onward and Upward,<br></strong><em id="">Dan, on behalf of the Radix Foundation</em></p>

@@ -51,6 +51,30 @@ an Astro scope attribute (`data-astro-cid`) or an Astro-generated stylesheet
 (`dist/_astro/*.css`). It runs in CI. If you add a new inline `<style>` or `<script>`
 inside a component, mark it `is:inline`.
 
+## Blog authoring
+
+Blog posts live in `src/content/blog/` and use date-prefixed filenames such as
+`2026-09-17--public-incident-report.md`. With the directory sorted by filename in
+ascending order, the newest posts are at the bottom. Editors choose this filename
+manually. For multiple posts on one date, an optional sequence such as
+`2026-09-17-02--another-post.md` may be used.
+
+The public URL comes from the explicit `slug` frontmatter field, not the filename,
+so manually renaming or reordering a file cannot accidentally change its URL. The
+remaining frontmatter contains the title, publication date, author/category slugs,
+listing and SEO text, media, and publication flags. Astro validates these fields
+against the `blog` schema in `src/content.config.ts` during the build.
+
+The body may contain ordinary Markdown, raw HTML, or both. Posts migrated from
+Webflow use `bodyFormat: "html"`, which injects their body without parsing so the
+original markup remains exact. New posts should use `bodyFormat: "markdown"`; raw
+HTML is still allowed within those posts for structures or embeds Markdown cannot
+express. When mixing formats, put a blank line between a raw HTML block and the next
+Markdown block.
+
+`legacy` frontmatter records preserve historical IDs and timestamps needed for stable
+RSS ordering and migration traceability. Editors normally should not change them.
+
 ## Deployment
 
 ```bash

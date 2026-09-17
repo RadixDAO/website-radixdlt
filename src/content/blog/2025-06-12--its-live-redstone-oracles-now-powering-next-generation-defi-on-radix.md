@@ -1,0 +1,27 @@
+---
+title: "It's Live! RedStone Oracles Now Powering Next-Generation DeFi on Radix "
+slug: "its-live-redstone-oracles-now-powering-next-generation-defi-on-radix"
+date: "2025-06-12T00:00:00.000Z"
+author: "radix"
+categories:
+  - "crypto-defi"
+  - "community-ecosystem"
+excerpt: "‍TL;DR RedStone oracles are officially live on Radix with 1,200+ price feeds ready for immediate usePull oracle model means developers only pay for data when needed, dramatically reducing costs vs. traditional push oraclesBattle-tested infrastructure already securing $6.6B+ across 100+ DeFi platforms like Morpho, Venus, and Pendle‍"
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/684ae9d9f9cf5f22a9e070d6_redstone-blog-new.png"
+  alt: null
+video: null
+legacy:
+  id: "684aea4bb182475e8c7bb0c7"
+  createdAt: "2025-06-12T14:55:07.263Z"
+  updatedAt: "2025-06-13T16:14:44.583Z"
+  publishedAt: "2025-07-04T17:18:38.178Z"
+---
+
+<h3 id=""><strong id="">‍TL;DR</strong></h3><ul id=""><li id=""><strong id="">RedStone oracles are officially live on Radix</strong> with 1,200+ price feeds ready for immediate use</li><li id=""><strong id="">Pull oracle model</strong> means developers only pay for data when needed, dramatically reducing costs vs. traditional push oracles</li><li id=""><strong id="">Battle-tested infrastructure</strong> already securing $6.6B+ across 100+ DeFi platforms like Morpho, Venus, and Pendle</li></ul><p id="">‍</p><h3 id="">RedStone oracles are now fully integrated and live on the Radix network!</h3><p id=""><strong id="">RedStone oracles are now fully integrated and live on the Radix network</strong>, bringing institutional-grade price feeds to one of crypto's most developer-friendly ecosystems. RedStone is one of the fastest-growing oracle services in DeFi and already secures over $6.6 billion of value across 100+ DeFi platforms like Morpho, Venus, Pendle, and Etherfi.&nbsp;</p><p id="">Now, this battle-tested infrastructure is live on Radix, meaning developers will be able to access over 1,200 price feeds using the pull oracle model from RedStone, unlocking the ability to create more sophisticated DeFi applications in the ecosystem.</p><h3 id="">The Pull Oracle Advantage</h3><p id="">Traditional oracles operate on a "push" model, constantly updating prices whether anyone needs them or not. It's like having a newspaper delivered every hour, even when you're not home to read it.</p><p id="">RedStone's pull oracle model flips this on its head. Data is fetched on demand, meaning developers only request and pay for information when their smart contracts need it. The result? Dramatically lower operational costs and capital efficiency that make sophisticated DeFi applications economically viable.</p><p id="">For Radix developers, this means you can build complex applications without worrying about Oracle costs eating into your protocol's sustainability.</p><h3 id="">What this unlocks for Radix developers&nbsp;</h3><p id="">With RedStone's oracles now active, Radix developers using Scrypto can:</p><ol id=""><li id=""><strong id="">Advanced Lending &amp; Borrowing Platforms:</strong> Build sophisticated protocols with accurate, real-time collateral valuations across a vast array of assets. Whether you're creating the next generation of money markets or innovative liquidation mechanisms, RedStone provides the price precision you need.</li><li id=""><strong id="">Next-Gen Stablecoins:</strong> Develop algorithmic stablecoins, synthetic assets, or multi-collateral systems with confidence in your underlying price data. RedStone's proven track record means your stability mechanisms can rely on accurate, tamper-resistant feeds.</li><li id=""><strong id="">Derivatives &amp; Structured Products:</strong> Create options, futures, perpetuals, or exotic derivatives with the price accuracy that sophisticated traders demand. RedStone's extensive asset coverage means you're not limited to just the top 10 cryptocurrencies.</li><li id=""><strong id="">DeFi Insurance &amp; Risk Management:</strong> Build protocols that can accurately assess and price risk across the entire crypto ecosystem. With access to reliable price history and real-time data, you can create insurance products that actually work.</li><li id=""><strong id="">Innovative Yield Strategies:</strong> Develop dynamic yield farming, auto-compounding, or cross-asset strategies that respond to market conditions in real-time.</li></ol><h3 id="">Get started with RedStone on Radix today!</h3><p id="">The power of RedStone's oracles is now at your fingertips. Radix developers can begin integrating these crucial data feeds into their Scrypto-based smart contracts immediately.</p><ul id=""><li id=""><strong id="">Explore supported price feeds on Radix: </strong><a id="" href="https://app.redstone.finance/app/tokens/">https://app.redstone.finance/app/tokens/</a>&nbsp;</li><li id=""><strong id="">Dive into the RedStone documentation:</strong> <a id="" href="https://docs.redstone.finance/docs/introduction">https://docs.redstone.finance/docs/introduction</a>&nbsp;</li><li id=""><strong id="">Visit the RedStone website:</strong> <a id="" href="https://www.redstone.finance/">https://www.redstone.finance/</a>&nbsp;</li><li id=""><strong id="">Follow RedStone on X (formerly Twitter) for updates: </strong><a id="" href="https://x.com/redstone_defi">https://x.com/redstone_defi</a>&nbsp;</li></ul><p>‍</p><p id="">Let the building begin!</p><p id="">‍</p>

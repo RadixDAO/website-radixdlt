@@ -1,0 +1,25 @@
+---
+title: "Object Computing and Noether DLT Develop Ethereum-based Smart Contract Platform for the Radix Ledger"
+slug: "object-computing-and-noether-dlt-develop-ethereum-based-smart-contract-platform-for-the-radix-ledger"
+date: "2020-08-24T00:00:00.000Z"
+author: "rdx-works"
+categories: []
+excerpt: null
+seoDescription: "Radix DLT announce a partnership with Object Computing and Noether DLT to develop an Ethereum-based smart contract platform for the Radix ledger."
+featured: false
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/629dc4a97c7faf77c7cfad89_608bfbc123863d3343a107ce_radix-oci-partnership-1024x512.png"
+  alt: null
+video: null
+legacy:
+  id: "649aa8a9681ec6168a57dcea"
+  createdAt: "2021-04-27T08:17:32.864Z"
+  updatedAt: "2023-07-20T11:31:14.314Z"
+  publishedAt: "2023-07-24T09:21:21.692Z"
+---
+
+<p id=""><strong id="">(London, UK)August 13, 2020:Radix DLT</strong> today announced a partnership with Object Computing and Noether DLT to develop an Ethereum-based smart contract platform for the Radix ledger. This system will allow Ethereum DApps to migrate to the Radix ecosystem with minimal effort, giving them the versatility of Ethereum smart contracts at the speed of Radix. Object Computing also has plans for additional enterprise features, such as private transactions and virtual hardware security modules.</p><p id="">Object Computing has a proven track record of developing successful blockchain solutions, providing blockchain consultation and custom smart contract development for enterprise customers using the popular Ethereum and EOSIO ledgers, among others.</p><p id="">Object Computing will also support onboarding new businesses and decentralized applications into the Radix ecosystem and develop enterprise-centric features for the Radix ledger software. Members of the Object Computing team were among the first to recognize the potential of the unique distributed ledger protocol that Radix has developed to bring global scale to blockchain. As Radix builds toward the launch of its public network, Object Computing will be a valuable ally to provide professional development services for applications using Radix technology.</p><h4 id="">Piers Ridyard (Radix):</h4><p id="">Working with Noether and Object Computing to bring the tremendous body of existing Ethereum smart contract code to the Radix ledger is extremely exciting. We look forward to enthusiastically supporting the customer deployments Object Computing has lined up for an Ethereum/Radix solution. Noether’s commitment to decentralizing and open sourcing their platform for the benefit of the Radix public network will be a huge boost for the Radix community, and makes it all the easier to bring existing Decentralized Finance developers to our purpose-built DeFi platform.</p><h4 id="">Brendan Laiben (Noether):</h4><p id="">Being able to bring an ecosystem as expansive and powerful as Ethereum to Radix is really a dream come true. This is an advancement not just for Radix, but for the entire decentralized ledger community. Beyond the baseline features of vanilla Ethereum, the Noether architecture is able to support native privacy features and cross-platform communication. This unique feature set on top of Ethereum and Radix opens the doors to a whole new set of business models and lowers the barriers to entry for new crypto-enthusiasts. We expect to see some very interesting applications come out of our internal developers as well as the community at large.</p><h4 id="">Ciju John: (Object Computing):</h4><p id="">It isn’t every day that we get to work with software as exciting and on the technological forefront as Radix and Noether. It’s a credit to the skills, knowledge, and general expertise of our engineering teams that they were able to identify all the different parts that needed to be brought together and then integrate them piece by piece to build a Proof of Concept in a relatively short time frame.</p><p id="">‍<strong id="">Object Computing:</strong> Object Computing is a modern consulting company that takes businesses from insights to outcomes using breakthrough technology. Their technology team has unmatched expertise in designing and building solutions using technologies like Machine Learning, Blockchain, the Internet of Things, and Cloud. </p><p id="">As one of the original pioneers of enterprise open source solutions, the Object Computing team continues to create impactful digital capabilities for clients by leveraging best-in-class open source technologies that allow for extensibility, reusability, security, and quality.</p><p id="">‍<strong id="">Noether:</strong> Noether DLT is a software startup whose platform provides an extensible layer for Ethereum, EOS, and other smart contract systems to run on Radix.</p><p id="">‍<strong id="">Radix:</strong><a id="" href="https://www.radixdlt.com">Radix DLT</a> is building a decentralised finance protocol that provides frictionless access, liquidity and programmability of any asset in the world.</p>

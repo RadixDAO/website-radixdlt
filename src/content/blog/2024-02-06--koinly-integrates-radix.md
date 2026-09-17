@@ -1,0 +1,27 @@
+---
+title: "Koinly Integrates Radix"
+slug: "koinly-integrates-radix"
+date: "2024-02-06T00:00:00.000Z"
+author: "rdx-works"
+categories:
+  - "crypto-defi"
+  - "product-roadmap"
+excerpt: null
+seoDescription: null
+featured: true
+showToc: false
+archived: false
+draft: false
+bodyFormat: "html"
+image:
+  src: "/assets/65c241cc521e2e1e2b320de0_image1.png"
+  alt: null
+video: null
+legacy:
+  id: "65c24248de858cefd90fa96e"
+  createdAt: "2024-02-06T14:29:28.005Z"
+  updatedAt: "2024-02-06T14:55:13.194Z"
+  publishedAt: "2024-02-07T17:38:25.111Z"
+---
+
+<p id="">With the Radix Ecosystem filled with a growing number of exciting DeFi opportunities, many users are probably racking up rows upon rows in spreadsheets trying to keep track of their activities for tax purposes. If you’re one of those people, today is a good day, as Koinly has added support for Radix in their crypto-tax software!</p><p id="">Koinly is an industry-leading cryptocurrency tax calculator trusted by over 1 Million users in 20+ countries. It has integrated 750+ exchanges, blockchains, wallets, and over 23,000 individual cryptocurrencies, making tracking your transactions and calculating your taxes easy. With their new Radix integration, Koinly makes your tax returns as smooth and efficient as possible.</p><h2 id=""><strong id="">What does this integration mean for Radix?</strong></h2><p id="">Filing crypto taxes can often be a complex and daunting task, but the process just got significantly simpler for Radix users. With the new Koinly integration, users can now effortlessly track their transactions and generate accurate tax reports.&nbsp;</p><p id="">This collaboration ensures that staying compliant with tax obligations is no longer a hurdle but a streamlined, user-friendly experience. Something that will be essential for the Radix DeFi ecosystem to gain further adoption.</p><p id="">Here is an overview of the features offered by Koinly:</p><p id=""><strong id="">Portfolio Tracking:</strong> Monitor total holdings and growth over time with insights into tax liabilities, actual ROI, income from crypto activities, and profit/loss calculations.</p><p id=""><strong id="">Data Import:</strong> Centralize transactions from various accounts and wallets with automated data import, support for margin and futures trading, staking, lending, DeFi activities, and AI-powered smart transfer matching.</p><p id=""><strong id="">Wide Coverage:</strong> Supports over 23,000+ cryptocurrencies, historical price data, 170+ blockchains, 400+ exchanges, 100+ wallets, and 30+ financial services.</p><p id=""><strong id="">Crypto Tax Reports:</strong> Generate reliable tax reports, including IRS Form 8949 &amp; Schedule D, ATO myTax Report, and other international tax forms, as well as supporting export to major tax software like TurboTax and TaxAct.</p><p id=""><strong id="">Error Reconciliation:</strong> Identify and fix transaction issues using a double-entry ledger system, with features for highlighting missing transactions, verifying auto-imports, and handling duplicates.</p><p id="">These features are designed to simplify the process of crypto tax calculation, ensuring accuracy and compliance with various international tax laws.</p><h2 id=""><strong id="">How to get started:</strong></h2><p id="">There are two ways you can get started on Koinly.&nbsp;</p><p id=""><strong id="">API connection: </strong>The API connection is straightforward. It simplifies syncing your Radix transactions with Koinly, ensuring that your tax reports are accurate and up to date. This secure method means Koinly can only read your transaction data without making any changes. All you need to do is add your public address to Koinly.</p><p id=""><strong id="">CSV connection:</strong> For users with Olympia transactions (earlier than Sept 28, 2023), you can export a CSV file of your transactions from the Olympia blockchain explorer and upload this file to Koinly to import your transaction history. If you need help remembering your Olympia address - don't panic, we've got a <a id="" href="https://www.youtube.com/watch?v=pKuoRO-6DBs">step-by-step guide</a> to help you figure it out.<a id="" href="https://koinly.io/integrations/radix/">&nbsp;</a></p><p id="">Koinly's Radix integration is a big step forward in making crypto taxes less of a hassle. It's not just about making tax season less stressful; it's about making crypto finances easier to manage for everyone.</p><p id="">Want to sign up for Koinly? Radix users receive an exclusive 30% discount on all Koinly plans with the code: “<em id="">RADIX24</em>”.</p><p id=""><em id="">Get 30% off your first Koinly tax report by using the code above at checkout at Koinly.io. Koinly reserves the right to end the offer at any time. This offer cannot be used in conjunction with any other offer. Offer valid until 31st May 2024. One use per customer. New Customers Only. Excludes Koinly CPA and B2B customers.</em></p><p id=""><a id="" href="https://koinly.io/contact/">Koinly Support&nbsp;</a></p><p id=""><a id="" href="https://koinly.io/integrations/">Check integrations</a></p><p id=""><a id="" href="https://koinly.io/">Koinly Website</a></p><p id=""><a href="https://twitter.com/koinlyofficial">X (Twitter)</a></p>
