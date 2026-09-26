@@ -39,4 +39,29 @@ function canonicalBlock(name: string): string {
 
 const html = variant ? markCurrent(canonicalBlock(variant), currentPath) : '';
 ---
+{html && (
+  <div class="dao-vote-strip">
+    <div class="dao-vote-inner">
+      <span class="dao-vote-tag">Vote open</span>
+      <p>The Radix DAO formation vote is live. Have your say on forming the DAO.</p>
+      <a href="https://vote.radixdao.org/proposal/0">Cast your vote <span aria-hidden="true">&rsaquo;</span></a>
+    </div>
+  </div>
+)}
 {html && <Fragment set:html={html} />}
+
+<style>
+  /* Mirrors the status strip on radixdao.org (accent + accent-soft there). */
+  .dao-vote-strip { background: #fbeaf4; border-bottom: 1px solid #f0d3e4; color: #0a1226; }
+  .dao-vote-inner {
+    max-width: 1200px; margin: 0 auto; padding: 10px 24px;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px;
+    font-size: 13.5px; line-height: 1.4;
+  }
+  .dao-vote-inner p { margin: 0; }
+  .dao-vote-tag {
+    background: #a80c7c; color: #fff; border-radius: 3px; padding: 3px 8px;
+    font-size: 11px; font-weight: 500; letter-spacing: 0.09em; text-transform: uppercase;
+  }
+  .dao-vote-inner a { margin-left: auto; color: #a80c7c; font-weight: 500; white-space: nowrap; }
+</style>
